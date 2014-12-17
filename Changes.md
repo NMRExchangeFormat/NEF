@@ -9,9 +9,9 @@ Change log
 
   The RCSB variant codes consist of three parts, connected by underscores:
 
-  2.1 The amino acid three-letter code
+  - The amino acid three-letter code
 
-  2.2 the backbone linking, with twelve alternatives:
+  - the backbone linking, with twelve alternatives:
     * 'LL' : L-amino acid, middle position
     * 'LSN3' : L-amino acid, N-terminal -NH3+
     * 'LEO2' : L-amino acid, C-terminal COO-
@@ -21,10 +21,10 @@ Change log
 
     And six equivalent forms starting with 'D' for D-amino acids.
 
- 2.3 The side chain protonation state.
+  - The side chain protonation state.
 
    The default is the fully protonated form (no third field).
-      
+
    A missing proton is indicated by DHxy, where Hxy is the proton name.
 
       For NEF the standard forms are with charged Glutamate, Aspartate, Lysine,
@@ -35,15 +35,15 @@ Change log
       neutral Lysine, and O-linked (or deprotonated) Serine, Threonine, or
       Tyrosine.  These are the codes that programs should consider using.
       You would also want to indicate cis-Proline, but there are no RCSB codes
-      for that situation (as far as we could tell), so we invented them (John 
+      for that situation (as far as we could tell), so we invented them (John
       Westbrook!?).
 
       The more common variant codes are given in the table below. I have omitted
       free amino acid forms and side chain deprotonated ARG and TRP.
-      Non-standard variant codes that should be used where relevant, are enclosed in '\*\*'. 
+      Non-standard variant codes that should be used where relevant, are enclosed in '\*\*'.
       In all other cases, the short three-letter residue-type will suffice.
 
-
+      ```
       **Table 1:** *PDB amino-acids variant codes (sorted)*
     Description               Residue-type    Middle      N-terminal-NH3+   C-terminal COO-   C-terminal COOH
     Alanine                     ALA           ALA_LL        ALA_LSN3          ALA_LEO2              ALA_LEO2H
@@ -76,22 +76,26 @@ Change log
     Tyrosine                    TYR           TYR_LL        TYR_LSN3          TYR_LEO2          TYR_LEO2H
     O-linked or O- Tyrosine     TYR          *TYR_LL_DHH*  *TYR_LSN3_DHH*    *TYR_LEO2_DHH      TYR_LEO2H_DHH
     Valine                      VAL           VAL_LL        VAL_LSN3          VAL_LEO2          VAL_LEO2H
-    
+    ```
 
-
-    3. Indirect magnetisation transfer
+3. Indirect magnetisation transfer
 
       We have added a new tag to the spectrum_dimension_transfer loop, so that it becomes e.g.
+
+      ```
       loop_
-        _nef_spectrum_dimension_transfer.dimension_1 
-        _nef_spectrum_dimension_transfer.dimension_2 
+        _nef_spectrum_dimension_transfer.dimension_1
+        _nef_spectrum_dimension_transfer.dimension_2
         _nef_spectrum_dimension_transfer.transfer_type
         _nef_spectrum_dimension_transfer.is_indirect
 
         1 3 through-space  true
         2 3 onebond  false
       stop_
-  
-    The is_indirect tag would be used for transfers that are relayed through other nuclei. The relevant cases are 
+      ```
+
+    The is_indirect tag would be used for transfers that are relayed through other nuclei. The relevant cases are
     the ChhC NOESY (used in solid state NMR) or 3D CCH HSQC-NOESY-HSQC, where the transfer being measured is a
     proton-proton NOESY, but the nucleus observed is actually carbon.
+
+4. We have added a proposal for representing tensors (for use in e.g. RDC restraint lists), including a format for the tensor value, and a system of dummy residues to hold the tensor orientation. Please see the Questions document for details

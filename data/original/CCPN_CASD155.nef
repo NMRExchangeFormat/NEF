@@ -1,6 +1,6 @@
 data_2l9r_Paris_155-2l9r_Org-1
 
-save_nmr_meta_data
+save_nef_nmr_meta_data
    _nef_nmr_meta_data.sf_category           nef_nmr_meta_data
    _nef_nmr_meta_data.sf_framecode          nef_nmr_meta_data
    _nef_nmr_meta_data.format_name           nmr_exchange_format
@@ -34,7 +34,7 @@ something, then say
 
 save_
 
-save_molecular_system
+save_nef_molecular_system
    _nef_molecular_system.sf_category   nef_molecular_system
    _nef_molecular_system.sf_framecode  nef_molecular_system
 
@@ -74,7 +74,13 @@ save_molecular_system
      A   26   GLN   .      .       .       
      A   27   LYS   .      .       .       
      A   28   TYR   .      .       .       
-     A   29   LEU   .      .       .       
+     A   29   LEU   .      .       .       # Manual comment: following values are a proposal only (for discussion) on representing orientation tensors
+   _nef_rdc_restraint_list.tensor_magnitude      11.0000  
+   _nef_rdc_restraint_list.tensor_rhombicity     0.0670
+   _nef_rdc_restraint_list.tensor_chain_code     A
+   _nef_rdc_restraint_list.tensor_sequence_code    900
+   _nef_rdc_restraint_list.tensor_residue_type     TENSOR
+
      A   30   SER   .      .       .       
      A   31   ALA   .      .       .       
      A   32   PRO   .      .       .       
@@ -115,15 +121,15 @@ save_molecular_system
      A   67   GLU   .      .       .       
      A   68   LEU   .      .       .       
      A   69   GLY   .      end     .       
- # Manual comment: Two pseudo-residues (tensor origin) added. Proposal: Three-letter-code still under discussion
-     A  900   ORI   .      .       .    
-     A  901   ORI   .      .       .
+ # Manual comment: Two pseudo-residues (tensor origin) added. Proposal.
+     A  900   TENSOR   .      .       .    
+     A  901   TENSOR   .      .       .
    stop_
 save_
 
 save_chemical_shift_list_1
    _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
-   _nef_chemical_shift_list.sf_framecode               nef_chemical_shift_list_1
+   _nef_chemical_shift_list.sf_framecode               chemical_shift_list_1
    _nef_chemical_shift_list.atom_chemical_shift_units  ppm
 
    loop_
@@ -871,7 +877,7 @@ save_
 
 save_distance_restraint_list_1
    _nef_distance_restraint_list.sf_category     nef_distance_restraint_list
-   _nef_distance_restraint_list.sf_framecode    nef_distance_restraint_list_1
+   _nef_distance_restraint_list.sf_framecode    distance_restraint_list_1
    _nef_distance_restraint_list.potential_type  square-well-parabolic
 
    loop_
@@ -3006,7 +3012,7 @@ save_
 
 save_distance_restraint_list_5
    _nef_distance_restraint_list.sf_category     nef_distance_restraint_list
-   _nef_distance_restraint_list.sf_framecode    nef_distance_restraint_list_5
+   _nef_distance_restraint_list.sf_framecode    distance_restraint_list_5
    _nef_distance_restraint_list.potential_type  square-well-parabolic
 
    loop_
@@ -4503,14 +4509,14 @@ save_
 
 save_rdc_restraint_list_3
    _nef_rdc_restraint_list.sf_category     nef_rdc_restraint_list
-   _nef_rdc_restraint_list.sf_framecode    nef_rdc_restraint_list_3
+   _nef_rdc_restraint_list.sf_framecode    rdc_restraint_list_3
    _nef_rdc_restraint_list.potential_type  parabolic
 # Manual comment: following values are a proposal only (for discussion) on representing orientation tensors
    _nef_rdc_restraint_list.tensor_magnitude		   11.0000	
    _nef_rdc_restraint_list.tensor_rhombicity	   0.0670
    _nef_rdc_restraint_list.tensor_chain_code	   A
    _nef_rdc_restraint_list.tensor_sequence_code	   900
-   _nef_rdc_restraint_list.tensor_residue_type	   ORI
+   _nef_rdc_restraint_list.tensor_residue_type	   TENSOR
 
 
    loop_
@@ -4572,14 +4578,14 @@ save_
 
 save_rdc_restraint_list_4
    _nef_rdc_restraint_list.sf_category     nef_rdc_restraint_list
-   _nef_rdc_restraint_list.sf_framecode    nef_rdc_restraint_list_4
+   _nef_rdc_restraint_list.sf_framecode    rdc_restraint_list_4
    _nef_rdc_restraint_list.potential_type  parabolic
 # Manual comment: following values are a proposal only (for discussion) on representing orientation tensors
    _nef_rdc_restraint_list.tensor_magnitude		   13.0000	
    _nef_rdc_restraint_list.tensor_rhombicity	   0.0715
    _nef_rdc_restraint_list.tensor_chain_code	   A
    _nef_rdc_restraint_list.tensor_sequence_code	   901
-   _nef_rdc_restraint_list.tensor_residue_type	   ORI
+   _nef_rdc_restraint_list.tensor_residue_type	   TENSOR
 
    loop_
       _nef_rdc_restraint.restraint_id
@@ -4641,7 +4647,7 @@ save_
 
 save_dihedral_restraint_list_2
    _nef_dihedral_restraint_list.sf_category     nef_dihedral_restraint_list
-   _nef_dihedral_restraint_list.sf_framecode    nef_dihedral_restraint_list_2
+   _nef_dihedral_restraint_list.sf_framecode    dihedral_restraint_list_2
    _nef_dihedral_restraint_list.potential_type  square-well-parabolic
 
    loop_
@@ -4766,9 +4772,9 @@ save_
 
 save_nmr_spectrum_H_H[N].through-space_1_1
    _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
-   _nef_nmr_spectrum.sf_framecode               nef_nmr_spectrum_H_H[N].through-space_1_1
+   _nef_nmr_spectrum.sf_framecode               nmr_spectrum_H_H[N].through-space_1_1
    _nef_nmr_spectrum.num_dimensions             3
-   _nef_nmr_spectrum.chemical_shift_list        $nef_chemical_shift_list_1
+   _nef_nmr_spectrum.chemical_shift_list        $chemical_shift_list_1
    _nef_nmr_spectrum.experiment_classification  H_H[N].through-space
    _nef_nmr_spectrum.expriment_type             '15N NOESY-HSQC'
 
@@ -5818,9 +5824,9 @@ save_
 
 save_nmr_spectrum_H_H[C].through-space_1_1
    _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
-   _nef_nmr_spectrum.sf_framecode               nef_nmr_spectrum_H_H[C].through-space_1_1
+   _nef_nmr_spectrum.sf_framecode               nmr_spectrum_H_H[C].through-space_1_1
    _nef_nmr_spectrum.num_dimensions             3
-   _nef_nmr_spectrum.chemical_shift_list        $nef_chemical_shift_list_1
+   _nef_nmr_spectrum.chemical_shift_list        $chemical_shift_list_1
    _nef_nmr_spectrum.experiment_classification  H_H[C].through-space
    _nef_nmr_spectrum.expriment_type             '13C NOESY-HSQC'
 
@@ -8983,9 +8989,9 @@ save_
 
 save_nmr_spectrum_H_H[C].through-space_1_1
    _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
-   _nef_nmr_spectrum.sf_framecode               nef_nmr_spectrum_H_H[C].through-space_1_1
+   _nef_nmr_spectrum.sf_framecode               nmr_spectrum_H_H[C].through-space_1_1
    _nef_nmr_spectrum.num_dimensions             3
-   _nef_nmr_spectrum.chemical_shift_list        $nef_chemical_shift_list_1
+   _nef_nmr_spectrum.chemical_shift_list        $chemical_shift_list_1
    _nef_nmr_spectrum.experiment_classification  H_H[C].through-space
    _nef_nmr_spectrum.expriment_type             '13C NOESY-HSQC'
 
@@ -9212,7 +9218,7 @@ save_nmr_spectrum_H_H[C].through-space_1_1
    stop_
 save_
 
-save_peak_restraint_links
+save_nef_peak_restraint_links
    _nef_peak_restraint_links.sf_category   nef_peak_restraint_links
    _nef_peak_restraint_links.sf_framecode  nef_peak_restraint_links
 save_
