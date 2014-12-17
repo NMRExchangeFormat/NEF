@@ -74,13 +74,7 @@ save_nef_molecular_system
      A   26   GLN   .      .       .       
      A   27   LYS   .      .       .       
      A   28   TYR   .      .       .       
-     A   29   LEU   .      .       .       # Manual comment: following values are a proposal only (for discussion) on representing orientation tensors
-   _nef_rdc_restraint_list.tensor_magnitude      11.0000  
-   _nef_rdc_restraint_list.tensor_rhombicity     0.0670
-   _nef_rdc_restraint_list.tensor_chain_code     A
-   _nef_rdc_restraint_list.tensor_sequence_code    900
-   _nef_rdc_restraint_list.tensor_residue_type     TENSOR
-
+     A   29   LEU   .      .       .      
      A   30   SER   .      .       .       
      A   31   ALA   .      .       .       
      A   32   PRO   .      .       .       
