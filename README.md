@@ -12,3 +12,4 @@ For input/output test we use the naming convention that a program that reads a f
 
 For the top-level files, `LICENSE` contains the license for the NEF files (we propose GNU LGPL v. 3), `Charter.md` is the (proposed) charter and founding document for the NEF consortium, `Questions.md` contains a list of outstanding problems and topics for discussion, and `Changes.md` is a change log.
 `
+Edited by gwv
