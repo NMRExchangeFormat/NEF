@@ -8981,7 +8981,7 @@ save_nmr_spectrum_H_H[C].through-space_1_1
    stop_
 save_
 
-save_nmr_spectrum_H_H[C].through-space_1_1
+save_nmr_spectrum_H_H[C].through-space_1_2
    _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
    _nef_nmr_spectrum.sf_framecode               nmr_spectrum_H_H[C].through-space_1_1
    _nef_nmr_spectrum.num_dimensions             3
