@@ -1,8 +1,8 @@
 data_H1GI
 
 save_nef_nmr_meta_data
-   _nef_nmr_meta_data.sf_category           nmr_meta_data
-   _nef_nmr_meta_data.sf_framecode          nmr_meta_data
+   _nef_nmr_meta_data.sf_category           nef_nmr_meta_data
+   _nef_nmr_meta_data.sf_framecode          nef_nmr_meta_data
    _nef_nmr_meta_data.format_name           nmr_exchange_format
    _nef_nmr_meta_data.format_version        0.7
    _nef_nmr_meta_data.program_name          CCPN
