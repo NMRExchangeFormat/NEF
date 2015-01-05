@@ -1,8 +1,8 @@
 data_2lci_Piscataway_179
 
 save_nef_nmr_meta_data
-   _nef_nmr_meta_data.sf_category           nmr_meta_data
-   _nef_nmr_meta_data.sf_framecode          nmr_meta_data
+   _nef_nmr_meta_data.sf_category           nef_nmr_meta_data
+   _nef_nmr_meta_data.sf_framecode          nef_nmr_meta_data
    _nef_nmr_meta_data.format_name           nmr_exchange_format
    _nef_nmr_meta_data.format_version        0.7
    _nef_nmr_meta_data.program_name          CCPN
@@ -209,9 +209,9 @@ save_nef_molecular_system
    stop_
 save_
 
-save_bmrb21.str
+save_bmrb21_str
    _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
-   _nef_chemical_shift_list.sf_framecode               bmrb21.str
+   _nef_chemical_shift_list.sf_framecode               bmrb21_str
    _nef_chemical_shift_list.atom_chemical_shift_units  ppm
 
    loop_
@@ -6580,7 +6580,7 @@ save_alinoe_raw
    _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
    _nef_nmr_spectrum.sf_framecode               alinoe_raw
    _nef_nmr_spectrum.num_dimensions             3
-   _nef_nmr_spectrum.chemical_shift_list        $bmrb21.str
+   _nef_nmr_spectrum.chemical_shift_list        $bmrb21_str
    _nef_nmr_spectrum.experiment_classification  H_H[C].through-space
    _nef_nmr_spectrum.expriment_type             '13C NOESY-HSQC'
 
@@ -17488,7 +17488,7 @@ save_aronoe_raw
    _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
    _nef_nmr_spectrum.sf_framecode               aronoe_raw
    _nef_nmr_spectrum.num_dimensions             3
-   _nef_nmr_spectrum.chemical_shift_list        $bmrb21.str
+   _nef_nmr_spectrum.chemical_shift_list        $bmrb21_str
    _nef_nmr_spectrum.experiment_classification  H_H[C].through-space
    _nef_nmr_spectrum.expriment_type             '13C NOESY-HSQC'
 
@@ -17864,7 +17864,7 @@ save_nnoe_raw
    _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
    _nef_nmr_spectrum.sf_framecode               nnoe_raw
    _nef_nmr_spectrum.num_dimensions             3
-   _nef_nmr_spectrum.chemical_shift_list        $bmrb21.str
+   _nef_nmr_spectrum.chemical_shift_list        $bmrb21_str
    _nef_nmr_spectrum.experiment_classification  H_H[N].through-space
    _nef_nmr_spectrum.expriment_type             '15N NOESY-HSQC'
 

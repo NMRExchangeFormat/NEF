@@ -1,8 +1,8 @@
 data_H1GI
 
 save_nef_nmr_meta_data
-   _nef_nmr_meta_data.sf_category           nmr_meta_data
-   _nef_nmr_meta_data.sf_framecode          nmr_meta_data
+   _nef_nmr_meta_data.sf_category           nef_nmr_meta_data
+   _nef_nmr_meta_data.sf_framecode          nef_nmr_meta_data
    _nef_nmr_meta_data.format_name           nmr_exchange_format
    _nef_nmr_meta_data.format_version        0.7
    _nef_nmr_meta_data.program_name          CCPN
@@ -261,9 +261,9 @@ save_nef_molecular_system
    stop_
 save_
 
-save_ShiftList 2
+save_ShiftList_2
    _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
-   _nef_chemical_shift_list.sf_framecode               'ShiftList 2'
+   _nef_chemical_shift_list.sf_framecode               ShiftList_2
    _nef_chemical_shift_list.atom_chemical_shift_units  ppm
 
    loop_
@@ -7943,7 +7943,7 @@ save_PeakList:3dNOESY.1
    _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
    _nef_nmr_spectrum.sf_framecode               PeakList:3dNOESY.1
    _nef_nmr_spectrum.num_dimensions             3
-   _nef_nmr_spectrum.chemical_shift_list        '$ShiftList 2'
+   _nef_nmr_spectrum.chemical_shift_list        $ShiftList_2
    _nef_nmr_spectrum.experiment_classification  .
    _nef_nmr_spectrum.expriment_type             .
 
@@ -9534,7 +9534,7 @@ save_PeakList:CNOESY.1
    _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
    _nef_nmr_spectrum.sf_framecode               PeakList:CNOESY.1
    _nef_nmr_spectrum.num_dimensions             3
-   _nef_nmr_spectrum.chemical_shift_list        '$ShiftList 2'
+   _nef_nmr_spectrum.chemical_shift_list        $ShiftList_2
    _nef_nmr_spectrum.experiment_classification  .
    _nef_nmr_spectrum.expriment_type             .
 
