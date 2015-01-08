@@ -1,7 +1,9 @@
 Open questions and proposals
 =============================
 
+
 * Restraint potential types
+Done!
 * Limits on constraint limit values
 * Indirect magnetisation transfer
 * Linkers and tensor-origin residues
