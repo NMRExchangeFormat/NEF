@@ -7945,7 +7945,7 @@ save_PeakList:3dNOESY.1
    _nef_nmr_spectrum.num_dimensions             3
    _nef_nmr_spectrum.chemical_shift_list        $ShiftList_2
    _nef_nmr_spectrum.experiment_classification  .
-   _nef_nmr_spectrum.expriment_type             .
+   _nef_nmr_spectrum.experiment_type             .
 
    loop_
       _nef_spectrum_dimension.dimension_id
@@ -9536,7 +9536,7 @@ save_PeakList:CNOESY.1
    _nef_nmr_spectrum.num_dimensions             3
    _nef_nmr_spectrum.chemical_shift_list        $ShiftList_2
    _nef_nmr_spectrum.experiment_classification  .
-   _nef_nmr_spectrum.expriment_type             .
+   _nef_nmr_spectrum.experiment_type             .
 
    loop_
       _nef_spectrum_dimension.dimension_id

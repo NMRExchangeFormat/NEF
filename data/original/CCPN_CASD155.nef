@@ -4770,7 +4770,7 @@ save_nmr_spectrum_H_H[N].through-space_1_1
    _nef_nmr_spectrum.num_dimensions             3
    _nef_nmr_spectrum.chemical_shift_list        $chemical_shift_list_1
    _nef_nmr_spectrum.experiment_classification  H_H[N].through-space
-   _nef_nmr_spectrum.expriment_type             '15N NOESY-HSQC'
+   _nef_nmr_spectrum.experiment_type             '15N NOESY-HSQC'
 
    loop_
       _nef_spectrum_dimension.dimension_id
@@ -5822,7 +5822,7 @@ save_nmr_spectrum_H_H[C].through-space_1_1
    _nef_nmr_spectrum.num_dimensions             3
    _nef_nmr_spectrum.chemical_shift_list        $chemical_shift_list_1
    _nef_nmr_spectrum.experiment_classification  H_H[C].through-space
-   _nef_nmr_spectrum.expriment_type             '13C NOESY-HSQC'
+   _nef_nmr_spectrum.experiment_type             '13C NOESY-HSQC'
 
    loop_
       _nef_spectrum_dimension.dimension_id
@@ -8987,7 +8987,7 @@ save_nmr_spectrum_H_H[C].through-space_1_2
    _nef_nmr_spectrum.num_dimensions             3
    _nef_nmr_spectrum.chemical_shift_list        $chemical_shift_list_1
    _nef_nmr_spectrum.experiment_classification  H_H[C].through-space
-   _nef_nmr_spectrum.expriment_type             '13C NOESY-HSQC'
+   _nef_nmr_spectrum.experiment_type             '13C NOESY-HSQC'
 
    loop_
       _nef_spectrum_dimension.dimension_id
