@@ -5,6 +5,19 @@ Change log
 
 * Updated charter to reflect the discussion at the Rutgers 7/11-9/1 2015 meeting.
 
+* Basic format rules
+	* Datablock name must now start with 'nef_'
+	* All sf_framecode must now start with the name of the corresponding
+		sf_category
+	* '?' is no longer supported to mean 'not set' - all unset parameters must
+		now be given as '.', which translates as null (None)
+	* mandatory and optional tags and key columns for loops defined and given in
+		Commented_Example.nef
+	* The convention of starting references to saveframes with a '$' is NOT 
+		supported any longer.
+	* added ordinal column to peak and restraint lists to provide unique
+		identifier for each line
+
 **Version 0.7**
 
 1. **Global nef name space**. All tags now start with '_nef_'.

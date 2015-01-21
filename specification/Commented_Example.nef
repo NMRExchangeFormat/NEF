@@ -9,7 +9,7 @@
 #  The style is nmr-star.
 #
 
-data_my_nmr_project_1
+data_nef_my_nmr_project_1
 
 #
 #===========================================================================
@@ -29,20 +29,23 @@ save_nef_nmr_meta_data
   _nef_nmr_meta_data.sf_framecode           	nef_nmr_meta_data
 
   _nef_nmr_meta_data.format_name                  Nmr_Exchange_Format
-  _nef_nmr_meta_data.format_version               0.7
-  _nef_nmr_meta_data.program_name                 Cyana
-  _nef_nmr_meta_data.program_version              3.1
+  _nef_nmr_meta_data.format_version               0.8
+  _nef_nmr_meta_data.program_name                 CYANA
+  _nef_nmr_meta_data.program_version              3.01
   _nef_nmr_meta_data.creation_date                2013-02-29T13:12:03
 
 # Optional:
-  _nef_nmr_meta_data.coordinate_file_name         ?
+  _nef_nmr_meta_data.coordinate_file_name         depositiondir/somefile.ext
 
 # Optional loops (to end of saveframe):
 
 # Related database entries
   loop_
+    # mandatory parameters
   _nef_related_entries.database_name
   _nef_related_entries.database_accession_code
+
+  # key: database_name, database_accession_code
 
     BMRB   12345
     BMRB   22277
@@ -53,12 +56,19 @@ save_nef_nmr_meta_data
 
 # Program scripts used
   loop_
+    # mandatory parameter
     _nef_program_script.program_name
+    
+    # optional parameters
     _nef_program_script.script_name
     _nef_program_script.script
+    
+    # program,-specific parameter
     _nef_program_script.cyana_parameter_1
 
-    	Cyana  init.cya
+  # key: program_name, script_name
+
+    	CYANA  init.cya
 ;
 rmsdrange:=1-93
 
@@ -80,17 +90,20 @@ read seq protein.seq
    	12
   stop_
 
-# NOTE: cyana_parameter_1 is an example of a program-specific attribute.
-
 
 
 # Data history loop
   loop_
+    # mandatory parameters
     _nef_run_history.run_ordinal
     _nef_run_history.program_name
+    
+    # optional parameters
     _nef_run_history.program_version
     _nef_run_history.script_name
     _nef_run_history.script
+
+  # key: run_ordinal
 
     1   TOPSPIN  3.1   mypulprog.name
 ;
@@ -98,7 +111,7 @@ INSERT PULSE PROGRAM HERE
 
 ;
 
-    2   UNIO  ? ? ?
+    2   UNIO  . . .
   stop_
 
 # NOTE: The values in this loop refer to previous runs, and so contain
@@ -167,7 +180,7 @@ save_nef_molecular_system
     B	17	CYS	CYS_LFZW_DHG	single	disulfide
     C    1      ATP     .         	single	.
  # Manual comment: Pseudo-residues (tensor origin) added. 
-    C 900   TENSOR   .      .       .    
+    C 900   TNSR     .      .       .    
   stop_
 
 # Chain A is a linear dodecapeptide (15-25), disulfide linked to a single
@@ -194,6 +207,8 @@ save_nef_molecular_system
     _nef_covalent_links.residue_type_2
     _nef_covalent_links.atom_name_2
 
+  # key: chain_code_1, sequence_code_1, atom_name_1, chain_code_2, sequence_code_2, atom_name_2
+
     A 20 CYS SD B 17 CYS SD
     A 22 THR OG1 A 26 GLC C1
   stop_
@@ -208,13 +223,12 @@ save_
 # Mandatory: Chemical shift table(s)
 #===========================================================================
 
-save_chemical_shift_list_1
+save_nef_chemical_shift_list_1
 
-# All tags in this saveframe are mandatory
-# (shift uncertainty can be given as '?' if unknown).
+# All tags in this saveframe are mandatory, except for value_uncertainty.
 
   _nef_chemical_shift_list.sf_category           	nef_chemical_shift_list
-  _nef_chemical_shift_list.sf_framecode          	chemical_shift_list_1
+  _nef_chemical_shift_list.sf_framecode          	nef_chemical_shift_list_1
 
   _nef_chemical_shift_list.atom_chem_shift_units      ppm
 
@@ -225,6 +239,8 @@ save_chemical_shift_list_1
       _nef_chemical_shift.atom_name
       _nef_chemical_shift.value
       _nef_chemical_shift.value_uncertainty
+      
+  # key: chain_code, sequence_code, atom_name
 
       A	15	GLY	QA	 3.42	0.02
       A 17      VAL     HG#      0.73   0.02
@@ -273,17 +289,18 @@ save_
 #=======================================================================
 
 
-save_distance_restraint_list_L1
+save_nef_distance_restraint_list_L1
 
 
 # Mandatory parameters
   _nef_distance_restraint_list.sf_category          nef_distance_restraint_list
-  _nef_distance_restraint_list.sf_framecode         distance_restraint_list_L1
+  _nef_distance_restraint_list.sf_framecode         nef_distance_restraint_list_L1
 
   _nef_distance_restraint_list.potential_type       square-well-parabolic
 
   loop_
-  # Mandatory parameters
+    # Mandatory parameters, except for restraint_combination_id
+    _nef_distance_restraint.ordinal
     _nef_distance_restraint.restraint_id
     _nef_distance_restraint.restraint_combination_id
     _nef_distance_restraint.chain_code_1
@@ -296,31 +313,34 @@ save_distance_restraint_list_L1
     _nef_distance_restraint.atom_name_2
     _nef_distance_restraint.weight
 
-  # The following two parameters are mandatory.
-  # If they are not defined for a given potential they can be given a value of '?'
+  # The following parameters are optional. target_value and target_value_uncertainty
+  # should be given whenever a meaningful value is known'
+  # Other parameters need be given only if they are defined for the potential_type
     _nef_distance_restraint.target_value
     _nef_distance_restraint.target_value_uncertainty
-
-  # Optional parameters - use only the ones needed for the potential:
+    _nef_distance_restraint.lower_linear_limit
     _nef_distance_restraint.lower_limit
     _nef_distance_restraint.upper_limit
-  # _nef_distance_restraint.lower_linear_limit
-  # _nef_distance_restraint.upper_linear_limit
+    _nef_distance_restraint.upper_linear_limit
 
-    1  .   A 21  ALA  HB#  A 17  VAL  H   1.00 3.7  ?  2.5  4.2
-    1  .   A 21  ALA  HB#  A 18  LEU  H   1.00 3.7  ?  2.5  4.2
-    1  .   A 22  THR  HG2# A 17  VAL  H   1.00 3.7  ?  2.5  4.2
-    1  .   A 22  THR  HG2# A 18  LEU  H   1.00 3.7  ?  2.5  4.2
-    5  .   A 18  PHE  HB2  A 24  ASP  HBX 1.00 2.8  ?  2.0  3.2
-    8  .   A 18  PHE  HB2  A 24  ASP  HBY 1.00 4.4  ?  4.1  5.2
+  # key: ordinal
+
+    1  1  .   A 21   ALA  HB#  A 17  VAL  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
+    2  1  .   A 21   ALA  HB#  A 18  LEU  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
+    3  1  .   A 22   THR  HG2# A 17  VAL  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
+    4  1  .   A 22   THR  HG2# A 18  LEU  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
+    5  5  .   A 18   PHE  HB2  A 24  ASP  HBX 1.00 2.8  0.4   1.5  2.0  3.2  3.7
+    6  8  .   A 18   PHE  HB2  A 24  ASP  HBY 1.00 4.4  0.4   3.6  4.1  5.2  5.7
+    6  8  .   E 6B   SER  HB2  A 24  ASP  HBY 1.00 4.4  0.4   3.6  4.1  5.2  5.7
   stop_
 
-  # The first line gives the restraint ID.
+  # The first column (ordinal) is a consecutive line number that does not persist  
+  # when data are re-exported
+  # The second column gives the restraint ID.
   # Lines with the same restraint_id are combined into a single restraint
   # (OR operations, effectively an ambiguous assignment).
-  # The restraint_combination_id is used for more complex logic -
+  # The restraint_combination_id is used for more complex logic,
   # see dihedral restrains for an example.
-  # Note that there is no unique identifier for each line,
 
   # Each line (sub-restraint) of the table has its own independent
   # parameters (weight, target_value, upper_limit, etc.), which may be different
@@ -335,16 +355,17 @@ save_
 #============================================================================
 
 
-save_dihedral_restraint_list_L2
+save_nef_dihedral_restraint_list_L2
 
 # Mandatory parameters:
   _nef_dihedral_restraint_list.sf_category          nef_dihedral_restraint_list
-  _nef_dihedral_restraint_list.sf_framecode         dihedral_restraint_list_L2
+  _nef_dihedral_restraint_list.sf_framecode         nef_dihedral_restraint_list_L2
 
   _nef_dihedral_restraint_list.potential_type     	square-well-parabolic
 
   loop_
-  # Mandatory parameters
+    # Mandatory parameters, except for restraint_combination_id
+    _nef_dihedral_restraint.ordinal
     _nef_dihedral_restraint.restraint_id
     _nef_dihedral_restraint.restraint_combination_id
     _nef_dihedral_restraint.chain_code_1
@@ -365,26 +386,27 @@ save_dihedral_restraint_list_L2
     _nef_dihedral_restraint.atom_name_4
     _nef_dihedral_restraint.weight
 
-  # The following two parameters are mandatory.
-  # If they are not defined for a given potential they can be given a value of '?'
+  # The following parameters are optional. target_value and target_value_uncertainty
+  # should be given whenever a meaningful value is known'
+  # Other parameters need be given only if they are defined for the potential_type
     _nef_dihedral_restraint.target_value
     _nef_dihedral_restraint.target_value_uncertainty
-
-  # Optional parameters - use only the ones needed for the potential:
+    _nef_dihedral_restraint.lower_linear_limit
     _nef_dihedral_restraint.lower_limit
     _nef_dihedral_restraint.upper_limit
-  # _nef_dihedral_restraint.lower_linear_limit
-  # _nef_dihedral_restraint.upper_linear_limit
+    _nef_dihedral_restraint.upper_linear_limit
 
-1  .  A 21 ALA N  A 21 ALA CA  A 21 ALA  C  A 22 THR N 1.00 -50.0 5.0 -60.0 -40.0
-1  .  A 21 ALA N  A 21 ALA CA  A 21 ALA  C  A 22 THR N 1.00 105.0 5.0  90.0 120.0
-2  .  A 12 ALA C  A 22 THR N   A 22 THR CA  A 22 THR C 3.00 -50.0 8.0 -60.0 -40.0
-3  1  A 23 LYS C  A 24 ASP N   A 24 ASP CA  A 24 ASP C 1.00 -50.0 5.0 -60.0 -40.0
-3  1  A 24 ASP N  A 24 ASP CA  A 24 ASP  C  A 25 HIS N 1.00 105.0 5.0  90.0 120.0
-4  2  A 15 GLY C  A 16 ASN N   A 16 ASN CA  A 16 ASN C 1.00 -50.0 5.0 -60.0 -40.0
-4  2  A 16 ASN N  A 16 ASN CA  A 16 ASN  C  A 17 CYS N 1.00 105.0 5.0  90.0 120.0
-4  3  A 15 GLY C  A 16 ASN N   A 16 ASN CA  A 16 ASN C 1.00 -80.0 5.0 -90.0 -70.0
-4  3  A 16 ASN N  A 16 ASN CA  A 16 ASN  C  A 17 CYS N 1.00 155.0 5.0 140.0 170.0
+  # key: ordinal
+
+1  1  .  A 21 ALA N  A 21 ALA CA  A 21 ALA  C  A 22 THR N 1.00 -50.0 5.0 .  -60.0 -40.0  .
+2  1  .  A 21 ALA N  A 21 ALA CA  A 21 ALA  C  A 22 THR N 1.00 105.0 5.0 .   90.0 120.0  .
+3  2  .  A 12 ALA C  A 22 THR N   A 22 THR CA  A 22 THR C 3.00 -50.0 8.0 .  -60.0 -40.0  .
+4  3  1  A 23 LYS C  A 24 ASP N   A 24 ASP CA  A 24 ASP C 1.00 -50.0 5.0 .  -60.0 -40.0  .
+5  3  1  A 24 ASP N  A 24 ASP CA  A 24 ASP  C  A 25 HIS N 1.00 105.0 5.0 .   90.0 120.0  .
+6  4  2  A 15 GLY C  A 16 ASN N   A 16 ASN CA  A 16 ASN C 1.00 -50.0 5.0 .  -60.0 -40.0  .
+7  4  2  A 16 ASN N  A 16 ASN CA  A 16 ASN  C  A 17 CYS N 1.00 105.0 5.0 .   90.0 120.0  .
+8  4  3  A 15 GLY C  A 16 ASN N   A 16 ASN CA  A 16 ASN C 1.00 -80.0 5.0 .  -90.0 -70.0  .
+9  4  3  A 16 ASN N  A 16 ASN CA  A 16 ASN  C  A 17 CYS N 1.00 155.0 5.0 .  140.0 170.0  .
 
 stop_
 
@@ -423,21 +445,23 @@ save_
 # Optional: RDC restraint list(s)
 #=======================================================================
 
-save_rdc_restraint_list_1
+save_nef_rdc_restraint_list_1
 
 # Mandatory parameters
   _nef_rdc_restraint_list.sf_category           	nef_rdc_restraint_list
-  _nef_rdc_restraint_list.sf_framecode           	rdc_restraint_list_1
+  _nef_rdc_restraint_list.sf_framecode           	nef_rdc_restraint_list_1
 
   _nef_rdc_restraint_list.potential_type            log-normal
-# Manual comment: following values are a proposal only (for discussion) on representing orientation tensors
+# Optional parameters
    _nef_rdc_restraint_list.tensor_magnitude      11.0000  
    _nef_rdc_restraint_list.tensor_rhombicity     0.0670
    _nef_rdc_restraint_list.tensor_chain_code     C
    _nef_rdc_restraint_list.tensor_sequence_code    900
-   _nef_rdc_restraint_list.tensor_residue_type     TENSOR
+   _nef_rdc_restraint_list.tensor_residue_type     TNSR
 
   loop_
+    # Mandatory parameters, except for restraint_combination_id
+      _nef_rdc_restraint.ordinal
       _nef_rdc_restraint.restraint_id
       _nef_rdc_restraint.restraint_combination_id
       _nef_rdc_restraint.chain_code_1
@@ -450,19 +474,22 @@ save_rdc_restraint_list_1
       _nef_rdc_restraint.atom_name_
       _nef_rdc_restraint.weight
 
-  # The following two parameters are mandatory.
-  # If they are not defined for a given potential they can be given a value of '?'
+  # The following parameters are optional. target_value and target_value_uncertainty
+  # should be given whenever a meaningful value is known'
+  # Other parameters need be given only if they are defined for the potential_type
     _nef_rdc_restraint.target_value
     _nef_rdc_restraint.target_value_uncertainty
 
   # Optional parameters - use only the ones needed for the potential:
-  # _nef_rdc_restraint.lower_limit
-  # _nef_rdc_restraint.upper_limit'
-  # _nef_rdc_restraint.lower_linear_limit
-  # _nef_rdc_restraint.upper_linear_limit
+   _nef_rdc_restraint.lower_linear_limit
+   _nef_rdc_restraint.lower_limit
+   _nef_rdc_restraint.upper_limit
+   _nef_rdc_restraint.upper_linear_limit
 
-    1 .  A  21  ALA  H  A  21  ALA  N  1.00 -5.2  0.33
-    2 .  A  22  THR  H  A  22  THR  N  1.00  3.1  0.40
+  # key: ordinal
+
+    1  1 .  A  21  ALA  H  A  21  ALA  N  1.00 -5.2  0.33  .  .  .  .  1.0  false
+    2  2 .  A  22  THR  H  A  22  THR  N  1.00  3.1  0.40  .  .  .  .  1.0  false
   stop_
 
 save_
@@ -476,18 +503,18 @@ save_
 #=======================================================================
 
 
-save_nmr_spectrum_cnoesy1
+save_nef_nmr_spectrum_cnoesy1
 
 # Mandatory parameters
   _nef_nmr_spectrum.sf_category           		nef_nmr_spectrum
-  _nef_nmr_spectrum.sf_framecode			        nmr_spectrum_cnoesy1
+  _nef_nmr_spectrum.sf_framecode              nef_nmr_spectrum_cnoesy1
 
   _nef_nmr_spectrum.num_dimensions        		3
-  _nef_nmr_spectrum.chemical_shift_list		    $chemical_shift_list_1
+  _nef_nmr_spectrum.chemical_shift_list       nef_chemical_shift_list_1
+  
+  # optional parameters
   _nef_nmr_spectrum.experiment_classification   	H_H[N].through-space
   _nef_nmr_spectrum.experiment_type             	15N-NOESY-HSQC
-
-  # experiment_classification and experiment_type can be given as '?' if not known.
 
   # The chemical_shift_list gives the saveframe id within the project for the saveframe
   # that contains the relevant chemical shift list.
@@ -499,9 +526,12 @@ save_nmr_spectrum_cnoesy1
 
   loop_
 
+      # mandatory parameters
       _nef_spectrum_dimension.dimension_id
       _nef_spectrum_dimension.axis_unit
       _nef_spectrum_dimension.axis_code
+      
+      # optional parameters
       _nef_spectrum_dimension.spectrometer_frequency
       _nef_spectrum_dimension.spectral_width
       _nef_spectrum_dimension.value_first_point
@@ -509,13 +539,14 @@ save_nmr_spectrum_cnoesy1
       _nef_spectrum_dimension.absolute_peak_positions
       _nef_spectrum_dimension.is_acquisition
 
+  # key: dimension_id
+
       1  ppm  1H   500.139  10.4    9.9	circular  true    false
       2  ppm 15N    98.37   30.7  127.0	circular  true    false
       3  ppm  1H   500.139  14.2   11.8	none	    true    true
   stop_
 
-# dimension_id, axis_unit, and axis_code must be given for data to be usable.
-# Other columns can be given value '?' it not known.
+# dimension_id, axis_unit, and axis_code are mandatory.
 
 # - axis_unit could be 'Hz' 'ppm', 'point', 's', ...
 # - axis_code is the isotope (in the form '1H', '13C', ...) for shifts,
@@ -528,7 +559,7 @@ save_nmr_spectrum_cnoesy1
 #   Fourier transformation, i..e *before* then removal of any points.
 # - folding can be either 'mirror' (seq. quadrature),
 #   'circular' (std. aliasing, for sim. quadrature), or 'none'
-# - absolute_peak_positions determines if peak positionos are correct or may be
+# - absolute_peak_positions determines if peak positions are correct or may be
 #   folded/aliased.
 #   If 'false' all peaks are given in the acquisition window, whether this is
 #   their correct position or not.
@@ -544,10 +575,15 @@ save_nmr_spectrum_cnoesy1
 # Mandatory loop.
 
   loop_
+      # mandatory parameters
       _nef_spectrum_dimension_transfer.dimension_1
       _nef_spectrum_dimension_transfer.dimension_2
       _nef_spectrum_dimension_transfer.transfer_type
+      
+      # optional parameter
       _nef_spectrum_dimension_transfer.is_indirect
+
+  # key: dimension_1, dimension_2
 
       1 3 through-space  false
       2 3 onebond        false
@@ -560,6 +596,7 @@ save_nmr_spectrum_cnoesy1
 
   loop_
 
+      _nef_peak.ordinal
       _nef_peak.peak_id
       _nef_peak.volume
       _nef_peak.volume_uncertainty
@@ -584,16 +621,18 @@ save_nmr_spectrum_cnoesy1
       _nef_peak.residue_type_3
       _nef_peak.atom_name_3
 
-1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 ? 119.5 ? 8.3 ? A 19 LEU HBY A 17 GLN N   A 17 GLN H
-1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 ? 119.5 ? 8.3 ? A 20 CYS HBX A 17 GLN N   A 17 GLN H
-1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 ? 119.5 ? 8.3 ? A 19 LEU HBY A 19 TYR N   A 19 TYR H
-1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 ? 119.5 ? 8.3 ? A 20 CYS HBX A 19 TYR N   A 19 TYR H
-1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 ? 119.5 ? 8.3 ? A 14 TRP HB3 A 18 PHE N   A 18 PHE H
-3 5.4E7 7.3E6 3.4E7 5.3E6  4.4 ? 106.5 ? 7.8 ? ?  ?  ?   ?  A 15 GLY N   A 15 GLY H
-4 8.8E7 1.3E7 4.8E7 3.3E6  3.2 ? 135.6 ? 9.9 ? A 14 TRP HB3 A 14 TRP NE1 A 14 TRP HE1
-5 8.8E7 1.3E7 5.8E7 2.3E7  3.4 ? 135.6 ? 9.9 ? A 14 TRP HB2 A 14 TRP NE1 A 14 TRP HE1
-5 8.8E7 1.3E7 5.8E7 2.3E7  3.4 ? 135.6 ? 9.9 ? A 24 ASP HBY A 14 TRP NE1 A 14 TRP HE1
-7 5.9E7 7.1E6 2.9E7 6.1E6  1.7 ? 118.3 ? 9.1 ? ?  ?  ?   ?  X @5 GLX N   X @5 GLX H
+  key: ordinal
+
+ 1  1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 0.05 119.5 0.5 8.3 0.03 A 19 LEU HBY A 17 GLN N   A 17 GLN H
+ 2  1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 0.05 119.5 0.5 8.3 0.03 A 20 CYS HBX A 17 GLN N   A 17 GLN H
+ 3  1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 0.05 119.5 0.5 8.3 0.03 A 19 LEU HBY A 19 TYR N   A 19 TYR H
+ 4  1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 0.05 119.5 0.5 8.3 0.03 A 20 CYS HBX A 19 TYR N   A 19 TYR H
+ 5  1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 0.05 119.5 0.5 8.3 0.03 A 14 TRP HB3 A 18 PHE N   A 18 PHE H
+ 6  3 5.4E7 7.3E6 3.4E7 5.3E6  4.4 0.05 106.5 0.5 7.8 0.03 .  .   .   . A 15 GLY N   A 15 GLY H
+ 7  4 8.8E7 1.3E7 4.8E7 3.3E6  3.2 0.05 135.6 0.5 9.9 0.03 A 14 TRP HB3 A 14 TRP NE1 A 14 TRP HE1
+ 8  5 8.8E7 1.3E7 5.8E7 2.3E7  3.4 0.05 135.6 0.5 9.9 0.03 A 14 TRP HB2 A 14 TRP NE1 A 14 TRP HE1
+ 9  5 8.8E7 1.3E7 5.8E7 2.3E7  3.4 0.05 135.6 0.5 9.9 0.03 A 24 ASP HBY A 14 TRP NE1 A 14 TRP HE1
+10  7 5.9E7 7.1E6 2.9E7 6.1E6  1.7 0.05 118.3 0.5 9.1 0.03 E 6B SER   . X @5 GLX N   X @5 GLX H
   stop_
 
 # Peaks 1 and 5 have ambiguous assignments.
@@ -614,7 +653,7 @@ save_
 #=======================================================================
 # Section 9
 #
-# Optional: Linkage tabl+-e for peaks and restraints
+# Optional: Linkage table for peaks and restraints
 #
 # Singleton (only one per project)
 #
@@ -631,13 +670,13 @@ loop_
   _nef_peak_restraint_link.peak_id
   _nef_peak_restraint_link.restraint_list_id
   _nef_peak_restraint_link.restraint_id
-  $nmr_spectrum_cnoesy1     1   $distance_restraint_list_L1     73
-  $nmr_spectrum_cnoesy1     1   $distance_restraint_list_L1    233
-  $nmr_spectrum_cnoesy1   577   $distance_restraint_list_L2     12
-  # $nmr_spectrum_nnoesy1   126   $distance_restraint_list_L1    359
-  # $nmr_spectrum_nnoesy1    44   $distance_restraint_list_L4   2755
-  $nmr_spectrum_cnoesy1   316   $distance_restraint_list_L4   2755
-  # $nmr_spectrum_rdc1       12   $rdc_restraint_list_L5          37
+  
+  # key: nmr_spectrum_id, peak_id, restraint_list_id, restraint_id
+  
+  nef_nmr_spectrum_cnoesy1     1   nef_distance_restraint_list_L1     73
+  nef_nmr_spectrum_cnoesy1     1   nef_distance_restraint_list_L1    233
+  nef_nmr_spectrum_cnoesy1   577   nef_distance_restraint_list_L2     12
+  nef_nmr_spectrum_cnoesy1   316   nef_distance_restraint_list_L4   2755
 stop_
 
 # The table gives links between peaks (in any spectrum) and restraints
