@@ -22,9 +22,9 @@ The organs of the consortium are the Assembly of members, the Executive Committe
 and Chairperson, the Secretariat, and the Specifications Repository.
 
 ## 2.1 Assembly
-The NEF project is governed by the Assembly of members, which is open to all
-groups that maintain software or services in a relevant scientific area, and
-that commit themselves to supporting the NEF format for data import and export.
+The NEF project is governed by the Assembly of members, which is open to anybody
+that is engaged in software or services in a relevant scientific area, and
+that commit themselves to supporting the NEF format.
 
 The Assembly meets at least once a year, possibly by audio or video conference, or in the
 form of an publicly accessible on-line discussion forum.

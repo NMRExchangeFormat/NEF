@@ -1,6 +1,10 @@
 Change log
 ==========
 
+**Version 0.8**
+
+* Updated charter to reflect the discussion at the Rutgers 7/11-9/1 2015 meeting.
+
 **Version 0.7**
 
 1. **Global nef name space**. All tags now start with '_nef_'.
