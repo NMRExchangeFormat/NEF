@@ -40,16 +40,45 @@ The first sections present general issues that are not linked to a specific part
     13. Selection expressions. For the time being wildcards are allowed only for atom names. It would be possible to extend their use to chain_code, sequence_code and residue_type at a later date, if there is a use case for this. More complex selection expressions, such as residue ranges, are surely too complicated for this kind of format. Note that these can be expressed as ambiguous peak assignments or restraints. For the specific case of residue ranges we should notice that sequence_code is a string, not an integer, which renders the concept of ranges rather unwieldy.
 
   2. Identifiers
+    1. NEF data block IDs (the string that follows "data\_") *must* start with
+    "nef\_".
 
-    1. Spectrum dimensions, peaks, restraints etc. will be numbered starting at 1 (and *not* at zero).
+    2. sf\_category values all start with 'nef\_'; for program-specific
+    categories they start with the program namespace tag.
 
-    2. Peak numbers, restraint numbers, and datablock names /  saveframe framecodes must  be kept unchanged by programs, so that they can be used as persistent identifiers
+    3. sf_framecodes *must* start with the relevant category name. If there
+    can be more than one saveframe in the category, the category name must
+    be followed by an underscore, and then by the unique part of the framecode.
+
+    4. All loops in the format have one or more mandatory columns defined as
+    keys, that uniquely identify each row.
+
+    5. Spectrum dimensions, peaks, restraints etc. are numbered starting at
+    1 (and *not* at zero). Peaks and restraints are represented by more than one
+    line in the corresponding loop; an additional column for the line number
+    ('ordinal') serves as the unique key for the loop.
+
+    6. Peak numbers, restraint numbers, and datablock names /  saveframe
+    framecodes must  be kept unchanged by programs, so that they can be used as
+    persistent identifiers
 
   3. Program-specific namespaces
 
-    We  need to define and register prefixes for programs to use in program-specific data, that other programs may ignore. We would propose simple prefixes  like 'ccpn', 'cyana', 'amber', 'xplor', 'aria', etc.  For saveframes the saveframe_category would start with the prefix (cyana_special_frame, ccpn_special_frame etc.), and would be used for saveframe names ('save_cyana_special_frame_1'), and tag prefixes ( '_cyana_special_frame.sf_category') . The loop-prefix would be '_cyana', with loop tags like '_cyana_special_loop.tag1', '_cyana_special_loop.tag2', ...  to match with the STAR rule that all tags must start with an underscore.  For individual tag names, the prefix will be positioned at the start of the actual tag, after  the saveframeName or loopName prefix (e.g. "_chemical_shift_list.cyana_specific_tag" or _chemical_shift.ccpn_specific_column) .
+    We will define and register prefixes for programs to use in program-specific
+    data, that other programs may ignore. We would propose simple prefixes  
+    like 'ccpn', 'cyana', 'amber', 'xplor', 'aria', etc.  For saveframes the
+    saveframe_category would start with the prefix (cyana_special_frame,
+    ccpn_special_frame etc.), and would be used for saveframe names
+    ('save_cyana_special_frame_1'), and tag prefixes
+    ('_cyana_special_frame.sf_category') . The loop-prefix would be '_cyana',
+    with loop tags like '_cyana_special_loop.tag1', '_cyana_special_loop.tag2',
+    ...  to match with the STAR rule that all tags must start with an
+    underscore.  For individual tag names, the prefix will be positioned at the
+    start of the actual tag, after  the saveframeName or loopName prefix
+    (e.g. "_chemical_shift_list.cyana_specific_tag" or
+    _chemical_shift.ccpn_specific_column).
 
-  4. Format  versions
+  4. Mandatory contents
 
     We propose to divide format versions in major and minor, with both running as consecutive integers (e.g. 1.0, ... 1.8, 1.9, 1.10, 1.11, ... ... 1.314, ...). Minor version changes to the format should be incremental and non-breaking, so that code that reads version 1.4 more or less automatically will read version 1.3 also. This includes not having duplicate storage slots, so that the same information would be found in the same place in both versions. This only holds for public tags, program-specific tags can be changed freely by the program owner.
 
@@ -116,7 +145,8 @@ The first sections present general issues that are not linked to a specific part
 
       - 'square-well-parabolic'
 
-         *Parameters*: upper_limit, lower_limit (optionally: target_value, target_value_error)
+         *Parameters*: upper_limit, lower_limit
+                       (optionally: target_value, target_value_error)
 
          *Formula*:
 
@@ -126,11 +156,13 @@ The first sections present general issues that are not linked to a specific part
 
       - 'square-well-parabolic-linear'
 
-         *Parameters*: upper_limit, lower_limit, upper_linear_limit, lower_linear_limit, (optional: target_value, target_value_error)
+         *Parameters*: upper_limit, lower_limit, upper_linear_limit,
+              lower_linear_limit, (optional: target_value, target_value_error)
 
          *Formula*:
 
-          If upper_limit = u, upper_linear_limit = u2, lower_limit = l, lower_linear_limit = l2:
+          If upper_limit = u, upper_linear_limit = u2,
+             lower_limit = l, lower_linear_limit = l2:
 
           E = 2k(u2-u)(r - (u2+u)/2) for r > u2
 
@@ -140,62 +172,124 @@ The first sections present general issues that are not linked to a specific part
 
           E = 2k(l2-l)(r - (l2+l)/2) for r < l2
 
-    7. We propose to add potential types
-
       - 'upper-bound-parabolic'
+
       - 'lower-bound-parabolic'
+
       - 'upper-bound-parabolic-linear'
+
       - 'lower-bound-parabolic-linear'
 
-      with parameters and formulae modified form the full versions.
+      The formulae and parameters for the last four follow obviously from the
+      preceding definitions.
 
   3. Regarding Section 6. Optional: **Dihedral restraint lists(s)**
 
-    1.  In the most common case, sub-restraints within the same restraint_id  are treated as ambiguous. This amounts to combining them with an OR statement.  There are cases where it is necessary to combine sub-restraints with an AND, e.g.  for dihedral restraints where the molecule must be constrained within either of two disjoint regions of the Ramachandran plot.  The restraint_combination_id is a positive integer used to signify an AND statement, so that all sub-restraints with the same combination_id are AND'ed. Only sub-restraints with the same restraint_id can be AND'ed, but the restraint_combination_id is valid across the entire table, so that you can select a single AND'ed group by looking only in the combination_id column.  Where it is not needed, the restraint_combination_id is left empty.
+    1. The ordinal column is a series of consecutive integers that serve to
+     make each line unique. These values are *not* preserved when reading and
+     re-writing data.
 
-      Whereas the normal ambiguous restraint can be described as [a OR b OR c], the restraint_combination_id allows you to describe restraints as [(a AND b) OR (c AND d) OR e] etc.
+    2.  In the most common case, sub-restraints within the same restraint_id  
+    are treated as ambiguous. This amounts to combining them with an OR
+    statement.  There are cases where it is necessary to combine sub-restraints
+    with an AND, e.g.  for dihedral restraints where the molecule must be
+    constrained within either of two disjoint regions of the Ramachandran plot.
+    The restraint_combination_id is a positive integer used to signify an AND
+    statement, so that all sub-restraints with the same combination_id are
+    AND'ed. Only sub-restraints with the same restraint_id can be AND'ed, but
+    the restraint_combination_id is valid across the entire table, so that you
+    can select a single AND'ed group by looking only in the combination_id
+    column.  Where it is not needed, the restraint_combination_id is left empty.
+
+    Whereas the normal ambiguous restraint can be described as [a OR b OR c],
+    the restraint_combination_id allows you to describe restraints as
+    [(a AND b) OR (c AND d) OR e] etc.
+
+    3. The  _nef_dihedral_restraint.name column gives the standard name of the
+    corresponding dihedral ('PHI', 'PSI', 'OMEGA', 'CHI1', 'CHI2', ...).
+    This column is an information field, that sup-lements but does *NOT* replace
+    or override the atom designations.
 
   4. Regarding Section 7. Optional: **RDC restraint lists(s)**
 
-    1.  RDC's should be given unscaled (i.e. the values actually measured), and with proper signs (i.e. NH RDC's should list a positive value for decreasing splitting whereas CH RDC's should list a positive value for increasing splitting).
+    1. The ordinal column is a series of consecutive integers that serve to
+     make each line unique. These values are *not* preserved when reading and
+     re-writing data.
 
-    2.  The current proposal has had no feed-back whatsoever. The relevant parts of the format can be seen here.
-    ```
-    _nef_rdc_restraint_list.tensor_magnitude		   11.0000
-    _nef_rdc_restraint_list.tensor_rhombicity	   0.0670
-    _nef_rdc_restraint_list.tensor_chain_code	   A
-    _nef_rdc_restraint_list.tensor_sequence_code	   900
-    _nef_rdc_restraint_list.tensor_residue_type	   TENSOR
-    ```
-    We propose to specify the tensor at the rdc restraint list level, and to use a dummy residue to specify location and orientation of the tensor. This dummy residue can then be given coordinates in the coordinate files.
+    1.  RDC's should be given unscaled (i.e. the values actually measured), and
+    with proper signs (i.e. NH RDC's should list a positive value for decreasing
+    splitting whereas CH RDC's should list a positive value for increasing
+    splitting).
 
-      Please see the Questions document for some much needed discussion on this issue.
+    2.  The orientation tensor is indicated by giving the chain_code,
+    sequence_code, and residue_type for the residue used to give the
+    orientation tensor in coordinate files. The residue_type should be TNSR.
+    Tensor values are given as magnitude and rhombicity.
+
+    3. The RDC estraint list can also be used to give non-reduced dipolar
+    couplings.
 
   5. Regarding Section 8. Optional: **Peak lists(s)**
 
-    1.  Each nmr_spectrum block can contain only one peak_list. If you want to give different peak lists for the same experiment, you must duplicate the entire block, including the spectrum description.
+    1.  Each nmr_spectrum block can contain only one peak_list. If you want to
+    give different peak lists for the same experiment, you must duplicate the
+    entire block, including the spectrum description.
 
-    2.  Each spectrum must be  associated with a shift list, to allow for data from different temperatures, isotope labellings etc. Multiple peak lists can share a shift list. The   _nmr_spectrum.chemical_shift_list tag gives the framecode for the relevant shift list.
+    2.  Each spectrum must be  associated with a shift list, to allow for data
+    from different temperatures, isotope labellings etc. Multiple peak lists can
+    share a shift list. The   _nmr_spectrum.chemical_shift_list tag gives the
+    framecode for the relevant shift list.
 
-    3.  There are both free-form and an officially controlled version of experiment classification. Both are mandatory, but can be given as '?'. The latter uses the CCPN nomenclature, which is designed to capture only those experiment differences that reflect in different assignment possibilities for the peaks. See https://sites.google.com/site/ccpnwiki/Home/documentation/ccpnmr-analysis/core-concepts/nme-experiment-nomenclature-v2-2011 for a current description and  http://link.springer.com/article/10.1007%2Fs10858-006-9076-z for a publication (reflecting an earlier version).
+    3.  There are both free-form and an officially controlled version of
+    experiment classification. Both are optional, but strongly recommended.
+    The latter uses the CCPN nomenclature, which is designed to capture only
+    those experiment differences that reflect in different assignment
+    possibilities for the peaks. See
+    https://sites.google.com/site/ccpnwiki/Home/documentation/ccpnmr-analysis/core-concepts/nme-experiment-nomenclature-v2-2011
+    for a current description and  
+    http://link.springer.com/article/10.1007%2Fs10858-006-9076-z
+    for a publication (reflecting an earlier version).
 
     4.  Dimension numbering runs from 1 to n for a n-dimensional spectrum.
 
-    5.  Magnetisation transfer between dimensions is given as an explicit table of dimension pairs and their transfer types - which ought to be the most robust system. Transfer types follow the CCPN system, which reflects only differences that are important for assignment possibilities. The permitted values are :
+    5.  Magnetisation transfer between dimensions is given as an explicit table
+    of dimension pairs and their transfer types - which ought to be the most robust system. Transfer types follow the CCPN system, which reflects only differences that are important for assignment possibilities. The permitted values are :
 
       * 'onebond'	: atoms directly bound, whatever the transfer mechanism
       * 'Jcoupling'	: J coupling over one or more bonds
       * 'Jmultibond' : J coupling over more than one bond
-      * 'relayed' : relayed through multiple J couplings (multistep transfer,  TOCSY, ...)
-      * 'relayed-alternate' : a solid state TOCSY transfer type with alternating peak sign
-      * 'through-space' : Through-space transfer (NOESY, ROESY,.. but also J coupling across H-bonds)
+      * 'relayed' : relayed through multiple J couplings (multistep transfer,  
+        TOCSY, ...)
+      * 'relayed-alternate' : a solid state TOCSY transfer type with alternating
+         peak sign
+      * 'through-space' : Through-space transfer (NOESY, ROESY,.. but also
+        J coupling across H-bonds)
 
-    6.  There is only one kind of _peak loop, so we use the same tags for 2D peaks, 3D peaks etc. For e.g. a 3D peak list, tags for dimensions 4 and higher are simply omitted.
+    6.  There is only one kind of _peak loop, so we use the same tags for 2D
+    peaks, 3D peaks etc. For e.g. a 3D peak list, tags for dimensions 4 and
+    higher are simply omitted. The maximum possible dimension is 15.
 
-    7.  Peak lists can choose to give height, volume or both to represent intensity. If a peak table gives both values, it is up to the program and the restraint list section to indicate which value was used for restraint generation (if so desired).
+    1. The ordinal column is a series of consecutive integers that serve to
+    make each line unique. These values are *not* preserved when reading and
+    re-writing data.
 
-    8.  The current draft does not allow for storing  different transitions (multiplet components) within a single peak (multiplet). If this is desired at some point, the format can be extended, most likely with an additional _ peak.component_id column.
+    7.  Peak lists can choose to give height, volume or both to represent
+    intensity. If a peak table gives both values, it is up to the program and
+    the restraint list section to indicate which value was used for restraint
+    generation (if so desired).
 
-  6. Regarding Section 9. Optional: **Linkage table for peaks and restraints** (one per project)
+    8.  The current draft does not allow for storing  different transitions
+    (multiplet components) within a single peak (multiplet). If this is desired
+    at some point, the format can be extended, most likely with an additional
+    _peak.component_id column or _peak.peak_group.
 
-    1.  Links between peaks and restraints are given in the peak_restraint_link table. The use of an extra table is necessary in order to support links from one restraint to more than one peak.There is only a single such table in each project. The links connect entire peaks and restraints (which corresponds to multiple lines in the relevant loops). Each peak can be linked to multiple restraints, and vice versa. Links to different types of restraint all share a single table.
+  6. Regarding Section 9. Optional: **Linkage table for peaks and restraints**
+  (one per project)
+
+    1.  Links between peaks and restraints are given in the peak_restraint_link
+    table. The use of an extra table is necessary in order to support links from
+    one restraint to more than one peak. There is only a single such table in
+    each project. The links connect entire peaks and restraints (which
+    corresponds to multiple lines in the relevant loops). Each peak can be
+    linked to multiple restraints, and vice versa. Links to different types of
+    restraint all share a single table.
