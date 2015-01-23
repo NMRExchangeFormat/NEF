@@ -33,6 +33,7 @@ save_nef_nmr_meta_data
   _nef_nmr_meta_data.program_name                 CYANA
   _nef_nmr_meta_data.program_version              3.01
   _nef_nmr_meta_data.creation_date                2013-02-29T13:12:03
+  _nef_nmr_meta_data.uuid                         CYANA-2013-02-29T13:12:04-11724
 
 # Optional:
   _nef_nmr_meta_data.coordinate_file_name         depositiondir/somefile.ext
@@ -260,7 +261,7 @@ save_nef_chemical_shift_list_1
       A 23      LYS     H        8.45   0.04
       A 23      LYS     CA      43.2    0.25
       A 23      LYS     N      123.45   0.4
-     @1 SS@231  GLX?    CAi-1   48.2     ?
+     @1 SS@231  GLX?    CAi-1   48.2     .
   stop_
 
 # The atom_name by itself serves to distinguish between real atoms ('HA'),
@@ -296,7 +297,12 @@ save_nef_distance_restraint_list_L1
   _nef_distance_restraint_list.sf_category          nef_distance_restraint_list
   _nef_distance_restraint_list.sf_framecode         nef_distance_restraint_list_L1
 
-  _nef_distance_restraint_list.potential_type       square-well-parabolic
+  _nef_distance_restraint_list.potential_type       square-well-parabolic-linear
+  
+  # Optional parameter:
+  _nef_distance_restraint_list.restraint_origin     noe
+  # The restraint_origin describes the origin or source of the restraints. For
+  # distance restraints likely values would be 'noe', 'hbond', 'mutation', 'shift_perturbation' 
 
   loop_
     # Mandatory parameters, except for restraint_combination_id
@@ -363,6 +369,11 @@ save_nef_dihedral_restraint_list_L2
 
   _nef_dihedral_restraint_list.potential_type     	square-well-parabolic
 
+  # Optional parameter:
+  _nef_dihedral_restraint_list.restraint_origin     talos
+  # The restraint_origin describes the origin or source of the restraints. For
+  # distance restraints likely values would be 'talos', 'jcoupling'
+
   loop_
     # Mandatory parameters, except for restraint_combination_id
     _nef_dihedral_restraint.ordinal
@@ -395,18 +406,19 @@ save_nef_dihedral_restraint_list_L2
     _nef_dihedral_restraint.lower_limit
     _nef_dihedral_restraint.upper_limit
     _nef_dihedral_restraint.upper_linear_limit
+    _nef_dihedral_restraint.name
 
   # key: ordinal
 
-1  1  .  A 21 ALA N  A 21 ALA CA  A 21 ALA  C  A 22 THR N 1.00 -50.0 5.0 .  -60.0 -40.0  .
-2  1  .  A 21 ALA N  A 21 ALA CA  A 21 ALA  C  A 22 THR N 1.00 105.0 5.0 .   90.0 120.0  .
-3  2  .  A 12 ALA C  A 22 THR N   A 22 THR CA  A 22 THR C 3.00 -50.0 8.0 .  -60.0 -40.0  .
-4  3  1  A 23 LYS C  A 24 ASP N   A 24 ASP CA  A 24 ASP C 1.00 -50.0 5.0 .  -60.0 -40.0  .
-5  3  1  A 24 ASP N  A 24 ASP CA  A 24 ASP  C  A 25 HIS N 1.00 105.0 5.0 .   90.0 120.0  .
-6  4  2  A 15 GLY C  A 16 ASN N   A 16 ASN CA  A 16 ASN C 1.00 -50.0 5.0 .  -60.0 -40.0  .
-7  4  2  A 16 ASN N  A 16 ASN CA  A 16 ASN  C  A 17 CYS N 1.00 105.0 5.0 .   90.0 120.0  .
-8  4  3  A 15 GLY C  A 16 ASN N   A 16 ASN CA  A 16 ASN C 1.00 -80.0 5.0 .  -90.0 -70.0  .
-9  4  3  A 16 ASN N  A 16 ASN CA  A 16 ASN  C  A 17 CYS N 1.00 155.0 5.0 .  140.0 170.0  .
+1  1  .  A 21 ALA N  A 21 ALA CA  A 21 ALA  C  A 22 THR N 1.00 -50.0 5.0 .  -60.0 -40.0  . PSI
+2  1  .  A 21 ALA N  A 21 ALA CA  A 21 ALA  C  A 22 THR N 1.00 105.0 5.0 .   90.0 120.0  . PSI
+3  2  .  A 12 ALA C  A 22 THR N   A 22 THR CA  A 22 THR C 3.00 -50.0 8.0 .  -60.0 -40.0  . PHI
+4  3  1  A 23 LYS C  A 24 ASP N   A 24 ASP CA  A 24 ASP C 1.00 -50.0 5.0 .  -60.0 -40.0  . PHI
+5  3  1  A 24 ASP N  A 24 ASP CA  A 24 ASP  C  A 25 HIS N 1.00 105.0 5.0 .   90.0 120.0  . PSI
+6  4  2  A 15 GLY C  A 16 ASN N   A 16 ASN CA  A 16 ASN C 1.00 -50.0 5.0 .  -60.0 -40.0  . PHI
+7  4  2  A 16 ASN N  A 16 ASN CA  A 16 ASN  C  A 17 CYS N 1.00 105.0 5.0 .   90.0 120.0  . PSI
+8  4  3  A 15 GLY C  A 16 ASN N   A 16 ASN CA  A 16 ASN C 1.00 -80.0 5.0 .  -90.0 -70.0  . PHI
+9  4  3  A 16 ASN N  A 16 ASN CA  A 16 ASN  C  A 17 CYS N 1.00 155.0 5.0 .  140.0 170.0  . PSI
 
 stop_
 
@@ -452,6 +464,11 @@ save_nef_rdc_restraint_list_1
   _nef_rdc_restraint_list.sf_framecode           	nef_rdc_restraint_list_1
 
   _nef_rdc_restraint_list.potential_type            log-normal
+  
+  # Optional parameter:
+  _nef_dihedral_restraint_list.restraint_origin     measured
+  # The restraint_origin describes the origin or source of the restraints.
+  
 # Optional parameters
    _nef_rdc_restraint_list.tensor_magnitude      11.0000  
    _nef_rdc_restraint_list.tensor_rhombicity     0.0670
@@ -485,6 +502,8 @@ save_nef_rdc_restraint_list_1
    _nef_rdc_restraint.lower_limit
    _nef_rdc_restraint.upper_limit
    _nef_rdc_restraint.upper_linear_limit
+    _nef_rdc_restraint.scale
+    _nef_rdc_restraint.distance_dependent
 
   # key: ordinal
 
@@ -634,6 +653,181 @@ save_nef_nmr_spectrum_cnoesy1
  9  5 8.8E7 1.3E7 5.8E7 2.3E7  3.4 0.05 135.6 0.5 9.9 0.03 A 24 ASP HBY A 14 TRP NE1 A 14 TRP HE1
 10  7 5.9E7 7.1E6 2.9E7 6.1E6  1.7 0.05 118.3 0.5 9.1 0.03 E 6B SER   . X @5 GLX N   X @5 GLX H
   stop_
+
+# Peaks 1 and 5 have ambiguous assignments.
+
+# The frequency for A 14 Trp NE1 at 135.6 is likely outside the
+# acquisition window. Since absolute_peak_positions is true for this dimension,
+# the peak is given at the correct resonance frequency, rather than at
+# the apparent position within the acquisition window.
+
+# Volumes and peak position information are duplicated on each line belonging to
+# a peak
+# All such values must be identical, and written out as such. Programs may or
+# may not check for errors when reading.
+
+save_
+
+
+save_nef_nmr_spectrum_dummy15d
+
+# Mandatory parameters
+  _nef_nmr_spectrum.sf_category               nef_nmr_spectrum
+  _nef_nmr_spectrum.sf_framecode              nef_nmr_spectrum_dummy15d
+
+  _nef_nmr_spectrum.num_dimensions            15
+  _nef_nmr_spectrum.chemical_shift_list       nef_chemical_shift_list_1
+  
+  # optional parameters
+  _nef_nmr_spectrum.experiment_classification     .
+  _nef_nmr_spectrum.experiment_type               .
+
+  loop_
+      
+      # mandatory parameters
+      _nef_spectrum_dimension.dimension_id
+      _nef_spectrum_dimension.axis_unit
+      _nef_spectrum_dimension.axis_code
+      
+      # optional parameters
+      _nef_spectrum_dimension.spectrometer_frequency
+      _nef_spectrum_dimension.spectral_width
+      _nef_spectrum_dimension.value_first_point
+      _nef_spectrum_dimension.folding
+      _nef_spectrum_dimension.absolute_peak_positions
+      _nef_spectrum_dimension.is_acquisition
+      
+  # key: dimension_id
+
+      1  ppm  1H   500.139  10.4    9.9 circular  true    false
+      2  ppm 15N    98.37   30.7  127.0 circular  true    false
+      3  ppm 13C      .       .      .  .         .       .
+      4  ppm 13C      .       .      .  .         .       .
+      5  ppm 13C      .       .      .  .         .       .
+      6  ppm 13C      .       .      .  .         .       .
+      7  ppm 13C      .       .      .  .         .       .
+      8  ppm 13C      .       .      .  .         .       .
+      9  ppm 13C      .       .      .  .         .       .
+     10  ppm 13C      .       .      .  .         .       .
+     11  ppm 13C      .       .      .  .         .       .
+     12  ppm 13C      .       .      .  .         .       .
+     13  ppm 13C      .       .      .  .         .       .
+     14  ppm 13C      .       .      .  .         .       .
+     15  ppm 13C      .       .      .  .         .       .
+  stop_
+
+
+# Peak lists can in theory be up to 15D
+# No spectra are 15D, of course, but some automatic assignment programs
+# can produce data as 15D peak lists. This is unlikely ever to matter in practice,
+# but the relevant loop tags are defined up to 15D - you just skip the ones you do not want.
+# and ignore spectra of too high dimensionality
+
+  loop_
+
+      _nef_peak.ordinal
+      _nef_peak.peak_id
+      _nef_peak.volume
+      _nef_peak.volume_uncertainty
+      _nef_peak.height
+      _nef_peak.height_uncertainty
+      _nef_peak.position_1
+      _nef_peak.position_uncertainty_1
+      _nef_peak.position_2
+      _nef_peak.position_uncertainty_2
+      _nef_peak.position_3
+      _nef_peak.position_uncertainty_3
+      _nef_peak.position_4
+      _nef_peak.position_uncertainty_4
+      _nef_peak.position_5
+      _nef_peak.position_uncertainty_5
+      _nef_peak.position_6
+      _nef_peak.position_uncertainty_6
+      _nef_peak.position_7
+      _nef_peak.position_uncertainty_7
+      _nef_peak.position_8
+      _nef_peak.position_uncertainty_8
+      _nef_peak.position_9
+      _nef_peak.position_uncertainty_9
+      _nef_peak.position_10
+      _nef_peak.position_uncertainty_10
+      _nef_peak.position_11
+      _nef_peak.position_uncertainty_11
+      _nef_peak.position_12
+      _nef_peak.position_uncertainty_12
+      _nef_peak.position_13
+      _nef_peak.position_uncertainty_13
+      _nef_peak.position_14
+      _nef_peak.position_uncertainty_14
+      _nef_peak.position_15
+      _nef_peak.position_uncertainty_15
+      _nef_peak.chain_code_1
+      _nef_peak.sequence_code_1
+      _nef_peak.residue_type_1
+      _nef_peak.atom_name_1
+      _nef_peak.chain_code_2
+      _nef_peak.sequence_code_2
+      _nef_peak.residue_type_2
+      _nef_peak.atom_name_2
+      _nef_peak.chain_code_3
+      _nef_peak.sequence_code_3
+      _nef_peak.residue_type_3
+      _nef_peak.atom_name_3
+      _nef_peak.chain_code_4
+      _nef_peak.sequence_code_4
+      _nef_peak.residue_type_4
+      _nef_peak.atom_name_4
+      _nef_peak.chain_code_5
+      _nef_peak.sequence_code_5
+      _nef_peak.residue_type_5
+      _nef_peak.atom_name_5
+      _nef_peak.chain_code_6
+      _nef_peak.sequence_code_6
+      _nef_peak.residue_type_6
+      _nef_peak.atom_name_6
+      _nef_peak.chain_code_7
+      _nef_peak.sequence_code_7
+      _nef_peak.residue_type_7
+      _nef_peak.atom_name_7
+      _nef_peak.chain_code_8
+      _nef_peak.sequence_code_8
+      _nef_peak.residue_type_8
+      _nef_peak.atom_name_8
+      _nef_peak.chain_code_9
+      _nef_peak.sequence_code_9
+      _nef_peak.residue_type_9
+      _nef_peak.atom_name_9
+      _nef_peak.chain_code_10
+      _nef_peak.sequence_code_10
+      _nef_peak.residue_type_10
+      _nef_peak.atom_name_10
+      _nef_peak.chain_code_11
+      _nef_peak.sequence_code_11
+      _nef_peak.residue_type_11
+      _nef_peak.atom_name_11
+      _nef_peak.chain_code_12
+      _nef_peak.sequence_code_12
+      _nef_peak.residue_type_12
+      _nef_peak.atom_name_12
+      _nef_peak.chain_code_13
+      _nef_peak.sequence_code_13
+      _nef_peak.residue_type_13
+      _nef_peak.atom_name_13
+      _nef_peak.chain_code_14
+      _nef_peak.sequence_code_14
+      _nef_peak.residue_type_14
+      _nef_peak.atom_name_14
+      _nef_peak.chain_code_15
+      _nef_peak.sequence_code_15
+      _nef_peak.residue_type_15
+      _nef_peak.atom_name_15
+      
+  key: ordinal
+
+ 1  1 7.3E7 5.1E6 3.3E7 1.1E6  
+ 7.2 0.05 119.5 0.4 28.3 0.3 172.2 0.5 58.5 0.4 32.3 0.4 22.2 0.5 58.5 0.4 32.3 0.4 22.2 0.5 58.5 0.4 32.3 0.4 22.2 0.5 58.5 0.4 32.3 0.4  
+ A 19 LEU HN A 19 LEU N A 18 GLN C  A 19 LEU CA A 19 LEU CB A 19 LEU CG  A 19 LEU CD1 A 19 LEU CD2 A 19 LEU CG A 19 LEU CA A 19 LEU CB A 19 LEU CG A 18 GLN CA A 18 GLN CB A 18 GLN CG 
+  stop A 18 GLN CG_
 
 # Peaks 1 and 5 have ambiguous assignments.
 
