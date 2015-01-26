@@ -243,36 +243,36 @@ save_nef_chemical_shift_list_1
   # key: chain_code, sequence_code, atom_name
 
       A	15	GLY	QA	 3.42	0.02
-      A 17      VAL     HG#      0.73   0.02
-      A 17      VAL     CG#     22.1    0.3
+      A 17      VAL     HG%      0.73   0.02
+      A 17      VAL     CG%     22.1    0.3
       A 18      PHE     HB2      2.87   0.02
       A 18      PHE     HB3      2.42   0.02
       A 19      LEU     HBX      2.13   0.02
       A 19      LEU     HBY      2.51   0.02
-      A 19      LEU     HDX#     0.87   0.02
-      A 19      LEU     HDY#     0.73   0.02
+      A 19      LEU     HDX%     0.87   0.02
+      A 19      LEU     HDY%     0.73   0.02
       A 19      LEU     CDX     17.4    0.3
       A 19      LEU     CDY     18.7    0.3
       A 21      ALA     HA       4.17   0.02
       A 21      ALA     H        8.33   0.02
-      A 21      ALA     HB#      1.34   0.02
+      A 21      ALA     HB%      1.34   0.02
       A 23      LYS     HA       4.27   0.02
       A 23      LYS     H        8.45   0.04
       A 23      LYS     CA      43.2    0.25
       A 23      LYS     N      123.45   0.4
-     @1 SS@231  GLX?    CAi-1   48.2     ?
+     @1 SS@231  GLX?    CAi-1   48.2     .
   stop_
 
 # The atom_name by itself serves to distinguish between real atoms ('HA'),
-#  pseudoatoms ('QA'), sets of atoms ('HB#'), sterospecifically assigned atoms
+#  pseudoatoms ('QA'), sets of atoms ('HB%'), sterospecifically assigned atoms
 # ('HB2'), and non-stereospecifically assigned atoms ('HBX').
 # In the example, Phe 18 HB2/HB3 are stereospecifically assigned, while Leu 19
 # is not.
 # Gly 15 QA is a pseudoatom, i.e. an atom at the HA2/HA3 centroid with zero van
 # der Waals radius.
-# Val 17 HG#/CG# show two methyl groups that overlap in both carbon and proton
+# Val 17 HG%/CG% show two methyl groups that overlap in both carbon and proton
 # dimensions.
-# 19 LEU HDX# is the mnethyl bound to CDX (and not to CDY).
+# 19 LEU HDX% is the methyl bound to CDX (and not to CDY).
 # The last shift (with chain_code @1) is an unassigned but observed resonance,
 
 save_
@@ -325,13 +325,12 @@ save_nef_distance_restraint_list_L1
 
   # key: ordinal
 
-    1  1  .   A 21   ALA  HB#  A 17  VAL  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
-    2  1  .   A 21   ALA  HB#  A 18  LEU  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
-    3  1  .   A 22   THR  HG2# A 17  VAL  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
-    4  1  .   A 22   THR  HG2# A 18  LEU  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
+    1  1  .   A 21   ALA  HB%  A 17  VAL  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
+    2  1  .   A 21   ALA  HB%  A 18  LEU  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
+    3  1  .   A 22   THR  HG2% A 17  VAL  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
+    4  1  .   A 22   THR  HG2% A 18  LEU  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
     5  5  .   A 18   PHE  HB2  A 24  ASP  HBX 1.00 2.8  0.4   1.5  2.0  3.2  3.7
     6  8  .   A 18   PHE  HB2  A 24  ASP  HBY 1.00 4.4  0.4   3.6  4.1  5.2  5.7
-    6  8  .   E 6B   SER  HB2  A 24  ASP  HBY 1.00 4.4  0.4   3.6  4.1  5.2  5.7
   stop_
 
   # The first column (ordinal) is a consecutive line number that does not persist  

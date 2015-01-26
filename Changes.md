@@ -13,10 +13,11 @@ Change log
 		now be given as '.', which translates as null (None)
 	* mandatory and optional tags and key columns for loops defined and given in
 		Commented_Example.nef
-	* The convention of starting references to saveframes with a '$' is NOT 
+	* The convention of starting references to saveframes with a '$' is NOT
 		supported any longer.
 	* added ordinal column to peak and restraint lists to provide unique
 		identifier for each line
+	* Changed atomset wildcard from '#' (e.g. ALA HB#) to '%' (e.g. ALA HB%)
 
 **Version 0.7**
 
