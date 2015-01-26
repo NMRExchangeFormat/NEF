@@ -372,7 +372,7 @@ save_nef_dihedral_restraint_list_L2
   # Optional parameter:
   _nef_dihedral_restraint_list.restraint_origin     talos
   # The restraint_origin describes the origin or source of the restraints. For
-  # distance restraints likely values would be 'talos', 'jcoupling'
+  # distance restraints likely values would be 'chemical_shift', 'jcoupling'
 
   loop_
     # Mandatory parameters, except for restraint_combination_id

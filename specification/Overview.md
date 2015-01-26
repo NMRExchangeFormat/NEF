@@ -78,7 +78,7 @@ The first sections present general issues that are not linked to a specific part
     (e.g. "_chemical_shift_list.cyana_specific_tag" or
     _chemical_shift.ccpn_specific_column).
 
-  4. Mandatory contents
+  4. NEF Format versions
 
     We propose to divide format versions in major and minor, with both running as consecutive integers (e.g. 1.0, ... 1.8, 1.9, 1.10, 1.11, ... ... 1.314, ...). Minor version changes to the format should be incremental and non-breaking, so that code that reads version 1.4 more or less automatically will read version 1.3 also. This includes not having duplicate storage slots, so that the same information would be found in the same place in both versions. This only holds for public tags, program-specific tags can be changed freely by the program owner.
 
@@ -125,13 +125,18 @@ The first sections present general issues that are not linked to a specific part
 
     2.  Potential types (parabolic, log-normal, ...)  are given for the entire list, as these determine the number and kind of parameters. This means that restraints using different potential types must be given in separate lists.
 
-    3.  We will have column names for the parameters used by most common potential types, specifically 'target_value', ' target_value_uncertainty', 'lower_limit', 'upper_limit', lower_linear_limit', and 'upper_linear_limit'. target_value and target_value_uncertainty are mandatory (but can be given as '?' where undefined), the others are optional and should only be added to the loop where necessary.
+    3. The restraint_origin tag is used to distinguish restraints derived from
+    different types of sources. We reecommend to use one of teh values given here,
+    but additional values can be added if none of these are appropriate. Values:
+    'noe', 'hbond', 'mutation', 'shift_perturbation'
 
-    4.  Each line (sub-restraint) of the table has its own independent parameters (weight, target_value, upper_limit, etc.), although in most common cases the values will be identical on lines that belong to the same restraint. It is up to each program to deal with the data as they are.
+    4.  We will have column names for the parameters used by most common potential types, specifically 'target_value', ' target_value_uncertainty', 'lower_limit', 'upper_limit', lower_linear_limit', and 'upper_linear_limit'. target_value and target_value_uncertainty are mandatory (but can be given as '?' where undefined), the others are optional and should only be added to the loop where necessary.
 
-    5.  In the most common case, sub-restraints within the same restraint are treated as ambiguous, and can be OR'ed or summed as the program may prefer.  For a discussion of more complex restraint logic, using the restraint_combination_id, see section 6.
+    5.  Each line (sub-restraint) of the table has its own independent parameters (weight, target_value, upper_limit, etc.), although in most common cases the values will be identical on lines that belong to the same restraint. It is up to each program to deal with the data as they are.
 
-    6. The current draft supports the potential types
+    6.  In the most common case, sub-restraints within the same restraint are treated as ambiguous, and can be OR'ed or summed as the program may prefer.  For a discussion of more complex restraint logic, using the restraint_combination_id, see section 6.
+
+    7. The current draft supports the potential types
 
       - 'log-harmonic'
 
@@ -183,13 +188,18 @@ The first sections present general issues that are not linked to a specific part
       The formulae and parameters for the last four follow obviously from the
       preceding definitions.
 
+
   3. Regarding Section 6. Optional: **Dihedral restraint lists(s)**
 
-    1. The ordinal column is a series of consecutive integers that serve to
+    1.The restraint_origin describes the origin or source of the restraints.
+      We recommend using one of teh values given below, but if these do
+      not fit, others may be added. Values: 'chemical_shift', 'jcoupling'.
+
+    2. The ordinal column is a series of consecutive integers that serve to
      make each line unique. These values are *not* preserved when reading and
      re-writing data.
 
-    2.  In the most common case, sub-restraints within the same restraint_id  
+    3.  In the most common case, sub-restraints within the same restraint_id  
     are treated as ambiguous. This amounts to combining them with an OR
     statement.  There are cases where it is necessary to combine sub-restraints
     with an AND, e.g.  for dihedral restraints where the molecule must be
@@ -205,29 +215,37 @@ The first sections present general issues that are not linked to a specific part
     the restraint_combination_id allows you to describe restraints as
     [(a AND b) OR (c AND d) OR e] etc.
 
-    3. The  _nef_dihedral_restraint.name column gives the standard name of the
+    4. The  _nef_dihedral_restraint.name column gives the standard name of the
     corresponding dihedral ('PHI', 'PSI', 'OMEGA', 'CHI1', 'CHI2', ...).
     This column is an information field, that sup-lements but does *NOT* replace
     or override the atom designations.
 
   4. Regarding Section 7. Optional: **RDC restraint lists(s)**
 
-    1. The ordinal column is a series of consecutive integers that serve to
+    1.  The orientation tensor is indicated by giving the chain_code,
+      sequence_code, and residue_type for the residue used to give the
+      orientation tensor in coordinate files. The residue_type should be TNSR.
+      Tensor values are given as magnitude and rhombicity.
+
+    2. The RDC estraint list can also be used to give non-reduced dipolar
+    couplings.
+
+    3.The restraint_origin describes the origin or source of the restraints.
+    We recommend using one of the values given below, but if these do
+    not fit, others may be added. The value 'measured' should typically be  
+    sufficient.
+
+    4. The ordinal column is a series of consecutive integers that serve to
      make each line unique. These values are *not* preserved when reading and
      re-writing data.
 
-    1.  RDC's should be given unscaled (i.e. the values actually measured), and
+    5.  RDC's should be given unscaled (i.e. the values actually measured), and
     with proper signs (i.e. NH RDC's should list a positive value for decreasing
     splitting whereas CH RDC's should list a positive value for increasing
-    splitting).
+    splitting). The 'scale' column gives the scaling constant used.
 
-    2.  The orientation tensor is indicated by giving the chain_code,
-    sequence_code, and residue_type for the residue used to give the
-    orientation tensor in coordinate files. The residue_type should be TNSR.
-    Tensor values are given as magnitude and rhombicity.
-
-    3. The RDC estraint list can also be used to give non-reduced dipolar
-    couplings.
+    6.  The distance_dependent column shows whether the mesurement depends on
+    a variable ineratom distance.
 
   5. Regarding Section 8. Optional: **Peak lists(s)**
 

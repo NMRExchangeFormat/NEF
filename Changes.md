@@ -13,10 +13,17 @@ Change log
 		now be given as '.', which translates as null (None)
 	* mandatory and optional tags and key columns for loops defined and given in
 		Commented_Example.nef
-	* The convention of starting references to saveframes with a '$' is NOT 
-		supported any longer.
+	* The convention of starting references to saveframes with a '$' is NOT	supported any longer.
 	* added ordinal column to peak and restraint lists to provide unique
 		identifier for each line
+
+
+* Added new tags
+	* Added restraint_origin tag to _nef_dihedral_restraint_list, _nef_distance_restraint_list, _nef_rdc_restraint_list
+	* Added _nef_rdc_restraint.distance_dependent and _nef_rdc_restraint.scale
+	* Explicitly expanded _nef_peak loop to support up to 15D peaks
+	* _nef_nmr_meta_data.uuid, uniquely identifying the specific version of the data
+	
 
 **Version 0.7**
 
