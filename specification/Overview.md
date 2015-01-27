@@ -24,7 +24,8 @@ organised by data category (saveframe).
 
     2.  sequence_code is a string, not an integer. It is recommended to use
     consecutive numbers along a chain, or, failing that, to put any alt_codes
-    as suffixes (as in '127B').
+    as suffixes (as in '127B'). It is encouraged to use the same chain code only
+    for groups of residues that are bound to each other.
 
     3.  sequence_codes, too, must be consistently used throughout the file. It
     follows that any program-specific numberings must be given and used in the
@@ -32,7 +33,14 @@ organised by data category (saveframe).
     deposition must preserve the original names (possibly using a
     deposition-specific namespace for the new names).
 
-    4.  For the common standard residues (22 amino acids, 4 DNA and 4 RNA nucleotides) the NEF standard will adopt the IUPAC nomenclature for residue types and wwPDB nomenclature for  variants, as well as IUPAC atom names. For the standard residues we will use UPPER-CASE for atom names. For non-standard residues applications can make their own choices, although IUPAC or wwPDB nomenclature is recommended. It has to be decided which variants are formally part of the standard.
+    4.  For the common standard residues (22 amino acids, 4 DNA and 4 RNA
+	nucleotides) the NEF standard will adopt the IUPAC nomenclature for
+	residue types, as well as IUPAC atom names. For the standard residues we
+	will use UPPER-CASE for atom names. For non-standard residues applications
+	can make their own choices, although IUPAC or wwPDB nomenclature is
+	recommended. For the current proposal residue variants are specified using
+	a small subset of the RCSB residue variant codes (see below). It remains an
+	outstanding issue whether this should be changed or expanded.
 
     5.  residue_type must be specified as the basic type in all cases (e.g. use
       HIS regardless of protonation state).
@@ -59,16 +67,35 @@ organised by data category (saveframe).
       and 'b') is not supported. In NMR-STAR terms X and Y suffixes correspond
       to ambiguity codes 2 (geminal atoms) and 3 (symmetrical aromatic rings).
 
-    9.  Sets of atoms can be represented by using atom names with wildcards. We propose to support two kinds of wildcards: '%' for 'any sequence of digits', and '\*' for 'any whitespace-free string'. In normal current usage wildcard expressions will be used for NMR-equivalent atoms, and '\*' expressions must only  be used where '%' expressions would not suffice. In practice this means that all common cases of equivalent atoms are expressed with '%' (ALA HB%, ASN HB%, ASN HD%, LEU HD1%, LEU HD%, LEU CD%, TYR CD%, TYR HD%, LYS HZ%, ...). Notably N-terminal -NH3+ would be 'H%'.  '\*' would only be used where necessary, mainly for 'H\*', 'C\*', '\*',  ... (all protons, all carbons,  all atoms, etc.).
+    9.  Sets of atoms can be represented by using atom names with wildcards.
+    There are two kinds of wildcards: '%' for 'any sequence of digits', and
+    '\*' for 'any whitespace-free string'. In normal current usage '%' wildcard
+    expressions will be used for NMR-equivalent atoms, and '\*' expressions must
+    only  be used where '%' expressions would not suffice. In practice this
+    means that all common cases of equivalent atoms are expressed with '%'
+    (ALA HB%, ASN HB%, ASN HD%, LEU HD1%, LEU HD%, LEU CD%, TYR CD%, TYR HD%,
+    LYS HZ%, ...). Notably N-terminal -NH3+ would be 'H%'.  '\*' would only be
+    used where necessary, mainly for 'H\*', 'C\*', '\*',  ... (all protons, all
+    carbons,  all atoms, etc.).
 
-    10. IUPAC pseudoatom names (ALA MB, SER QB, etc.) would be reserved for the original meaning, i.e. a separate atom positioned at the centroid with zero van der Waals radius. A restraint to ALA MB would be different from one to ALA HB%, and it would be an error to confuse them. E.g. ALA MB and ALA HB% can both appear in the same shift list, if both are needed e.g. in different restraint lists.
+    10. IUPAC pseudoatom names (ALA MB, SER QB, etc.) are reserved for the
+    original meaning, i.e. a separate atom positioned at the centroid with zero
+    van der Waals radius. A restraint to ALA MB would be different from one to
+    ALA HB%, and it would be an error to confuse them. E.g. ALA MB and ALA HB%
+    can both appear in the same shift list, if both are needed e.g. in different
+    restraint lists.
 
-    11. Pseudoatom/wildcard names, stereospecific or non-stereospecific atom names can coexist for the same atom in the same file, but the proper name must be used with its defined meaning throughout the NEF file. It follows that when renaming the atoms to stereospecific entities, e.g. once the coordinates are known, the program must also maintain the name previously used to preserve continuity.
+    11. Pseudoatom/wildcard names, stereospecific or non-stereospecific atom
+    names can coexist for the same atom in the same file, but the proper name
+    must be used with its defined meaning throughout the NEF file. It follows
+    that when renaming the atoms to stereospecific entities, e.g. once the
+    coordinates are known, the program must also maintain the name previously
+    used to preserve continuity.
 
       The RCSB has agreed to store an 'nef_atom_name' alongside the existing
     atom identifier ('_atom_site.label_atom_id' ?)' in separate tags in the
     coordinate file, where nef_atom_name refers to the name used in the NEF
-    file. Individual models in the ensemble can thus each have their own unique
+    file. Individual models in an ensemble can thus each have their own unique
     combinations of nef_atom_name and label_atom_id, allowing for floating
     stereospecific assignments that can vary between the individual models in
     the ensemble.  
@@ -116,8 +143,8 @@ organised by data category (saveframe).
   3. Program-specific namespaces
 
     We will define and register prefixes for programs to use in program-specific
-    data, that other programs may ignore. We would propose simple prefixes  
-    like 'ccpn', 'cyana', 'amber', 'xplor', 'aria', etc.  For saveframes the
+    data, that other programs may ignore. We would propose simple prefixes like
+    'ccpn', 'cyana', 'amber', 'xplor', 'aria', etc.  For saveframes the
     saveframe_category would start with the prefix (cyana_special_frame,
     ccpn_special_frame etc.), and would be used for saveframe names
     ('save_cyana_special_frame_1'), and tag prefixes
@@ -136,7 +163,6 @@ organised by data category (saveframe).
     nef_chemical_shift_list. A file whose chemical shift list(s) contain no
     data is technically valid, but will not be accepted for deposition.
 
-
   5. Single and multiple files
 
     Each data block is a self-contained project description, and must have a
@@ -152,10 +178,9 @@ organised by data category (saveframe).
     put in empty molecular descriptions.
 
     Programs must faithfully read and (re-)export the information they use.
-    Information that is not used should be kept and re-exported if possible but
-    may be omitted.
-    Programs should not re-export incorrect values for information they do not use
-    (e.g. truncated residue names, partial sequences, ...)
+    Information that is not used may be omitted; it is preferable to keep
+	and re-export it, but not if this makes the exported file inconsistent or
+	the data are incorrectly reproduced.
 
   6. Field values and data types
     1. Unlike NMR-STAR, the dollar sign ('$') is *not* used as a prefix to
@@ -185,31 +210,143 @@ organised by data category (saveframe).
       version, and that separate upgrade and downgrade routines be produced to
       convert between major versions.
 
+### Data Types
+
+  * Basic string types
+    1. ALl string values are limited to printable 7-bit ASCII characters
+    (codes 32 to 126 inclusive), plus line breaks for multiline strings.
+
+    2. sf_framecodes are limited to values that can be written in STAR without
+    the use of quotes. This means strings that do not contain whitespace,
+    single or double quotes ('"), or the hash sign (#), and tha do not start
+    with any of the following strings : '_', 'data_', 'save_', 'loop_', 'stop_'
+
+  * Enumerated types:
+
+    1. Booleans: 'true', 'false'
+
+    2. Potential types: 'undefined','log-harmonic','parabolic',
+    'square-well-parabolic', 'square-well-parabolic-linear',
+    'upper-bound-parabolic', 'lower-bound-parabolic',
+    'upper-bound-parabolic-linear',  'lower-bound-parabolic-linear'
+
+    3. _nef_sequence.linking: 'start', 'end', 'middle', 'cyclic', 'break',
+      'single', 'dummy'
+
+    4. _nef_spectrum_dimension.folding: 'circular', 'mirror', 'none'
+
+    5. _nef_spectrum_dimension_transfer.transfer_type: 'onebond', 'jcoupling',
+    'jmultibond', 'relayed', 'relayed-alternate', 'through-space'
+
+  * Open enumerations (suggested values, but other values allowed):
+
+    1. _nef_distance_restraint_list.restraint_origin: 'noe', 'hbond', 'mutation',
+    'shift_perturbation', ...
+
+    2. _nef_dihedral_restraint_list.restraint_origin: 'chemical_shift',
+    'jcoupling', ...
+
+    3. _nef_dihedral_rdc_list.restraint_origin: 'measured', ...
+
+    4. _nef_spectrum_dimension.axis_code NBNB Isotope code of form '1H,' '13C',
+    Jcoupling of the form J(HH), J(HC), Multi-quantum coherence of the form
+    DQ(HH), DQ(CC), etc., 'delay', 'temperature', 'concentration'
+
+    5. _nef_spectrum_dimension.axis_unit 'hz', 'ppm', 'point', 'K', 's', 'M', ...
+
+
+    6. _nef_nmr_spectrum.experiment_classification: The CCPN experiment
+    classification includes several hundred names. CCPN will
+
+  - _nef_nmr_spectrum.experiment_type: Do we have, or want, an enumeration for this?
+
+  Proposal: Leave unconstrained, but prepare a table of known classification, trivialname, magnetisation-transfer combinations.
+
 
 
 ### Specific questions for the NEF draft example files
 
-  1. Regarding Section 3. Mandatory: **Molecular system**
+  * Regarding Section 3. Mandatory: **Molecular system**
 
     1.  There is only one molecular system per project. Different complexes,
     ligands, etc. are handled by using different chain codes.
 
-    2.  The _sequence loop is a compromise between a full, complex topology description and simply assuming linear polymers - see the example files, section 3. Of the three information columns the residue_type is always the canonical name, while the residue_variant shows variants, according to the wwPBD system. The linking column shows linear connection information, and can have the following values:
+    2.  The _sequence loop is a compromise between a full, complex topology
+    description and simply assuming linear polymers - see the example files,
+    section 3. The \_nef\_sequence.residue\_type is always the
+    canonical name (e.g. 'HIS' regardless of protonation state or chain
+    position).The \_nef\_sequence.linking column shows linear connection
+    information, and can have the following values:
+      - 'start' : the N-terminal or 5' end of a linear polymer
+      - 'end' : the C-terminal or 3' end of a linear polymer
+      - 'middle' : non-terminal residue in a linear polymer
+      - 'single' : not part of a linear polymer.
+      - 'cyclic' : first and last residue of a cyclic linear polymer; the
+        second 'cyclic' residue precedes the first cyclic residue in the
+        sequence
+      - 'break' : used instead of 'start' or 'end for linear sequences that do
+        not end with a standard start/end residue.
+      - 'dummy' : A residue that is not part of the sequence proper,
+        e.g.  TNSR residue, or a linker residue (as used e.g. in CYANA).
+        Dummy residues should that do not have a specific ype (e.g. TNSR) should
+        use code UNK.
 
-      - 'start' - meaning the N-terminal or 5' end of a linear polymer
-      - 'end' - meaning the C-terminal or 3' end of a linear polymer
-      - 'single' - meaning not connected to anything,
+        A sequence of 'middle' residues must be capped at both ends by 'start',
+        'end', 'cyclic', or 'break' residues. Residues of type 'single' must
+        be given outside these sequences. Sequences flanked by a
+        'start'-'end' pair or a 'cyclic'-'cyclic' pair denote a linear or
+         cyclic linear polymer, respectively.
+        The 'break' keyword is used when the first or last residue in a linear
+        stretch is not a chain terminal variant. This might be
+        the case when only part of a sequence is given (discouraged but
+        possible), or when the next link is not a linear polymer link. Guy
+        Montelione (thanks!) gave an interesting example where the terminal
+        -NH3 group was in an amide bond to a glutamate side chain in the same
+        chain; this topology would be given as
+        'break-middle-middle-middle- ... -middle-end'
 
-      The cross_linking column shows cross-linking state and can have two values (for now):
+        By default residue variants are assumed to be the pH 7 forms,
+        specifically fully protonated HIS, LYS, ARG and N-terminus,
+        deprotonated ASP, GLU, and C-terminus, and deprotonated or disulfide
+        linked CYS (the PDB residue variants codes makes no distinction between
+        the two cases). The default types correspond to the DYANA types 'ARG+',
+        'ASP-', 'CYSS', 'GLU-', HIST+', 'LYS+',   The optional residue_variant column can be used for
+        specifying protonation states when these are known and different from
+        the default.
 
-      - 'link' - meaning involved in a link that is not part of a linear polymer.
-      - 'disulfide' - meaning specifically forming a disulfide link.
+        The RCSB system requires a short introduction. The names are in three
+        parts, connected by underscores:
+          - first the three-letter residue code.
+          - second a backbone configuration marker, with the relevant values:
+            - 'LL' (L-amino acid, in middle of chain)
+            - 'LSN3' (L-amino acid, at start of chain, N-terminal protonated)
+            - 'LEO2' (L-amino acid, at end of chain, deprotonated C terminus)
+            - 'LEO2H' (L-amino acid, at end of chain, protonated C terminus)
+          - third a string showing which proton has been removed from the fully
+            protonated form.
 
-      Other relevant information on the linking state can be found in the residue_variant column and the covalent_links loop below.
+      See table below for supported variant codes.
 
-    3.  The residue numbers given are author values, and do not have to be consecutive, or even integers. However, a sequence of consecutive residues beginning with a  'start' linking and ending with an 'end' linking form a connected  linear polymer in order. It is discouraged to use the same chain code for residues that are not bound to the others in the chain. Covalently bound residues that do not form part of a regular chain (e.g. side-chain-linked carbohydrates) can be given after the 'end' residue to show they are not part of the chain proper.
+    3. Covalent cross-links
+      Covalent links that are not part of a linear polymer chain are given in
+      the covalent_links loop, which shows which atoms are directly bound.
+      It is not shown which of the atoms from the original template are missing,
+      if desired this information must be inferred.
 
-  2. Regarding Section 5. Optional: **Distance restraint lists(s)**
+Residue_type | dyana_type | protonation_code | example | comment
+--- | --- | --- | --- | ---
+ARG | ARG | DHH12 | ARG_LL_DHH12 | side chain deprotonated
+ASP | ASP | *None* | ASP_LL | side chain protonated
+CYS | CYS | *None* | CYS_LL | side chain protonated
+GLU | GLU | *None* | GLU_LL | side chain protonated
+HIS | HIS | DHE2 | HIS_LL_DHE2 | side chain neutral, proton on ND1
+HIS | HIST | DHD1 | HIS_LL_DHD1 | side chain neutral, proton on NE2
+LYS | LYS | DHZ3 | LYS_LL_DHZ3 | side chain deprotonated
+**Supported residue variant codes**:
+Note that each comes in four different versions, 'LL', 'LSN3', 'LEO2', and
+'LEO2H'
+
+  * Regarding Section 5. Optional: **Distance restraint lists(s)**
 
     1. The ordinal column is a series of consecutive integers that serve to
     make each line unique. These values are *not* preserved when reading and
@@ -260,7 +397,7 @@ organised by data category (saveframe).
       - 'square-well-parabolic'
 
          *Parameters*: upper_limit, lower_limit
-                       (optionally: target_value, target_value_error)
+          (optionally: target_value, target_value_error)
 
          *Formula*:
 
@@ -271,12 +408,12 @@ organised by data category (saveframe).
       - 'square-well-parabolic-linear'
 
          *Parameters*: upper_limit, lower_limit, upper_linear_limit,
-              lower_linear_limit, (optional: target_value, target_value_error)
+          lower_linear_limit, (optional: target_value, target_value_error)
 
          *Formula*:
 
           If upper_limit = u, upper_linear_limit = u2,
-             lower_limit = l, lower_linear_limit = l2:
+            lower_limit = l, lower_linear_limit = l2:
 
           E = 2k(u2-u)(r - (u2+u)/2) for r > u2
 
@@ -297,7 +434,7 @@ organised by data category (saveframe).
       The formulae and parameters for the last four follow obviously from the
       preceding definitions.
 
-  3. Regarding Section 6. Optional: **Dihedral restraint lists(s)**
+  * Regarding Section 6. Optional: **Dihedral restraint lists(s)**
 
     1. The ordinal column is a series of consecutive integers that serve to
      make each line unique. These values are *not* preserved when reading and
@@ -324,7 +461,7 @@ organised by data category (saveframe).
     This column is an information field, that sup-lements but does *NOT* replace
     or override the atom designations.
 
-  4. Regarding Section 7. Optional: **RDC restraint lists(s)**
+  * Regarding Section 7. Optional: **RDC restraint lists(s)**
 
     1. The ordinal column is a series of consecutive integers that serve to
      make each line unique. These values are *not* preserved when reading and
@@ -333,7 +470,9 @@ organised by data category (saveframe).
     1.  RDC's should be given unscaled (i.e. the values actually measured), and
     with proper signs (i.e. NH RDC's should list a positive value for decreasing
     splitting whereas CH RDC's should list a positive value for increasing
-    splitting).
+    splitting). The scale column gives a scaling constant that is multiplied with
+	the measured value to give a set of values that can be compared, as used by
+	the program.
 
     2.  The orientation tensor is indicated by giving the chain_code,
     sequence_code, and residue_type for the residue used to give the
@@ -343,7 +482,7 @@ organised by data category (saveframe).
     3. The RDC estraint list can also be used to give non-reduced dipolar
     couplings.
 
-  5. Regarding Section 8. Optional: **Peak lists(s)**
+  * Regarding Section 8. Optional: **Peak lists(s)**
 
     1.  Each nmr_spectrum block can contain only one peak_list. If you want to
     give different peak lists for the same experiment, you must duplicate the
@@ -383,21 +522,21 @@ organised by data category (saveframe).
     peaks, 3D peaks etc. For e.g. a 3D peak list, tags for dimensions 4 and
     higher are simply omitted. The maximum possible dimension is 15.
 
-    1. The ordinal column is a series of consecutive integers that serve to
+    7. The ordinal column is a series of consecutive integers that serve to
     make each line unique. These values are *not* preserved when reading and
     re-writing data.
 
-    7.  Peak lists can choose to give height, volume or both to represent
+    8.  Peak lists can choose to give height, volume or both to represent
     intensity. If a peak table gives both values, it is up to the program and
     the restraint list section to indicate which value was used for restraint
     generation (if so desired).
 
-    8.  The current draft does not allow for storing  different transitions
+    9.  The current draft does not allow for storing  different transitions
     (multiplet components) within a single peak (multiplet). If this is desired
     at some point, the format can be extended, most likely with an additional
     _peak.component_id column or _peak.peak_group.
 
-  6. Regarding Section 9. Optional: **Linkage table for peaks and restraints**
+  * Regarding Section 9. Optional: **Linkage table for peaks and restraints**
   (one per project)
 
     1.  Links between peaks and restraints are given in the peak_restraint_link

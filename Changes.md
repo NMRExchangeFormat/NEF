@@ -18,6 +18,7 @@ Change log
 	* added ordinal column to peak and restraint lists to provide unique
 		identifier for each line
 	* Changed atomset wildcard from '#' (e.g. ALA HB#) to '%' (e.g. ALA HB%)
+	* Changed specification of sequence and amino acid variants.
 
 **Version 0.7**
 

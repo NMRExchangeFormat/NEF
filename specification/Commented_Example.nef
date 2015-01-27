@@ -159,42 +159,70 @@ save_nef_molecular_system
     _nef_sequence.chain_code
     _nef_sequence.sequence_code
     _nef_sequence.residue_type
-    _nef_sequence.residue_variant
     _nef_sequence.linking
-    _nef_sequence.cross_linking
+    _nef_sequence.residue_variant
 
-    A   13      ALA     ALA_LSN3  	start	.
-    A	14	TRP	.		.	.
-    A	15	GLY	.		.	.
-    A	16	ASN	.		.	.
-    A	17	VAL	.		.	.
-    A	18	PHE	.		.	.
-    A	19	LEU	.		.	.
-    A   20      CYS     CYS_LL_DHG	.	disulfide
-    A   21      ALA     .         	.	.
-    A   22      THR     THR_LL_DHG1    	.	link
-    A   23      LYS     LYS_LL		.	.
-    A   24      ASP     ASP_LL_DHD2     .	.
-    A   25      HIS     HIS_LEO2      	end	.
-    A	26	GLC	.  	  	.	link
-    B	17	CYS	CYS_LFZW_DHG	single	disulfide
-    C    1      ATP     .         	single	.
- # Manual comment: Pseudo-residues (tensor origin) added. 
-    C 900   TNSR     .      .       .    
+  # key: chain_code, sequence_code
+
+    A   13  ALA  	start		.
+    A	  14	TRP	  middle	.
+    A	  15	GLY	  middle	.
+    A	  16	ASN	  middle	.
+    A	  17	VAL	  middle	.
+    A	  18	PHE	  middle	.
+    A  	19	LEU	  middle		.
+    A   20  CYS   middle		.
+    A   21  ALA   middle		.
+    A   22  THR   middle		.
+    A   23  LYS   middle		.
+    A   24  ASP   middle		.
+    A   25  HIS   end			. 
+    A	  26	GLC	  single	.
+    B	  17	CYS		single	.
+    C    1  ATP   single		.
+ # Manual comment: Pseudo-residues (linkers and tensor origin) added. 
+    C  898  UNK   dummy			.
+    C  899  UNK   dummy			.
+    C  900  TNSR  dummy			.
+    D    1  GLY   cyclic		.
+    D    2  PRO   middle		.
+    D    3  ASP   middle		ASP_LL
+    D    4  GLY   middle		.
+    D    5  PRO   middle		.
+    D    6  ASP   cyclic		.
+    E    1  ASN   break			.
+    E    2  THR   middle		.
+    E    3  ALA   middle		.
+    E    4  PRO   middle		.
+    E    5  ALA   middle		.
+    E    6  GLU   middle		.
+    E    6B SER   middle		.
+    E    7  GLN   middle		.
+	E	 8	GLU	  middle		GLU_LL
+	E	 9	HIS	  middle		HIS_LL_DHD1
+	E	10	HIS	  middle		HIS_LL_DHE2
+	E	11	CYS	  middle		CYS_LL
+	E	12	LYS	  middle		LYS_LL_DHZ3
+	E	13	ARG	  end			ARG_LEO2_DHE
   stop_
 
 # Chain A is a linear dodecapeptide (15-25), disulfide linked to a single
 # cysteine, with a glucose linked to THR 22
 # The GLC is given with chaincode A, the CYS with code B; both forms are allowed
+#
 # Chain C is free ATP
 #
-# The residue_type is the canonical name, and the residue_variant shows specific
-# variants, using RCSB residue-variant codes..
-# The linking column shows information on how chains begin and end,
-# whereas the cross-linnking column shows the presence of crosslinks.
-# Currently two types are supported, 'disulfide' and generic 'link';
-# more could be added.
-
+# Chain D is a cyclic hexapeptide
+#
+# Chain E has an amide bond between the backbone N of ASN 1 and the side chain carboxylate
+# of GLU 6.
+#
+# residue_variants default to the pH 7 forms, specifically protonated LYS, ARG, HIS, and N-terminus
+# and deprotonated ASP, GLU, CYS, and C-terminus. 'deprotonated' CYS is generally assumed to be the 
+# disulfide form (The RCSB variant codes do not distinguish between disulfide and deprotonated CYS)
+# Chain E shows examples of how to specify the non-default forms supported by the NEF format.
+# Note that each variant comes in three forms: 'middle' (conntains '_LL'), 'end (contains '_LEO2'),
+# and 'start' (contains '_LSN3')
 
 # Covalent cross-links loop. Optional:
   loop_
@@ -211,6 +239,7 @@ save_nef_molecular_system
 
     A 20 CYS SD B 17 CYS SD
     A 22 THR OG1 A 26 GLC C1
+    E  1 ASN N   E  6 GLU CD
   stop_
 
 save_
@@ -296,7 +325,7 @@ save_nef_distance_restraint_list_L1
   _nef_distance_restraint_list.sf_category          nef_distance_restraint_list
   _nef_distance_restraint_list.sf_framecode         nef_distance_restraint_list_L1
 
-  _nef_distance_restraint_list.potential_type       square-well-parabolic
+  _nef_distance_restraint_list.potential_type       square-well-parabolic-linear
 
   loop_
     # Mandatory parameters, except for restraint_combination_id
@@ -331,6 +360,7 @@ save_nef_distance_restraint_list_L1
     4  1  .   A 22   THR  HG2% A 18  LEU  H   1.00 3.7  0.4   2.0  2.5  4.2  4.7
     5  5  .   A 18   PHE  HB2  A 24  ASP  HBX 1.00 2.8  0.4   1.5  2.0  3.2  3.7
     6  8  .   A 18   PHE  HB2  A 24  ASP  HBY 1.00 4.4  0.4   3.6  4.1  5.2  5.7
+    6  8  .   E 6B   SER  HB2  A 24  ASP  HBY 1.00 4.4  0.4   3.6  4.1  5.2  5.7
   stop_
 
   # The first column (ordinal) is a consecutive line number that does not persist  
