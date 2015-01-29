@@ -59,9 +59,9 @@ organised by data category (saveframe).
       and 'b') is not supported. In NMR-STAR terms X and Y suffixes correspond
       to ambiguity codes 2 (geminal atoms) and 3 (symmetrical aromatic rings).
 
-    9.  Sets of atoms can be represented by using atom names with wildcards. We propose to support two kinds of wildcards: '#' for 'any sequence of digits', and '\*' for 'any whitespace-free string'. In normal current usage wildcard expressions will be used for NMR-equivalent atoms, and '\*' expressions must only  be used where '#' expressions would not suffice. In practice this means that all common cases of equivalent atoms are expressed with '#' (ALA HB#, ASN HB#, ASN HD#, LEU HD1#, LEU HD#, LEU CD#, TYR CD#, TYR HD#, LYS HZ#, ...). Notably N-terminal -NH3+ would be 'H#'.  '\*' would only be used where necessary, mainly for 'H\*', 'C\*', '\*',  ... (all protons, all carbons,  all atoms, etc.).
+    9.  Sets of atoms can be represented by using atom names with wildcards. We propose to support two kinds of wildcards: '%' for 'any sequence of digits', and '\*' for 'any whitespace-free string'. In normal current usage wildcard expressions will be used for NMR-equivalent atoms, and '\*' expressions must only  be used where '%' expressions would not suffice. In practice this means that all common cases of equivalent atoms are expressed with '%' (ALA HB%, ASN HB%, ASN HD%, LEU HD1%, LEU HD%, LEU CD%, TYR CD%, TYR HD%, LYS HZ%, ...). Notably N-terminal -NH3+ would be 'H%'.  '\*' would only be used where necessary, mainly for 'H\*', 'C\*', '\*',  ... (all protons, all carbons,  all atoms, etc.).
 
-    10. IUPAC pseudoatom names (ALA MB, SER QB, etc.) would be reserved for the original meaning, i.e. a separate atom positioned at the centroid with zero van der Waals radius. A restraint to ALA MB would be different from one to ALA HB#, and it would be an error to confuse them. E.g. ALA MB and ALA HB# can both appear in the same shift list, if both are needed e.g. in different restraint lists.
+    10. IUPAC pseudoatom names (ALA MB, SER QB, etc.) would be reserved for the original meaning, i.e. a separate atom positioned at the centroid with zero van der Waals radius. A restraint to ALA MB would be different from one to ALA HB%, and it would be an error to confuse them. E.g. ALA MB and ALA HB% can both appear in the same shift list, if both are needed e.g. in different restraint lists.
 
     11. Pseudoatom/wildcard names, stereospecific or non-stereospecific atom names can coexist for the same atom in the same file, but the proper name must be used with its defined meaning throughout the NEF file. It follows that when renaming the atoms to stereospecific entities, e.g. once the coordinates are known, the program must also maintain the name previously used to preserve continuity.
 
@@ -132,7 +132,7 @@ organised by data category (saveframe).
   4. NEF Format versions
 
     A valid NEF data block must contain nef_nmr_meta_data, and a valid
-    nef_molecular_system saveframe. It must also contain at least one 
+    nef_molecular_system saveframe. It must also contain at least one
     nef_chemical_shift_list. A file whose chemical shift list(s) contain no
     data is technically valid, but will not be accepted for deposition.
 
