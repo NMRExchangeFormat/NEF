@@ -156,7 +156,7 @@ organised by data category (saveframe).
     (e.g. "_chemical_shift_list.cyana_specific_tag" or
     _chemical_shift.ccpn_specific_column).
 
-  4. NEF Format versions
+  4. Mandatory content
 
     A valid NEF data block must contain nef_nmr_meta_data, and a valid
     nef_molecular_system saveframe. It must also contain at least one
@@ -169,7 +169,8 @@ organised by data category (saveframe).
     unique name, in context. Data will normally be passed with one data block
     per file, and programs will read only the first nef data block they
     encounter. It is legal to have multiple data blocks in a file, but under
-    normal circumstances only one will be read.
+    normal circumstances only one will be read. Non-NEF data blocks may be
+    appended to the file to hold non-NEF information.
 
     The rules call for keeping data always in a single coherent file, but it is
     not possible to prevent users from gathering data from multiple files. The
@@ -190,7 +191,7 @@ organised by data category (saveframe).
     missing data - all missing data are indicted by a dot ('.'), which may be
     translated as a null value.
 
-  7. Format  versions
+  7. NEF Format versions
 
     We propose to divide format versions in major and minor, with both running
     as consecutive integers (e.g. 1.0, ... 1.8, 1.9, 1.10, 1.11, ... ... 1.314,
@@ -216,10 +217,10 @@ organised by data category (saveframe).
     1. ALl string values are limited to printable 7-bit ASCII characters
     (codes 32 to 126 inclusive), plus line breaks for multiline strings.
 
-    2. sf_framecodes are limited to values that can be written in STAR without
+    2. sf\_framecodes are limited to values that can be written in STAR without
     the use of quotes. This means strings that do not contain whitespace,
-    single or double quotes ('"), or the hash sign (#), and tha do not start
-    with any of the following strings : '_', 'data_', 'save_', 'loop_', 'stop_'
+    single or double quotes ('"), or the hash sign (#), and that do not start
+    with any of the following strings : '\_', 'data\_', 'save\_', 'loop\_', 'stop\_'
 
   * Enumerated types:
 
@@ -254,14 +255,14 @@ organised by data category (saveframe).
 
     5. _nef_spectrum_dimension.axis_unit 'hz', 'ppm', 'point', 'K', 's', 'M', ...
 
-
     6. _nef_nmr_spectrum.experiment_classification: The CCPN experiment
-    classification includes several hundred names. CCPN will
+    classification includes several hundred names. CCPN will provide a table of
+    systematic names, associated common names, and a brief description at a
+    later date.
 
-  - _nef_nmr_spectrum.experiment_type: Do we have, or want, an enumeration for this?
-
-  Proposal: Leave unconstrained, but prepare a table of known classification, trivialname, magnetisation-transfer combinations.
-
+    7. _nef_nmr_spectrum.experiment_type: This field should contain a common
+    name for the experiment and can be freely chosen. If anyone can propose a
+    standard list of such names we could consider proposing those as a standard.
 
 
 ### Specific questions for the NEF draft example files
@@ -433,11 +434,11 @@ Note that each comes in four different versions, 'LL', 'LSN3', 'LEO2', and
 
       The formulae and parameters for the last four follow obviously from the
       preceding definitions.
-      
+
   * Regarding Section 6. Optional: **Dihedral restraint lists(s)**
 
-    1.The restraint_origin describes the origin or source of the restraints.
-      We recommend using one of teh values given below, but if these do
+    1. The restraint_origin describes the origin or source of the restraints.
+      We recommend using one of the values given below, but if these do
       not fit, others may be added. Values: 'chemical_shift', 'jcoupling'.
 
     2. The ordinal column is a series of consecutive integers that serve to
@@ -455,14 +456,13 @@ Note that each comes in four different versions, 'LL', 'LSN3', 'LEO2', and
     the restraint_combination_id is valid across the entire table, so that you
     can select a single AND'ed group by looking only in the combination_id
     column.  Where it is not needed, the restraint_combination_id is left empty.
-
     Whereas the normal ambiguous restraint can be described as [a OR b OR c],
     the restraint_combination_id allows you to describe restraints as
     [(a AND b) OR (c AND d) OR e] etc.
 
     4. The  _nef_dihedral_restraint.name column gives the standard name of the
     corresponding dihedral ('PHI', 'PSI', 'OMEGA', 'CHI1', 'CHI2', ...).
-    This column is an information field, that sup-lements but does *NOT* replace
+    This column is an information field, that supplements but does *NOT* replace
     or override the atom designations.
 
   * Regarding Section 7. Optional: **RDC restraint lists(s)**

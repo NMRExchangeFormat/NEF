@@ -17,8 +17,6 @@ Change log
 		supported any longer.
 	* added ordinal column to peak and restraint lists to provide unique
 		identifier for each line
-	* Changed atomset wildcard from '#' (e.g. ALA HB#) to '%' (e.g. ALA HB%)
-	* Changed specification of sequence and amino acid variants.
 
 
 * Added new tags
@@ -26,7 +24,11 @@ Change log
 	* Added _nef_rdc_restraint.distance_dependent and _nef_rdc_restraint.scale
 	* Explicitly expanded _nef_peak loop to support up to 15D peaks
 	* _nef_nmr_meta_data.uuid, uniquely identifying the specific version of the data
-	
+
+
+* Further changes
+	* Changed atomset wildcard from '#' (e.g. ALA HB#) to '%' (e.g. ALA HB%)
+	* Changed specification of sequence and amino acid variants.
 
 **Version 0.7**
 

@@ -177,7 +177,7 @@ save_nef_molecular_system
     A   22  THR   middle		.
     A   23  LYS   middle		.
     A   24  ASP   middle		.
-    A   25  HIS   end			. 
+    A   25  HIS   end			.
     A	  26	GLC	  single	.
     B	  17	CYS		single	.
     C    1  ATP   single		.
@@ -204,7 +204,7 @@ save_nef_molecular_system
 	E	10	HIS	  middle		HIS_LL_DHE2
 	E	11	CYS	  middle		CYS_LL
 	E	12	LYS	  middle		LYS_LL_DHZ3
-	E	13	ARG	  end			ARG_LEO2_DHE
+	E	13	ARG	  end			ARG_LEO2_DHH12
   stop_
 
 # Chain A is a linear dodecapeptide (15-25), disulfide linked to a single
