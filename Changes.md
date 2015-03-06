@@ -1,6 +1,35 @@
 Change log
 ==========
 
+**Version 0.8**
+
+* Updated charter to reflect the discussion at the Rutgers 7/11-9/1 2015 meeting.
+
+* Basic format rules
+	* Datablock name must now start with 'nef_'
+	* All sf_framecode must now start with the name of the corresponding
+		sf_category
+	* '?' is no longer supported to mean 'not set' - all unset parameters must
+		now be given as '.', which translates as null (None)
+	* mandatory and optional tags and key columns for loops defined and given in
+		Commented_Example.nef
+	* The convention of starting references to saveframes with a '$' is NOT
+		supported any longer.
+	* added ordinal column to peak and restraint lists to provide unique
+		identifier for each line
+
+
+* Added new tags
+	* Added restraint_origin tag to _nef_dihedral_restraint_list, _nef_distance_restraint_list, _nef_rdc_restraint_list
+	* Added _nef_rdc_restraint.distance_dependent and _nef_rdc_restraint.scale
+	* Explicitly expanded _nef_peak loop to support up to 15D peaks
+	* _nef_nmr_meta_data.uuid, uniquely identifying the specific version of the data
+
+
+* Further changes
+	* Changed atomset wildcard from '#' (e.g. ALA HB#) to '%' (e.g. ALA HB%)
+	* Changed specification of sequence and amino acid variants.
+
 **Version 0.7**
 
 1. **Global nef name space**. All tags now start with '_nef_'.
