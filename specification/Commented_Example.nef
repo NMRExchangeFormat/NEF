@@ -194,7 +194,7 @@ save_nef_molecular_system
     E    1  ASN   break			.
     E    2  THR   middle		.
     E    3  ALA   middle		.
-    E    4  PRO   middle		.
+    E    4  PRO   middle		cispeptide
     E    5  ALA   middle		.
     E    6  GLU   middle		-OE2
     E    6B SER   middle		.
