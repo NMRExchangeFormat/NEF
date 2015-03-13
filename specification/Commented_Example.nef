@@ -1,7 +1,7 @@
 #==========================================================================
 #  Nmr Exchange Format
 #
-#  Draft version 0.7  December 2014 Rasmus Fogh,
+#  Draft version 0.8  March 2015 Rasmus Fogh,
 #
 #  The file shows an example of how data might be organised, with limited comments
 #  for clarification.
@@ -32,8 +32,8 @@ save_nef_nmr_meta_data
   _nef_nmr_meta_data.format_version               0.8
   _nef_nmr_meta_data.program_name                 CYANA
   _nef_nmr_meta_data.program_version              3.01
-  _nef_nmr_meta_data.creation_date                2013-02-29T13:12:03
-  _nef_nmr_meta_data.uuid                         CYANA-2013-02-29T13:12:04-11724
+  _nef_nmr_meta_data.creation_date                2013-02-29T13:12:03.521773
+  _nef_nmr_meta_data.uuid                         CYANA-2013-02-29T13:12:04.521773-1172436
 
 # Optional:
   _nef_nmr_meta_data.coordinate_file_name         depositiondir/somefile.ext
@@ -291,6 +291,7 @@ save_nef_chemical_shift_list_1
       A 23      LYS     CA      43.2    0.25
       A 23      LYS     N      123.45   0.4
      @1 SS@231  GLX?    CAi-1   48.2     .
+     @1 SS@12      .    CAi-1   48.2     .
   stop_
 
 # The atom_name by itself serves to distinguish between real atoms ('HA'),
@@ -303,7 +304,7 @@ save_nef_chemical_shift_list_1
 # Val 17 HG%/CG% show two methyl groups that overlap in both carbon and proton
 # dimensions.
 # 19 LEU HDX% is the methyl bound to CDX (and not to CDY).
-# The last shift (with chain_code @1) is an unassigned but observed resonance,
+# The last two shifts (with chain_code @1) are unassigned but observed resonances,
 
 save_
 
@@ -517,7 +518,7 @@ save_nef_rdc_restraint_list_1
       _nef_rdc_restraint.chain_code_2
       _nef_rdc_restraint.sequence_code_2
       _nef_rdc_restraint.residue_type_2
-      _nef_rdc_restraint.atom_name_
+      _nef_rdc_restraint.atom_name_2
       _nef_rdc_restraint.weight
 
   # The following parameters are optional. target_value and target_value_uncertainty
@@ -857,18 +858,6 @@ save_nef_nmr_spectrum_dummy15d
  7.2 0.05 119.5 0.4 28.3 0.3 172.2 0.5 58.5 0.4 32.3 0.4 22.2 0.5 58.5 0.4 32.3 0.4 22.2 0.5 58.5 0.4 32.3 0.4 22.2 0.5 58.5 0.4 32.3 0.4  
  A 19 LEU HN A 19 LEU N A 18 GLN C  A 19 LEU CA A 19 LEU CB A 19 LEU CG  A 19 LEU CD1 A 19 LEU CD2 A 19 LEU CG A 19 LEU CA A 19 LEU CB A 19 LEU CG A 18 GLN CA A 18 GLN CB A 18 GLN CG 
   stop A 18 GLN CG_
-
-# Peaks 1 and 5 have ambiguous assignments.
-
-# The frequency for A 14 Trp NE1 at 135.6 is likely outside the
-# acquisition window. Since absolute_peak_positions is true for this dimension,
-# the peak is given at the correct resonance frequency, rather than at
-# the apparent position within the acquisition window.
-
-# Volumes and peak position information are duplicated on each line belonging to
-# a peak
-# All such values must be identical, and written out as such. Programs may or
-# may not check for errors when reading.
 
 save_
 

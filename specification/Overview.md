@@ -289,7 +289,7 @@ organised by data category (saveframe).
         not end with a standard start/end residue.
       - 'dummy' : A residue that is not part of the sequence proper,
         e.g.  TNSR residue, or a linker residue (as used e.g. in CYANA).
-        Dummy residues should that do not have a specific ype (e.g. TNSR) should
+        Dummy residues that do not have a specific type (e.g. TNSR) should
         use code UNK.
 
         A sequence of 'middle' residues must be capped at both ends by 'start',

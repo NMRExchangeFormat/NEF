@@ -18,7 +18,6 @@ Change log
 	* added ordinal column to peak and restraint lists to provide unique
 		identifier for each line
 
-
 * Added new tags
 	* Added restraint_origin tag to _nef_dihedral_restraint_list, _nef_distance_restraint_list, _nef_rdc_restraint_list
 	* Added _nef_rdc_restraint.distance_dependent and _nef_rdc_restraint.scale
