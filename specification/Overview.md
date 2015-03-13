@@ -272,12 +272,20 @@ organised by data category (saveframe).
     1.  There is only one molecular system per project. Different complexes,
     ligands, etc. are handled by using different chain codes.
 
-    2.  The _sequence loop is a compromise between a full, complex topology
+    2. All programs must support the standard linear polymer residues and
+    their default states. Support for non-standard links, residues and residue 
+    variants is not mandatory, but programs that do support these should read
+    and write sequence descriptions accordingly.
+
+    3.  The _sequence loop is a compromise between a full, complex topology
     description and simply assuming linear polymers - see the example files,
     section 3. The \_nef\_sequence.residue\_type is always the
     canonical name (e.g. 'HIS' regardless of protonation state or chain
     position).The \_nef\_sequence.linking column shows linear connection
-    information, and can have the following values:
+    information.
+    
+    Linear polymer residues (alpha-amino acids, DNA, and RNA) can have the 
+    following linking values:
       - 'start' : the N-terminal or 5' end of a linear polymer
       - 'end' : the C-terminal or 3' end of a linear polymer
       - 'middle' : non-terminal residue in a linear polymer
@@ -285,26 +293,31 @@ organised by data category (saveframe).
       - 'cyclic' : first and last residue of a cyclic linear polymer; the
         second 'cyclic' residue precedes the first cyclic residue in the
         sequence
-      - 'break' : used instead of 'start' or 'end for linear sequences that do
-        not end with a standard start/end residue.
+      - 'break' : A residue of linking type 'middle' that lacks a standard 
+        linear polymer linkage on either or both sides.
+      
+      - 'nonlinear' : A residue that is not of linear polymer type always has 
+        this linking value.
+        
       - 'dummy' : A residue that is not part of the sequence proper,
         e.g.  TNSR residue, or a linker residue (as used e.g. in CYANA).
-        Dummy residues should that do not have a specific ype (e.g. TNSR) should
+        Dummy residues that do not have a specific type (e.g. TNSR) should
         use code UNK.
 
-        A sequence of 'middle' residues must be capped at both ends by 'start',
-        'end', 'cyclic', or 'break' residues. Residues of type 'single' must
-        be given outside these sequences. Sequences flanked by a
+    Residues of type 'start', 'middle', and 'end' must have the appropriate 
+    link to the next/preceding residue. Sequences flanked by a
         'start'-'end' pair or a 'cyclic'-'cyclic' pair denote a linear or
          cyclic linear polymer, respectively.
         The 'break' keyword is used when the first or last residue in a linear
-        stretch is not a chain terminal variant. This might be
+    polymer stretch is not a chain terminal variant. This might be
         the case when only part of a sequence is given (discouraged but
-        possible), or when the next link is not a linear polymer link. Guy
-        Montelione (thanks!) gave an interesting example where the terminal
-        -NH3 group was in an amide bond to a glutamate side chain in the same
-        chain; this topology would be given as
-        'break-middle-middle-middle- ... -middle-end'
+    possible), or when the next link is not a linear polymer link, e.g. for 
+    chain caps. Guy Montelione (thanks!) gave an interesting example where 
+    the terminal -NH3 group was in an amide bond to a glutamate side chain 
+    in the same chain; this topology would be given as
+    'break-middle-middle-middle- ... -middle-end'. Only standard linear polymer
+    links can be inferred from the sequence; other links are given in the 
+    covalent_links loop below.
 
         By default residue variants are assumed to be the pH 7 forms,
         specifically fully protonated HIS, LYS, ARG and N-terminus,
