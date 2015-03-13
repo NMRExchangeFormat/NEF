@@ -1,6 +1,10 @@
 Change log
 ==========
 
+**Version 0.9**
+
+* XHanged system for specifying residue variants in the sequence specification
+
 **Version 0.8**
 
 * Updated charter to reflect the discussion at the Rutgers 7/11-9/1 2015 meeting.
