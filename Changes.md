@@ -3,7 +3,7 @@ Change log
 
 **Version 0.9**
 
-* XHanged system for specifying residue variants in the sequence specification
+* Changed system for specifying residue variants in the sequence specification
 
 **Version 0.8**
 

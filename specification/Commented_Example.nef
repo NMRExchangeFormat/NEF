@@ -1,7 +1,7 @@
 #==========================================================================
 #  Nmr Exchange Format
 #
-#  Draft version 0.8  March 2015 Rasmus Fogh,
+#  Draft version 0.9  March 2015 Rasmus Fogh,
 #
 #  The file shows an example of how data might be organised, with limited comments
 #  for clarification.
@@ -172,14 +172,14 @@ save_nef_molecular_system
     A	  17	VAL	  middle	.
     A	  18	PHE	  middle	.
     A  	19	LEU	  middle		.
-    A   20  CYS   middle		.
+    A   20  CYS   middle		-HG
     A   21  ALA   middle		.
-    A   22  THR   middle		.
+    A   22  THR   middle		-HG1,-OG1
     A   23  LYS   middle		.
     A   24  ASP   middle		.
     A   25  HIS   end			.
-    A	  26	GLC	  nonlinear	.
-    B	  17	CYS		single	.
+    A	  26	GLC	  nonlinear	-HO1
+    B	  17	CYS		single	-HG
     C    1  ATP   nonlinear		.
  # Manual comment: Pseudo-residues (linkers and tensor origin) added. 
     C  898  UNK   dummy			.
@@ -187,7 +187,7 @@ save_nef_molecular_system
     C  900  TNSR  dummy			.
     D    1  GLY   cyclic		.
     D    2  PRO   middle		.
-    D    3  ASP   middle		ASP_LL
+    D    3  ASP   middle		+HD1
     D    4  GLY   middle		.
     D    5  PRO   middle		.
     D    6  ASP   cyclic		.
@@ -196,16 +196,16 @@ save_nef_molecular_system
     E    3  ALA   middle		.
     E    4  PRO   middle		.
     E    5  ALA   middle		.
-    E    6  GLU   middle		.
+    E    6  GLU   middle		-OE2
     E    6B SER   middle		.
     E    7  GLN   middle		.
-	E	 8	GLU	  middle		GLU_LL
-	E	 9	HIS	  middle		HIS_LL_DHD1
-	E	10	HIS	  middle		HIS_LL_DHE2
-	E	11	CYS	  middle		CYS_LL
-	E	12	LYS	  middle		LYS_LL_DHZ3
-	E	13	ARG	  break			ARG_LL_DHH12
-	E 14  MOH   nonlinear
+	E	 8	GLU	  middle		+HE1
+	E	 9	HIS	  middle		+HE2,-HD1
+	E	10	HIS	  middle		+HE2
+	E	11	CYS	  middle		.
+	E	12	LYS	  middle		-HZ3
+	E	13	ARG	  break			"-HH12,-O'"
+	E 14  MOH   nonlinear -HO
   stop_
 
 # Chain A is a linear dodecapeptide (15-25), disulfide linked to a single
@@ -219,12 +219,11 @@ save_nef_molecular_system
 # Chain E has an amide bond between the backbone N of ASN 1 and the side chain carboxylate
 # of GLU 6, and a methyl ester cap.
 #
-# residue_variants default to the pH 7 forms, specifically protonated LYS, ARG, HIS, and N-terminus
-# and deprotonated ASP, GLU, CYS, and C-terminus. 'deprotonated' CYS is generally assumed to be the 
-# disulfide form (The RCSB variant codes do not distinguish between disulfide and deprotonated CYS)
+# residue_variants default to the pH 7 forms, specifically protonated LYS, ARG, and N-terminus
+# and deprotonated ASP, GLU, and C-terminus. 
 # Chain E shows examples of how to specify the non-default forms supported by the NEF format.
-# Note that each variant comes in three forms: 'middle' (conntains '_LL'), 'end (contains '_LEO2'),
-# and 'start' (contains '_LSN3')
+#
+# Note how atoms are removed to make place for links.
 
 # Covalent cross-links loop. Optional:
   loop_
@@ -240,8 +239,9 @@ save_nef_molecular_system
   # key: chain_code_1, sequence_code_1, atom_name_1, chain_code_2, sequence_code_2, atom_name_2
 
     A 20 CYS SD B 17 CYS SD
-    A 22 THR OG1 A 26 GLC C1
+    A 22 THR CB A 26 GLC O1
     E  1 ASN N   E  6 GLU CD
+    E 13 ARG C   E 14 MOH O
   stop_
 
 save_
