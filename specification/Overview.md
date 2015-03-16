@@ -232,7 +232,7 @@ organised by data category (saveframe).
     'upper-bound-parabolic-linear',  'lower-bound-parabolic-linear'
 
     3. _nef_sequence.linking: 'start', 'end', 'middle', 'cyclic', 'break',
-      'single', 'dummy'
+      'single', 'nonlinear'. 'dummy'
 
     4. _nef_spectrum_dimension.folding: 'circular', 'mirror', 'none'
 
@@ -284,64 +284,64 @@ organised by data category (saveframe).
     position).The \_nef\_sequence.linking column shows linear connection
     information.
     
-    Linear polymer residues (alpha-amino acids, DNA, and RNA) can have the 
-    following linking values:
-      - 'start' : the N-terminal or 5' end of a linear polymer
-      - 'end' : the C-terminal or 3' end of a linear polymer
-      - 'middle' : non-terminal residue in a linear polymer
-      - 'single' : not part of a linear polymer.
-      - 'cyclic' : first and last residue of a cyclic linear polymer; the
-        second 'cyclic' residue precedes the first cyclic residue in the
-        sequence
-      - 'break' : A residue of linking type 'middle' that lacks a standard 
-        linear polymer linkage on either or both sides.
-      
-      - 'nonlinear' : A residue that is not of linear polymer type always has 
-        this linking value.
+      Linear polymer residues (alpha-amino acids, DNA, and RNA) can have the 
+      following linking values:
+        - 'start' : the N-terminal or 5' end of a linear polymer
+        - 'end' : the C-terminal or 3' end of a linear polymer
+        - 'middle' : non-terminal residue in a linear polymer
+        - 'single' : not part of a linear polymer.
+        - 'cyclic' : first and last residue of a cyclic linear polymer; the
+          second 'cyclic' residue precedes the first cyclic residue in the
+          sequence
+        - 'break' : A residue of linking type 'middle' that lacks a standard 
+          linear polymer linkage on either or both sides.
         
-      - 'dummy' : A residue that is not part of the sequence proper,
-        e.g.  TNSR residue, or a linker residue (as used e.g. in CYANA).
-        Dummy residues that do not have a specific type (e.g. TNSR) should
-        use code UNK.
+        - 'nonlinear' : A residue that is not of linear polymer type always has 
+          this linking value.
+          
+        - 'dummy' : A residue that is not part of the sequence proper,
+          e.g.  TNSR residue, or a linker residue (as used e.g. in CYANA).
+          Dummy residues that do not have a specific type (e.g. TNSR) should
+          use code UNK.
 
-    Residues of type 'start', 'middle', and 'end' must have the appropriate 
-    link to the next/preceding residue. Sequences flanked by a
-    'start'-'end' pair or a 'cyclic'-'cyclic' pair denote a linear or
-      cyclic linear polymer, respectively.
-    The 'break' keyword is used when the first or last residue in a linear
-    polymer stretch is not a chain terminal variant. This might be
-    the case when only part of a sequence is given (discouraged but
-    possible), or when the next link is not a linear polymer link, e.g. for 
-    chain caps. Guy Montelione (thanks!) gave an interesting example where 
-    the terminal -NH3 group was in an amide bond to a glutamate side chain 
-    in the same chain; this topology would be given as
-    'break-middle-middle-middle- ... -middle-end'. Only standard linear polymer
-    links can be inferred from the sequence; other links are given in the 
-    covalent_links loop below.
+      Residues of type 'start', 'middle', and 'end' must have the appropriate 
+      link to the next/preceding residue. Sequences flanked by a
+      'start'-'end' pair or a 'cyclic'-'cyclic' pair denote a linear or
+        cyclic linear polymer, respectively.
+      The 'break' keyword is used when the first or last residue in a linear
+      polymer stretch is not a chain terminal variant. This might be
+      the case when only part of a sequence is given (discouraged but
+      possible), or when the next link is not a linear polymer link, e.g. for 
+      chain caps. Guy Montelione (thanks!) gave an interesting example where 
+      the terminal -NH3 group was in an amide bond to a glutamate side chain 
+      in the same chain; this topology would be given as
+      'break-middle-middle-middle- ... -middle-end'. Only standard linear polymer
+      links can be inferred from the sequence; other links are given in the 
+      covalent_links loop below.
 
-    For the twenty standard amino acids, the four standard DNA nucleotides 
-    and the four standard RNA nucleotides, default residue variants are
-    the pH 7 forms, specifically protonated LYS, ARG and N-terminus,
-    deprotonated ASP, GLU, and C-terminus, protonated CYS, and deprotonated 
-    backbone phospate groups for DNA/RNA. For HIS the default form is the neutral 
-    ND1-protonated side chain. For non-standard alpha-amino acids the N-terminal
-    amino group is protonated, and the C-terminal acid is deprotonated, but the 
-    default variant for side chains has all atom groups neutral (-COOH, 
-    -NH2, etc.). For non-standard DNA and RNA the backbone phospates are 
-    deprotonated in the default state, but other groups are in their neutral forms,
+      For the twenty standard amino acids, the four standard DNA nucleotides 
+      and the four standard RNA nucleotides, default residue variants are
+      the pH 7 forms, specifically protonated LYS, ARG and N-terminus,
+      deprotonated ASP, GLU, and C-terminus, protonated CYS, and deprotonated 
+      backbone phospate groups for DNA/RNA. For HIS the default form is the neutral 
+      ND1-protonated side chain. For non-standard alpha-amino acids the N-terminal
+      amino group is protonated, and the C-terminal acid is deprotonated, but the 
+      default variant for side chains has all atom groups neutral (-COOH, 
+      -NH2, etc.). For non-standard DNA and RNA the backbone phospates are 
+      deprotonated in the default state, but other groups are in their neutral forms,
 
-    Residue variants are given as a spaceless, comma-separated list of
-    terms. There are three typs of individual terms:
-      - Added atoms are given as '+' followed by the atom name, e.g. '+HD1' for 
-        protonated ASP. These can only be protons that are part of the residue template, 
-        where the default form is deprotonated.
-      - Removed atoms are given as '-' followed by the atom name, e.g.'-H3' for a 
-        deprotonated N-terminus or '-HG,-OG' for a SER with the OH groups removed 
-        to give way for a glycosidic linkage.
-        Atoms should only be removed to represent deprotonation or new links, not to
-        create what amounts to new residues
-      - Structure-describing keywords. Only one is currently supportd: 'cispeptide',
-        to show a residue with a cis peptiode bond.
+      Residue variants are given as a spaceless, comma-separated list of
+      terms. There are three typs of individual terms:
+        - Added atoms are given as '+' followed by the atom name, e.g. '+HD1' for 
+          protonated ASP. These can only be protons that are part of the residue template, 
+          where the default form is deprotonated.
+        - Removed atoms are given as '-' followed by the atom name, e.g.'-H3' for a 
+          deprotonated N-terminus or '-HG,-OG' for a SER with the OH groups removed 
+          to give way for a glycosidic linkage.
+          Atoms should only be removed to represent deprotonation or new links, not to
+          create what amounts to new residues
+        - Structure-describing keywords. Only one is currently supportd: 'cispeptide',
+          to show a residue with a cis peptiode bond.
 
     4. Covalent cross-links
       Covalent links that are not part of a linear polymer chain are given in
