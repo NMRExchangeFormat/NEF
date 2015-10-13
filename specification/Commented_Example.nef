@@ -205,7 +205,7 @@ save_nef_molecular_system
 	E	11	CYS	  middle		CYS_LL
 	E	12	LYS	  middle		LYS_LL_DHZ3
 	E	13	ARG	  break			ARG_LL_DHH12
-	E 14  MOH   nonlinear
+	E 14  MOH   nonlinear .
   stop_
 
 # Chain A is a linear dodecapeptide (15-25), disulfide linked to a single
@@ -497,7 +497,7 @@ save_nef_rdc_restraint_list_1
   _nef_rdc_restraint_list.potential_type            log-normal
   
   # Optional parameter:
-  _nef_dihedral_restraint_list.restraint_origin     measured
+  _nef_rdc_restraint_list.restraint_origin     measured
   # The restraint_origin describes the origin or source of the restraints.
   
 # Optional parameters
@@ -671,7 +671,7 @@ save_nef_nmr_spectrum_cnoesy1
       _nef_peak.residue_type_3
       _nef_peak.atom_name_3
 
-  key: ordinal
+ # key: ordinal
 
  1  1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 0.05 119.5 0.5 8.3 0.03 A 19 LEU HBY A 17 GLN N   A 17 GLN H
  2  1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 0.05 119.5 0.5 8.3 0.03 A 20 CYS HBX A 17 GLN N   A 17 GLN H
@@ -853,12 +853,12 @@ save_nef_nmr_spectrum_dummy15d
       _nef_peak.residue_type_15
       _nef_peak.atom_name_15
       
-  key: ordinal
+ # key: ordinal
 
  1  1 7.3E7 5.1E6 3.3E7 1.1E6  
  7.2 0.05 119.5 0.4 28.3 0.3 172.2 0.5 58.5 0.4 32.3 0.4 22.2 0.5 58.5 0.4 32.3 0.4 22.2 0.5 58.5 0.4 32.3 0.4 22.2 0.5 58.5 0.4 32.3 0.4  
  A 19 LEU HN A 19 LEU N A 18 GLN C  A 19 LEU CA A 19 LEU CB A 19 LEU CG  A 19 LEU CD1 A 19 LEU CD2 A 19 LEU CG A 19 LEU CA A 19 LEU CB A 19 LEU CG A 18 GLN CA A 18 GLN CB A 18 GLN CG 
-  stop A 18 GLN CG_
+  stop_
 
 save_
 
@@ -875,8 +875,8 @@ save_
 save_nef_peak_restraint_links
 
 # Mandatory parameters
-  _nef_link_table.sf_category           		nef_peak_restraint_links
-  _nef_link_table.sf_framecode           		nef_peak_restraint_links
+  _nef_peak_restraint_links.sf_category           		nef_peak_restraint_links
+  _nef_peak_restraint_links.sf_framecode           		nef_peak_restraint_links
 
 loop_
   _nef_peak_restraint_link.nmr_spectrum_id
@@ -890,6 +890,7 @@ loop_
   nef_nmr_spectrum_cnoesy1     1   nef_distance_restraint_list_L1    233
   nef_nmr_spectrum_cnoesy1   577   nef_distance_restraint_list_L2     12
   nef_nmr_spectrum_cnoesy1   316   nef_distance_restraint_list_L4   2755
+
 stop_
 
 # The table gives links between peaks (in any spectrum) and restraints
@@ -898,5 +899,4 @@ stop_
 #
 # Commented-out lines refer to spectra that have been omited in this example
 # file.
-
 save_
