@@ -278,7 +278,12 @@ organised by data category (saveframe).
     variants is not mandatory, but programs that do support these should read
     and write sequence descriptions accordingly.
 
-    3. The '_sequence' loop is a compromise between a full, complex topology
+    3. Covalent links that are not part of a linear polymer chain are given in
+    the 'covalent_links' loop, which shows which atoms are directly bound.
+    It is not shown which of the atoms from the original template are missing,
+    if desired this information must be inferred.
+
+    4. The '_sequence' loop is a compromise between a full, complex topology
     description and simply assuming linear polymers - see the example files,
     section 3. The '_nef_sequence.residue_type' is always the
     canonical name (e.g. 'HIS' regardless of protonation state or chain
@@ -350,12 +355,6 @@ organised by data category (saveframe).
     **Supported residue variant codes**:
     Note that each comes in four different versions, 'LL', 'LSN3', 'LEO2', and
     'LEO2H'.
-
-    4. Covalent cross-links
-    Covalent links that are not part of a linear polymer chain are given in
-    the 'covalent_links' loop, which shows which atoms are directly bound.
-    It is not shown which of the atoms from the original template are missing,
-    if desired this information must be inferred.
 
   * Regarding Section 5. Optional: **Distance restraint lists(s)**
 
