@@ -338,18 +338,18 @@ organised by data category (saveframe).
 
     See table below for supported variant codes.
 
-Residue_type | dyana_type | protonation_code | example | comment
---- | --- | --- | --- | ---
-ARG | ARG | DHH12 | ARG_LL_DHH12 | side chain deprotonated
-ASP | ASP | *None* | ASP_LL | side chain protonated
-CYS | CYS | *None* | CYS_LL | side chain protonated
-GLU | GLU | *None* | GLU_LL | side chain protonated
-HIS | HIS | DHE2 | HIS_LL_DHE2 | side chain neutral, proton on ND1
-HIS | HIST | DHD1 | HIS_LL_DHD1 | side chain neutral, proton on NE2
-LYS | LYS | DHZ3 | LYS_LL_DHZ3 | side chain deprotonated
-**Supported residue variant codes**:
-Note that each comes in four different versions, 'LL', 'LSN3', 'LEO2', and
-'LEO2H'
+    Residue_type | dyana_type | protonation_code | example | comment
+    --- | --- | --- | --- | ---
+    ARG | ARG | DHH12 | ARG_LL_DHH12 | side chain deprotonated
+    ASP | ASP | *None* | ASP_LL | side chain protonated
+    CYS | CYS | *None* | CYS_LL | side chain protonated
+    GLU | GLU | *None* | GLU_LL | side chain protonated
+    HIS | HIS | DHE2 | HIS_LL_DHE2 | side chain neutral, proton on ND1
+    HIS | HIST | DHD1 | HIS_LL_DHD1 | side chain neutral, proton on NE2
+    LYS | LYS | DHZ3 | LYS_LL_DHZ3 | side chain deprotonated
+    **Supported residue variant codes**:
+    Note that each comes in four different versions, 'LL', 'LSN3', 'LEO2', and
+    'LEO2H'.
 
     4. Covalent cross-links
     Covalent links that are not part of a linear polymer chain are given in
