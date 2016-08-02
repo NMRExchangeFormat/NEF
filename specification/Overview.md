@@ -118,13 +118,13 @@ organised by data category (saveframe).
     not an integer, which renders the concept of ranges rather unwieldy.
 
   2. Identifiers
-    1. NEF data block IDs (the string that follows 'data_') *must* start with
-    'nef_'.
+    1. NEF data block IDs (the string that follows 'data\_') *must* start with
+    'nef\_'.
 
-    2. 'sf_category' values all start with 'nef_'; for program-specific
-    categories they start with the program namespace tag.
+    2. 'sf\_category' values all start with 'nef\_'; for
+    program-specific categories they start with the program namespace tag.
 
-    3. 'sf_framecode's *must* start with the relevant category name. If there
+    3. 'sf_framecode' *must* start with the relevant category name. If there
     can be more than one saveframe in the category, the category name must
     be followed by an underscore, and then by the unique part of the framecode.
 
@@ -343,18 +343,21 @@ organised by data category (saveframe).
 
     See table below for supported variant codes.
 
-    Residue_type | dyana_type | protonation_code | example | comment
-    --- | --- | --- | --- | ---
-    ARG | ARG | DHH12 | ARG_LL_DHH12 | side chain deprotonated
-    ASP | ASP | *None* | ASP_LL | side chain protonated
-    CYS | CYS | *None* | CYS_LL | side chain protonated
-    GLU | GLU | *None* | GLU_LL | side chain protonated
-    HIS | HIS | DHE2 | HIS_LL_DHE2 | side chain neutral, proton on ND1
-    HIS | HIST | DHD1 | HIS_LL_DHD1 | side chain neutral, proton on NE2
-    LYS | LYS | DHZ3 | LYS_LL_DHZ3 | side chain deprotonated
     **Supported residue variant codes**:
-    Note that each comes in four different versions, 'LL', 'LSN3', 'LEO2', and
-    'LEO2H'.
+    Note that each comes in four different versions, all for L-amino acids:
+     'LL' (middle of chain), 'LSN3' (N-terminal, protonated),
+     'LEO2' (C-terminal, deprotonated), and 'LEO2H' (C-terminal, protonated).
+
+| Residue_type | dyana_type | protonation_code | example | comment |
+|-----|:-----|:-------|-----|-----|
+| ARG | ARG  | DHH12  | ARG_LL_DHH12 | side chain deprotonated |
+| ASP | ASP  | *None* | ASP_LL | side chain protonated |
+| CYS | CYS  | *None* | CYS_LL | side chain protonated |
+| GLU | GLU  | *None* | GLU_LL | side chain protonated |
+| HIS | HIS  | DHE2   | HIS_LL_DHE2 | side chain neutral, proton on ND1 |
+| HIS | HIST | DHD1   | HIS_LL_DHD1 | side chain neutral, proton on NE2 |
+| LYS | LYS  | DHZ3   | LYS_LL_DHZ3 | side chain deprotonated |
+
 
   * Regarding Section 5. Optional: **Distance restraint lists(s)**
 
@@ -569,4 +572,3 @@ organised by data category (saveframe).
     corresponds to multiple lines in the relevant loops). Each peak can be
     linked to multiple restraints, and vice versa. Links to different types of
     restraint all share a single table.
-
