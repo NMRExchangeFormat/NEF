@@ -200,7 +200,7 @@ organised by data category (saveframe).
     version 1.3 also. This includes not having duplicate storage slots, so
     that the same information would be found in the same place in both
     versions. Each change should cause an increase in the minor version
-    of the format, so that the minor format number is wexpected to increase
+    of the format, so that the minor format number is expected to increase
     fast over time.
 
     Program-specific tags are not included in this rule, and can be
@@ -279,7 +279,7 @@ organised by data category (saveframe).
     and write sequence descriptions accordingly.
 
     3. Covalent links that are not part of a linear polymer chain are given in
-    the 'covalent_links' loop, which shows which atoms are directly bound.
+    the 'nef_covalent_links' loop, which shows which atoms are directly bound.
     It is not shown which of the atoms from the original template are missing,
     if desired this information must be inferred.
 
@@ -297,10 +297,11 @@ organised by data category (saveframe).
       - 'middle': non-terminal residue in a linear polymer
       - 'single': not part of a linear polymer.
       - 'cyclic': first and last residue of a cyclic linear polymer; the
-        second 'cyclic' residue precedes the first cyclic residue in the
-        sequence
-      - 'break': A residue of linking type 'middle' that lacks a standard
-        linear polymer linkage on either or both sides.
+         second 'cyclic' residue precedes the first cyclic residue in the
+         sequence. Note that the stretch between two 'cyclic' residues may
+         only contain residues of type 'middle'.
+      - 'break' : A residue of linking type 'middle' that does not form an
+        implicit link with the next residue in the sequence.
       - 'nonlinear': A residue that is not of linear polymer type always has
         this linking value.
       - 'dummy': A residue that is not part of the sequence proper,
@@ -309,19 +310,23 @@ organised by data category (saveframe).
         use code UNK.
 
     Sequential linking within a given chain is inferred from the linking column
-    of consecutive residues. Residues of type 'start', 'middle', and 'end' must
-    have the appropriate link to the next/preceding residue in the same chain.
-    Sequences flanked by a 'start'-'end'
-    pair or a 'cyclic'-'cyclic' pair denote a linear or cyclic linear polymer,
-    respectively. The 'break' keyword is used when the first or last residue in
-    a linear polymer stretch is not a chain terminal variant. This might be the
-    case when only part of a sequence is given (discouraged but possible), or
-    when the next link is not a linear polymer link, e.g. for chain caps. Guy
-    Montelione (thanks!) gave an interesting example where the terminal -NH3
-    group was in an amide bond to a glutamate side chain in the same chain;
-    this topology would be given as 'break-middle-middle-middle-
-    ... -middle-end'. Only standard linear polymer links can be inferred from
-    the sequence; other links are given in the 'covalent_links' loop below.
+    of consecutive residues; for simplicity this form of link specification
+    should be used whenever possible in preference to specifying the links
+    explicitly in the 'nef_covalent_links' loop.
+    Residues of type 'start' form the beginning of a
+    linear polymer stretch (preceded by a break), residues of type 'end' form
+    the end of a stretch (followed by a break), and residues of type 'middle'
+    form the continuation of a stretch in both directions - always provided
+    that the neighboring residues allow it. Residues of type 'single',
+    'nonlinear', and 'dummy' do not participate in implicit links and mark a
+    break in the implicit sequence on both sides.
+    Residues of type 'cyclic' mark the beginning and end of a
+    cyclic polymer; they must always appear in pairs and the residues between
+    them must be of type 'middle'. Finally the linking type 'break' is used to
+    indicate a residue with open links in both directions (like type 'middle'),
+    but that does NOT form an implicit link with the following residue in the
+    sequence. This will rarely be necessary, but may be appropriate for
+    sequences with breaks or missing parts (see commented example).
 
     By default residue variants are assumed to be the pH 7 forms,
     specifically fully protonated HIS, LYS, ARG and N-terminus,
@@ -506,8 +511,8 @@ organised by data category (saveframe).
     the measured value to give a set of values that can be compared, as used by
     the program.
 
-    6. The 'distance_dependent' column shows whether the mesurement depends on
-    a variable ineratom distance.
+    6. The 'distance_dependent' column shows whether the measurement depends on
+    a variable interatom distance.
 
   * Regarding Section 8. Optional: **Peak lists(s)**
 

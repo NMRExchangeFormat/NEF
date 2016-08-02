@@ -196,7 +196,7 @@ INSERT PULSE PROGRAM HERE
          D  4    GLY  middle     .
          D  5    PRO  middle     .
          D  6    ASP  cyclic     .
-         E  1    ASN  break      .
+         E  1    ASN  middle      .
          E  2    THR  middle     .
          E  3    ALA  middle     .
          E  4    PRO  middle     cispeptide
@@ -207,9 +207,9 @@ INSERT PULSE PROGRAM HERE
          E  9    GLU  middle     GLU_LL
          E  10   HIS  middle     HIS_LL_DHD1
          E  11   HIS  middle     HIS_LL_DHE2
-         E  12   CYS  middle     CYS_LL
+         E  12   CYS  middle     .
          E  13   LYS  middle     LYS_LL_DHZ3
-         E  14   ARG  break      ARG_LL_DHH12
+         E  14   ARG  middle     ARG_LL_DHH12
          E  14   MOH  nonlinear  .
          F   1   GLY  start      .
          F   2   ILE  middle     .
@@ -245,6 +245,9 @@ INSERT PULSE PROGRAM HERE
 # and 'start' (contains '_LSN3')
 #
 # Chain E shows examples of how to specify the non-default forms supported by the NEF format.
+#
+# The current version does not allow specifying atoms that areremoved to give place for 
+# _nef_covalent_links A change proposal is in place
 
 # Covalent cross-links loop. Optional:
       loop_
