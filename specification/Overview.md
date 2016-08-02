@@ -217,10 +217,10 @@ organised by data category (saveframe).
     1. ALL string values are limited to printable 7-bit ASCII characters
     (codes 32 to 126 inclusive), plus line breaks for multiline strings.
 
-    2. 'sf_framecode's are limited to values that can be written in STAR without
+    2. 'sf\_framecode's are limited to values that can be written in STAR without
     the use of quotes. This means strings that do not contain whitespace,
     single or double quotes ('"), or the hash sign (#), and that do not start
-    with any of the following strings : '_', 'data_', 'save_', 'loop_', 'stop_'.
+    with any of the following strings : '\_', 'data\_', 'save\_', 'loop\_', 'stop\_'.
 
   * Enumerated types:
 
@@ -308,8 +308,10 @@ organised by data category (saveframe).
         Dummy residues that do not have a specific type (e.g. TNSR) should
         use code UNK.
 
-    Residues of type 'start', 'middle', and 'end' must have the appropriate
-    link to the next/preceding residue. Sequences flanked by a 'start'-'end'
+    Sequential linking within a given chain is inferred from the linking column
+    of consecutive residues. Residues of type 'start', 'middle', and 'end' must
+    have the appropriate link to the next/preceding residue in the same chain.
+    Sequences flanked by a 'start'-'end'
     pair or a 'cyclic'-'cyclic' pair denote a linear or cyclic linear polymer,
     respectively. The 'break' keyword is used when the first or last residue in
     a linear polymer stretch is not a chain terminal variant. This might be the
@@ -485,7 +487,7 @@ organised by data category (saveframe).
     orientation tensor in coordinate files. The 'residue_type' should be TNSR.
     Tensor values are given as magnitude and rhombicity.
 
-    2. The RDC estraint list can also be used to give non-reduced dipolar
+    2. The RDC restraint list can also be used to give non-reduced dipolar
     couplings.
 
     3. The 'restraint_origin' describes the origin or source of the restraints.
