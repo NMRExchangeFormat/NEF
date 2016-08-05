@@ -827,7 +827,7 @@ save_nef_sequence
     D    4  GLY   middle     .
     D    5  PRO   middle     .
     D    6  ASP   cyclic     .
-    E    1  ASN   break      .
+    E    1  ASN   middle     .
     E    2  THR   middle     .
     E    3  ALA   middle     .
     E    4  PRO   middle     .
@@ -840,8 +840,17 @@ save_nef_sequence
     E   10  HIS	  middle     HIS_LL
     E   11  CYS	  middle     .
     E   12  LYS	  middle     LYS_LL_DHZ3
-    E   13  ARG	  break      ARG_LL_DHH12
+    E   13  ARG	  middle     ARG_LL_DHH12
     E   14  MOH   nonlinear  .
+    F    1  GLY   start      .
+    F    2  ILE   middle     .
+    F    3  SER   middle     .
+    F    4  THR   break      .
+    F   11  ASN   middle     .
+    F   12  SER   end        .
+    G   27  TYR   middle     .
+    G   28  GLY   middle     .
+    G   29  ALA   middle     .
   stop_
   
 # Chain A is a linear dodecapeptide (15-25), disulfide linked to a single
@@ -855,11 +864,17 @@ save_nef_sequence
 # Chain E has an amide bond between the backbone N of ASN 1 and the side chain carboxylate
 # of GLU 6, and a methyl ester cap.
 #
+# Chains F and G represent a chimeric protein, where (part of) chain G has been
+# inserted into chain F while maintaining the original numbering. Each chain is given as a
+# single block of residues, with the 'break' linking to show the chain break, and the 
+# nef_covalent_links loop to show the additional sequential links.
+#
 # residue_variants default to the pH 7 forms, specifically protonated LYS, ARG, and N-terminus
 # and deprotonated ASP, GLU, and C-terminus. 
 # Chain E shows examples of how to specify the non-default forms supported by the NEF format.
 #
-# The current version does not allow specifying atoms that areremoved to give placxe for _nef_covalent_links# A change proposal is in place
+# The current version does not allow specifying atoms that areremoved to give place for 
+# _nef_covalent_links A change proposal is in place
 ;
    #
 save_
