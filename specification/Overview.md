@@ -272,6 +272,33 @@ Comments:
   Regardless whether all the atom names are present in the context, you always
   have the following bond patterns: HDX - CDX - CEX - HEX , and HDY - CDY - CEY - HEY
 
+Wildcard atom sets for non-terminal Threonine
+---------------------------------------------
+
+| Atom name | Atoms in set |
+|-----------|--------------|
+| H% | - |
+| HA% | - |
+| HB% | - |
+| HG1% | - |
+| HG2% | HG21, HG22, HG23 |
+| HG% | HG1, HG21, HG22, HG23 |
+| HG%% | HG21, HG22, HG23 |
+| H* | H, HA, HB, HG1, HG21, HG22, HG23 |
+| HA* | HA |
+| HB* | HB |
+| HG1* | HG1 |
+| HG2* | HG21, HG22, HG23 |
+| HG* | HG1, HG21, HG22, HG23 |
+| H*% | HG1, HG21, HG22, HG23 |
+| H*%% | HG21, HG22, HG23 |
+| H*G% | HG1, HG21, HG22, HG23 |
+| H*1 | HG1, HG21 |
+| H*2% | HG21, HG22, HG23 |
+
+This is essentially an exercise in imagining all reasonable (?) wildcard
+expressions for Threonine and applying the standard regular expression rules. 
+
 ### Data Types
 
   * Basic string types
