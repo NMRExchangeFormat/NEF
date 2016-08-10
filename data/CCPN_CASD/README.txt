@@ -13,8 +13,15 @@ HR5460A 2LAH 	09/05/2011 17524
 HR6430A	2LA6 	29/04/2011 17508
 HR6470A 2L9R 	19/04/2011 17484
 
+CASD test data can be downloaded from https://www.wenmr.eu/wenmr/casd-nmr-data-sets
 
-Data were generated as follows:
+BMRB entries can be downloaded from http://www.bmrb.wisc.edu/search/
+
+DOCR projects can be downloaded from http://restraintsgrid.bmrb.wisc.edu/NRG/MRGridServlet
+
+
+NEF file generation:
+====================
 
 - Restraint data and sequence were taken from the corresponding DOCR CCPN project.
 RDC restraints were then deleted and replaced with RDC restraints read from the
@@ -40,7 +47,8 @@ Experiment types (NOESY-HSQC) were set manually.
 CASD test projects, using custom scripts.
 
 
-DETAILS:
+DETAILS
+=======
 
 - Triplets of atoms that differ only on the final number suffix (xyz1, xyz2, xyz3)
 were mapped to a single atom with the name xyz%.
