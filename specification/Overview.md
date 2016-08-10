@@ -66,17 +66,30 @@ organised by data category (saveframe).
     HDX and CEX. The existing upfield/downfield convention (suffixes 'a'
     and 'b') is not supported. In NMR-STAR terms X and Y suffixes correspond
     to ambiguity codes 2 (geminal atoms) and 3 (symmetrical aromatic rings).
+    The example table at the end of the General Issues section should
+    illustrate the principle.
 
     9. Sets of atoms can be represented by using atom names with wildcards.
-    There are two kinds of wildcards: '%' for 'any sequence of digits', and
-    '\*' for 'any whitespace-free string'. In normal current usage '%' wildcard
-    expressions will be used for NMR-equivalent atoms, and '\*' expressions must
-    only  be used where '%' expressions would not suffice. In practice this
-    means that all common cases of equivalent atoms are expressed with '%'
-    (ALA HB%, ASN HB%, ASN HD%, LEU HD1%, LEU HD%, LEU CD%, TYR CD%, TYR HD%,
-    LYS HZ%, ...). Notably N-terminal -NH3+ would be 'H%'.  '\*' would only be
-    used where necessary, mainly for 'H\*', 'C\*', '\*',  ... (all protons, all
-    carbons,  all atoms, etc.).
+    There are two kinds of wildcards:
+
+      '%' for 'any sequence of digits', equivalent to the regular expression
+      "[0-9]+".
+
+      '\*' for 'any whitespace-free string', equivalent to the regular expression
+      ".\*". Note that this makes '%%'  equivalent to the regular expression
+      "[0-9][0-9]+", which will only be required in exceptional cases. In
+      all common cases strings of multiple digits should be dealt with using
+      the simpler '%'.
+
+      In normal current usage '%' wildcard
+      expressions will be used for NMR-equivalent atoms, and '\*' expressions must
+      only  be used where '%' expressions would not suffice. In practice this
+      means that all common cases of equivalent atoms are expressed with '%'
+      (ALA HB%, ASN HB%, ASN HD%, LEU HD1%, LEU HD%, LEU CD%, TYR CD%, TYR HD%,
+      LYS HZ%, ...). Notably N-terminal -NH3+ would be 'H%', as would
+      N-terminal -NH2.  '\*' would only be
+      used where necessary, mainly for 'H\*', 'C\*', '\*',  ... (all protons, all
+      carbons,  all atoms, etc.).
 
     10. IUPAC pseudoatom names (ALA MB, SER QB, etc.) are reserved for the
     original meaning, i.e. a separate atom positioned at the centroid with zero
@@ -210,6 +223,54 @@ organised by data category (saveframe).
     readers. We would expect that many programs would support only one major
     version, and that separate upgrade and downgrade routines be produced to
     convert between major versions.
+
+Examples of mapping from 'XY' atom names to IUPAC
+-----------------------------------------------
+
+| Residue | 'XY' names |Mapping 1 | Mapping 2 | Mapping 3 | Mapping 4 |
+|---------|------------|----------|-----------|-----------|-----------|
+| SER |   |   |   |   |   |
+|     | HBX | HB2 | HB3 | - | - |
+|     | HBY | HB3 | HB2 | - | - |
+| GLU |   |   |   |   |   |
+|     | HBX | HB2 | HB3 | HB2 | HB3 |
+|     | HBY | HB3 | HB2 | HB3 | HB2 |
+|     | HGX | HG2 | HG2 | HG3 | HG3 |
+|     | HGY | HG3 | HG3 | HG2 | HG2 |
+| VAL |   |   |   |   |   |
+|     | HGX% | HG1% | HG2% | - | - |
+|     | CGX  | CG1  | CG2  | - | - |
+|     | HGY% | HG2% | HG1% | - | - |
+|     | CGY  | CG2  | CG1  | - | - |
+| TYR |   |   |   |   |   |
+|     | HDX | HD1 | HD2 | - | - |
+|     | CDX | CD1 | CD2 | - | - |
+|     | CEX | CE1 | CE2 | - | - |
+|     | HEX | HE1 | HE2 | - | - |
+|     | HDY | HD2 | HD1 | - | - |
+|     | CDY | CD2 | CD1 | - | - |
+|     | CEY | CE2 | CE1 | - | - |
+|     | HEY | HE2 | HE1 | - | - |
+
+Comments:
+
+* The same mapping is used whether or not all the X/Y atom names are observed
+  in context.
+
+* SER: HBX and HBY can map to either HB2 or HB3, but if both are present in a
+  given context they must map to *different* atoms.
+
+* GLU: Since HB and HG are different branchings of the residue, there is no
+  connection between the mapping for HBX/Y and for HGX/Y
+
+* VAL: The methyl protons and methyl carbons are part of the same branching, so
+  the mappings are correlated. HGX% is always bound to CGX, and HGY%
+  to CGY.
+
+* TYR: X and Y each designate one of the two branches of the side chain, so
+  there are only two possible mappings.
+  Regardless whether all the atom names are present in the context, you always
+  have the following bond patterns: HDX - CDX - CEX - HEX , and HDY - CDY - CEY - HEY
 
 ### Data Types
 
