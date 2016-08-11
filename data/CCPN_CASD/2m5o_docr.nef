@@ -1130,7 +1130,7 @@ data_2m5o_docr
       _nef_distance_restraint_list.sf_category     nef_distance_restraint_list
       _nef_distance_restraint_list.sf_framecode    nef_distance_restraint_list_distance_constraint_list
       _nef_distance_restraint_list.potential_type  unknown
-      _nef_distance_restraint_list.origin          .
+      _nef_distance_restraint_list.restraint_origin          .
 
       loop_
          _nef_distance_restraint.ordinal
@@ -5184,7 +5184,7 @@ data_2m5o_docr
       _nef_dihedral_restraint_list.sf_category     nef_dihedral_restraint_list
       _nef_dihedral_restraint_list.sf_framecode    nef_dihedral_restraint_list_dihedral_constraint_list
       _nef_dihedral_restraint_list.potential_type  unknown
-      _nef_dihedral_restraint_list.origin          .
+      _nef_dihedral_restraint_list.restraint_origin          .
 
       loop_
          _nef_dihedral_restraint.ordinal
@@ -5344,7 +5344,7 @@ data_2m5o_docr
       _nef_rdc_restraint_list.sf_category           nef_rdc_restraint_list
       _nef_rdc_restraint_list.sf_framecode          nef_rdc_restraint_list_cya-1
       _nef_rdc_restraint_list.potential_type        unknown
-      _nef_rdc_restraint_list.origin                .
+      _nef_rdc_restraint_list.restraint_origin                .
       _nef_rdc_restraint_list.tensor_magnitude      4.9
       _nef_rdc_restraint_list.tensor_rhombicity     0.592
       _nef_rdc_restraint_list.tensor_chain_code     .
@@ -5428,7 +5428,7 @@ data_2m5o_docr
       _nef_rdc_restraint_list.sf_category           nef_rdc_restraint_list
       _nef_rdc_restraint_list.sf_framecode          nef_rdc_restraint_list_cya-2
       _nef_rdc_restraint_list.potential_type        unknown
-      _nef_rdc_restraint_list.origin                .
+      _nef_rdc_restraint_list.restraint_origin      .
       _nef_rdc_restraint_list.tensor_magnitude      -5.102
       _nef_rdc_restraint_list.tensor_rhombicity     0.319
       _nef_rdc_restraint_list.tensor_chain_code     .
