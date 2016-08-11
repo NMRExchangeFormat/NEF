@@ -11,13 +11,17 @@ OR135 	2LN3 	09/02/2012 18145
 OR36 	2LCI 	24/06/2011 17613
 HR5460A 2LAH 	09/05/2011 17524
 HR6430A	2LA6 	29/04/2011 17508
-HR6470A 2L9R 	19/04/2011 17484
+HR6470A 2L9R 	19/04/2011 17484  1)
 
 CASD test data can be downloaded from https://www.wenmr.eu/wenmr/casd-nmr-data-sets
 
 BMRB entries can be downloaded from http://www.bmrb.wisc.edu/search/
 
 DOCR projects can be downloaded from http://restraintsgrid.bmrb.wisc.edu/NRG/MRGridServlet
+
+1) This project contains two identical dihedral_restraint_lists. Since the DOCR
+entry contains the same error, I have left the files unchanged (and consistent with
+the starting point).
 
 
 NEF file generation:
