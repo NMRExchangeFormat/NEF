@@ -490,13 +490,14 @@ save_nef_distance_restraint_list_L1
          
          1  1  .  A  21  ALA  N  A  21  ALA  CA  A  21  ALA  C   A  22  THR  N  1  -50  5  .  -60  -40  .  PSI
          2  1  .  A  21  ALA  N  A  21  ALA  CA  A  21  ALA  C   A  22  THR  N  1  105  5  .   90  120  .  PSI
-         3  2  .  A  12  ALA  C  A  22  THR  N   A  22  THR  CA  A  22  THR  C  3  -50  8  .  -60  -40  .  .  
+         3   2  .  A  21  ALA  C   A  22  THR  N   A  22  THR  CA  A  22   THR  C    3  -50  8  .  -60  -40  .  PHI
          4  3  1  A  23  LYS  C  A  24  ASP  N   A  24  ASP  CA  A  24  ASP  C  1  -50  5  .  -60  -40  .  PHI
-         5  3  1  A  24  ASP  N  A  24  ASP  CA  A  24  ASP  C   A  25  HIS  N  1  -50  5  .  -60  -40  .  PSI
+         5   3  1  A  24  ASP  N   A  24  ASP  CA  A  24  ASP  C   A  24B  GLN  N    1  -50  5  .  -60  -40  .  PSI
          6  4  2  A  15  GLY  C  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C  1  -50  5  .  -60  -40  .  PHI
-         7  4  2  A  16  ASN  N  A  16  ASN  CA  A  16  ASN  C   A  17  CYS  N  1  -50  5  .  -60  -40  .  .  
+         7   4  2  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -50  5  .  -60  -40  .  PSI
          8  4  3  A  15  GLY  C  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C  1  -80  5  .  -90  -70  .  PHI
-         9  4  3  A  16  ASN  N  A  16  ASN  CA  A  16  ASN  C   A  17  CYS  N  1  -80  5  .  -90  -70  .  .  
+         9   4  3  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -80  5  .  -90  -70  .  PSI
+         10  5  .  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19   LEU  CDX  1  -80  5  .  -90  -70  .  .  
       stop_
 
       # - Restraint 1 is an ambiguous psi restraint. The atoms are the same,
