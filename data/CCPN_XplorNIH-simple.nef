@@ -1,0 +1,1097 @@
+data_nef_test1
+
+
+   save_nef_nmr_meta_data
+
+      _nef_nmr_meta_data.sf_category      nef_nmr_meta_data
+      _nef_nmr_meta_data.sf_framecode     nef_nmr_meta_data
+      _nef_nmr_meta_data.format_name      nmr_exchange_format
+      _nef_nmr_meta_data.format_version   0.91
+      _nef_nmr_meta_data.program_name     CcpNmr
+      _nef_nmr_meta_data.program_version  3.0.b1
+      _nef_nmr_meta_data.creation_date    2016-08-11T04:27:50.651949
+      _nef_nmr_meta_data.uuid             CcpNmr-2016-08-11T04:27:50.651949-1524544142
+      _nef_nmr_meta_data.coordinate_file_name  .
+
+      loop_
+         _nef_program_script.program_name
+         _nef_program_script.script_name
+         _nef_program_script.script
+
+         CcpNmr  exportProject  .
+      stop_
+   save_
+
+
+   save_nef_molecular_system
+
+      _nef_molecular_system.sf_category   nef_molecular_system
+      _nef_molecular_system.sf_framecode  nef_molecular_system
+
+      loop_
+         _nef_sequence.chain_code
+         _nef_sequence.sequence_code
+         _nef_sequence.residue_type
+         _nef_sequence.linking
+         _nef_sequence.residue_variant
+
+         A     1     MET  start      .
+         A     2     THR  middle     .
+         A     3     TYR  middle     .
+         A     4     LYS  middle     .
+         A     5     LEU  middle     .
+         A     6     ILE  middle     .
+         A     7     LEU  middle     .
+         A     8     ASN  middle     .
+         A     9     GLY  middle     .
+         A     10    LYS  middle     .
+         A     11    THR  middle     .
+         A     12    LEU  middle     .
+         A     13    LYS  middle     .
+         A     14    GLY  middle     .
+         A     15    GLU  middle     .
+         A     16    THR  middle     .
+         A     17    THR  middle     .
+         A     18    THR  middle     .
+         A     19    GLU  middle     .
+         A     20    ALA  middle     .
+         A     21    VAL  middle     .
+         A     22    ASP  middle     .
+         A     23    ALA  middle     .
+         A     24    ALA  middle     .
+         A     25    THR  middle     .
+         A     26    ALA  middle     .
+         A     27    GLU  middle     .
+         A     28    LYS  middle     .
+         A     29    VAL  middle     .
+         A     30    PHE  middle     .
+         A     31    LYS  middle     .
+         A     32    GLN  middle     .
+         A     33    TYR  middle     .
+         A     34    ALA  middle     .
+         A     35    ASN  middle     .
+         A     36    ASP  middle     .
+         A     37    ASN  middle     .
+         A     38    GLY  middle     .
+         A     39    VAL  middle     .
+         A     40    ASP  middle     .
+         A     41    GLY  middle     .
+         A     42    GLU  middle     .
+         A     43    TRP  middle     .
+         A     44    THR  middle     .
+         A     45    TYR  middle     .
+         A     46    ASP  middle     .
+         A     47    ASP  middle     .
+         A     48    ALA  middle     .
+         A     49    THR  middle     .
+         A     50    LYS  middle     .
+         A     51    THR  middle     .
+         A     52    PHE  middle     .
+         A     53    THR  middle     .
+         A     54    VAL  middle     .
+         A     55    THR  middle     .
+         A     56    GLU  end        .
+         AXIS  5000  ANI  nonlinear  .
+         AXIS  5001  ANI  nonlinear  .
+      stop_
+   save_
+
+
+   save_nef_distance_restraint_list_1
+
+      _nef_distance_restraint_list.sf_category     nef_distance_restraint_list
+      _nef_distance_restraint_list.sf_framecode    nef_distance_restraint_list_1
+      _nef_distance_restraint_list.potential_type  unknown
+      _nef_distance_restraint_list.restraint_origin  .
+
+      loop_
+         _nef_distance_restraint.ordinal
+         _nef_distance_restraint.restraint_id
+         _nef_distance_restraint.restraint_combination_id
+         _nef_distance_restraint.chain_code_1
+         _nef_distance_restraint.sequence_code_1
+         _nef_distance_restraint.residue_type_1
+         _nef_distance_restraint.atom_name_1
+         _nef_distance_restraint.chain_code_2
+         _nef_distance_restraint.sequence_code_2
+         _nef_distance_restraint.residue_type_2
+         _nef_distance_restraint.atom_name_2
+         _nef_distance_restraint.weight
+         _nef_distance_restraint.target_value
+         _nef_distance_restraint.target_value_uncertainty
+         _nef_distance_restraint.lower_linear_limit
+         _nef_distance_restraint.lower_limit
+         _nef_distance_restraint.upper_limit
+         _nef_distance_restraint.upper_linear_limit
+
+         1    1    .  A  2   THR  HA    A  18  THR  H     1  4    .  .  1.8  5    .
+         2    2    .  A  4   LYS  HA    A  18  THR  H     1  4    .  .  1.8  5    .
+         3    3    .  A  5   LEU  HA    A  52  PHE  H     1  3    .  .  1.8  3.5  .
+         4    4    .  A  6   ILE  HA    A  16  THR  H     1  4    .  .  1.8  5    .
+         5    5    .  A  8   ASN  HA    A  14  GLY  H     1  4    .  .  1.8  5    .
+         6    6    .  A  7   LEU  H     A  13  LYS  HA    1  4    .  .  1.8  5    .
+         7    7    .  A  9   GLY  H     A  13  LYS  HA    1  3    .  .  1.8  3.5  .
+         8    8    .  A  7   LEU  H     A  15  GLU  HA    1  2.5  .  .  1.8  2.9  .
+         9    9    .  A  5   LEU  H     A  17  THR  HA    1  3    .  .  1.8  3.5  .
+         10   10   .  A  43  TRP  HA    A  55  THR  H     1  4    .  .  1.8  5    .
+         11   11   .  A  46  ASP  H     A  52  PHE  HA    1  3    .  .  1.8  3.5  .
+         12   12   .  A  6   ILE  H     A  53  THR  HA    1  2.5  .  .  1.8  2.9  .
+         13   13   .  A  44  THR  H     A  54  VAL  HA    1  3    .  .  1.8  3.5  .
+         14   14   .  A  42  GLU  H     A  56  GLU  HA    1  4    .  .  1.8  5    .
+         15   15   .  A  3   TYR  H     A  18  THR  H     1  3    .  .  1.8  3.5  .
+         16   16   .  A  6   ILE  H     A  54  VAL  H     1  4    .  .  1.8  5    .
+         17   17   .  A  7   LEU  H     A  14  GLY  H     1  3    .  .  1.8  3.5  .
+         18   18   .  A  8   ASN  H     A  54  VAL  H     1  4    .  .  1.8  5    .
+         19   19   .  A  5   LEU  H     A  16  THR  H     1  3    .  .  1.8  3.5  .
+         20   20   .  A  42  GLU  H     A  55  THR  H     1  4    .  .  1.8  5    .
+         21   21   .  A  44  THR  H     A  53  THR  H     1  3    .  .  1.8  3.5  .
+         22   22   .  A  4   LYS  H     A  52  PHE  H     1  3    .  .  1.8  3.5  .
+         23   23   .  A  6   ILE  H     A  52  PHE  H     1  4    .  .  1.8  5    .
+         24   24   .  A  4   LYS  HA    A  17  THR  HA    1  2.5  .  .  1.8  2.7  .
+         25   25   .  A  6   ILE  HA    A  15  GLU  HA    1  2.5  .  .  1.8  2.7  .
+         26   26   .  A  2   THR  HA    A  19  GLU  HA    1  2.5  .  .  1.8  2.7  .
+         27   27   .  A  43  TRP  HA    A  54  VAL  HA    1  2.5  .  .  1.8  2.7  .
+         28   28   .  A  5   LEU  HA    A  51  THR  HA    1  4    .  .  1.8  6    .
+         29   29   .  A  45  TYR  HA    A  52  PHE  HA    1  2.5  .  .  1.8  2.7  .
+         30   30   .  A  5   LEU  HA    A  53  THR  HA    1  4    .  .  1.8  6    .
+         31   31   .  A  7   LEU  HA    A  53  THR  HA    1  4    .  .  1.8  5    .
+         32   32   .  A  41  GLY  HA%   A  56  GLU  HA    1  2.5  .  .  0.8  2.7  .
+         33   33   .  A  2   THR  HA    A  19  GLU  HB%   1  4    .  .  1.8  5    .
+         34   34   .  A  3   TYR  HA    A  50  LYS  HB%   1  4    .  .  1.8  5    .
+         35   35   .  A  4   LYS  HA    A  17  THR  HB    1  4    .  .  1.8  5    .
+         36   36   .  A  5   LEU  HA    A  52  PHE  HB%   1  3    .  .  1.8  3.3  .
+         37   37   .  A  2   THR  HB    A  17  THR  HA    1  4    .  .  1.8  7    .
+         38   38   .  A  4   LYS  HB%   A  17  THR  HA    1  4    .  .  1.8  6    .
+         39   39   .  A  20  ALA  HB%   A  26  ALA  HA    1  3    .  .  1.8  3.3  .
+         40   40   .  A  34  ALA  HB%   A  40  ASP  HA    1  4    .  .  1.8  5    .
+         41   41   .  A  8   ASN  HB%   A  55  THR  HA    1  2.5  .  .  1.8  2.7  .
+         42   42   .  A  43  TRP  HB%   A  54  VAL  HA    1  4    .  .  1.8  5    .
+         43   43   .  A  43  TRP  HA    A  54  VAL  HB    1  4    .  .  1.8  5    .
+         44   44   .  A  3   TYR  HB%   A  52  PHE  HA    1  4    .  .  1.8  6    .
+         45   45   .  A  3   TYR  HB%   A  26  ALA  HB%   1  3    .  .  1.8  3.3  .
+         46   46   .  A  20  ALA  HB%   A  26  ALA  HB%   1  2.5  .  .  1.8  2.7  .
+         47   47   .  A  34  ALA  HB%   A  54  VAL  HB    1  4    .  .  1.8  5    .
+         48   48   .  A  8   ASN  H     A  54  VAL  HB    1  4    .  .  1.8  6    .
+         49   49   .  A  42  GLU  HB%   A  55  THR  HB    1  3    .  .  1.8  3.3  .
+         50   50   .  A  3   TYR  H     A  17  THR  HB    1  4    .  .  1.8  5    .
+         51   51   .  A  46  ASP  H     A  51  THR  HB    1  4    .  .  1.8  5    .
+         52   52   .  A  44  THR  H     A  53  THR  HB    1  4    .  .  1.8  5    .
+         53   53   .  A  42  GLU  H     A  55  THR  HB    1  4    .  .  1.8  5    .
+         54   54   .  A  3   TYR  HB%   A  18  THR  H     1  4    .  .  1.8  6    .
+         55   55   .  A  5   LEU  HB%   A  16  THR  H     1  3    .  .  1.8  3.5  .
+         56   56   .  A  5   LEU  HB%   A  15  GLU  H     1  4    .  .  1.8  7    .
+         57   57   .  A  7   LEU  H     A  15  GLU  HB%   1  4    .  .  0.8  6    .
+         58   58   .  A  8   ASN  H     A  54  VAL  HB    1  4    .  .  1.8  6    .
+         59   59   .  A  10  LYS  H     A  56  GLU  HB%   1  2.5  .  .  1.8  2.9  .
+         60   60   .  A  5   LEU  HD2%  A  16  THR  HG%%  1  3    .  .  1.8  4.3  .
+         61   61   .  A  5   LEU  HD2%  A  30  PHE  HA    1  3    .  .  1.8  3.8  .
+         62   62   .  A  5   LEU  HD1%  A  30  PHE  HB%   1  4    .  .  1.8  5.5  .
+         63   63   .  A  5   LEU  HD2%  A  30  PHE  HB%   1  4    .  .  1.8  5.5  .
+         64   64   .  A  5   LEU  HD2%  A  30  PHE  HB%   1  3    .  .  0.8  3.8  .
+         65   65   .  A  5   LEU  HD1%  A  30  PHE  HB%   1  4    .  .  1.8  5.5  .
+         66   66   .  A  5   LEU  HD2%  A  33  TYR  HB%   1  4    .  .  1.8  5.5  .
+         67   67   .  A  5   LEU  HD2%  A  34  ALA  HA    1  4    .  .  1.8  5.5  .
+         68   68   .  A  5   LEU  HD2%  A  34  ALA  H     1  4    .  .  1.8  5.5  .
+         69   69   .  A  5   LEU  HD2%  A  34  ALA  HB%   1  3    .  .  1.8  3.8  .
+         70   70   .  A  5   LEU  HD1%  A  34  ALA  HB%   1  4    .  .  1.8  6.5  .
+         71   71   .  A  5   LEU  HD1%  A  52  PHE  H     1  4    .  .  1.8  5.5  .
+         72   72   .  A  5   LEU  HD1%  A  54  VAL  H     1  2.5  .  .  1.8  3.2  .
+         73   73   .  A  5   LEU  HD1%  A  15  GLU  HA    1  4    .  .  1.8  5.5  .
+         74   74   .  A  5   LEU  HD1%  A  53  THR  HA    1  3    .  .  1.8  3.8  .
+         75   75   .  A  5   LEU  HD1%  A  54  VAL  HG1%  1  4    .  .  1.8  6    .
+         76   76   .  A  5   LEU  HD1%  A  54  VAL  HG2%  1  4    .  .  1.8  6    .
+         77   77   .  A  5   LEU  HD1%  A  54  VAL  HB    1  4    .  .  1.8  5.5  .
+         78   78   .  A  5   LEU  HG    A  15  GLU  HA    1  4    .  .  1.8  5    .
+         79   79   .  A  6   ILE  HG2%  A  14  GLY  H     1  4    .  .  1.8  5.5  .
+         80   80   .  A  6   ILE  HD%%  A  15  GLU  HB%   1  4    .  .  1.8  5.5  .
+         81   81   .  A  7   LEU  HD1%  A  15  GLU  HA    1  3    .  .  1.8  3.8  .
+         82   82   .  A  7   LEU  HD1%  A  16  THR  HG%%  1  3    .  .  1.8  4.3  .
+         83   83   .  A  7   LEU  HD11  A  34  ALA  H     1  4    .  .  1.8  5.5  .
+         84   83   .  A  7   LEU  HD12  A  34  ALA  H     1  4    .  .  1.8  5.5  .
+         85   83   .  A  7   LEU  HD13  A  34  ALA  H     1  4    .  .  1.8  5.5  .
+         86   83   .  A  7   LEU  HD21  A  34  ALA  H     1  4    .  .  1.8  5.5  .
+         87   83   .  A  7   LEU  HD22  A  34  ALA  H     1  4    .  .  1.8  5.5  .
+         88   83   .  A  7   LEU  HD23  A  34  ALA  H     1  4    .  .  1.8  5.5  .
+         89   84   .  A  7   LEU  HD1%  A  34  ALA  HA    1  4    .  .  1.8  5.5  .
+         90   85   .  A  7   LEU  HD2%  A  34  ALA  HA    1  4    .  .  1.8  5.5  .
+         91   86   .  A  7   LEU  HD11  A  15  GLU  HG%   1  4    .  .  1.8  6    .
+         92   86   .  A  7   LEU  HD12  A  15  GLU  HG%   1  4    .  .  1.8  6    .
+         93   86   .  A  7   LEU  HD13  A  15  GLU  HG%   1  4    .  .  1.8  6    .
+         94   86   .  A  7   LEU  HD21  A  15  GLU  HG%   1  4    .  .  1.8  6    .
+         95   86   .  A  7   LEU  HD22  A  15  GLU  HG%   1  4    .  .  1.8  6    .
+         96   86   .  A  7   LEU  HD23  A  15  GLU  HG%   1  4    .  .  1.8  6    .
+         97   87   .  A  7   LEU  HD2%  A  34  ALA  HB%   1  3    .  .  1.8  3.8  .
+         98   88   .  A  7   LEU  HD2%  A  54  VAL  HB    1  4    .  .  1.8  5.5  .
+         99   89   .  A  7   LEU  HD2%  A  39  VAL  HB    1  4    .  .  1.8  5.5  .
+         100  90   .  A  12  LEU  HD2%  A  37  ASN  HB%   1  2.5  .  .  1.8  3.2  .
+         101  91   .  A  12  LEU  HD1%  A  37  ASN  HB%   1  4    .  .  1.8  5.5  .
+         102  92   .  A  10  LYS  H     A  56  GLU  HG%   1  4    .  .  1.8  5    .
+         103  93   .  A  9   GLY  H     A  39  VAL  HG1%  1  4    .  .  2.8  5.5  .
+         104  94   .  A  9   GLY  H     A  39  VAL  HG2%  1  4    .  .  1.8  6.5  .
+         105  95   .  A  8   ASN  H     A  39  VAL  HG1%  1  4    .  .  1.8  6.5  .
+         106  96   .  A  10  LYS  H     A  39  VAL  HG1%  1  4    .  .  1.8  6.5  .
+         107  97   .  A  10  LYS  H     A  39  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         108  98   .  A  12  LEU  H     A  39  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         109  99   .  A  12  LEU  H     A  39  VAL  HG1%  1  4    .  .  1.8  6.5  .
+         110  100  .  A  39  VAL  HG1%  A  54  VAL  HA    1  4    .  .  1.8  5.5  .
+         111  101  .  A  39  VAL  HG1%  A  56  GLU  HA    1  4    .  .  1.8  5.5  .
+         112  102  .  A  39  VAL  HG1%  A  56  GLU  H     1  4    .  .  1.8  5.5  .
+         113  103  .  A  39  VAL  HG1%  A  56  GLU  HG%   1  3    .  .  1.8  4    .
+         114  104  .  A  39  VAL  HG1%  A  56  GLU  HB%   1  4    .  .  1.8  6.5  .
+         115  105  .  A  39  VAL  HG1%  A  54  VAL  HG1%  1  2.5  .  .  1.8  3.7  .
+         116  106  .  A  39  VAL  HG1%  A  54  VAL  HG2%  1  2.5  .  .  1.8  3.7  .
+         117  107  .  A  39  VAL  HG1%  A  54  VAL  HB    1  4    .  .  1.8  5.5  .
+         118  108  .  A  34  ALA  HB%   A  39  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         119  109  .  A  34  ALA  HB%   A  39  VAL  HG2%  1  4    .  .  1.8  6.5  .
+         120  110  .  A  7   LEU  HA    A  39  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         121  111  .  A  5   LEU  HB%   A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         122  112  .  A  7   LEU  HD2%  A  54  VAL  HG1%  1  2.5  .  .  0.3  3.7  .
+         123  113  .  A  7   LEU  HD2%  A  54  VAL  HG2%  1  4    .  .  1.8  7    .
+         124  114  .  A  7   LEU  HG    A  54  VAL  HG1%  1  3    .  .  1.8  3.8  .
+         125  115  .  A  7   LEU  HB%   A  54  VAL  HG2%  1  4    .  .  1.8  6.5  .
+         126  116  .  A  8   ASN  H     A  54  VAL  HG1%  1  2.5  .  .  1.8  3.2  .
+         127  117  .  A  34  ALA  HB%   A  54  VAL  HG1%  1  3    .  .  1.8  3.8  .
+         128  118  .  A  34  ALA  HB%   A  54  VAL  HG2%  1  4    .  .  1.8  6.5  .
+         129  119  .  A  39  VAL  HB    A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         130  120  .  A  40  ASP  HA    A  54  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         131  121  .  A  41  GLY  H     A  54  VAL  HG2%  1  3    .  .  1.8  3.8  .
+         132  122  .  A  41  GLY  H     A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         133  123  .  A  41  GLY  HA%   A  54  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         134  124  .  A  42  GLU  H     A  54  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         135  125  .  A  43  TRP  HA    A  54  VAL  HG2%  1  3    .  .  1.8  3.9  .
+         136  126  .  A  2   THR  HG%%  A  18  THR  H     1  2.5  .  .  1.3  3.4  .
+         137  127  .  A  2   THR  HG%%  A  17  THR  HA    1  4    .  .  1.8  6.5  .
+         138  128  .  A  2   THR  HG%%  A  19  GLU  HG%   1  4    .  .  1.8  5.5  .
+         139  129  .  A  5   LEU  H     A  16  THR  HG%%  1  3    .  .  1.8  3.9  .
+         140  130  .  A  5   LEU  HB%   A  16  THR  HG%%  1  3    .  .  1.8  3.8  .
+         141  131  .  A  16  THR  HG%%  A  33  TYR  HB%   1  4    .  .  1.8  6.5  .
+         142  132  .  A  4   LYS  HA    A  17  THR  HG%%  1  3    .  .  1.8  3.8  .
+         143  133  .  A  4   LYS  H     A  17  THR  HG%%  1  4    .  .  1.8  6.5  .
+         144  134  .  A  3   TYR  H     A  18  THR  HG%%  1  3    .  .  1.8  3.9  .
+         145  135  .  A  3   TYR  HB%   A  18  THR  HG%%  1  4    .  .  1.8  5.5  .
+         146  136  .  A  18  THR  HG%%  A  26  ALA  HA    1  3    .  .  1.8  3.8  .
+         147  137  .  A  18  THR  HG%%  A  29  VAL  HG1%  1  3    .  .  1.8  4.3  .
+         148  138  .  A  18  THR  HG%%  A  29  VAL  HG2%  1  4    .  .  1.8  6    .
+         149  139  .  A  18  THR  HG%%  A  29  VAL  HB    1  3    .  .  1.8  3.8  .
+         150  140  .  A  25  THR  HB    A  28  LYS  HD%   1  4    .  .  1.8  6    .
+         151  141  .  A  25  THR  HB    A  28  LYS  HE%   1  4    .  .  1.8  6    .
+         152  142  .  A  4   LYS  HB%   A  51  THR  HG%%  1  3    .  .  1.8  3.8  .
+         153  143  .  A  5   LEU  HA    A  51  THR  HG%%  1  4    .  .  1.8  5.5  .
+         154  144  .  A  6   ILE  HG1%  A  51  THR  HG%%  1  4    .  .  1.8  6    .
+         155  145  .  A  6   ILE  HB    A  53  THR  HG%%  1  3    .  .  1.8  3.8  .
+         156  146  .  A  7   LEU  H     A  53  THR  HG%%  1  4    .  .  1.8  5.5  .
+         157  147  .  A  8   ASN  HB%   A  53  THR  HG%%  1  4    .  .  1.8  5.5  .
+         158  148  .  A  8   ASN  H     A  55  THR  HG%%  1  4    .  .  1.8  5.5  .
+         159  149  .  A  3   TYR  HD%   A  20  ALA  HB%   1  3    .  .  1.8  3.8  .
+         160  150  .  A  3   TYR  HE%   A  20  ALA  HB%   1  3    .  .  1.8  3.8  .
+         161  151  .  A  3   TYR  HE%   A  23  ALA  HB%   1  4    .  .  1.8  6.5  .
+         162  152  .  A  3   TYR  HD%   A  26  ALA  HB%   1  3    .  .  1.8  3.8  .
+         163  153  .  A  3   TYR  HD%   A  45  TYR  HE%   1  3    .  .  1.8  3.3  .
+         164  154  .  A  3   TYR  HD%   A  50  LYS  HA    1  3    .  .  1.8  3.3  .
+         165  155  .  A  3   TYR  HD%   A  50  LYS  HB%   1  2.5  .  .  1.8  2.7  .
+         166  156  .  A  3   TYR  HB%   A  30  PHE  HZ    1  4    .  .  1.8  5    .
+         167  157  .  A  3   TYR  HB%   A  30  PHE  HE%   1  4    .  .  1.8  5    .
+         168  158  .  A  4   LYS  HA    A  30  PHE  HZ    1  4    .  .  1.8  5    .
+         169  159  .  A  4   LYS  HA    A  30  PHE  HE%   1  4    .  .  1.8  5    .
+         170  160  .  A  5   LEU  HB%   A  30  PHE  HD%   1  3    .  .  1.8  3.3  .
+         171  161  .  A  5   LEU  HB%   A  30  PHE  HE%   1  3    .  .  1.8  3.3  .
+         172  162  .  A  5   LEU  HB%   A  30  PHE  HZ    1  4    .  .  1.8  5    .
+         173  163  .  A  5   LEU  H     A  30  PHE  HZ    1  4    .  .  1.8  5    .
+         174  164  .  A  5   LEU  H     A  30  PHE  HE%   1  4    .  .  1.8  5    .
+         175  165  .  A  16  THR  HG%%  A  30  PHE  HE%   1  3    .  .  1.8  3.8  .
+         176  166  .  A  16  THR  HG%%  A  30  PHE  HZ    1  4    .  .  1.8  6.5  .
+         177  167  .  A  16  THR  HB    A  30  PHE  HE%   1  4    .  .  1.8  6    .
+         178  168  .  A  17  THR  HA    A  30  PHE  HZ    1  3    .  .  1.8  3.3  .
+         179  169  .  A  17  THR  HA    A  30  PHE  HE%   1  4    .  .  1.8  5    .
+         180  170  .  A  17  THR  HB    A  30  PHE  HZ    1  4    .  .  1.8  6    .
+         181  171  .  A  18  THR  H     A  30  PHE  HE%   1  4    .  .  1.8  5    .
+         182  172  .  A  18  THR  HB    A  30  PHE  HZ    1  4    .  .  1.8  5    .
+         183  173  .  A  18  THR  HB    A  30  PHE  HE%   1  3    .  .  1.8  3.3  .
+         184  174  .  A  18  THR  HG%%  A  30  PHE  HZ    1  3    .  .  1.8  3.8  .
+         185  175  .  A  16  THR  HG%%  A  33  TYR  HD%   1  4    .  .  1.8  5.5  .
+         186  176  .  A  5   LEU  HD2%  A  33  TYR  HD%   1  3    .  .  1.8  3.8  .
+         187  177  .  A  7   LEU  HD1%  A  33  TYR  HD%   1  3    .  .  1.8  3.8  .
+         188  178  .  A  7   LEU  HD1%  A  33  TYR  HE%   1  3    .  .  1.8  3.8  .
+         189  179  .  A  7   LEU  HD2%  A  33  TYR  HD%   1  3    .  .  1.8  3.8  .
+         190  180  .  A  7   LEU  HD2%  A  33  TYR  HE%   1  3    .  .  1.8  3.8  .
+         191  181  .  A  5   LEU  HD1%  A  43  TRP  HH%   1  3    .  .  1.8  3.8  .
+         192  182  .  A  5   LEU  HD1%  A  43  TRP  HZ3   1  3    .  .  1.8  3.8  .
+         193  183  .  A  5   LEU  HD1%  A  43  TRP  HH%   1  3    .  .  1.8  3.8  .
+         194  184  .  A  5   LEU  HD1%  A  43  TRP  HZ3   1  3    .  .  1.8  3.8  .
+         195  185  .  A  5   LEU  HB%   A  43  TRP  HZ3   1  4    .  .  1.8  5    .
+         196  186  .  A  5   LEU  HD1%  A  43  TRP  HE3   1  4    .  .  1.8  5.5  .
+         197  187  .  A  5   LEU  HD1%  A  43  TRP  HZ2   1  4    .  .  1.8  5.5  .
+         198  188  .  A  30  PHE  H     A  43  TRP  HH%   1  4    .  .  1.8  6    .
+         199  189  .  A  31  LYS  H     A  43  TRP  HH%   1  4    .  .  1.8  5    .
+         200  190  .  A  31  LYS  HA    A  43  TRP  HH%   1  3    .  .  1.8  3.3  .
+         201  191  .  A  31  LYS  HA    A  43  TRP  HZ2   1  3    .  .  1.8  3.3  .
+         202  192  .  A  31  LYS  HA    A  43  TRP  HH%   1  3    .  .  1.8  3.3  .
+         203  193  .  A  31  LYS  HB%   A  43  TRP  HE3   1  4    .  .  1.8  6    .
+         204  194  .  A  31  LYS  HB%   A  43  TRP  HH%   1  4    .  .  1.8  6    .
+         205  195  .  A  31  LYS  HB%   A  43  TRP  HZ2   1  4    .  .  1.8  6    .
+         206  196  .  A  31  LYS  HA    A  43  TRP  HE1   1  4    .  .  1.8  6    .
+         207  197  .  A  31  LYS  HB%   A  43  TRP  HE1   1  4    .  .  1.8  6    .
+         208  198  .  A  31  LYS  HG%   A  43  TRP  HE1   1  4    .  .  1.8  6    .
+         209  199  .  A  34  ALA  HB%   A  43  TRP  HH%   1  2.5  .  .  1.8  2.7  .
+         210  200  .  A  34  ALA  HB%   A  43  TRP  HZ2   1  3    .  .  1.8  3.3  .
+         211  201  .  A  34  ALA  HB%   A  43  TRP  HZ3   1  4    .  .  1.8  5    .
+         212  202  .  A  40  ASP  HA    A  43  TRP  HE1   1  4    .  .  1.8  5    .
+         213  203  .  A  43  TRP  HZ3   A  52  PHE  HD%   1  4    .  .  1.8  5    .
+         214  204  .  A  43  TRP  HE3   A  52  PHE  HD%   1  3    .  .  1.8  3.3  .
+         215  205  .  A  43  TRP  HE3   A  52  PHE  HE%   1  4    .  .  1.8  5    .
+         216  206  .  A  43  TRP  HE3   A  52  PHE  HA    1  4    .  .  1.8  6    .
+         217  207  .  A  43  TRP  HE3   A  52  PHE  HB%   1  4    .  .  1.8  5    .
+         218  208  .  A  43  TRP  HE3   A  53  THR  H     1  4    .  .  1.8  5    .
+         219  209  .  A  43  TRP  HZ2   A  54  VAL  HB    1  4    .  .  1.8  5    .
+         220  210  .  A  43  TRP  HE3   A  54  VAL  HB    1  4    .  .  1.8  5    .
+         221  211  .  A  43  TRP  HE3   A  54  VAL  HA    1  4    .  .  1.8  5    .
+         222  212  .  A  43  TRP  HE1   A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         223  213  .  A  43  TRP  HE1   A  54  VAL  HG2%  1  3    .  .  1.8  3.8  .
+         224  214  .  A  43  TRP  HZ2   A  54  VAL  HG2%  1  3    .  .  1.8  3.8  .
+         225  215  .  A  43  TRP  HZ2   A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         226  216  .  A  43  TRP  HE3   A  54  VAL  HG2%  1  3    .  .  1.8  3.8  .
+         227  217  .  A  43  TRP  HE3   A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         228  218  .  A  43  TRP  HH%   A  54  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         229  219  .  A  43  TRP  HH%   A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         230  220  .  A  43  TRP  HZ3   A  54  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         231  221  .  A  43  TRP  HZ3   A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         232  222  .  A  43  TRP  HE3   A  54  VAL  HG2%  1  3    .  .  0.8  3.8  .
+         233  223  .  A  23  ALA  HB%   A  45  TYR  HE%   1  4    .  .  1.8  5.5  .
+         234  224  .  A  26  ALA  H     A  45  TYR  HE%   1  4    .  .  1.8  7    .
+         235  225  .  A  45  TYR  HE%   A  51  THR  H     1  4    .  .  1.8  5    .
+         236  226  .  A  45  TYR  HE%   A  52  PHE  HD%   1  4    .  .  1.8  5    .
+         237  227  .  A  45  TYR  HE%   A  52  PHE  HE%   1  3    .  .  1.8  3.3  .
+         238  228  .  A  45  TYR  HE%   A  52  PHE  HZ    1  4    .  .  1.8  5    .
+         239  229  .  A  45  TYR  HD%   A  52  PHE  HD%   1  4    .  .  1.8  5    .
+         240  230  .  A  45  TYR  HD%   A  52  PHE  HE%   1  3    .  .  1.8  3.3  .
+         241  231  .  A  45  TYR  HD%   A  52  PHE  HA    1  3    .  .  1.8  3.3  .
+         242  232  .  A  5   LEU  HB%   A  52  PHE  HD%   1  4    .  .  1.8  6    .
+         243  233  .  A  5   LEU  HD1%  A  52  PHE  HD%   1  4    .  .  1.8  5.5  .
+         244  234  .  A  23  ALA  HB%   A  52  PHE  HE%   1  4    .  .  1.8  5.5  .
+         245  235  .  A  23  ALA  HB%   A  52  PHE  HZ    1  3    .  .  1.8  3.8  .
+         246  236  .  A  23  ALA  HA    A  52  PHE  HZ    1  4    .  .  1.8  5    .
+         247  237  .  A  26  ALA  HB%   A  52  PHE  HD%   1  4    .  .  1.8  5.5  .
+         248  238  .  A  26  ALA  HB%   A  52  PHE  HE%   1  3    .  .  1.8  3.8  .
+         249  239  .  A  26  ALA  HB%   A  52  PHE  HZ    1  4    .  .  0.3  6.5  .
+         250  240  .  A  27  GLU  H     A  52  PHE  HE%   1  4    .  .  1.8  5    .
+         251  241  .  A  27  GLU  H     A  52  PHE  HZ    1  3    .  .  1.8  3.5  .
+         252  242  .  A  27  GLU  HG%   A  52  PHE  HE%   1  3    .  .  1.8  3.3  .
+         253  243  .  A  27  GLU  HG%   A  52  PHE  HZ    1  3    .  .  1.8  3.3  .
+         254  244  .  A  27  GLU  HA    A  52  PHE  HZ    1  4    .  .  1.8  6    .
+         255  245  .  A  30  PHE  HB%   A  52  PHE  HD%   1  4    .  .  1.8  5    .
+         256  246  .  A  30  PHE  HZ    A  52  PHE  HD%   1  4    .  .  1.8  6    .
+         257  247  .  A  44  THR  H     A  52  PHE  HD%   1  4    .  .  1.8  5    .
+         258  248  .  A  45  TYR  HB%   A  52  PHE  HD%   1  4    .  .  1.8  5    .
+         259  249  .  A  45  TYR  HB%   A  52  PHE  HE%   1  3    .  .  1.8  3.3  .
+         260  250  .  A  45  TYR  HA    A  52  PHE  HD%   1  4    .  .  1.8  5    .
+         261  251  .  A  6   ILE  HD%%  A  53  THR  HA    1  4    .  .  1.8  5.5  .
+         262  252  .  A  6   ILE  HB    A  53  THR  HA    1  3    .  .  1.8  3.3  .
+         263  253  .  A  8   ASN  HD%%  A  55  THR  HG%%  1  3    .  .  1.8  4    .
+         264  254  .  A  8   ASN  HD%%  A  55  THR  H     1  4    .  .  1.8  6    .
+         265  255  .  A  1   MET  HA    A  2   THR  H     1  2.5  .  .  1.8  2.9  .
+         266  256  .  A  2   THR  HA    A  3   TYR  H     1  2.5  .  .  1.8  2.9  .
+         267  257  .  A  3   TYR  HA    A  4   LYS  H     1  2.5  .  .  1.8  2.9  .
+         268  258  .  A  4   LYS  HA    A  5   LEU  H     1  2.5  .  .  1.8  2.9  .
+         269  259  .  A  5   LEU  HA    A  6   ILE  H     1  2.5  .  .  1.8  2.9  .
+         270  260  .  A  6   ILE  HA    A  7   LEU  H     1  2.5  .  .  1.8  2.9  .
+         271  261  .  A  7   LEU  HA    A  8   ASN  H     1  2.5  .  .  1.8  2.9  .
+         272  262  .  A  8   ASN  HA    A  9   GLY  H     1  2.5  .  .  1.8  2.9  .
+         273  263  .  A  9   GLY  HA%   A  10  LYS  H     1  2.5  .  .  0.8  2.9  .
+         274  264  .  A  10  LYS  HA    A  11  THR  H     1  4    .  .  1.8  5    .
+         275  265  .  A  11  THR  HA    A  12  LEU  H     1  3    .  .  1.8  3.5  .
+         276  266  .  A  12  LEU  HA    A  13  LYS  H     1  2.5  .  .  1.8  2.9  .
+         277  267  .  A  13  LYS  HA    A  14  GLY  H     1  2.5  .  .  1.8  2.9  .
+         278  268  .  A  14  GLY  HA%   A  15  GLU  H     1  2.5  .  .  1.8  2.9  .
+         279  269  .  A  15  GLU  HA    A  16  THR  H     1  2.5  .  .  1.8  2.9  .
+         280  270  .  A  16  THR  HA    A  17  THR  H     1  3    .  .  1.8  3.5  .
+         281  271  .  A  17  THR  HA    A  18  THR  H     1  2.5  .  .  1.8  2.9  .
+         282  272  .  A  18  THR  HA    A  19  GLU  H     1  2.5  .  .  1.8  2.9  .
+         283  273  .  A  19  GLU  HA    A  20  ALA  H     1  2.5  .  .  1.8  2.9  .
+         284  274  .  A  20  ALA  HA    A  21  VAL  H     1  2.5  .  .  1.8  2.9  .
+         285  275  .  A  21  VAL  H     A  22  ASP  H     1  4    .  .  1.8  5.4  .
+         286  276  .  A  22  ASP  HA    A  23  ALA  H     1  2.5  .  .  1.8  2.9  .
+         287  277  .  A  23  ALA  HA    A  24  ALA  H     1  4    .  .  1.8  5    .
+         288  278  .  A  24  ALA  HA    A  25  THR  H     1  4    .  .  1.8  5    .
+         289  279  .  A  25  THR  HA    A  26  ALA  H     1  4    .  .  1.8  5    .
+         290  280  .  A  26  ALA  HA    A  27  GLU  H     1  4    .  .  1.8  5    .
+         291  281  .  A  27  GLU  HA    A  28  LYS  H     1  4    .  .  1.8  5    .
+         292  282  .  A  28  LYS  HA    A  29  VAL  H     1  4    .  .  1.8  5    .
+         293  283  .  A  32  GLN  HA    A  33  TYR  H     1  4    .  .  1.8  5    .
+         294  284  .  A  33  TYR  HA    A  34  ALA  H     1  3    .  .  1.8  3.5  .
+         295  285  .  A  34  ALA  HA    A  35  ASN  H     1  4    .  .  1.8  5    .
+         296  286  .  A  35  ASN  HA    A  36  ASP  H     1  4    .  .  1.8  5    .
+         297  287  .  A  36  ASP  HA    A  37  ASN  H     1  4    .  .  1.8  5    .
+         298  288  .  A  37  ASN  HA    A  38  GLY  H     1  3    .  .  1.8  3.5  .
+         299  289  .  A  38  GLY  HA%   A  39  VAL  H     1  3    .  .  1.8  3.5  .
+         300  290  .  A  39  VAL  HA    A  40  ASP  H     1  3    .  .  1.8  3.5  .
+         301  291  .  A  40  ASP  HA    A  41  GLY  H     1  3    .  .  1.8  3.5  .
+         302  292  .  A  41  GLY  HA%   A  42  GLU  H     1  2.5  .  .  1.8  2.9  .
+         303  293  .  A  42  GLU  HA    A  43  TRP  H     1  2.5  .  .  1.8  2.9  .
+         304  294  .  A  43  TRP  HA    A  44  THR  H     1  2.5  .  .  1.8  2.9  .
+         305  295  .  A  44  THR  HA    A  45  TYR  H     1  2.5  .  .  1.8  2.9  .
+         306  296  .  A  45  TYR  HA    A  46  ASP  H     1  2.5  .  .  1.8  2.9  .
+         307  297  .  A  46  ASP  HA    A  47  ASP  H     1  2.5  .  .  1.8  2.9  .
+         308  298  .  A  47  ASP  HA    A  48  ALA  H     1  4    .  .  1.8  6    .
+         309  299  .  A  48  ALA  HA    A  49  THR  H     1  4    .  .  1.8  5    .
+         310  300  .  A  49  THR  HA    A  50  LYS  H     1  3    .  .  1.8  3.5  .
+         311  301  .  A  50  LYS  HA    A  51  THR  H     1  3    .  .  1.8  3.5  .
+         312  302  .  A  51  THR  HA    A  52  PHE  H     1  2.5  .  .  1.8  2.9  .
+         313  303  .  A  52  PHE  HA    A  53  THR  H     1  2.5  .  .  1.8  2.9  .
+         314  304  .  A  53  THR  HA    A  54  VAL  H     1  2.5  .  .  1.8  2.9  .
+         315  305  .  A  54  VAL  HA    A  55  THR  H     1  2.5  .  .  1.8  2.9  .
+         316  306  .  A  55  THR  HA    A  56  GLU  H     1  2.5  .  .  1.8  2.9  .
+         317  307  .  A  2   THR  H     A  3   TYR  H     1  4    .  .  1.8  5    .
+         318  308  .  A  6   ILE  H     A  7   LEU  H     1  4    .  .  1.8  5    .
+         319  309  .  A  8   ASN  H     A  9   GLY  H     1  3    .  .  1.8  3.5  .
+         320  310  .  A  9   GLY  H     A  10  LYS  H     1  4    .  .  1.8  5    .
+         321  311  .  A  10  LYS  H     A  11  THR  H     1  2.5  .  .  1.8  2.9  .
+         322  312  .  A  11  THR  H     A  12  LEU  H     1  2.5  .  .  1.8  2.9  .
+         323  313  .  A  12  LEU  H     A  13  LYS  H     1  4    .  .  1.8  5    .
+         324  314  .  A  15  GLU  H     A  16  THR  H     1  4    .  .  1.8  5    .
+         325  315  .  A  16  THR  H     A  17  THR  H     1  4    .  .  1.8  5    .
+         326  316  .  A  18  THR  H     A  19  GLU  H     1  4    .  .  1.8  5    .
+         327  317  .  A  21  VAL  H     A  22  ASP  H     1  2.5  .  .  1.8  2.9  .
+         328  318  .  A  22  ASP  H     A  23  ALA  H     1  4    .  .  1.8  5    .
+         329  319  .  A  23  ALA  H     A  24  ALA  H     1  3    .  .  1.8  3.5  .
+         330  320  .  A  24  ALA  H     A  25  THR  H     1  2.5  .  .  1.8  2.9  .
+         331  321  .  A  25  THR  H     A  26  ALA  H     1  2.5  .  .  1.8  2.9  .
+         332  322  .  A  26  ALA  H     A  27  GLU  H     1  2.5  .  .  1.8  2.9  .
+         333  323  .  A  27  GLU  H     A  28  LYS  H     1  2.5  .  .  1.8  2.9  .
+         334  324  .  A  28  LYS  H     A  29  VAL  H     1  2.5  .  .  1.8  2.9  .
+         335  325  .  A  29  VAL  H     A  30  PHE  H     1  2.5  .  .  1.8  2.9  .
+         336  326  .  A  30  PHE  H     A  31  LYS  H     1  2.5  .  .  1.8  2.9  .
+         337  327  .  A  31  LYS  H     A  32  GLN  H     1  2.5  .  .  1.8  2.9  .
+         338  328  .  A  32  GLN  H     A  33  TYR  H     1  2.5  .  .  1.8  2.9  .
+         339  329  .  A  33  TYR  H     A  34  ALA  H     1  2.5  .  .  1.8  2.9  .
+         340  330  .  A  34  ALA  H     A  35  ASN  H     1  2.5  .  .  1.8  2.9  .
+         341  331  .  A  35  ASN  H     A  36  ASP  H     1  2.5  .  .  1.8  2.9  .
+         342  332  .  A  36  ASP  H     A  37  ASN  H     1  2.5  .  .  1.8  2.9  .
+         343  333  .  A  37  ASN  H     A  38  GLY  H     1  2.5  .  .  1.8  2.9  .
+         344  334  .  A  38  GLY  H     A  39  VAL  H     1  2.5  .  .  1.8  2.9  .
+         345  335  .  A  42  GLU  H     A  43  TRP  H     1  4    .  .  1.8  5    .
+         346  336  .  A  44  THR  H     A  45  TYR  H     1  4    .  .  1.8  5    .
+         347  337  .  A  45  TYR  H     A  46  ASP  H     1  4    .  .  1.8  5    .
+         348  338  .  A  47  ASP  H     A  48  ALA  H     1  3    .  .  1.8  3.5  .
+         349  339  .  A  48  ALA  H     A  49  THR  H     1  3    .  .  1.8  3.5  .
+         350  340  .  A  49  THR  H     A  50  LYS  H     1  2.5  .  .  1.8  2.7  .
+         351  341  .  A  50  LYS  H     A  51  THR  H     1  2.5  .  .  1.8  2.9  .
+         352  342  .  A  51  THR  H     A  52  PHE  H     1  4    .  .  1.8  5    .
+         353  343  .  A  55  THR  H     A  56  GLU  H     1  4    .  .  1.8  5    .
+         354  344  .  A  2   THR  HA    A  3   TYR  HB%   1  4    .  .  1.8  5    .
+         355  345  .  A  4   LYS  HA    A  5   LEU  HB%   1  4    .  .  1.8  6    .
+         356  346  .  A  29  VAL  HB    A  30  PHE  HA    1  4    .  .  1.8  5    .
+         357  347  .  A  51  THR  HA    A  52  PHE  HB%   1  4    .  .  1.8  5    .
+         358  348  .  A  52  PHE  HA    A  53  THR  HB    1  4    .  .  1.8  5    .
+         359  349  .  A  48  ALA  HB%   A  49  THR  HA    1  4    .  .  1.8  5    .
+         360  350  .  A  34  ALA  HA    A  39  VAL  HB    1  4    .  .  1.8  5    .
+         361  351  .  A  9   GLY  HA%   A  11  THR  H     1  4    .  .  1.8  6    .
+         362  352  .  A  20  ALA  HA    A  22  ASP  H     1  4    .  .  1.8  5    .
+         363  353  .  A  28  LYS  HA    A  30  PHE  H     1  4    .  .  1.8  5    .
+         364  354  .  A  35  ASN  HA    A  37  ASN  H     1  4    .  .  1.8  5    .
+         365  355  .  A  46  ASP  HA    A  48  ALA  H     1  4    .  .  1.8  5    .
+         366  356  .  A  48  ALA  HA    A  50  LYS  H     1  4    .  .  1.8  5    .
+         367  357  .  A  23  ALA  HA    A  26  ALA  H     1  3    .  .  1.8  3.5  .
+         368  358  .  A  24  ALA  HA    A  27  GLU  H     1  3    .  .  1.8  3.5  .
+         369  359  .  A  26  ALA  HA    A  29  VAL  H     1  3    .  .  1.8  3.5  .
+         370  360  .  A  28  LYS  HA    A  31  LYS  H     1  4    .  .  1.8  5    .
+         371  361  .  A  30  PHE  HA    A  33  TYR  H     1  4    .  .  1.8  5    .
+         372  362  .  A  31  LYS  HA    A  34  ALA  H     1  3    .  .  1.8  3.5  .
+         373  363  .  A  32  GLN  HA    A  35  ASN  H     1  4    .  .  1.8  5    .
+         374  364  .  A  33  TYR  HA    A  36  ASP  H     1  3    .  .  1.8  3.5  .
+         375  365  .  A  34  ALA  HA    A  37  ASN  H     1  4    .  .  1.8  5    .
+         376  366  .  A  35  ASN  HA    A  38  GLY  H     1  3    .  .  1.8  3.5  .
+         377  367  .  A  10  LYS  H     A  12  LEU  H     1  4    .  .  1.8  5    .
+         378  368  .  A  24  ALA  H     A  26  ALA  H     1  4    .  .  1.8  5    .
+         379  369  .  A  27  GLU  H     A  29  VAL  H     1  4    .  .  1.8  5    .
+         380  370  .  A  28  LYS  H     A  30  PHE  H     1  4    .  .  1.8  5    .
+         381  371  .  A  29  VAL  H     A  31  LYS  H     1  4    .  .  1.8  5    .
+         382  372  .  A  31  LYS  H     A  33  TYR  H     1  4    .  .  1.8  5    .
+         383  373  .  A  32  GLN  H     A  34  ALA  H     1  4    .  .  1.8  5    .
+         384  374  .  A  34  ALA  H     A  36  ASP  H     1  4    .  .  1.8  5    .
+         385  375  .  A  36  ASP  H     A  38  GLY  H     1  4    .  .  1.8  5    .
+         386  376  .  A  37  ASN  H     A  39  VAL  H     1  4    .  .  1.8  5    .
+         387  377  .  A  47  ASP  H     A  49  THR  H     1  4    .  .  1.8  5    .
+         388  378  .  A  48  ALA  H     A  50  LYS  H     1  4    .  .  1.8  5    .
+         389  379  .  A  49  THR  H     A  51  THR  H     1  4    .  .  1.8  5    .
+         390  380  .  A  9   GLY  H     A  12  LEU  H     1  4    .  .  1.8  5    .
+         391  381  .  A  27  GLU  H     A  30  PHE  H     1  4    .  .  1.8  5    .
+         392  382  .  A  46  ASP  H     A  51  THR  H     1  4    .  .  1.8  5    .
+         393  383  .  A  23  ALA  HA    A  27  GLU  H     1  4    .  .  1.8  5    .
+         394  384  .  A  32  GLN  HA    A  36  ASP  H     1  4    .  .  1.8  5    .
+         395  385  .  A  35  ASN  HA    A  39  VAL  H     1  4    .  .  1.8  5    .
+         396  386  .  A  34  ALA  HA    A  39  VAL  H     1  4    .  .  1.8  5    .
+         397  387  .  A  46  ASP  HA    A  51  THR  H     1  4    .  .  1.8  5    .
+         398  388  .  A  23  ALA  HA    A  26  ALA  HB%   1  3    .  .  1.8  3.8  .
+         399  389  .  A  24  ALA  HA    A  27  GLU  HB%   1  3    .  .  1.8  3.3  .
+         400  390  .  A  26  ALA  HA    A  29  VAL  HB    1  3    .  .  1.8  3.3  .
+         401  391  .  A  28  LYS  HA    A  31  LYS  HB%   1  3    .  .  1.8  3.3  .
+         402  392  .  A  29  VAL  HA    A  32  GLN  HB%   1  3    .  .  1.8  3.3  .
+         403  393  .  A  30  PHE  HA    A  33  TYR  HB%   1  3    .  .  1.8  3.3  .
+         404  394  .  A  31  LYS  HA    A  34  ALA  HB%   1  3    .  .  1.8  3.3  .
+         405  395  .  A  32  GLN  HA    A  35  ASN  HB%   1  3    .  .  1.8  3.3  .
+         406  396  .  A  33  TYR  HA    A  36  ASP  HB%   1  3    .  .  1.8  3.3  .
+         407  397  .  A  34  ALA  HA    A  37  ASN  HB%   1  3    .  .  1.8  3.3  .
+         408  398  .  A  8   ASN  HA    A  13  LYS  HA    1  4    .  .  1.8  5    .
+         409  399  .  A  46  ASP  HB%   A  51  THR  HB    1  3    .  .  1.8  3.3  .
+         410  400  .  A  46  ASP  HB%   A  49  THR  H     1  4    .  .  1.8  5    .
+         411  401  .  A  50  LYS  H     A  51  THR  H     1  4    .  .  1.8  5    .
+         412  402  .  A  48  ALA  HB%   A  50  LYS  H     1  4    .  .  0.3  6.5  .
+         413  403  .  A  6   ILE  HB    A  7   LEU  H     1  4    .  .  1.8  5    .
+         414  404  .  A  34  ALA  HB%   A  39  VAL  H     1  4    .  .  1.8  5    .
+         415  405  .  A  37  ASN  HB%   A  39  VAL  H     1  4    .  .  1.8  5    .
+         416  406  .  A  23  ALA  HB%   A  26  ALA  HB%   1  4    .  .  1.8  6    .
+         417  407  .  A  22  ASP  HB%   A  24  ALA  H     1  4    .  .  1.8  5    .
+         418  408  .  A  20  ALA  HB%   A  22  ASP  H     1  3    .  .  0.3  5    .
+         419  409  .  A  2   THR  HG%%  A  3   TYR  H     1  2.5  .  .  1.8  3.4  .
+         420  410  .  A  11  THR  HG%%  A  12  LEU  H     1  4    .  .  1.8  5.5  .
+         421  411  .  A  10  LYS  HB%   A  11  THR  HG%%  1  4    .  .  1.8  5.5  .
+         422  412  .  A  16  THR  HG%%  A  17  THR  HA    1  4    .  .  1.8  6.5  .
+         423  413  .  A  16  THR  HG%%  A  17  THR  H     1  3    .  .  1.8  3.9  .
+         424  414  .  A  15  GLU  HA    A  16  THR  HG%%  1  4    .  .  1.8  5.5  .
+         425  415  .  A  15  GLU  HA    A  16  THR  HG%%  1  4    .  .  1.8  6.5  .
+         426  416  .  A  17  THR  HA    A  18  THR  HG%%  1  4    .  .  1.8  6.5  .
+         427  417  .  A  18  THR  HG%%  A  19  GLU  H     1  3    .  .  1.8  3.9  .
+         428  418  .  A  18  THR  HG%%  A  20  ALA  H     1  4    .  .  1.8  5.5  .
+         429  419  .  A  18  THR  HG%%  A  19  GLU  HA    1  4    .  .  1.8  6.5  .
+         430  420  .  A  25  THR  HG%%  A  26  ALA  H     1  4    .  .  1.8  5.5  .
+         431  421  .  A  22  ASP  H     A  25  THR  HG%%  1  4    .  .  1.8  5.5  .
+         432  422  .  A  21  VAL  H     A  25  THR  HG%%  1  4    .  .  1.8  5.5  .
+         433  423  .  A  49  THR  HG%%  A  50  LYS  H     1  4    .  .  1.8  5.5  .
+         434  424  .  A  48  ALA  HB%   A  49  THR  HG%%  1  3    .  .  1.8  3.8  .
+         435  425  .  A  48  ALA  H     A  49  THR  HG%%  1  4    .  .  1.8  5.5  .
+         436  426  .  A  46  ASP  HB%   A  49  THR  HG%%  1  4    .  .  1.8  6.5  .
+         437  427  .  A  51  THR  HG%%  A  52  PHE  H     1  2.5  .  .  1.8  3.4  .
+         438  428  .  A  46  ASP  HB%   A  51  THR  HG%%  1  4    .  .  1.8  5.5  .
+         439  429  .  A  53  THR  HG%%  A  54  VAL  H     1  2.5  .  .  1.8  3.4  .
+         440  430  .  A  53  THR  HG%%  A  55  THR  H     1  4    .  .  1.8  5.5  .
+         441  431  .  A  53  THR  HA    A  54  VAL  HB    1  4    .  .  1.8  5    .
+         442  432  .  A  53  THR  HA    A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         443  433  .  A  55  THR  HG%%  A  56  GLU  H     1  3    .  .  1.8  3.9  .
+         444  434  .  A  54  VAL  HG1%  A  55  THR  H     1  3    .  .  1.8  4    .
+         445  435  .  A  54  VAL  HG2%  A  55  THR  H     1  2.5  .  .  1.8  3.4  .
+         446  436  .  A  54  VAL  HG2%  A  56  GLU  HG%   1  4    .  .  1.8  6.5  .
+         447  437  .  A  54  VAL  HG1%  A  56  GLU  HG%   1  4    .  .  1.8  5.5  .
+         448  438  .  A  38  GLY  H     A  39  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         449  439  .  A  39  VAL  HG1%  A  40  ASP  HA    1  4    .  .  1.8  5.5  .
+         450  440  .  A  34  ALA  HA    A  39  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         451  441  .  A  26  ALA  HA    A  29  VAL  HG2%  1  3    .  .  1.8  3.9  .
+         452  442  .  A  26  ALA  HA    A  29  VAL  HG1%  1  3    .  .  1.8  3.9  .
+         453  443  .  A  28  LYS  HA    A  29  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         454  444  .  A  29  VAL  HG1%  A  30  PHE  HA    1  4    .  .  1.8  5.5  .
+         455  445  .  A  29  VAL  HG1%  A  33  TYR  HB%   1  4    .  .  1.8  6.5  .
+         456  446  .  A  21  VAL  HG2%  A  22  ASP  H     1  3    .  .  1.8  3.9  .
+         457  447  .  A  6   ILE  HG2%  A  8   ASN  H     1  4    .  .  1.8  5.5  .
+         458  448  .  A  6   ILE  HG2%  A  8   ASN  HB%   1  4    .  .  1.8  5.5  .
+         459  449  .  A  33  TYR  HA    A  37  ASN  HD%%  1  4    .  .  1.8  5    .
+         460  450  .  A  34  ALA  HA    A  37  ASN  HD%%  1  4    .  .  1.8  6    .
+         461  451  .  A  36  ASP  HB%   A  37  ASN  HD%%  1  4    .  .  1.8  5    .
+         462  452  .  A  6   ILE  HG2%  A  8   ASN  HD%%  1  4    .  .  1.8  5.5  .
+         463  453  .  A  29  VAL  HG1%  A  30  PHE  HD%   1  4    .  .  0.3  6.5  .
+         464  454  .  A  29  VAL  HG1%  A  30  PHE  HE%   1  4    .  .  0.3  7.5  .
+         465  455  .  A  27  GLU  HA    A  30  PHE  HD%   1  4    .  .  1.8  5    .
+         466  456  .  A  33  TYR  HD%   A  37  ASN  HD%%  1  4    .  .  0.8  5    .
+         467  457  .  A  33  TYR  HD%   A  34  ALA  HA    1  3    .  .  1.8  3.3  .
+         468  458  .  A  33  TYR  HE%   A  34  ALA  H     1  4    .  .  1.8  6    .
+         469  459  .  A  33  TYR  HD%   A  34  ALA  HB%   1  4    .  .  1.8  5.5  .
+         470  460  .  A  42  GLU  HA    A  43  TRP  HD%   1  4    .  .  1.8  5    .
+         471  461  .  A  45  TYR  HE%   A  47  ASP  HA    1  3    .  .  1.8  3.3  .
+         472  462  .  A  45  TYR  HE%   A  50  LYS  HA    1  4    .  .  1.8  5    .
+         473  463  .  A  45  TYR  HE%   A  50  LYS  H     1  4    .  .  1.8  6    .
+         474  464  .  A  45  TYR  HE%   A  47  ASP  HB%   1  3    .  .  1.8  3.3  .
+         475  465  .  A  40  ASP  HA    A  43  TRP  HE1   1  4    .  .  1.8  5    .
+         476  466  .  A  41  GLY  H     A  43  TRP  HE1   1  4    .  .  1.8  5    .
+         477  467  .  A  41  GLY  H     A  43  TRP  HD%   1  4    .  .  1.8  6    .
+         478  468  .  A  42  GLU  HB%   A  43  TRP  HD%   1  4    .  .  1.8  5    .
+         479  469  .  A  52  PHE  HD%   A  53  THR  H     1  4    .  .  1.8  5    .
+         480  470  .  A  51  THR  HG%%  A  52  PHE  HD%   1  4    .  .  1.8  5.5  .
+         481  471  .  A  51  THR  HA    A  52  PHE  HD%   1  4    .  .  1.8  5    .
+         482  472  .  A  52  PHE  HA    A  52  PHE  HD%   1  3    .  .  1.8  3.3  .
+         483  473  .  A  5   LEU  HG    A  7   LEU  HA    1  4    .  .  1.8  5    .
+         484  474  .  A  5   LEU  HD1%  A  7   LEU  HA    1  4    .  .  1.8  5.5  .
+         485  475  .  A  5   LEU  HD1%  A  7   LEU  HG    1  4    .  .  1.8  5.5  .
+         486  476  .  A  5   LEU  HD2%  A  7   LEU  HG    1  4    .  .  1.8  5.5  .
+         487  477  .  A  5   LEU  HD2%  A  7   LEU  HD1%  1  3    .  .  1.8  4.3  .
+         488  478  .  A  5   LEU  HD2%  A  7   LEU  HD2%  1  3    .  .  1.8  4.3  .
+         489  479  .  A  7   LEU  HD2%  A  8   ASN  H     1  4    .  .  1.8  5.5  .
+         490  480  .  A  7   LEU  HD11  A  8   ASN  HA    1  4    .  .  1.8  6.5  .
+         491  480  .  A  7   LEU  HD12  A  8   ASN  HA    1  4    .  .  1.8  6.5  .
+         492  480  .  A  7   LEU  HD13  A  8   ASN  HA    1  4    .  .  1.8  6.5  .
+         493  480  .  A  7   LEU  HD21  A  8   ASN  HA    1  4    .  .  1.8  6.5  .
+         494  480  .  A  7   LEU  HD22  A  8   ASN  HA    1  4    .  .  1.8  6.5  .
+         495  480  .  A  7   LEU  HD23  A  8   ASN  HA    1  4    .  .  1.8  6.5  .
+         496  481  .  A  5   LEU  HB%   A  7   LEU  HD11  1  4    .  .  1.8  6.5  .
+         497  481  .  A  5   LEU  HB%   A  7   LEU  HD12  1  4    .  .  1.8  6.5  .
+         498  481  .  A  5   LEU  HB%   A  7   LEU  HD13  1  4    .  .  1.8  6.5  .
+         499  481  .  A  5   LEU  HB%   A  7   LEU  HD21  1  4    .  .  1.8  6.5  .
+         500  481  .  A  5   LEU  HB%   A  7   LEU  HD22  1  4    .  .  1.8  6.5  .
+         501  481  .  A  5   LEU  HB%   A  7   LEU  HD23  1  4    .  .  1.8  6.5  .
+         502  482  .  A  12  LEU  HD1%  A  13  LYS  H     1  3    .  .  1.8  3.8  .
+         503  483  .  A  12  LEU  HD2%  A  13  LYS  H     1  4    .  .  1.8  6.5  .
+         504  484  .  A  8   ASN  HA    A  13  LYS  HG%   1  2.5  .  .  1.8  2.7  .
+         505  485  .  A  8   ASN  HA    A  13  LYS  HD%   1  4    .  .  1.8  5    .
+         506  486  .  A  8   ASN  HA    A  13  LYS  HB%   1  4    .  .  1.8  6    .
+         507  487  .  A  24  ALA  HA    A  27  GLU  HG%   1  3    .  .  1.8  3.3  .
+         508  488  .  A  2   THR  H     A  2   THR  HA    1  3    .  .  1.8  3.5  .
+         509  489  .  A  3   TYR  H     A  3   TYR  HA    1  3    .  .  1.8  3.5  .
+         510  490  .  A  4   LYS  H     A  4   LYS  HA    1  4    .  .  1.8  5    .
+         511  491  .  A  5   LEU  H     A  5   LEU  HA    1  3    .  .  1.8  3.5  .
+         512  492  .  A  6   ILE  H     A  6   ILE  HA    1  3    .  .  1.8  3.5  .
+         513  493  .  A  7   LEU  H     A  7   LEU  HA    1  3    .  .  1.8  3.5  .
+         514  494  .  A  8   ASN  H     A  8   ASN  HA    1  3    .  .  1.8  3.5  .
+         515  495  .  A  10  LYS  H     A  10  LYS  HA    1  4    .  .  1.8  5    .
+         516  496  .  A  11  THR  H     A  11  THR  HA    1  4    .  .  1.8  5    .
+         517  497  .  A  12  LEU  H     A  12  LEU  HA    1  3    .  .  1.8  3.5  .
+         518  498  .  A  13  LYS  H     A  13  LYS  HA    1  3    .  .  1.8  3.5  .
+         519  499  .  A  15  GLU  H     A  15  GLU  HA    1  3    .  .  1.8  3.5  .
+         520  500  .  A  16  THR  H     A  16  THR  HA    1  3    .  .  1.8  3.5  .
+         521  501  .  A  17  THR  H     A  17  THR  HA    1  3    .  .  1.8  3.5  .
+         522  502  .  A  18  THR  H     A  18  THR  HA    1  3    .  .  1.8  3.5  .
+         523  503  .  A  19  GLU  H     A  19  GLU  HA    1  4    .  .  1.8  5    .
+         524  504  .  A  20  ALA  H     A  20  ALA  HA    1  3    .  .  1.8  3.5  .
+         525  505  .  A  21  VAL  H     A  21  VAL  HA    1  3    .  .  1.8  3.5  .
+         526  506  .  A  22  ASP  H     A  22  ASP  HA    1  3    .  .  1.8  3.5  .
+         527  507  .  A  23  ALA  H     A  23  ALA  HA    1  3    .  .  1.8  3.5  .
+         528  508  .  A  24  ALA  H     A  24  ALA  HA    1  3    .  .  1.8  3.5  .
+         529  509  .  A  25  THR  H     A  25  THR  HA    1  3    .  .  1.8  3.5  .
+         530  510  .  A  26  ALA  H     A  26  ALA  HA    1  3    .  .  1.8  3.5  .
+         531  511  .  A  27  GLU  H     A  27  GLU  HA    1  2.5  .  .  1.8  2.9  .
+         532  512  .  A  28  LYS  H     A  28  LYS  HA    1  3    .  .  1.8  3.5  .
+         533  513  .  A  29  VAL  H     A  29  VAL  HA    1  3    .  .  1.8  3.5  .
+         534  514  .  A  30  PHE  H     A  30  PHE  HA    1  3    .  .  1.8  3.5  .
+         535  515  .  A  31  LYS  H     A  31  LYS  HA    1  3    .  .  1.8  3.5  .
+         536  516  .  A  32  GLN  H     A  32  GLN  HA    1  3    .  .  1.8  3.5  .
+         537  517  .  A  33  TYR  H     A  33  TYR  HA    1  2.5  .  .  1.8  2.9  .
+         538  518  .  A  34  ALA  H     A  34  ALA  HA    1  2.5  .  .  1.8  2.9  .
+         539  519  .  A  35  ASN  H     A  35  ASN  HA    1  3    .  .  1.8  3.5  .
+         540  520  .  A  36  ASP  H     A  36  ASP  HA    1  2.5  .  .  1.8  2.9  .
+         541  521  .  A  37  ASN  H     A  37  ASN  HA    1  3    .  .  1.8  3.5  .
+         542  522  .  A  39  VAL  H     A  39  VAL  HA    1  3    .  .  1.8  3.5  .
+         543  523  .  A  40  ASP  H     A  40  ASP  HA    1  3    .  .  1.8  3.5  .
+         544  524  .  A  42  GLU  H     A  42  GLU  HA    1  3    .  .  1.8  3.5  .
+         545  525  .  A  43  TRP  H     A  43  TRP  HA    1  3    .  .  1.8  3.5  .
+         546  526  .  A  44  THR  H     A  44  THR  HA    1  3    .  .  1.8  3.5  .
+         547  527  .  A  45  TYR  H     A  45  TYR  HA    1  4    .  .  1.8  5    .
+         548  528  .  A  46  ASP  H     A  46  ASP  HA    1  3    .  .  1.8  3.5  .
+         549  529  .  A  47  ASP  H     A  47  ASP  HA    1  3    .  .  1.8  3.5  .
+         550  530  .  A  48  ALA  H     A  48  ALA  HA    1  4    .  .  1.8  5    .
+         551  531  .  A  49  THR  H     A  49  THR  HA    1  4    .  .  1.8  5    .
+         552  532  .  A  50  LYS  H     A  50  LYS  HA    1  2.5  .  .  1.8  2.9  .
+         553  533  .  A  51  THR  H     A  51  THR  HA    1  3    .  .  1.8  3.5  .
+         554  534  .  A  52  PHE  H     A  52  PHE  HA    1  4    .  .  1.8  5    .
+         555  535  .  A  53  THR  H     A  53  THR  HA    1  3    .  .  1.8  3.5  .
+         556  536  .  A  54  VAL  H     A  54  VAL  HA    1  3    .  .  1.8  3.5  .
+         557  537  .  A  55  THR  H     A  55  THR  HA    1  3    .  .  1.8  3.5  .
+         558  538  .  A  56  GLU  H     A  56  GLU  HA    1  3    .  .  1.8  3.5  .
+         559  539  .  A  9   GLY  H     A  9   GLY  HA%   1  2.5  .  .  1.8  2.9  .
+         560  540  .  A  14  GLY  H     A  14  GLY  HA%   1  3    .  .  1.8  3.5  .
+         561  541  .  A  38  GLY  H     A  38  GLY  HA%   1  2.5  .  .  1.8  2.9  .
+         562  542  .  A  41  GLY  H     A  41  GLY  HA%   1  2.5  .  .  1.8  2.9  .
+         563  543  .  A  2   THR  H     A  2   THR  HB    1  2.5  .  .  1.8  2.9  .
+         564  544  .  A  3   TYR  H     A  3   TYR  HB%   1  3    .  .  1.8  3.5  .
+         565  545  .  A  4   LYS  H     A  4   LYS  HB%   1  2.5  .  .  1.8  2.9  .
+         566  546  .  A  5   LEU  H     A  5   LEU  HB%   1  2.5  .  .  1.8  2.9  .
+         567  547  .  A  6   ILE  H     A  6   ILE  HB    1  3    .  .  1.8  3.5  .
+         568  548  .  A  7   LEU  H     A  7   LEU  HB%   1  2.5  .  .  1.8  2.9  .
+         569  549  .  A  8   ASN  H     A  8   ASN  HB%   1  3    .  .  1.8  3.5  .
+         570  550  .  A  10  LYS  H     A  10  LYS  HB%   1  3    .  .  1.8  3.5  .
+         571  551  .  A  11  THR  H     A  11  THR  HB    1  4    .  .  1.8  5    .
+         572  552  .  A  12  LEU  H     A  12  LEU  HB%   1  3    .  .  1.8  3.5  .
+         573  553  .  A  13  LYS  H     A  13  LYS  HB%   1  2.5  .  .  1.8  2.9  .
+         574  554  .  A  15  GLU  H     A  15  GLU  HB%   1  3    .  .  1.8  3.5  .
+         575  555  .  A  16  THR  H     A  16  THR  HB    1  3    .  .  1.8  3.5  .
+         576  556  .  A  17  THR  H     A  17  THR  HB    1  4    .  .  1.8  5    .
+         577  557  .  A  18  THR  H     A  18  THR  HB    1  4    .  .  1.8  5    .
+         578  558  .  A  20  ALA  H     A  20  ALA  HB%   1  3    .  .  1.8  3.5  .
+         579  559  .  A  21  VAL  H     A  21  VAL  HB    1  4    .  .  1.8  5    .
+         580  560  .  A  22  ASP  H     A  22  ASP  HB%   1  3    .  .  1.8  3.5  .
+         581  561  .  A  23  ALA  H     A  23  ALA  HB%   1  3    .  .  1.8  3.5  .
+         582  562  .  A  24  ALA  H     A  24  ALA  HB%   1  3    .  .  1.8  3.5  .
+         583  563  .  A  25  THR  H     A  25  THR  HB    1  4    .  .  1.8  5    .
+         584  564  .  A  26  ALA  H     A  26  ALA  HB%   1  3    .  .  1.8  3.5  .
+         585  565  .  A  27  GLU  H     A  27  GLU  HB%   1  2.5  .  .  1.8  2.9  .
+         586  566  .  A  28  LYS  H     A  28  LYS  HB%   1  3    .  .  1.8  3.5  .
+         587  567  .  A  29  VAL  H     A  29  VAL  HB    1  2.5  .  .  1.8  2.9  .
+         588  568  .  A  30  PHE  H     A  30  PHE  HB%   1  2.5  .  .  1.8  2.9  .
+         589  569  .  A  31  LYS  H     A  31  LYS  HB%   1  2.5  .  .  1.8  2.9  .
+         590  570  .  A  32  GLN  H     A  32  GLN  HB%   1  2.5  .  .  1.8  2.9  .
+         591  571  .  A  33  TYR  H     A  33  TYR  HB%   1  3    .  .  1.8  3.5  .
+         592  572  .  A  34  ALA  H     A  34  ALA  HB%   1  2.5  .  .  1.8  2.9  .
+         593  573  .  A  35  ASN  H     A  35  ASN  HB%   1  3    .  .  1.8  3.5  .
+         594  574  .  A  36  ASP  H     A  36  ASP  HB%   1  2.5  .  .  1.8  2.9  .
+         595  575  .  A  37  ASN  H     A  37  ASN  HB%   1  2.5  .  .  1.8  2.9  .
+         596  576  .  A  39  VAL  H     A  39  VAL  HB    1  2.5  .  .  1.8  2.9  .
+         597  577  .  A  40  ASP  H     A  40  ASP  HB%   1  3    .  .  1.8  3.5  .
+         598  578  .  A  42  GLU  H     A  42  GLU  HB%   1  2.5  .  .  1.8  2.9  .
+         599  579  .  A  43  TRP  H     A  43  TRP  HB%   1  2.5  .  .  1.8  2.9  .
+         600  580  .  A  44  THR  H     A  44  THR  HB    1  4    .  .  1.8  5    .
+         601  581  .  A  45  TYR  H     A  45  TYR  HB%   1  2.5  .  .  1.8  2.9  .
+         602  582  .  A  46  ASP  H     A  46  ASP  HB%   1  3    .  .  1.8  3.5  .
+         603  583  .  A  47  ASP  H     A  47  ASP  HB%   1  3    .  .  1.8  3.5  .
+         604  584  .  A  48  ALA  H     A  48  ALA  HB%   1  3    .  .  1.8  3.5  .
+         605  585  .  A  50  LYS  H     A  50  LYS  HB%   1  4    .  .  1.8  5    .
+         606  586  .  A  51  THR  H     A  51  THR  HB    1  2.5  .  .  1.8  2.9  .
+         607  587  .  A  52  PHE  H     A  52  PHE  HB%   1  2.5  .  .  1.8  2.9  .
+         608  588  .  A  53  THR  H     A  53  THR  HB    1  2.5  .  .  1.8  2.9  .
+         609  589  .  A  54  VAL  H     A  54  VAL  HB    1  3    .  .  1.8  3.5  .
+         610  590  .  A  55  THR  H     A  55  THR  HB    1  2.5  .  .  1.8  2.9  .
+         611  591  .  A  56  GLU  H     A  56  GLU  HB%   1  3    .  .  1.8  3.5  .
+         612  592  .  A  21  VAL  H     A  21  VAL  HG11  1  3    .  .  1.8  4.5  .
+         613  592  .  A  21  VAL  H     A  21  VAL  HG12  1  3    .  .  1.8  4.5  .
+         614  592  .  A  21  VAL  H     A  21  VAL  HG13  1  3    .  .  1.8  4.5  .
+         615  592  .  A  21  VAL  H     A  21  VAL  HG21  1  3    .  .  1.8  4.5  .
+         616  592  .  A  21  VAL  H     A  21  VAL  HG22  1  3    .  .  1.8  4.5  .
+         617  592  .  A  21  VAL  H     A  21  VAL  HG23  1  3    .  .  1.8  4.5  .
+         618  593  .  A  21  VAL  HA    A  21  VAL  HG11  1  3    .  .  1.8  4.3  .
+         619  593  .  A  21  VAL  HA    A  21  VAL  HG12  1  3    .  .  1.8  4.3  .
+         620  593  .  A  21  VAL  HA    A  21  VAL  HG13  1  3    .  .  1.8  4.3  .
+         621  593  .  A  21  VAL  HA    A  21  VAL  HG21  1  3    .  .  1.8  4.3  .
+         622  593  .  A  21  VAL  HA    A  21  VAL  HG22  1  3    .  .  1.8  4.3  .
+         623  593  .  A  21  VAL  HA    A  21  VAL  HG23  1  3    .  .  1.8  4.3  .
+         624  594  .  A  29  VAL  HA    A  29  VAL  HG2%  1  2.5  .  .  1.8  3.2  .
+         625  595  .  A  29  VAL  HA    A  29  VAL  HG1%  1  3    .  .  1.8  3.8  .
+         626  596  .  A  29  VAL  H     A  29  VAL  HG2%  1  2.5  .  .  1.8  3.4  .
+         627  597  .  A  29  VAL  H     A  29  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         628  598  .  A  39  VAL  HA    A  39  VAL  HG1%  1  2.5  .  .  1.8  3.4  .
+         629  599  .  A  39  VAL  HA    A  39  VAL  HG2%  1  3    .  .  1.8  3.8  .
+         630  600  .  A  39  VAL  H     A  39  VAL  HG2%  1  2.5  .  .  1.8  3.4  .
+         631  601  .  A  39  VAL  H     A  39  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         632  602  .  A  54  VAL  HA    A  54  VAL  HG1%  1  4    .  .  1.8  5.5  .
+         633  603  .  A  54  VAL  HA    A  54  VAL  HG2%  1  2.5  .  .  1.8  3.2  .
+         634  604  .  A  54  VAL  H     A  54  VAL  HG1%  1  2.5  .  .  1.8  3.4  .
+         635  605  .  A  54  VAL  H     A  54  VAL  HG2%  1  4    .  .  1.8  5.5  .
+         636  606  .  A  2   THR  HA    A  2   THR  HG%%  1  3    .  .  1.8  3.8  .
+         637  607  .  A  11  THR  HA    A  11  THR  HG%%  1  2.5  .  .  1.8  3.2  .
+         638  608  .  A  16  THR  HA    A  16  THR  HG%%  1  3    .  .  1.8  3.8  .
+         639  609  .  A  17  THR  HA    A  17  THR  HG%%  1  2.5  .  .  1.8  3    .
+         640  610  .  A  18  THR  HA    A  18  THR  HG%%  1  4    .  .  1.8  5.5  .
+         641  611  .  A  25  THR  HA    A  25  THR  HG%%  1  2.5  .  .  1.8  3.2  .
+         642  612  .  A  44  THR  HA    A  44  THR  HG%%  1  2.5  .  .  1.8  3.2  .
+         643  613  .  A  51  THR  HA    A  51  THR  HG%%  1  2.5  .  .  1.8  3.2  .
+         644  614  .  A  53  THR  HA    A  53  THR  HG%%  1  2.5  .  .  1.8  3.2  .
+         645  615  .  A  55  THR  HA    A  55  THR  HG%%  1  4    .  .  1.7  5.5  .
+         646  616  .  A  2   THR  H     A  2   THR  HG%%  1  4    .  .  1.8  5.5  .
+         647  617  .  A  11  THR  H     A  11  THR  HG%%  1  3    .  .  1.8  3.8  .
+         648  618  .  A  16  THR  H     A  16  THR  HG%%  1  3    .  .  1.8  3.8  .
+         649  619  .  A  17  THR  H     A  17  THR  HG%%  1  3    .  .  1.8  3.8  .
+         650  620  .  A  18  THR  H     A  18  THR  HG%%  1  3    .  .  1.8  3.8  .
+         651  621  .  A  25  THR  H     A  25  THR  HG%%  1  4    .  .  1.8  5.5  .
+         652  622  .  A  44  THR  H     A  44  THR  HG%%  1  3    .  .  1.8  3.8  .
+         653  623  .  A  49  THR  H     A  49  THR  HG%%  1  3    .  .  1.8  3.8  .
+         654  624  .  A  51  THR  H     A  51  THR  HG%%  1  4    .  .  1.8  5.5  .
+         655  625  .  A  53  THR  H     A  53  THR  HG%%  1  4    .  .  1.8  5.5  .
+         656  626  .  A  55  THR  H     A  55  THR  HG%%  1  4    .  .  1.8  5.5  .
+         657  627  .  A  15  GLU  H     A  15  GLU  HG%   1  4    .  .  1.8  5    .
+         658  628  .  A  15  GLU  HA    A  15  GLU  HG%   1  4    .  .  1.8  5    .
+         659  629  .  A  19  GLU  H     A  19  GLU  HG%   1  4    .  .  1.8  6    .
+         660  630  .  A  19  GLU  HA    A  19  GLU  HG%   1  4    .  .  1.8  5.9  .
+         661  631  .  A  27  GLU  HA    A  27  GLU  HG%   1  2.5  .  .  1.8  2.9  .
+         662  632  .  A  27  GLU  H     A  27  GLU  HG%   1  4    .  .  1.8  5    .
+         663  633  .  A  42  GLU  H     A  42  GLU  HG%   1  4    .  .  1.8  6    .
+         664  634  .  A  56  GLU  H     A  56  GLU  HG%   1  4    .  .  1.8  5    .
+         665  635  .  A  56  GLU  HA    A  56  GLU  HG%   1  2.5  .  .  1.8  2.7  .
+         666  636  .  A  1   MET  HA    A  1   MET  HG%   1  3    .  .  1.8  3.3  .
+         667  637  .  A  5   LEU  HA    A  5   LEU  HD2%  1  4    .  .  1.8  6.5  .
+         668  638  .  A  5   LEU  HA    A  5   LEU  HD1%  1  2.5  .  .  0.3  3.2  .
+         669  639  .  A  5   LEU  HA    A  5   LEU  HG    1  4    .  .  1.8  5    .
+         670  640  .  A  5   LEU  H     A  5   LEU  HD2%  1  4    .  .  1.8  6.5  .
+         671  641  .  A  5   LEU  H     A  5   LEU  HD1%  1  4    .  .  1.8  5.5  .
+         672  642  .  A  7   LEU  HA    A  7   LEU  HG    1  3    .  .  1.8  3.3  .
+         673  643  .  A  7   LEU  H     A  7   LEU  HG    1  3    .  .  1.8  3.3  .
+         674  644  .  A  7   LEU  HA    A  7   LEU  HD2%  1  2.5  .  .  1.8  3.2  .
+         675  645  .  A  7   LEU  H     A  7   LEU  HD1%  1  3    .  .  1.8  3.9  .
+         676  646  .  A  12  LEU  HA    A  12  LEU  HD1%  1  3    .  .  1.8  3.8  .
+         677  647  .  A  12  LEU  HA    A  12  LEU  HD2%  1  4    .  .  1.8  6.5  .
+         678  648  .  A  6   ILE  H     A  6   ILE  HG1%  1  3    .  .  1.8  3.3  .
+         679  649  .  A  6   ILE  H     A  6   ILE  HG2%  1  4    .  .  1.8  5.5  .
+         680  650  .  A  6   ILE  HA    A  6   ILE  HG2%  1  2.5  .  .  1.8  3.4  .
+         681  651  .  A  6   ILE  HA    A  6   ILE  HD%%  1  4    .  .  2.8  5.5  .
+         682  652  .  A  6   ILE  HA    A  6   ILE  HG1%  1  3    .  .  1.8  3.3  .
+         683  653  .  A  6   ILE  HB    A  6   ILE  HD%%  1  3    .  .  1.8  3.8  .
+         684  654  .  A  4   LYS  HA    A  4   LYS  HG%   1  2.5  .  .  1.8  2.7  .
+         685  655  .  A  10  LYS  H     A  10  LYS  HG%   1  4    .  .  1.8  5    .
+         686  656  .  A  10  LYS  H     A  10  LYS  HD%   1  4    .  .  1.8  5    .
+         687  657  .  A  13  LYS  H     A  13  LYS  HG%   1  3    .  .  1.8  3.5  .
+         688  658  .  A  13  LYS  HA    A  13  LYS  HG%   1  2.5  .  .  1.8  2.7  .
+         689  659  .  A  28  LYS  H     A  28  LYS  HG%   1  4    .  .  1.8  5    .
+         690  660  .  A  28  LYS  HA    A  28  LYS  HG%   1  3    .  .  1.8  3.3  .
+         691  661  .  A  31  LYS  H     A  31  LYS  HG%   1  4    .  .  1.8  5    .
+         692  662  .  A  31  LYS  HA    A  31  LYS  HG%   1  3    .  .  1.8  3.3  .
+         693  663  .  A  31  LYS  HA    A  31  LYS  HD%   1  4    .  .  1.8  5    .
+         694  664  .  A  31  LYS  H     A  31  LYS  HG%   1  4    .  .  1.8  5    .
+         695  665  .  A  50  LYS  H     A  50  LYS  HG%   1  4    .  .  1.8  5    .
+         696  666  .  A  50  LYS  H     A  50  LYS  HD%   1  4    .  .  1.8  5    .
+         697  667  .  A  50  LYS  HA    A  50  LYS  HG%   1  3    .  .  1.8  3.3  .
+         698  668  .  A  50  LYS  HA    A  50  LYS  HD%   1  4    .  .  1.8  5    .
+         699  669  .  A  50  LYS  HE%   A  50  LYS  HG%   1  4    .  .  1.8  6    .
+         700  670  .  A  32  GLN  HA    A  32  GLN  HE%%  1  4    .  .  0.8  6    .
+         701  671  .  A  35  ASN  HA    A  35  ASN  HD%%  1  4    .  .  0.8  5    .
+         702  672  .  A  1   MET  O     A  20  ALA  N     1  3.3  .  .  2.5  3.5  .
+         703  673  .  A  3   TYR  N     A  18  THR  O     1  3.3  .  .  2.5  3.5  .
+         704  674  .  A  3   TYR  O     A  18  THR  N     1  3.3  .  .  2.5  3.5  .
+         705  675  .  A  5   LEU  N     A  16  THR  O     1  3.3  .  .  2.5  3.5  .
+         706  676  .  A  5   LEU  O     A  16  THR  N     1  3.3  .  .  2.5  3.5  .
+         707  677  .  A  7   LEU  N     A  14  GLY  O     1  3.3  .  .  2.5  3.5  .
+         708  678  .  A  7   LEU  O     A  14  GLY  N     1  3.3  .  .  2.5  3.5  .
+         709  679  .  A  9   GLY  N     A  12  LEU  O     1  3.3  .  .  2.5  3.5  .
+         710  680  .  A  4   LYS  N     A  50  LYS  O     1  3.3  .  .  2.5  3.5  .
+         711  681  .  A  4   LYS  O     A  52  PHE  N     1  3.3  .  .  2.5  3.5  .
+         712  682  .  A  6   ILE  N     A  52  PHE  O     1  3.3  .  .  2.5  3.5  .
+         713  683  .  A  6   ILE  O     A  54  VAL  N     1  3.3  .  .  2.5  3.5  .
+         714  684  .  A  8   ASN  N     A  54  VAL  O     1  3.3  .  .  2.5  3.5  .
+         715  685  .  A  42  GLU  N     A  55  THR  O     1  3.3  .  .  2.5  3.5  .
+         716  686  .  A  42  GLU  O     A  55  THR  N     1  3.3  .  .  2.5  3.5  .
+         717  687  .  A  44  THR  N     A  53  THR  O     1  3.3  .  .  2.5  3.5  .
+         718  688  .  A  44  THR  O     A  53  THR  N     1  3.3  .  .  2.5  3.5  .
+         719  689  .  A  46  ASP  N     A  51  THR  O     1  3.3  .  .  2.5  3.5  .
+         720  690  .  A  46  ASP  O     A  50  LYS  N     1  3.3  .  .  2.5  3.5  .
+         721  691  .  A  46  ASP  O     A  51  THR  N     1  3.3  .  .  2.5  3.5  .
+         722  692  .  A  22  ASP  O     A  26  ALA  N     1  3.3  .  .  2.5  3.5  .
+         723  693  .  A  23  ALA  O     A  27  GLU  N     1  3.3  .  .  2.5  3.5  .
+         724  694  .  A  25  THR  O     A  29  VAL  N     1  3.3  .  .  2.5  3.5  .
+         725  695  .  A  26  ALA  O     A  30  PHE  N     1  3.3  .  .  2.5  3.5  .
+         726  696  .  A  27  GLU  O     A  31  LYS  N     1  3.3  .  .  2.5  3.5  .
+         727  697  .  A  28  LYS  O     A  32  GLN  N     1  3.3  .  .  2.5  3.5  .
+         728  698  .  A  29  VAL  O     A  33  TYR  N     1  3.3  .  .  2.5  3.5  .
+         729  699  .  A  30  PHE  O     A  34  ALA  N     1  3.3  .  .  2.5  3.5  .
+         730  700  .  A  31  LYS  O     A  35  ASN  N     1  3.3  .  .  2.5  3.5  .
+         731  701  .  A  34  ALA  O     A  39  VAL  N     1  3.3  .  .  2.5  3.5  .
+         732  702  .  A  22  ASP  OD%   A  25  THR  N     1  3.3  .  .  2.5  3.5  .
+         733  703  .  A  1   MET  O     A  20  ALA  H     1  2.3  .  .  1.5  2.5  .
+         734  704  .  A  3   TYR  H     A  18  THR  O     1  2.3  .  .  1.5  2.5  .
+         735  705  .  A  3   TYR  O     A  18  THR  H     1  2.3  .  .  1.5  2.5  .
+         736  706  .  A  5   LEU  H     A  16  THR  O     1  2.3  .  .  1.5  2.5  .
+         737  707  .  A  5   LEU  O     A  16  THR  H     1  2.3  .  .  1.5  2.5  .
+         738  708  .  A  7   LEU  H     A  14  GLY  O     1  2.3  .  .  1.5  2.5  .
+         739  709  .  A  7   LEU  O     A  14  GLY  H     1  2.3  .  .  1.5  2.5  .
+         740  710  .  A  9   GLY  H     A  12  LEU  O     1  2.3  .  .  1.5  2.5  .
+         741  711  .  A  4   LYS  H     A  50  LYS  O     1  2.3  .  .  1.5  2.5  .
+         742  712  .  A  4   LYS  O     A  52  PHE  H     1  2.3  .  .  1.5  2.5  .
+         743  713  .  A  6   ILE  H     A  52  PHE  O     1  2.3  .  .  1.5  2.5  .
+         744  714  .  A  6   ILE  O     A  54  VAL  H     1  2.3  .  .  1.5  2.5  .
+         745  715  .  A  8   ASN  H     A  54  VAL  O     1  2.3  .  .  1.5  2.5  .
+         746  716  .  A  42  GLU  H     A  55  THR  O     1  2.3  .  .  1.5  2.5  .
+         747  717  .  A  42  GLU  O     A  55  THR  H     1  2.3  .  .  1.5  2.5  .
+         748  718  .  A  44  THR  H     A  53  THR  O     1  2.3  .  .  1.5  2.5  .
+         749  719  .  A  44  THR  O     A  53  THR  H     1  2.3  .  .  1.5  2.5  .
+         750  720  .  A  46  ASP  H     A  51  THR  O     1  2.3  .  .  1.5  2.5  .
+         751  721  .  A  46  ASP  O     A  50  LYS  H     1  2.3  .  .  1.5  2.5  .
+         752  722  .  A  46  ASP  O     A  51  THR  H     1  2.3  .  .  1.5  2.5  .
+         753  723  .  A  22  ASP  O     A  26  ALA  H     1  2.3  .  .  1.5  2.5  .
+         754  724  .  A  23  ALA  O     A  27  GLU  H     1  2.3  .  .  1.5  2.5  .
+         755  725  .  A  25  THR  O     A  29  VAL  H     1  2.3  .  .  1.5  2.5  .
+         756  726  .  A  26  ALA  O     A  30  PHE  H     1  2.3  .  .  1.5  2.5  .
+         757  727  .  A  27  GLU  O     A  31  LYS  H     1  2.3  .  .  1.5  2.5  .
+         758  728  .  A  28  LYS  O     A  32  GLN  H     1  2.3  .  .  1.5  2.5  .
+         759  729  .  A  29  VAL  O     A  33  TYR  H     1  2.3  .  .  1.5  2.5  .
+         760  730  .  A  30  PHE  O     A  34  ALA  H     1  2.3  .  .  1.5  2.5  .
+         761  731  .  A  31  LYS  O     A  35  ASN  H     1  2.3  .  .  1.5  2.5  .
+         762  732  .  A  34  ALA  O     A  39  VAL  H     1  2.3  .  .  1.5  2.5  .
+         763  733  .  A  22  ASP  OD%   A  25  THR  H     1  2.3  .  .  1.5  2.5  .
+         764  734  .  A  46  ASP  OD%   A  48  ALA  H     1  2.3  .  .  1.5  2.5  .
+         765  735  .  A  46  ASP  OD%   A  48  ALA  N     1  3.3  .  .  2.5  3.5  .
+      stop_
+   save_
+
+
+   save_nef_dihedral_restraint_list_Dih-1
+
+      _nef_dihedral_restraint_list.sf_category     nef_dihedral_restraint_list
+      _nef_dihedral_restraint_list.sf_framecode    nef_dihedral_restraint_list_Dih-1
+      _nef_dihedral_restraint_list.potential_type  unknown
+      _nef_dihedral_restraint_list.restraint_origin  .
+
+      loop_
+         _nef_dihedral_restraint.ordinal
+         _nef_dihedral_restraint.restraint_id
+         _nef_dihedral_restraint.restraint_combination_id
+         _nef_dihedral_restraint.chain_code_1
+         _nef_dihedral_restraint.sequence_code_1
+         _nef_dihedral_restraint.residue_type_1
+         _nef_dihedral_restraint.atom_name_1
+         _nef_dihedral_restraint.chain_code_2
+         _nef_dihedral_restraint.sequence_code_2
+         _nef_dihedral_restraint.residue_type_2
+         _nef_dihedral_restraint.atom_name_2
+         _nef_dihedral_restraint.chain_code_3
+         _nef_dihedral_restraint.sequence_code_3
+         _nef_dihedral_restraint.residue_type_3
+         _nef_dihedral_restraint.atom_name_3
+         _nef_dihedral_restraint.chain_code_4
+         _nef_dihedral_restraint.sequence_code_4
+         _nef_dihedral_restraint.residue_type_4
+         _nef_dihedral_restraint.atom_name_4
+         _nef_dihedral_restraint.weight
+         _nef_dihedral_restraint.target_value
+         _nef_dihedral_restraint.target_value_uncertainty
+         _nef_dihedral_restraint.lower_linear_limit
+         _nef_dihedral_restraint.lower_limit
+         _nef_dihedral_restraint.upper_limit
+         _nef_dihedral_restraint.upper_linear_limit
+         _nef_dihedral_restraint.name
+
+         1    3    .  A  1   MET  C    A  2   THR  N   A  2   THR  CA   A  2   THR  C    1  -105  .  .  -145  -65   .  PHI
+         2    4    .  A  2   THR  C    A  3   TYR  N   A  3   TYR  CA   A  3   TYR  C    1  -115  .  .  -145  -85   .  PHI
+         3    5    .  A  3   TYR  C    A  4   LYS  N   A  4   LYS  CA   A  4   LYS  C    1  -120  .  .  -155  -85   .  PHI
+         4    6    .  A  4   LYS  C    A  5   LEU  N   A  5   LEU  CA   A  5   LEU  C    1  -110  .  .  -140  -80   .  PHI
+         5    7    .  A  5   LEU  C    A  6   ILE  N   A  6   ILE  CA   A  6   ILE  C    1  -120  .  .  -150  -90   .  PHI
+         6    8    .  A  6   ILE  C    A  7   LEU  N   A  7   LEU  CA   A  7   LEU  C    1  -120  .  .  -160  -80   .  PHI
+         7    9    .  A  7   LEU  C    A  8   ASN  N   A  8   ASN  CA   A  8   ASN  C    1  -135  .  .  -170  -100  .  PHI
+         8    10   .  A  8   ASN  C    A  9   GLY  N   A  9   GLY  CA   A  9   GLY  C    1  -95   .  .  -175  -15   .  PHI
+         9    11   .  A  9   GLY  C    A  10  LYS  N   A  10  LYS  CA   A  10  LYS  C    1  -70   .  .  -100  -40   .  PHI
+         10   12   .  A  10  LYS  C    A  11  THR  N   A  11  THR  CA   A  11  THR  C    1  -120  .  .  -150  -90   .  PHI
+         11   13   .  A  11  THR  C    A  12  LEU  N   A  12  LEU  CA   A  12  LEU  C    1  -120  .  .  -175  -65   .  PHI
+         12   14   .  A  12  LEU  C    A  13  LYS  N   A  13  LYS  CA   A  13  LYS  C    1  -120  .  .  -155  -85   .  PHI
+         13   15   .  A  14  GLY  C    A  15  GLU  N   A  15  GLU  CA   A  15  GLU  C    1  -125  .  .  -175  -75   .  PHI
+         14   16   .  A  15  GLU  C    A  16  THR  N   A  16  THR  CA   A  16  THR  C    1  -120  .  .  -175  -65   .  PHI
+         15   17   .  A  16  THR  C    A  17  THR  N   A  17  THR  CA   A  17  THR  C    1  -120  .  .  -155  -85   .  PHI
+         16   18   .  A  17  THR  C    A  18  THR  N   A  18  THR  CA   A  18  THR  C    1  -115  .  .  -175  -55   .  PHI
+         17   19   .  A  18  THR  C    A  19  GLU  N   A  19  GLU  CA   A  19  GLU  C    1  -120  .  .  -155  -85   .  PHI
+         18   20   .  A  19  GLU  C    A  20  ALA  N   A  20  ALA  CA   A  20  ALA  C    1  -110  .  .  -155  -65   .  PHI
+         19   21   .  A  20  ALA  C    A  21  VAL  N   A  21  VAL  CA   A  21  VAL  C    1  -70   .  .  -100  -40   .  PHI
+         20   22   .  A  21  VAL  C    A  22  ASP  N   A  22  ASP  CA   A  22  ASP  C    1  -115  .  .  -175  -55   .  PHI
+         21   23   .  A  22  ASP  C    A  23  ALA  N   A  23  ALA  CA   A  23  ALA  C    1  -60   .  .  -90   -30   .  PHI
+         22   24   .  A  23  ALA  C    A  24  ALA  N   A  24  ALA  CA   A  24  ALA  C    1  -65   .  .  -95   -35   .  PHI
+         23   25   .  A  24  ALA  C    A  25  THR  N   A  25  THR  CA   A  25  THR  C    1  -70   .  .  -100  -40   .  PHI
+         24   26   .  A  25  THR  C    A  26  ALA  N   A  26  ALA  CA   A  26  ALA  C    1  -60   .  .  -90   -30   .  PHI
+         25   27   .  A  26  ALA  C    A  27  GLU  N   A  27  GLU  CA   A  27  GLU  C    1  -70   .  .  -100  -40   .  PHI
+         26   28   .  A  27  GLU  C    A  28  LYS  N   A  28  LYS  CA   A  28  LYS  C    1  -70   .  .  -100  -40   .  PHI
+         27   29   .  A  28  LYS  C    A  29  VAL  N   A  29  VAL  CA   A  29  VAL  C    1  -70   .  .  -100  -40   .  PHI
+         28   30   .  A  29  VAL  C    A  30  PHE  N   A  30  PHE  CA   A  30  PHE  C    1  -70   .  .  -105  -35   .  PHI
+         29   31   .  A  30  PHE  C    A  31  LYS  N   A  31  LYS  CA   A  31  LYS  C    1  -60   .  .  -90   -30   .  PHI
+         30   32   .  A  31  LYS  C    A  32  GLN  N   A  32  GLN  CA   A  32  GLN  C    1  -70   .  .  -100  -40   .  PHI
+         31   33   .  A  32  GLN  C    A  33  TYR  N   A  33  TYR  CA   A  33  TYR  C    1  -70   .  .  -100  -40   .  PHI
+         32   34   .  A  33  TYR  C    A  34  ALA  N   A  34  ALA  CA   A  34  ALA  C    1  -70   .  .  -100  -40   .  PHI
+         33   35   .  A  34  ALA  C    A  35  ASN  N   A  35  ASN  CA   A  35  ASN  C    1  -60   .  .  -90   -30   .  PHI
+         34   36   .  A  35  ASN  C    A  36  ASP  N   A  36  ASP  CA   A  36  ASP  C    1  -60   .  .  -90   -30   .  PHI
+         35   37   .  A  36  ASP  C    A  37  ASN  N   A  37  ASN  CA   A  37  ASN  C    1  -110  .  .  -140  -80   .  PHI
+         36   38   .  A  37  ASN  C    A  38  GLY  N   A  38  GLY  CA   A  38  GLY  C    1  65    .  .  5     125   .  PHI
+         37   39   .  A  38  GLY  C    A  39  VAL  N   A  39  VAL  CA   A  39  VAL  C    1  -115  .  .  -155  -75   .  PHI
+         38   40   .  A  39  VAL  C    A  40  ASP  N   A  40  ASP  CA   A  40  ASP  C    1  -120  .  .  -165  -75   .  PHI
+         39   41   .  A  41  GLY  C    A  42  GLU  N   A  42  GLU  CA   A  42  GLU  C    1  -115  .  .  -155  -75   .  PHI
+         40   42   .  A  42  GLU  C    A  43  TRP  N   A  43  TRP  CA   A  43  TRP  C    1  -120  .  .  -155  -85   .  PHI
+         41   43   .  A  43  TRP  C    A  44  THR  N   A  44  THR  CA   A  44  THR  C    1  -120  .  .  -165  -75   .  PHI
+         42   44   .  A  44  THR  C    A  45  TYR  N   A  45  TYR  CA   A  45  TYR  C    1  -120  .  .  -155  -85   .  PHI
+         43   45   .  A  45  TYR  C    A  46  ASP  N   A  46  ASP  CA   A  46  ASP  C    1  -125  .  .  -155  -95   .  PHI
+         44   46   .  A  46  ASP  C    A  47  ASP  N   A  47  ASP  CA   A  47  ASP  C    1  -65   .  .  -95   -35   .  PHI
+         45   47   .  A  47  ASP  C    A  48  ALA  N   A  48  ALA  CA   A  48  ALA  C    1  -70   .  .  -100  -40   .  PHI
+         46   48   .  A  48  ALA  C    A  49  THR  N   A  49  THR  CA   A  49  THR  C    1  -130  .  .  -165  -95   .  PHI
+         47   49   .  A  49  THR  C    A  50  LYS  N   A  50  LYS  CA   A  50  LYS  C    1  60    .  .  25    95    .  PHI
+         48   50   .  A  50  LYS  C    A  51  THR  N   A  51  THR  CA   A  51  THR  C    1  -120  .  .  -155  -85   .  PHI
+         49   51   .  A  51  THR  C    A  52  PHE  N   A  52  PHE  CA   A  52  PHE  C    1  -120  .  .  -160  -80   .  PHI
+         50   52   .  A  52  PHE  C    A  53  THR  N   A  53  THR  CA   A  53  THR  C    1  -120  .  .  -160  -80   .  PHI
+         51   53   .  A  53  THR  C    A  54  VAL  N   A  54  VAL  CA   A  54  VAL  C    1  -120  .  .  -155  -85   .  PHI
+         52   54   .  A  54  VAL  C    A  55  THR  N   A  55  THR  CA   A  55  THR  C    1  -120  .  .  -150  -90   .  PHI
+         53   55   .  A  55  THR  C    A  56  GLU  N   A  56  GLU  CA   A  56  GLU  C    1  -110  .  .  -160  -60   .  PHI
+         54   56   .  A  2   THR  N    A  2   THR  CA  A  2   THR  C    A  3   TYR  N    1  145   .  .  95    195   .  PSI
+         55   57   .  A  3   TYR  N    A  3   TYR  CA  A  3   TYR  C    A  4   LYS  N    1  160   .  .  110   210   .  PSI
+         56   58   .  A  4   LYS  N    A  4   LYS  CA  A  4   LYS  C    A  5   LEU  N    1  165   .  .  115   215   .  PSI
+         57   59   .  A  5   LEU  N    A  5   LEU  CA  A  5   LEU  C    A  6   ILE  N    1  130   .  .  75    185   .  PSI
+         58   60   .  A  6   ILE  N    A  6   ILE  CA  A  6   ILE  C    A  7   LEU  N    1  125   .  .  65    185   .  PSI
+         59   61   .  A  7   LEU  N    A  7   LEU  CA  A  7   LEU  C    A  8   ASN  N    1  120   .  .  55    185   .  PSI
+         60   62   .  A  8   ASN  N    A  8   ASN  CA  A  8   ASN  C    A  9   GLY  N    1  65    .  .  15    115   .  PSI
+         61   63   .  A  10  LYS  N    A  10  LYS  CA  A  10  LYS  C    A  11  THR  N    1  -30   .  .  -80   20    .  PSI
+         62   64   .  A  11  THR  N    A  11  THR  CA  A  11  THR  C    A  12  LEU  N    1  -25   .  .  -75   25    .  PSI
+         63   65   .  A  12  LEU  N    A  12  LEU  CA  A  12  LEU  C    A  13  LYS  N    1  120   .  .  45    195   .  PSI
+         64   66   .  A  13  LYS  N    A  13  LYS  CA  A  13  LYS  C    A  14  GLY  N    1  170   .  .  120   220   .  PSI
+         65   67   .  A  14  GLY  N    A  14  GLY  CA  A  14  GLY  C    A  15  GLU  N    1  180   .  .  130   230   .  PSI
+         66   68   .  A  15  GLU  N    A  15  GLU  CA  A  15  GLU  C    A  16  THR  N    1  140   .  .  25    255   .  PSI
+         67   69   .  A  16  THR  N    A  16  THR  CA  A  16  THR  C    A  17  THR  N    1  110   .  .  25    195   .  PSI
+         68   70   .  A  17  THR  N    A  17  THR  CA  A  17  THR  C    A  18  THR  N    1  160   .  .  110   210   .  PSI
+         69   71   .  A  18  THR  N    A  18  THR  CA  A  18  THR  C    A  19  GLU  N    1  130   .  .  75    185   .  PSI
+         70   72   .  A  19  GLU  N    A  19  GLU  CA  A  19  GLU  C    A  20  ALA  N    1  120   .  .  55    185   .  PSI
+         71   73   .  A  20  ALA  N    A  20  ALA  CA  A  20  ALA  C    A  21  VAL  N    1  190   .  .  125   255   .  PSI
+         72   74   .  A  21  VAL  N    A  21  VAL  CA  A  21  VAL  C    A  22  ASP  N    1  -20   .  .  -70   30    .  PSI
+         73   75   .  A  23  ALA  N    A  23  ALA  CA  A  23  ALA  C    A  24  ALA  N    1  -40   .  .  -90   10    .  PSI
+         74   76   .  A  24  ALA  N    A  24  ALA  CA  A  24  ALA  C    A  25  THR  N    1  -40   .  .  -90   10    .  PSI
+         75   77   .  A  25  THR  N    A  25  THR  CA  A  25  THR  C    A  26  ALA  N    1  -40   .  .  -90   10    .  PSI
+         76   78   .  A  26  ALA  N    A  26  ALA  CA  A  26  ALA  C    A  27  GLU  N    1  -45   .  .  -95   5     .  PSI
+         77   79   .  A  27  GLU  N    A  27  GLU  CA  A  27  GLU  C    A  28  LYS  N    1  -45   .  .  -95   5     .  PSI
+         78   80   .  A  28  LYS  N    A  28  LYS  CA  A  28  LYS  C    A  29  VAL  N    1  -40   .  .  -90   10    .  PSI
+         79   81   .  A  29  VAL  N    A  29  VAL  CA  A  29  VAL  C    A  30  PHE  N    1  -45   .  .  -95   5     .  PSI
+         80   82   .  A  30  PHE  N    A  30  PHE  CA  A  30  PHE  C    A  31  LYS  N    1  -35   .  .  -85   15    .  PSI
+         81   83   .  A  31  LYS  N    A  31  LYS  CA  A  31  LYS  C    A  32  GLN  N    1  -35   .  .  -85   15    .  PSI
+         82   84   .  A  32  GLN  N    A  32  GLN  CA  A  32  GLN  C    A  33  TYR  N    1  -40   .  .  -90   10    .  PSI
+         83   85   .  A  33  TYR  N    A  33  TYR  CA  A  33  TYR  C    A  34  ALA  N    1  -40   .  .  -90   10    .  PSI
+         84   86   .  A  34  ALA  N    A  34  ALA  CA  A  34  ALA  C    A  35  ASN  N    1  -45   .  .  -95   5     .  PSI
+         85   87   .  A  35  ASN  N    A  35  ASN  CA  A  35  ASN  C    A  36  ASP  N    1  -40   .  .  -90   10    .  PSI
+         86   88   .  A  36  ASP  N    A  36  ASP  CA  A  36  ASP  C    A  37  ASN  N    1  -30   .  .  -90   30    .  PSI
+         87   89   .  A  37  ASN  N    A  37  ASN  CA  A  37  ASN  C    A  38  GLY  N    1  -10   .  .  -60   40    .  PSI
+         88   90   .  A  38  GLY  N    A  38  GLY  CA  A  38  GLY  C    A  39  VAL  N    1  15    .  .  -35   65    .  PSI
+         89   91   .  A  42  GLU  N    A  42  GLU  CA  A  42  GLU  C    A  43  TRP  N    1  155   .  .  105   205   .  PSI
+         90   92   .  A  43  TRP  N    A  43  TRP  CA  A  43  TRP  C    A  44  THR  N    1  155   .  .  105   205   .  PSI
+         91   93   .  A  44  THR  N    A  44  THR  CA  A  44  THR  C    A  45  TYR  N    1  160   .  .  110   210   .  PSI
+         92   94   .  A  45  TYR  N    A  45  TYR  CA  A  45  TYR  C    A  46  ASP  N    1  120   .  .  70    170   .  PSI
+         93   95   .  A  46  ASP  N    A  46  ASP  CA  A  46  ASP  C    A  47  ASP  N    1  70    .  .  20    120   .  PSI
+         94   96   .  A  47  ASP  N    A  47  ASP  CA  A  47  ASP  C    A  48  ALA  N    1  -45   .  .  -95   5     .  PSI
+         95   97   .  A  48  ALA  N    A  48  ALA  CA  A  48  ALA  C    A  49  THR  N    1  -40   .  .  -90   10    .  PSI
+         96   98   .  A  49  THR  N    A  49  THR  CA  A  49  THR  C    A  50  LYS  N    1  0     .  .  -60   60    .  PSI
+         97   99   .  A  50  LYS  N    A  50  LYS  CA  A  50  LYS  C    A  51  THR  N    1  15    .  .  -45   75    .  PSI
+         98   100  .  A  51  THR  N    A  51  THR  CA  A  51  THR  C    A  52  PHE  N    1  120   .  .  55    185   .  PSI
+         99   101  .  A  52  PHE  N    A  52  PHE  CA  A  52  PHE  C    A  53  THR  N    1  160   .  .  110   210   .  PSI
+         100  102  .  A  53  THR  N    A  53  THR  CA  A  53  THR  C    A  54  VAL  N    1  170   .  .  120   220   .  PSI
+         101  103  .  A  54  VAL  N    A  54  VAL  CA  A  54  VAL  C    A  55  THR  N    1  145   .  .  95    195   .  PSI
+         102  104  .  A  55  THR  N    A  55  THR  CA  A  55  THR  C    A  56  GLU  N    1  130   .  .  75    185   .  PSI
+         103  105  .  A  2   THR  N    A  2   THR  CA  A  2   THR  CB   A  2   THR  OG1  1  -60   .  .  -90   -30   .  .  
+         104  106  .  A  3   TYR  CG   A  3   TYR  CB  A  3   TYR  CA   A  3   TYR  N    1  -60   .  .  -80   -40   .  .  
+         105  107  .  A  4   LYS  CG   A  4   LYS  CB  A  4   LYS  CA   A  4   LYS  N    1  180   .  .  150   210   .  .  
+         106  108  .  A  5   LEU  CG   A  5   LEU  CB  A  5   LEU  CA   A  5   LEU  N    1  180   .  .  150   210   .  .  
+         107  109  .  A  6   ILE  CG1  A  6   ILE  CB  A  6   ILE  CA   A  6   ILE  N    1  -60   .  .  -90   -30   .  .  
+         108  110  .  A  7   LEU  CG   A  7   LEU  CB  A  7   LEU  CA   A  7   LEU  N    1  -60   .  .  -80   -40   .  .  
+         109  111  .  A  12  LEU  CG   A  12  LEU  CB  A  12  LEU  CA   A  12  LEU  N    1  180   .  .  150   210   .  .  
+         110  112  .  A  13  LYS  CG   A  13  LYS  CB  A  13  LYS  CA   A  13  LYS  N    1  -60   .  .  -80   -40   .  .  
+         111  113  .  A  16  THR  N    A  16  THR  CA  A  16  THR  CB   A  16  THR  OG1  1  180   .  .  160   200   .  .  
+         112  114  .  A  17  THR  N    A  17  THR  CA  A  17  THR  CB   A  17  THR  OG1  1  60    .  .  40    80    .  .  
+         113  115  .  A  18  THR  N    A  18  THR  CA  A  18  THR  CB   A  18  THR  OG1  1  180   .  .  160   200   .  .  
+         114  116  .  A  19  GLU  CG   A  19  GLU  CB  A  19  GLU  CA   A  19  GLU  N    1  -120  .  .  -210  -30   .  .  
+         115  117  .  A  21  VAL  CG1  A  21  VAL  CB  A  21  VAL  CA   A  21  VAL  N    1  -60   .  .  -80   -40   .  .  
+         116  118  .  A  22  ASP  CG   A  22  ASP  CB  A  22  ASP  CA   A  22  ASP  N    1  60    .  .  30    90    .  .  
+         117  119  .  A  29  VAL  CG1  A  29  VAL  CB  A  29  VAL  CA   A  29  VAL  N    1  185   .  .  155   215   .  .  
+         118  120  .  A  30  PHE  CG   A  30  PHE  CB  A  30  PHE  CA   A  30  PHE  N    1  -75   .  .  -105  -45   .  .  
+         119  121  .  A  33  TYR  CG   A  33  TYR  CB  A  33  TYR  CA   A  33  TYR  N    1  180   .  .  150   210   .  .  
+         120  122  .  A  36  ASP  CG   A  36  ASP  CB  A  36  ASP  CA   A  36  ASP  N    1  -70   .  .  -100  -40   .  .  
+         121  123  .  A  37  ASN  CG   A  37  ASN  CB  A  37  ASN  CA   A  37  ASN  N    1  -60   .  .  -90   -30   .  .  
+         122  124  .  A  39  VAL  CG1  A  39  VAL  CB  A  39  VAL  CA   A  39  VAL  N    1  180   .  .  150   210   .  .  
+         123  125  .  A  42  GLU  CG   A  42  GLU  CB  A  42  GLU  CA   A  42  GLU  N    1  -65   .  .  -95   -35   .  .  
+         124  126  .  A  43  TRP  CG   A  43  TRP  CB  A  43  TRP  CA   A  43  TRP  N    1  -60   .  .  -80   -40   .  .  
+         125  127  .  A  44  THR  N    A  44  THR  CA  A  44  THR  CB   A  44  THR  OG1  1  65    .  .  40    90    .  .  
+         126  128  .  A  45  TYR  CG   A  45  TYR  CB  A  45  TYR  CA   A  45  TYR  N    1  180   .  .  160   200   .  .  
+         127  129  .  A  46  ASP  CG   A  46  ASP  CB  A  46  ASP  CA   A  46  ASP  N    1  190   .  .  160   220   .  .  
+         128  130  .  A  47  ASP  CG   A  47  ASP  CB  A  47  ASP  CA   A  47  ASP  N    1  175   .  .  150   200   .  .  
+         129  131  .  A  49  THR  N    A  49  THR  CA  A  49  THR  CB   A  49  THR  OG1  1  60    .  .  30    90    .  .  
+         130  132  .  A  50  LYS  CG   A  50  LYS  CB  A  50  LYS  CA   A  50  LYS  N    1  -75   .  .  -105  -45   .  .  
+         131  133  .  A  51  THR  N    A  51  THR  CA  A  51  THR  CB   A  51  THR  OG1  1  -60   .  .  -90   -30   .  .  
+         132  134  .  A  52  PHE  CG   A  52  PHE  CB  A  52  PHE  CA   A  52  PHE  N    1  -75   .  .  -115  -35   .  .  
+         133  135  .  A  54  VAL  CG1  A  54  VAL  CB  A  54  VAL  CA   A  54  VAL  N    1  65    .  .  35    95    .  .  
+         134  136  .  A  55  THR  N    A  55  THR  CA  A  55  THR  CB   A  55  THR  OG1  1  -60   .  .  -80   -40   .  .  
+         135  137  .  A  3   TYR  CA   A  3   TYR  CB  A  3   TYR  CG   A  3   TYR  CD1  1  90    .  .  55    125   .  .  
+         136  138  .  A  30  PHE  CA   A  30  PHE  CB  A  30  PHE  CG   A  30  PHE  CD1  1  90    .  .  20    160   .  .  
+         137  139  .  A  33  TYR  CA   A  33  TYR  CB  A  33  TYR  CG   A  33  TYR  CD1  1  90    .  .  55    125   .  .  
+         138  140  .  A  43  TRP  CA   A  43  TRP  CB  A  43  TRP  CG   A  43  TRP  CD1  1  90    .  .  55    125   .  .  
+         139  141  .  A  45  TYR  CA   A  45  TYR  CB  A  45  TYR  CG   A  45  TYR  CD1  1  90    .  .  55    125   .  .  
+         140  142  .  A  52  PHE  CA   A  52  PHE  CB  A  52  PHE  CG   A  52  PHE  CD1  1  90    .  .  55    125   .  .  
+         141  143  .  A  12  LEU  CA   A  12  LEU  CB  A  12  LEU  CG   A  12  LEU  CD1  1  60    .  .  20    100   .  .  
+         142  144  .  A  5   LEU  CA   A  5   LEU  CB  A  5   LEU  CG   A  5   LEU  CD1  1  60    .  .  30    90    .  .  
+         143  145  .  A  7   LEU  CA   A  7   LEU  CB  A  7   LEU  CG   A  7   LEU  CD1  1  180   .  .  150   210   .  .  
+         144  146  .  A  27  GLU  CA   A  27  GLU  CB  A  27  GLU  CG   A  27  GLU  CD   1  180   .  .  140   220   .  .  
+         145  147  .  A  6   ILE  CA   A  6   ILE  CB  A  6   ILE  CG1  A  6   ILE  CD1  1  180   .  .  140   220   .  .  
+         146  148  .  A  46  ASP  CA   A  46  ASP  CB  A  46  ASP  CG   A  46  ASP  OD1  1  0     .  .  -30   30    .  .  
+         147  149  .  A  3   TYR  CA   A  3   TYR  CB  A  3   TYR  CG   A  3   TYR  CD1  1  90    .  .  0     180   .  .  
+         148  150  .  A  30  PHE  CA   A  30  PHE  CB  A  30  PHE  CG   A  30  PHE  CD1  1  90    .  .  0     180   .  .  
+         149  151  .  A  33  TYR  CA   A  33  TYR  CB  A  33  TYR  CG   A  33  TYR  CD1  1  90    .  .  0     180   .  .  
+         150  152  .  A  45  TYR  CA   A  45  TYR  CB  A  45  TYR  CG   A  45  TYR  CD1  1  90    .  .  0     180   .  .  
+         151  153  .  A  52  PHE  CA   A  52  PHE  CB  A  52  PHE  CG   A  52  PHE  CD1  1  90    .  .  0     180   .  .  
+         152  154  .  A  22  ASP  CA   A  22  ASP  CB  A  22  ASP  CG   A  22  ASP  OD1  1  0     .  .  -90   90    .  .  
+         153  155  .  A  36  ASP  CA   A  36  ASP  CB  A  36  ASP  CG   A  36  ASP  OD1  1  0     .  .  -90   90    .  .  
+         154  156  .  A  40  ASP  CA   A  40  ASP  CB  A  40  ASP  CG   A  40  ASP  OD1  1  0     .  .  -90   90    .  .  
+         155  157  .  A  46  ASP  CA   A  46  ASP  CB  A  46  ASP  CG   A  46  ASP  OD1  1  0     .  .  -90   90    .  .  
+         156  158  .  A  47  ASP  CA   A  47  ASP  CB  A  47  ASP  CG   A  47  ASP  OD1  1  0     .  .  -90   90    .  .  
+         157  159  .  A  15  GLU  CB   A  15  GLU  CG  A  15  GLU  CD   A  15  GLU  OE1  1  0     .  .  -90   90    .  .  
+         158  160  .  A  19  GLU  CB   A  19  GLU  CG  A  19  GLU  CD   A  19  GLU  OE1  1  0     .  .  -90   90    .  .  
+         159  161  .  A  27  GLU  CB   A  27  GLU  CG  A  27  GLU  CD   A  27  GLU  OE1  1  0     .  .  -90   90    .  .  
+         160  162  .  A  42  GLU  CB   A  42  GLU  CG  A  42  GLU  CD   A  42  GLU  OE1  1  0     .  .  -90   90    .  .  
+         161  163  .  A  56  GLU  CB   A  56  GLU  CG  A  56  GLU  CD   A  56  GLU  OE1  1  0     .  .  -90   90    .  .  
+      stop_
+   save_
+
+
+# End of data_nef_test1
