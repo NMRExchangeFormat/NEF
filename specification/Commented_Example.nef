@@ -210,7 +210,7 @@ INSERT PULSE PROGRAM HERE
          E  12   CYS  middle     CYS_LL
          E  13   LYS  middle     LYS_LL_DHZ3
          E  14   ARG  break      ARG_LL_DHH12
-         E  14   MOH  nonlinear  .
+         E  15   MOH  nonlinear  .
          F   1   GLY  start      .
          F   2   ILE  middle     .
          F   3   SER  middle     .
@@ -260,12 +260,12 @@ INSERT PULSE PROGRAM HERE
 
          # key: chain_code_1, sequence_code_1, atom_name_1, chain_code_2, sequence_code_2, atom_name_2
 
-         A 20 CYS SD B 17 CYS SD
+         A 20 CYS SG B 17 CYS SG
          A 22 THR CB A 26 GLC O1
          E  1 ASN N   E  6 GLU CD
-         E 13 ARG C   E 14 MOH O
+         E 14 ARG C   E 15 MOH O
          F  4 THR C   G 27 TYR N
-         G 29 ALA C   F 11 ASN N
+         F 11 ASN N   G 29 ALA C
       stop_
 
    save_
@@ -296,6 +296,8 @@ INSERT PULSE PROGRAM HERE
       
          # key: chain_code, sequence_code, atom_name
 
+         @2    SS@12   .     CAi-1  48.2    0   
+         @2    SS@231  GLX?  CAi-1  48.2    0   
          A     14      TRP   HB2    3.4     0   
          A     14      TRP   HB3    3.2     0   
          A     14      TRP   HE1    9.9     0   
@@ -341,8 +343,6 @@ INSERT PULSE PROGRAM HERE
          A     24D     TYR   N      119.5   0   
          X     @5      GLX   H      9.1     0   
          X     @5      GLX   N      118.3   0   
-         @2    SS@12   .     CAi-1  48.2    0   
-         @2    SS@231  GLX?  CAi-1  48.2    0   
       stop_
 
 # The atom_name by itself serves to distinguish between real atoms ('HA'),
