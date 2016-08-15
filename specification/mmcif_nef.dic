@@ -33,7 +33,7 @@ data_mmcif_nef.dic
 
     _dictionary.title           mmcif_nef.dic
     _dictionary.datablock_id    mmcif_nef.dic
-    _dictionary.version         .200
+    _dictionary.version         .101
 #
      loop_
     _dictionary_history.version
@@ -53,11 +53,6 @@ data_mmcif_nef.dic
 - Reordered to match display ordered
 - Added new tag _category.parent_category_id to show saveframe location of loops
 - Added new data types
-;
-  .200   2016-08-16
-; Rasmus Fogh
-- Minor fixes.
-- Proposed for official adoption
 ;
 ##
 

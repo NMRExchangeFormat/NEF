@@ -6,7 +6,7 @@ data_2ln3_docr
       _nef_nmr_meta_data.sf_category      nef_nmr_meta_data
       _nef_nmr_meta_data.sf_framecode     nef_nmr_meta_data
       _nef_nmr_meta_data.format_name      nmr_exchange_format
-      _nef_nmr_meta_data.format_version   0.200
+      _nef_nmr_meta_data.format_version   0.91
       _nef_nmr_meta_data.program_name     CcpNmr
       _nef_nmr_meta_data.program_version  3.0.b1
       _nef_nmr_meta_data.creation_date    2016-08-06T19:09:38.329767

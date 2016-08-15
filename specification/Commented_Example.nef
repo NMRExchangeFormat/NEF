@@ -26,7 +26,7 @@ data_nef_my_nmr_project_1
       _nef_nmr_meta_data.sf_framecode     nef_nmr_meta_data
 
       _nef_nmr_meta_data.format_name      nmr_exchange_format
-      _nef_nmr_meta_data.format_version   0.200
+      _nef_nmr_meta_data.format_version   0.91
       _nef_nmr_meta_data.program_name     CcpNmr
       _nef_nmr_meta_data.program_version  3.0.b1
       _nef_nmr_meta_data.creation_date    2016-07-20T18:25:26.324290
