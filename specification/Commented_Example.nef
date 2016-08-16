@@ -1,7 +1,7 @@
 #==========================================================================
 #  Nmr Exchange Format
 #
-#  Draft version 0.91  August 2016 Rasmus Fogh,
+#  Draft version 0.200  August 2016 Rasmus Fogh,
 #
 #  Commented example file with representative examples and a value for all tags
 #
@@ -211,10 +211,10 @@ INSERT PULSE PROGRAM HERE
          E  13   LYS  middle     LYS_LL_DHZ3
          E  14   ARG  break      ARG_LL_DHH12
          E  15   MOH  nonlinear  .
-         F   1   GLY  start      .
-         F   2   ILE  middle     .
-         F   3   SER  middle     .
-         F   4   THR  break      .
+         F  1    GLY  start      .
+         F  2    ILE  middle     .
+         F  3    SER  middle     .
+         F  4    THR  break      .
          F  11   ASN  middle     .
          F  12   SER  end        .
          G  27   TYR  middle     .
@@ -260,12 +260,12 @@ INSERT PULSE PROGRAM HERE
 
          # key: chain_code_1, sequence_code_1, atom_name_1, chain_code_2, sequence_code_2, atom_name_2
 
-         A 20 CYS SG B 17 CYS SG
-         A 22 THR CB A 26 GLC O1
-         E  1 ASN N   E  6 GLU CD
-         E 14 ARG C   E 15 MOH O
-         F  4 THR C   G 27 TYR N
-         F 11 ASN N   G 29 ALA C
+         A  20  CYS  SG  B  17  CYS  SG
+         A  22  THR  CB  A  26  GLC  O1
+         E  1   ASN  N   E  6   GLU  CD
+         E  14  ARG  C   E  15  MOH  O
+         F  4   THR  C   G  27  TYR  N
+         F  11  ASN  N   G  29  ALA  C
       stop_
 
    save_
@@ -296,53 +296,53 @@ INSERT PULSE PROGRAM HERE
       
          # key: chain_code, sequence_code, atom_name
 
-         @2    SS@12   .     CAi-1  48.2    0   
-         @2    SS@231  GLX?  CAi-1  48.2    0   
-         A     14      TRP   HB2    3.4     0   
-         A     14      TRP   HB3    3.2     0   
-         A     14      TRP   HE1    9.9     0   
-         A     14      TRP   NE1    135.6   0   
-         A     15      GLY   H      7.8     0   
-         A     15      GLY   N      106.5   0   
-         A     15      GLY   QA     3.42    0.02
-         A     17      VAL   CG%    22.1    0.3 
-         A     17      VAL   HG%    0.73    0.02
-         A     18      PHE   H      8.3     0   
-         A     18      PHE   HB2    2.87    0.02
-         A     18      PHE   HB3    2.42    0.02
-         A     18      PHE   N      119.5   0   
-         A     19      LEU   CA     172.2   0   
-         A     19      LEU   CB     58.5    0   
-         A     19      LEU   CD1    22.2    0   
-         A     19      LEU   CD2    58.5    0   
-         A     19      LEU   CDX    17.4    0.3 
-         A     19      LEU   CDY    18.7    0.3 
-         A     19      LEU   CG     32.3    0   
-         A     19      LEU   HBX    2.13    0.02
-         A     19      LEU   HBY    2.51    0.02
-         A     19      LEU   HDX%   0.87    0.02
-         A     19      LEU   HDY%   0.73    0.02
-         A     19      LEU   HN     7.2     0   
-         A     19      LEU   N      119.5   0   
-         A     20      CYS   HBX    3.2     0   
-         A     21      ALA   H      8.33    0.02
-         A     21      ALA   HA     4.17    0.02
-         A     21      ALA   HB%    1.34    0.02
-         A     23      LYS   CA     43.2    0.25
-         A     23      LYS   H      8.45    0.04
-         A     23      LYS   HA     4.27    0.02
-         A     23      LYS   N      123.45  0.4 
-         A     24      ASP   HBY    3.4     0   
-         A     24B     GLN   H      8.3     0   
-         A     24B     GLN   N      119.5   0   
-         A     24C     GLN   C      28.3    0   
-         A     24C     GLN   CA     22.2    0   
-         A     24C     GLN   CB     58.5    0   
-         A     24C     GLN   CG     32.3    0   
-         A     24D     TYR   H      8.3     0   
-         A     24D     TYR   N      119.5   0   
-         X     @5      GLX   H      9.1     0   
-         X     @5      GLX   N      118.3   0   
+         @2  SS@12   .     CAi-1  48.2    0   
+         @2  SS@231  GLX?  CAi-1  48.2    0   
+         A   14      TRP   HB2    3.4     0   
+         A   14      TRP   HB3    3.2     0   
+         A   14      TRP   HE1    9.9     0   
+         A   14      TRP   NE1    135.6   0   
+         A   15      GLY   H      7.8     0   
+         A   15      GLY   N      106.5   0   
+         A   15      GLY   QA     3.42    0.02
+         A   17      VAL   CG%    22.1    0.3 
+         A   17      VAL   HG%    0.73    0.02
+         A   18      PHE   H      8.3     0   
+         A   18      PHE   HB2    2.87    0.02
+         A   18      PHE   HB3    2.42    0.02
+         A   18      PHE   N      119.5   0   
+         A   19      LEU   CA     172.2   0   
+         A   19      LEU   CB     58.5    0   
+         A   19      LEU   CD1    22.2    0   
+         A   19      LEU   CD2    58.5    0   
+         A   19      LEU   CDX    17.4    0.3 
+         A   19      LEU   CDY    18.7    0.3 
+         A   19      LEU   CG     32.3    0   
+         A   19      LEU   HBX    2.13    0.02
+         A   19      LEU   HBY    2.51    0.02
+         A   19      LEU   HDX%   0.87    0.02
+         A   19      LEU   HDY%   0.73    0.02
+         A   19      LEU   HN     7.2     0   
+         A   19      LEU   N      119.5   0   
+         A   20      CYS   HBX    3.2     0   
+         A   21      ALA   H      8.33    0.02
+         A   21      ALA   HA     4.17    0.02
+         A   21      ALA   HB%    1.34    0.02
+         A   23      LYS   CA     43.2    0.25
+         A   23      LYS   H      8.45    0.04
+         A   23      LYS   HA     4.27    0.02
+         A   23      LYS   N      123.45  0.4 
+         A   24      ASP   HBY    3.4     0   
+         A   24B     GLN   H      8.3     0   
+         A   24B     GLN   N      119.5   0   
+         A   24C     GLN   C      28.3    0   
+         A   24C     GLN   CA     22.2    0   
+         A   24C     GLN   CB     58.5    0   
+         A   24C     GLN   CG     32.3    0   
+         A   24D     TYR   H      8.3     0   
+         A   24D     TYR   N      119.5   0   
+         X   @5      GLX   H      9.1     0   
+         X   @5      GLX   N      118.3   0   
       stop_
 
 # The atom_name by itself serves to distinguish between real atoms ('HA'),
@@ -375,12 +375,12 @@ save_nef_distance_restraint_list_L1
 
 
 # Mandatory parameters
-      _nef_distance_restraint_list.sf_category     nef_distance_restraint_list
-      _nef_distance_restraint_list.sf_framecode    nef_distance_restraint_list_L1
-      _nef_distance_restraint_list.potential_type  square-well-parabolic-linear
+      _nef_distance_restraint_list.sf_category       nef_distance_restraint_list
+      _nef_distance_restraint_list.sf_framecode      nef_distance_restraint_list_L1
+      _nef_distance_restraint_list.potential_type    square-well-parabolic-linear
   
       # Optional parameter:
-      _nef_distance_restraint_list.restraint_origin     noe
+      _nef_distance_restraint_list.restraint_origin  noe
       # The restraint_origin describes the origin or source of the restraints. For
       # distance restraints likely values would be 'noe', 'hbond', 'mutation', 'shift_perturbation' 
 
@@ -443,12 +443,12 @@ save_nef_distance_restraint_list_L1
    save_nef_dihedral_restraint_list_L2
 
       # Mandatory parameters:
-      _nef_dihedral_restraint_list.sf_category     nef_dihedral_restraint_list
-      _nef_dihedral_restraint_list.sf_framecode    nef_dihedral_restraint_list_L2
-      _nef_dihedral_restraint_list.potential_type  square-well-parabolic
+      _nef_dihedral_restraint_list.sf_category       nef_dihedral_restraint_list
+      _nef_dihedral_restraint_list.sf_framecode      nef_dihedral_restraint_list_L2
+      _nef_dihedral_restraint_list.potential_type    square-well-parabolic
 
       # Optional parameter:
-      _nef_dihedral_restraint_list.restraint_origin     talos
+      _nef_dihedral_restraint_list.restraint_origin  talos
       # The restraint_origin describes the origin or source of the restraints. For
       # distance restraints likely values would be 'chemical_shift', 'jcoupling'
 
@@ -488,14 +488,14 @@ save_nef_distance_restraint_list_L1
       
          # key: ordinal
          
-         1  1  .  A  21  ALA  N  A  21  ALA  CA  A  21  ALA  C   A  22  THR  N  1  -50  5  .  -60  -40  .  PSI
-         2  1  .  A  21  ALA  N  A  21  ALA  CA  A  21  ALA  C   A  22  THR  N  1  105  5  .   90  120  .  PSI
+         1   1  .  A  21  ALA  N   A  21  ALA  CA  A  21  ALA  C   A  22   THR  N    1  -50  5  .  -60  -40  .  PSI
+         2   1  .  A  21  ALA  N   A  21  ALA  CA  A  21  ALA  C   A  22   THR  N    1  105  5  .   90  120  .  PSI
          3   2  .  A  21  ALA  C   A  22  THR  N   A  22  THR  CA  A  22   THR  C    3  -50  8  .  -60  -40  .  PHI
-         4  3  1  A  23  LYS  C  A  24  ASP  N   A  24  ASP  CA  A  24  ASP  C  1  -50  5  .  -60  -40  .  PHI
+         4   3  1  A  23  LYS  C   A  24  ASP  N   A  24  ASP  CA  A  24   ASP  C    1  -50  5  .  -60  -40  .  PHI
          5   3  1  A  24  ASP  N   A  24  ASP  CA  A  24  ASP  C   A  24B  GLN  N    1  -50  5  .  -60  -40  .  PSI
-         6  4  2  A  15  GLY  C  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C  1  -50  5  .  -60  -40  .  PHI
+         6   4  2  A  15  GLY  C   A  16  ASN  N   A  16  ASN  CA  A  16   ASN  C    1  -50  5  .  -60  -40  .  PHI
          7   4  2  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -50  5  .  -60  -40  .  PSI
-         8  4  3  A  15  GLY  C  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C  1  -80  5  .  -90  -70  .  PHI
+         8   4  3  A  15  GLY  C   A  16  ASN  N   A  16  ASN  CA  A  16   ASN  C    1  -80  5  .  -90  -70  .  PHI
          9   4  3  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -80  5  .  -90  -70  .  PSI
          10  5  .  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19   LEU  CDX  1  -80  5  .  -90  -70  .  .  
       stop_
@@ -542,9 +542,9 @@ save_nef_distance_restraint_list_L1
       _nef_rdc_restraint_list.potential_type        log-normal
   
       # Optional parameters
-      _nef_rdc_restraint_list.restraint_origin     measured
+      _nef_rdc_restraint_list.restraint_origin      measured
       # The restraint_origin describes the origin or source of the restraints.
-      _nef_rdc_restraint_list.tensor_magnitude      11 
+      _nef_rdc_restraint_list.tensor_magnitude      11
       _nef_rdc_restraint_list.tensor_rhombicity     0.067
       _nef_rdc_restraint_list.tensor_chain_code     C
       _nef_rdc_restraint_list.tensor_sequence_code  900
@@ -714,16 +714,16 @@ save_nef_distance_restraint_list_L1
 
          # key: ordinal
 
-         1   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  14  TRP  HB3  A  18    PHE  N    A  18    PHE  H  
-         2   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBY  A  24B   GLN  N    A  24B   GLN  H  
-         3   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBY  A  24D   TYR  N    A  24D   TYR  H  
-         4   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBX  A  24B   GLN  N    A  24B   GLN  H  
-         5   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBX  A  24D   TYR  N    A  24D   TYR  H  
-         6   3  54000000  7300000   34000000  5300000   4.4  0.05  106.5  0.5  7.8  0.03  .  .   .    .    A  15    GLY  N    A  15    GLY  H  
-         7   4  88000000  13000000  48000000  3300000   3.2  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB3  A  14    TRP  NE1  A  14    TRP  HE1
-         8   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB2  A  14    TRP  NE1  A  14    TRP  HE1
-         9   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  24  ASP  HBY  A  14    TRP  NE1  A  14    TRP  HE1
-         10  7  59000000  7100000   29000000  6100000   1.7  0.05  118.3  0.5  9.1  0.03  .  .   .    .    X  @5    GLX  N    X  @5    GLX  H  
+         1   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  14  TRP  HB3  A  18   PHE  N    A  18   PHE  H  
+         2   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBY  A  24B  GLN  N    A  24B  GLN  H  
+         3   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBY  A  24D  TYR  N    A  24D  TYR  H  
+         4   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBX  A  24B  GLN  N    A  24B  GLN  H  
+         5   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBX  A  24D  TYR  N    A  24D  TYR  H  
+         6   3  54000000  7300000   34000000  5300000   4.4  0.05  106.5  0.5  7.8  0.03  .  .   .    .    A  15   GLY  N    A  15   GLY  H  
+         7   4  88000000  13000000  48000000  3300000   3.2  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB3  A  14   TRP  NE1  A  14   TRP  HE1
+         8   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB2  A  14   TRP  NE1  A  14   TRP  HE1
+         9   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  24  ASP  HBY  A  14   TRP  NE1  A  14   TRP  HE1
+         10  7  59000000  7100000   29000000  6100000   1.7  0.05  118.3  0.5  9.1  0.03  .  .   .    .    X  @5   GLX  N    X  @5   GLX  H  
       stop_
 
       # Peaks 1 and 5 have ambiguous assignments.
@@ -895,7 +895,7 @@ save_nef_distance_restraint_list_L1
       
          # key: ordinal
 
-         1  1  73000000  5100000  33000000  1100000  7.2  0.05  119.5  0.4  28.3  0.3  172.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  A  19  LEU  HN  A  19  LEU  N  A  24C   GLN  C  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19  LEU  CD1  A  19  LEU  CD2  A  19  LEU  CG  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  24C   GLN  CA  A  24C   GLN  CB  A  24C   GLN  CG
+         1  1  73000000  5100000  33000000  1100000  7.2  0.05  119.5  0.4  28.3  0.3  172.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  A  19  LEU  HN  A  19  LEU  N  A  24C   GLN  C  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19  LEU  CD1  A  19  LEU  CD2  A  19  LEU  CG  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  24C  GLN  CA  A  24C  GLN  CB  A  24C  GLN  CG
       stop_
    save_
 
@@ -912,8 +912,8 @@ save_nef_distance_restraint_list_L1
    save_nef_peak_restraint_links
 
       # Mandatory parameters
-      _nef_peak_restraint_links.sf_category           		nef_peak_restraint_links
-      _nef_peak_restraint_links.sf_framecode           		nef_peak_restraint_links
+      _nef_peak_restraint_links.sf_category   nef_peak_restraint_links
+      _nef_peak_restraint_links.sf_framecode  nef_peak_restraint_links
       
       # The loop is optional
       # All tags within the loop are mandatory
@@ -926,10 +926,10 @@ save_nef_distance_restraint_list_L1
   
          # key: nmr_spectrum_id, peak_id, restraint_list_id, restraint_id
   
-         nef_nmr_spectrum_cnoesy1     1   nef_distance_restraint_list_L1      5
-         nef_nmr_spectrum_cnoesy1     1   nef_distance_restraint_list_L1      8
-         nef_nmr_spectrum_cnoesy1     3   nef_dihedral_restraint_list_L2      4
-         nef_nmr_spectrum_cnoesy1     5   nef_dihedral_restraint_list_L2      4
+         nef_nmr_spectrum_cnoesy1  1  nef_distance_restraint_list_L1  5
+         nef_nmr_spectrum_cnoesy1  1  nef_distance_restraint_list_L1  8
+         nef_nmr_spectrum_cnoesy1  3  nef_dihedral_restraint_list_L2  4
+         nef_nmr_spectrum_cnoesy1  5  nef_dihedral_restraint_list_L2  4
       stop_
 
       # The table gives links between peaks (in any spectrum) and restraints
