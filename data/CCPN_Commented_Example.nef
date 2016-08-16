@@ -1,0 +1,539 @@
+data_nef_my_nmr_project_1
+
+
+   save_nef_nmr_meta_data
+
+      _nef_nmr_meta_data.sf_category      nef_nmr_meta_data
+      _nef_nmr_meta_data.sf_framecode     nef_nmr_meta_data
+      _nef_nmr_meta_data.format_name      nmr_exchange_format
+      _nef_nmr_meta_data.format_version   0.200
+      _nef_nmr_meta_data.program_name     CcpNmr
+      _nef_nmr_meta_data.program_version  3.0.b1
+      _nef_nmr_meta_data.creation_date    2016-08-15T17:11:25.152225
+      _nef_nmr_meta_data.uuid             CcpNmr-2016-08-15T17:11:25.152225-1232337709
+      _nef_nmr_meta_data.coordinate_file_name  .
+
+      loop_
+         _nef_program_script.program_name
+         _nef_program_script.script_name
+         _nef_program_script.script
+
+         CcpNmr  exportProject  .
+      stop_
+   save_
+
+
+   save_nef_molecular_system
+
+      _nef_molecular_system.sf_category   nef_molecular_system
+      _nef_molecular_system.sf_framecode  nef_molecular_system
+
+      loop_
+         _nef_sequence.chain_code
+         _nef_sequence.sequence_code
+         _nef_sequence.residue_type
+         _nef_sequence.linking
+         _nef_sequence.residue_variant
+
+         A  13   ALA  start      .
+         A  14   TRP  middle     .
+         A  15   GLY  middle     .
+         A  16   ASN  middle     .
+         A  17   VAL  middle     .
+         A  18   PHE  middle     .
+         A  19   LEU  middle     .
+         A  20   CYS  middle     .
+         A  21   ALA  middle     .
+         A  22   THR  middle     .
+         A  23   LYS  middle     .
+         A  24   ASP  middle     .
+         A  24B  GLN  middle     .
+         A  24C  GLN  middle     .
+         A  24D  TYR  middle     .
+         A  25   HIS  end        .
+         A  26   GLC  nonlinear  .
+         B  17   CYS  single     .
+         C  1    ATP  nonlinear  .
+         C  898  UNK  single     .
+         C  899  UNK  single     .
+         C  900  UNK  single     .
+         D  1    GLY  cyclic     .
+         D  2    PRO  middle     .
+         D  3    ASP  middle     .
+         D  4    GLY  middle     .
+         D  5    PRO  middle     .
+         D  6    ASP  cyclic     .
+         E  1    ASN  break      .
+         E  2    THR  middle     .
+         E  3    ALA  middle     .
+         E  4    PRO  middle     .
+         E  5    ALA  middle     .
+         E  6    GLU  middle     .
+         E  7    SER  middle     .
+         E  8    GLN  middle     .
+         E  9    GLU  middle     .
+         E  10   HIS  middle     .
+         E  11   HIS  middle     .
+         E  12   CYS  middle     .
+         E  13   LYS  middle     .
+         E  14   ARG  break      .
+         E  15   MOH  nonlinear  .
+         F  1    GLY  start      .
+         F  2    ILE  middle     .
+         F  3    SER  middle     .
+         F  4    THR  break      .
+         F  11   ASN  break      .
+         F  12   SER  end        .
+         G  27   TYR  break      .
+         G  28   GLY  middle     .
+         G  29   ALA  break      .
+      stop_
+
+      loop_
+         _nef_covalent_links.chain_code_1
+         _nef_covalent_links.sequence_code_1
+         _nef_covalent_links.residue_type_1
+         _nef_covalent_links.atom_name_1
+         _nef_covalent_links.chain_code_2
+         _nef_covalent_links.sequence_code_2
+         _nef_covalent_links.residue_type_2
+         _nef_covalent_links.atom_name_2
+
+         A  20  CYS  SG  B  17  CYS  SG
+         A  22  THR  CB  A  26  GLC  O1
+         E  1   ASN  N   E  6   GLU  CD
+         E  14  ARG  C   E  15  MOH  O 
+         F  4   THR  C   G  27  TYR  N 
+         F  11  ASN  N   G  29  ALA  C 
+      stop_
+   save_
+
+
+   save_nef_chemical_shift_list_1
+
+      _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
+      _nef_chemical_shift_list.sf_framecode               nef_chemical_shift_list_1
+      _nef_chemical_shift_list.atom_chemical_shift_units  ppm
+
+      loop_
+         _nef_chemical_shift.chain_code
+         _nef_chemical_shift.sequence_code
+         _nef_chemical_shift.residue_type
+         _nef_chemical_shift.atom_name
+         _nef_chemical_shift.value
+         _nef_chemical_shift.value_uncertainty
+
+         @2  SS@12   .     CAi-1  48.2    0   
+         @2  SS@231  GLX?  CAi-1  48.2    0   
+         A   14      TRP   HB2    3.4     0   
+         A   14      TRP   HB3    3.2     0   
+         A   14      TRP   HE1    9.9     0   
+         A   14      TRP   NE1    135.6   0   
+         A   15      GLY   H      7.8     0   
+         A   15      GLY   N      106.5   0   
+         A   15      GLY   QA     3.42    0.02
+         A   17      VAL   CG%    22.1    0.3 
+         A   17      VAL   HG%    0.73    0.02
+         A   18      PHE   H      8.3     0   
+         A   18      PHE   HB2    2.87    0.02
+         A   18      PHE   HB3    2.42    0.02
+         A   18      PHE   N      119.5   0   
+         A   19      LEU   CA     172.2   0   
+         A   19      LEU   CB     58.5    0   
+         A   19      LEU   CD1    22.2    0   
+         A   19      LEU   CD2    58.5    0   
+         A   19      LEU   CDX    17.4    0.3 
+         A   19      LEU   CDY    18.7    0.3 
+         A   19      LEU   CG     32.3    0   
+         A   19      LEU   HBX    2.13    0.02
+         A   19      LEU   HBY    2.51    0.02
+         A   19      LEU   HDX%   0.87    0.02
+         A   19      LEU   HDY%   0.73    0.02
+         A   19      LEU   HN     7.2     0   
+         A   19      LEU   N      119.5   0   
+         A   20      CYS   HBX    3.2     0   
+         A   21      ALA   H      8.33    0.02
+         A   21      ALA   HA     4.17    0.02
+         A   21      ALA   HB%    1.34    0.02
+         A   23      LYS   CA     43.2    0.25
+         A   23      LYS   H      8.45    0.04
+         A   23      LYS   HA     4.27    0.02
+         A   23      LYS   N      123.45  0.4 
+         A   24      ASP   HBY    3.4     0   
+         A   24B     GLN   H      8.3     0   
+         A   24B     GLN   N      119.5   0   
+         A   24C     GLN   C      28.3    0   
+         A   24C     GLN   CA     22.2    0   
+         A   24C     GLN   CB     58.5    0   
+         A   24C     GLN   CG     32.3    0   
+         A   24D     TYR   H      8.3     0   
+         A   24D     TYR   N      119.5   0   
+         X   @5      GLX   H      9.1     0   
+         X   @5      GLX   N      118.3   0   
+      stop_
+   save_
+
+
+   save_nef_distance_restraint_list_L1
+
+      _nef_distance_restraint_list.sf_category       nef_distance_restraint_list
+      _nef_distance_restraint_list.sf_framecode      nef_distance_restraint_list_L1
+      _nef_distance_restraint_list.potential_type    square-well-parabolic-linear
+      _nef_distance_restraint_list.restraint_origin  noe
+
+      loop_
+         _nef_distance_restraint.ordinal
+         _nef_distance_restraint.restraint_id
+         _nef_distance_restraint.restraint_combination_id
+         _nef_distance_restraint.chain_code_1
+         _nef_distance_restraint.sequence_code_1
+         _nef_distance_restraint.residue_type_1
+         _nef_distance_restraint.atom_name_1
+         _nef_distance_restraint.chain_code_2
+         _nef_distance_restraint.sequence_code_2
+         _nef_distance_restraint.residue_type_2
+         _nef_distance_restraint.atom_name_2
+         _nef_distance_restraint.weight
+         _nef_distance_restraint.target_value
+         _nef_distance_restraint.target_value_uncertainty
+         _nef_distance_restraint.lower_linear_limit
+         _nef_distance_restraint.lower_limit
+         _nef_distance_restraint.upper_limit
+         _nef_distance_restraint.upper_linear_limit
+
+         1  1  .  A  17  VAL  H    A  21  ALA  HB%   1  3.7  0.4  2    2.5  4.2  4.7
+         2  1  .  A  17  VAL  H    A  22  THR  HG2%  1  3.7  0.4  2    2.5  4.2  4.7
+         3  1  .  A  18  LEU  H    A  21  ALA  HB%   1  3.7  0.4  2    2.5  4.2  4.7
+         4  1  .  A  18  LEU  H    A  22  THR  HG2%  1  3.7  0.4  2    2.5  4.2  4.7
+         5  5  .  A  18  PHE  HB2  A  24  ASP  HBX   1  2.8  0.4  1.5  2    3.2  3.7
+         6  8  .  A  18  PHE  HB2  A  24  ASP  HBY   1  4.4  0.4  3.6  4.1  5.2  5.7
+         7  8  .  A  24  ASP  HBY  E  6B  SER  HB2   1  4.4  0.4  3.6  4.1  5.2  5.7
+      stop_
+   save_
+
+
+   save_nef_dihedral_restraint_list_L2
+
+      _nef_dihedral_restraint_list.sf_category       nef_dihedral_restraint_list
+      _nef_dihedral_restraint_list.sf_framecode      nef_dihedral_restraint_list_L2
+      _nef_dihedral_restraint_list.potential_type    square-well-parabolic
+      _nef_dihedral_restraint_list.restraint_origin  talos
+
+      loop_
+         _nef_dihedral_restraint.ordinal
+         _nef_dihedral_restraint.restraint_id
+         _nef_dihedral_restraint.restraint_combination_id
+         _nef_dihedral_restraint.chain_code_1
+         _nef_dihedral_restraint.sequence_code_1
+         _nef_dihedral_restraint.residue_type_1
+         _nef_dihedral_restraint.atom_name_1
+         _nef_dihedral_restraint.chain_code_2
+         _nef_dihedral_restraint.sequence_code_2
+         _nef_dihedral_restraint.residue_type_2
+         _nef_dihedral_restraint.atom_name_2
+         _nef_dihedral_restraint.chain_code_3
+         _nef_dihedral_restraint.sequence_code_3
+         _nef_dihedral_restraint.residue_type_3
+         _nef_dihedral_restraint.atom_name_3
+         _nef_dihedral_restraint.chain_code_4
+         _nef_dihedral_restraint.sequence_code_4
+         _nef_dihedral_restraint.residue_type_4
+         _nef_dihedral_restraint.atom_name_4
+         _nef_dihedral_restraint.weight
+         _nef_dihedral_restraint.target_value
+         _nef_dihedral_restraint.target_value_uncertainty
+         _nef_dihedral_restraint.lower_linear_limit
+         _nef_dihedral_restraint.lower_limit
+         _nef_dihedral_restraint.upper_limit
+         _nef_dihedral_restraint.upper_linear_limit
+         _nef_dihedral_restraint.name
+
+         1   1  .  A  21  ALA  N   A  21  ALA  CA  A  21  ALA  C   A  22   THR  N    1  -50  5  .  -60  -40  .  PSI
+         2   1  .  A  21  ALA  N   A  21  ALA  CA  A  21  ALA  C   A  22   THR  N    1  105  5  .  90   120  .  PSI
+         3   2  .  A  21  ALA  C   A  22  THR  N   A  22  THR  CA  A  22   THR  C    3  -50  8  .  -60  -40  .  PHI
+         4   3  1  A  23  LYS  C   A  24  ASP  N   A  24  ASP  CA  A  24   ASP  C    1  -50  5  .  -60  -40  .  PHI
+         5   3  1  A  24  ASP  N   A  24  ASP  CA  A  24  ASP  C   A  24B  GLN  N    1  -50  5  .  -60  -40  .  PSI
+         6   4  2  A  15  GLY  C   A  16  ASN  N   A  16  ASN  CA  A  16   ASN  C    1  -50  5  .  -60  -40  .  PHI
+         7   4  2  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -50  5  .  -60  -40  .  PSI
+         8   4  3  A  15  GLY  C   A  16  ASN  N   A  16  ASN  CA  A  16   ASN  C    1  -80  5  .  -90  -70  .  PHI
+         9   4  3  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -80  5  .  -90  -70  .  PSI
+         10  5  .  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19   LEU  CDX  1  -80  5  .  -90  -70  .  .  
+      stop_
+   save_
+
+
+   save_nef_rdc_restraint_list_3
+
+      _nef_rdc_restraint_list.sf_category           nef_rdc_restraint_list
+      _nef_rdc_restraint_list.sf_framecode          nef_rdc_restraint_list_3
+      _nef_rdc_restraint_list.potential_type        log-normal
+      _nef_rdc_restraint_list.restraint_origin      measured
+      _nef_rdc_restraint_list.tensor_magnitude      11
+      _nef_rdc_restraint_list.tensor_rhombicity     0.067
+      _nef_rdc_restraint_list.tensor_chain_code     C
+      _nef_rdc_restraint_list.tensor_sequence_code  900
+      _nef_rdc_restraint_list.tensor_residue_type   TNSR
+
+      loop_
+         _nef_rdc_restraint.ordinal
+         _nef_rdc_restraint.restraint_id
+         _nef_rdc_restraint.restraint_combination_id
+         _nef_rdc_restraint.chain_code_1
+         _nef_rdc_restraint.sequence_code_1
+         _nef_rdc_restraint.residue_type_1
+         _nef_rdc_restraint.atom_name_1
+         _nef_rdc_restraint.chain_code_2
+         _nef_rdc_restraint.sequence_code_2
+         _nef_rdc_restraint.residue_type_2
+         _nef_rdc_restraint.atom_name_2
+         _nef_rdc_restraint.weight
+         _nef_rdc_restraint.target_value
+         _nef_rdc_restraint.target_value_uncertainty
+         _nef_rdc_restraint.lower_linear_limit
+         _nef_rdc_restraint.lower_limit
+         _nef_rdc_restraint.upper_limit
+         _nef_rdc_restraint.upper_linear_limit
+         _nef_rdc_restraint.scale
+         _nef_rdc_restraint.distance_dependent
+
+         1  1  .  A  21  ALA  H  A  21  ALA  N  1  -5.2  0.33  .  .  .  .  1  false
+         2  2  .  A  22  THR  H  A  22  THR  N  1  3.1   0.4   .  .  .  .  1  false
+      stop_
+   save_
+
+
+   save_nef_nmr_spectrum_cnoesy1
+
+      _nef_nmr_spectrum.sf_category                nef_nmr_spectrum
+      _nef_nmr_spectrum.sf_framecode               nef_nmr_spectrum_cnoesy1
+      _nef_nmr_spectrum.num_dimensions             3
+      _nef_nmr_spectrum.chemical_shift_list        nef_chemical_shift_list_1
+      _nef_nmr_spectrum.experiment_classification  H_H[N].through-space
+      _nef_nmr_spectrum.experiment_type            '15N NOESY-HSQC'
+
+      loop_
+         _nef_spectrum_dimension.dimension_id
+         _nef_spectrum_dimension.axis_unit
+         _nef_spectrum_dimension.axis_code
+         _nef_spectrum_dimension.spectrometer_frequency
+         _nef_spectrum_dimension.spectral_width
+         _nef_spectrum_dimension.value_first_point
+         _nef_spectrum_dimension.folding
+         _nef_spectrum_dimension.absolute_peak_positions
+         _nef_spectrum_dimension.is_acquisition
+
+         1  ppm  1H   500.139  10.4  9.9   circular  true  false
+         2  ppm  15N  98.37    30.7  127   circular  true  false
+         3  ppm  1H   500.139  14.2  11.8  circular  true  true 
+      stop_
+
+      loop_
+         _nef_spectrum_dimension_transfer.dimension_1
+         _nef_spectrum_dimension_transfer.dimension_2
+         _nef_spectrum_dimension_transfer.transfer_type
+         _nef_spectrum_dimension_transfer.is_indirect
+
+         1  3  through-space  false
+         2  3  onebond        false
+      stop_
+
+      loop_
+         _nef_peak.ordinal
+         _nef_peak.peak_id
+         _nef_peak.volume
+         _nef_peak.volume_uncertainty
+         _nef_peak.height
+         _nef_peak.height_uncertainty
+         _nef_peak.position_1
+         _nef_peak.position_uncertainty_1
+         _nef_peak.position_2
+         _nef_peak.position_uncertainty_2
+         _nef_peak.position_3
+         _nef_peak.position_uncertainty_3
+         _nef_peak.chain_code_1
+         _nef_peak.sequence_code_1
+         _nef_peak.residue_type_1
+         _nef_peak.atom_name_1
+         _nef_peak.chain_code_2
+         _nef_peak.sequence_code_2
+         _nef_peak.residue_type_2
+         _nef_peak.atom_name_2
+         _nef_peak.chain_code_3
+         _nef_peak.sequence_code_3
+         _nef_peak.residue_type_3
+         _nef_peak.atom_name_3
+
+         1   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  14  TRP  HB3  A  18   PHE  N    A  18   PHE  H  
+         2   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBY  A  24B  GLN  N    A  24B  GLN  H  
+         3   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBY  A  24D  TYR  N    A  24D  TYR  H  
+         4   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBX  A  24B  GLN  N    A  24B  GLN  H  
+         5   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBX  A  24D  TYR  N    A  24D  TYR  H  
+         6   3  54000000  7300000   34000000  5300000   4.4  0.05  106.5  0.5  7.8  0.03  .  .   .    .    A  15   GLY  N    A  15   GLY  H  
+         7   4  88000000  13000000  48000000  3300000   3.2  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB3  A  14   TRP  NE1  A  14   TRP  HE1
+         8   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB2  A  14   TRP  NE1  A  14   TRP  HE1
+         9   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  24  ASP  HBY  A  14   TRP  NE1  A  14   TRP  HE1
+         10  7  59000000  7100000   29000000  6100000   1.7  0.05  118.3  0.5  9.1  0.03  .  .   .    .    X  @5   GLX  N    X  @5   GLX  H  
+      stop_
+   save_
+
+
+   save_nef_nmr_spectrum_dummy15d
+
+      _nef_nmr_spectrum.sf_category          nef_nmr_spectrum
+      _nef_nmr_spectrum.sf_framecode         nef_nmr_spectrum_dummy15d
+      _nef_nmr_spectrum.num_dimensions       15
+      _nef_nmr_spectrum.chemical_shift_list  nef_chemical_shift_list_1
+      _nef_nmr_spectrum.experiment_classification  .
+      _nef_nmr_spectrum.experiment_type      HNCCCCCCCCCCCCC
+
+      loop_
+         _nef_spectrum_dimension.dimension_id
+         _nef_spectrum_dimension.axis_unit
+         _nef_spectrum_dimension.axis_code
+         _nef_spectrum_dimension.spectrometer_frequency
+         _nef_spectrum_dimension.spectral_width
+         _nef_spectrum_dimension.value_first_point
+         _nef_spectrum_dimension.folding
+         _nef_spectrum_dimension.absolute_peak_positions
+         _nef_spectrum_dimension.is_acquisition
+
+         1   ppm  1H   500.139  10.4  9.9  circular  true  .
+         2   ppm  15N  98.37    30.7  127  circular  true  .
+         3   ppm  13C  10       256   236  circular  true  .
+         4   ppm  13C  10       256   236  circular  true  .
+         5   ppm  13C  10       256   236  circular  true  .
+         6   ppm  13C  10       256   236  circular  true  .
+         7   ppm  13C  10       256   236  circular  true  .
+         8   ppm  13C  10       256   236  circular  true  .
+         9   ppm  13C  10       256   236  circular  true  .
+         10  ppm  13C  10       256   236  circular  true  .
+         11  ppm  13C  10       256   236  circular  true  .
+         12  ppm  13C  10       256   236  circular  true  .
+         13  ppm  13C  10       256   236  circular  true  .
+         14  ppm  13C  10       256   236  circular  true  .
+         15  ppm  13C  10       256   236  circular  true  .
+      stop_
+
+      loop_
+         _nef_peak.ordinal
+         _nef_peak.peak_id
+         _nef_peak.volume
+         _nef_peak.volume_uncertainty
+         _nef_peak.height
+         _nef_peak.height_uncertainty
+         _nef_peak.position_1
+         _nef_peak.position_uncertainty_1
+         _nef_peak.position_2
+         _nef_peak.position_uncertainty_2
+         _nef_peak.position_3
+         _nef_peak.position_uncertainty_3
+         _nef_peak.position_4
+         _nef_peak.position_uncertainty_4
+         _nef_peak.position_5
+         _nef_peak.position_uncertainty_5
+         _nef_peak.position_6
+         _nef_peak.position_uncertainty_6
+         _nef_peak.position_7
+         _nef_peak.position_uncertainty_7
+         _nef_peak.position_8
+         _nef_peak.position_uncertainty_8
+         _nef_peak.position_9
+         _nef_peak.position_uncertainty_9
+         _nef_peak.position_10
+         _nef_peak.position_uncertainty_10
+         _nef_peak.position_11
+         _nef_peak.position_uncertainty_11
+         _nef_peak.position_12
+         _nef_peak.position_uncertainty_12
+         _nef_peak.position_13
+         _nef_peak.position_uncertainty_13
+         _nef_peak.position_14
+         _nef_peak.position_uncertainty_14
+         _nef_peak.position_15
+         _nef_peak.position_uncertainty_15
+         _nef_peak.chain_code_1
+         _nef_peak.sequence_code_1
+         _nef_peak.residue_type_1
+         _nef_peak.atom_name_1
+         _nef_peak.chain_code_2
+         _nef_peak.sequence_code_2
+         _nef_peak.residue_type_2
+         _nef_peak.atom_name_2
+         _nef_peak.chain_code_3
+         _nef_peak.sequence_code_3
+         _nef_peak.residue_type_3
+         _nef_peak.atom_name_3
+         _nef_peak.chain_code_4
+         _nef_peak.sequence_code_4
+         _nef_peak.residue_type_4
+         _nef_peak.atom_name_4
+         _nef_peak.chain_code_5
+         _nef_peak.sequence_code_5
+         _nef_peak.residue_type_5
+         _nef_peak.atom_name_5
+         _nef_peak.chain_code_6
+         _nef_peak.sequence_code_6
+         _nef_peak.residue_type_6
+         _nef_peak.atom_name_6
+         _nef_peak.chain_code_7
+         _nef_peak.sequence_code_7
+         _nef_peak.residue_type_7
+         _nef_peak.atom_name_7
+         _nef_peak.chain_code_8
+         _nef_peak.sequence_code_8
+         _nef_peak.residue_type_8
+         _nef_peak.atom_name_8
+         _nef_peak.chain_code_9
+         _nef_peak.sequence_code_9
+         _nef_peak.residue_type_9
+         _nef_peak.atom_name_9
+         _nef_peak.chain_code_10
+         _nef_peak.sequence_code_10
+         _nef_peak.residue_type_10
+         _nef_peak.atom_name_10
+         _nef_peak.chain_code_11
+         _nef_peak.sequence_code_11
+         _nef_peak.residue_type_11
+         _nef_peak.atom_name_11
+         _nef_peak.chain_code_12
+         _nef_peak.sequence_code_12
+         _nef_peak.residue_type_12
+         _nef_peak.atom_name_12
+         _nef_peak.chain_code_13
+         _nef_peak.sequence_code_13
+         _nef_peak.residue_type_13
+         _nef_peak.atom_name_13
+         _nef_peak.chain_code_14
+         _nef_peak.sequence_code_14
+         _nef_peak.residue_type_14
+         _nef_peak.atom_name_14
+         _nef_peak.chain_code_15
+         _nef_peak.sequence_code_15
+         _nef_peak.residue_type_15
+         _nef_peak.atom_name_15
+
+         1  1  73000000  5100000  33000000  1100000  7.2  0.05  119.5  0.4  28.3  0.3  172.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  A  19  LEU  HN  A  19  LEU  N  A  24C  GLN  C  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19  LEU  CD1  A  19  LEU  CD2  A  19  LEU  CG  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  24C  GLN  CA  A  24C  GLN  CB  A  24C  GLN  CG
+      stop_
+   save_
+
+
+   save_nef_peak_restraint_links
+
+      _nef_peak_restraint_links.sf_category   nef_peak_restraint_links
+      _nef_peak_restraint_links.sf_framecode  nef_peak_restraint_links
+
+      loop_
+         _nef_peak_restraint_link.nmr_spectrum_id
+         _nef_peak_restraint_link.peak_id
+         _nef_peak_restraint_link.restraint_list_id
+         _nef_peak_restraint_link.restraint_id
+
+         nef_nmr_spectrum_cnoesy1  1  nef_distance_restraint_list_L1  5
+         nef_nmr_spectrum_cnoesy1  1  nef_distance_restraint_list_L1  8
+         nef_nmr_spectrum_cnoesy1  3  nef_dihedral_restraint_list_L2  4
+         nef_nmr_spectrum_cnoesy1  5  nef_dihedral_restraint_list_L2  4
+      stop_
+   save_
+
+
+# End of data_nef_my_nmr_project_1
