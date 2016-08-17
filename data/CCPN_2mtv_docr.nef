@@ -7247,19 +7247,19 @@ data_2mtv_docr
          # 240  240  .  .  .    .    ?@1452  .  .    .    ?@1453  .  .    .    ?@1454  .  .    .    ?@1455  1  .  .  .  130     190     .  .  
 
          # Dihedrals replaced by hand, from original data:
-         235  235  .  B  1    U    C5'  B  1    U    C4'  B  1    U    C3'  B  1    U    O3'  1  .  .  .  130     190     .  .  
+         235  235  .  B  1    U    C5'  B  1    U    C4'  B  1    U    C3'  B  1    U    O3'  1  .  .  .  130     190     .  DELTA
          # 1 URA DELTA 130.0 190.0
-         236  236  .  B  2    G    C4   B  2    G    N3   B  2    G    C1'  B  2    G    O4'  1  .  .  .  60      190     .  .  
+         236  236  .  B  2    G    C4   B  2    G    N9   B  2    G    C1'  B  2    G    O4'  1  .  .  .  60      190     .  CHI
          # 2 RGUA CHI 60.0 90.0
-         237  237  .  B  2    G    C5'  B  2    G    C4'  B  2    G    C3'  B  2    G    O3'  1  .  .  .  130     190     .  .  
+         237  237  .  B  2    G    C5'  B  2    G    C4'  B  2    G    C3'  B  2    G    O3'  1  .  .  .  130     190     .  DELTA
          # 2 RGUA DELTA 130.0 190.0
-         238  238  .  B  3    6MZ  C5'  B  3    6MZ  C4'  B  3    6MZ  C3'  B  3    6MZ  O3'  1  .  .  .  130     190     .  .  
+         238  238  .  B  3    6MZ  C5'  B  3    6MZ  C4'  B  3    6MZ  C3'  B  3    6MZ  O3'  1  .  .  .  130     190     .  DELTA
          # 3 6MA DELTA 130.0 190.0
-         239  239  .  B  4    C    C5'  B  4    C    C4'  B  4    C    C3'  B  4    C    O3'  4  .  .  .  130     190     .  .  
+         239  239  .  B  4    C    C5'  B  4    C    C4'  B  4    C    C3'  B  4    C    O3'  4  .  .  .  130     190     .  DELTA
          # 4 RCYT DELTA 130.0 190.0
-         240  240  .  B  5    A    C5'  B  5    A    C4'  B  5    A    C3'  B  5    A    O3'  5  .  .  .  55      115     .  .  
+         240  240  .  B  5    A    C5'  B  5    A    C4'  B  5    A    C3'  B  5    A    O3'  5  .  .  .  55      115     .  DELTA
          # 5 RADE DELTA 55.0 115.0
-         241  241  .  B  6    C    C5'  B  6    C    C4'  B  6    C    C3'  B  6    C    O3'  6  .  .  .  130     190     .  .  
+         241  241  .  B  6    C    C5'  B  6    C    C4'  B  6    C    C3'  B  6    C    O3'  6  .  .  .  130     190     .  DELTA
          # 6 RCYT DELTA 130.0 190.0
  stop_
    save_
