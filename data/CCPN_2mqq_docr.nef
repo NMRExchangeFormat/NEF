@@ -9286,16 +9286,16 @@ data_2mqq_docr
          66  66  .  A  583  GLN  N    A  583  GLN  CA   A  583  GLN  C    A  584  HIS  N    1  .  .  .  -3      21      .  PSI
          67  67  .  A  583  GLN  C    A  584  HIS  N    A  584  HIS  CA   A  584  HIS  C    1  .  .  .  -179    -134    .  PHI
          68  68  .  A  584  HIS  N    A  584  HIS  CA   A  584  HIS  C    A  585  ALA  N    1  .  .  .  136     178     .  PSI
-         69  69  .  B  1    A    C5'  B  1    A    C4'  B  1    A    C3'  B  1    A    O3'  1  .  .  .  130     190     .  .  
-         70  69  .  B  1    A    C5'  B  1    A    C4'  B  1    A    C3'  B  1    A    O3'  1  .  .  .  130     190     .  .  
-         71  70  .  B  2    C    C5'  B  2    C    C4'  B  2    C    C3'  B  2    C    O3'  1  .  .  .  130     190     .  .  
-         72  70  .  B  2    C    C5'  B  2    C    C4'  B  2    C    C3'  B  2    C    O3'  1  .  .  .  130     190     .  .  
-         73  71  .  B  3    A    C5'  B  3    A    C4'  B  3    A    C3'  B  3    A    O3'  1  .  .  .  130     190     .  .  
-         74  71  .  B  3    A    C5'  B  3    A    C4'  B  3    A    C3'  B  3    A    O3'  1  .  .  .  130     190     .  .  
-         75  72  .  B  4    C    C5'  B  4    C    C4'  B  4    C    C3'  B  4    C    O3'  1  .  .  .  130     190     .  .  
-         76  72  .  B  4    C    C5'  B  4    C    C4'  B  4    C    C3'  B  4    C    O3'  1  .  .  .  130     190     .  .  
-         77  73  .  B  5    A    C5'  B  5    A    C4'  B  5    A    C3'  B  5    A    O3'  1  .  .  .  130     190     .  .  
-         78  73  .  B  5    A    C5'  B  5    A    C4'  B  5    A    C3'  B  5    A    O3'  1  .  .  .  130     190     .  .  
+         69  69  .  B  1    A    C5'  B  1    A    C4'  B  1    A    C3'  B  1    A    O3'  1  .  .  .  130     190     .  DELTA
+         70  69  .  B  1    A    C5'  B  1    A    C4'  B  1    A    C3'  B  1    A    O3'  1  .  .  .  130     190     .  DELTA
+         71  70  .  B  2    C    C5'  B  2    C    C4'  B  2    C    C3'  B  2    C    O3'  1  .  .  .  130     190     .  DELTA
+         72  70  .  B  2    C    C5'  B  2    C    C4'  B  2    C    C3'  B  2    C    O3'  1  .  .  .  130     190     .  DELTA
+         73  71  .  B  3    A    C5'  B  3    A    C4'  B  3    A    C3'  B  3    A    O3'  1  .  .  .  130     190     .  DELTA
+         74  71  .  B  3    A    C5'  B  3    A    C4'  B  3    A    C3'  B  3    A    O3'  1  .  .  .  130     190     .  DELTA
+         75  72  .  B  4    C    C5'  B  4    C    C4'  B  4    C    C3'  B  4    C    O3'  1  .  .  .  130     190     .  DELTA
+         76  72  .  B  4    C    C5'  B  4    C    C4'  B  4    C    C3'  B  4    C    O3'  1  .  .  .  130     190     .  DELTA
+         77  73  .  B  5    A    C5'  B  5    A    C4'  B  5    A    C3'  B  5    A    O3'  1  .  .  .  130     190     .  DELTA
+         78  73  .  B  5    A    C5'  B  5    A    C4'  B  5    A    C3'  B  5    A    O3'  1  .  .  .  130     190     .  DELTA
       stop_
    save_
 
