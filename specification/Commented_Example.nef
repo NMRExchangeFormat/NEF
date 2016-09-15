@@ -1025,4 +1025,41 @@ save_nef_distance_restraint_list_hbond1
 
 save_
 
+
+#=======================================================================
+# Section 10
+#
+# Optional: Program-specific raw_data saveframe
+#
+# Each program-specific prefix should include the 'programspecific_raw_data'
+# saveframe as a slot to add copies of raw input files.
+#
+# The preferred option remains to use structured program-specific tags
+# to store program-specific information, but this saveframe serves as a
+# quick way to add unstructured data or input files for comparison.
+#
+#=======================================================================
+
+save_xplor_raw_data_T1_T2_values_1
+    _xplor_raw_data.sf_category     xplor_raw_data
+    _xplor_raw_data.sf_framecode    xplor_raw_data_T1_T2_values_1
+
+    # ALl items below are optional:
+    _xplor_raw_data.file_name       input_file_name.extension
+
+    _xplor_raw_data.details
+; Optional item
+For comments.
+Any multiline text can be put here
+;
+
+    _xplor_raw_data.text
+;
+If the string starts with a new line (as in this case) it is skipped. This avoids issues with how many initial spaces to strip
+;
+save_
+
+
+
+
 # End of data_nef_my_nmr_project_1

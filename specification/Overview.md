@@ -692,3 +692,18 @@ expressions for Threonine and applying the standard regular expression rules.
     corresponds to multiple lines in the relevant loops). Each peak can be
     linked to multiple restraints, and vice versa. Links to different types of
     restraint all share a single table.
+    
+
+  * Regarding Section 10. Optional: **Program-specific raw_data saveframe**
+  
+    1. Each program-specific namespace should include the '_programspecific_raw_data'
+    saveframe (e.g. '_cyana_raw_data', '_csrosetta_raw_data' etc. as a slot to add 
+    copies of raw input files. The preferred option remains to use structured 
+    program-specific tags to store program-specific information, but this 
+    saveframe serves as a quick way to add unstructured data or copies of input 
+    files for comparison.
+    
+    NB, being program-specific this saveframe is not specified in the mmcIf_nef.dic
+    specification file, but only shown as an example in the Commented_Example.nef
+    file. Suggestions are welcome as to how such a saveframe should be put into the
+    general nef specification.
