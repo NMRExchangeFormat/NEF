@@ -302,7 +302,6 @@ INSERT PULSE PROGRAM HERE
 
       _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
       _nef_chemical_shift_list.sf_framecode               nef_chemical_shift_list_1
-      _nef_chemical_shift_list.atom_chemical_shift_units  ppm
 
       loop_
          _nef_chemical_shift.chain_code

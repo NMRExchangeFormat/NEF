@@ -1,6 +1,10 @@
 Change log
 ==========
 
+**Proposal remove_chemical_shift_units**
+
+* Remove  _nef_chemical_shift_list.atom_chemical_shift_units tag
+
 **Proposal ordinal_to_index_id**
 
 * change 'ordinal' to 'index_id' 

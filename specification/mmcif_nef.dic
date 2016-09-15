@@ -1146,7 +1146,6 @@ save_nef_chemical_shift_list
    _category_examples.case    
 ;   _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
    _nef_chemical_shift_list.sf_framecode               nef_chemical_shift_list_bmrb21_str
-   _nef_chemical_shift_list.atom_chemical_shift_units  ppm
 ;
    #
 save_
@@ -1178,21 +1177,6 @@ save__nef_chemical_shift_list.sf_framecode
    _item_type.code  nef_framecode
    #
    _item_examples.case  nef_chemical_shift_list_bmrb21_str
-   #
-save_
-#
-save__nef_chemical_shift_list.atom_chemical_shift_units
-   #
-
-   _item_description.description  "The units of chemical shift values in the NEF_CHEMICAL_SHIFT category."
-   #
-   _item.name            "_nef_chemical_shift_list.atom_chemical_shift_units"
-   _item.category_id     nef_chemical_shift_list
-   _item.mandatory_code  yes
-   #
-   _item_type.code  word
-   #
-   _item_examples.case  ppm
    #
 save_
 
