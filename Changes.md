@@ -1,6 +1,10 @@
 Change log
 ==========
 
+** Proposal residue_type_to_name **
+
+* change 'residue_type' to 'residue_name' in all occurrences and tags
+
 **Version 0.2**
 
 * Version 0.2 (unfortunately named) is the final, cleaned-up version before
