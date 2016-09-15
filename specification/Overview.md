@@ -154,7 +154,8 @@ organised by data category (saveframe).
     5. Spectrum dimensions, peaks, restraints etc. are numbered starting at
     1 (and *not* at zero). Peaks and restraints are represented by more than one
     line in the corresponding loop; an additional column for the line number
-    ('ordinal') serves as the unique key for the loop.
+    ('index_id') serves as the unique key for the loop. These values are *not* 
+    preserved when reading and re-writing data.
 
     6. Peak numbers, restraint numbers, and datablock names / saveframe
     framecodes must  be kept unchanged by programs, so that they can be used as
@@ -462,7 +463,7 @@ expressions for Threonine and applying the standard regular expression rules.
 
   * Regarding Section 5. Optional: **Distance restraint lists(s)**
 
-    1. The ordinal column is a series of consecutive integers that serve to
+    1. The index_id column is a series of consecutive integers that serve to
     make each line unique. These values are *not* preserved when reading and
     re-writing data.
 
@@ -573,7 +574,7 @@ expressions for Threonine and applying the standard regular expression rules.
     We recommend using one of the values given below, but if these do
     not fit, others may be added. Values: 'chemical_shift', 'jcoupling'.
 
-    2. The ordinal column is a series of consecutive integers that serve to
+    2. The index_id column is a series of consecutive integers that serve to
     make each line unique. These values are *not* preserved when reading and
     re-writing data.
 
@@ -612,7 +613,7 @@ expressions for Threonine and applying the standard regular expression rules.
     not fit, others may be added. The value 'measured' should typically be
     sufficient.
 
-    4. The ordinal column is a series of consecutive integers that serve to
+    4. The index_id column is a series of consecutive integers that serve to
     make each line unique. These values are *not* preserved when reading and
     re-writing data.
 
@@ -668,7 +669,7 @@ expressions for Threonine and applying the standard regular expression rules.
     peaks, 3D peaks etc. For e.g. a 3D peak list, tags for dimensions 4 and
     higher are simply omitted. The maximum possible dimension is 15.
 
-    7. The ordinal column is a series of consecutive integers that serve to
+    7. The index_id column is a series of consecutive integers that serve to
     make each line unique. These values are *not* preserved when reading and
     re-writing data.
 
