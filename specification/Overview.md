@@ -11,9 +11,10 @@ organised by data category (saveframe).
 
   1. Residue and Atom names
 
-    Residues are identified by three strings ('chain_code', 'sequence_code',
-    'residue_type') that always are used together. Atoms are identified by a
-    residue identifier plus the atom name as a fourth string.
+    Residues are identified by three strings ('chain_code' (e.g. 'A'), 'sequence_code' 
+    (e.g. ('127'), 'residue_name' (e.g. 'ALA')) that always are used together. 
+    Atoms are identified by a residue identifier plus the atom name (e.g. 'HA')
+    as a fourth string.
 
     1. The identifying strings are case sensitive, and all identifiers
     (including casing) must be consistent throughout a file. Atom names and
@@ -42,12 +43,12 @@ organised by data category (saveframe).
     a small subset of the RCSB residue variant codes (see below). It remains an
     outstanding issue whether this should be changed or expanded.
 
-    5. 'residue_type' must be specified as the basic type in all cases (e.g. use
+    5. 'residue_name' must be specified as the basic type in all cases (e.g. use
     HIS regardless of protonation state).
 
     6. A residue is uniquely identified by the 'chain_code' and 'sequence_code',
-    so that the same 'residue_type' string must be used consistently throughout
-    the file. Strictly speaking this makes the 'residue_type' string redundant,
+    so that the same 'residue_name' string must be used consistently throughout
+    the file. Strictly speaking this makes the 'residue_name' string redundant,
     but it is used in identifiers to avoid ambiguity and to serve as a
     cross-check.
 
@@ -129,7 +130,7 @@ organised by data category (saveframe).
 
     13. Selection expressions. For the time being wildcards are allowed only
     for atom names. It would be possible to extend their use to 'chain_code',
-    'sequence_code' and 'residue_type' at a later date, if there is a use case
+    'sequence_code' and 'residue_name' at a later date, if there is a use case
     for this. More complex selection expressions, such as residue ranges, are
     surely too complicated for this kind of format. Note that these can be
     expressed as ambiguous peak assignments or restraints. For the specific
@@ -383,7 +384,7 @@ expressions for Threonine and applying the standard regular expression rules.
 
     4. The '_sequence' loop is a compromise between a full, complex topology
     description and simply assuming linear polymers - see the example files,
-    section 3. The '_nef_sequence.residue_type' is always the
+    section 3. The '_nef_sequence.residue_name' is always the
     canonical name (e.g. 'HIS' regardless of protonation state or chain
     position).The '_nef_sequence.linking' column shows linear connection
     information.
@@ -448,7 +449,7 @@ expressions for Threonine and applying the standard regular expression rules.
      'LL' (middle of chain), 'LSN3' (N-terminal, protonated),
      'LEO2' (C-terminal, deprotonated), and 'LEO2H' (C-terminal, protonated).
 
-| Residue_type | dyana_type | protonation_code | example | comment |
+| residue_name | dyana_type | protonation_code | example | comment |
 |-----|:-----|:-------|-----|-----|
 | ARG | ARG  | DHH12  | ARG_LL_DHH12 | side chain deprotonated |
 | ASP | ASP  | *None* | ASP_LL | side chain protonated |
@@ -599,8 +600,8 @@ expressions for Threonine and applying the standard regular expression rules.
   * Regarding Section 7. Optional: **RDC restraint lists(s)**
 
     1. The orientation tensor is indicated by giving the 'chain_code',
-    'sequence_code', and 'residue_type' for the residue used to give the
-    orientation tensor in coordinate files. The 'residue_type' should be TNSR.
+    'sequence_code', and 'residue_name' for the residue used to give the
+    orientation tensor in coordinate files. The 'residue_name' should be TNSR.
     Tensor values are given as magnitude and rhombicity.
 
     2. The RDC restraint list can also be used to give non-reduced dipolar

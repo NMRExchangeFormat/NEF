@@ -159,7 +159,7 @@ INSERT PULSE PROGRAM HERE
 	 # mandatory parameters
          _nef_sequence.chain_code
          _nef_sequence.sequence_code
-         _nef_sequence.residue_type
+         _nef_sequence.residue_name
          
 	 # optional parameters
          _nef_sequence.linking
@@ -267,11 +267,11 @@ INSERT PULSE PROGRAM HERE
          # mandatory parameters
          _nef_covalent_links.chain_code_1
          _nef_covalent_links.sequence_code_1
-         _nef_covalent_links.residue_type_1
+         _nef_covalent_links.residue_name_1
          _nef_covalent_links.atom_name_1
          _nef_covalent_links.chain_code_2
          _nef_covalent_links.sequence_code_2
-         _nef_covalent_links.residue_type_2
+         _nef_covalent_links.residue_name_2
          _nef_covalent_links.atom_name_2
 
          # key: chain_code_1, sequence_code_1, atom_name_1, chain_code_2, sequence_code_2, atom_name_2
@@ -307,7 +307,7 @@ INSERT PULSE PROGRAM HERE
       loop_
          _nef_chemical_shift.chain_code
          _nef_chemical_shift.sequence_code
-         _nef_chemical_shift.residue_type
+         _nef_chemical_shift.residue_name
          _nef_chemical_shift.atom_name
          _nef_chemical_shift.value
          _nef_chemical_shift.value_uncertainty
@@ -409,11 +409,11 @@ save_nef_distance_restraint_list_L1
          _nef_distance_restraint.restraint_combination_id
          _nef_distance_restraint.chain_code_1
          _nef_distance_restraint.sequence_code_1
-         _nef_distance_restraint.residue_type_1
+         _nef_distance_restraint.residue_name_1
          _nef_distance_restraint.atom_name_1
          _nef_distance_restraint.chain_code_2
          _nef_distance_restraint.sequence_code_2
-         _nef_distance_restraint.residue_type_2
+         _nef_distance_restraint.residue_name_2
          _nef_distance_restraint.atom_name_2
          _nef_distance_restraint.weight
 
@@ -473,11 +473,11 @@ save_nef_distance_restraint_list_hbond1
          _nef_distance_restraint.restraint_combination_id
          _nef_distance_restraint.chain_code_1
          _nef_distance_restraint.sequence_code_1
-         _nef_distance_restraint.residue_type_1
+         _nef_distance_restraint.residue_name_1
          _nef_distance_restraint.atom_name_1
          _nef_distance_restraint.chain_code_2
          _nef_distance_restraint.sequence_code_2
-         _nef_distance_restraint.residue_type_2
+         _nef_distance_restraint.residue_name_2
          _nef_distance_restraint.atom_name_2
          _nef_distance_restraint.weight
 
@@ -545,19 +545,19 @@ save_nef_distance_restraint_list_hbond1
          _nef_dihedral_restraint.restraint_combination_id
          _nef_dihedral_restraint.chain_code_1
          _nef_dihedral_restraint.sequence_code_1
-         _nef_dihedral_restraint.residue_type_1
+         _nef_dihedral_restraint.residue_name_1
          _nef_dihedral_restraint.atom_name_1
          _nef_dihedral_restraint.chain_code_2
          _nef_dihedral_restraint.sequence_code_2
-         _nef_dihedral_restraint.residue_type_2
+         _nef_dihedral_restraint.residue_name_2
          _nef_dihedral_restraint.atom_name_2
          _nef_dihedral_restraint.chain_code_3
          _nef_dihedral_restraint.sequence_code_3
-         _nef_dihedral_restraint.residue_type_3
+         _nef_dihedral_restraint.residue_name_3
          _nef_dihedral_restraint.atom_name_3
          _nef_dihedral_restraint.chain_code_4
          _nef_dihedral_restraint.sequence_code_4
-         _nef_dihedral_restraint.residue_type_4
+         _nef_dihedral_restraint.residue_name_4
          _nef_dihedral_restraint.atom_name_4
          _nef_dihedral_restraint.weight
 
@@ -634,7 +634,7 @@ save_nef_distance_restraint_list_hbond1
       _nef_rdc_restraint_list.tensor_rhombicity     0.067
       _nef_rdc_restraint_list.tensor_chain_code     C
       _nef_rdc_restraint_list.tensor_sequence_code  900
-      _nef_rdc_restraint_list.tensor_residue_type   TNSR
+      _nef_rdc_restraint_list.tensor_residue_name   TNSR
 
       loop_
          # Mandatory parameters, except for restraint_combination_id
@@ -643,11 +643,11 @@ save_nef_distance_restraint_list_hbond1
          _nef_rdc_restraint.restraint_combination_id
          _nef_rdc_restraint.chain_code_1
          _nef_rdc_restraint.sequence_code_1
-         _nef_rdc_restraint.residue_type_1
+         _nef_rdc_restraint.residue_name_1
          _nef_rdc_restraint.atom_name_1
          _nef_rdc_restraint.chain_code_2
          _nef_rdc_restraint.sequence_code_2
-         _nef_rdc_restraint.residue_type_2
+         _nef_rdc_restraint.residue_name_2
          _nef_rdc_restraint.atom_name_2
          _nef_rdc_restraint.weight
 
@@ -787,15 +787,15 @@ save_nef_distance_restraint_list_hbond1
          _nef_peak.position_uncertainty_3
          _nef_peak.chain_code_1
          _nef_peak.sequence_code_1
-         _nef_peak.residue_type_1
+         _nef_peak.residue_name_1
          _nef_peak.atom_name_1
          _nef_peak.chain_code_2
          _nef_peak.sequence_code_2
-         _nef_peak.residue_type_2
+         _nef_peak.residue_name_2
          _nef_peak.atom_name_2
          _nef_peak.chain_code_3
          _nef_peak.sequence_code_3
-         _nef_peak.residue_type_3
+         _nef_peak.residue_name_3
          _nef_peak.atom_name_3
 
          # key: ordinal
@@ -920,63 +920,63 @@ save_nef_distance_restraint_list_hbond1
          _nef_peak.position_uncertainty_15
          _nef_peak.chain_code_1
          _nef_peak.sequence_code_1
-         _nef_peak.residue_type_1
+         _nef_peak.residue_name_1
          _nef_peak.atom_name_1
          _nef_peak.chain_code_2
          _nef_peak.sequence_code_2
-         _nef_peak.residue_type_2
+         _nef_peak.residue_name_2
          _nef_peak.atom_name_2
          _nef_peak.chain_code_3
          _nef_peak.sequence_code_3
-         _nef_peak.residue_type_3
+         _nef_peak.residue_name_3
          _nef_peak.atom_name_3
          _nef_peak.chain_code_4
          _nef_peak.sequence_code_4
-         _nef_peak.residue_type_4
+         _nef_peak.residue_name_4
          _nef_peak.atom_name_4
          _nef_peak.chain_code_5
          _nef_peak.sequence_code_5
-         _nef_peak.residue_type_5
+         _nef_peak.residue_name_5
          _nef_peak.atom_name_5
          _nef_peak.chain_code_6
          _nef_peak.sequence_code_6
-         _nef_peak.residue_type_6
+         _nef_peak.residue_name_6
          _nef_peak.atom_name_6
          _nef_peak.chain_code_7
          _nef_peak.sequence_code_7
-         _nef_peak.residue_type_7
+         _nef_peak.residue_name_7
          _nef_peak.atom_name_7
          _nef_peak.chain_code_8
          _nef_peak.sequence_code_8
-         _nef_peak.residue_type_8
+         _nef_peak.residue_name_8
          _nef_peak.atom_name_8
          _nef_peak.chain_code_9
          _nef_peak.sequence_code_9
-         _nef_peak.residue_type_9
+         _nef_peak.residue_name_9
          _nef_peak.atom_name_9
          _nef_peak.chain_code_10
          _nef_peak.sequence_code_10
-         _nef_peak.residue_type_10
+         _nef_peak.residue_name_10
          _nef_peak.atom_name_10
          _nef_peak.chain_code_11
          _nef_peak.sequence_code_11
-         _nef_peak.residue_type_11
+         _nef_peak.residue_name_11
          _nef_peak.atom_name_11
          _nef_peak.chain_code_12
          _nef_peak.sequence_code_12
-         _nef_peak.residue_type_12
+         _nef_peak.residue_name_12
          _nef_peak.atom_name_12
          _nef_peak.chain_code_13
          _nef_peak.sequence_code_13
-         _nef_peak.residue_type_13
+         _nef_peak.residue_name_13
          _nef_peak.atom_name_13
          _nef_peak.chain_code_14
          _nef_peak.sequence_code_14
-         _nef_peak.residue_type_14
+         _nef_peak.residue_name_14
          _nef_peak.atom_name_14
          _nef_peak.chain_code_15
          _nef_peak.sequence_code_15
-         _nef_peak.residue_type_15
+         _nef_peak.residue_name_15
          _nef_peak.atom_name_15
       
          # key: ordinal
