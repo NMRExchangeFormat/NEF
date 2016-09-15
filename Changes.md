@@ -1,6 +1,21 @@
 Change log
 ==========
 
+**Version 0.2**
+
+* Version 0.2 (unfortunately named) is the final, cleaned-up version before
+proposing the changes that will define the first release version, 1.0.
+
+* Version 0.2 has a proper specifications file mmcif_nef.dic.
+
+* A wide range of test data have been added.
+
+* The Commented_Example file has been reorganised, expanded with additional
+examples, and cleaned of errors and inconsistencies.
+
+* The overview document has been modified to clarify confusion on a number of
+points.
+
 **Version 0.8**
 
 * Updated charter to reflect the discussion at the Rutgers 7/11-9/1 2015 meeting.

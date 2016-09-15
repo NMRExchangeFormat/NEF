@@ -9,7 +9,7 @@ to provide the NEF format in a free and open form, and to support program-
 specific extensions.
 
 The NEF consortium relies on consensus between the participants as the only
-possible basis for a successful project.The charter therefore has only minimal
+possible basis for a successful project. The charter therefore has only minimal
 provision for dealing with disputes.
 
 In order to be accepted by all participants, it is important that the NEF does
@@ -26,12 +26,12 @@ The NEF project is governed by the Assembly of members, which is open to anybody
 that is engaged in software or services in a relevant scientific area, and
 that commit themselves to supporting the NEF format.
 
-The Assembly meets at least once a year, possibly by audio or video conference, or in the
-form of an publicly accessible on-line discussion forum.
+The Assembly meets at least once a year, possibly by audio or video conference,
+or in the form of a publicly accessible on-line discussion forum.
 The meeting accepts the report of the Executive Committee, and selects the
 membership of the Executive Committee, the Secretariat, and the
 Specifications Repository. All appointments are for one year periods,
-renewable indefinitely by subsequent Assmbly meetings. Assembly meetings must be
+renewable indefinitely by subsequent assembly meetings. Assembly meetings must be
 called at least two weeks in advance and made known to all registered members of
 the Assembly.
 The agenda and decisions of Assembly meetings are public.

@@ -183,23 +183,30 @@ INSERT PULSE PROGRAM HERE
          A  24C  GLN  middle     .
          A  24D  TYR  middle     .
          A  25   HIS  end        .
-         A  26   GLC  nonlinear  .
          B  17   CYS  single     .
-         C  1    ATP  nonlinear  .
-         # Manual comment: Pseudo-residues (linkers and tensor origin) added. 
-         C  898  UNK   dummy     .
-         C  899  UNK   dummy     .
-         C  900  TNSR  dummy     .
-         D  1    GLY  cyclic     .
-         D  2    PRO  middle     .
-         D  3    ASP  middle     ASP_LL
-         D  4    GLY  middle     .
-         D  5    PRO  middle     .
-         D  6    ASP  cyclic     .
+         C  1    GLY  cyclic     .
+         C  2    PRO  middle     cispeptide
+         C  3    ASP  middle     ASP_LL
+         C  4    GLY  middle     .
+         C  5    PRO  middle     .
+         C  6    ASP  cyclic     .
+         D -3    TNSR dummy      .
+         D -2    LL2  dummy      .
+         D -1    LL1  dummy      .
+         D  0    LL   dummy      .
+         D  1    ALA  .          .
+         D  2    CYS  .          .
+         D  3    GLY  .          .
+         D  4    CYS  .          .
+         D  5    VAL  .          .
+         D  6    CYS  .          .
+         D  7    PHE  .          .
+         D  8    CYS  .          .
+         D  9    ASN  .          .
          E  1    ASN  break      .
          E  2    THR  middle     .
          E  3    ALA  middle     .
-         E  4    PRO  middle     cispeptide
+         E  4    PRO  middle     .
          E  5    ALA  middle     .
          E  6    GLU  middle     .
          E  7    SER  middle     .
@@ -211,27 +218,34 @@ INSERT PULSE PROGRAM HERE
          E  13   LYS  middle     LYS_LL_DHZ3
          E  14   ARG  break      ARG_LL_DHH12
          E  15   MOH  nonlinear  .
+         E  16   GLC  nonlinear  .
          F   1   GLY  start      .
          F   2   ILE  middle     .
          F   3   SER  middle     .
          F   4   THR  break      .
          F  11   ASN  middle     .
          F  12   SER  end        .
-         G  27   TYR  middle     .
-         G  28   GLY  middle     .
-         G  29   ALA  middle     .
+         G   3   TYR  middle     .
+         G   4   GLY  middle     .
+         G   5   ALA  middle     .
+         Y   1   ATP  nonlinear  .
       stop_
 
-# Chain A is a linear pentadecapeptide (15-25), disulfide linked to a single
-# cysteine, with a glucose linked to THR 22
-# The GLC is given with chaincode A, the CYS with code B; both forms are allowed
+# Chain A is a linear Hexadecapeptide (13-25), disulfide linked to a free
+# cysteine (Chain B)
 #
-# Chain C is free ATP
+# Chain C is a cyclic hexapeptide, containing a cis-peptide bond at PRO 2.
 #
-# Chain D is a cyclic hexapeptide
+# Chain D is a nonapeptide, defined with dangling ends (as might for instance be used
+# for CYANA). It contains two disulfide bonds, 2-6 and 4-8 - the connections are shown 
+# in the _nef_covalent_links loop. Four additional dummy residues have been added at the
+# N-terminal, three linker residues and a tensor-origin residue ('TNSR').
+# Note that there is NO sequential link between chains D and E, even though both have
+# dangling ends. Interchain links must always be given explictly in the _nef_covalent_links loop.
 #
 # Chain E has an amide bond between the between the backbone N of ASN 1 and the side chain carboxylate
 # of GLU 6, and a methyl ester cap.
+# It also has a glucose (with the same chain code) linked to THR 2
 #
 # Chains F and G represent a chimeric protein, where (part of) chain G has been
 # inserted into chain F while maintaining the original numbering. Each chain is given as a
@@ -245,6 +259,8 @@ INSERT PULSE PROGRAM HERE
 # and 'start' (contains '_LSN3')
 #
 # Chain E shows examples of how to specify the non-default forms supported by the NEF format.
+#
+# Chain Y is free ATP
 
 # Covalent cross-links loop. Optional:
       loop_
@@ -261,11 +277,13 @@ INSERT PULSE PROGRAM HERE
          # key: chain_code_1, sequence_code_1, atom_name_1, chain_code_2, sequence_code_2, atom_name_2
 
          A 20 CYS SG B 17 CYS SG
-         A 22 THR CB A 26 GLC O1
+         D  2 CYS SG  D  6 CYS SG
+         D  4 CYS SG  D  8 CYS SG
          E  1 ASN N   E  6 GLU CD
+         E  2 THR CB  E 16 GLC O1
          E 14 ARG C   E 15 MOH O
-         F  4 THR C   G 27 TYR N
-         F 11 ASN N   G 29 ALA C
+         F  4 THR C   G  3 TYR N
+         F 11 ASN N   G  5 ALA C
       stop_
 
    save_
@@ -341,8 +359,8 @@ INSERT PULSE PROGRAM HERE
          A     24C     GLN   CG     32.3    0   
          A     24D     TYR   H      8.3     0   
          A     24D     TYR   N      119.5   0   
-         X     @5      GLX   H      9.1     0   
-         X     @5      GLX   N      118.3   0   
+         Z     @5      GLX   H      9.1     0   
+         Z     @5      GLX   N      118.3   0   
       stop_
 
 # The atom_name by itself serves to distinguish between real atoms ('HA'),
@@ -417,7 +435,7 @@ save_nef_distance_restraint_list_L1
          4  1  .  A  18  LEU  H    A  22  THR  HG2%  1  3.7  0.4  2    2.5  4.2  4.7
          5  5  .  A  18  PHE  HB2  A  24  ASP  HBX   1  2.8  0.4  1.5  2    3.2  3.7
          6  8  .  A  18  PHE  HB2  A  24  ASP  HBY   1  4.4  0.4  3.6  4.1  5.2  5.7
-         7  8  .  A  24  ASP  HBY  E  6B  SER  HB2   1  4.4  0.4  3.6  4.1  5.2  5.7
+         7  8  .  A  24  ASP  HBY  E   7  SER  HB2   1  4.4  0.4  3.6  4.1  5.2  5.7
       stop_
 
       # The first column (ordinal) is a consecutive line number that does not persist  
@@ -426,11 +444,79 @@ save_nef_distance_restraint_list_L1
       # Lines with the same restraint_id are combined into a single restraint
       # (OR operations, effectively an ambiguous assignment).
       # The restraint_combination_id is used for more complex logic,
-      # see dihedral restrains for an example.
+      # see the dihedral or hbond restraints for examples.
 
       # Each line (sub-restraint) of the table has its own independent
       # parameters (weight, target_value, upper_limit, etc.), which may be different
       # within the same restraint.
+
+   save_
+
+
+save_nef_distance_restraint_list_hbond1
+
+
+# Mandatory parameters
+      _nef_distance_restraint_list.sf_category     nef_distance_restraint_list
+      _nef_distance_restraint_list.sf_framecode    nef_distance_restraint_list_hbond1
+      _nef_distance_restraint_list.potential_type  square-well-parabolic
+  
+      # Optional parameter:
+      _nef_distance_restraint_list.restraint_origin     hbond
+      # The restraint_origin describes the origin or source of the restraints. For
+      # distance restraints likely values would be 'noe', 'hbond', 'mutation', 'shift_perturbation' 
+
+      loop_
+         # Mandatory parameters, except for restraint_combination_id
+         _nef_distance_restraint.ordinal
+         _nef_distance_restraint.restraint_id
+         _nef_distance_restraint.restraint_combination_id
+         _nef_distance_restraint.chain_code_1
+         _nef_distance_restraint.sequence_code_1
+         _nef_distance_restraint.residue_type_1
+         _nef_distance_restraint.atom_name_1
+         _nef_distance_restraint.chain_code_2
+         _nef_distance_restraint.sequence_code_2
+         _nef_distance_restraint.residue_type_2
+         _nef_distance_restraint.atom_name_2
+         _nef_distance_restraint.weight
+
+         # The following parameters are optional. target_value and target_value_uncertainty
+         # should be given whenever a meaningful value is known'
+         # Other parameters need be given only if they are defined for the potential_type
+         _nef_distance_restraint.target_value
+         _nef_distance_restraint.target_value_uncertainty
+         _nef_distance_restraint.lower_linear_limit
+         _nef_distance_restraint.lower_limit
+         _nef_distance_restraint.upper_limit
+         _nef_distance_restraint.upper_linear_limit
+      
+         # key: ordinal
+
+         1  1  .  A  15  VAL  H    A  24B  THR  O     1  1.8    .  .  1.4    2.7  .
+         2  2  .  A  15  VAL  N    A  24B  THR  O     1  2.8    .  .  2.4    3.7  .
+         3  3  1  A  13  THR  O    A  16   VAL  H     1  1.8    .  .  1.4    2.7  .
+         4  3  1  A  13  THR  O    A  16   VAL  N     1  2.8    .  .  2.4    3.7  .
+         5  4  2  A  17  VAL  H    A  22   THR  O     1  1.8    .  .  1.4    2.7  .
+         6  4  2  A  17  VAL  N    A  22   THR  O     1  2.8    .  .  2.4    3.7  .
+         7  4  3  A  17  VAL  H    A  24   ASP  O     1  1.8    .  .  1.4    2.7  .
+         8  4  3  A  17  VAL  N    A  24   ASP  O     1  2.8    .  .  2.4    3.7  .
+      stop_
+
+      # The first column (ordinal) is a consecutive line number that does not persist  
+      # when data are re-exported
+      # The second column gives the restraint ID.
+      # Lines with the same restraint_id are combined into a single restraint
+      # (OR operations, effectively an ambiguous assignment).
+      # The restraint_combination_id is used for more complex logic; terms that share the same
+      # restraint_combination_id (which must be within the same restraint) are ANDed, and the terms
+      # within each restraint are subsequently ORed.
+      #
+      # Restraints 1 and 2 between them define a hydrogen bond; different restraints are ANDed
+      # Restraint 3 defined one hydrogen bond by ANDing two contributions; this is equivalent
+      # to the information gien in restraints 1 and 2
+      # Restraint 4 defines an ambiguous hydrogen bond, 
+      # where VAL 17 HN is bound to either THR 22 O or to ASP 24 O.
 
    save_
 
@@ -488,14 +574,14 @@ save_nef_distance_restraint_list_L1
       
          # key: ordinal
          
-         1  1  .  A  21  ALA  N  A  21  ALA  CA  A  21  ALA  C   A  22  THR  N  1  -50  5  .  -60  -40  .  PSI
-         2  1  .  A  21  ALA  N  A  21  ALA  CA  A  21  ALA  C   A  22  THR  N  1  105  5  .   90  120  .  PSI
+         1   1  .  A  21  ALA  N   A  21  ALA  CA  A  21  ALA  C   A  22   THR  N    1  -50  5  .  -60  -40  .  PSI
+         2   1  .  A  21  ALA  N   A  21  ALA  CA  A  21  ALA  C   A  22   THR  N    1  105  5  .  90   120  .  PSI
          3   2  .  A  21  ALA  C   A  22  THR  N   A  22  THR  CA  A  22   THR  C    3  -50  8  .  -60  -40  .  PHI
-         4  3  1  A  23  LYS  C  A  24  ASP  N   A  24  ASP  CA  A  24  ASP  C  1  -50  5  .  -60  -40  .  PHI
+         4   3  1  A  23  LYS  C   A  24  ASP  N   A  24  ASP  CA  A  24   ASP  C    1  -50  5  .  -60  -40  .  PHI
          5   3  1  A  24  ASP  N   A  24  ASP  CA  A  24  ASP  C   A  24B  GLN  N    1  -50  5  .  -60  -40  .  PSI
-         6  4  2  A  15  GLY  C  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C  1  -50  5  .  -60  -40  .  PHI
+         6   4  2  A  15  GLY  C   A  16  ASN  N   A  16  ASN  CA  A  16   ASN  C    1  -50  5  .  -60  -40  .  PHI
          7   4  2  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -50  5  .  -60  -40  .  PSI
-         8  4  3  A  15  GLY  C  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C  1  -80  5  .  -90  -70  .  PHI
+         8   4  3  A  15  GLY  C   A  16  ASN  N   A  16  ASN  CA  A  16   ASN  C    1  -80  5  .  -90  -70  .  PHI
          9   4  3  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -80  5  .  -90  -70  .  PSI
          10  5  .  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19   LEU  CDX  1  -80  5  .  -90  -70  .  .  
       stop_
@@ -723,7 +809,7 @@ save_nef_distance_restraint_list_L1
          7   4  88000000  13000000  48000000  3300000   3.2  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB3  A  14    TRP  NE1  A  14    TRP  HE1
          8   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB2  A  14    TRP  NE1  A  14    TRP  HE1
          9   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  24  ASP  HBY  A  14    TRP  NE1  A  14    TRP  HE1
-         10  7  59000000  7100000   29000000  6100000   1.7  0.05  118.3  0.5  9.1  0.03  .  .   .    .    X  @5    GLX  N    X  @5    GLX  H  
+         10  7  59000000  7100000   29000000  6100000   1.7  0.05  118.3  0.5  9.1  0.03  .  .   .    .    Z  @5    GLX  N    Z  @5    GLX  H  
       stop_
 
       # Peaks 1 and 5 have ambiguous assignments.
@@ -912,8 +998,8 @@ save_nef_distance_restraint_list_L1
    save_nef_peak_restraint_links
 
       # Mandatory parameters
-      _nef_peak_restraint_links.sf_category           		nef_peak_restraint_links
-      _nef_peak_restraint_links.sf_framecode           		nef_peak_restraint_links
+      _nef_peak_restraint_links.sf_category   nef_peak_restraint_links
+      _nef_peak_restraint_links.sf_framecode  nef_peak_restraint_links
       
       # The loop is optional
       # All tags within the loop are mandatory
@@ -926,10 +1012,10 @@ save_nef_distance_restraint_list_L1
   
          # key: nmr_spectrum_id, peak_id, restraint_list_id, restraint_id
   
-         nef_nmr_spectrum_cnoesy1     1   nef_distance_restraint_list_L1      5
-         nef_nmr_spectrum_cnoesy1     1   nef_distance_restraint_list_L1      8
-         nef_nmr_spectrum_cnoesy1     3   nef_dihedral_restraint_list_L2      4
-         nef_nmr_spectrum_cnoesy1     5   nef_dihedral_restraint_list_L2      4
+         nef_nmr_spectrum_cnoesy1  1  nef_distance_restraint_list_L1  5
+         nef_nmr_spectrum_cnoesy1  1  nef_distance_restraint_list_L1  8
+         nef_nmr_spectrum_cnoesy1  3  nef_dihedral_restraint_list_L2  4
+         nef_nmr_spectrum_cnoesy1  5  nef_dihedral_restraint_list_L2  4
       stop_
 
       # The table gives links between peaks (in any spectrum) and restraints

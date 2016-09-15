@@ -33,7 +33,7 @@ organised by data category (saveframe).
     deposition must preserve the original names (possibly using a
     deposition-specific namespace for the new names).
 
-    4. For the common standard residues (22 amino acids, 4 DNA and 4 RNA
+    4. For the common standard residues (20 amino acids, 4 DNA and 4 RNA
     nucleotides) the NEF standard will adopt the IUPAC nomenclature for
     residue types, as well as IUPAC atom names. For the standard residues we
     will use UPPER-CASE for atom names. For non-standard residues applications
@@ -73,26 +73,27 @@ organised by data category (saveframe).
     There are two kinds of wildcards:
 
       '%' for 'any sequence of digits', equivalent to the regular expression
-      "[0-9]+".
-
-      '\*' for 'any whitespace-free string', equivalent to the regular expression
-      ".\*". Note that this makes '%%'  equivalent to the regular expression
+      "[0-9]+". Note that this makes '%%'  equivalent to the regular expression
       "[0-9][0-9]+", which will only be required in exceptional cases. In
       all common cases strings of multiple digits should be dealt with using
       the simpler '%'.
 
+      '\*' for 'any whitespace-free string', including the empty string,
+      equivalent to the regular expression "\S\*".
+
       In normal current usage '%' wildcard
       expressions will be used for NMR-equivalent atoms, and '\*' expressions must
       only  be used where '%' expressions would not suffice. In practice this
-      means that all common cases of equivalent atoms are expressed with '%'
+      means that for proteins all common cases of equivalent atoms are expressed with '%'
       (ALA HB%, ASN HB%, ASN HD%, LEU HD1%, LEU HD%, LEU CD%, TYR CD%, TYR HD%,
       LYS HZ%, ...). Notably N-terminal -NH3+ would be 'H%', as would
       N-terminal -NH2.  '\*' would only be
       used where necessary, mainly for 'H\*', 'C\*', '\*',  ... (all protons, all
       carbons,  all atoms, etc.).
 
-    10. IUPAC pseudoatom names (ALA MB, SER QB, etc.) are reserved for the
-    original meaning, i.e. a separate atom positioned at the centroid with zero
+    10. IUPAC pseudoatom names (ALA MB, SER QB, etc.) are NOT expanded into
+    sets of atoms. They are reserved for the
+    original meaning, i.e. a geometric point positioned at the centroid with zero
     van der Waals radius. A restraint to ALA MB would be different from one to
     ALA HB%, and it would be an error to confuse them. E.g. ALA MB and ALA HB%
     can both appear in the same shift list, if both are needed e.g. in different
@@ -105,13 +106,18 @@ organised by data category (saveframe).
     coordinates are known, the program must also maintain the name previously
     used to preserve continuity.
 
-      The RCSB has agreed to store an 'nef_atom_name' alongside the existing
-    atom identifier ('_atom_site.label_atom_id' ?) in separate tags in the
-    coordinate file, where 'nef_atom_name' refers to the name used in the NEF
-    file. Individual models in an ensemble can thus each have their own unique
-    combinations of 'nef_atom_name' and 'label_atom_id', allowing for floating
-    stereospecific assignments that can vary between the individual models in
-    the ensemble.
+      The RCSB has agreed to store the NEF atom identifiers in the tags
+      '_atom_site.auth_asym_id', '  _atom_site.auth_seq_id',
+      '_atom_site.auth_comp_id',  '_atom_site.auth_atom_id' . This preserves
+      NEF naming, and gives a mapping for each structure model to the
+      equivalent RCSB tags '_atom_site.label_asym_id',
+      '_atom_site.label_seq_id', '_atom_site.pdbx_PDB_ins_code',
+      '_atom_site.label_comp_id', '_atom_site.label_atom_id'. The
+      NEF sequence_code is a string, combined from a numerical sequence
+      code and an  optional string insertion code, and therefore maps to two
+      RCSB tags. Since the 'auth' tags can differ from one model to another
+      within the same ensemble, this allows for floating stereospecific
+      assignments that can vary between the individual models in the ensemble.
 
     12. Residues and atoms that match the molecular sequence (including those
     using pseudoatom and non-stereospecific naming conventions) are understood
@@ -297,9 +303,13 @@ Wildcard atom sets for non-terminal Threonine
 | H*2% | HG21, HG22, HG23 |
 
 This is essentially an exercise in imagining all reasonable (?) wildcard
-expressions for Threonine and applying the standard regular expression rules. 
+expressions for Threonine and applying the standard regular expression rules.
 
 ### Data Types
+
+  The precise data type specifications are given (as either data types or
+  enumerated values) in the mmcif_nef.dic specification files , which is the
+  authoritative refrence. They are summarized here.
 
   * Basic string types
     1. ALL string values are limited to printable 7-bit ASCII characters
@@ -481,8 +491,26 @@ expressions for Threonine and applying the standard regular expression rules.
 
     7. In the most common case, sub-restraints within the same restraint are
     treated as ambiguous, and can be OR'ed or summed as the program may prefer.
-    For a discussion of more complex restraint logic, using the
-    'restraint_combination_id', see section 6.
+
+      The hbond restraint list shows an example where it is necessary to combine
+      sub-restraints with AND logic. Each hydrogen bond is defined by two
+      distance restraints. For a simple restraints these can be given
+      separately, as for restraints 1,2 or in a single restraint (as for
+      restraint 3). For an ambiguous hydrogen bond (restraint 4) it is
+      necessary to combine the contributions as (a AND b) OR (c AND d)
+
+      The 'restraint_combination_id' is a positive integer used to signify an AND
+      statement, so that all sub-restraints with the same combination_id are
+      AND'ed. Only sub-restraints with the same 'restraint_id' can be AND'ed, but
+      the 'restraint_combination_id' is valid across the entire table, so that you
+      can select a single AND'ed group by looking only in the 'combination_id'
+      column. Where it is not needed, the 'restraint_combination_id' is left
+      empty. Whereas the normal ambiguous restraint can be described as
+      [a OR b OR c], the 'restraint_combination_id' allows you to describe
+      restraints as [(a AND b) OR (c AND d) OR e] etc.
+
+      For another  discussion of more complex restraint logic, using the
+      'restraint_combination_id', see section 6.
 
     8. The current draft supports the potential types
 

@@ -4,12 +4,10 @@ NEF (NMR Exchange Format)
 ### Project Organisation
 
 `specifications` contains the format specifications. Currently this consists of the
-`Commented_example.nef` example file and the `Overview.md` explanatory comments. More
-formal specifications will be added to the project later.
+`Commented_example.nef` example file, the `Overview.md` explanatory comments,
+and the mmcif_nef.dic speciofications file.
 
-The `data` directory contains sample and test data.
- `data/original` contains original test data input, while `data/derived` is reserved for  I/O tests.  The data directory is currently empty - more sample files will
- be provided once the current change proposal has been discussed.
+The `data_0_2` directory contains sample and test data up to version 0.20.
 
 For input/output test we use the naming convention that a program that reads a file
 prepends its name to the file when output. So if e.g. Cyana reads the file
