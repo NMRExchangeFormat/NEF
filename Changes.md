@@ -1,6 +1,13 @@
 Change log
 ==========
 
+**Proposal multiple changes**
+
+* Add program_specific_raw_data saveframe
+* Change nonsereospecific wildcards from X/Y (upper case) to x/y (lower case)
+* Tighten allowed wildcards
+* Improve consistency of COmmented_Example
+
 **Proposal remove_chemical_shift_units**
 
 * Remove  _nef_chemical_shift_list.atom_chemical_shift_units tag

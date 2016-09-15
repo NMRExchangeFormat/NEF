@@ -9,19 +9,53 @@ organised by data category (saveframe).
 
 ### General issues
 
-  1. Residue and Atom names
+  1. Requirements for NEF compatibility
 
-    Residues are identified by three strings ('chain_code' (e.g. 'A'), 'sequence_code' 
-    (e.g. ('127'), 'residue_name' (e.g. 'ALA')) that always are used together. 
+    The NEF format tries to support as many kinds of data as possible in a
+    simple file format. But we can clearly not require any program to
+    read and understand data that it does not normally support, be it complex or
+    crosslinked sequences, non-standard residues or residue variants, OR/AND
+    restraint logic, anonymous atom assignments, particular restraint types,
+    etc. If a program does support a certain type of data,
+    it is required to read and write such data correctly to/from NEF. If it
+    does not, it is free to skip such data, or convert them to something it can
+    deal with if this can be done appropriately.
+    There is a core set of data that programs must be able to
+    read, interpret, and convert to a form it can deal with: this is the case
+    for simple linear sequences with linking 'start' 'middle', 'end' and
+    'single', the standard 20 protein, DNA, and RNA
+    with their variants, atoms, and atom wildcard expressions, and disulfide
+    bonds. In other cases programs should refuse to read data they cannot
+    handle, rather than misinterpret the information.
+
+  2. Residue and Atom names
+
+    Residues are identified by three strings ('chain_code' (e.g. 'A'), 'sequence_code'
+    (e.g. ('127'), 'residue_name' (e.g. 'ALA')) that always are used together.
     Atoms are identified by a residue identifier plus the atom name (e.g. 'HA')
     as a fourth string.
 
     1. The identifying strings are case sensitive, and all identifiers
     (including casing) must be consistent throughout a file. Atom names and
-    standard 3-letter-type residue names should be ALL-UPPER-CASE, and it is
-    recommended that this convention is followed throughout. Lower case is
-    allowed for chain codes, and future names (e.g. carbohydrate residues) may
-    allow lower case.
+    standard 3-letter-type residue names must match the molecule names also
+    in casing in order to count as assignments to the molecule. Currently
+    this means that they must be ALL-UPPER-CASE, but if in the future RCSB
+    introduces mixed-case residue names (e.g. for carbohydrates), the nef
+    names must match the case used by RCSB. For chain codes and insertion codes
+    upper case si strongly recommended, but lower case is allowed in order to
+    match to e.g. lower-case chain codes used by the RCSB.
+
+    Examples:
+
+    'ALA' and 'CYS' are recognised residue names. 'Ala' and 'cys' are
+    not recognised as residue names, but only as anonymous annotation
+    strings, and converting them to upper case (tempting as it may be)
+    is to modify the data.
+
+    Similarly, 'HA' and 'CA' are recognised atom names. The latter could be alpha
+    carbon or calcium depending on conventions for specifying isotopes (which
+    will be described elsewhere). 'ha', 'Ca', and 'ca' are not recognised as atom
+    names that match the molecule, but only as anonymous identifier strings.
 
     2. 'sequence_code' is a string, not an integer. It is recommended to use
     consecutive numbers along a chain, or, failing that, to put any alt_codes
@@ -34,7 +68,12 @@ organised by data category (saveframe).
     deposition must preserve the original names (possibly using a
     deposition-specific namespace for the new names).
 
-    4. For the common standard residues (20 amino acids, 4 DNA and 4 RNA
+    4. Structures must be given in mmCIf format. In this format the author naming
+    tags are used for the names in the NEF file, whereas IUPAC names are given as
+    teh main identifiers. This gives a IUPAC-NEF mapping for each individual
+    model in an ensemble.
+
+    5. For the common standard residues (20 amino acids, 4 DNA and 4 RNA
     nucleotides) the NEF standard will adopt the IUPAC nomenclature for
     residue types, as well as IUPAC atom names. For the standard residues we
     will use UPPER-CASE for atom names. For non-standard residues applications
@@ -43,44 +82,57 @@ organised by data category (saveframe).
     a small subset of the RCSB residue variant codes (see below). It remains an
     outstanding issue whether this should be changed or expanded.
 
-    5. 'residue_name' must be specified as the basic type in all cases (e.g. use
+    6. 'residue_name' must be specified as the basic type in all cases (e.g. use
     HIS regardless of protonation state).
 
-    6. A residue is uniquely identified by the 'chain_code' and 'sequence_code',
+    7. A residue is uniquely identified by the 'chain_code' and 'sequence_code',
     so that the same 'residue_name' string must be used consistently throughout
     the file. Strictly speaking this makes the 'residue_name' string redundant,
     but it is used in identifiers to avoid ambiguity and to serve as a
     cross-check.
 
-    7. Atoms are identified by their name. The stereo/nonstereo assignment
+    8. Atoms are identified by their name. The stereo/nonstereo assignment
     status and atom/atomset/pseudoatom distinction follows from the name, so
     that there is no need for assignment status codes anywhere in the file.
 
-    8. Atoms that differ only by stereochemistry (prochiral protons or methyl
+    9. Atoms that differ only by stereochemistry (prochiral protons or methyl
     groups, NH2 groups, opposite sides of non-rotating aromatic rings) but
     are not stereospecifically assigned, are distinguished using the suffixes
-    'X' and 'Y'.  These suffixes work effectively as a wildcard, so the 'X'
-    and 'Y' stands for one specific digit, and cannot be used for other
-    purposes. The choice of suffix for a given resonance is arbitrary, except
+    'x' and 'y' (lower case).  These suffixes work effectively as a wildcard,
+    standing for 'one or the other stereochemistry specifier'.
+    In most cases 'x' and 'y' stand for one specific digit, but for
+    e.g. DNA/RNA H5' and H5'' the two non-stereospecific names are "H5x" and
+    "H5y", and so stand for either one or two priomes (' or '').
+    The choice of suffix for a given resonance is arbitrary, except
     that atoms in a stereochemically separate branch are all given the same
-    suffix. For instance, Val CGX is bound to HGX%, and TYR CDX is bound to
-    HDX and CEX. The existing upfield/downfield convention (suffixes 'a'
-    and 'b') is not supported. In NMR-STAR terms X and Y suffixes correspond
+    suffix. For instance, Val CGx is bound to HGx%, and TYR CDx is bound to
+    HDx and CEx. The existing upfield/downfield convention (suffixes 'a'
+    and 'b') is *not* supported. In NMR-STAR terms x and x suffixes correspond
     to ambiguity codes 2 (geminal atoms) and 3 (symmetrical aromatic rings).
     The example table at the end of the General Issues section should
     illustrate the principle.
 
-    9. Sets of atoms can be represented by using atom names with wildcards.
+    10. Sets of atoms can be represented by using atom names with wildcards.
     There are two kinds of wildcards:
 
       '%' for 'any sequence of digits', equivalent to the regular expression
-      "[0-9]+". Note that this makes '%%'  equivalent to the regular expression
-      "[0-9][0-9]+", which will only be required in exceptional cases. In
-      all common cases strings of multiple digits should be dealt with using
-      the simpler '%'.
+      "[0-9]+".
 
       '\*' for 'any whitespace-free string', including the empty string,
       equivalent to the regular expression "\S\*".
+
+      Wildcard expressions must be as simple as possible. Specifically:
+
+        1.	Where applicable (i.e. to represent a sequence of digits) '%' must
+        be used in preference for '\*' . E.g.: The expressions for equivalent
+        nuclei in standard amino acid residues contain only '%', not  '\*'
+
+        2.	The expression must contain the smallest possible number of '%' and '\*'.
+        E.g.: expressions like '%%' are disallowed.
+
+        3.	The wildcard may only be used to represent letters that differ
+        between (some of the) alternative names. E.g. Isoleucine delta protons
+        must be represented as 'HD1%' (and NOT as 'HD%').
 
       In normal current usage '%' wildcard
       expressions will be used for NMR-equivalent atoms, and '\*' expressions must
@@ -90,37 +142,54 @@ organised by data category (saveframe).
       LYS HZ%, ...). Notably N-terminal -NH3+ would be 'H%', as would
       N-terminal -NH2.  '\*' would only be
       used where necessary, mainly for 'H\*', 'C\*', '\*',  ... (all protons, all
-      carbons,  all atoms, etc.).
+      carbons,  all atoms, etc.), or for atom names that do not use digits for
+      distinguishing stereochemistry (e.g. DNA/RNA H5' and H5'', where the
+      two-atom is designated H5'\*).
 
-    10. IUPAC pseudoatom names (ALA MB, SER QB, etc.) are NOT expanded into
+    11. IUPAC pseudoatom names (ALA MB, SER QB, etc.) are NOT expanded into
     sets of atoms. They are reserved for the
     original meaning, i.e. a geometric point positioned at the centroid with zero
     van der Waals radius. A restraint to ALA MB would be different from one to
-    ALA HB%, and it would be an error to confuse them. E.g. ALA MB and ALA HB%
-    can both appear in the same shift list, if both are needed e.g. in different
-    restraint lists.
+    ALA HB%, and it would be an error to confuse them. Note that a restraint to
+    HB% is calculated by r-6 averaging in most programs, whereas a restraints
+    to MB is not. The latter therefore needs to modify the given distance limits
+    to obtain the same result.
 
-    11. Pseudoatom/wildcard names, stereospecific or non-stereospecific atom
+    12. Pseudoatom/wildcard names, stereospecific or non-stereospecific atom
     names can coexist for the same atom in the same file, but the proper name
     must be used with its defined meaning throughout the NEF file. It follows
     that when renaming the atoms to stereospecific entities, e.g. once the
     coordinates are known, the program must also maintain the name previously
     used to preserve continuity.
 
+      The chemical shift list must contain all known relevant shifts, but it is
+      not necessary to give the same chemical shift twice. If e.g. a Ser HB%
+      shift is given, the HBx, HBy, HB2, and HB3 are known to be the same.
+      Similarly HB% or QB can be used without any obligation to give their
+      shift explicitly. Indeed you can have restraints to atoms that have never
+      be measured (like oxygens in hydrogen bond restraints) and these need not
+      appear in restraint lists.
+      In cases where two protons are indistinguishable by NMR it
+      is strongly recommended to use the stereospecific atom names (HB2 and HB3)
+      in preference to the 'x' and 'y' forms. Since here may be cases where the
+      same atoms are stereospecifically assigned under some conditions but not
+      others (e.g. at different temperatures), it is not possible to guarantee
+      that only one of the two forms will be present.
+
       The RCSB has agreed to store the NEF atom identifiers in the tags
-      '_atom_site.auth_asym_id', '  _atom_site.auth_seq_id',
-      '_atom_site.auth_comp_id',  '_atom_site.auth_atom_id' . This preserves
+      '\_atom_site.auth_asym_id', '\_atom_site.auth_seq_id',
+      '\_atom_site.auth_comp_id',  '\_atom_site.auth_atom_id' . This preserves
       NEF naming, and gives a mapping for each structure model to the
-      equivalent RCSB tags '_atom_site.label_asym_id',
-      '_atom_site.label_seq_id', '_atom_site.pdbx_PDB_ins_code',
-      '_atom_site.label_comp_id', '_atom_site.label_atom_id'. The
+      equivalent RCSB tags '\_atom_site.label_asym_id',
+      '\_atom_site.label_seq_id', '\_atom_site.pdbx_PDB_ins_code',
+      '\_atom_site.label_comp_id', '\_atom_site.label_atom_id'. The
       NEF sequence_code is a string, combined from a numerical sequence
       code and an  optional string insertion code, and therefore maps to two
       RCSB tags. Since the 'auth' tags can differ from one model to another
       within the same ensemble, this allows for floating stereospecific
       assignments that can vary between the individual models in the ensemble.
 
-    12. Residues and atoms that match the molecular sequence (including those
+    13. Residues and atoms that match the molecular sequence (including those
     using pseudoatom and non-stereospecific naming conventions) are understood
     as referring to chains/residues/atoms in the molecule. Names that do not
     match the sequence are allowed; they are interpreted as referring to
@@ -128,8 +197,12 @@ organised by data category (saveframe).
     they are inapplicable in context (e.g. in restraint lists), but must be
     maintained in the shift list.
 
-    13. Selection expressions. For the time being wildcards are allowed only
-    for atom names. It would be possible to extend their use to 'chain_code',
+      Programs that do not support non-stereospecific assignments, should
+      convert these into wildcard expressions (HBx to HB%,
+      HDy% to HD%, etc.)
+
+    14. Selection expressions. Wildcards are allowed only for atom names.
+    It would in theory be possible to extend their use to 'chain_code',
     'sequence_code' and 'residue_name' at a later date, if there is a use case
     for this. More complex selection expressions, such as residue ranges, are
     surely too complicated for this kind of format. Note that these can be
@@ -137,7 +210,10 @@ organised by data category (saveframe).
     case of residue ranges we should notice that 'sequence_code' is a string,
     not an integer, which renders the concept of ranges rather unwieldy.
 
-  2. Identifiers
+      The supported wildcard expressions for standard residues will be given
+      later.
+
+  3. Identifiers
     1. NEF data block IDs (the string that follows 'data\_') *must* start with
     'nef\_'.
 
@@ -154,14 +230,14 @@ organised by data category (saveframe).
     5. Spectrum dimensions, peaks, restraints etc. are numbered starting at
     1 (and *not* at zero). Peaks and restraints are represented by more than one
     line in the corresponding loop; an additional column for the line number
-    ('index_id') serves as the unique key for the loop. These values are *not* 
+    ('index_id') serves as the unique key for the loop. These values are *not*
     preserved when reading and re-writing data.
 
     6. Peak numbers, restraint numbers, and datablock names / saveframe
     framecodes must  be kept unchanged by programs, so that they can be used as
     persistent identifiers
 
-  3. Program-specific namespaces
+  4. Program-specific namespaces
 
     We will define and register prefixes for programs to use in program-specific
     data, that other programs may ignore. We would propose simple prefixes like
@@ -169,22 +245,22 @@ organised by data category (saveframe).
     'saveframe_category' would start with the prefix ('cyana_special_frame',
     'ccpn_special_frame' etc.), and would be used for saveframe names
     ('save_cyana_special_frame_1'), and tag prefixes
-    ('_cyana_special_frame.sf_category') . The loop-prefix would be '_cyana',
-    with loop tags like '_cyana_special_loop.tag1', '_cyana_special_loop.tag2',
+    ('\_cyana_special_frame.sf_category') . The loop-prefix would be '\_cyana',
+    with loop tags like '\_cyana_special_loop.tag1', '\_cyana_special_loop.tag2',
     ... to match with the STAR rule that all tags must start with an
     underscore. For individual tag names, the prefix will be positioned at the
     start of the actual tag, after  the 'saveframeName' or 'loopName' prefix
-    (e.g. '_chemical_shift_list.cyana_specific_tag' or
-    '_chemical_shift.ccpn_specific_column').
+    (e.g. '\_chemical_shift_list.cyana_specific_tag' or
+    '\_chemical_shift.ccpn_specific_column').
 
-  4. Mandatory content
+  5. Mandatory content
 
     A valid NEF data block must contain 'nef_nmr_meta_data', and a valid
     'nef_molecular_system' saveframe. It must also contain at least one
     'nef_chemical_shift_list'. A file whose chemical shift list(s) contain no
     data is technically valid, but will not be accepted for deposition.
 
-  5. Single and multiple files
+  6. Single and multiple files
 
     Each data block is a self-contained project description, and must have a
     unique name, in context. Data will normally be passed with one data block
@@ -204,7 +280,7 @@ organised by data category (saveframe).
     and re-export it, but not if this makes the exported file inconsistent or
     the data are incorrectly reproduced.
 
-  6. Field values and data types
+  7. Field values and data types
     1. Unlike NMR-STAR, the dollar sign ('$') is *not* used as a prefix to
     indicate a saveframe identifier.
 
@@ -212,7 +288,7 @@ organised by data category (saveframe).
     missing data - all missing data are indicted by a dot ('.'), which may be
     translated as a null value.
 
-  7. NEF Format versions
+  8. NEF Format versions
 
     We propose to divide format versions in major and minor, with both running
     as consecutive integers (e.g. 1.0, ... 1.8, 1.9, 1.10, 1.11, ... ... 1.314,
@@ -221,7 +297,7 @@ organised by data category (saveframe).
     version 1.3 also. This includes not having duplicate storage slots, so
     that the same information would be found in the same place in both
     versions. Each change should cause an increase in the minor version
-    of the format, so that the minor format number is wexpected to increase
+    of the format, so that the minor format number is expected to increase
     fast over time.
 
     Program-specific tags are not included in this rule, and can be
@@ -232,86 +308,84 @@ organised by data category (saveframe).
     version, and that separate upgrade and downgrade routines be produced to
     convert between major versions.
 
-Examples of mapping from 'XY' atom names to IUPAC
+Examples of mapping from 'xy' atom names to IUPAC
 -----------------------------------------------
 
-| Residue | 'XY' names |Mapping 1 | Mapping 2 | Mapping 3 | Mapping 4 |
+| Residue | 'xy' names |Mapping 1 | Mapping 2 | Mapping 3 | Mapping 4 |
 |---------|------------|----------|-----------|-----------|-----------|
 | SER |   |   |   |   |   |
-|     | HBX | HB2 | HB3 | - | - |
-|     | HBY | HB3 | HB2 | - | - |
+|     | HBx | HB2 | HB3 | - | - |
+|     | HBx | HB3 | HB2 | - | - |
 | GLU |   |   |   |   |   |
-|     | HBX | HB2 | HB3 | HB2 | HB3 |
-|     | HBY | HB3 | HB2 | HB3 | HB2 |
-|     | HGX | HG2 | HG2 | HG3 | HG3 |
-|     | HGY | HG3 | HG3 | HG2 | HG2 |
+|     | HBx | HB2 | HB3 | HB2 | HB3 |
+|     | HBy | HB3 | HB2 | HB3 | HB2 |
+|     | HGx | HG2 | HG2 | HG3 | HG3 |
+|     | HGy | HG3 | HG3 | HG2 | HG2 |
 | VAL |   |   |   |   |   |
-|     | HGX% | HG1% | HG2% | - | - |
-|     | CGX  | CG1  | CG2  | - | - |
-|     | HGY% | HG2% | HG1% | - | - |
-|     | CGY  | CG2  | CG1  | - | - |
+|     | HGx% | HG1% | HG2% | - | - |
+|     | CGx  | CG1  | CG2  | - | - |
+|     | HGy% | HG2% | HG1% | - | - |
+|     | CGy  | CG2  | CG1  | - | - |
 | TYR |   |   |   |   |   |
-|     | HDX | HD1 | HD2 | - | - |
-|     | CDX | CD1 | CD2 | - | - |
-|     | CEX | CE1 | CE2 | - | - |
-|     | HEX | HE1 | HE2 | - | - |
-|     | HDY | HD2 | HD1 | - | - |
-|     | CDY | CD2 | CD1 | - | - |
-|     | CEY | CE2 | CE1 | - | - |
-|     | HEY | HE2 | HE1 | - | - |
+|     | HDx | HD1 | HD2 | - | - |
+|     | CDx | CD1 | CD2 | - | - |
+|     | CEx | CE1 | CE2 | - | - |
+|     | HEx | HE1 | HE2 | - | - |
+|     | HDy | HD2 | HD1 | - | - |
+|     | CDy | CD2 | CD1 | - | - |
+|     | CEy | CE2 | CE1 | - | - |
+|     | HEy | HE2 | HE1 | - | - |
 
 Comments:
 
-* The same mapping is used whether or not all the X/Y atom names are observed
+* The same mapping is used whether or not all the x/y atom names are observed
   in context.
 
-* SER: HBX and HBY can map to either HB2 or HB3, but if both are present in a
+* SER: HBx and HBy can map to either HB2 or HB3, but if both are present in a
   given context they must map to *different* atoms.
 
 * GLU: Since HB and HG are different branchings of the residue, there is no
-  connection between the mapping for HBX/Y and for HGX/Y
+  connection between the mapping for HBx/y and for HGx/y
 
 * VAL: The methyl protons and methyl carbons are part of the same branching, so
-  the mappings are correlated. HGX% is always bound to CGX, and HGY%
-  to CGY.
+  the mappings are correlated. HGx% is always bound to CGx, and HGy%
+  to CGy.
 
-* TYR: X and Y each designate one of the two branches of the side chain, so
+* TYR: x and y each designate one of the two branches of the side chain, so
   there are only two possible mappings.
   Regardless whether all the atom names are present in the context, you always
-  have the following bond patterns: HDX - CDX - CEX - HEX , and HDY - CDY - CEY - HEY
+  have the following bond patterns: HDx - CDx - CEx - HEx , and HDy - CDy - CEy - HEy
 
-Wildcard atom sets for non-terminal Threonine
+Wildcard atom sets for N-terminal Threonine
 ---------------------------------------------
 
 | Atom name | Atoms in set |
 |-----------|--------------|
-| H% | - |
+| H% | H1, H2, H3 |
 | HA% | - |
 | HB% | - |
 | HG1% | - |
 | HG2% | HG21, HG22, HG23 |
 | HG% | HG1, HG21, HG22, HG23 |
-| HG%% | HG21, HG22, HG23 |
-| H* | H, HA, HB, HG1, HG21, HG22, HG23 |
-| HA* | HA |
-| HB* | HB |
-| HG1* | HG1 |
-| HG2* | HG21, HG22, HG23 |
-| HG* | HG1, HG21, HG22, HG23 |
-| H*% | HG1, HG21, HG22, HG23 |
-| H*%% | HG21, HG22, HG23 |
-| H*G% | HG1, HG21, HG22, HG23 |
-| H*1 | HG1, HG21 |
-| H*2% | HG21, HG22, HG23 |
+| H\* | H1, H2, H3, HA, HB, HG1, HG21, HG22, HG23 |
+| HA\* | HA |
+| HB\* | HB |
+| HG1\* | HG1 |
+| HG\* | HG1, HG21, HG22, HG23 |
+| HG\*1 | HG1, HG21 |
+| H\*1 | H1, HG1, HG21 |
+| H\*2\* | H2, HG21, HG22, HG23 |
 
-This is essentially an exercise in imagining all reasonable (?) wildcard
-expressions for Threonine and applying the standard regular expression rules.
+These expressions are for illustrative purposes only. They comprise the simplest
+possible expressions that give a meaningful set of atoms, as well as expressions
+for HA, HB, and HG1 that would not be meaningful in context, to illustrate the
+system. Only the expressions H%, HG2%, and H\* would appear in normal use.
 
 ### Data Types
 
   The precise data type specifications are given (as either data types or
   enumerated values) in the mmcif_nef.dic specification files , which is the
-  authoritative refrence. They are summarized here.
+  authoritative reference. They are summarized here.
 
   * Basic string types
     1. ALL string values are limited to printable 7-bit ASCII characters
@@ -331,37 +405,37 @@ expressions for Threonine and applying the standard regular expression rules.
     'upper-bound-parabolic', 'lower-bound-parabolic',
     'upper-bound-parabolic-linear',  'lower-bound-parabolic-linear'
 
-    3. '_nef_sequence.linking': 'start', 'end', 'middle', 'cyclic', 'break',
-    'single', 'dummy'
+    3. '\_nef_sequence.linking': 'start', 'end', 'middle', 'cyclic', 'break',
+    'single', 'dummy', 'nonlinear'
 
-    4. '_nef_spectrum_dimension.folding': 'circular', 'mirror', 'none'
+    4. '\_nef_spectrum_dimension.folding': 'circular', 'mirror', 'none'
 
-    5. '_nef_spectrum_dimension_transfer.transfer_type': 'onebond', 'jcoupling',
+    5. '\_nef_spectrum_dimension_transfer.transfer_type': 'onebond', 'jcoupling',
     'jmultibond', 'relayed', 'relayed-alternate', 'through-space'
 
   * Open enumerations (suggested values, but other values allowed):
 
-    1. '_nef_distance_restraint_list.restraint_origin': 'noe', 'hbond',
+    1. '\_nef_distance_restraint_list.restraint_origin': 'noe', 'hbond',
     'mutation', 'shift_perturbation', ...
 
-    2. '_nef_dihedral_restraint_list.restraint_origin': 'chemical_shift',
+    2. '\_nef_dihedral_restraint_list.restraint_origin': 'chemical_shift',
     'jcoupling', ...
 
-    3. '_nef_dihedral_rdc_list.restraint_origin': 'measured', ...
+    3. '\_nef_dihedral_rdc_list.restraint_origin': 'measured', ...
 
-    4. '_nef_spectrum_dimension.axis_code' NBNB Isotope code of form '1H,' '13C',
-    Jcoupling of the form J(HH), J(HC), Multi-quantum coherence of the form
+    4. '\_nef_spectrum_dimension.axis_code' Isotope codes of form '1H,' '13C', ...
+    Jcoupling of the form J(HH), J(HC), ... Multi-quantum coherence of the form
     DQ(HH), DQ(CC), etc., 'delay', 'temperature', 'concentration'
 
-    5. '_nef_spectrum_dimension.axis_unit': 'hz', 'ppm', 'point', 'K', 's',
+    5. '\_nef_spectrum_dimension.axis_unit': 'hz', 'ppm', 'point', 'K', 's',
     'M', ...
 
-    6. '_nef_nmr_spectrum.experiment_classification': The CCPN experiment
+    6. '\_nef_nmr_spectrum.experiment_classification': The CCPN experiment
     classification includes several hundred names. CCPN will provide a table of
-    systematic names, associated common names, and a brief description at a
+    systematic names, associated common names, and a brief description, at a
     later date.
 
-    7. '_nef_nmr_spectrum.experiment_type': This field should contain a common
+    7. '\_nef_nmr_spectrum.experiment_type': This field should contain a common
     name for the experiment and can be freely chosen. If anyone can propose a
     standard list of such names we could consider proposing those as a standard.
 
@@ -383,11 +457,11 @@ expressions for Threonine and applying the standard regular expression rules.
     It is not shown which of the atoms from the original template are missing,
     if desired this information must be inferred.
 
-    4. The '_sequence' loop is a compromise between a full, complex topology
+    4. The '\_sequence' loop is a compromise between a full, complex topology
     description and simply assuming linear polymers - see the example files,
-    section 3. The '_nef_sequence.residue_name' is always the
+    section 3. The '\_nef_sequence.residue_name' is always the
     canonical name (e.g. 'HIS' regardless of protonation state or chain
-    position).The '_nef_sequence.linking' column shows linear connection
+    position).The '\_nef_sequence.linking' column shows linear connection
     information.
 
     Linear polymer residues (alpha-amino acids, DNA, and RNA) can have the
@@ -526,7 +600,7 @@ expressions for Threonine and applying the standard regular expression rules.
 
          *Parameters*: 'target_value', 'target_value_error'
 
-         *Formula*: E = k(r-target_value)**2
+         *Formula*: E = k(r-target_value)\*\*2
 
       - 'square-well-parabolic'
 
@@ -535,9 +609,9 @@ expressions for Threonine and applying the standard regular expression rules.
 
          *Formula*:
 
-         E = k(r-upper_limit)**2 for r > upper_limit
+         E = k(r-upper_limit)\*\*2 for r > upper_limit
 
-         E = k(r-lower_limit)**2 for r < lower_limit
+         E = k(r-lower_limit)\*\*2 for r < lower_limit
 
       - 'square-well-parabolic-linear'
 
@@ -551,9 +625,9 @@ expressions for Threonine and applying the standard regular expression rules.
 
           E = 2k(u2-u)(r - (u2+u)/2) for r > u2
 
-          E = k(r-u)**2 for u < r < u2
+          E = k(r-u)\*\*2 for u < r < u2
 
-          E = k(r-l)**2 for l > r > l2
+          E = k(r-l)\*\*2 for l > r > l2
 
           E = 2k(l2-l)(r - (l2+l)/2) for r < l2
 
@@ -581,7 +655,7 @@ expressions for Threonine and applying the standard regular expression rules.
     3. In the most common case, sub-restraints within the same 'restraint_id'
     are treated as ambiguous. This amounts to combining them with an OR
     statement.  There are cases where it is necessary to combine sub-restraints
-    with an AND, e.g.  for dihedral restraints where the molecule must be
+    with an AND, e.g. for dihedral restraints where the molecule must be
     constrained within either of two disjoint regions of the Ramachandran plot.
     The 'restraint_combination_id' is a positive integer used to signify an AND
     statement, so that all sub-restraints with the same combination_id are
@@ -593,9 +667,9 @@ expressions for Threonine and applying the standard regular expression rules.
     [a OR b OR c], the 'restraint_combination_id' allows you to describe
     restraints as [(a AND b) OR (c AND d) OR e] etc.
 
-    4. The '_nef_dihedral_restraint.name' column gives the standard name of the
+    4. The '\_nef_dihedral_restraint.name' column gives the standard name of the
     corresponding dihedral ('PHI', 'PSI', 'OMEGA', 'CHI1', 'CHI2', ...).
-    This column is an information field, that supplements but does *NOT* replace
+    This column is an information field, that supplements but does *not* replace
     or override the atom designations.
 
   * Regarding Section 7. Optional: **RDC restraint lists(s)**
@@ -624,8 +698,8 @@ expressions for Threonine and applying the standard regular expression rules.
     the measured value to give a set of values that can be compared, as used by
     the program.
 
-    6. The 'distance_dependent' column shows whether the mesurement depends on
-    a variable ineratom distance.
+    6. The 'distance_dependent' column shows whether the measurement depends on
+    a variable interatom distance.
 
   * Regarding Section 8. Optional: **Peak lists(s)**
 
@@ -635,13 +709,13 @@ expressions for Threonine and applying the standard regular expression rules.
 
     2. Each spectrum must be associated with a shift list, to allow for data
     from different temperatures, isotope labellings etc. Multiple peak lists can
-    share a shift list. The '_nmr_spectrum.chemical_shift_list' tag gives the
+    share a shift list. The '\_nmr_spectrum.chemical_shift_list' tag gives the
     framecode for the relevant shift list.
 
-    3. There are both free-form and an officially controlled version of
+    3. There are both a free-form and an officially controlled version of
     experiment classification. Both are optional, but strongly recommended.
     The latter uses the CCPN nomenclature, which is designed to capture only
-    those experiment differences that reflect in different assignment
+    those experimental differences that reflect in different assignment
     possibilities for the peaks. See
     [the CCPN wiki](https://sites.google.com/site/ccpnwiki/Home/documentation/ccpnmr-analysis/core-concepts/nme-experiment-nomenclature-v2-2011)
     for a current description and view (an earlier version) of the publication
@@ -657,6 +731,7 @@ expressions for Threonine and applying the standard regular expression rules.
 
       * 'onebond': atoms directly bound, whatever the transfer mechanism
       * 'Jcoupling': J coupling over one or more bonds
+      (also used for standard proton-proton coupling)
       * 'Jmultibond': J coupling over more than one bond
       * 'relayed': relayed through multiple J couplings (multistep transfer,
         TOCSY, ...)
@@ -665,7 +740,7 @@ expressions for Threonine and applying the standard regular expression rules.
       * 'through-space': Through-space transfer (NOESY, ROESY,.. but also
         J coupling across H-bonds)
 
-    6. There is only one kind of _peak loop, so we use the same tags for 2D
+    6. There is only one kind of \_peak loop, so we use the same tags for 2D
     peaks, 3D peaks etc. For e.g. a 3D peak list, tags for dimensions 4 and
     higher are simply omitted. The maximum possible dimension is 15.
 
@@ -679,31 +754,31 @@ expressions for Threonine and applying the standard regular expression rules.
     generation (if so desired).
 
     9. The current draft does not allow for storing different transitions
-    (multiplet components) within a single peak (multiplet). If this is desired
-    at some point, the format can be extended, most likely with an additional
-    '_peak.component_id' column or '_peak.peak_group'.
+    (multiplet components) within a single peak (multiplet). If this were to be
+    desired at some point, the format could be extended, most likely with an
+    additional '\_peak.component_id' column or '\_peak.peak_group'.
 
   * Regarding Section 9. Optional: **Linkage table for peaks and restraints** (one per project)
 
     1. Links between peaks and restraints are given in the 'peak_restraint_link'
     table. The use of an extra table is necessary in order to support links from
-    one restraint to more than one peak. There is only a single such table in
+    multiple restraints to more than one peak. There is only a single such table in
     each project. The links connect entire peaks and restraints (which
     corresponds to multiple lines in the relevant loops). Each peak can be
     linked to multiple restraints, and vice versa. Links to different types of
     restraint all share a single table.
-    
+
 
   * Regarding Section 10. Optional: **Program-specific raw_data saveframe**
-  
-    1. Each program-specific namespace should include the '_programspecific_raw_data'
-    saveframe (e.g. '_cyana_raw_data', '_csrosetta_raw_data' etc. as a slot to add 
-    copies of raw input files. The preferred option remains to use structured 
-    program-specific tags to store program-specific information, but this 
-    saveframe serves as a quick way to add unstructured data or copies of input 
+
+    1. Each program-specific namespace should include the '\_programspecific_raw_data'
+    saveframe (e.g. '\_cyana_raw_data', '\_csrosetta_raw_data' etc. as a slot to add
+    copies of raw input files. The preferred option remains to use structured
+    program-specific tags to store program-specific information, but this
+    saveframe serves as a quick way to add unstructured data or copies of input
     files for comparison.
-    
-    NB, being program-specific this saveframe is not specified in the mmcIf_nef.dic
+
+    NB, being program-specific this saveframe is not specified in the mmCIf_nef.dic
     specification file, but only shown as an example in the Commented_Example.nef
     file. Suggestions are welcome as to how such a saveframe should be put into the
     general nef specification.
