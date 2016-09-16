@@ -2,6 +2,12 @@ Change log
 ==========
 
 
+**Proposal new_isotope_specification**
+
+* Added _nef_chemical_shift.element and _nef_chemical_shift.isotope_number columns
+  to specify isotope and elements with two letter element codes.
+
+
 **Proposal change_sequence_linking**
 
 * Changed rules for 'break' linking type, making it simper t0 specify sequences with breaks

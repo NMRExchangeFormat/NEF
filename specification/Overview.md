@@ -181,7 +181,7 @@ organised by data category (saveframe).
       '\_atom_site.auth_asym_id', '\_atom_site.auth_seq_id',
       '\_atom_site.auth_comp_id',  '\_atom_site.auth_atom_id' . This preserves
       NEF naming, and gives a mapping for each structure model to the
-      equivalent RCSB tags '\_atom_site.label_asym_id',
+      equivalent RCSB tags '\_atom_site.label_asym_id',D
       '\_atom_site.label_seq_id', '\_atom_site.pdbx_PDB_ins_code',
       '\_atom_site.label_comp_id', '\_atom_site.label_atom_id'. The
       NEF sequence_code is a string, combined from a numerical sequence
@@ -210,9 +210,19 @@ organised by data category (saveframe).
     expressed as ambiguous peak assignments or restraints. For the specific
     case of residue ranges we should notice that 'sequence_code' is a string,
     not an integer, which renders the concept of ranges rather unwieldy.
-
-      The supported wildcard expressions for standard residues will be given
-      later.
+    The supported wildcard expressions for standard residues are given
+    in the Residue_Variants.txt file.
+    
+    15. Elements and isotopes are deduced from the first letter of the atom name; i.e.
+    anything stareting with H is hydrogen, C is carbon, etc. The relevant isotope is 
+    deduced from context where necessary, e.g. NMR chemical shifts refer to 13C.
+    Isotope labeling patterns are not supported in this version of NEF.
+    For elements with two-letter abbreviations (e.g. Ca, Cd) the element must be specified
+    in the _nef_chemical_shift.element column. Similarly, non-default isotopes must be
+    specified in the _nef_chemical_shift.isotope_number column (e.g. 2H, 111Cd, 113Cd, ...).
+    Note that it is not possible to specify separet shifts for different isotopoes of the
+    same atom in a single shiftlist. In the unlikely case that this is necessary, hte two
+    shifts must be given in separate shiftlists.
 
   3. Identifiers
     1. NEF data block IDs (the string that follows 'data\_') *must* start with
