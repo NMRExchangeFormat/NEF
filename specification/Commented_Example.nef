@@ -619,11 +619,8 @@ INSERT PULSE PROGRAM HERE
 #
 # 19 LEU HDx% is the methyl bound to CDx (and not to CDy).
 #
-# Chain W illustrates the element and isotope specificatoin rules
-# It is supposed to represent a Ca,Cd peptide complex with 2H la
-         W     2       CYS   HA     4.3     0      .     2
-         W     2       CYS   HB2    2.8     0      .     2
-         W     2       CYS   HB3    2.7     0      .     2beled CYS in 50% H2O/D2O.
+# Chain W illustrates the element and isotope specification rules
+# It is supposed to represent a Ca,Cd peptide complex with 2H labeled CYS in 50% H2O/D2O.
 # Residue 6 is Calcium, residue 7 is Cadmium.
 # Some shifts that can not be given in this list because of name clashes are in
 # shiftlist 2 instead.
@@ -631,7 +628,8 @@ INSERT PULSE PROGRAM HERE
 # Whether the atoms in question are in fact 1H or 2H, e.g. in a peak assignment, must
 # be decided by reference to the experiment dimension nucleus.
 #
-# The last two shifts (with chain_code Z) are unassigned but observed resonances,
+# The last two shifts (with chain_code aribtrarily set to Z) are unassigned but observed 
+# resonances,
 
    save_
 
@@ -666,7 +664,7 @@ INSERT PULSE PROGRAM HERE
          W     7       CD    CD     -151.0  0      CD    113
       stop_
 
-# This list contains 2H and 13Cd chemicla shifts.
+# This list contains 2H and 113Cd chemical shifts.
 # You cannot have two different isotopes of the same atom in the same shift list
 # So the alternative isotopes of backbone H and Cd must be given in a separate list
 
