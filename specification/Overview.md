@@ -46,17 +46,17 @@ organised by data category (saveframe).
     upper case si strongly recommended, but lower case is allowed if necessary
     to match e.g. lower-case chain codes used by the RCSB.
 
-    Examples:
+      Examples:
 
-    'ALA' and 'CYS' are recognised residue names. 'Ala' and 'cys' are
-    not recognised as residue names, but only as anonymous annotation
-    strings, and converting them to upper case (tempting as it may be)
-    is to modify the data.
+      'ALA' and 'CYS' are recognised residue names. 'Ala' and 'cys' are
+      not recognised as residue names, but only as anonymous annotation
+      strings, and converting them to upper case (tempting as it may be)
+      is to modify the data.
 
-    Similarly, 'HA' and 'CA' are recognised atom names. The latter could be alpha
-    carbon or calcium depending on conventions for specifying isotopes (which
-    will be described below). 'ha', 'Ca', and 'ca' are not recognised as atom
-    names that match the molecule, but only as anonymous identifier strings.
+      Similarly, 'HA' and 'CA' are recognised atom names. The latter could be alpha
+      carbon or calcium depending on conventions for specifying isotopes (which
+      will be described below). 'ha', 'Ca', and 'ca' are not recognised as atom
+      names that match the molecule, but only as anonymous identifier strings.
 
     2. 'sequence_code' is a string, not an integer. It is recommended to use
     consecutive numbers along a chain, or, failing that, to put any alt_codes
@@ -76,9 +76,9 @@ organised by data category (saveframe).
     1) The renumbering of the sequence, renaming of residues or atoms that arises
     from regularisation or changes in standard names when going from author to RCSB
     namespace. 2) The different mapping of 'x' and 'y' nonstereospecifically assigned
-    atom groups. In the latter case the mapping may be different for different models 
+    atom groups. In the latter case the mapping may be different for different models
     in the same ensemble. Note that wildcards (except for 'x' and 'y') should *not*
-    appear in the coordinate file - the author names for e.g. ALA methyl protons 
+    appear in the coordinate file - the author names for e.g. ALA methyl protons
     should be HB1, HB2, and HB3, even if the group is called HB% throughout the NEF file.
 
     5. For the common standard residues (20 amino acids, 4 DNA and 4 RNA
@@ -90,15 +90,15 @@ organised by data category (saveframe).
     a small subset of the RCSB residue variant codes (see below). It remains an
     outstanding issue whether this should be changed or expanded.
 
-    6. 'residue_name' refers to the residue identified by the matching RCSB 
+    6. 'residue_name' refers to the residue identified by the matching RCSB
     chemical compound code. If there is no matching RCSB residue, the type is
-    unknown and must be specified outside the NEF system in some way. If a new 
+    unknown and must be specified outside the NEF system in some way. If a new
     residue type is introduced  to match a previously unknown compound it is recommended
     to use a name that could not match either current or future RCSB codes - a name
-    with at least four characters containing lower case characters would be a good 
+    with at least four characters containing lower case characters would be a good
     choice. The same residue_name is used for all variants and protonation states - these
     are specified in the residue_linking and residue_variant columns.
-    
+
     7. A residue is uniquely identified by the 'chain_code' and 'sequence_code',
     so that the same 'residue_name' string must be used consistently throughout
     the file. Strictly speaking this makes the 'residue_name' string redundant,
@@ -107,8 +107,8 @@ organised by data category (saveframe).
 
     8. Atoms are identified by their name. The stereo/nonstereo assignment
     status and atom/atomset/pseudoatom distinction follows from the name, so
-    that there is no need for ambiguity codes anywhere in the file. 
-    All atom names start with the one or two letter element name. For 
+    that there is no need for ambiguity codes anywhere in the file.
+    All atom names start with the one or two letter element name. For
     one-letter element names this lets uou derived the element from the name.
     for two-letter element names and for non-standard isotopes the element and
     isotope are given in the chemical shift list.
@@ -129,17 +129,17 @@ organised by data category (saveframe).
     to ambiguity codes 2 (geminal atoms) and 3 (symmetrical aromatic rings).
     The example table at the end of the General Issues section should
     illustrate the principle.
-    
-    An atom name like e.g.  'HBx' or 'HBy' stands for the same atom throughout the
-    file. It is no known whether this maps to HB2 or HB3. Indeed the mapping can 
-    be different in different models of the same structure ensemble. The point
-    is that all the NMR data are consistent, but a structure ensemble is an 
-    *interpretation* of the NMR data, which can vary from model to model.
-    
-    If you observe only one resonance frequency from e.g. a methylene group, you
-    should use e.g. HBx to name it. If you know that both atoms resonate at the
-    same frequency (and so are indistinguishable) you should a wildcard expression (HB%)
-    instead.
+
+      An atom name like e.g.  'HBx' or 'HBy' stands for the same atom throughout the
+      file. It is no known whether this maps to HB2 or HB3. Indeed the mapping can
+      be different in different models of the same structure ensemble. The point
+      is that all the NMR data are consistent, but a structure ensemble is an
+      *interpretation* of the NMR data, which can vary from model to model.
+
+      If you observe only one resonance frequency from e.g. a methylene group, you
+      should use e.g. HBx to name it. If you know that both atoms resonate at the
+      same frequency (and so are indistinguishable) you should a wildcard expression (HB%)
+      instead.
 
     10. Sets of atoms can be represented by using atom names with wildcards.
     There are two kinds of wildcards:
@@ -195,7 +195,7 @@ organised by data category (saveframe).
       not necessary to give the same chemical shift twice. If e.g. a Ser HB%
       shift is given, the HBx, HBy, HB2, and HB3 are known to be the same.
       Similarly HB% or QB can be used without any obligation to give their
-      shift explicitly, also if the atoms involved have different shifts. 
+      shift explicitly, also if the atoms involved have different shifts.
       Indeed you can have restraints to atoms that have never
       be measured (like oxygens in hydrogen bond restraints) and these need not
       appear in restraint lists.
@@ -241,16 +241,16 @@ organised by data category (saveframe).
     not an integer, which renders the concept of ranges rather unwieldy.
     The supported wildcard expressions for standard residues are given
     in the Residue_Variants.txt file.
-    
+
     15. Elements and isotopes are deduced from the first letter of the atom name; i.e.
-    anything stareting with H is hydrogen, C is carbon, etc. The relevant isotope is 
+    anything stareting with H is hydrogen, C is carbon, etc. The relevant isotope is
     deduced from context where necessary, e.g. NMR chemical shifts refer to 13C.
     Isotope labeling patterns are not supported in this version of NEF.
     For elements with two-letter abbreviations (e.g. Ca, Cd) the element must be specified
-    in the _nef_chemical_shift.element column. Similarly, non-default isotopes must be
-    specified in the _nef_chemical_shift.isotope_number column (e.g. 2H, 111Cd, 113Cd, ...).
-    Note that it is not possible to specify separet shifts for different isotopoes of the
-    same atom in a single shiftlist. In the unlikely case that this is necessary, hte two
+    in the \_nef_chemical_shift.element column. Similarly, non-default isotopes must be
+    specified in the \_nef_chemical_shift.isotope_number column (e.g. 2H, 111Cd, 113Cd, ...).
+    Note that it is not possible to specify separate shifts for different isotopes of the
+    same atom in a single shiftlist. In the unlikely case that this is necessary, the two
     shifts must be given in separate shiftlists.
 
   3. Identifiers
@@ -511,55 +511,53 @@ expressions.
         - 'start': the N-terminal or 5' end of a linear polymer
         - 'end': the C-terminal or 3' end of a linear polymer
         - 'middle': non-terminal residue in a linear polymer
-        - 'single': d.	Linking 'single' is a 'free, single molecule' form. 
-          It used for any residue that does not participate in a regular linear 
-          polymer link, e.g. for free amino acids or for any residue that is 
+        - 'single': d.	Linking 'single' is a 'free, single molecule' form.
+          It used for any residue that does not participate in a regular linear
+          polymer link, e.g. for free amino acids or for any residue that is
           not an alpha amino acid or nucleotide..
         - 'cyclic': first and last residue of a cyclic linear polymer; the
           second 'cyclic' residue precedes the first cyclic residue in the
           sequence
         - 'break': A residue of linking type 'middle' that does not form a standard
         sequential link to the following residue in the table,
-        - 'dummy': e.	Linking 'dummy' is used for dummy residues. By definition 
-        these do not contain atoms or participate in links. By convention, dummy 
+        - 'dummy': e.	Linking 'dummy' is used for dummy residues. By definition
+        these do not contain atoms or participate in links. By convention, dummy
         residues used to represent tensor values have the residue name 'TNSR'
-      
-        Linkings 'middle', 'cyclic', or 'break' all signify a linear polymer 
+
+        Linkings 'middle', 'cyclic', or 'break' all signify a linear polymer
         residue with links in both directions
-        
-        
-       Sequential links are specified as follows:
 
-        - A normal sequence is given as a 'start' residue, followed by a series of 'middle' 
-          residues and terminated with an 'end' residue. 
+      Sequential links are specified as follows:
 
-        - If the 'start' ,'end' or both are omitted, or replaced by a form that does not 
-          allow links, the residue(s) at the end(s) of the sequence are NOT converted to 
+        - A normal sequence is given as a 'start' residue, followed by a series of 'middle'
+          residues and terminated with an 'end' residue.
+
+        - If the 'start' ,'end' or both are omitted, or replaced by a form that does not
+          allow links, the residue(s) at the end(s) of the sequence are NOT converted to
           terminal form, but remain in 'middle' form, with dangling ends.
 
-        - A series of 'middle' residues with a 'cyclic' residue at either end defines a cyclic 
-          stretch of linear polymer. 'cyclic' residues must appear in pairs, and all intervening 
+        - A series of 'middle' residues with a 'cyclic' residue at either end defines a cyclic
+          stretch of linear polymer. 'cyclic' residues must appear in pairs, and all intervening
           residues must be of type 'middle'.
 
-        - 'single' residues do not partake in implicit sequential links, but may be linked 
+        - 'single' residues do not partake in implicit sequential links, but may be linked
           through explicitly specified covalent bonds.
 
-        - The 'break' linking is used only to specify gaps in the sequence and has a very specific 
-          meaning: It signifies a residue of 'middle' form, that does NOT form a link to the 
-          successive residue. It s necessary only if  the successive residue is of type 'middle', 
+        - The 'break' linking is used only to specify gaps in the sequence and has a very specific
+          meaning: It signifies a residue of 'middle' form, that does NOT form a link to the
+          successive residue. It s necessary only if  the successive residue is of type 'middle',
          'end', or 'break', and is likely to be very rarely used.
 
-      By default variants of standard residues are assumed to be the pH 7 forms, 
+      By default variants of standard residues are assumed to be the pH 7 forms,
       as specified in the Residue_Variants.txt file. Programs
-      are required to support (in the sense of being able to read and 
-      sensibly interpret) the standard 20 amino acids, 4 DNA and 4 RNA 
-      nucleotides, toghether with their standard variants and wildcard atoms. 
+      are required to support (in the sense of being able to read and
+      sensibly interpret) the standard 20 amino acids, 4 DNA and 4 RNA
+      nucleotides, together with their standard variants and wildcard atoms.
       These are all defined in the specification/Residue_Variants.txt file.
-      Non-standard residues are assumed to be in the form given by the corresponding 
+      Non-standard residues are assumed to be in the form given by the corresponding
       RCSB chemical compound.
 
-    5.Cis peptide bonds are indicated by the (Boolean) nef_sequence.cis_peptide column. 
-    The default value is 'false'.
+    5. Cis peptide bonds are indicated by the (Boolean) nef_sequence.cis_peptide column. The default value is 'false'.
 
     6. The ordinal column is a line number with consecutive integers starting
     at 1. It is not preserved on import and re-export. The purpose it to
@@ -620,7 +618,7 @@ expressions.
 
       For another  discussion of more complex restraint logic, using the
       'restraint_combination_id', see section 6.
-    
+
     8. Note that the weight of a restraint contribution may be 0.0, in which
     case this contribution should not be used for restraining in calculations
 
@@ -707,7 +705,7 @@ expressions.
     corresponding dihedral ('PHI', 'PSI', 'OMEGA', 'CHI1', 'CHI2', ...).
     This column is an information field, that supplements but does *not* replace
     or override the atom designations.
-    
+
     5. Note that the weight of a restraint contribution may be 0.0, in which
     case this contribution should not be used for restraining in calculations
 
@@ -739,7 +737,7 @@ expressions.
 
     6. The 'distance_dependent' column shows whether the measurement depends on
     a variable interatom distance.
-    
+
     7. Note that the weight of a restraint contribution may be 0.0, in which
     case this contribution should not be used for restraining in calculations
 
