@@ -144,7 +144,7 @@ organised by data category (saveframe).
       used where necessary, mainly for 'H\*', 'C\*', '\*',  ... (all protons, all
       carbons,  all atoms, etc.), or for atom names that do not use digits for
       distinguishing stereochemistry (e.g. DNA/RNA H5' and H5'', where the
-      two-atom is designated H5'\*).
+      two-atom set is designated H5'\*).
 
     11. IUPAC pseudoatom names (ALA MB, SER QB, etc.) are NOT expanded into
     sets of atoms. They are reserved for the
@@ -166,7 +166,8 @@ organised by data category (saveframe).
       not necessary to give the same chemical shift twice. If e.g. a Ser HB%
       shift is given, the HBx, HBy, HB2, and HB3 are known to be the same.
       Similarly HB% or QB can be used without any obligation to give their
-      shift explicitly. Indeed you can have restraints to atoms that have never
+      shift explicitly, also if the atoms involved have different shifts. 
+      Indeed you can have restraints to atoms that have never
       be measured (like oxygens in hydrogen bond restraints) and these need not
       appear in restraint lists.
       In cases where two protons are indistinguishable by NMR it
@@ -378,8 +379,10 @@ Wildcard atom sets for N-terminal Threonine
 
 These expressions are for illustrative purposes only. They comprise the simplest
 possible expressions that give a meaningful set of atoms, as well as expressions
-for HA, HB, and HG1 that would not be meaningful in context, to illustrate the
+for HA, HB, and HG1, that would not be meaningful in context, to illustrate the
 system. Only the expressions H%, HG2%, and H\* would appear in normal use.
+See the specification/Residue_Variants.txt file for supported standard wildcard
+expressions.
 
 ### Data Types
 
@@ -497,48 +500,17 @@ system. Only the expressions H%, HG2%, and H\* would appear in normal use.
       ... -middle-end'. Only standard linear polymer links can be inferred from
       the sequence; other links are given in the 'covalent_links' loop below.
 
-      By default residue variants are assumed to be the pH 7 forms,
-      specifically fully protonated HIS, LYS, ARG and N-terminus,
-      deprotonated ASP, GLU, and C-terminus, and deprotonated or disulfide
-      linked CYS (the PDB residue variants codes makes no distinction between
-      the two cases). The default types correspond to the DYANA types 'ARG+',
-      'ASP-', 'CYSS', 'GLU-', HIST+', and 'LYS+'. The optional
-      'residue_variant' column can be used for specifying protonation states
-      when these are known and different from the default.
-
-      The RCSB system requires a short introduction. The names are in three
-      parts, connected by underscores:
-        - first the three-letter residue code.
-        - second a backbone configuration marker, with the relevant values:
-          - 'LL' (L-amino acid, in middle of chain)
-          - 'LSN3' (L-amino acid, at start of chain, N-terminal protonated)
-          - 'LEO2' (L-amino acid, at end of chain, deprotonated C terminus)
-          - 'LEO2H' (L-amino acid, at end of chain, protonated C terminus)
-        - third a string showing which proton has been removed from the fully
-          protonated form.
-
-      See table below for supported variant codes.
+      By default residue variants are assumed to be the pH 7 forms. Programs
+      are required to support (in the sense of being able to read and 
+      sensibly interpret) the standard 20 amino acids, 4 DNA and 4 RNA 
+      nucleotides, toghether with their standard variants and wildcard atoms. 
+      These are all defined in the specification/Residue_Variants.txt file.
 
     5. The ordinal column is a line number with consecutive integers starting
     at 1. It is not preserved on import and re-export. The purpose it to
     preserve the order of the lines (which is significant for specifying the
     sequence) for implementations like (deposition) databases that do not use
     ordered containers for the data.
-
-  **Supported residue variant codes**:
-  Note that each comes in four different versions, all for L-amino acids:
-   'LL' (middle of chain), 'LSN3' (N-terminal, protonated),
-   'LEO2' (C-terminal, deprotonated), and 'LEO2H' (C-terminal, protonated).
-
-| residue_name | dyana_type | protonation_code | example | comment |
-|-----|:-----|:-------|-----|-----|
-| ARG | ARG  | DHH12  | ARG_LL_DHH12 | side chain deprotonated |
-| ASP | ASP  | *None* | ASP_LL | side chain protonated |
-| CYS | CYS  | *None* | CYS_LL | side chain protonated |
-| GLU | GLU  | *None* | GLU_LL | side chain protonated |
-| HIS | HIS  | DHE2   | HIS_LL_DHE2 | side chain neutral, proton on ND1 |
-| HIS | HIST | DHD1   | HIS_LL_DHD1 | side chain neutral, proton on NE2 |
-| LYS | LYS  | DHZ3   | LYS_LL_DHZ3 | side chain deprotonated |
 
 
   * Regarding Section 5. Optional: **Distance restraint lists(s)**
@@ -593,8 +565,11 @@ system. Only the expressions H%, HG2%, and H\* would appear in normal use.
 
       For another  discussion of more complex restraint logic, using the
       'restraint_combination_id', see section 6.
+    
+    8. Note that the weight of a restraint contribution may be 0.0, in which
+    case this contribution should not be used for restraining in calculations
 
-    8. The current draft supports the potential types
+    9. The current draft supports the potential types
 
       - 'undefined'
 
@@ -677,6 +652,9 @@ system. Only the expressions H%, HG2%, and H\* would appear in normal use.
     corresponding dihedral ('PHI', 'PSI', 'OMEGA', 'CHI1', 'CHI2', ...).
     This column is an information field, that supplements but does *not* replace
     or override the atom designations.
+    
+    5. Note that the weight of a restraint contribution may be 0.0, in which
+    case this contribution should not be used for restraining in calculations
 
   * Regarding Section 7. Optional: **RDC restraint lists(s)**
 
@@ -706,6 +684,9 @@ system. Only the expressions H%, HG2%, and H\* would appear in normal use.
 
     6. The 'distance_dependent' column shows whether the measurement depends on
     a variable interatom distance.
+    
+    7. Note that the weight of a restraint contribution may be 0.0, in which
+    case this contribution should not be used for restraining in calculations
 
   * Regarding Section 8. Optional: **Peak lists(s)**
 

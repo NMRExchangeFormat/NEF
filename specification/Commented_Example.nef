@@ -165,79 +165,246 @@ INSERT PULSE PROGRAM HERE
 	 # optional parameters
          _nef_sequence.linking
          _nef_sequence.residue_variant
+         _nef_sequence.cis_peptide
 
          # key: chain_code, sequence_code
 
-          1  A  13   ALA  start      .
-          2  A  14   TRP  middle     .
-          3  A  15   GLY  middle     .
-          4  A  16   ASN  middle     .
-          5  A  17   VAL  middle     .
-          6  A  18   PHE  middle     .
-          7  A  19   LEU  middle     .
-          8  A  20   CYS  middle     .
-          9  A  21   ALA  middle     .
-         10  A  22   THR  middle     .
-         11  A  23   LYS  middle     .
-         12  A  24   ASP  middle     .
-         13  A  24B  GLN  middle     .
-         14  A  24C  GLN  middle     .
-         15  A  24D  TYR  middle     .
-         16  A  25   HIS  end        .
-         17  B  17   CYS  single     .
-         18  C  1    GLY  cyclic     .
-         19  C  2    PRO  middle     cispeptide
-         20  C  3    ASP  middle     ASP_LL
-         21  C  4    GLY  middle     .
-         22  C  5    PRO  middle     .
-         23  C  6    ASP  cyclic     .
-         24  D -3    TNSR dummy      .
-         25  D -2    LL2  dummy      .
-         26  D -1    LL1  dummy      .
-         27  D  0    LL   dummy      .
-         28  D  1    ALA  .          .
-         29  D  2    CYS  .          .
-         30  D  3    GLY  .          .
-         31  D  4    CYS  .          .
-         32  D  5    VAL  .          .
-         33  D  6    CYS  .          .
-         34  D  7    PHE  .          .
-         35  D  8    CYS  .          .
-         36  D  9    ASN  .          .
-         37  E  1    ASN  break      .
-         38  E  2    THR  middle     .
-         39  E  3    ALA  middle     .
-         40  E  4    PRO  middle     .
-         41  E  5    ALA  middle     .
-         42  E  6    GLU  middle     .
-         43  E  7    SER  middle     .
-         44  E  8    GLN  middle     .
-         45  E  9    GLU  middle     GLU_LL
-         46  E  10   HIS  middle     HIS_LL_DHD1
-         47  E  11   HIS  middle     HIS_LL_DHE2
-         48  E  12   CYS  middle     CYS_LL
-         49  E  13   LYS  middle     LYS_LL_DHZ3
-         50  E  14   ARG  break      ARG_LL_DHH12
-         51  E  15   MOH  nonlinear  .
-         52  E  16   GLC  nonlinear  .
-         53  F   1   GLY  start      .
-         54  F   2   ILE  middle     .
-         55  F   3   SER  middle     .
-         56  F   4   THR  break      .
-         57  F  11   ASN  middle     .
-         58  F  12   SER  end        .
-         59  G   3   TYR  middle     .
-         60  G   4   GLY  middle     .
-         61  G   5   ALA  middle     .
-         62  Y   1   ATP  nonlinear  .
+           1  A  13   ALA  start      .            .
+           2  A  14   TRP  middle     .            .
+           3  A  15   GLY  middle     .            .
+           4  A  16   ASN  middle     .            .
+           5  A  17   VAL  middle     .            .
+           6  A  18   PHE  middle     .            .
+           7  A  19   LEU  middle     .            .
+           8  A  20   CYS  middle     -HD          .
+           9  A  21   ALA  middle     .            .
+          10  A  22   THR  middle     .            .
+          11  A  23   LYS  middle     .            .
+          12  A  24   ASP  middle     .            .
+          13  A  24B  GLN  middle     .            .
+          14  A  24C  GLN  middle     .            .
+          15  A  24D  TYR  middle     .            .
+          16  A  25   HIS  end        -HD1,+HE2    .
+          17  B  17   CYS  single     -HD          .
+          18  C  1    GLY  cyclic     .            .
+          19  C  2    PRO  middle     .            true
+          20  C  3    ASP  middle     .            .
+          21  C  4    GLY  middle     .            .
+          22  C  5    PRO  middle     .            .
+          23  C  6    ASP  cyclic     .            .
+          24  D -3    TNSR dummy      .            .
+          25  D -2    LL2  dummy      .            .
+          26  D -1    LL1  dummy      .            .
+          27  D  0    LL   dummy      .            .
+          28  D  1    ALA  .          .            .
+          29  D  2    CYS  .          -HD          .
+          30  D  3    GLY  .          .            .
+          31  D  4    CYS  .          -HD          .
+          32  D  5    VAL  .          .            .
+          33  D  6    CYS  .          -HD          .
+          34  D  7    PHE  .          .            .
+          35  D  8    CYS  .          -HD          .
+          36  D  9    ASN  .          .            .
+          37  E  1    ASN  break      .            .
+          38  E  2    THR  middle     -HG1,-OG1    .
+          39  E  3    ALA  middle     .            .
+          40  E  4    PRO  middle     .            .
+          41  E  5    ALA  middle     .            .
+          42  E  6    GLU  middle     -OE2         .
+          43  E  7    SER  middle     .            .
+          44  E  8    GLN  middle     .            .
+          45  E  9    GLU  middle     .            .
+          46  E  10   HIS  middle     .            .
+          47  E  11   HIS  middle     .            .
+          48  E  12   CYS  middle     .            .
+          49  E  13   LYS  middle     .            .
+          50  E  14   ARG  break      .            .
+          51  E  15   MOH  nonlinear  -HO          .
+          52  E  16   GLC  nonlinear  -HO1         .
+          53  F   1   GLY  start      .            .
+          54  F   2   ILE  middle     .            .
+          55  F   3   SER  middle     .            .
+          56  F   4   THR  break      .            .
+          57  F  11   ASN  middle     .            .
+          58  F  12   SER  end        .            .
+          59  G   3   TYR  middle     .            .
+          60  G   4   GLY  middle     .            .
+          61  G   5   ALA  middle     .            .
+          62  H   1   ALA  start      -H3          .
+          63  H   2   ALA  middle     .            .
+          64  H   3   ALA  end        .            .
+          65  H   4   ARG  start      -H3,-HH12    .
+          66  H   5   ARG  middle     -HH12        .
+          67  H   6   ARG  end        -HH12        .
+          68  H   7   ASN  start      -H3          .
+          69  H   8   ASN  middle     .            .
+          70  H   9   ASN  end        .            .
+          71  H  10   ASP  start      -H3          .
+          72  H  11   ASP  middle     .            .
+          73  H  12   ASP  end        .            .
+          74  H  13   CYS  start      -H3,-HG      .
+          75  H  14   CYS  middle     -HG          .
+          76  H  15   CYS  end        -HG          .
+          77  H  16   GLN  start      -H3          .
+          78  H  17   GLN  middle     .            .
+          79  H  18   GLN  end        .            .
+          80  H  19   GLU  start      -H3          .
+          81  H  20   GLU  middle     .            .
+          82  H  21   GLU  end        .            .
+          83  H  22   GLY  start      -H3          .
+          84  H  23   GLY  middle     .            .
+          85  H  24   GLY  end        .            .
+          86  H  25   HIS  start      -H3          .
+          87  H  26   HIS  middle     .            .
+          88  H  27   HIS  end        .            .
+          89  H  28   ILE  start      -H3          .
+          90  H  29   ILE  middle     .            .
+          91  H  30   ILE  end        .            .
+          92  H  31   LEU  start      -H3          .
+          93  H  32   LEU  middle     .            .
+          94  H  33   LEU  end        .            .
+          95  H  34   LYS  start      -H3,-HZ3     .
+          96  H  35   LYS  middle     -HZ3         .
+          97  H  36   LYS  end        -HZ3         .
+          98  H  37   MET  start      -H3          .
+          99  H  38   MET  middle     .            .
+         100  H  39   MET  end        .            .
+         101  H  40   PHE  start      -H3          .
+         102  H  41   PHE  middle     .            .
+         103  H  42   PHE  end        .            .
+         104  H  43   PRO  start      -H2,-H3,+H   .
+         105  H  44   PRO  middle     .            .
+         106  H  45   PRO  end        .            .
+         107  H  46   SER  start      -H3          .
+         108  H  47   SER  middle     .            .
+         109  H  48   SER  end        .            .
+         110  H  49   THR  start      -H3          .
+         111  H  50   THR  middle     .            .
+         112  H  51   THR  end        .            .
+         113  H  52   TRP  start      -H3          .
+         114  H  53   TRP  middle     .            .
+         115  H  54   TRP  end        .            .
+         116  H  55   TYR  start      -H3,-HH      .
+         117  H  56   TYR  middle     -HH          .
+         118  H  57   TYR  end        -HH          .
+         119  H  58   VAL  start      -H3          .
+         120  H  59   VAL  middle     .            .
+         121  H  60   VAL  end        .            .
+         122  L   1   ALA  start      .            .
+         123  L   2   ALA  middle     .            .
+         124  L   3   ALA  end        +HXT         .
+         125  L   4   ARG  start      .            .
+         126  L   5   ARG  middle     .            .
+         127  L   6   ARG  end        +HXT         .
+         128  L   7   ASN  start      .            .
+         129  L   8   ASN  middle     .            .
+         130  L   9   ASN  end        +HXT         .
+         131  L  10   ASP  start      +HD2         .
+         132  L  11   ASP  middle     +HD2         .
+         133  L  12   ASP  end        +HD2,+HXT    .
+         134  L  13   CYS  start      .            .
+         135  L  14   CYS  middle     .            .
+         136  L  15   CYS  end        +HXT         .
+         137  L  16   GLN  start      .            .
+         138  L  17   GLN  middle     .            .
+         139  L  18   GLN  end        +HXT         .
+         140  L  19   GLU  start      +HE2         .
+         141  L  20   GLU  middle     +HE2         .      .
+         142  L  21   GLU  end        +HE2,+HXT    .
+         143  L  22   GLY  start      .            .
+         144  L  23   GLY  middle     .            .
+         145  L  24   GLY  end        +HXT         .
+         146  L  25   HIS  start      +HE2         .
+         147  L  26   HIS  middle     +HE2         .
+         148  L  27   HIS  end        +HE2.+HXT    .
+         149  L  28   ILE  start      .            .
+         150  L  29   ILE  middle     .            .
+         151  L  30   ILE  end        +HX2         .
+         152  L  31   LEU  start      .           .
+         153  L  32   LEU  middle     .            .
+         154  L  33   LEU  end        +HXT         .
+         155  L  34   LYS  start      .            .
+         156  L  35   LYS  middle     .            .
+         157  L  36   LYS  end        +HXT         .
+         158  L  37   MET  start      '            .
+         159  L  38   MET  middle     .            .
+         160  L  39   MET  end        +HXT         .
+         161  L  40   PHE  start      .            .
+         162  L  41   PHE  middle     .            .
+         163  L  42   PHE  end        +HXT         .
+         164  L  43   PRO  start      .            .
+         165  L  44   PRO  middle     .            .
+         166  L  45   PRO  end        +HXT         .
+         167  L  46   SER  start      .            .
+         168  L  47   SER  middle     .            .
+         169  L  48   SER  end        +HXT         .
+         170  L  49   THR  start      .            .
+         171  L  50   THR  middle     .            .  .
+         172  L  51   THR  end        +HXT         .
+         173  L  52   TRP  start      .            .
+         174  L  53   TRP  middle     .            .
+         175  L  54   TRP  end        +HXT         .
+         176  L  55   TYR  start      .            .
+         177  L  56   TYR  middle     .            .
+         178  L  57   TYR  end        +HXT         .
+         179  L  58   VAL  start      .            .
+         180  L  59   VAL  middle     .            .
+         181  L  60   VAL  end        +HXT         .
+         182  M   1   ASP  start      -H3,+HD2     .
+         183  M   2   CYS  end        -HG,+HXT     .
+         184  M   3   ASP  start      .            .
+         185  M   4   CYS  end        .            .
+         186  M   5   GLU  start      -H3,+HE2     .
+         187  M   6   TYR  end        -HH,+HXT     .
+         188  M   7   GLU  start      .            .
+         189  M   8   TYR  end        .            .
+         190  M   9   HIS  start      -H3,+HE2     .
+         191  M  10   LYS  end        -HZ3,+HXT    .
+         192  M  11   HIS  start      .            .
+         193  M  12   LYS  end        .            .
+         194  M  13   ALA  start      .            .
+         195  M  14   ARG  end        .            .
+         196  M  15   ALA  start      .            .
+         197  M  16   ARG  end        -HH12,+HXT   .
+         198  M  17   HIS  start      -HD1,+HE2    .
+         199  M  18   HIS  middle     -HD1,+HE2    .
+         200  M  19   HIS  end        -HD1,+HE2    .
+         201  M  20   HIS  start      -H3,-HD1,+HE2   .
+         202  M  21   HIS  end        -HD1,+HE2,+HXT  .
+         203  N   1   CYS  single     .            .
+         204  N   2   CYS  single     -H3          .
+         205  N   3   CYS  single     +HXT         .
+         206  N   4   CYS  single     -H3,+HXT     .
+         207  N   5   CYS  single     -HG          .
+         208  N   6   CYS  single     -H3,-HG      .
+         209  N   7   CYS  single     -HG,+HXT     .
+         210  N   8   CYS  single     -H3,-HG,+HXT .
+         211  O   1     A  start       -HO5',+P,+OP1,+OP2.+OP3   .
+         212  O   2     A  end         .                         .
+         213  O   3     C  start       -HO5',+P,+OP1,+OP2.+OP3   .
+         214  O   4     C  end         .                         .
+         215  O   5     G  start       -HO5',+P,+OP1,+OP2.+OP3   .
+         216  O   6     G  end         .                         .
+         217  O   7     U  start       -HO5',+P,+OP1,+OP2.+OP3   .
+         218  O   8     U  end         .                         .
+         219  O   9    DA  start       -HO5',+P,+OP1,+OP2.+OP3   .
+         220  O  10    DA  end         .                         .
+         22 1 O  11    DC  start       -HO5',+P,+OP1,+OP2.+OP3   .
+         222  O  12    DC  end         .                         .
+         223  O  13    DG  start       -HO5',+P,+OP1,+OP2.+OP3   .
+         224  O  14    DG  end         .                         .
+         225  O  15    DT  start       -HO5',+P,+OP1,+OP2.+OP3   .
+         226  O  16    DT  end         .                         .
+         227  X   1   PHE  single      -HD1,-HD2,+ID1,+CLD2      .
+         228  Y   1   ATP  nonlinear  .
       stop_
 
 # The first column (ordinal) is a consecutive line number that does not persist  
 # when data are re-exported. It is there only to store the order that the lines
 # are givn inthe file (which is significant for specifying the sequence).
 #
-# Chain A is a linear Hexadecapeptide (13-25), disulfide linked to a free
-# cysteine (Chain B)
+# Chain A is a linear hexadecapeptide (13-25), disulfide linked to a free cysteine (chain B)
+# HIS 25 is protonated on NE2 rather than ND1 (and deprotonated on the C terminated carboxyl).
 #
 # Chain C is a cyclic hexapeptide, containing a cis-peptide bond at PRO 2.
 #
@@ -248,24 +415,35 @@ INSERT PULSE PROGRAM HERE
 # Note that there is NO sequential link between chains D and E, even though both have
 # dangling ends. Interchain links must always be given explictly in the _nef_covalent_links loop.
 #
-# Chain E has an amide bond between the between the backbone N of ASN 1 and the side chain carboxylate
+# Chain E has an amide bond between the backbone N of ASN 1 and the side chain carboxylate
 # of GLU 6, and a methyl ester cap.
-# It also has a glucose (with the same chain code) linked to THR 2
 #
 # Chains F and G represent a chimeric protein, where (part of) chain G has been
 # inserted into chain F while maintaining the original numbering. Each chain is given as a
-# single block of residues, with the 'break' linking to show the chain break, and the 
+# single block of residues, with the 'break' linking to show the chain gap, and the 
 # nef_covalent_links loop to show the additional sequential links.
 #
-# residue_variants default to the pH 7 forms, specifically protonated LYS, ARG, and N-terminus
-# and deprotonated ASP, GLU, and C-terminus. 'deprotonated' CYS is generally assumed to be the 
-# disulfide form (The RCSB variant codes do not distinguish between disulfide and deprotonated 
-# Note that each variant comes in three forms: 'middle' (contains '_LL'), 'end (contains '_LEO2'),
-# and 'start' (contains '_LSN3')
+# Chain H shows the high-pH form for all amino acids, with all removable protons removed.
+# Chain L shows the low-pH form for all amino acids, with all prrotonatable groups protonated.
+# Chain M shows intermediate-pH forms that differ from low and high pH forms, for all amino acids
+# Chains H, L, and M between them include all supported variants for linkings start, middle, and end.
 #
-# Chain E shows examples of how to specify the non-default forms supported by the NEF format.
+# Chain N shows the eight supported variants for free Cysteine, as an example.
+# Since few programs are expected to distinguish all variants, it is not considered necessary
+# to give a complete list for all amino acids.
 #
-# Chain Y is free ATP
+# Chain O shows the variants for nucleotides. The variant "-HO5',+P,+OP1,+OP2.+OP3" is the
+# phosphorylated 5' form, only relevant for 5' residues where the default is non-phosphorylated.
+# Except for phosphorylated, 5'-terminal residues, only the default variant is supported
+#
+# Chain X is free (1-iodo,3-chloro,phen-2-yl)-alanine (a non-standard residue).
+# Chain Y is free ATP. 
+#
+# Except for chains H, L, and parts of chain M, all residues are in a form appropriate for pH 7.
+#
+# Chains A, B, C, D, H, L, M, N, O, and Y should be readable by all programs,
+# whereas chains E, F, G, and X contain crosslinks or non-standard topologies.
+#
 
 # Covalent cross-links loop. Optional:
       loop_
@@ -289,6 +467,8 @@ INSERT PULSE PROGRAM HERE
          E 14 ARG C   E 15 MOH O
          F  4 THR C   G  3 TYR N
          F 11 ASN N   G  5 ALA C
+         X  1 PHE CD1 X  1 PHE ID1
+         X  1 PHE CD2 X  1 PHE CLD2
       stop_
 
    save_

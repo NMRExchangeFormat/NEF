@@ -799,67 +799,96 @@ save_nef_sequence
     _nef_sequence.residue_name
     _nef_sequence.linking
     _nef_sequence.residue_variant
+    _nef_sequence.cis_peptide
 
   # key: chain_code, sequence_code
 
-    A   13  ALA   start      .
-    A   14  TRP   middle     .
-    A   15  GLY   middle     .
-    A   16  ASN   middle     .
-    A   17  VAL   middle     .
-    A   18  PHE   middle     .
-    A   19  LEU   middle     .
-    A   20  CYS   middle     .
-    A   21  ALA   middle     .
-    A   22  THR   middle     .
-    A   23  LYS   middle     .
-    A   24  ASP   middle     .
-    A   25  HIS   end	     .
-    A   26  GLC   nonlinear  .
-    B   17  CYS   single     .
-    C    1  ATP   nonlinear  .
-    C  898  UNK   dummy      .
-    C  899  UNK   dummy      .
-    C  900  TNSR  dummy      .
-    D    1  GLY   cyclic     .
-    D    2  PRO   middle     .
-    D    3  ASP   middle     ASP_LL
-    D    4  GLY   middle     .
-    D    5  PRO   middle     .
-    D    6  ASP   cyclic     .
-    E    1  ASN   break      .
-    E    2  THR   middle     .
-    E    3  ALA   middle     .
-    E    4  PRO   middle     .
-    E    5  ALA   middle     .
-    E    6  GLU   middle     .
-    E    6B SER   middle     .
-    E    7  GLN   middle     .
-    E    8  GLU	  middle     GLU_LL
-    E    9  HIS	  middle     HIS_LL_DHD1
-    E   10  HIS	  middle     HIS_LL
-    E   11  CYS	  middle     .
-    E   12  LYS	  middle     LYS_LL_DHZ3
-    E   13  ARG	  break      ARG_LL_DHH12
-    E   14  MOH   nonlinear  .
+           1  A  13   ALA  start      .            .
+           2  A  14   TRP  middle     .            .
+           3  A  15   GLY  middle     .            .
+           4  A  16   ASN  middle     .            .
+           5  A  17   VAL  middle     .            .
+           6  A  18   PHE  middle     .            .
+           7  A  19   LEU  middle     .            .
+           8  A  20   CYS  middle     -HD          .
+           9  A  21   ALA  middle     .            .
+          10  A  22   THR  middle     .            .
+          11  A  23   LYS  middle     .            .
+          12  A  24   ASP  middle     .            .
+          13  A  24B  GLN  middle     .            .
+          14  A  24C  GLN  middle     .            .
+          15  A  24D  TYR  middle     .            .
+          16  A  25   HIS  end        -HD1,+HE2    .
+          17  B  17   CYS  single     -HD          .
+          18  C  1    GLY  cyclic     .            .
+          19  C  2    PRO  middle     .            true
+          20  C  3    ASP  middle     .            .
+          21  C  4    GLY  middle     .            .
+          22  C  5    PRO  middle     .            .
+          23  C  6    ASP  cyclic     .            .
+          24  D -3    TNSR dummy      .            .
+          25  D -2    LL2  dummy      .            .
+          26  D -1    LL1  dummy      .            .
+          27  D  0    LL   dummy      .            .
+          28  D  1    ALA  .          .            .
+          29  D  2    CYS  .          -HD          .
+          30  D  3    GLY  .          .            .
+          31  D  4    CYS  .          -HD          .
+          32  D  5    VAL  .          .            .
+          33  D  6    CYS  .          -HD          .
+          34  D  7    PHE  .          .            .
+          35  D  8    CYS  .          -HD          .
+          36  D  9    ASN  .          .            .
+          37  E  1    ASN  break      .            .
+          38  E  2    THR  middle     -HG1,-OG1    .
+          39  E  3    ALA  middle     .            .
+          40  E  4    PRO  middle     .            .
+          41  E  5    ALA  middle     .            .
+          42  E  6    GLU  middle     -OE2         .
+          43  E  7    SER  middle     .            .
+          44  E  8    GLN  middle     .            .
+          45  E  9    GLU  middle     .            .
+          46  E  10   HIS  middle     .            .
+          47  E  11   HIS  middle     .            .
+          48  E  12   CYS  middle     .            .
+          49  E  13   LYS  middle     .            .
+          50  E  14   ARG  break      .            .
+          51  E  15   MOH  nonlinear  -HO          .
+          52  E  16   GLC  nonlinear  -HO1         .
+          53  F   1   GLY  start      .            .
+          54  F   2   ILE  middle     .            .
+          55  F   3   SER  middle     .            .
+          56  F   4   THR  break      .            .
+          57  F  11   ASN  middle     .            .
+          58  F  12   SER  end        .            .
+          59  G   3   TYR  middle     .            .
+          60  G   4   GLY  middle     .            .
+          61  G   5   ALA  middle     .            .
   stop_
   
-# Chain A is a linear dodecapeptide (15-25), disulfide linked to a single
-# cysteine, with a glucose linked to THR 22
-# The GLC is given with chaincode A, the CYS with code B; both forms are allowed
+# The first column (ordinal) is a consecutive line number that does not persist  
+# when data are re-exported. It is there only to store the order that the lines
+# are givn inthe file (which is significant for specifying the sequence).
 #
-# Chain C is free ATP
+# Chain A is a linear hexadecapeptide (13-25), disulfide linked to a free cysteine (chain B)
+# HIS 25 is protonated on NE2 rather than ND1 (and deprotonated on the C terminated carboxyl).
 #
-# Chain D is a cyclic hexapeptide
+# Chain C is a cyclic hexapeptide, containing a cis-peptide bond at PRO 2.
+#
+# Chain D is a nonapeptide, defined with dangling ends (as might for instance be used
+# for CYANA). It contains two disulfide bonds, 2-6 and 4-8 - the connections are shown 
+# in the _nef_covalent_links loop. Four additional dummy residues have been added at the
+# N-terminal, three linker residues and a tensor-origin residue ('TNSR').
+# Note that there is NO sequential link between chains D and E, even though both have
+# dangling ends. Interchain links must always be given explictly in the _nef_covalent_links loop.
 #
 # Chain E has an amide bond between the backbone N of ASN 1 and the side chain carboxylate
 # of GLU 6, and a methyl ester cap.
 #
-# residue_variants default to the pH 7 forms, specifically protonated LYS, ARG, and N-terminus
-# and deprotonated ASP, GLU, and C-terminus. 
-# Chain E shows examples of how to specify the non-default forms supported by the NEF format.
-#
-# The current version does not allow specifying atoms that areremoved to give placxe for _nef_covalent_links# A change proposal is in place
+# Chains F and G represent a chimeric protein, where (part of) chain G has been
+# inserted into chain F while maintaining the original numbering. Each chain is given as a
+# single block of residues, with the 'break' linking to show the chain gap, and the 
+# nef_covalent_links loop to show the additional sequential links.
 ;
    #
 save_
@@ -957,8 +986,30 @@ these codes are not defined.
    #
    loop_
    _item_examples.case  
-     CYS_LL
-     ARG_LSN3_DHH12
+     -HD1,+HE2
+     -HZ3
+     +HD1
+   stop_
+   #
+save_
+#
+save__nef_sequence.cis_peptide
+   #
+
+   _item_description.description  
+;Boolean (default-false) descriubing whether the rsidue has a cis peptide bond.
+;
+   #
+   _item.name            "_nef_sequence.cis_peptide"
+   _item.category_id     nef_sequence
+   _item.mandatory_code  no
+   #
+   _item_type.code  boolean
+   #
+   loop_
+   _item_examples.case  
+     true
+     false
    stop_
    #
 save_
