@@ -270,7 +270,7 @@ organised by data category (saveframe).
     5. Spectrum dimensions, peaks, restraints etc. are numbered starting at
     1 (and *not* at zero). Peaks and restraints are represented by more than one
     line in the corresponding loop; an additional column for the line number
-    ('index_id') serves as the unique key for the loop. These values are *not*
+    ('index') serves as the unique key for the loop. The index values are *not*
     preserved when reading and re-writing data.
 
     6. Peak numbers, restraint numbers, and datablock names / saveframe
@@ -559,7 +559,7 @@ expressions.
 
     5. Cis peptide bonds are indicated by the (Boolean) nef_sequence.cis_peptide column. The default value is 'false'.
 
-    6. The ordinal column is a line number with consecutive integers starting
+    6. The index column is a line number with consecutive integers starting
     at 1. It is not preserved on import and re-export. The purpose it to
     preserve the order of the lines (which is significant for specifying the
     sequence) for implementations like (deposition) databases that do not use
@@ -568,8 +568,8 @@ expressions.
 
   * Regarding Section 5. Optional: **Distance restraint lists(s)**
 
-    1. The index_id column is a series of consecutive integers that serve to
-    make each line unique. These values are *not* preserved when reading and
+    1. The index column is a series of consecutive integers that serve to
+    make each line unique. The index values are *not* preserved when reading and
     re-writing data.
 
     2. All types of restraints need persistent identifier numbers (see separate
@@ -682,8 +682,8 @@ expressions.
     We recommend using one of the values given below, but if these do
     not fit, others may be added. Values: 'chemical_shift', 'jcoupling'.
 
-    2. The index_id column is a series of consecutive integers that serve to
-    make each line unique. These values are *not* preserved when reading and
+    2. The index column is a series of consecutive integers that serve to
+    make each line unique. The index values are *not* preserved when reading and
     re-writing data.
 
     3. In the most common case, sub-restraints within the same 'restraint_id'
@@ -724,8 +724,8 @@ expressions.
     not fit, others may be added. The value 'measured' should typically be
     sufficient.
 
-    4. The index_id column is a series of consecutive integers that serve to
-    make each line unique. These values are *not* preserved when reading and
+    4. The index column is a series of consecutive integers that serve to
+    make each line unique. The index values are *not* preserved when reading and
     re-writing data.
 
     5. RDC's should be given unscaled (i.e. the values actually measured), and
@@ -784,8 +784,8 @@ expressions.
     peaks, 3D peaks etc. For e.g. a 3D peak list, tags for dimensions 4 and
     higher are simply omitted. The maximum possible dimension is 15.
 
-    7. The index_id column is a series of consecutive integers that serve to
-    make each line unique. These values are *not* preserved when reading and
+    7. The index column is a series of consecutive integers that serve to
+    make each line unique. The index values are *not* preserved when reading and
     re-writing data.
 
     8. Peak lists can choose to give height, volume or both to represent
