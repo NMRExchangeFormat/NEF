@@ -40,11 +40,11 @@ organised by data category (saveframe).
     for atoms, as described below. Atom names and
     standard 3-letter-type residue names must match the molecule names also
     in casing in order to count as assignments to the molecule. Currently
-    this means that they must be ALL-UPPER-CASE, but if in the future RCSB
+    this means that they must be ALL-UPPER-CASE, but if in the future mmCif
     introduces mixed-case residue names (e.g. for carbohydrates), the nef
-    names must match the case used by RCSB. For chain codes and insertion codes
+    names must match the case used by mmCif. For chain codes and insertion codes
     upper case si strongly recommended, but lower case is allowed if necessary
-    to match e.g. lower-case chain codes used by the RCSB.
+    to match e.g. lower-case chain codes used by the mmCif.
 
       Examples:
 
@@ -74,7 +74,7 @@ organised by data category (saveframe).
     the main identifiers. This gives a IUPAC-NEF mapping for each individual
     model in an ensemble. The mapping reflects two different phenomena:
     1) The renumbering of the sequence, renaming of residues or atoms that arises
-    from regularisation or changes in standard names when going from author to RCSB
+    from regularisation or changes in standard names when going from author to mmCif
     namespace. 2) The different mapping of 'x' and 'y' nonstereospecifically assigned
     atom groups. In the latter case the mapping may be different for different models
     in the same ensemble. Note that wildcards (except for 'x' and 'y') should *not*
@@ -87,17 +87,19 @@ organised by data category (saveframe).
     will use UPPER-CASE for atom names. For non-standard residues applications
     can make their own choices, although IUPAC or wwPDB nomenclature is
     recommended. For the current proposal residue variants are specified using
-    a small subset of the RCSB residue variant codes (see below). It remains an
+    a small subset of the mmCif residue variant codes (see below). It remains an
     outstanding issue whether this should be changed or expanded.
 
-    6. 'residue_name' refers to the residue identified by the matching RCSB
-    chemical compound code. If there is no matching RCSB residue, the type is
-    unknown and must be specified outside the NEF system in some way. If a new
-    residue type is introduced  to match a previously unknown compound it is recommended
-    to use a name that could not match either current or future RCSB codes - a name
-    with at least four characters containing lower case characters would be a good
-    choice. The same residue_name is used for all variants and protonation states - these
-    are specified in the residue_linking and residue_variant columns.
+    6. 'residue_name' refers to the residue identified by the matching mmCif
+    chemical compound code. The atom naming and topology cna therefore be
+    taken from the mmCif chemical compound de3finitions. If there is no matching 
+    mmCif residue, the type is unknown and must be specified outside the NEF system
+    in some way. If a new residue type is introduced  to match a previously unknown 
+    compound it is recommended to use a name that could not match either current or 
+    future mmCif codes - a name with at least four characters containing lower case
+    characters would be a good choice. The same residue_name is used for all variants
+    and protonation states - these are specified in the residue_linking and 
+    residue_variant columns.
 
     7. A residue is uniquely identified by the 'chain_code' and 'sequence_code',
     so that the same 'residue_name' string must be used consistently throughout
@@ -210,12 +212,12 @@ organised by data category (saveframe).
       '\_atom_site.auth_asym_id', '\_atom_site.auth_seq_id',
       '\_atom_site.auth_comp_id',  '\_atom_site.auth_atom_id' . This preserves
       NEF naming, and gives a mapping for each structure model to the
-      equivalent RCSB tags '\_atom_site.label_asym_id',D
+      equivalent mmCif tags '\_atom_site.label_asym_id',D
       '\_atom_site.label_seq_id', '\_atom_site.pdbx_PDB_ins_code',
       '\_atom_site.label_comp_id', '\_atom_site.label_atom_id'. The
       NEF sequence_code is a string, combined from a numerical sequence
       code and an  optional string insertion code, and therefore maps to two
-      RCSB tags. Since the 'auth' tags can differ from one model to another
+      mmCif tags. Since the 'auth' tags can differ from one model to another
       within the same ensemble, this allows for floating stereospecific
       assignments that can vary between the individual models in the ensemble.
 
@@ -420,7 +422,7 @@ These expressions are for illustrative purposes only. They comprise the simplest
 possible expressions that give a meaningful set of atoms, as well as expressions
 for HA, HB, and HG1, that would not be meaningful in context, to illustrate the
 system. Only the expressions H%, HG2%, and H\* would appear in normal use.
-See the specification/Residue_Variants.txt file for supported standard wildcard
+See the specification/Residue_Variants.txt file for supported wildcard
 expressions.
 
 ### Data Types
@@ -554,8 +556,10 @@ expressions.
       sensibly interpret) the standard 20 amino acids, 4 DNA and 4 RNA
       nucleotides, together with their standard variants and wildcard atoms.
       These are all defined in the specification/Residue_Variants.txt file.
+      The mmCIf_NEF_variant_mapping.txt file further gives the NEF representation of
+      all existing mmCif variant codes.
       Non-standard residues are assumed to be in the form given by the corresponding
-      RCSB chemical compound.
+      mmCif chemical compound.
 
     5. Cis peptide bonds are indicated by the (Boolean) nef_sequence.cis_peptide column. The default value is 'false'.
 
