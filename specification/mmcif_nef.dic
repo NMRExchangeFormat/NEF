@@ -33,7 +33,7 @@ data_mmcif_nef.dic
 
     _dictionary.title           mmcif_nef.dic
     _dictionary.datablock_id    mmcif_nef.dic
-    _dictionary.version         .101
+    _dictionary.version         1.0
 #
      loop_
     _dictionary_history.version
@@ -53,6 +53,19 @@ data_mmcif_nef.dic
 - Reordered to match display ordered
 - Added new tag _category.parent_category_id to show saveframe location of loops
 - Added new data types
+;
+  1.0    2016-11-06
+; Rasmus Fogh
+- Updated to reflect discussion and participant survey
+- changed ordinal and index_id to index
+- changed run_ordinal to run_number
+- removed _nef_chemical_shift_list.atom_chemical_shift_units
+- renamed residue_type to residue_name
+- Added _nef_sequence.cis_peptide tag
+- Added _nef_chemical_shift.element
+- Added  _nef_chemical_shift.isotope_number
+- Changed examples to reflect new semantics
+- 
 ;
 ##
 
