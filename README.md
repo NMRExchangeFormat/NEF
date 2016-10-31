@@ -8,6 +8,7 @@ NEF (NMR Exchange Format)
 and the mmcif_nef.dic speciofications file.
 
 The `data_0_2` directory contains sample and test data up to version 0.20.
+The `data_1_0` directory contains sample and test data up to version 1.0
 
 For input/output test we use the naming convention that a program that reads a file
 prepends its name to the file when output. So if e.g. Cyana reads the file

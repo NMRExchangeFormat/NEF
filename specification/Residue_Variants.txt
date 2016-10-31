@@ -1,7 +1,6 @@
 # This file lists the standard residues (20 amino acids, 4 RNA, 4 DNA) that must be
 # supported by NEF-conforming programs.
-# For each is listed all atom names,
-# standard pseudoatom names, and supported variant codes
+# For each is listed all atom names, standard pseudoatom names, and supported variant codes
 # 'Additional atoms' are atoms that are part of the RCSB template 
 # but not of the default, pH 7 form.
 
