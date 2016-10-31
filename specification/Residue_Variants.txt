@@ -1,3 +1,5 @@
+# NEF version 1.0, November 6, 2016. Rasmus Fogh
+
 # This file lists the standard residues (20 amino acids, 4 RNA, 4 DNA) that must be
 # supported by NEF-conforming programs.
 # For each is listed all atom names, standard pseudoatom names, and supported variant codes

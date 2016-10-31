@@ -1,6 +1,8 @@
 Nmr Exchange Format (NEF) proposal
 ==================================
 
+# NEF version 1.0, November 6, 2016. Rasmus Fogh
+
 ###Organization of this document
 
 The first sections present general issues that are not linked to a specific part
