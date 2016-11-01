@@ -789,14 +789,14 @@ save_nef_sequence
    _category_key.name
      "_nef_sequence.chain_code"  
      "_nef_sequence.sequence_code"  
-     "_nef_sequence.residue_type"  
+     "_nef_sequence.residue_name"  
    #
    _category_examples.detail  "Example 1"
    _category_examples.case    
 ;  loop_
     _nef_sequence.chain_code
     _nef_sequence.sequence_code
-    _nef_sequence.residue_type
+    _nef_sequence.residue_name
     _nef_sequence.linking
     _nef_sequence.residue_variant
 
@@ -898,12 +898,12 @@ save__nef_sequence.sequence_code
    #
 save_
 #
-save__nef_sequence.residue_type
+save__nef_sequence.residue_name
    #
 
    _item_description.description  "The author provided residue name."
    #
-   _item.name            "_nef_sequence.residue_type"
+   _item.name            "_nef_sequence.residue_name"
    _item.category_id     nef_sequence
    _item.mandatory_code  yes
    #
@@ -978,12 +978,12 @@ save_nef_covalent_links
    loop_
    _category_key.name
      "_nef_covalent_links.chain_code_1"  
-     "_nef_covalent_links.residue_type_1"  
+     "_nef_covalent_links.residue_name_1"  
      "_nef_covalent_links.sequence_code_1"  
      "_nef_covalent_links.atom_name_1"  
      "_nef_covalent_links.chain_code_2"  
      "_nef_covalent_links.sequence_code_2"   
-     "_nef_covalent_links.residue_type_2" 
+     "_nef_covalent_links.residue_name_2" 
      "_nef_covalent_links.atom_name_2"  
    #
    _category_examples.detail  "Example 1"
@@ -991,11 +991,11 @@ save_nef_covalent_links
 ;   loop_
      _nef_covalent_links.chain_code_1
      _nef_covalent_links.sequence_code_1
-     _nef_covalent_links.residue_type_1
+     _nef_covalent_links.residue_name_1
      _nef_covalent_links.atom_name_1
      _nef_covalent_links.chain_code_2
      _nef_covalent_links.sequence_code_2
-     _nef_covalent_links.residue_type_2
+     _nef_covalent_links.residue_name_2
      _nef_covalent_links.atom_name_2
      B   3   CYS   SG   B   6   CYS   SG
      B   5   THR   OG1  B   9   GLN   C
@@ -1034,12 +1034,12 @@ save__nef_covalent_links.sequence_code_1
    #
 save_
 #
-save__nef_covalent_links.residue_type_1
+save__nef_covalent_links.residue_name_1
    #
 
    _item_description.description  "The author provided name for the first partner residue."
    #
-   _item.name            "_nef_covalent_links.residue_type_1"
+   _item.name            "_nef_covalent_links.residue_name_1"
    _item.category_id     nef_covalent_links
    _item.mandatory_code  yes
    #
@@ -1094,12 +1094,12 @@ save__nef_covalent_links.sequence_code_2
    #
 save_
 #
-save__nef_covalent_links.residue_type_2
+save__nef_covalent_links.residue_name_2
    #
 
    _item_description.description  "The author provided name for the second partner residue."
    #
-   _item.name            "_nef_covalent_links.residue_type_2"
+   _item.name            "_nef_covalent_links.residue_name_2"
    _item.category_id     nef_covalent_links
    _item.mandatory_code  yes
    #
@@ -1211,7 +1211,7 @@ save_nef_chemical_shift
    _category_key.name  
      "_nef_chemical_shift.chain_code"  
      "_nef_chemical_shift.sequence_code"  
-     "_nef_chemical_shift.residue_type"  
+     "_nef_chemical_shift.residue_name"  
      "_nef_chemical_shift.atom_name"
    #
    _category_examples.detail  "Example 1"
@@ -1219,7 +1219,7 @@ save_nef_chemical_shift
 ;   loop_
       _nef_chemical_shift.chain_code
       _nef_chemical_shift.sequence_code
-      _nef_chemical_shift.residue_type
+      _nef_chemical_shift.residue_name
       _nef_chemical_shift.atom_name
       _nef_chemical_shift.value
       _nef_chemical_shift.value_uncertainty
@@ -1297,12 +1297,12 @@ save__nef_chemical_shift.sequence_code
    #
 save_
 #
-save__nef_chemical_shift.residue_type
+save__nef_chemical_shift.residue_name
    #
 
    _item_description.description  "The author provided residue name."
    #
-   _item.name            "_nef_chemical_shift.residue_type"
+   _item.name            "_nef_chemical_shift.residue_name"
    _item.category_id     nef_chemical_shift
    _item.mandatory_code  yes
    #
@@ -1473,11 +1473,11 @@ save_nef_distance_restraint
     _nef_distance_restraint.restraint_combination_id
     _nef_distance_restraint.chain_code_1
     _nef_distance_restraint.sequence_code_1
-    _nef_distance_restraint.residue_type_1
+    _nef_distance_restraint.residue_name_1
     _nef_distance_restraint.atom_name_1
     _nef_distance_restraint.chain_code_2
     _nef_distance_restraint.sequence_code_2
-    _nef_distance_restraint.residue_type_2
+    _nef_distance_restraint.residue_name_2
     _nef_distance_restraint.atom_name_2
     _nef_distance_restraint.weight
     _nef_distance_restraint.target_value
@@ -1592,12 +1592,12 @@ save__nef_distance_restraint.sequence_code_1
    #
 save_
 #
-save__nef_distance_restraint.residue_type_1
+save__nef_distance_restraint.residue_name_1
    #
 
    _item_description.description  "The author provided name for the first partner residue."
    #
-   _item.name            "_nef_distance_restraint.residue_type_1"
+   _item.name            "_nef_distance_restraint.residue_name_1"
    _item.category_id     nef_distance_restraint
    _item.mandatory_code  yes
    #
@@ -1652,12 +1652,12 @@ save__nef_distance_restraint.sequence_code_2
    #
 save_
 #
-save__nef_distance_restraint.residue_type_2
+save__nef_distance_restraint.residue_name_2
    #
 
    _item_description.description  "The author provided name for the second partner residue."
    #
-   _item.name            "_nef_distance_restraint.residue_type_2"
+   _item.name            "_nef_distance_restraint.residue_name_2"
    _item.category_id     nef_distance_restraint
    _item.mandatory_code  yes
    #
@@ -1899,19 +1899,19 @@ save_nef_dihedral_restraint
     _nef_dihedral_restraint.restraint_combination_id
     _nef_dihedral_restraint.chain_code_1
     _nef_dihedral_restraint.sequence_code_1
-    _nef_dihedral_restraint.residue_type_1
+    _nef_dihedral_restraint.residue_name_1
     _nef_dihedral_restraint.atom_name_1
     _nef_dihedral_restraint.chain_code_2
     _nef_dihedral_restraint.sequence_code_2
-    _nef_dihedral_restraint.residue_type_2
+    _nef_dihedral_restraint.residue_name_2
     _nef_dihedral_restraint.atom_name_2
     _nef_dihedral_restraint.chain_code_3
     _nef_dihedral_restraint.sequence_code_3
-    _nef_dihedral_restraint.residue_type_3
+    _nef_dihedral_restraint.residue_name_3
     _nef_dihedral_restraint.atom_name_3
     _nef_dihedral_restraint.chain_code_4
     _nef_dihedral_restraint.sequence_code_4
-    _nef_dihedral_restraint.residue_type_4
+    _nef_dihedral_restraint.residue_name_4
     _nef_dihedral_restraint.atom_name_4
     _nef_dihedral_restraint.weight
     _nef_dihedral_restraint.target_value
@@ -2019,12 +2019,12 @@ save__nef_dihedral_restraint.sequence_code_1
    #
 save_
 #
-save__nef_dihedral_restraint.residue_type_1
+save__nef_dihedral_restraint.residue_name_1
    #
 
    _item_description.description  "The author provided name for the first partner residue."
    #
-   _item.name            "_nef_dihedral_restraint.residue_type_1"
+   _item.name            "_nef_dihedral_restraint.residue_name_1"
    _item.category_id     nef_dihedral_restraint
    _item.mandatory_code  yes
    #
@@ -2079,12 +2079,12 @@ save__nef_dihedral_restraint.sequence_code_2
    #
 save_
 #
-save__nef_dihedral_restraint.residue_type_2
+save__nef_dihedral_restraint.residue_name_2
    #
 
    _item_description.description  "The author provided name for the second partner residue."
    #
-   _item.name            "_nef_dihedral_restraint.residue_type_2"
+   _item.name            "_nef_dihedral_restraint.residue_name_2"
    _item.category_id     nef_dihedral_restraint
    _item.mandatory_code  yes
    #
@@ -2139,12 +2139,12 @@ save__nef_dihedral_restraint.sequence_code_3
    #
 save_
 #
-save__nef_dihedral_restraint.residue_type_3
+save__nef_dihedral_restraint.residue_name_3
    #
 
    _item_description.description  "The author provided name for the third partner residue."
    #
-   _item.name            "_nef_dihedral_restraint.residue_type_3"
+   _item.name            "_nef_dihedral_restraint.residue_name_3"
    _item.category_id     nef_dihedral_restraint
    _item.mandatory_code  yes
    #
@@ -2199,12 +2199,12 @@ save__nef_dihedral_restraint.sequence_code_4
    #
 save_
 #
-save__nef_dihedral_restraint.residue_type_4
+save__nef_dihedral_restraint.residue_name_4
    #
 
    _item_description.description  "The author provided name for the fourth partner residue."
    #
-   _item.name            "_nef_dihedral_restraint.residue_type_4"
+   _item.name            "_nef_dihedral_restraint.residue_name_4"
    _item.category_id     nef_dihedral_restraint
    _item.mandatory_code  yes
    #
@@ -2498,12 +2498,12 @@ save__nef_rdc_restraint_list.tensor_sequence_code
    #
 save_
 #
-save__nef_rdc_restraint_list.tensor_residue_type
+save__nef_rdc_restraint_list.tensor_residue_name
    #
 
    _item_description.description  "The author provided residue code for a dummy residue specifying the location and orientation of the tensor."
    #
-   _item.name            "_nef_rdc_restraint_list.tensor_residue_type"
+   _item.name            "_nef_rdc_restraint_list.tensor_residue_name"
    _item.category_id     nef_rdc_restraint_list
    _item.mandatory_code  no
    #
@@ -2535,11 +2535,11 @@ save_nef_rdc_restraint
     _nef_rdc_restraint.restraint_combination_id
     _nef_rdc_restraint.chain_code_1
     _nef_rdc_restraint.sequence_code_1
-    _nef_rdc_restraint.residue_type_1
+    _nef_rdc_restraint.residue_name_1
     _nef_rdc_restraint.atom_name_1
     _nef_rdc_restraint.chain_code_2
     _nef_rdc_restraint.sequence_code_2
-    _nef_rdc_restraint.residue_type_2
+    _nef_rdc_restraint.residue_name_2
     _nef_rdc_restraint.atom_name_2
     _nef_rdc_restraint.weight
     _nef_rdc_restraint.target_value
@@ -2636,12 +2636,12 @@ save__nef_rdc_restraint.sequence_code_1
    #
 save_
 #
-save__nef_rdc_restraint.residue_type_1
+save__nef_rdc_restraint.residue_name_1
    #
 
    _item_description.description  "The author provided name for the first partner residue."
    #
-   _item.name            "_nef_rdc_restraint.residue_type_1"
+   _item.name            "_nef_rdc_restraint.residue_name_1"
    _item.category_id     nef_rdc_restraint
    _item.mandatory_code  yes
    #
@@ -2696,12 +2696,12 @@ save__nef_rdc_restraint.sequence_code_2
    #
 save_
 #
-save__nef_rdc_restraint.residue_type_2
+save__nef_rdc_restraint.residue_name_2
    #
 
    _item_description.description  "The author provided name for the second partner residue."
    #
-   _item.name            "_nef_rdc_restraint.residue_type_2"
+   _item.name            "_nef_rdc_restraint.residue_name_2"
    _item.category_id     nef_rdc_restraint
    _item.mandatory_code  yes
    #
@@ -3318,15 +3318,15 @@ save_nef_peak
       _nef_peak.position_uncertainty_3
       _nef_peak.chain_code_1
       _nef_peak.sequence_code_1
-      _nef_peak.residue_type_1
+      _nef_peak.residue_name_1
       _nef_peak.atom_name_1
       _nef_peak.chain_code_2
       _nef_peak.sequence_code_2
-      _nef_peak.residue_type_2
+      _nef_peak.residue_name_2
       _nef_peak.atom_name_2
       _nef_peak.chain_code_3
       _nef_peak.sequence_code_3
-      _nef_peak.residue_type_3
+      _nef_peak.residue_name_3
       _nef_peak.atom_name_3
 
   #key: ordinal
@@ -3383,63 +3383,63 @@ save_nef_peak
       _nef_peak.position_uncertainty_15
       _nef_peak.chain_code_1
       _nef_peak.sequence_code_1
-      _nef_peak.residue_type_1
+      _nef_peak.residue_name_1
       _nef_peak.atom_name_1
       _nef_peak.chain_code_2
       _nef_peak.sequence_code_2
-      _nef_peak.residue_type_2
+      _nef_peak.residue_name_2
       _nef_peak.atom_name_2
       _nef_peak.chain_code_3
       _nef_peak.sequence_code_3
-      _nef_peak.residue_type_3
+      _nef_peak.residue_name_3
       _nef_peak.atom_name_3
       _nef_peak.chain_code_4
       _nef_peak.sequence_code_4
-      _nef_peak.residue_type_4
+      _nef_peak.residue_name_4
       _nef_peak.atom_name_4
       _nef_peak.chain_code_5
       _nef_peak.sequence_code_5
-      _nef_peak.residue_type_5
+      _nef_peak.residue_name_5
       _nef_peak.atom_name_5
       _nef_peak.chain_code_6
       _nef_peak.sequence_code_6
-      _nef_peak.residue_type_6
+      _nef_peak.residue_name_6
       _nef_peak.atom_name_6
       _nef_peak.chain_code_7
       _nef_peak.sequence_code_7
-      _nef_peak.residue_type_7
+      _nef_peak.residue_name_7
       _nef_peak.atom_name_7
       _nef_peak.chain_code_8
       _nef_peak.sequence_code_8
-      _nef_peak.residue_type_8
+      _nef_peak.residue_name_8
       _nef_peak.atom_name_8
       _nef_peak.chain_code_9
       _nef_peak.sequence_code_9
-      _nef_peak.residue_type_9
+      _nef_peak.residue_name_9
       _nef_peak.atom_name_9
       _nef_peak.chain_code_10
       _nef_peak.sequence_code_10
-      _nef_peak.residue_type_10
+      _nef_peak.residue_name_10
       _nef_peak.atom_name_10
       _nef_peak.chain_code_11
       _nef_peak.sequence_code_11
-      _nef_peak.residue_type_11
+      _nef_peak.residue_name_11
       _nef_peak.atom_name_11
       _nef_peak.chain_code_12
       _nef_peak.sequence_code_12
-      _nef_peak.residue_type_12
+      _nef_peak.residue_name_12
       _nef_peak.atom_name_12
       _nef_peak.chain_code_13
       _nef_peak.sequence_code_13
-      _nef_peak.residue_type_13
+      _nef_peak.residue_name_13
       _nef_peak.atom_name_13
       _nef_peak.chain_code_14
       _nef_peak.sequence_code_14
-      _nef_peak.residue_type_14
+      _nef_peak.residue_name_14
       _nef_peak.atom_name_14
       _nef_peak.chain_code_15
       _nef_peak.sequence_code_15
-      _nef_peak.residue_type_15
+      _nef_peak.residue_name_15
       _nef_peak.atom_name_15
 
 
@@ -4022,12 +4022,12 @@ save__nef_peak.sequence_code_1
    #
 save_
 #
-save__nef_peak.residue_type_1
+save__nef_peak.residue_name_1
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 1 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_1"
+   _item.name            "_nef_peak.residue_name_1"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4083,12 +4083,12 @@ save__nef_peak.sequence_code_2
    #
 save_
 #
-save__nef_peak.residue_type_2
+save__nef_peak.residue_name_2
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 2 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_2"
+   _item.name            "_nef_peak.residue_name_2"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4144,12 +4144,12 @@ save__nef_peak.sequence_code_3
    #
 save_
 #
-save__nef_peak.residue_type_3
+save__nef_peak.residue_name_3
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 3 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_3"
+   _item.name            "_nef_peak.residue_name_3"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4205,12 +4205,12 @@ save__nef_peak.sequence_code_4
    #
 save_
 #
-save__nef_peak.residue_type_4
+save__nef_peak.residue_name_4
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 4 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_4"
+   _item.name            "_nef_peak.residue_name_4"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4266,12 +4266,12 @@ save__nef_peak.sequence_code_5
    #
 save_
 #
-save__nef_peak.residue_type_5
+save__nef_peak.residue_name_5
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 5 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_5"
+   _item.name            "_nef_peak.residue_name_5"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4327,12 +4327,12 @@ save__nef_peak.sequence_code_6
    #
 save_
 #
-save__nef_peak.residue_type_6
+save__nef_peak.residue_name_6
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 6 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_6"
+   _item.name            "_nef_peak.residue_name_6"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4388,12 +4388,12 @@ save__nef_peak.sequence_code_7
    #
 save_
 #
-save__nef_peak.residue_type_7
+save__nef_peak.residue_name_7
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 7 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_7"
+   _item.name            "_nef_peak.residue_name_7"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4449,12 +4449,12 @@ save__nef_peak.sequence_code_8
    #
 save_
 #
-save__nef_peak.residue_type_8
+save__nef_peak.residue_name_8
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 8 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_8"
+   _item.name            "_nef_peak.residue_name_8"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4510,12 +4510,12 @@ save__nef_peak.sequence_code_9
    #
 save_
 #
-save__nef_peak.residue_type_9
+save__nef_peak.residue_name_9
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 9 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_9"
+   _item.name            "_nef_peak.residue_name_9"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4571,12 +4571,12 @@ save__nef_peak.sequence_code_10
    #
 save_
 #
-save__nef_peak.residue_type_10
+save__nef_peak.residue_name_10
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 10 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_10"
+   _item.name            "_nef_peak.residue_name_10"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4632,12 +4632,12 @@ save__nef_peak.sequence_code_11
    #
 save_
 #
-save__nef_peak.residue_type_11
+save__nef_peak.residue_name_11
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 11 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_11"
+   _item.name            "_nef_peak.residue_name_11"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4693,12 +4693,12 @@ save__nef_peak.sequence_code_12
    #
 save_
 #
-save__nef_peak.residue_type_12
+save__nef_peak.residue_name_12
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 12 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_12"
+   _item.name            "_nef_peak.residue_name_12"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4754,12 +4754,12 @@ save__nef_peak.sequence_code_13
    #
 save_
 #
-save__nef_peak.residue_type_13
+save__nef_peak.residue_name_13
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 13 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_13"
+   _item.name            "_nef_peak.residue_name_13"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4815,12 +4815,12 @@ save__nef_peak.sequence_code_14
    #
 save_
 #
-save__nef_peak.residue_type_14
+save__nef_peak.residue_name_14
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 14 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_14"
+   _item.name            "_nef_peak.residue_name_14"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
@@ -4876,12 +4876,12 @@ save__nef_peak.sequence_code_15
    #
 save_
 #
-save__nef_peak.residue_type_15
+save__nef_peak.residue_name_15
    #
 
    _item_description.description  "The author provided identifier for the residue code for the nuclear assignment associated with dimension 15 of the spectrum."
    #
-   _item.name            "_nef_peak.residue_type_15"
+   _item.name            "_nef_peak.residue_name_15"
    _item.category_id     nef_peak
    _item.mandatory_code  no
    #
