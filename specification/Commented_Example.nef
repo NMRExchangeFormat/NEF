@@ -404,7 +404,7 @@ save_nef_distance_restraint_list_L1
 
       loop_
          # Mandatory parameters, except for restraint_combination_id
-         _nef_distance_restraint.ordinal
+         _nef_distance_restraint.index_id
          _nef_distance_restraint.restraint_id
          _nef_distance_restraint.restraint_combination_id
          _nef_distance_restraint.chain_code_1
@@ -427,7 +427,7 @@ save_nef_distance_restraint_list_L1
          _nef_distance_restraint.upper_limit
          _nef_distance_restraint.upper_linear_limit
       
-         # key: ordinal
+         # key: index_id
 
          1  1  .  A  17  VAL  H    A  21  ALA  HB%   1  3.7  0.4  2    2.5  4.2  4.7
          2  1  .  A  17  VAL  H    A  22  THR  HG2%  1  3.7  0.4  2    2.5  4.2  4.7
@@ -438,7 +438,7 @@ save_nef_distance_restraint_list_L1
          7  8  .  A  24  ASP  HBY  E   7  SER  HB2   1  4.4  0.4  3.6  4.1  5.2  5.7
       stop_
 
-      # The first column (ordinal) is a consecutive line number that does not persist  
+      # The first column (index_id) is a consecutive line number that does not persist  
       # when data are re-exported
       # The second column gives the restraint ID.
       # Lines with the same restraint_id are combined into a single restraint
@@ -468,7 +468,7 @@ save_nef_distance_restraint_list_hbond1
 
       loop_
          # Mandatory parameters, except for restraint_combination_id
-         _nef_distance_restraint.ordinal
+         _nef_distance_restraint.index_id
          _nef_distance_restraint.restraint_id
          _nef_distance_restraint.restraint_combination_id
          _nef_distance_restraint.chain_code_1
@@ -491,7 +491,7 @@ save_nef_distance_restraint_list_hbond1
          _nef_distance_restraint.upper_limit
          _nef_distance_restraint.upper_linear_limit
       
-         # key: ordinal
+         # key: index_id
 
          1  1  .  A  15  VAL  H    A  24B  THR  O     1  1.8    .  .  1.4    2.7  .
          2  2  .  A  15  VAL  N    A  24B  THR  O     1  2.8    .  .  2.4    3.7  .
@@ -503,7 +503,7 @@ save_nef_distance_restraint_list_hbond1
          8  4  3  A  17  VAL  N    A  24   ASP  O     1  2.8    .  .  2.4    3.7  .
       stop_
 
-      # The first column (ordinal) is a consecutive line number that does not persist  
+      # The first column (index_id) is a consecutive line number that does not persist  
       # when data are re-exported
       # The second column gives the restraint ID.
       # Lines with the same restraint_id are combined into a single restraint
@@ -540,7 +540,7 @@ save_nef_distance_restraint_list_hbond1
 
       loop_
          # Mandatory parameters, except for restraint_combination_id
-         _nef_dihedral_restraint.ordinal
+         _nef_dihedral_restraint.index_id
          _nef_dihedral_restraint.restraint_id
          _nef_dihedral_restraint.restraint_combination_id
          _nef_dihedral_restraint.chain_code_1
@@ -572,7 +572,7 @@ save_nef_distance_restraint_list_hbond1
          _nef_dihedral_restraint.upper_linear_limit
          _nef_dihedral_restraint.name
       
-         # key: ordinal
+         # key: index_id
          
          1   1  .  A  21  ALA  N   A  21  ALA  CA  A  21  ALA  C   A  22   THR  N    1  -50  5  .  -60  -40  .  PSI
          2   1  .  A  21  ALA  N   A  21  ALA  CA  A  21  ALA  C   A  22   THR  N    1  105  5  .  90   120  .  PSI
@@ -638,7 +638,7 @@ save_nef_distance_restraint_list_hbond1
 
       loop_
          # Mandatory parameters, except for restraint_combination_id
-         _nef_rdc_restraint.ordinal
+         _nef_rdc_restraint.index_id
          _nef_rdc_restraint.restraint_id
          _nef_rdc_restraint.restraint_combination_id
          _nef_rdc_restraint.chain_code_1
@@ -665,7 +665,7 @@ save_nef_distance_restraint_list_hbond1
          _nef_rdc_restraint.scale
          _nef_rdc_restraint.distance_dependent
 
-         # key: ordinal
+         # key: index_id
 
          1  1  .  A  21  ALA  H  A  21  ALA  N  1  -5.2  0.33  .  .  .  .  1  false
          2  2  .  A  22  THR  H  A  22  THR  N  1  3.1   0.4   .  .  .  .  1  false
@@ -773,7 +773,7 @@ save_nef_distance_restraint_list_hbond1
       # Dimensions are given in the order of the _nef_Spectrum.dimension_id defined above.
 
       loop_
-         _nef_peak.ordinal
+         _nef_peak.index_id
          _nef_peak.peak_id
          _nef_peak.volume
          _nef_peak.volume_uncertainty
@@ -798,7 +798,7 @@ save_nef_distance_restraint_list_hbond1
          _nef_peak.residue_name_3
          _nef_peak.atom_name_3
 
-         # key: ordinal
+         # key: index_id
 
          1   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  14  TRP  HB3  A  18    PHE  N    A  18    PHE  H  
          2   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBY  A  24B   GLN  N    A  24B   GLN  H  
@@ -882,7 +882,7 @@ save_nef_distance_restraint_list_hbond1
       # and ignore spectra of too high dimensionality
 
       loop_
-         _nef_peak.ordinal
+         _nef_peak.index_id
          _nef_peak.peak_id
          _nef_peak.volume
          _nef_peak.volume_uncertainty
@@ -979,7 +979,7 @@ save_nef_distance_restraint_list_hbond1
          _nef_peak.residue_name_15
          _nef_peak.atom_name_15
       
-         # key: ordinal
+         # key: index_id
 
          1  1  73000000  5100000  33000000  1100000  7.2  0.05  119.5  0.4  28.3  0.3  172.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  A  19  LEU  HN  A  19  LEU  N  A  24C   GLN  C  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19  LEU  CD1  A  19  LEU  CD2  A  19  LEU  CG  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  24C   GLN  CA  A  24C   GLN  CB  A  24C   GLN  CG
       stop_
