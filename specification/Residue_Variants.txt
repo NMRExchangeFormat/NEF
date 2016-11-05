@@ -1,0 +1,464 @@
+# This file lists the standard residues (20 amino acids, 4 RNA, 4 DNA) that must be
+# supported by NEF-conforming programs.
+# For each is listed all atom names,
+# standard pseudoatom names, and supported variant codes
+# 'Additional atoms' are atoms that are part of the RCSB template 
+# but not of the default, pH 7 form.
+
+# Each residue is given as the linking ('middle') form. 'start' and 'end' residues are 
+# dealt with separately at the bottom of the file.
+
+# NEF standard residues - linking form:
+
+Code: 				ALA
+Name:				L-Alanine
+Default RCSB equivalent:	ALA_LL
+Std variant codes:		-
+Std form atoms:			N, O, C, CA, CB, 
+Std form atoms 1H:		H, HA, HB1, HB2, HB3
+Additional atoms:		-
+Std wildcard expressions:	HB%
+
+code: 				ARG
+Name:				L-Arginine    Default is side chain protonated form
+Default RCSB equivalent:	ARG_LL
+Std variant codes:		"-HH12" neutral side chain, matches ARG_LL_DHH12
+Std form atoms:			N, NE, NZ1, NZ2, O, C, CA, CB, CG, CD, CZ
+Std form atoms 1H:		H, HA, HB2, HB3, HG2, HG3, HD2, HD3, HE, HH11, HH12, HH21, HH22
+Additional atoms:		-
+Std wildcard expressions:	HB%, HG%, HD%, HH1%, HH2%, HH%, NZ%
+
+code: 				ASN
+Name:				L-Asparagine
+Default RCSB equivalent:	ASN_LL
+Std variant codes:		-
+Std form atoms:			N, ND2, O, OD1, C, CA, CB, CG
+Std form atoms 1H:		H, HA, HB2, HB3, HD21, HD22
+Additional atoms:		-
+Std wildcard expressions:	HB%, HD2%
+
+code: 				ASP
+Name:				L-Aspartate   Default is side chain deprotonated form
+Default RCSB equivalent:	ASP_LL_DHD2
+Std variant codes:		"+HD2"   neutral side chain, matches ASP_LL
+Std form atoms:			N, O, OD1, OD2, C, CA, CB, CG
+Std form atoms 1H:		H, HA, HB2, HB3
+Additional atoms:		HD2, DD2, TD2
+Std wildcard expressions:	HB%, OD%
+
+code: 				CYS
+Name:				L-Cysteine   Default is SH form
+Default RCSB equivalent:	CYS_LL
+Std variant codes:		"-HG"   deprotonated / disulfide linked side chain, matches CYS_LL_DHG
+Std form atoms:			N, O, C, CA, CB, SG
+Std form atoms 1H:		H, HA, HB2, HB3, HG
+Additional atoms:		-
+Std wildcard expressions:	HB%
+
+code: 				GLN
+Name:				L-Glutamine
+Default RCSB equivalent:	GLN_LL
+Std variant codes:		-
+Std form atoms:			N, NE2, O, OE1, C, CA, CB, CG, CD
+Std form atoms 1H:		H, HA, HB2, HB3, HG2, HG3, HE21, HE22
+Additional atoms:		-
+Std wildcard expressions:	HB%, HG%, HE2%
+
+code: 				GLU
+Name:				L-Glutamate   Default is side chain deprotonated form
+Default RCSB equivalent:	GLU_LL_DHE2
+Std variant codes:		"+HE2"   neutral side chain, matches GLU_LL
+Std form atoms:			N, O, OE1, OE2, C, CA, CB, CG, CD
+Std form atoms 1H:		H, HA, HB2, HB3, HG2, HG3
+Additional atoms:		HE2, DE2, TE2
+Std wildcard expressions:	HB%, HG%, OE%
+
+Code: 				GLY
+Name:				L-Glycine
+Default RCSB equivalent:	GLY_LL
+Std variant codes:		-
+Std form atoms:			N, O, C, CA
+Std form atoms 1H:		H, HA2, HA3
+Additional atoms:		-
+Std wildcard expressions:	HA%
+
+code: 				HIS
+Name:				L-Histidine   Default is neutral side chain form protonated on ND1  
+Default RCSB equivalent:	HIS_LL_DHE2
+Std variant codes:		"+HE2", (protonated side chain histidine, matches HIS_LL)
+				"-HD1,+HE2" (Neutral side chain histidine, proton on NE2, matches HIS_LL_DHD1)
+Std form atoms:			N, ND1, NE2, O, C, CA, CB, CG, CD2, CE1
+Std form atoms 1H:		H, HA, HB2, HB3, HD1, HD2, HE1
+Additional atoms:		HE2, DE2, TE2
+Std wildcard expressions:	HB%
+
+code: 				ILE
+Name:				L-Isoleucine
+Default RCSB equivalent:	ILE_LL
+Std variant codes:		-
+Std form atoms:			N, O, C, CA, CB, CG1, CG2, CD1
+Std form atoms 1H:		H, HA, HB, HG12, HG13, HG21, HG22, HG23, HD11, HD12, HD13
+Additional atoms:		-
+Std wildcard expressions:	HG1%, HG2%, HD1%, 
+
+code: 				LEU
+Name:				L-Leucine
+Default RCSB equivalent:	LEU_LL
+Std variant codes:		-
+Std form atoms:			N, O, C, CA, CB, CG, CD1, CD2
+Std form atoms 1H:		H, HA, HB2, HB3, HG, HD11, HD12, HD13, HD21, HD22, HD23
+Additional atoms:		-
+Std wildcard expressions:	HB%, HD1%, HD2%, HD%, 
+
+code: 				LYS
+Name:				L-Lysine   Default is side chain protonated form
+Default RCSB equivalent:	LYS_LL
+Std variant codes:		"-HZ3" neutral side chain, matches LYS_LL_DHZ3
+Std form atoms:			N, NZ, O, C, CA, CB, CG, CD, CE
+Std form atoms 1H:		H, HA, HB2, HB3, HG2, HG3, HD2, HD3, HE2, HE3, HZ1, HZ2, HZ3
+Additional atoms:		-
+Std wildcard expressions:	HB%, HG%, HD%, HE%, HZ%
+
+code: 				MET
+Name:				L-Methionine
+Default RCSB equivalent:	MET_LL
+Std variant codes:		-
+Std form atoms:			N, O, C, CA, CB, CG, SD, CE
+Std form atoms 1H:		H, HA, HB2, HB3, HG2, HG3, HE1, HE2, HE3
+Additional atoms:		-
+Std wildcard expressions:	HB%, HG%, HE%
+
+code: 				PHE
+Name:				L-Phenylalanine
+Default RCSB equivalent:	PHE_LL
+Std variant codes:		-
+Std form atoms:			N, O, C, CA, CB, CG, CD1, CD2, CE1, CE2, CZ
+Std form atoms 1H:		H, HA, HB2, HB3, HD1, HD2, HE1, HE2, HZ
+Additional atoms:		-
+Std wildcard expressions:	HB%, HD%, HE%, CD%, CE%
+
+code: 				PRO
+Name:				L-Proline
+Default RCSB equivalent:	PRO_LL
+Std variant codes:		-
+Std form atoms:			N, O, C, CA, CB, CG, CD
+Std form atoms 1H:		HA, HB2, HB3, HG2, HG3, HD2, HD3
+Additional atoms:		-
+Std wildcard expressions:	HB%, HG%, HD%
+
+code: 				SER
+Name:				L-Serine
+Default RCSB equivalent:	SER_LL
+Std variant codes:		-
+Std form atoms:			N, O, C, CA, CB, OG
+Std form atoms 1H:		H, HA, HB2, HB3, HG
+Additional atoms:		-
+Std wildcard expressions:	HB%
+
+code: 				THR
+Name:				L-Threonine
+Default RCSB equivalent:	THR_LL
+Std variant codes:		-
+Std form atoms:			N, O, OG1, C, CA, CB, CG2
+Std form atoms 1H:		H, HA, HB, HG1, HG21, HG22, HG23
+Additional atoms:		-
+Std wildcard expressions:	HG2%
+
+code: 				TRP
+Name:				L-Tryptophan
+Default RCSB equivalent:	TRP_LL
+Std variant codes:		-
+Std form atoms:			N, NE1, O, C, CA, CB, CG, CD1, CD2, CE2, CE3, CZ2, CZ3, CH2
+Std form atoms 1H:		H, HA, HB2, HB3, HD1, HE1, HE3, HZ2, HZ3, HH2
+Additional atoms:		-
+Std wildcard expressions:	HB%
+
+code: 				TYR
+Name:				L-Tyrosine   Default is neutral side chain form
+Default RCSB equivalent:	TYR_LL
+Std variant codes:		"-HH"   deprotonated side chain, matches TYR_LL_DHH
+Std form atoms:			N, O, OH, C, CA, CB, CG, CD1, CD2, CE1, CE2, CZ
+Std form atoms 1H:		H, HA, HB2, HB3, HD1, HD2, HE1, HE2, HH
+Additional atoms:		-
+Std wildcard expressions:	HB%, HD%, HE%, CD%, CE%
+
+code: 				VAL
+Name:				L-Valine
+Default RCSB equivalent:	VAL_LL
+Std variant codes:		-
+Std form atoms:			N, O, C, CA, CB, CG1, CG2
+Std form atoms 1H:		H, HA, HB, HG11, HG12, HG13, HG21, HG22, HG23
+Additional atoms:		-
+Std wildcard expressions:	HG1%, HG2%, HG%
+
+
+code:				DA
+Name:				2'-deoxyadenosine-5'-monophospate, phosphate deprotonated
+Default RCSB equivalent:	-
+Std variant codes:		-
+Std form atoms:			P, O3', O4', O5', OP1, OP2, C1', C2', C3', C4', C5'
+				N1, N3, N6, N7, N9, C2, C4, C5, C6, C8
+Std form atoms 1H:		H1', H2', H2'', H3', H4', H5', H5'', H2, H61, H62, H8
+Additional atoms:		HOP2
+Std wildcard expressions:	H2'*, H5'*, H6%
+
+code:				DC
+Name:				2'-deoxycytidine-5'-monophospate, phosphate deprotonated.
+Default RCSB equivalent:	-
+Std variant codes:		-
+Std form atoms:			P, O3', O4', O5', OP1, OP2, C1', C2', C3', C4', C5'
+				N1, N3, N4, O2, C2, C4, C5, C6
+Std form atoms 1H:		H1', H2', H2'', H3', H4', H5', H5'', H41, H42, H5, H6
+Additional atoms:		HOP2
+Std wildcard expressions:	H2'*, H5'*, H4%
+
+code:				DG
+Name:				2'-deoxyguanosine-5'-monophospate, phosphate deprotonated.
+Default RCSB equivalent:	-
+Std variant codes:		-
+Std form atoms:			P, O3', O4', O5', OP1, OP2, C1', C2', C3', C4', C5'
+				N1, N2, N3, N7, N9, O6, C2, C4, C5, C6, C8
+Std form atoms 1H:		H1', H2', H2'', H3', H4', H5', H5'', H1, H21, H22, H8
+Additional atoms:		HOP2
+Std wildcard expressions:	H2'*, H5'*, H2%
+
+code:				DT
+Name:				2'-deoxythymidine-5'-monophospate, phosphate deprotonated.
+Default RCSB equivalent:	-
+Std variant codes:		-
+Std form atoms:			P, O3', O4', O5', OP1, OP2, C1', C2', C3', C4', C5'
+				N1, N3, O2, O4, C2, C4, C5, C6, C7
+Std form atoms 1H:		H1', H2', H2'', H3', H4', H5', H5'', H3, H6, H71, H72, H73
+Additional atoms:		HOP2
+Std wildcard expressions:	H2'*, H5'*, H7%
+
+
+code:				A
+Name:				adenosine-5'-monophospate, phosphate deprotonated.
+Default RCSB equivalent:	-
+Std variant codes:		-
+Std form atoms:			P, O2', O3', O4', O5', OP1, OP2, C1', C2', C3', C4', C5'
+				N1, N3, N6, N7, N9, C2, C4, C5, C6, C8
+Std form atoms 1H:		H1', H2', HO2', H3', H4', H5', H5'', H2, H61, H62, H8
+Additional atoms:		HOP2
+Std wildcard expressions:	H5'*, H6%
+
+code:				C
+Name:				cytidine-5'-monophospate, phosphate deprotonated.
+Default RCSB equivalent:	-
+Std variant codes:		-
+Std form atoms:			P, O2', O3', O4', O5', OP1, OP2, C1', C2', C3', C4', C5'
+				N1, N3, N4, O2, C2, C4, C5, C6
+Std form atoms 1H:		H1', H2', HO2', H3', H4', H5', H5'', H41, H42, H5, H6
+Additional atoms:		HOP2
+Std wildcard expressions:	H5'*, H4%
+
+code:				G
+Name:				guanosine-5'-monophospate, phosphate deprotonated.
+Default RCSB equivalent:	-
+Std variant codes:		-
+Std form atoms:			P, O2', O3', O4', O5', OP1, OP2, C1', C2', C3', C4', C5'
+				N1, N2, N3, N7, N9, O6, C2, C4, C5, C6, C8
+Std form atoms 1H:		H1', H2', HO2', H3', H4', H5', H5'', H1, H21, H22, H8
+Additional atoms:		HOP2
+Std wildcard expressions:	H5'*, H2%
+
+code:				U
+Name:				uridine-5'-monophospate, phosphate deprotonated.
+Default RCSB equivalent:	-
+Std variant codes:		-
+Std form atoms:			P, O2', O3', O4', O5', OP1, OP2, C1', C2', C3', C4', C5'
+				N1, N3, O2, O4, C2, C4, C5, C6
+Std form atoms 1H:		H1', H2', HO2', H3', H4', H5', H5'', H3, H5, H6
+Additional atoms:		HOP2
+Std wildcard expressions:	H5'*, H7%
+
+
+
+
+All residues above are given in the linking form (linking code 'middle').
+Chain terminating forms differ as follows:
+
+NB - conforming programs must be able to *read* all the variant codes, but may convert them to a
+different representation inernally. For free residues (linking 'single') especially, some programs
+may well choose to convert all variants to a single template with default protonation state.
+
+
+Amino acids:
+- The N-terminal form (linking code 'start') has the backbone 'H' replaced by 'H1', 'H2', 'H3', with
+additional wildcard expressions 'H%'. Also, for each variant there is an additional variant
+with deprotonated amino terminal (code "-H3")
+- The C-terminal form has an extra 'Std form atom' 'OXT' and an extra 'Additional atom' 'HXT'.
+Also, for each variant there is an additional variant with protonated carboxy terminal (code "+HXT")
+- The non-linked form (linking code 'single') has the extra atoms and variant codes of both the 'start' 
+and 'end' forms.
+
+See the worked examples for CYS  and PRO (below) for illustrations.
+
+  
+Example of C/N terminal amino acids: Cysteine
+
+code: 				CYS (Example: N-terminal form)
+Name:				N-terminal L-Cysteine: Default has protonated N-terminus (matches CYS_LSN3)
+Std variant codes:		"-HG" (protonated N terminus, deprotonated side chain, matches CYS_LSN3_DHG)
+				"-H3" (deprotonated N terminus, protonated side chain, no exact RCSB match)
+				"-H3,-HG" (deprotonated N terminus, deprotonated side chain, no exact RCSB match)
+Std form atoms:			N, O, C, CA, CB, SG
+Std form atoms 1H		H1, H2, H3, HA, HB2, HB3, HG
+Additional atoms:		-
+Std wildcard expressions:	H%, HB%
+
+
+code: 				CYS (Example: C-terminal form)
+Name:				C-terminal L-Cysteine: Default has deprotonated carboxy terminus (matches CYS_LEO2)
+Std variant codes:		"-HG" (deprotonated side chain, deprotonated carboxy terminus, matches CYS_LEO2_DHG)
+				"+HXT" (protonated side chain, protonated carboxy terminus, matches CYS_LEO2H)
+				"-HG,+HXT" (deprotonated side chain, protonated carboxy terminus, matches CYS_LEO2H_DHG)
+
+Std form atoms:			N, O, OXT, C, CA, CB, SG
+Std form atoms 1H		H, HA, HB2, HB3, HG
+Additional atoms:		HXT
+Std wildcard expressions:	HB%
+
+
+code: 				CYS (Example: non-linked form)
+Name:				Unlinked L-Cysteine: Default is in zwitterion form (matches CYS_LFZW)
+Std variant codes:		"-HG" (deprotonated side chain, zwitterion form, matches CYS_LFZW_DHG)
+				"-H3,+HXT" (neutral groups form, matches CYS_LFOH)
+				"-H3,-HG,+HXT" (neutral backbone form, deprotonated side chain, matches CYS_LFOH_DHG)
+				"+HXT" (fully protonated form, no exact RCSB match)
+				"-HG,+HXT" (protonated backbone form, with deprotonated side chain, no exact RCSB match)
+				"-H3" (deprotonated backbone form, with protonated side chain, no exact RCSB match)
+				"-H3,-HG" (deprotonated backbone form, with deprotonated side chain, no exact RCSB match)
+Std form atoms:			N, O, OXT, C, CA, CB, SG
+Std form atoms 1H		H1, H2, H3, HA, HB2, HB3, HG
+Additional atoms:		HXT
+Std wildcard expressions:	HB%, H%
+
+
+code: 				PRO (Example, N-terminal form)
+Name:				N-terminal L-Proline: Default has protonated N-terminus (matches PRO_LSN3)
+Std variant codes:		"-H2,-H3,+H" (deprotonated N-terminus form, no exact RCSB match)
+Std form atoms:			N, O, C, CA, CB, CG, CD
+Std form atoms 1H		H2, H3, HA, HB2, HB3, HG2, HG3, HD2, HD3
+Additional atoms:		H
+Std wildcard expressions:	H%, HB%, HG%, HD%
+
+
+
+Nucleotides:
+- 5' terminal nucleotides (linking code 'start') lack the phosphate group in the default state. 
+- 'start' linking forms for the eight standard nucleotides are given below.
+  Each has a supported variant that includes the phoptae, with variant code "-HO5',+P,+OP1,+OP2.+OP3"
+- The 3' terminus (linking code 'end') has an extra 'Std form atom': HO3'
+- The non-linked form (linking code 'single') has two extra 'Std form atom's: OP3 and HO3'.
+  and an extra 'additional atom': HOP3
+  See example of free adenosine monophosphate, below.
+  
+
+Start linking forms of nucleotides:
+
+code:				DA
+Name:				2'-deoxyadenosine, 'start' linking
+Default RCSB equivalent:	-
+Std variant codes:		-HO5',+P,+OP1,+OP2.+OP3
+Std form atoms:			O3', O4', O5', C1', C2', C3', C4', C5'
+				N1, N3, N6, N7, N9, C2, C4, C5, C6, C8
+Std form atoms 1H:		H1', H2', H2'', H3', H4', H5', H5'', H2, H61, H62, H8, HO5'
+Additional atoms:		HOP2, HOP3, OP1, OP2, OP3, P
+Std wildcard expressions:	H2'*, H5'*, H6%
+
+code:				DC
+Name:				2'-deoxycytidine, 'start' linking
+Default RCSB equivalent:	-
+Std variant codes:		-HO5',+P,+OP1,+OP2.+OP3
+Std form atoms:			O3', O4', O5', C1', C2', C3', C4', C5'
+				N1, N3, N4, O2, C2, C4, C5, C6
+Std form atoms 1H:		H1', H2', H2'', H3', H4', H5', H5'', H41, H42, H5, H6, HO5'
+Additional atoms:		HOP2, HOP3, OP1, OP2, OP3, P
+Std wildcard expressions:	H2'*, H5'*, H4%
+
+code:				DG
+Name:				2'-deoxyguanosine, 'start' linking
+Default RCSB equivalent:	-
+Std variant codes:		-HO5',+P,+OP1,+OP2.+OP3
+Std form atoms:			O3', O4', O5', C1', C2', C3', C4', C5'
+				N1, N2, N3, N7, N9, O6, C2, C4, C5, C6, C8
+Std form atoms 1H:		H1', H2', H2'', H3', H4', H5', H5'', H1, H21, H22, H8, HO5'
+Additional atoms:		HOP2, HOP3, OP1, OP2, OP3, P
+Std wildcard expressions:	H2'*, H5'*, H2%
+
+code:				DT
+Name:				2'-deoxythymidine, 'start' linking
+Default RCSB equivalent:	-
+Std variant codes:		-HO5',+P,+OP1,+OP2.+OP3
+Std form atoms:			O3', O4', O5', C1', C2', C3', C4', C5'
+				N1, N3, O2, O4, C2, C4, C5, C6, C7
+Std form atoms 1H:		H1', H2', H2'', H3', H4', H5', H5'', H3, H6, H71, H72, H73, HO5'
+Additional atoms:		HOP2, HOP3, OP1, OP2, OP3, P
+Std wildcard expressions:	H2'*, H5'*, H7%
+
+
+code:				A
+Name:				adenosine, 'start' linking
+Default RCSB equivalent:	-
+Std variant codes:		-HO5',+P,+OP1,+OP2.+OP3
+Std form atoms:			O2', O3', O4', O5', C1', C2', C3', C4', C5'
+				N1, N3, N6, N7, N9, C2, C4, C5, C6, C8
+Std form atoms 1H:		H1', H2', HO2', H3', H4', H5', H5'', H2, H61, H62, H8, HO5'
+Additional atoms:		HOP2, HOP3, OP1, OP2, OP3, P
+Std wildcard expressions:	H5'*, H6%
+
+code:				C
+Name:				cytidine-, 'start' linking
+Default RCSB equivalent:	-
+Std variant codes:		-HO5',+P,+OP1,+OP2.+OP3
+Std form atoms:			O2', O3', O4', O5', C1', C2', C3', C4', C5'
+				N1, N3, N4, O2, C2, C4, C5, C6
+Std form atoms 1H:		H1', H2', HO2', H3', H4', H5', H5'', H41, H42, H5, H6, HO5'
+Additional atoms:		HOP2, HOP3, OP1, OP2, OP3, P
+Std wildcard expressions:	H5'*, H4%
+
+code:				G
+Name:				guanosine, 'start' linking
+Default RCSB equivalent:	-
+Std variant codes:		-HO5',+P,+OP1,+OP2.+OP3
+Std form atoms:			O2', O3', O4', O5', C1', C2', C3', C4', C5'
+				N1, N2, N3, N7, N9, O6, C2, C4, C5, C6, C8
+Std form atoms 1H:		H1', H2', HO2', H3', H4', H5', H5'', H1, H21, H22, H8, HO5'
+Additional atoms:		HOP2, HOP3, OP1, OP2, OP3, P
+Std wildcard expressions:	H5'*, H2%
+
+code:				U
+Name:				uridine, 'start' linking
+Default RCSB equivalent:	-
+Std variant codes:		-HO5',+P,+OP1,+OP2.+OP3
+Std form atoms:			O2', O3', O4', O5', C1', C2', C3', C4', C5'
+				N1, N3, O2, O4, C2, C4, C5, C6
+Std form atoms 1H:		H1', H2', HO2', H3', H4', H5', H5'', H3, H5, H6, HO5'
+Additional atoms:		HOP2, HOP3, OP1, OP2, OP3, P
+Std wildcard expressions:	H5'*, H7%
+
+
+Example: free adenosine-5'-monophospate
+
+code:				A
+Name:				adenosine-5'-monophospate, 'single' linking
+Default RCSB equivalent:	-
+Std variant codes:		-
+Std form atoms:			P, OP1, OP2, OP3, O2', O3', O4', O5', C1', C2', C3', C4', C5'
+				N1, N3, N6, N7, N9, C2, C4, C5, C6, C8
+Std form atoms 1H:		H1', H2', HO2', H3', H4', H5', H5'', H2, H61, H62, H8, HO3'
+Additional atoms:		HOP2, HOP3
+Std wildcard expressions:	H5'*, H6%
+
+
+
+For non-standard residues, the standard uses the RCSB chemical compounds, as they stand, as the default form, 
+and has no supported variant codes.
+
+
+
+It is possible to make variants freely with atoms either added or removed. 
+When adding atoms that are not in the 'Additional atoms' list, their bonds must be specified explicitly.
+There is no obligation on programs to interpret non-standard residues or non-standard variants.

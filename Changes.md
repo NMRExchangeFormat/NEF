@@ -1,6 +1,18 @@
 Change log
 ==========
 
+
+**Proposal new_residue_variants**
+
+* Change variant specification from RCSB codes to form tha lista added and subtracted atoms
+
+* Add _nef_sequence.cis_peptide column to specify peptide obnd cis/trans state.
+
+* Add specifications/Residue_Variants.txt listing all supported standard residue variants
+
+* Add example of non-stadard modified residue
+
+
 **Proposal add_nef_sequence_ordinal**
 
 * Add ordinal column to nef_sequence loop to recflect the (significant) line order.
