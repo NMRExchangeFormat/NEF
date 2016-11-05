@@ -464,65 +464,71 @@ system. Only the expressions H%, HG2%, and H\* would appear in normal use.
     position).The '\_nef_sequence.linking' column shows linear connection
     information.
 
-    Linear polymer residues (alpha-amino acids, DNA, and RNA) can have the
-    following linking values:
-      - 'start': the N-terminal or 5' end of a linear polymer
-      - 'end': the C-terminal or 3' end of a linear polymer
-      - 'middle': non-terminal residue in a linear polymer
-      - 'single': not part of a linear polymer.
-      - 'cyclic': first and last residue of a cyclic linear polymer; the
-        second 'cyclic' residue precedes the first cyclic residue in the
-        sequence
-      - 'break': A residue of linking type 'middle' that lacks a standard
-        linear polymer linkage on either or both sides.
-      - 'nonlinear': A residue that is not of linear polymer type always has
-        this linking value.
-      - 'dummy': A residue that is not part of the sequence proper,
-        e.g.  TNSR residue, or a linker residue (as used e.g. in CYANA).
-        Dummy residues that do not have a specific type (e.g. TNSR) should
-        use code UNK.
+      Linear polymer residues (alpha-amino acids, DNA, and RNA) can have the
+      following linking values:
+        - 'start': the N-terminal or 5' end of a linear polymer
+        - 'end': the C-terminal or 3' end of a linear polymer
+        - 'middle': non-terminal residue in a linear polymer
+        - 'single': not part of a linear polymer.
+        - 'cyclic': first and last residue of a cyclic linear polymer; the
+          second 'cyclic' residue precedes the first cyclic residue in the
+          sequence
+        - 'break': A residue of linking type 'middle' that lacks a standard
+          linear polymer linkage on either or both sides.
+        - 'nonlinear': A residue that is not of linear polymer type always has
+          this linking value.
+        - 'dummy': A residue that is not part of the sequence proper,
+          e.g.  TNSR residue, or a linker residue (as used e.g. in CYANA).
+          Dummy residues that do not have a specific type (e.g. TNSR) should
+          use code UNK.
 
-    Sequential linking within a given chain is inferred from the linking column
-    of consecutive residues. Residues of type 'start', 'middle', and 'end' must
-    have the appropriate link to the next/preceding residue in the same chain.
-    Sequences flanked by a 'start'-'end'
-    pair or a 'cyclic'-'cyclic' pair denote a linear or cyclic linear polymer,
-    respectively. The 'break' keyword is used when the first or last residue in
-    a linear polymer stretch is not a chain terminal variant. This might be the
-    case when only part of a sequence is given (discouraged but possible), or
-    when the next link is not a linear polymer link, e.g. for chain caps. Guy
-    Montelione (thanks!) gave an interesting example where the terminal -NH3
-    group was in an amide bond to a glutamate side chain in the same chain;
-    this topology would be given as 'break-middle-middle-middle-
-    ... -middle-end'. Only standard linear polymer links can be inferred from
-    the sequence; other links are given in the 'covalent_links' loop below.
+      Sequential linking within a given chain is inferred from the linking column
+      of consecutive residues. Residues of type 'start', 'middle', and 'end' must
+      have the appropriate link to the next/preceding residue in the same chain.
+      Sequences flanked by a 'start'-'end'
+      pair or a 'cyclic'-'cyclic' pair denote a linear or cyclic linear polymer,
+      respectively. The 'break' keyword is used when the first or last residue in
+      a linear polymer stretch is not a chain terminal variant. This might be the
+      case when only part of a sequence is given (discouraged but possible), or
+      when the next link is not a linear polymer link, e.g. for chain caps. Guy
+      Montelione (thanks!) gave an interesting example where the terminal -NH3
+      group was in an amide bond to a glutamate side chain in the same chain;
+      this topology would be given as 'break-middle-middle-middle-
+      ... -middle-end'. Only standard linear polymer links can be inferred from
+      the sequence; other links are given in the 'covalent_links' loop below.
 
-    By default residue variants are assumed to be the pH 7 forms,
-    specifically fully protonated HIS, LYS, ARG and N-terminus,
-    deprotonated ASP, GLU, and C-terminus, and deprotonated or disulfide
-    linked CYS (the PDB residue variants codes makes no distinction between
-    the two cases). The default types correspond to the DYANA types 'ARG+',
-    'ASP-', 'CYSS', 'GLU-', HIST+', and 'LYS+'. The optional
-    'residue_variant' column can be used for specifying protonation states
-    when these are known and different from the default.
+      By default residue variants are assumed to be the pH 7 forms,
+      specifically fully protonated HIS, LYS, ARG and N-terminus,
+      deprotonated ASP, GLU, and C-terminus, and deprotonated or disulfide
+      linked CYS (the PDB residue variants codes makes no distinction between
+      the two cases). The default types correspond to the DYANA types 'ARG+',
+      'ASP-', 'CYSS', 'GLU-', HIST+', and 'LYS+'. The optional
+      'residue_variant' column can be used for specifying protonation states
+      when these are known and different from the default.
 
-    The RCSB system requires a short introduction. The names are in three
-    parts, connected by underscores:
-      - first the three-letter residue code.
-      - second a backbone configuration marker, with the relevant values:
-        - 'LL' (L-amino acid, in middle of chain)
-        - 'LSN3' (L-amino acid, at start of chain, N-terminal protonated)
-        - 'LEO2' (L-amino acid, at end of chain, deprotonated C terminus)
-        - 'LEO2H' (L-amino acid, at end of chain, protonated C terminus)
-      - third a string showing which proton has been removed from the fully
-        protonated form.
+      The RCSB system requires a short introduction. The names are in three
+      parts, connected by underscores:
+        - first the three-letter residue code.
+        - second a backbone configuration marker, with the relevant values:
+          - 'LL' (L-amino acid, in middle of chain)
+          - 'LSN3' (L-amino acid, at start of chain, N-terminal protonated)
+          - 'LEO2' (L-amino acid, at end of chain, deprotonated C terminus)
+          - 'LEO2H' (L-amino acid, at end of chain, protonated C terminus)
+        - third a string showing which proton has been removed from the fully
+          protonated form.
 
-    See table below for supported variant codes.
+      See table below for supported variant codes.
 
-    **Supported residue variant codes**:
-    Note that each comes in four different versions, all for L-amino acids:
-     'LL' (middle of chain), 'LSN3' (N-terminal, protonated),
-     'LEO2' (C-terminal, deprotonated), and 'LEO2H' (C-terminal, protonated).
+    5. The ordinal column is a line number with consecutive integers starting
+    at 1. It is not preserved on import and re-export. The purpose it to
+    preserve the order of the lines (which is significant for specifying the
+    sequence) for implementations like (deposition) databases that do not use
+    ordered containers for the data.
+
+  **Supported residue variant codes**:
+  Note that each comes in four different versions, all for L-amino acids:
+   'LL' (middle of chain), 'LSN3' (N-terminal, protonated),
+   'LEO2' (C-terminal, deprotonated), and 'LEO2H' (C-terminal, protonated).
 
 | residue_name | dyana_type | protonation_code | example | comment |
 |-----|:-----|:-------|-----|-----|

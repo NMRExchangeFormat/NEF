@@ -157,6 +157,7 @@ INSERT PULSE PROGRAM HERE
       # Mandatory:
       loop_
 	 # mandatory parameters
+         _nef_sequence.ordinal
          _nef_sequence.chain_code
          _nef_sequence.sequence_code
          _nef_sequence.residue_name
@@ -167,70 +168,74 @@ INSERT PULSE PROGRAM HERE
 
          # key: chain_code, sequence_code
 
-         A  13   ALA  start      .
-         A  14   TRP  middle     .
-         A  15   GLY  middle     .
-         A  16   ASN  middle     .
-         A  17   VAL  middle     .
-         A  18   PHE  middle     .
-         A  19   LEU  middle     .
-         A  20   CYS  middle     .
-         A  21   ALA  middle     .
-         A  22   THR  middle     .
-         A  23   LYS  middle     .
-         A  24   ASP  middle     .
-         A  24B  GLN  middle     .
-         A  24C  GLN  middle     .
-         A  24D  TYR  middle     .
-         A  25   HIS  end        .
-         B  17   CYS  single     .
-         C  1    GLY  cyclic     .
-         C  2    PRO  middle     cispeptide
-         C  3    ASP  middle     ASP_LL
-         C  4    GLY  middle     .
-         C  5    PRO  middle     .
-         C  6    ASP  cyclic     .
-         D -3    TNSR dummy      .
-         D -2    LL2  dummy      .
-         D -1    LL1  dummy      .
-         D  0    LL   dummy      .
-         D  1    ALA  .          .
-         D  2    CYS  .          .
-         D  3    GLY  .          .
-         D  4    CYS  .          .
-         D  5    VAL  .          .
-         D  6    CYS  .          .
-         D  7    PHE  .          .
-         D  8    CYS  .          .
-         D  9    ASN  .          .
-         E  1    ASN  break      .
-         E  2    THR  middle     .
-         E  3    ALA  middle     .
-         E  4    PRO  middle     .
-         E  5    ALA  middle     .
-         E  6    GLU  middle     .
-         E  7    SER  middle     .
-         E  8    GLN  middle     .
-         E  9    GLU  middle     GLU_LL
-         E  10   HIS  middle     HIS_LL_DHD1
-         E  11   HIS  middle     HIS_LL_DHE2
-         E  12   CYS  middle     CYS_LL
-         E  13   LYS  middle     LYS_LL_DHZ3
-         E  14   ARG  break      ARG_LL_DHH12
-         E  15   MOH  nonlinear  .
-         E  16   GLC  nonlinear  .
-         F   1   GLY  start      .
-         F   2   ILE  middle     .
-         F   3   SER  middle     .
-         F   4   THR  break      .
-         F  11   ASN  middle     .
-         F  12   SER  end        .
-         G   3   TYR  middle     .
-         G   4   GLY  middle     .
-         G   5   ALA  middle     .
-         Y   1   ATP  nonlinear  .
+          1  A  13   ALA  start      .
+          2  A  14   TRP  middle     .
+          3  A  15   GLY  middle     .
+          4  A  16   ASN  middle     .
+          5  A  17   VAL  middle     .
+          6  A  18   PHE  middle     .
+          7  A  19   LEU  middle     .
+          8  A  20   CYS  middle     .
+          9  A  21   ALA  middle     .
+         10  A  22   THR  middle     .
+         11  A  23   LYS  middle     .
+         12  A  24   ASP  middle     .
+         13  A  24B  GLN  middle     .
+         14  A  24C  GLN  middle     .
+         15  A  24D  TYR  middle     .
+         16  A  25   HIS  end        .
+         17  B  17   CYS  single     .
+         18  C  1    GLY  cyclic     .
+         19  C  2    PRO  middle     cispeptide
+         20  C  3    ASP  middle     ASP_LL
+         21  C  4    GLY  middle     .
+         22  C  5    PRO  middle     .
+         23  C  6    ASP  cyclic     .
+         24  D -3    TNSR dummy      .
+         25  D -2    LL2  dummy      .
+         26  D -1    LL1  dummy      .
+         27  D  0    LL   dummy      .
+         28  D  1    ALA  .          .
+         29  D  2    CYS  .          .
+         30  D  3    GLY  .          .
+         31  D  4    CYS  .          .
+         32  D  5    VAL  .          .
+         33  D  6    CYS  .          .
+         34  D  7    PHE  .          .
+         35  D  8    CYS  .          .
+         36  D  9    ASN  .          .
+         37  E  1    ASN  break      .
+         38  E  2    THR  middle     .
+         39  E  3    ALA  middle     .
+         40  E  4    PRO  middle     .
+         41  E  5    ALA  middle     .
+         42  E  6    GLU  middle     .
+         43  E  7    SER  middle     .
+         44  E  8    GLN  middle     .
+         45  E  9    GLU  middle     GLU_LL
+         46  E  10   HIS  middle     HIS_LL_DHD1
+         47  E  11   HIS  middle     HIS_LL_DHE2
+         48  E  12   CYS  middle     CYS_LL
+         49  E  13   LYS  middle     LYS_LL_DHZ3
+         50  E  14   ARG  break      ARG_LL_DHH12
+         51  E  15   MOH  nonlinear  .
+         52  E  16   GLC  nonlinear  .
+         53  F   1   GLY  start      .
+         54  F   2   ILE  middle     .
+         55  F   3   SER  middle     .
+         56  F   4   THR  break      .
+         57  F  11   ASN  middle     .
+         58  F  12   SER  end        .
+         59  G   3   TYR  middle     .
+         60  G   4   GLY  middle     .
+         61  G   5   ALA  middle     .
+         62  Y   1   ATP  nonlinear  .
       stop_
 
+# The first column (ordinal) is a consecutive line number that does not persist  
+# when data are re-exported. It is there only to store the order that the lines
+# are givn inthe file (which is significant for specifying the sequence).
+#
 # Chain A is a linear Hexadecapeptide (13-25), disulfide linked to a free
 # cysteine (Chain B)
 #
