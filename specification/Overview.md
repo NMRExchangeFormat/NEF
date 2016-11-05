@@ -409,7 +409,7 @@ expressions.
     'upper-bound-parabolic-linear',  'lower-bound-parabolic-linear'
 
     3. '\_nef_sequence.linking': 'start', 'end', 'middle', 'cyclic', 'break',
-    'single', 'dummy', 'nonlinear'
+    'single', 'dummy'
 
     4. '\_nef_spectrum_dimension.folding': 'circular', 'mirror', 'none'
 
@@ -451,7 +451,7 @@ expressions.
     ligands, etc. are handled by using different chain codes.
 
     2. All programs must support the standard linear polymer residues and
-    their default states. Support for non-standard links, residues and residue
+    their default states. Support for non-standard links, residues or residue
     variants is not mandatory, but programs that do support these should read
     and write sequence descriptions accordingly.
 
@@ -472,41 +472,57 @@ expressions.
         - 'start': the N-terminal or 5' end of a linear polymer
         - 'end': the C-terminal or 3' end of a linear polymer
         - 'middle': non-terminal residue in a linear polymer
-        - 'single': not part of a linear polymer.
+        - 'single': d.	Linking 'single' is a 'free, single molecule' form. 
+          It used for any residue that does not participate in a regular linear 
+          polymer link, e.g. for free amino acids or for any residue that is 
+          not an alpha amino acid or nucleotide..
         - 'cyclic': first and last residue of a cyclic linear polymer; the
           second 'cyclic' residue precedes the first cyclic residue in the
           sequence
-        - 'break': A residue of linking type 'middle' that lacks a standard
-          linear polymer linkage on either or both sides.
-        - 'nonlinear': A residue that is not of linear polymer type always has
-          this linking value.
-        - 'dummy': A residue that is not part of the sequence proper,
-          e.g.  TNSR residue, or a linker residue (as used e.g. in CYANA).
-          Dummy residues that do not have a specific type (e.g. TNSR) should
-          use code UNK.
+        - 'break': A residue of linking type 'middle' that does not form a standard
+        sequential link to the following residue in the table,
+        - 'dummy': e.	Linking 'dummy' is used for dummy residues. By definition 
+        these do not contain atoms or participate in links. By convention, dummy 
+        residues used to represent tensor values have the residue name 'TNSR'
+      
+        Linkings 'middle', 'cyclic', or 'break' all signify a linear polymer 
+        residue with links in both directions
+        
+        
+       Sequential links are specified as follows:
 
-      Sequential linking within a given chain is inferred from the linking column
-      of consecutive residues. Residues of type 'start', 'middle', and 'end' must
-      have the appropriate link to the next/preceding residue in the same chain.
-      Sequences flanked by a 'start'-'end'
-      pair or a 'cyclic'-'cyclic' pair denote a linear or cyclic linear polymer,
-      respectively. The 'break' keyword is used when the first or last residue in
-      a linear polymer stretch is not a chain terminal variant. This might be the
-      case when only part of a sequence is given (discouraged but possible), or
-      when the next link is not a linear polymer link, e.g. for chain caps. Guy
-      Montelione (thanks!) gave an interesting example where the terminal -NH3
-      group was in an amide bond to a glutamate side chain in the same chain;
-      this topology would be given as 'break-middle-middle-middle-
-      ... -middle-end'. Only standard linear polymer links can be inferred from
-      the sequence; other links are given in the 'covalent_links' loop below.
+        - A normal sequence is given as a 'start' residue, followed by a series of 'middle' 
+          residues and terminated with an 'end' residue. 
 
-      By default residue variants are assumed to be the pH 7 forms. Programs
+        - If the 'start' ,'end' or both are omitted, or replaced by a form that does not 
+          allow links, the residue(s) at the end(s) of the sequence are NOT converted to 
+          terminal form, but remain in 'middle' form, with dangling ends.
+
+        - A series of 'middle' residues with a 'cyclic' residue at either end defines a cyclic 
+          stretch of linear polymer. 'cyclic' residues must appear in pairs, and all intervening 
+          residues must be of type 'middle'.
+
+        - 'single' residues do not partake in implicit sequential links, but may be linked 
+          through explicitly specified covalent bonds.
+
+        - The 'break' linking is used only to specify gaps in the sequence and has a very specific 
+          meaning: It signifies a residue of 'middle' form, that does NOT form a link to the 
+          successive residue. It s necessary only if  the successive residue is of type 'middle', 
+         'end', or 'break', and is likely to be very rarely used.
+
+      By default variants of standard residues are assumed to be the pH 7 forms, 
+      as specified in the Residue_Variants.txt file. Programs
       are required to support (in the sense of being able to read and 
       sensibly interpret) the standard 20 amino acids, 4 DNA and 4 RNA 
       nucleotides, toghether with their standard variants and wildcard atoms. 
       These are all defined in the specification/Residue_Variants.txt file.
+      Non-standard residues are assumed to be in the form given by the corresponding 
+      RCSB chemical compound.
 
-    5. The ordinal column is a line number with consecutive integers starting
+    5.Cis peptide bonds are indicated by the (Boolean) nef_sequence.cis_peptide column. 
+    The default value is 'false'.
+
+    6. The ordinal column is a line number with consecutive integers starting
     at 1. It is not preserved on import and re-export. The purpose it to
     preserve the order of the lines (which is significant for specifying the
     sequence) for implementations like (deposition) databases that do not use
