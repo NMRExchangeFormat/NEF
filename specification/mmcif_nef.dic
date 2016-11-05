@@ -839,7 +839,7 @@ save_nef_sequence
           34  D  7    PHE  .          .            .
           35  D  8    CYS  .          -HD          .
           36  D  9    ASN  .          .            .
-          37  E  1    ASN  break      .            .
+          37  E  1    ASN  middle     .            .
           38  E  2    THR  middle     -HG1,-OG1    .
           39  E  3    ALA  middle     .            .
           40  E  4    PRO  middle     .            .
@@ -852,9 +852,9 @@ save_nef_sequence
           47  E  11   HIS  middle     .            .
           48  E  12   CYS  middle     .            .
           49  E  13   LYS  middle     .            .
-          50  E  14   ARG  break      .            .
-          51  E  15   MOH  nonlinear  -HO          .
-          52  E  16   GLC  nonlinear  -HO1         .
+          50  E  14   ARG  middle     .            .
+          51  E  15   MOH  single     -HO          .
+          52  E  16   GLC  single     -HO1         .
           53  F   1   GLY  start      .            .
           54  F   2   ILE  middle     .            .
           55  F   3   SER  middle     .            .
@@ -887,7 +887,7 @@ save_nef_sequence
 #
 # Chains F and G represent a chimeric protein, where (part of) chain G has been
 # inserted into chain F while maintaining the original numbering. Each chain is given as a
-# single block of residues, with the 'break' linking to show the chain gap, and the 
+# single block of residues, with the 'break' preceding a chain gap, and the 
 # nef_covalent_links loop to show the additional sequential links.
 ;
    #
@@ -963,7 +963,6 @@ save__nef_sequence.linking
        cyclic
        break
        single
-       nonlinear
        dummy
     stop_
 save_

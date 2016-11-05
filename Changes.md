@@ -1,6 +1,12 @@
 Change log
 ==========
 
+**Proposal change_sequence_linking**
+
+* Changed rules for 'break' linking type, making it simper t0 specify sequences with breaks
+
+* Removed 'nonlinear' linking type - now using 'single' for all residue types instead.
+
 
 **Proposal new_residue_variants**
 
