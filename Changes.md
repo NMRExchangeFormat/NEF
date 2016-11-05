@@ -1,6 +1,10 @@
 Change log
 ==========
 
+**Proposal add_nef_sequence_ordinal**
+
+* Add ordinal column to nef_sequence loop to recflect the (significant) line order.
+
 **Proposal multiple changes**
 
 * Add program_specific_raw_data saveframe
