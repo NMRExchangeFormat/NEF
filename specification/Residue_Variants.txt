@@ -8,6 +8,20 @@
 # Each residue is given as the linking ('middle') form. 'start' and 'end' residues are 
 # dealt with separately at the bottom of the file.
 
+# Note that the topology of residues is always defined by the mmCIf chemical compound 
+# definitions with the same name (if any). If e.g. atom names conflict between 
+# this file and the mmCIf Chemical Compound definitions, the mmCif topologies take 
+# precedence (and this file should be fixed to match).
+
+# All existing  mmCif variant codes and their NEF equivalents are given in the companion
+# file, mmCif_NEF_variant_mapping.txt
+#
+# Note : The side chain deprotonated variants of Ser, Thr, and Trp that are given in the 
+# mmCif are not included in the present file, because they are not mandatory to support.
+# Their topology and NEF variant codes follow from the companion file and the mmCif
+# topology files.
+
+
 # NEF standard residues - linking form:
 
 Code: 				ALA
@@ -295,6 +309,7 @@ and 'end' forms.
 
 See the worked examples for CYS  and PRO (below) for illustrations.
 
+
   
 Example of C/N terminal amino acids: Cysteine
 
@@ -336,12 +351,15 @@ Additional atoms:		HXT
 Std wildcard expressions:	HB%, H%
 
 
+NB N-terminal deprotonated proline is given as having a 'H2' atom on the nitrogen.
+This is consistent with the mmCif atom naming on free, neutral proline ('PRO_LFOH')
+
 code: 				PRO (Example, N-terminal form)
 Name:				N-terminal L-Proline: Default has protonated N-terminus (matches PRO_LSN3)
-Std variant codes:		"-H2,-H3,+H" (deprotonated N-terminus form, no exact RCSB match)
+Std variant codes:		"-H3" (deprotonated N-terminus form, no exact RCSB match)
 Std form atoms:			N, O, C, CA, CB, CG, CD
 Std form atoms 1H		H2, H3, HA, HB2, HB3, HG2, HG3, HD2, HD3
-Additional atoms:		H
+Additional atoms:		-
 Std wildcard expressions:	H%, HB%, HG%, HD%
 
 
