@@ -1,6 +1,15 @@
 Change log
 ==========
 
+
+**Proposal rename_to_index**
+
+* rename 'index_id'and 'ordinal' to just 'index',
+  and rename and 'run_ordinal' to 'run_number'
+  This proposal deliberately undoes several prior proposals. It arose out
+  of discussion on those proposals.
+
+
 **Proposal new_isotope_specification**
 
 * Added _nef_chemical_shift.element and _nef_chemical_shift.isotope_number columns
