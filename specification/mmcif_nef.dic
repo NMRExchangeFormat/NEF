@@ -615,12 +615,12 @@ save_nef_run_history
    #
    _category_group.id             nef_group
    #
-   _category_key.name             "_nef_run_history.run_ordinal"
+   _category_key.name             "_nef_run_history.run_number"
    #
    _category_examples.detail  "Example 1"
    _category_examples.case    
 ;   loop_
-      _nef_run_history.run_ordinal
+      _nef_run_history.run_number
       _nef_run_history.program_name
       _nef_run_history.program_version
       _nef_run_history.script_name
@@ -637,12 +637,12 @@ save_nef_run_history
    #
 save_
 #
-save__nef_run_history.run_ordinal
+save__nef_run_history.run_number
    #
 
-   _item_description.description  "A unique and ordered identifier for program steps related to this data set."
+   _item_description.description  "An identifier (serial number) for calculation runs."
    #
-   _item.name            "_nef_run_history.run_ordinal"
+   _item.name            "_nef_run_history.run_number"
    _item.category_id     nef_run_history
    _item.mandatory_code  yes
    #
@@ -789,11 +789,11 @@ save_nef_sequence
    _category_key.name
      "_nef_sequence.chain_code"  
      "_nef_sequence.sequence_code"  
-     "_nef_sequence.residue_name"  
    #
    _category_examples.detail  "Example 1"
    _category_examples.case    
 ;  loop_
+    _nef_sequence.index
     _nef_sequence.chain_code
     _nef_sequence.sequence_code
     _nef_sequence.residue_name
@@ -866,7 +866,7 @@ save_nef_sequence
           61  G   5   ALA  middle     .            .
   stop_
   
-# The first column (ordinal) is a consecutive line number that does not persist  
+# The first column (index) is a consecutive line number that does not persist  
 # when data are re-exported. It is there only to store the order that the lines
 # are givn inthe file (which is significant for specifying the sequence).
 #
@@ -890,6 +890,21 @@ save_nef_sequence
 # single block of residues, with the 'break' preceding a chain gap, and the 
 # nef_covalent_links loop to show the additional sequential links.
 ;
+   #
+save_
+#
+save__nef_sequence.index
+   #
+
+   _item_description.description  "Line number for the restraint loop - not preserved when data are read."
+   #
+   _item.name            "_nef_sequence.index"
+   _item.category_id     nef_sequence
+   _item.mandatory_code  yes
+   #
+   _item_type.code  int
+   #
+   _item_examples.case  1
    #
 save_
 #
@@ -1537,12 +1552,12 @@ save_nef_distance_restraint
    #
    _category_group.id             nef_group
    #   #
-   _category_key.name             '_nef_distance_restraint.index_id'
+   _category_key.name             '_nef_distance_restraint.index'
    #
    _category_examples.detail  "Example 1"
    _category_examples.case    
 ;  loop_
-    _nef_distance_restraint.index_id
+    _nef_distance_restraint.index
     _nef_distance_restraint.restraint_id
     _nef_distance_restraint.restraint_combination_id
     _nef_distance_restraint.chain_code_1
@@ -1570,7 +1585,7 @@ save_nef_distance_restraint
     6  8  .   E 6B   SER  HB2  A 24  ASP  HBY 1.00 4.4  0.4   3.6  4.1  5.2  5.7
   stop_
 
-  # The first column (index_id) is a consecutive line number that does not persist  
+  # The first column (index) is a consecutive line number that does not persist  
   # when data are re-exported
   # The second column gives the restraint ID.
   # Lines 9cxontgributions) with the same restraint_id are combined into a single restraint
@@ -1586,12 +1601,12 @@ save_nef_distance_restraint
    #
 save_
 #
-save__nef_distance_restraint.index_id
+save__nef_distance_restraint.index
    #
 
    _item_description.description  "Line number for the restraint loop - not preserved when data are read."
    #
-   _item.name            "_nef_distance_restraint.index_id"
+   _item.name            "_nef_distance_restraint.index"
    _item.category_id     nef_distance_restraint
    _item.mandatory_code  yes
    #
@@ -1963,12 +1978,12 @@ save_nef_dihedral_restraint
    #
    _category_group.id  nef_group
    #
-   _category_key.name  "_nef_dihedral_restraint.index_id"
+   _category_key.name  "_nef_dihedral_restraint.index"
    #
    _category_examples.detail  "Example 1"
    _category_examples.case    
 ;  loop_
-    _nef_dihedral_restraint.index_id
+    _nef_dihedral_restraint.index
     _nef_dihedral_restraint.restraint_id
     _nef_dihedral_restraint.restraint_combination_id
     _nef_dihedral_restraint.chain_code_1
@@ -2010,12 +2025,12 @@ stop_
    #
 save_
 
-save__nef_dihedral_restraint.index_id
+save__nef_dihedral_restraint.index
    #
 
    _item_description.description  "Line number for the restraint loop - not preserved when data are read."
    #
-   _item.name            "_nef_dihedral_restraint.index_id"
+   _item.name            "_nef_dihedral_restraint.index"
    _item.category_id     nef_dihedral_restraint
    _item.mandatory_code  yes
    #
@@ -2598,13 +2613,13 @@ save_nef_rdc_restraint
    #
    _category_group.id             nef_group
    #
-   _category_key.name             '_nef_rdc_restraint.index_id'
+   _category_key.name             '_nef_rdc_restraint.index'
    #
    _category_examples.detail      "Example 1"
    _category_examples.case    
 ;
   loop_
-    _nef_rdc_restraint.index_id
+    _nef_rdc_restraint.index
     _nef_rdc_restraint.restraint_id
     _nef_rdc_restraint.restraint_combination_id
     _nef_rdc_restraint.chain_code_1
@@ -2633,12 +2648,12 @@ save_nef_rdc_restraint
    #
 save_
 #
-save__nef_rdc_restraint.index_id
+save__nef_rdc_restraint.index
    #
 
    _item_description.description  "Line number for the restraint loop - not preserved when data are read."
    #
-   _item.name            "_nef_rdc_restraint.index_id"
+   _item.name            "_nef_rdc_restraint.index"
    _item.category_id     nef_rdc_restraint
    _item.mandatory_code  yes
    #
@@ -3369,7 +3384,7 @@ save_nef_peak
    #
    _category_group.id             nef_group
    #
-   _category_key.name             "_nef_peak.index_id"
+   _category_key.name             "_nef_peak.index"
    #
    loop_
       _category_examples.detail     
@@ -3378,7 +3393,7 @@ save_nef_peak
 ;
   loop_
 
-      _nef_peak.index_id
+      _nef_peak.index
       _nef_peak.peak_id
       _nef_peak.volume
       _nef_peak.volume_uncertainty
@@ -3403,7 +3418,7 @@ save_nef_peak
       _nef_peak.residue_name_3
       _nef_peak.atom_name_3
 
-  #key: index_id
+  #key: index
 
  1  1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 0.05 119.5 0.5 8.3 0.03 A 19 LEU HBY A 17 GLN N   A 17 GLN H
  2  1 7.3E7 5.1E6 3.3E7 1.1E6  3.2 0.05 119.5 0.5 8.3 0.03 A 20 CYS HBX A 17 GLN N   A 17 GLN H
@@ -3419,7 +3434,7 @@ save_nef_peak
 ;
        "Example 2"
 ;   loop_
-      _nef_peak.index_id
+      _nef_peak.index
       _nef_peak.peak_id
       _nef_peak.volume
       _nef_peak.volume_uncertainty
@@ -3526,12 +3541,12 @@ save_nef_peak
    #
 save_
 #
-save__nef_peak.index_id
+save__nef_peak.index
    #
    
    _item_description.description  "Line number for the peak loop - not preserved when data are read."
    #
-   _item.name            "_nef_peak.index_id"
+   _item.name            "_nef_peak.index"
    _item.category_id     nef_peak
    _item.mandatory_code  yes
    #
