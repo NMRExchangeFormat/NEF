@@ -397,6 +397,14 @@ INSERT PULSE PROGRAM HERE
          226  O  16    DT  end         .                         .
          227  X   1   PHE  single      -HD1,-HD2,+ID1,+CLD2      .
          228  Y   1   ATP  single      .                         .
+         229  W   1   ASP  start       .                         .
+         231  W   2   CYS  middle      -HG                       .
+         232  W   3   ASP  middle      .                         .
+         233  W   4   CYS  middle      -HG                       .                    .
+         234  W   5   LYS  end         .                         .               .
+         235  W   6   CA   single      .                         .
+         236  W   7   CD   single      .                         .
+         
       stop_
 
 # The first column (ordinal) is a consecutive line number that does not persist  
@@ -469,6 +477,10 @@ INSERT PULSE PROGRAM HERE
          F 11 ASN N   G  5 ALA C
          X  1 PHE CD1 X  1 PHE ID1
          X  1 PHE CD2 X  1 PHE CLD2
+         W  1 ASP OD1 W  6 CA  CA
+         W  2 CYS SG  W  7 CD  CD
+         W  3 ASP OD1 W  6 CA  CA
+         W  4 CYS SG  W  7 CD  CD
       stop_
 
    save_
@@ -495,64 +507,104 @@ INSERT PULSE PROGRAM HERE
          _nef_chemical_shift.atom_name
          _nef_chemical_shift.value
          _nef_chemical_shift.value_uncertainty
+         _nef_chemical_shift.element
+         _nef_chemical_shift.isotope_number
       
          # key: chain_code, sequence_code, atom_name
 
-         @2    SS@12   .     CAi-1  48.2    0   
-         @2    SS@231  GLX?  CAi-1  48.2    0   
-         A     14      TRP   HB2    3.4     0   
-         A     14      TRP   HB3    3.2     0   
-         A     14      TRP   HE1    9.9     0   
-         A     14      TRP   NE1    135.6   0   
-         A     15      GLY   H      7.8     0   
-         A     15      GLY   N      106.5   0   
-         A     15      GLY   QA     3.42    0.02
-         A     17      VAL   H      8.12    0   
-         A     17      VAL   N      116.5   0   
-         A     17      VAL   CG%    22.1    0.3 
-         A     17      VAL   HG%    0.73    0.02
-         A     18      PHE   H      8.3     0   
-         A     18      PHE   HB2    2.87    0.02
-         A     18      PHE   HB3    2.42    0.02
-         A     18      PHE   N      119.5   0   
-         A     19      LEU   CA     172.2   0   
-         A     19      LEU   CB     58.5    0   
-         A     19      LEU   CDx    17.4    0.3 
-         A     19      LEU   CDy    18.7    0.3 
-         A     19      LEU   CG     32.3    0   
-         A     19      LEU   HBx    2.13    0.02
-         A     19      LEU   HBy    2.51    0.02
-         A     19      LEU   HDx%   0.87    0.02
-         A     19      LEU   HDy%   0.73    0.02
-         A     19      LEU   HN     7.2     0   
-         A     19      LEU   N      119.5   0   
-         A     20      CYS   HBx    3.2     0   
-         A     21      ALA   H      8.33    0.02
-         A     21      ALA   HA     4.17    0.02
-         A     21      ALA   HB%    1.34    0.02
-         A     21      ALA   N      123.4   0.4
-         A     22      THR   H      9.17    0.02
-         A     22      THR   HG2%   1.41    0.02
-         A     22      THR   HB     3.88    0.02
-         A     22      THR   N      123.4   0.4
-         A     23      LYS   CA     43.2    0.25
-         A     23      LYS   H      8.45    0.04
-         A     23      LYS   HA     4.27    0.02
-         A     23      LYS   N      123.45  0.4 
-         A     24      ASP   H      8.79    0   
-         A     24      ASP   N      124.1   0   
-         A     24      ASP   HBy    3.4     0   
-         A     24B     GLN   H      8.3     0   
-         A     24B     GLN   N      119.5   0   
-         A     24C     GLN   C      28.3    0   
-         A     24C     GLN   CA     22.2    0   
-         A     24C     GLN   CB     58.5    0   
-         A     24C     GLN   CG     32.3    0   
-         A     24D     TYR   H      8.3     0   
-         A     24D     TYR   N      119.5   0   
-         E     7       SER   HB2    3.52    0
-         Z     @5      GLX   H      9.1     0   
-         Z     @5      GLX   N      118.3   0   
+         @2    SS@12   .     CAi-1  48.2    0      .     .
+         @2    SS@231  GLX?  CAi-1  48.2    0      .     .
+         A     14      TRP   HB2    3.4     0      .     .
+         A     14      TRP   HB3    3.2     0      .     .
+         A     14      TRP   HE1    9.9     0      .     .
+         A     14      TRP   NE1    135.6   0      .     .
+         A     15      GLY   H      7.8     0      .     .
+         A     15      GLY   N      106.5   0      .     .
+         A     15      GLY   QA     3.42    0.02   .     .
+         A     17      VAL   H      8.12    0      .     .
+         A     17      VAL   N      116.5   0      .     .
+         A     17      VAL   CG%    22.1    0.3    .     .
+         A     17      VAL   HG%    0.73    0.02   .     .
+         A     18      PHE   H      8.3     0      .     .
+         A     18      PHE   HB2    2.87    0.02   .     .
+         A     18      PHE   HB3    2.42    0.02   .     .
+         A     18      PHE   N      119.5   0      .     .
+         A     19      LEU   CA     172.2   0      .     .
+         A     19      LEU   CB     58.5    0      .     .
+         A     19      LEU   CDx    17.4    0.3    .     .
+         A     19      LEU   CDy    18.7    0.3    .     .
+         A     19      LEU   CG     32.3    0      .     .
+         A     19      LEU   HBx    2.13    0.02   .     .
+         A     19      LEU   HBy    2.51    0.02   .     .
+         A     19      LEU   HDx%   0.87    0.02   .     .
+         A     19      LEU   HDy%   0.73    0.02   .     .
+         A     19      LEU   HN     7.2     0      .     .
+         A     19      LEU   N      119.5   0      .     .
+         A     20      CYS   HBx    3.2     0      .     .
+         A     21      ALA   H      8.33    0.02   .     .
+         A     21      ALA   HA     4.17    0.02   .     .
+         A     21      ALA   HB%    1.34    0.02   .     .
+         A     21      ALA   N      123.4   0.4    .     .
+         A     22      THR   H      9.17    0.02   .     .
+         A     22      THR   HG2%   1.41    0.02   .     .
+         A     22      THR   HB     3.88    0.02   .     .
+         A     22      THR   N      123.4   0.4    .     .
+         A     23      LYS   CA     43.2    0.25   .     .
+         A     23      LYS   H      8.45    0.04   .     .
+         A     23      LYS   HA     4.27    0.02   .     .
+         A     23      LYS   N      123.45  0.4    .     .
+         A     24      ASP   H      8.79    0      .     .
+         A     24      ASP   N      124.1   0      .     .
+         A     24      ASP   HBy    3.4     0      .     .
+         A     24B     GLN   H      8.3     0      .     .
+         A     24B     GLN   N      119.5   0      .     .
+         A     24C     GLN   C      28.3    0      .     .
+         A     24C     GLN   CA     22.2    0      .     .
+         A     24C     GLN   CB     58.5    0      .     .
+         A     24C     GLN   CG     32.3    0      .     .
+         A     24D     TYR   H      8.3     0      .     .
+         A     24D     TYR   N      119.5   0      .     .
+         E     7       SER   HB2    3.52    0      .     .
+         W     1       ASP   CA     44.1    0      .     .
+         W     1       ASP   CB     28.2    0      .     .
+         W     1       ASP   HA     4.1     0      .     .
+         W     1       ASP   HB2    2.3     0      .     .
+         W     1       ASP   HB3    2.4     0      .     .
+         W     2       CYS   CA     41.2    0      .     .
+         W     2       CYS   CB     27.3    0      .     .
+         W     2       CYS   H      7.3     0      .     .
+         W     2       CYS   HA     4.3     0      .     2
+         W     2       CYS   HB2    2.8     0      .     2
+         W     2       CYS   HB3    2.7     0      .     2
+         W     3       ASP   CA     44.1    0      .     .
+         W     3       ASP   CB     28.2    0      .     .
+         W     3       ASP   HA     4.1     0      .     .
+         W     3       ASP   H      9.1     0      .     .
+         W     3       ASP   HB2    2.3     0      .     .
+         W     3       ASP   HB3    2.4     0      .     .
+         W     4       CYS   CA     41.2    0      .     .
+         W     4       CYS   CB     27.3    0      .     .
+         W     4       CYS   H      7.9     0      .     .
+         W     4       CYS   HA     4.8     0      .     2
+         W     4       CYS   HB2    2.6     0      .     2
+         W     4       CYS   HB3    2.5     0      .     2
+         W     5       LYS   CA     41.2    0      .     .
+         W     5       LYS   CB     27.3    0      .     .
+         W     5       LYS   CG     23.2    0      .     .
+         W     5       LYS   CD     22.3    0      .     .
+         W     5       LYS   CE     26.3    0      .     .
+         W     5       LYS   H      8.4     0      .     .
+         W     5       LYS   HA     4.2     0      .     .
+         W     5       LYS   HB2    2.2     0      .     .
+         W     5       LYS   HB3    2.1     0      .     .
+         W     5       LYS   HG%    1.4     0      .     .
+         W     5       LYS   HD2    1.6     0      .     .
+         W     5       LYS   HD3    1.5     0      .     .
+         W     5       LYS   HE%    3.1     0      .     .
+         W     6       CA    CA     1.1     0      CA    .
+         W     7       CD    CD     -150.0  0      CD    111
+         Z     @5      GLX   H      9.1     0      .     .
+         Z     @5      GLX   N      118.3   0      .     .
       stop_
 
 # The atom_name by itself serves to distinguish between real atoms ('HA'),
@@ -564,10 +616,59 @@ INSERT PULSE PROGRAM HERE
 # der Waals radius.
 # Val 17 HG%/CG% show two methyl groups that overlap in both carbon and proton
 # dimensions.
+#
 # 19 LEU HDx% is the methyl bound to CDx (and not to CDy).
-# The last two shifts (with chain_code @2) are unassigned but observed resonances,
+#
+# Chain W illustrates the element and isotope specificatoin rules
+# It is supposed to represent a Ca,Cd peptide complex with 2H la
+         W     2       CYS   HA     4.3     0      .     2
+         W     2       CYS   HB2    2.8     0      .     2
+         W     2       CYS   HB3    2.7     0      .     2beled CYS in 50% H2O/D2O.
+# Residue 6 is Calcium, residue 7 is Cadmium.
+# Some shifts that can not be given in this list because of name clashes are in
+# shiftlist 2 instead.
+# Note that e.g. W  4  CYS H and HA must be referred to as H and HA throughout the file.
+# Whether the atoms in question are in fact 1H or 2H, e.g. in a peak assignment, must
+# be decided by reference to the experiment dimension nucleus.
+#
+# The last two shifts (with chain_code Z) are unassigned but observed resonances,
 
    save_
+
+   save_nef_chemical_shift_list_2
+
+      # All tags in this saveframe are mandatory, except for value_uncertainty.
+
+      _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
+      _nef_chemical_shift_list.sf_framecode               nef_chemical_shift_list_1
+
+      loop_
+         _nef_chemical_shift.chain_code
+         _nef_chemical_shift.sequence_code
+         _nef_chemical_shift.residue_name
+         _nef_chemical_shift.atom_name
+         _nef_chemical_shift.value
+         _nef_chemical_shift.value_uncertainty
+         _nef_chemical_shift.element
+         _nef_chemical_shift.isotope_number
+      
+         # key: chain_code, sequence_code, atom_name
+         W     2       CYS   H      7.5     0      .     2
+         W     2       CYS   HA     4.3     0      .     2
+         W     2       CYS   HB2    2.8     0      .     2
+         W     2       CYS   HB3    2.7     0      .     2
+         W     3       ASP   H      9.2     0      .     2
+         W     4       CYS   H      7.8     0      .     2
+         W     4       CYS   HA     4.8     0      .     2
+         W     4       CYS   HB2    2.6     0      .     2
+         W     4       CYS   HB3    2.5     0      .     2
+         W     5       LYS   H      8.5     0      .     2
+         W     7       CD    CD     -151.0  0      CD    113
+      stop_
+
+# This list contains 2H and 13Cd chemicla shifts.
+# You cannot have two different isotopes of the same atom in the same shift list
+# So the alternative isotopes of backbone H and Cd must be given in a separate list
 
 
 #=======================================================================

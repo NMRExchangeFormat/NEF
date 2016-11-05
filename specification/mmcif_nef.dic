@@ -1257,27 +1257,31 @@ save_nef_chemical_shift
       _nef_chemical_shift.atom_name
       _nef_chemical_shift.value
       _nef_chemical_shift.value_uncertainty
+      _nef_chemical_shift.element
+      _nef_chemical_shift.isotope_number
 
-      A	15	GLY	QA	 3.42	0.02
-      A 17      VAL     HG%      0.73   0.02
-      A 17      VAL     CG%     22.1    0.3
-      A 18      PHE     HB2      2.87   0.02
-      A 18      PHE     HB3      2.42   0.02
-      A 19      LEU     HBX      2.13   0.02
-      A 19      LEU     HBY      2.51   0.02
-      A 19      LEU     HDX%     0.87   0.02
-      A 19      LEU     HDY%     0.73   0.02
-      A 19      LEU     CDX     17.4    0.3
-      A 19      LEU     CDY     18.7    0.3
-      A 21      ALA     HA       4.17   0.02
-      A 21      ALA     H        8.33   0.02
-      A 21      ALA     HB%      1.34   0.02
-      A 23      LYS     HA       4.27   0.02
-      A 23      LYS     H        8.45   0.04
-      A 23      LYS     CA      43.2    0.25
-      A 23      LYS     N      123.45   0.4
-     @1 SS@231  GLX?    CAi-1   48.2     .
-     @1 SS@12      .    CAi-1   39.2     .
+      A	15	GLY	QA	 3.42	0.02   .   .
+      A 17      VAL     HG%      0.73   0.02   .   .
+      A 17      VAL     CG%     22.1    0.3    .   .
+      A 18      PHE     HB2      2.87   0.02   .   .
+      A 18      PHE     HB3      2.42   0.02   .   .
+      A 19      LEU     HBX      2.13   0.02   .   .
+      A 19      LEU     HBY      2.51   0.02   .   .
+      A 19      LEU     HDX%     0.87   0.02   .   .
+      A 19      LEU     HDY%     0.73   0.02   .   .
+      A 19      LEU     CDX     17.4    0.3    .   .
+      A 19      LEU     CDY     18.7    0.3    .   .
+      A 21      ALA     HA       4.17   0.02   .   .
+      A 21      ALA     H        8.33   0.02   .   .
+      A 21      ALA     HB%      1.34   0.02   .   .
+      A 23      LYS     HA       4.27   0.02   .   2
+      A 23      LYS     H        8.45   0.04   .   .
+      A 23      LYS     CA      43.2    0.25   .   .
+      A 23      LYS     N      123.45   0.4    .   .
+      B 1       CD      CD     -150.0   0      CD  113
+      C 1       CA      CA     -1.0     0      CA  .
+     @1 SS@231  GLX?    CAi-1   48.2     .     .   .
+     @1 SS@12      .    CAi-1   39.2     .     .   .
   stop_
   
 
@@ -1291,6 +1295,10 @@ save_nef_chemical_shift
 # Val 17 HG%/CG% show two methyl groups that overlap in both carbon and proton
 # dimensions.
 # 19 LEU HDX% is the methyl bound to CDX (and not to CDY).
+#
+# A LYS 23 HA is 2H rather than 1H
+# Chain B consists of a single Cadmium atom - the shift is for Cd 113.
+# Chain C consists of a single Calcium atom
 # The last two shifts (with chain_code @1) are unassigned but observed resonances,
 ;
 
@@ -1392,6 +1400,38 @@ save__nef_chemical_shift.value_uncertainty
    _item_type.code  float
    #
    _item_examples.case  0.02
+   #
+save_
+#
+#
+save__nef_chemical_shift.element
+   #
+
+   _item_description.description  "The chemical shift element code."
+   #
+   _item.name            "_nef_chemical_shift.element"
+   _item.category_id     nef_chemical_shift
+   _item.mandatory_code  no
+   #
+   _item_type.code  word
+   #
+   _item_examples.case  CA
+   #
+save_
+#
+#
+save__nef_chemical_shift.isotope_number
+   #
+
+   _item_description.description  "The chemical shift isotope mass number."
+   #
+   _item.name            "_nef_chemical_shift.isotope_number"
+   _item.category_id     nef_chemical_shift
+   _item.mandatory_code  no
+   #
+   _item_type.code  int
+   #
+   _item_examples.case  2
    #
 save_
 #
