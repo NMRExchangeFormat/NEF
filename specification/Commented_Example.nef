@@ -276,7 +276,7 @@ INSERT PULSE PROGRAM HERE
 
          # key: chain_code_1, sequence_code_1, atom_name_1, chain_code_2, sequence_code_2, atom_name_2
 
-         A 20 CYS SG B 17 CYS SG
+         A 20 CYS SG  B 17 CYS SG
          D  2 CYS SG  D  6 CYS SG
          D  4 CYS SG  D  8 CYS SG
          E  1 ASN N   E  6 GLU CD
@@ -302,7 +302,6 @@ INSERT PULSE PROGRAM HERE
 
       _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
       _nef_chemical_shift_list.sf_framecode               nef_chemical_shift_list_1
-      _nef_chemical_shift_list.atom_chemical_shift_units  ppm
 
       loop_
          _nef_chemical_shift.chain_code
@@ -323,6 +322,8 @@ INSERT PULSE PROGRAM HERE
          A     15      GLY   H      7.8     0   
          A     15      GLY   N      106.5   0   
          A     15      GLY   QA     3.42    0.02
+         A     17      VAL   H      8.12    0   
+         A     17      VAL   N      116.5   0   
          A     17      VAL   CG%    22.1    0.3 
          A     17      VAL   HG%    0.73    0.02
          A     18      PHE   H      8.3     0   
@@ -331,26 +332,31 @@ INSERT PULSE PROGRAM HERE
          A     18      PHE   N      119.5   0   
          A     19      LEU   CA     172.2   0   
          A     19      LEU   CB     58.5    0   
-         A     19      LEU   CD1    22.2    0   
-         A     19      LEU   CD2    58.5    0   
-         A     19      LEU   CDX    17.4    0.3 
-         A     19      LEU   CDY    18.7    0.3 
+         A     19      LEU   CDx    17.4    0.3 
+         A     19      LEU   CDy    18.7    0.3 
          A     19      LEU   CG     32.3    0   
-         A     19      LEU   HBX    2.13    0.02
-         A     19      LEU   HBY    2.51    0.02
-         A     19      LEU   HDX%   0.87    0.02
-         A     19      LEU   HDY%   0.73    0.02
+         A     19      LEU   HBx    2.13    0.02
+         A     19      LEU   HBy    2.51    0.02
+         A     19      LEU   HDx%   0.87    0.02
+         A     19      LEU   HDy%   0.73    0.02
          A     19      LEU   HN     7.2     0   
          A     19      LEU   N      119.5   0   
-         A     20      CYS   HBX    3.2     0   
+         A     20      CYS   HBx    3.2     0   
          A     21      ALA   H      8.33    0.02
          A     21      ALA   HA     4.17    0.02
          A     21      ALA   HB%    1.34    0.02
+         A     21      ALA   N      123.4   0.4
+         A     22      THR   H      9.17    0.02
+         A     22      THR   HG2%   1.41    0.02
+         A     22      THR   HB     3.88    0.02
+         A     22      THR   N      123.4   0.4
          A     23      LYS   CA     43.2    0.25
          A     23      LYS   H      8.45    0.04
          A     23      LYS   HA     4.27    0.02
          A     23      LYS   N      123.45  0.4 
-         A     24      ASP   HBY    3.4     0   
+         A     24      ASP   H      8.79    0   
+         A     24      ASP   N      124.1   0   
+         A     24      ASP   HBy    3.4     0   
          A     24B     GLN   H      8.3     0   
          A     24B     GLN   N      119.5   0   
          A     24C     GLN   C      28.3    0   
@@ -359,20 +365,21 @@ INSERT PULSE PROGRAM HERE
          A     24C     GLN   CG     32.3    0   
          A     24D     TYR   H      8.3     0   
          A     24D     TYR   N      119.5   0   
+         E     7       SER   HB2    3.52    0
          Z     @5      GLX   H      9.1     0   
          Z     @5      GLX   N      118.3   0   
       stop_
 
 # The atom_name by itself serves to distinguish between real atoms ('HA'),
 #  pseudoatoms ('QA'), sets of atoms ('HB%'), sterospecifically assigned atoms
-# ('HB2'), and non-stereospecifically assigned atoms ('HBX').
+# ('HB2'), and non-stereospecifically assigned atoms ('HBx').
 # In the example, Phe 18 HB2/HB3 are stereospecifically assigned, while Leu 19
 # is not.
 # Gly 15 QA is a pseudoatom, i.e. an atom at the HA2/HA3 centroid with zero van
 # der Waals radius.
 # Val 17 HG%/CG% show two methyl groups that overlap in both carbon and proton
 # dimensions.
-# 19 LEU HDX% is the methyl bound to CDX (and not to CDY).
+# 19 LEU HDx% is the methyl bound to CDx (and not to CDy).
 # The last two shifts (with chain_code @2) are unassigned but observed resonances,
 
    save_
@@ -433,9 +440,9 @@ save_nef_distance_restraint_list_L1
          2  1  .  A  17  VAL  H    A  22  THR  HG2%  1  3.7  0.4  2    2.5  4.2  4.7
          3  1  .  A  18  LEU  H    A  21  ALA  HB%   1  3.7  0.4  2    2.5  4.2  4.7
          4  1  .  A  18  LEU  H    A  22  THR  HG2%  1  3.7  0.4  2    2.5  4.2  4.7
-         5  5  .  A  18  PHE  HB2  A  24  ASP  HBX   1  2.8  0.4  1.5  2    3.2  3.7
-         6  8  .  A  18  PHE  HB2  A  24  ASP  HBY   1  4.4  0.4  3.6  4.1  5.2  5.7
-         7  8  .  A  24  ASP  HBY  E   7  SER  HB2   1  4.4  0.4  3.6  4.1  5.2  5.7
+         5  5  .  A  18  PHE  HB2  A  24  ASP  HBy   1  2.8  0.4  1.5  2    3.2  3.7
+         6  8  .  A  18  PHE  HB2  A  24  ASP  HBy  1  4.4  0.4  3.6  4.1  5.2  5.7
+         7  8  .  A  24  ASP  HBy  E   7  SER  HB2   1  4.4  0.4  3.6  4.1  5.2  5.7
       stop_
 
       # The first column (index_id) is a consecutive line number that does not persist  
@@ -493,10 +500,10 @@ save_nef_distance_restraint_list_hbond1
       
          # key: index_id
 
-         1  1  .  A  15  VAL  H    A  24B  THR  O     1  1.8    .  .  1.4    2.7  .
-         2  2  .  A  15  VAL  N    A  24B  THR  O     1  2.8    .  .  2.4    3.7  .
-         3  3  1  A  13  THR  O    A  16   VAL  H     1  1.8    .  .  1.4    2.7  .
-         4  3  1  A  13  THR  O    A  16   VAL  N     1  2.8    .  .  2.4    3.7  .
+         1  1  .  A  15  GLY  H    A  24B  GLN  O     1  1.8    .  .  1.4    2.7  .
+         2  2  .  A  15  GLY  N    A  24B  GLN  O     1  2.8    .  .  2.4    3.7  .
+         3  3  1  A  13  THR  O    A  19   LEU  H     1  1.8    .  .  1.4    2.7  .
+         4  3  1  A  13  THR  O    A  19   LEU  N     1  2.8    .  .  2.4    3.7  .
          5  4  2  A  17  VAL  H    A  22   THR  O     1  1.8    .  .  1.4    2.7  .
          6  4  2  A  17  VAL  N    A  22   THR  O     1  2.8    .  .  2.4    3.7  .
          7  4  3  A  17  VAL  H    A  24   ASP  O     1  1.8    .  .  1.4    2.7  .
@@ -583,7 +590,8 @@ save_nef_distance_restraint_list_hbond1
          7   4  2  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -50  5  .  -60  -40  .  PSI
          8   4  3  A  15  GLY  C   A  16  ASN  N   A  16  ASN  CA  A  16   ASN  C    1  -80  5  .  -90  -70  .  PHI
          9   4  3  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -80  5  .  -90  -70  .  PSI
-         10  5  .  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19   LEU  CDX  1  -80  5  .  -90  -70  .  .  
+         10  5  .  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19   LEU  CDx  1  -80  5  .  -90  -70  .  .  
+         11  6  .  A  21  LYS  CA  A  21  LYS  CB  A  21  LYS  CG  A  21   LYS  CD   1  -80  5  .  -90  -70  .  CHI2
       stop_
 
       # - Restraint 1 is an ambiguous psi restraint. The atoms are the same,
@@ -801,14 +809,14 @@ save_nef_distance_restraint_list_hbond1
          # key: index_id
 
          1   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  14  TRP  HB3  A  18    PHE  N    A  18    PHE  H  
-         2   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBY  A  24B   GLN  N    A  24B   GLN  H  
-         3   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBY  A  24D   TYR  N    A  24D   TYR  H  
-         4   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBX  A  24B   GLN  N    A  24B   GLN  H  
-         5   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBX  A  24D   TYR  N    A  24D   TYR  H  
+         2   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBy  A  24B   GLN  N    A  24B   GLN  H  
+         3   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBy  A  24D   TYR  N    A  24D   TYR  H  
+         4   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBx  A  24B   GLN  N    A  24B   GLN  H  
+         5   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBx  A  24D   TYR  N    A  24D   TYR  H  
          6   3  54000000  7300000   34000000  5300000   4.4  0.05  106.5  0.5  7.8  0.03  .  .   .    .    A  15    GLY  N    A  15    GLY  H  
          7   4  88000000  13000000  48000000  3300000   3.2  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB3  A  14    TRP  NE1  A  14    TRP  HE1
          8   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB2  A  14    TRP  NE1  A  14    TRP  HE1
-         9   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  24  ASP  HBY  A  14    TRP  NE1  A  14    TRP  HE1
+         9   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  24  ASP  HBy  A  14    TRP  NE1  A  14    TRP  HE1
          10  7  59000000  7100000   29000000  6100000   1.7  0.05  118.3  0.5  9.1  0.03  .  .   .    .    Z  @5    GLX  N    Z  @5    GLX  H  
       stop_
 
@@ -981,7 +989,7 @@ save_nef_distance_restraint_list_hbond1
       
          # key: index_id
 
-         1  1  73000000  5100000  33000000  1100000  7.2  0.05  119.5  0.4  28.3  0.3  172.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  A  19  LEU  HN  A  19  LEU  N  A  24C   GLN  C  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19  LEU  CD1  A  19  LEU  CD2  A  19  LEU  CG  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  24C   GLN  CA  A  24C   GLN  CB  A  24C   GLN  CG
+         1  1  73000000  5100000  33000000  1100000  7.2  0.05  119.5  0.4  28.3  0.3  172.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  A  19  LEU  HN  A  19  LEU  N  A  24C   GLN  C  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19  LEU  CDx  A  19  LEU  CDy  A  19  LEU  CG  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  24C   GLN  CA  A  24C   GLN  CB  A  24C   GLN  CG
       stop_
    save_
 
@@ -1025,5 +1033,42 @@ save_nef_distance_restraint_list_hbond1
       # The links do not make scientific sense, but they are formally correct
 
 save_
+
+
+#=======================================================================
+# Section 10
+#
+# Optional: Program-specific raw_data saveframe
+#
+# Each program-specific prefix should include the 'programspecific_raw_data'
+# saveframe as a slot to add copies of raw input files.
+#
+# The preferred option remains to use structured program-specific tags
+# to store program-specific information, but this saveframe serves as a
+# quick way to add unstructured data or input files for comparison.
+#
+#=======================================================================
+
+save_xplor_raw_data_T1_T2_values_1
+    _xplor_raw_data.sf_category     xplor_raw_data
+    _xplor_raw_data.sf_framecode    xplor_raw_data_T1_T2_values_1
+
+    # ALl items below are optional:
+    _xplor_raw_data.file_name       input_file_name.extension
+
+    _xplor_raw_data.details
+; Optional item
+For comments.
+Any multiline text can be put here
+;
+
+    _xplor_raw_data.text
+;
+If the string starts with a new line (as in this case) it is skipped. This avoids issues with how many initial spaces to strip
+;
+save_
+
+
+
 
 # End of data_nef_my_nmr_project_1
