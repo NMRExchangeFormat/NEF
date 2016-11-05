@@ -1,6 +1,12 @@
 Change log
 ==========
 
+**Proposal new_isotope_specification**
+
+* Added _nef_chemical_shift.element and _nef_chemical_shift.isotope_number columns
+  to specify isotope and elements with two letter element codes.
+
+
 **Proposal change_sequence_linking**
 
 * Changed rules for 'break' linking type, making it simper t0 specify sequences with breaks
@@ -23,12 +29,14 @@ Change log
 
 * Add ordinal column to nef_sequence loop to recflect the (significant) line order.
 
+
 **Proposal multiple changes**
 
 * Add program_specific_raw_data saveframe
 * Change nonsereospecific wildcards from X/Y (upper case) to x/y (lower case)
 * Tighten allowed wildcards
 * Improve consistency of COmmented_Example
+
 
 **Proposal remove_chemical_shift_units**
 
@@ -39,9 +47,11 @@ Change log
 * change 'ordinal' to 'index_id' 
 (preserving _nef_run_history.run_ordinal, which *does* signify an ordering)
 
+
 **Proposal residue_type_to_name**
 
-** Proposal residue_type_to_name **
+**Proposal residue_type_to_name**
+
 
 * change 'residue_type' to 'residue_name' in all occurrences and tags
 
