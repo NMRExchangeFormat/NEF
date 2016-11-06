@@ -1,3 +1,6 @@
+# NEF version 1.0, November 6, 2016. Rasmus Fogh.
+
+
 mmCif_code         residue_name    linking    residue_variant
 ALA_LEO2           ALA             end        .              
 ALA_LEO2H          ALA             end        +HXT           
