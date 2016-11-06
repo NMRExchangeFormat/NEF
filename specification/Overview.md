@@ -37,13 +37,14 @@ organised by data category (saveframe).
 
     1. The identifying strings are case sensitive, and the same object must have the same
     name (including casing) throughout the file - except for the use of wildcard names
-    for atoms, as described below. Atom names and
+    for atoms, as described below. Residue and atom names of the molecule are taken from
+    the RCSB-curated chemical compound desciptions. Atom names and
     standard 3-letter-type residue names must match the molecule names also
     in casing in order to count as assignments to the molecule. Currently
     this means that they must be ALL-UPPER-CASE, but if in the future mmCif
     introduces mixed-case residue names (e.g. for carbohydrates), the nef
     names must match the case used by mmCif. For chain codes and insertion codes
-    upper case si strongly recommended, but lower case is allowed if necessary
+    upper case is strongly recommended, but lower case is allowed if necessary
     to match e.g. lower-case chain codes used by the mmCif.
 
       Examples:
@@ -83,23 +84,18 @@ organised by data category (saveframe).
 
     5. For the common standard residues (20 amino acids, 4 DNA and 4 RNA
     nucleotides) the NEF standard will adopt the IUPAC nomenclature for
-    residue types, as well as IUPAC atom names. For the standard residues we
-    will use UPPER-CASE for atom names. For non-standard residues applications
-    can make their own choices, although IUPAC or wwPDB nomenclature is
-    recommended. For the current proposal residue variants are specified using
-    a small subset of the mmCif residue variant codes (see below). It remains an
-    outstanding issue whether this should be changed or expanded.
+    residue names, as well as IUPAC atom names. 
 
     6. 'residue_name' refers to the residue identified by the matching mmCif
-    chemical compound code. The atom naming and topology cna therefore be
-    taken from the mmCif chemical compound de3finitions. If there is no matching 
+    chemical compound code. The atom naming and topology can therefore be
+    taken from the mmCif chemical compound definitions. The same residue_name is used
+    for all variants and protonation states - these are specified in the residue_linking  
+    and residue_variant columns. If there is no matching 
     mmCif residue, the type is unknown and must be specified outside the NEF system
     in some way. If a new residue type is introduced  to match a previously unknown 
     compound it is recommended to use a name that could not match either current or 
     future mmCif codes - a name with at least four characters containing lower case
-    characters would be a good choice. The same residue_name is used for all variants
-    and protonation states - these are specified in the residue_linking and 
-    residue_variant columns.
+    characters would be a good choice. 
 
     7. A residue is uniquely identified by the 'chain_code' and 'sequence_code',
     so that the same 'residue_name' string must be used consistently throughout
@@ -111,8 +107,8 @@ organised by data category (saveframe).
     status and atom/atomset/pseudoatom distinction follows from the name, so
     that there is no need for ambiguity codes anywhere in the file.
     All atom names start with the one or two letter element name. For
-    one-letter element names this lets uou derived the element from the name.
-    for two-letter element names and for non-standard isotopes the element and
+    one-letter element names this lets you derive the element from the name.
+    For two-letter element names and for non-standard isotopes the element and
     isotope are given in the chemical shift list.
 
     9. Atoms that differ only by stereochemistry (prochiral protons or methyl
@@ -182,7 +178,7 @@ organised by data category (saveframe).
     original meaning, i.e. a geometric point positioned at the centroid with zero
     van der Waals radius. A restraint to ALA MB would be different from one to
     ALA HB%, and it would be an error to confuse them. Note that a restraint to
-    HB% is calculated by r-6 averaging in most programs, whereas a restraints
+    HB% is calculated by r-6 averaging in most programs, whereas a restraint
     to MB is not. The latter therefore needs to modify the given distance limits
     to obtain the same result.
 
@@ -212,7 +208,7 @@ organised by data category (saveframe).
       '\_atom_site.auth_asym_id', '\_atom_site.auth_seq_id',
       '\_atom_site.auth_comp_id',  '\_atom_site.auth_atom_id' . This preserves
       NEF naming, and gives a mapping for each structure model to the
-      equivalent mmCif tags '\_atom_site.label_asym_id',D
+      equivalent mmCif tags '\_atom_site.label_asym_id',
       '\_atom_site.label_seq_id', '\_atom_site.pdbx_PDB_ins_code',
       '\_atom_site.label_comp_id', '\_atom_site.label_atom_id'. The
       NEF sequence_code is a string, combined from a numerical sequence
@@ -498,8 +494,8 @@ expressions.
 
     3. Covalent links that are not part of a linear polymer chain are given in
     the 'covalent_links' loop, which shows which atoms are directly bound.
-    It is not shown which of the atoms from the original template are missing,
-    if desired this information must be inferred.
+    Which atoms from the original template are missing,will be aparent from the residue 
+    variant.
 
     4. The '\_sequence' loop is a compromise between a full, complex topology
     description and simply assuming linear polymers - see the example files,
@@ -513,8 +509,8 @@ expressions.
         - 'start': the N-terminal or 5' end of a linear polymer
         - 'end': the C-terminal or 3' end of a linear polymer
         - 'middle': non-terminal residue in a linear polymer
-        - 'single': d.	Linking 'single' is a 'free, single molecule' form.
-          It used for any residue that does not participate in a regular linear
+        - 'single': Linking 'single' is a 'free, single molecule' form.
+          It is used for any residue that does not participate in a regular linear
           polymer link, e.g. for free amino acids or for any residue that is
           not an alpha amino acid or nucleotide..
         - 'cyclic': first and last residue of a cyclic linear polymer; the
@@ -522,7 +518,7 @@ expressions.
           sequence
         - 'break': A residue of linking type 'middle' that does not form a standard
         sequential link to the following residue in the table,
-        - 'dummy': e.	Linking 'dummy' is used for dummy residues. By definition
+        - 'dummy': Linking 'dummy' is used for dummy residues. By definition
         these do not contain atoms or participate in links. By convention, dummy
         residues used to represent tensor values have the residue name 'TNSR'
 
@@ -561,7 +557,8 @@ expressions.
       Non-standard residues are assumed to be in the form given by the corresponding
       mmCif chemical compound.
 
-    5. Cis peptide bonds are indicated by the (Boolean) nef_sequence.cis_peptide column. The default value is 'false'.
+    5. Cis peptide bonds are indicated by the (Boolean) nef_sequence.cis_peptide column. 
+    The default value is 'false'.
 
     6. The index column is a line number with consecutive integers starting
     at 1. It is not preserved on import and re-export. The purpose it to
@@ -775,7 +772,7 @@ expressions.
 
       * 'onebond': atoms directly bound, whatever the transfer mechanism
       * 'Jcoupling': J coupling over one or more bonds
-      (also used for standard proton-proton coupling)
+        (also used for standard proton-proton coupling)
       * 'Jmultibond': J coupling over more than one bond
       * 'relayed': relayed through multiple J couplings (multistep transfer,
         TOCSY, ...)

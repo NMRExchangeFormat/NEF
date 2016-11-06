@@ -2,6 +2,13 @@ Change log
 ==========
 
 
+**Version 1.0**
+
+* Fixed typos and improved documentation
+
+* This is version 1.0, the first official version.
+
+
 **Proposal rename_to_index**
 
 * rename 'index_id'and 'ordinal' to just 'index',
