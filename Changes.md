@@ -2,6 +2,17 @@ Change log
 ==========
 
 
+**Version 1.0 minor fixes to Commented_Example.nef**
+
+* Updatedversion number in COmmented_Example to 1.0
+
+* Fixed inconsistencies
+
+* Added some alternative cases for optional values
+
+* Regularised spacing
+
+
 **Version 1.0**
 
 * Fixed typos and improved documentation
