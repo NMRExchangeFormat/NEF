@@ -26,10 +26,10 @@ data_nef_my_nmr_project_1
       _nef_nmr_meta_data.sf_framecode     nef_nmr_meta_data
 
       _nef_nmr_meta_data.format_name      nmr_exchange_format
-      _nef_nmr_meta_data.format_version   0.91
+      _nef_nmr_meta_data.format_version   1.0
       _nef_nmr_meta_data.program_name     CcpNmr
       _nef_nmr_meta_data.program_version  3.0.b1
-      _nef_nmr_meta_data.creation_date    2016-07-20T18:25:26.324290
+      _nef_nmr_meta_data.creation_date    2016-11-22T18:25:26.324290
       _nef_nmr_meta_data.uuid             CcpNmr-2016-07-20T18:25:26.324290-1226605315
 
       # Optional:
@@ -193,8 +193,8 @@ INSERT PULSE PROGRAM HERE
           18  C  1    GLY  cyclic     .            .
           19  C  2    PRO  middle     .            true
           20  C  3    ASP  middle     .            .
-          21  C  4    GLY  middle     .            .
-          22  C  5    PRO  middle     .            .
+          21  C  4    GLY  middle     .            true
+          22  C  5    PRO  middle     .            false
           23  C  6    ASP  cyclic     .            .
           24  D -3    TNSR dummy      .            .
           25  D -2    LL2  dummy      .            .
@@ -399,15 +399,15 @@ INSERT PULSE PROGRAM HERE
          224  O  14    DG  end         .                         .
          225  O  15    DT  start       -HO5',+P,+OP1,+OP2,+OP3   .
          226  O  16    DT  end         .                         .
-         227  X   1   PHE  single      -HD1,-HD2,+ID1,+CLD2      .
-         228  Y   1   ATP  single      .                         .
-         229  W   1   ASP  start       .                         .
-         231  W   2   CYS  middle      -HG                       .
-         232  W   3   ASP  middle      .                         .
-         233  W   4   CYS  middle      -HG                       .
-         234  W   5   LYS  end         .                         .
-         235  W   6   CA   single      .                         .
-         236  W   7   CD   single      .                         .
+         227  W   1   ASP  start       .                         .
+         228  W   2   CYS  middle      -HG                       .
+         229  W   3   ASP  middle      .                         .
+         230  W   4   CYS  middle      -HG                       .
+         231  W   5   LYS  end         .                         .
+         232  W   6   CA   single      .                         .
+         233  W   7   CD   single      .                         .
+         234  X   1   PHE  single      -HD1,-HD2,+ID1,+CLD2      .
+         235  Y   1   ATP  single      .                         .
          
       stop_
 
@@ -527,10 +527,10 @@ INSERT PULSE PROGRAM HERE
          A     15      GLY   H      7.8     0      .     .
          A     15      GLY   N      106.5   0      .     .
          A     15      GLY   QA     3.42    0.02   .     .
-         A     17      VAL   H      8.12    0      .     .
-         A     17      VAL   N      116.5   0      .     .
          A     17      VAL   CG%    22.1    0.3    .     .
+         A     17      VAL   H      8.12    0      .     .
          A     17      VAL   HG%    0.73    0.02   .     .
+         A     17      VAL   N      116.5   0      .     .
          A     18      PHE   H      8.3     0      .     .
          A     18      PHE   HB2    2.87    0.02   .     .
          A     18      PHE   HB3    2.42    0.02   .     .
@@ -552,16 +552,16 @@ INSERT PULSE PROGRAM HERE
          A     21      ALA   HB%    1.34    0.02   .     .
          A     21      ALA   N      123.4   0.4    .     .
          A     22      THR   H      9.17    0.02   .     .
-         A     22      THR   HG2%   1.41    0.02   .     .
          A     22      THR   HB     3.88    0.02   .     .
+         A     22      THR   HG2%   1.41    0.02   .     .
          A     22      THR   N      123.4   0.4    .     .
          A     23      LYS   CA     43.2    0.25   .     .
          A     23      LYS   H      8.45    0.04   .     .
          A     23      LYS   HA     4.27    0.02   .     .
          A     23      LYS   N      123.45  0.4    .     .
          A     24      ASP   H      8.79    0      .     .
-         A     24      ASP   N      124.1   0      .     .
          A     24      ASP   HBy    3.4     0      .     .
+         A     24      ASP   N      124.1   0      .     .
          A     24B     GLN   H      8.3     0      .     .
          A     24B     GLN   N      119.5   0      .     .
          A     24C     GLN   C      28.3    0      .     .
@@ -579,13 +579,13 @@ INSERT PULSE PROGRAM HERE
          W     2       CYS   CA     41.2    0      .     .
          W     2       CYS   CB     27.3    0      .     .
          W     2       CYS   H      7.3     0      .     .
-         W     2       CYS   HA     4.3     0      .     2
-         W     2       CYS   HB2    2.8     0      .     2
-         W     2       CYS   HB3    2.7     0      .     2
+         W     2       CYS   HA     4.3     0      H     2
+         W     2       CYS   HB2    2.8     0      H     2
+         W     2       CYS   HB3    2.7     0      H     2
          W     3       ASP   CA     44.1    0      .     .
          W     3       ASP   CB     28.2    0      .     .
-         W     3       ASP   HA     4.1     0      .     .
          W     3       ASP   H      9.1     0      .     .
+         W     3       ASP   HA     4.1     0      .     .
          W     3       ASP   HB2    2.3     0      .     .
          W     3       ASP   HB3    2.4     0      .     .
          W     4       CYS   CA     41.2    0      .     .
@@ -596,19 +596,19 @@ INSERT PULSE PROGRAM HERE
          W     4       CYS   HB3    2.5     0      .     2
          W     5       LYS   CA     41.2    0      .     .
          W     5       LYS   CB     27.3    0      .     .
-         W     5       LYS   CG     23.2    0      .     .
          W     5       LYS   CD     22.3    0      .     .
          W     5       LYS   CE     26.3    0      .     .
+         W     5       LYS   CG     23.2    0      .     .
          W     5       LYS   H      8.4     0      .     .
          W     5       LYS   HA     4.2     0      .     .
          W     5       LYS   HB2    2.2     0      .     .
          W     5       LYS   HB3    2.1     0      .     .
-         W     5       LYS   HG%    1.4     0      .     .
          W     5       LYS   HD2    1.6     0      .     .
          W     5       LYS   HD3    1.5     0      .     .
          W     5       LYS   HE%    3.1     0      .     .
+         W     5       LYS   HG%    1.4     0      .     .
          W     6       CA    CA     1.1     0      CA    .
-         W     7       CD    CD     -150.0  0      CD    111
+         W     7       CD    CD     -150.0  0      CD    113
          Z     @5      GLX   H      9.1     0      .     .
          Z     @5      GLX   N      118.3   0      .     .
       stop_
@@ -662,17 +662,17 @@ INSERT PULSE PROGRAM HERE
          _nef_chemical_shift.isotope_number
       
          # key: chain_code, sequence_code, atom_name
-         W     2       CYS   H      7.5     0      .     2
-         W     2       CYS   HA     4.3     0      .     2
-         W     2       CYS   HB2    2.8     0      .     2
-         W     2       CYS   HB3    2.7     0      .     2
-         W     3       ASP   H      9.2     0      .     2
-         W     4       CYS   H      7.8     0      .     2
-         W     4       CYS   HA     4.8     0      .     2
-         W     4       CYS   HB2    2.6     0      .     2
-         W     4       CYS   HB3    2.5     0      .     2
-         W     5       LYS   H      8.5     0      .     2
-         W     7       CD    CD     -151.0  0      CD    113
+         W     2       CYS   H      7.5     0      H     2
+         W     2       CYS   HA     4.3     0      H     2
+         W     2       CYS   HB2    2.8     0      H     2
+         W     2       CYS   HB3    2.7     0      H     2
+         W     3       ASP   H      9.2     0      H     2
+         W     4       CYS   H      7.8     0      H     2
+         W     4       CYS   HA     4.8     0      H     2
+         W     4       CYS   HB2    2.6     0      H     2
+         W     4       CYS   HB3    2.5     0      H     2
+         W     5       LYS   H      8.5     0      H     2
+         W     7       CD    CD     -151.0  0      CD    111
       stop_
 
 # This list contains 2H and 113Cd chemical shifts.
@@ -888,7 +888,7 @@ save_nef_distance_restraint_list_hbond1
          8   4  3  A  15  GLY  C   A  16  ASN  N   A  16  ASN  CA  A  16   ASN  C    1  -80  5  .  -90  -70  .  PHI
          9   4  3  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -80  5  .  -90  -70  .  PSI
          10  5  .  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19   LEU  CDx  1  -80  5  .  -90  -70  .  .  
-         11  6  .  A  21  LYS  CA  A  21  LYS  CB  A  21  LYS  CG  A  21   LYS  CD   1  -80  5  .  -90  -70  .  CHI2
+         11  6  .  A  23  LYS  CA  A  23  LYS  CB  A  23  LYS  CG  A  23   LYS  CD   1  -80  5  .  -90  -70  .  CHI2
       stop_
 
       # - Restraint 1 is an ambiguous psi restraint. The atoms are the same,
@@ -933,7 +933,7 @@ save_nef_distance_restraint_list_hbond1
       _nef_rdc_restraint_list.potential_type        log-normal
   
       # Optional parameters
-      _nef_rdc_restraint_list.restraint_origin     measured
+      _nef_rdc_restraint_list.restraint_origin      measured
       # The restraint_origin describes the origin or source of the restraints.
       _nef_rdc_restraint_list.tensor_magnitude      11 
       _nef_rdc_restraint_list.tensor_rhombicity     0.067
