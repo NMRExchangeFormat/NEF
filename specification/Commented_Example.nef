@@ -180,7 +180,7 @@ INSERT PULSE PROGRAM HERE
            5  A  17   VAL  middle     .            .
            6  A  18   PHE  middle     .            .
            7  A  19   LEU  middle     .            .
-           8  A  20   CYS  middle     -HD          .
+           8  A  20   CYS  middle     -HG          .
            9  A  21   ALA  middle     .            .
           10  A  22   THR  middle     .            .
           11  A  23   LYS  middle     .            .
@@ -189,7 +189,7 @@ INSERT PULSE PROGRAM HERE
           14  A  24C  GLN  middle     .            .
           15  A  24D  TYR  middle     .            .
           16  A  25   HIS  end        -HD1,+HE2    .
-          17  B  17   CYS  single     -HD          .
+          17  B  17   CYS  single     -HG          .
           18  C  1    GLY  cyclic     .            .
           19  C  2    PRO  middle     .            true
           20  C  3    ASP  middle     .            .
@@ -201,13 +201,13 @@ INSERT PULSE PROGRAM HERE
           26  D -1    LL1  dummy      .            .
           27  D  0    LL   dummy      .            .
           28  D  1    ALA  .          .            .
-          29  D  2    CYS  .          -HD          .
+          29  D  2    CYS  .          -HG          .
           30  D  3    GLY  .          .            .
-          31  D  4    CYS  .          -HD          .
+          31  D  4    CYS  .          -HG          .
           32  D  5    VAL  .          .            .
-          33  D  6    CYS  .          -HD          .
+          33  D  6    CYS  .          -HG          .
           34  D  7    PHE  .          .            .
-          35  D  8    CYS  .          -HD          .
+          35  D  8    CYS  .          -HG          .
           36  D  9    ASN  .          .            .
           37  E  1    ASN  middle     .            .
           38  E  2    THR  middle     -HG1,-OG1    .
@@ -296,108 +296,108 @@ INSERT PULSE PROGRAM HERE
          121  H  60   VAL  end        .            .
          122  L   1   ALA  start      .            .
          123  L   2   ALA  middle     .            .
-         124  L   3   ALA  end        +HXT         .
+         124  L   3   ALA  end        +H''         .
          125  L   4   ARG  start      .            .
          126  L   5   ARG  middle     .            .
-         127  L   6   ARG  end        +HXT         .
+         127  L   6   ARG  end        +H''         .
          128  L   7   ASN  start      .            .
          129  L   8   ASN  middle     .            .
-         130  L   9   ASN  end        +HXT         .
+         130  L   9   ASN  end        +H''         .
          131  L  10   ASP  start      +HD2         .
          132  L  11   ASP  middle     +HD2         .
-         133  L  12   ASP  end        +HD2,+HXT    .
+         133  L  12   ASP  end        +H'',+HD2    .
          134  L  13   CYS  start      .            .
          135  L  14   CYS  middle     .            .
-         136  L  15   CYS  end        +HXT         .
+         136  L  15   CYS  end        +H''         .
          137  L  16   GLN  start      .            .
          138  L  17   GLN  middle     .            .
-         139  L  18   GLN  end        +HXT         .
+         139  L  18   GLN  end        +H''         .
          140  L  19   GLU  start      +HE2         .
          141  L  20   GLU  middle     +HE2         .
-         142  L  21   GLU  end        +HE2,+HXT    .
+         142  L  21   GLU  end        +H'',+HE2    .
          143  L  22   GLY  start      .            .
          144  L  23   GLY  middle     .            .
-         145  L  24   GLY  end        +HXT         .
+         145  L  24   GLY  end        +H''         .
          146  L  25   HIS  start      +HE2         .
          147  L  26   HIS  middle     +HE2         .
-         148  L  27   HIS  end        +HE2,+HXT    .
+         148  L  27   HIS  end        +H'',+HE2    .
          149  L  28   ILE  start      .            .
          150  L  29   ILE  middle     .            .
          151  L  30   ILE  end        +HX2         .
          152  L  31   LEU  start      .            .
          153  L  32   LEU  middle     .            .
-         154  L  33   LEU  end        +HXT         .
+         154  L  33   LEU  end        +H''         .
          155  L  34   LYS  start      .            .
          156  L  35   LYS  middle     .            .
-         157  L  36   LYS  end        +HXT         .
+         157  L  36   LYS  end        +H''         .
          158  L  37   MET  start      .            .
          159  L  38   MET  middle     .            .
-         160  L  39   MET  end        +HXT         .
+         160  L  39   MET  end        +H''         .
          161  L  40   PHE  start      .            .
          162  L  41   PHE  middle     .            .
-         163  L  42   PHE  end        +HXT         .
+         163  L  42   PHE  end        +H''         .
          164  L  43   PRO  start      .            .
          165  L  44   PRO  middle     .            .
-         166  L  45   PRO  end        +HXT         .
+         166  L  45   PRO  end        +H''         .
          167  L  46   SER  start      .            .
          168  L  47   SER  middle     .            .
-         169  L  48   SER  end        +HXT         .
+         169  L  48   SER  end        +H''         .
          170  L  49   THR  start      .            .
          171  L  50   THR  middle     .            .
-         172  L  51   THR  end        +HXT         .
+         172  L  51   THR  end        +H''         .
          173  L  52   TRP  start      .            .
          174  L  53   TRP  middle     .            .
-         175  L  54   TRP  end        +HXT         .
+         175  L  54   TRP  end        +H''         .
          176  L  55   TYR  start      .            .
          177  L  56   TYR  middle     .            .
-         178  L  57   TYR  end        +HXT         .
+         178  L  57   TYR  end        +H''         .
          179  L  58   VAL  start      .            .
          180  L  59   VAL  middle     .            .
-         181  L  60   VAL  end        +HXT         .
+         181  L  60   VAL  end        +H''         .
          182  M   1   ASP  start      -H3,+HD2     .
-         183  M   2   CYS  end        -HG,+HXT     .
+         183  M   2   CYS  end        -HG,+H''     .
          184  M   3   ASP  start      .            .
          185  M   4   CYS  end        .            .
          186  M   5   GLU  start      -H3,+HE2     .
-         187  M   6   TYR  end        -HH,+HXT     .
+         187  M   6   TYR  end        -HH,+H''     .
          188  M   7   GLU  start      .            .
          189  M   8   TYR  end        .            .
          190  M   9   HIS  start      -H3,+HE2     .
-         191  M  10   LYS  end        -HZ3,+HXT    .
+         191  M  10   LYS  end        -HZ3,+H''    .
          192  M  11   HIS  start      .            .
          193  M  12   LYS  end        .            .
          194  M  13   ALA  start      .            .
          195  M  14   ARG  end        .            .
          196  M  15   ALA  start      .            .
-         197  M  16   ARG  end        -HH12,+HXT   .
+         197  M  16   ARG  end        -HH12,+H''   .
          198  M  17   HIS  start      -HD1,+HE2    .
          199  M  18   HIS  middle     -HD1,+HE2    .
          200  M  19   HIS  end        -HD1,+HE2    .
          201  M  20   HIS  start      -H3,-HD1,+HE2   .
-         202  M  21   HIS  end        -HD1,+HE2,+HXT  .
+         202  M  21   HIS  end        -HD1,+H'',+HE2  .
          203  N   1   CYS  single     .            .
          204  N   2   CYS  single     -H3          .
-         205  N   3   CYS  single     +HXT         .
-         206  N   4   CYS  single     -H3,+HXT     .
+         205  N   3   CYS  single     +H''         .
+         206  N   4   CYS  single     -H3,+H''     .
          207  N   5   CYS  single     -HG          .
          208  N   6   CYS  single     -H3,-HG      .
-         209  N   7   CYS  single     -HG,+HXT     .
-         210  N   8   CYS  single     -H3,-HG,+HXT .
-         211  O   1     A  start       -HO5',+P,+OP1,+OP2,+OP3   .
+         209  N   7   CYS  single     -HG,+H''     .
+         210  N   8   CYS  single     -H3,-HG,+H'' .
+         211  O   1     A  start       -HO5',+OP1,+OP2,+OP3,+P   .
          212  O   2     A  end         .                         .
-         213  O   3     C  start       -HO5',+P,+OP1,+OP2,+OP3   .
+         213  O   3     C  start       -HO5',+OP1,+OP2,+OP3,+P   .
          214  O   4     C  end         .                         .
-         215  O   5     G  start       -HO5',+P,+OP1,+OP2,+OP3   .
+         215  O   5     G  start       -HO5',+OP1,+OP2,+OP3,+P   .
          216  O   6     G  end         .                         .
-         217  O   7     U  start       -HO5',+P,+OP1,+OP2,+OP3   .
+         217  O   7     U  start       -HO5',+OP1,+OP2,+OP3,+P   .
          218  O   8     U  end         .                         .
-         219  O   9    DA  start       -HO5',+P,+OP1,+OP2,+OP3   .
+         219  O   9    DA  start       -HO5',+OP1,+OP2,+OP3,+P   .
          220  O  10    DA  end         .                         .
-         221  O  11    DC  start       -HO5',+P,+OP1,+OP2,+OP3   .
+         221  O  11    DC  start       -HO5',+OP1,+OP2,+OP3,+P   .
          222  O  12    DC  end         .                         .
-         223  O  13    DG  start       -HO5',+P,+OP1,+OP2,+OP3   .
+         223  O  13    DG  start       -HO5',+OP1,+OP2,+OP3,+P   .
          224  O  14    DG  end         .                         .
-         225  O  15    DT  start       -HO5',+P,+OP1,+OP2,+OP3   .
+         225  O  15    DT  start       -HO5',+OP1,+OP2,+OP3,+P   .
          226  O  16    DT  end         .                         .
          227  W   1   ASP  start       .                         .
          228  W   2   CYS  middle      -HG                       .
@@ -406,7 +406,7 @@ INSERT PULSE PROGRAM HERE
          231  W   5   LYS  end         .                         .
          232  W   6   CA   single      .                         .
          233  W   7   CD   single      .                         .
-         234  X   1   PHE  single      -HD1,-HD2,+ID1,+CLD2      .
+         234  X   1   PHE  single      -HD1,-HD2,+CLD2,+ID1      .
          235  Y   1   ATP  single      .                         .
          
       stop_
@@ -473,20 +473,20 @@ INSERT PULSE PROGRAM HERE
 
          # key: chain_code_1, sequence_code_1, atom_name_1, chain_code_2, sequence_code_2, atom_name_2
 
-         A 20 CYS SG  B 17 CYS SG
-         D  2 CYS SG  D  6 CYS SG
-         D  4 CYS SG  D  8 CYS SG
-         E  1 ASN N   E  6 GLU CD
-         E  2 THR CB  E 16 GLC O1
-         E 14 ARG C   E 15 MOH O
-         F  4 THR C   G  3 TYR N
-         F 11 ASN N   G  5 ALA C
-         X  1 PHE CD1 X  1 PHE ID1
-         X  1 PHE CD2 X  1 PHE CLD2
-         W  1 ASP OD1 W  6 CA  CA
-         W  2 CYS SG  W  7 CD  CD
-         W  3 ASP OD1 W  6 CA  CA
-         W  4 CYS SG  W  7 CD  CD
+         A  20  CYS  SG   B  17  CYS  SG
+         D  2   CYS  SG   D  6   CYS  SG
+         D  4   CYS  SG   D  8   CYS  SG
+         E  1   ASN  N    E  6   GLU  CD
+         E  2   THR  CB   E  16  GLC  O1
+         E  14  ARG  C    E  15  MOH  O
+         F  4   THR  C    G  3   TYR  N
+         F  11  ASN  N    G  5   ALA  C
+         W  1   ASP  OD1  W  6   CA   CA
+         W  2   CYS  SG   W  7   CD   CD
+         W  3   ASP  OD1  W  6   CA   CA
+         W  4   CYS  SG   W  7   CD   CD
+         X  1   PHE  CD1  X  1   PHE  ID1
+         X  1   PHE  CD2  X  1   PHE  CLD2
       stop_
 
    save_
