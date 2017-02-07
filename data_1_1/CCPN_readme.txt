@@ -136,3 +136,8 @@ using custom scripts. The chain B chemical shifts were duplicated from those of 
 
 This version is an upgrade of the previous version in data_0_2, with X/Y nomenclature replaced with x/y,
 and retains any imperfections that the previous version may have.
+
+CCPN_XPLOR_test1.nef
+--------------------
+
+is the CCPN read-and-write of XPLOR_test1.nef
