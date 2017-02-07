@@ -4,10 +4,11 @@ save_nef_nmr_meta_data
     _nef_nmr_meta_data.sf_category     nef_nmr_meta_data
     _nef_nmr_meta_data.sf_framecode    nef_nmr_meta_data
     _nef_nmr_meta_data.format_name     nmr_exchange_format
+    _nef_nmr_meta_data.format_version  1.1
     _nef_nmr_meta_data.program_name    Xplor-NIH
     _nef_nmr_meta_data.program_version 2.44.5-custom
-    _nef_nmr_meta_data.creation_date   2017-02-07_11:17:35
-    _nef_nmr_meta_data.uuid            Xplor-NIH_2017-02-07_11:17:35_CB8035FF
+    _nef_nmr_meta_data.creation_date   2017-02-07_13:43:00
+    _nef_nmr_meta_data.uuid            Xplor-NIH_2017-02-07_13:43:00_C1D0FA40
 save_
 
 save_nef_molecular_system
@@ -178,20 +179,10 @@ _nef_distance_restraint.upper_limit
  80 .  6 ILE HD1% . 15 GLU  HB% 4.0 1.8 5.5 
  81 .  7 LEU HD1% . 15 GLU   HA 3.0 1.8 3.8 
  82 .  7 LEU HD1% . 16 THR HG2% 3.0 1.8 4.3 
- 83 .  7 LEU HD11 . 34 ALA    H 4.0 1.8 5.5 
- 83 .  7 LEU HD12 . 34 ALA    H 4.0 1.8 5.5 
- 83 .  7 LEU HD13 . 34 ALA    H 4.0 1.8 5.5 
- 83 .  7 LEU HD21 . 34 ALA    H 4.0 1.8 5.5 
- 83 .  7 LEU HD22 . 34 ALA    H 4.0 1.8 5.5 
- 83 .  7 LEU HD23 . 34 ALA    H 4.0 1.8 5.5 
+ 83 .  7 LEU  HD% . 34 ALA    H 4.0 1.8 5.5 
  84 .  7 LEU HD1% . 34 ALA   HA 4.0 1.8 5.5 
  85 .  7 LEU HD2% . 34 ALA   HA 4.0 1.8 5.5 
- 86 .  7 LEU HD11 . 15 GLU  HG% 4.0 1.8 6.0 
- 86 .  7 LEU HD12 . 15 GLU  HG% 4.0 1.8 6.0 
- 86 .  7 LEU HD13 . 15 GLU  HG% 4.0 1.8 6.0 
- 86 .  7 LEU HD21 . 15 GLU  HG% 4.0 1.8 6.0 
- 86 .  7 LEU HD22 . 15 GLU  HG% 4.0 1.8 6.0 
- 86 .  7 LEU HD23 . 15 GLU  HG% 4.0 1.8 6.0 
+ 86 .  7 LEU  HD% . 15 GLU  HG% 4.0 1.8 6.0 
  87 .  7 LEU HD2% . 34 ALA  HB% 3.0 1.8 3.8 
  88 .  7 LEU HD2% . 54 VAL   HB 4.0 1.8 5.5 
  89 .  7 LEU HD2% . 39 VAL   HB 4.0 1.8 5.5 
@@ -585,18 +576,8 @@ _nef_distance_restraint.upper_limit
 477 .  5 LEU HD2% .  7 LEU HD1% 3.0 1.8 4.3 
 478 .  5 LEU HD2% .  7 LEU HD2% 3.0 1.8 4.3 
 479 .  7 LEU HD2% .  8 ASN    H 4.0 1.8 5.5 
-480 .  7 LEU HD11 .  8 ASN   HA 4.0 1.8 6.5 
-480 .  7 LEU HD12 .  8 ASN   HA 4.0 1.8 6.5 
-480 .  7 LEU HD13 .  8 ASN   HA 4.0 1.8 6.5 
-480 .  7 LEU HD21 .  8 ASN   HA 4.0 1.8 6.5 
-480 .  7 LEU HD22 .  8 ASN   HA 4.0 1.8 6.5 
-480 .  7 LEU HD23 .  8 ASN   HA 4.0 1.8 6.5 
-481 .  7 LEU HD11 .  5 LEU  HB% 4.0 1.8 6.5 
-481 .  7 LEU HD12 .  5 LEU  HB% 4.0 1.8 6.5 
-481 .  7 LEU HD13 .  5 LEU  HB% 4.0 1.8 6.5 
-481 .  7 LEU HD21 .  5 LEU  HB% 4.0 1.8 6.5 
-481 .  7 LEU HD22 .  5 LEU  HB% 4.0 1.8 6.5 
-481 .  7 LEU HD23 .  5 LEU  HB% 4.0 1.8 6.5 
+480 .  7 LEU  HD% .  8 ASN   HA 4.0 1.8 6.5 
+481 .  7 LEU  HD% .  5 LEU  HB% 4.0 1.8 6.5 
 482 . 12 LEU HD1% . 13 LYS    H 3.0 1.8 3.8 
 483 . 12 LEU HD2% . 13 LYS    H 4.0 1.8 6.5 
 484 . 13 LYS  HG% .  8 ASN   HA 2.5 1.8 2.7 
@@ -707,18 +688,8 @@ _nef_distance_restraint.upper_limit
 589 . 54 VAL    H . 54 VAL   HB 3.0 1.8 3.5 
 590 . 55 THR    H . 55 THR   HB 2.5 1.8 2.9 
 591 . 56 GLU    H . 56 GLU  HB% 3.0 1.8 3.5 
-592 . 21 VAL    H . 21 VAL HG11 3.0 1.8 4.5 
-592 . 21 VAL    H . 21 VAL HG12 3.0 1.8 4.5 
-592 . 21 VAL    H . 21 VAL HG13 3.0 1.8 4.5 
-592 . 21 VAL    H . 21 VAL HG21 3.0 1.8 4.5 
-592 . 21 VAL    H . 21 VAL HG22 3.0 1.8 4.5 
-592 . 21 VAL    H . 21 VAL HG23 3.0 1.8 4.5 
-593 . 21 VAL   HA . 21 VAL HG11 3.0 1.8 4.3 
-593 . 21 VAL   HA . 21 VAL HG12 3.0 1.8 4.3 
-593 . 21 VAL   HA . 21 VAL HG13 3.0 1.8 4.3 
-593 . 21 VAL   HA . 21 VAL HG21 3.0 1.8 4.3 
-593 . 21 VAL   HA . 21 VAL HG22 3.0 1.8 4.3 
-593 . 21 VAL   HA . 21 VAL HG23 3.0 1.8 4.3 
+592 . 21 VAL    H . 21 VAL  HG% 3.0 1.8 4.5 
+593 . 21 VAL   HA . 21 VAL  HG% 3.0 1.8 4.3 
 594 . 29 VAL   HA . 29 VAL HG2% 2.5 1.8 3.2 
 595 . 29 VAL   HA . 29 VAL HG1% 3.0 1.8 3.8 
 596 . 29 VAL    H . 29 VAL HG2% 2.5 1.8 3.4 
