@@ -296,93 +296,93 @@ INSERT PULSE PROGRAM HERE
          121  H  60   VAL  end        .            .
          122  L   1   ALA  start      .            .
          123  L   2   ALA  middle     .            .
-         124  L   3   ALA  end        +H''         .
+         124  L   3   ALA  end        +HXT         .
          125  L   4   ARG  start      .            .
          126  L   5   ARG  middle     .            .
-         127  L   6   ARG  end        +H''         .
+         127  L   6   ARG  end        +HXT         .
          128  L   7   ASN  start      .            .
          129  L   8   ASN  middle     .            .
-         130  L   9   ASN  end        +H''         .
+         130  L   9   ASN  end        +HXT         .
          131  L  10   ASP  start      +HD2         .
          132  L  11   ASP  middle     +HD2         .
-         133  L  12   ASP  end        +H'',+HD2    .
+         133  L  12   ASP  end        +HD2,+HXT    .
          134  L  13   CYS  start      .            .
          135  L  14   CYS  middle     .            .
-         136  L  15   CYS  end        +H''         .
+         136  L  15   CYS  end        +HXT         .
          137  L  16   GLN  start      .            .
          138  L  17   GLN  middle     .            .
-         139  L  18   GLN  end        +H''         .
+         139  L  18   GLN  end        +HXT         .
          140  L  19   GLU  start      +HE2         .
          141  L  20   GLU  middle     +HE2         .
-         142  L  21   GLU  end        +H'',+HE2    .
+         142  L  21   GLU  end        +HE2,+HXT    .
          143  L  22   GLY  start      .            .
          144  L  23   GLY  middle     .            .
-         145  L  24   GLY  end        +H''         .
+         145  L  24   GLY  end        +HXT         .
          146  L  25   HIS  start      +HE2         .
          147  L  26   HIS  middle     +HE2         .
-         148  L  27   HIS  end        +H'',+HE2    .
+         148  L  27   HIS  end        +HE2,+HXT    .
          149  L  28   ILE  start      .            .
          150  L  29   ILE  middle     .            .
-         151  L  30   ILE  end        +HX2         .
+         151  L  30   ILE  end        +HXT         .
          152  L  31   LEU  start      .            .
          153  L  32   LEU  middle     .            .
-         154  L  33   LEU  end        +H''         .
+         154  L  33   LEU  end        +HXT         .
          155  L  34   LYS  start      .            .
          156  L  35   LYS  middle     .            .
-         157  L  36   LYS  end        +H''         .
+         157  L  36   LYS  end        +HXT         .
          158  L  37   MET  start      .            .
          159  L  38   MET  middle     .            .
-         160  L  39   MET  end        +H''         .
+         160  L  39   MET  end        +HXT         .
          161  L  40   PHE  start      .            .
          162  L  41   PHE  middle     .            .
-         163  L  42   PHE  end        +H''         .
+         163  L  42   PHE  end        +HXT         .
          164  L  43   PRO  start      .            .
          165  L  44   PRO  middle     .            .
-         166  L  45   PRO  end        +H''         .
+         166  L  45   PRO  end        +HXT         .
          167  L  46   SER  start      .            .
          168  L  47   SER  middle     .            .
-         169  L  48   SER  end        +H''         .
+         169  L  48   SER  end        +HXT         .
          170  L  49   THR  start      .            .
          171  L  50   THR  middle     .            .
-         172  L  51   THR  end        +H''         .
+         172  L  51   THR  end        +HXT         .
          173  L  52   TRP  start      .            .
          174  L  53   TRP  middle     .            .
-         175  L  54   TRP  end        +H''         .
+         175  L  54   TRP  end        +HXT         .
          176  L  55   TYR  start      .            .
          177  L  56   TYR  middle     .            .
-         178  L  57   TYR  end        +H''         .
+         178  L  57   TYR  end        +HXT         .
          179  L  58   VAL  start      .            .
          180  L  59   VAL  middle     .            .
-         181  L  60   VAL  end        +H''         .
+         181  L  60   VAL  end        +HXT         .
          182  M   1   ASP  start      -H3,+HD2     .
-         183  M   2   CYS  end        -HG,+H''     .
+         183  M   2   CYS  end        -HG,+HXT     .
          184  M   3   ASP  start      .            .
          185  M   4   CYS  end        .            .
          186  M   5   GLU  start      -H3,+HE2     .
-         187  M   6   TYR  end        -HH,+H''     .
+         187  M   6   TYR  end        -HH,+HXT     .
          188  M   7   GLU  start      .            .
          189  M   8   TYR  end        .            .
          190  M   9   HIS  start      -H3,+HE2     .
-         191  M  10   LYS  end        -HZ3,+H''    .
+         191  M  10   LYS  end        -HZ3,+HXT    .
          192  M  11   HIS  start      .            .
          193  M  12   LYS  end        .            .
          194  M  13   ALA  start      .            .
          195  M  14   ARG  end        .            .
          196  M  15   ALA  start      .            .
-         197  M  16   ARG  end        -HH12,+H''   .
+         197  M  16   ARG  end        -HH12,+HXT   .
          198  M  17   HIS  start      -HD1,+HE2    .
          199  M  18   HIS  middle     -HD1,+HE2    .
          200  M  19   HIS  end        -HD1,+HE2    .
          201  M  20   HIS  start      -H3,-HD1,+HE2   .
-         202  M  21   HIS  end        -HD1,+H'',+HE2  .
+         202  M  21   HIS  end        -HD1,+HE2,+HXT  .
          203  N   1   CYS  single     .            .
          204  N   2   CYS  single     -H3          .
-         205  N   3   CYS  single     +H''         .
-         206  N   4   CYS  single     -H3,+H''     .
+         205  N   3   CYS  single     +HXT         .
+         206  N   4   CYS  single     -H3,+HXT     .
          207  N   5   CYS  single     -HG          .
          208  N   6   CYS  single     -H3,-HG      .
-         209  N   7   CYS  single     -HG,+H''     .
-         210  N   8   CYS  single     -H3,-HG,+H'' .
+         209  N   7   CYS  single     -HG,+HXT     .
+         210  N   8   CYS  single     -H3,-HG,+HXT .
          211  O   1     A  start       -HO5',+OP1,+OP2,+OP3,+P   .
          212  O   2     A  end         .                         .
          213  O   3     C  start       -HO5',+OP1,+OP2,+OP3,+P   .
@@ -503,8 +503,8 @@ INSERT PULSE PROGRAM HERE
 
       # All tags in this saveframe are mandatory, except for value_uncertainty.
 
-      _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
-      _nef_chemical_shift_list.sf_framecode               nef_chemical_shift_list_1
+      _nef_chemical_shift_list.sf_category   nef_chemical_shift_list
+      _nef_chemical_shift_list.sf_framecode  nef_chemical_shift_list_1
 
       loop_
          _nef_chemical_shift.chain_code
@@ -648,8 +648,8 @@ INSERT PULSE PROGRAM HERE
 
       # All tags in this saveframe are mandatory, except for value_uncertainty.
 
-      _nef_chemical_shift_list.sf_category                nef_chemical_shift_list
-      _nef_chemical_shift_list.sf_framecode               nef_chemical_shift_list_2
+      _nef_chemical_shift_list.sf_category   nef_chemical_shift_list
+      _nef_chemical_shift_list.sf_framecode  nef_chemical_shift_list_2
 
       loop_
          _nef_chemical_shift.chain_code
@@ -662,17 +662,18 @@ INSERT PULSE PROGRAM HERE
          _nef_chemical_shift.isotope_number
       
          # key: chain_code, sequence_code, atom_name
-         W     2       CYS   H      7.5     0      H     2
-         W     2       CYS   HA     4.3     0      H     2
-         W     2       CYS   HB2    2.8     0      H     2
-         W     2       CYS   HB3    2.7     0      H     2
-         W     3       ASP   H      9.2     0      H     2
-         W     4       CYS   H      7.8     0      H     2
-         W     4       CYS   HA     4.8     0      H     2
-         W     4       CYS   HB2    2.6     0      H     2
-         W     4       CYS   HB3    2.5     0      H     2
-         W     5       LYS   H      8.5     0      H     2
-         W     7       CD    CD     -151.0  0      CD    111
+
+         W  2  CYS  H    7.5   0  H   2
+         W  2  CYS  HA   4.3   0  H   2
+         W  2  CYS  HB2  2.8   0  H   2
+         W  2  CYS  HB3  2.7   0  H   2
+         W  3  ASP  H    9.2   0  H   2
+         W  4  CYS  H    7.8   0  H   2
+         W  4  CYS  HA   4.8   0  H   2
+         W  4  CYS  HB2  2.6   0  H   2
+         W  4  CYS  HB3  2.5   0  H   2
+         W  5  LYS  H    8.5   0  H   2
+         W  7   CD  CD   -151  0  CD  111
       stop_
 
 # This list contains 2H and 113Cd chemical shifts.
@@ -693,16 +694,15 @@ INSERT PULSE PROGRAM HERE
 #=======================================================================
 
 
-save_nef_distance_restraint_list_L1
+   save_nef_distance_restraint_list_L1
 
-
-# Mandatory parameters
-      _nef_distance_restraint_list.sf_category     nef_distance_restraint_list
-      _nef_distance_restraint_list.sf_framecode    nef_distance_restraint_list_L1
-      _nef_distance_restraint_list.potential_type  square-well-parabolic-linear
+      # Mandatory parameters
+      _nef_distance_restraint_list.sf_category       nef_distance_restraint_list
+      _nef_distance_restraint_list.sf_framecode      nef_distance_restraint_list_L1
+      _nef_distance_restraint_list.potential_type    square-well-parabolic-linear
   
       # Optional parameter:
-      _nef_distance_restraint_list.restraint_origin     noe
+      _nef_distance_restraint_list.restraint_origin  noe
       # The restraint_origin describes the origin or source of the restraints. For
       # distance restraints likely values would be 'noe', 'hbond', 'mutation', 'shift_perturbation' 
 
@@ -757,16 +757,16 @@ save_nef_distance_restraint_list_L1
    save_
 
 
-save_nef_distance_restraint_list_hbond1
+   save_nef_distance_restraint_list_hbond1
 
 
-# Mandatory parameters
-      _nef_distance_restraint_list.sf_category     nef_distance_restraint_list
-      _nef_distance_restraint_list.sf_framecode    nef_distance_restraint_list_hbond1
-      _nef_distance_restraint_list.potential_type  square-well-parabolic
+      # Mandatory parameters
+      _nef_distance_restraint_list.sf_category       nef_distance_restraint_list
+      _nef_distance_restraint_list.sf_framecode      nef_distance_restraint_list_hbond1
+      _nef_distance_restraint_list.potential_type    square-well-parabolic
   
       # Optional parameter:
-      _nef_distance_restraint_list.restraint_origin     hbond
+      _nef_distance_restraint_list.restraint_origin  hbond
       # The restraint_origin describes the origin or source of the restraints. For
       # distance restraints likely values would be 'noe', 'hbond', 'mutation', 'shift_perturbation' 
 
@@ -797,14 +797,14 @@ save_nef_distance_restraint_list_hbond1
       
          # key: index
 
-         1  1  .  A  15  GLY  H    A  24B  GLN  O     1  1.8    .  .  1.4    2.7  .
-         2  2  .  A  15  GLY  N    A  24B  GLN  O     1  2.8    .  .  2.4    3.7  .
-         3  3  1  A  13  THR  O    A  19   LEU  H     1  1.8    .  .  1.4    2.7  .
-         4  3  1  A  13  THR  O    A  19   LEU  N     1  2.8    .  .  2.4    3.7  .
-         5  4  2  A  17  VAL  H    A  22   THR  O     1  1.8    .  .  1.4    2.7  .
-         6  4  2  A  17  VAL  N    A  22   THR  O     1  2.8    .  .  2.4    3.7  .
-         7  4  3  A  17  VAL  H    A  24   ASP  O     1  1.8    .  .  1.4    2.7  .
-         8  4  3  A  17  VAL  N    A  24   ASP  O     1  2.8    .  .  2.4    3.7  .
+         1  1  .  A  15  GLY  H  A  24B  GLN  O  1  1.8  .  .  1.4  2.7  .
+         2  2  .  A  15  GLY  N  A  24B  GLN  O  1  2.8  .  .  2.4  3.7  .
+         3  3  1  A  13  THR  O  A  19   LEU  H  1  1.8  .  .  1.4  2.7  .
+         4  3  1  A  13  THR  O  A  19   LEU  N  1  2.8  .  .  2.4  3.7  .
+         5  4  2  A  17  VAL  H  A  22   THR  O  1  1.8  .  .  1.4  2.7  .
+         6  4  2  A  17  VAL  N  A  22   THR  O  1  2.8  .  .  2.4  3.7  .
+         7  4  3  A  17  VAL  H  A  24   ASP  O  1  1.8  .  .  1.4  2.7  .
+         8  4  3  A  17  VAL  N  A  24   ASP  O  1  2.8  .  .  2.4  3.7  .
       stop_
 
       # The first column (index) is a consecutive line number that does not persist  
@@ -833,12 +833,12 @@ save_nef_distance_restraint_list_hbond1
    save_nef_dihedral_restraint_list_L2
 
       # Mandatory parameters:
-      _nef_dihedral_restraint_list.sf_category     nef_dihedral_restraint_list
-      _nef_dihedral_restraint_list.sf_framecode    nef_dihedral_restraint_list_L2
-      _nef_dihedral_restraint_list.potential_type  square-well-parabolic
+      _nef_dihedral_restraint_list.sf_category       nef_dihedral_restraint_list
+      _nef_dihedral_restraint_list.sf_framecode      nef_dihedral_restraint_list_L2
+      _nef_dihedral_restraint_list.potential_type    square-well-parabolic
 
       # Optional parameter:
-      _nef_dihedral_restraint_list.restraint_origin     talos
+      _nef_dihedral_restraint_list.restraint_origin  talos
       # The restraint_origin describes the origin or source of the restraints. For
       # distance restraints likely values would be 'chemical_shift', 'jcoupling'
 
@@ -875,7 +875,7 @@ save_nef_distance_restraint_list_hbond1
          _nef_dihedral_restraint.upper_limit
          _nef_dihedral_restraint.upper_linear_limit
          _nef_dihedral_restraint.name
-      
+
          # key: index
          
          1   1  .  A  21  ALA  N   A  21  ALA  CA  A  21  ALA  C   A  22   THR  N    1  -50  5  .  -60  -40  .  PSI
@@ -887,7 +887,7 @@ save_nef_distance_restraint_list_hbond1
          7   4  2  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -50  5  .  -60  -40  .  PSI
          8   4  3  A  15  GLY  C   A  16  ASN  N   A  16  ASN  CA  A  16   ASN  C    1  -80  5  .  -90  -70  .  PHI
          9   4  3  A  16  ASN  N   A  16  ASN  CA  A  16  ASN  C   A  17   VAL  N    1  -80  5  .  -90  -70  .  PSI
-         10  5  .  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19   LEU  CDx  1  -80  5  .  -90  -70  .  .  
+         10  5  .  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19   LEU  CDx  1  -80  5  .  -90  -70  .  .
          11  6  .  A  23  LYS  CA  A  23  LYS  CB  A  23  LYS  CG  A  23   LYS  CD   1  -80  5  .  -90  -70  .  CHI2
       stop_
 
@@ -935,7 +935,7 @@ save_nef_distance_restraint_list_hbond1
       # Optional parameters
       _nef_rdc_restraint_list.restraint_origin      measured
       # The restraint_origin describes the origin or source of the restraints.
-      _nef_rdc_restraint_list.tensor_magnitude      11 
+      _nef_rdc_restraint_list.tensor_magnitude      11
       _nef_rdc_restraint_list.tensor_rhombicity     0.067
       _nef_rdc_restraint_list.tensor_chain_code     C
       _nef_rdc_restraint_list.tensor_sequence_code  900
@@ -1105,16 +1105,16 @@ save_nef_distance_restraint_list_hbond1
 
          # key: index
 
-         1   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  14  TRP  HB3  A  18    PHE  N    A  18    PHE  H  
-         2   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBy  A  24B   GLN  N    A  24B   GLN  H  
-         3   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBy  A  24D   TYR  N    A  24D   TYR  H  
-         4   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBx  A  24B   GLN  N    A  24B   GLN  H  
-         5   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBx  A  24D   TYR  N    A  24D   TYR  H  
-         6   3  54000000  7300000   34000000  5300000   4.4  0.05  106.5  0.5  7.8  0.03  .  .   .    .    A  15    GLY  N    A  15    GLY  H  
-         7   4  88000000  13000000  48000000  3300000   3.2  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB3  A  14    TRP  NE1  A  14    TRP  HE1
-         8   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB2  A  14    TRP  NE1  A  14    TRP  HE1
-         9   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  24  ASP  HBy  A  14    TRP  NE1  A  14    TRP  HE1
-         10  7  59000000  7100000   29000000  6100000   1.7  0.05  118.3  0.5  9.1  0.03  .  .   .    .    Z  @5    GLX  N    Z  @5    GLX  H  
+         1   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  14  TRP  HB3  A  18   PHE  N    A  18   PHE  H
+         2   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBy  A  24B  GLN  N    A  24B  GLN  H
+         3   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  19  LEU  HBy  A  24D  TYR  N    A  24D  TYR  H
+         4   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBx  A  24B  GLN  N    A  24B  GLN  H
+         5   1  73000000  5100000   33000000  1100000   3.2  0.05  119.5  0.5  8.3  0.03  A  20  CYS  HBx  A  24D  TYR  N    A  24D  TYR  H
+         6   3  54000000  7300000   34000000  5300000   4.4  0.05  106.5  0.5  7.8  0.03  .  .   .    .    A  15   GLY  N    A  15   GLY  H
+         7   4  88000000  13000000  48000000  3300000   3.2  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB3  A  14   TRP  NE1  A  14   TRP  HE1
+         8   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  14  TRP  HB2  A  14   TRP  NE1  A  14   TRP  HE1
+         9   5  88000000  13000000  58000000  23000000  3.4  0.05  135.6  0.5  9.9  0.03  A  24  ASP  HBy  A  14   TRP  NE1  A  14   TRP  HE1
+         10  7  59000000  7100000   29000000  6100000   1.7  0.05  118.3  0.5  9.1  0.03  .  .   .    .    Z  @5   GLX  N    Z  @5   GLX  H
       stop_
 
       # Peaks 1 and 5 have ambiguous assignments.
@@ -1286,7 +1286,7 @@ save_nef_distance_restraint_list_hbond1
       
          # key: index
 
-         1  1  73000000  5100000  33000000  1100000  7.2  0.05  119.5  0.4  28.3  0.3  172.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  A  19  LEU  HN  A  19  LEU  N  A  24C   GLN  C  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19  LEU  CDx  A  19  LEU  CDy  A  19  LEU  CG  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  24C   GLN  CA  A  24C   GLN  CB  A  24C   GLN  CG
+         1  1  73000000  5100000  33000000  1100000  7.2  0.05  119.5  0.4  28.3  0.3  172.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  22.2  0.5  58.5  0.4  32.3  0.4  A  19  LEU  HN  A  19  LEU  N  A  24C  GLN  C  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  19  LEU  CDx  A  19  LEU  CDy  A  19  LEU  CG  A  19  LEU  CA  A  19  LEU  CB  A  19  LEU  CG  A  24C  GLN  CA  A  24C  GLN  CB  A  24C  GLN  CG
       stop_
    save_
 
@@ -1314,7 +1314,7 @@ save_nef_distance_restraint_list_hbond1
          _nef_peak_restraint_link.peak_id
          _nef_peak_restraint_link.restraint_list_id
          _nef_peak_restraint_link.restraint_id
-  
+
          # key: nmr_spectrum_id, peak_id, restraint_list_id, restraint_id
   
          nef_nmr_spectrum_cnoesy1  1  nef_distance_restraint_list_L1  5
@@ -1329,7 +1329,7 @@ save_nef_distance_restraint_list_hbond1
       #
       # The links do not make scientific sense, but they are formally correct
 
-save_
+   save_
 
 
 #=======================================================================
@@ -1346,24 +1346,24 @@ save_
 #
 #=======================================================================
 
-save_xplor_raw_data_T1_T2_values_1
-    _xplor_raw_data.sf_category     xplor_raw_data
-    _xplor_raw_data.sf_framecode    xplor_raw_data_T1_T2_values_1
+   save_xplor_raw_data_T1_T2_values_1
+      _xplor_raw_data.sf_category     xplor_raw_data
+      _xplor_raw_data.sf_framecode    xplor_raw_data_T1_T2_values_1
 
-    # ALl items below are optional:
-    _xplor_raw_data.file_name       input_file_name.extension
+      # ALl items below are optional:
+      _xplor_raw_data.file_name       input_file_name.extension
 
-    _xplor_raw_data.details
+      _xplor_raw_data.details
 ; Optional item
 For comments.
 Any multiline text can be put here
 ;
 
-    _xplor_raw_data.text
+      _xplor_raw_data.text
 ;
 If the string starts with a new line (as in this case) it is skipped. This avoids issues with how many initial spaces to strip
 ;
-save_
+   save_
 
 
 

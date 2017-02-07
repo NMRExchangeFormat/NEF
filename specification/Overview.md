@@ -39,8 +39,17 @@ organised by data category (saveframe).
 
     1. The identifying strings are case sensitive, and the same object must have the same
     name (including casing) throughout the file - except for the use of wildcard names
-    for atoms, as described below. Residue and atom names of the molecule are taken from
-    the RCSB-curated chemical compound desciptions. Atom names and
+    for atoms, as described below. 
+    
+    2. Residue and atom names of the molecule are taken from the RCSB-curated chemical 
+    compound desciptions. For standard residues these should match the IUPAC nomenclature,
+    but in case of conflict, the RCSB naming takes preference. For residues that do not
+    match any RCSB chemical compound, IUPAC names should be used for atom name, and residue
+    names may be freely chosen; where technically possible it is recommended to use
+    names that can not be confused with RCSB residue names (e.g. with four or more letters).
+    
+    
+    3. Atom names and
     standard 3-letter-type residue names must match the molecule names also
     in casing in order to count as assignments to the molecule. Currently
     this means that they must be ALL-UPPER-CASE, but if in the future mmCif
@@ -61,20 +70,20 @@ organised by data category (saveframe).
       will be described below). 'ha', 'Ca', and 'ca' are not recognised as atom
       names that match the molecule, but only as anonymous identifier strings.
 
-    2. 'sequence_code' is a string, not an integer. It is recommended to use
+    4. 'sequence_code' is a string, not an integer. It is recommended to use
     consecutive numbers along a chain, or, failing that, to put any alt_codes
     as suffixes (as in '127B'). It is encouraged to use the same chain code only
     for groups of residues that are bound to each other.
 
-    3. 'sequence_code's, too, must be consistently used throughout the file. It
+    5. 'sequence_code's, too, must be consistently used throughout the file. It
     follows that any program-specific numberings must be given and used in the
     program-specific namespace, and that renaming and renumbering after
     deposition must preserve the original names (possibly using a
     deposition-specific namespace for the new names).
 
-    4. Structures must be given in mmCIf format. In this format the author naming
-    tags are used for the names in the NEF file, whereas IUPAC names are given as
-    the main identifiers. This gives a IUPAC-NEF mapping for each individual
+    6. Structures must be given in mmCIf format. In this format the author naming
+    tags are used for the names in the NEF file, whereas RCSB names are given as
+    the main identifiers. This gives an RCSB-NEF mapping for each individual
     model in an ensemble. The mapping reflects two different phenomena:
     1) The renumbering of the sequence, renaming of residues or atoms that arises
     from regularisation or changes in standard names when going from author to mmCif
@@ -84,11 +93,11 @@ organised by data category (saveframe).
     appear in the coordinate file - the author names for e.g. ALA methyl protons
     should be HB1, HB2, and HB3, even if the group is called HB% throughout the NEF file.
 
-    5. For the common standard residues (20 amino acids, 4 DNA and 4 RNA
-    nucleotides) the NEF standard will adopt the IUPAC nomenclature for
-    residue names, as well as IUPAC atom names. 
+    7. For the common standard residues (20 amino acids, 4 DNA and 4 RNA
+    nucleotides) the NEF standard will adopt the RCSB nomenclature for
+    residue names, as well as RCSB atom names. 
 
-    6. 'residue_name' refers to the residue identified by the matching mmCif
+    8. 'residue_name' refers to the residue identified by the matching mmCif
     chemical compound code. The atom naming and topology can therefore be
     taken from the mmCif chemical compound definitions. The same residue_name is used
     for all variants and protonation states - these are specified in the residue_linking  
@@ -99,13 +108,13 @@ organised by data category (saveframe).
     future mmCif codes - a name with at least four characters containing lower case
     characters would be a good choice. 
 
-    7. A residue is uniquely identified by the 'chain_code' and 'sequence_code',
+    9. A residue is uniquely identified by the 'chain_code' and 'sequence_code',
     so that the same 'residue_name' string must be used consistently throughout
     the file. Strictly speaking this makes the 'residue_name' string redundant,
     but it is used in identifiers to avoid ambiguity and to serve as a
     cross-check.
 
-    8. Atoms are identified by their name. The stereo/nonstereo assignment
+    10. Atoms are identified by their name. The stereo/nonstereo assignment
     status and atom/atomset/pseudoatom distinction follows from the name, so
     that there is no need for ambiguity codes anywhere in the file.
     All atom names start with the one or two letter element name. For
@@ -113,7 +122,7 @@ organised by data category (saveframe).
     For two-letter element names and for non-standard isotopes the element and
     isotope are given in the chemical shift list.
 
-    9. Atoms that differ only by stereochemistry (prochiral protons or methyl
+    11. Atoms that differ only by stereochemistry (prochiral protons or methyl
     groups, NH2 groups, opposite sides of non-rotating aromatic rings) but
     are not stereospecifically assigned, are distinguished using the suffixes
     'x' and 'y' (lower case).  These suffixes work effectively as a wildcard,
@@ -141,7 +150,7 @@ organised by data category (saveframe).
       same frequency (and so are indistinguishable) you should a wildcard expression (HB%)
       instead.
 
-    10. Sets of atoms can be represented by using atom names with wildcards.
+    12. Sets of atoms can be represented by using atom names with wildcards.
     There are two kinds of wildcards:
 
       '%' for 'any sequence of digits', equivalent to the regular expression
@@ -175,7 +184,7 @@ organised by data category (saveframe).
       distinguishing stereochemistry (e.g. DNA/RNA H5' and H5'', where the
       two-atom set is designated H5'\*).
 
-    11. IUPAC pseudoatom names (ALA MB, SER QB, etc.) are NOT expanded into
+    13. IUPAC pseudoatom names (ALA MB, SER QB, etc.) are NOT expanded into
     sets of atoms. They are reserved for the
     original meaning, i.e. a geometric point positioned at the centroid with zero
     van der Waals radius. A restraint to ALA MB would be different from one to
@@ -184,7 +193,7 @@ organised by data category (saveframe).
     to MB is not. The latter therefore needs to modify the given distance limits
     to obtain the same result.
 
-    12. Pseudoatom/wildcard names, stereospecific or non-stereospecific atom
+    14. Pseudoatom/wildcard names, stereospecific or non-stereospecific atom
     names can coexist for the same atom in the same file, but the proper name
     must be used with its defined meaning throughout the NEF file. It follows
     that when renaming the atoms to stereospecific entities, e.g. once the
@@ -219,7 +228,7 @@ organised by data category (saveframe).
       within the same ensemble, this allows for floating stereospecific
       assignments that can vary between the individual models in the ensemble.
 
-    13. Residues and atoms that match the molecular sequence (including those
+    15. Residues and atoms that match the molecular sequence (including those
     using pseudoatom and non-stereospecific naming conventions) are understood
     as referring to chains/residues/atoms in the molecule. Names that do not
     match the sequence are allowed; they are interpreted as referring to
@@ -231,7 +240,7 @@ organised by data category (saveframe).
       convert these into wildcard expressions (HBx to HB%,
       HDy% to HD%, etc.)
 
-    14. Selection expressions. Wildcards are allowed only for atom names.
+    16. Selection expressions. Wildcards are allowed only for atom names.
     It would in theory be possible to extend their use to 'chain_code',
     'sequence_code' and 'residue_name' at a later date, if there is a use case
     for this. More complex selection expressions, such as residue ranges, are
@@ -242,7 +251,7 @@ organised by data category (saveframe).
     The supported wildcard expressions for standard residues are given
     in the Residue_Variants.txt file.
 
-    15. Elements and isotopes are deduced from the first letter of the atom name; i.e.
+    17. Elements and isotopes are deduced from the first letter of the atom name; i.e.
     anything stareting with H is hydrogen, C is carbon, etc. The relevant isotope is
     deduced from context where necessary, e.g. NMR chemical shifts refer to 13C.
     Isotope labeling patterns are not supported in this version of NEF.
@@ -348,7 +357,7 @@ organised by data category (saveframe).
     version, and that separate upgrade and downgrade routines be produced to
     convert between major versions.
 
-Examples of mapping from 'xy' atom names to IUPAC
+Examples of mapping from 'xy' atom names to RCSB/IUPAC names
 -----------------------------------------------
 
 | Residue | 'xy' names |Mapping 1 | Mapping 2 | Mapping 3 | Mapping 4 |
