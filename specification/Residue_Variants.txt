@@ -303,8 +303,8 @@ Amino acids:
 - The N-terminal form (linking code 'start') has the backbone 'H' replaced by 'H1', 'H2', 'H3', with
 additional wildcard expressions 'H%'. Also, for each variant there is an additional variant
 with deprotonated amino terminal (code "-H3")
-- The C-terminal form has an extra 'Std form atom' "O''" and an extra 'Additional atom' "H''".
-Also, for each variant there is an additional variant with protonated carboxy terminal (code "+H''")
+- The C-terminal form has an extra 'Std form atom' "OXT" and an extra 'Additional atom' "HXT".
+Also, for each variant there is an additional variant with protonated carboxy terminal (code "+HXT")
 - The non-linked form (linking code 'single') has the extra atoms and variant codes of both the 'start' 
 and 'end' forms.
 
@@ -328,27 +328,27 @@ Std wildcard expressions:	H%, HB%
 code: 				CYS (Example: C-terminal form)
 Name:				C-terminal L-Cysteine: Default has deprotonated carboxy terminus (matches CYS_LEO2)
 Std variant codes:		"-HG" (deprotonated side chain, deprotonated carboxy terminus, matches CYS_LEO2_DHG)
-				"+H''" (protonated side chain, protonated carboxy terminus, matches CYS_LEO2H)
-				"-HG,+H''" (deprotonated side chain, protonated carboxy terminus, matches CYS_LEO2H_DHG)
+				"+HXT" (protonated side chain, protonated carboxy terminus, matches CYS_LEO2H)
+				"-HG,+HXT" (deprotonated side chain, protonated carboxy terminus, matches CYS_LEO2H_DHG)
 
-Std form atoms:			N, O, O'', C, CA, CB, SG
+Std form atoms:			N, O, OXT, C, CA, CB, SG
 Std form atoms 1H		H, HA, HB2, HB3, HG
-Additional atoms:		H''
+Additional atoms:		HXT
 Std wildcard expressions:	HB%
 
 
 code: 				CYS (Example: non-linked form)
 Name:				Unlinked L-Cysteine: Default is in zwitterion form (matches CYS_LFZW)
 Std variant codes:		"-HG" (deprotonated side chain, zwitterion form, matches CYS_LFZW_DHG)
-				"-H3,+H''" (neutral groups form, matches CYS_LFOH)
-				"-H3,-HG,+H''" (neutral backbone form, deprotonated side chain, matches CYS_LFOH_DHG)
-				"+H''" (fully protonated form, no exact RCSB match)
-				"-HG,+H''" (protonated backbone form, with deprotonated side chain, no exact RCSB match)
+				"-H3,+HXT" (neutral groups form, matches CYS_LFOH)
+				"-H3,-HG,+HXT" (neutral backbone form, deprotonated side chain, matches CYS_LFOH_DHG)
+				"+HXT" (fully protonated form, no exact RCSB match)
+				"-HG,+HXT" (protonated backbone form, with deprotonated side chain, no exact RCSB match)
 				"-H3" (deprotonated backbone form, with protonated side chain, no exact RCSB match)
 				"-H3,-HG" (deprotonated backbone form, with deprotonated side chain, no exact RCSB match)
-Std form atoms:			N, O, O'', C, CA, CB, SG
+Std form atoms:			N, O, OXT, C, CA, CB, SG
 Std form atoms 1H		H1, H2, H3, HA, HB2, HB3, HG
-Additional atoms:		H''
+Additional atoms:		HXT
 Std wildcard expressions:	HB%, H%
 
 
