@@ -1,0 +1,1371 @@
+data_nef_test1
+
+save_nef_nmr_meta_data
+    _nef_nmr_meta_data.sf_category     nef_nmr_meta_data
+    _nef_nmr_meta_data.sf_framecode    nef_nmr_meta_data
+    _nef_nmr_meta_data.format_name     nmr_exchange_format
+    _nef_nmr_meta_data.format_version  1.1
+    _nef_nmr_meta_data.program_name    Xplor-NIH
+    _nef_nmr_meta_data.program_version 2.44.5-custom
+    _nef_nmr_meta_data.creation_date   2017-02-07_13:43:00
+    _nef_nmr_meta_data.uuid            Xplor-NIH_2017-02-07_13:43:00_C1D0FA40
+save_
+
+save_nef_molecular_system
+_nef_molecular_system.sf_category  nef_molecular_system
+_nef_molecular_system.sf_framecode  nef_molecular_system
+loop_
+_nef_sequence.chain_code
+_nef_sequence.sequence_code
+_nef_sequence.residue_name
+_nef_sequence.residue_variant
+_nef_sequence.linking
+_nef_sequence.cis_peptide
+   .    1 MET .  start . 
+   .    2 THR . middle . 
+   .    3 TYR . middle . 
+   .    4 LYS . middle . 
+   .    5 LEU . middle . 
+   .    6 ILE . middle . 
+   .    7 LEU . middle . 
+   .    8 ASN . middle . 
+   .    9 GLY . middle . 
+   .   10 LYS . middle . 
+   .   11 THR . middle . 
+   .   12 LEU . middle . 
+   .   13 LYS . middle . 
+   .   14 GLY . middle . 
+   .   15 GLU . middle . 
+   .   16 THR . middle . 
+   .   17 THR . middle . 
+   .   18 THR . middle . 
+   .   19 GLU . middle . 
+   .   20 ALA . middle . 
+   .   21 VAL . middle . 
+   .   22 ASP . middle . 
+   .   23 ALA . middle . 
+   .   24 ALA . middle . 
+   .   25 THR . middle . 
+   .   26 ALA . middle . 
+   .   27 GLU . middle . 
+   .   28 LYS . middle . 
+   .   29 VAL . middle . 
+   .   30 PHE . middle . 
+   .   31 LYS . middle . 
+   .   32 GLN . middle . 
+   .   33 TYR . middle . 
+   .   34 ALA . middle . 
+   .   35 ASN . middle . 
+   .   36 ASP . middle . 
+   .   37 ASN . middle . 
+   .   38 GLY . middle . 
+   .   39 VAL . middle . 
+   .   40 ASP . middle . 
+   .   41 GLY . middle . 
+   .   42 GLU . middle . 
+   .   43 TRP . middle . 
+   .   44 THR . middle . 
+   .   45 TYR . middle . 
+   .   46 ASP . middle . 
+   .   47 ASP . middle . 
+   .   48 ALA . middle . 
+   .   49 THR . middle . 
+   .   50 LYS . middle . 
+   .   51 THR . middle . 
+   .   52 PHE . middle . 
+   .   53 THR . middle . 
+   .   54 VAL . middle . 
+   .   55 THR . middle . 
+   .   56 GLU .    end . 
+AXIS 5000 ANI .  dummy . 
+AXIS 5001 ANI .  dummy . 
+stop_
+save_
+save_nef_distance_restraint_list_1
+_nef_distance_restraint_list.sf_category  nef_distance_restraint_list
+_nef_distance_restraint_list.sf_framecode  nef_distance_restraint_list_1
+loop_
+_nef_distance_restraint.restraint_id
+_nef_distance_restraint.chain_code_1
+_nef_distance_restraint.sequence_code_1
+_nef_distance_restraint.residue_name_1
+_nef_distance_restraint.atom_name_1
+_nef_distance_restraint.chain_code_2
+_nef_distance_restraint.sequence_code_2
+_nef_distance_restraint.residue_name_2
+_nef_distance_restraint.atom_name_2
+_nef_distance_restraint.target_value
+_nef_distance_restraint.lower_limit
+_nef_distance_restraint.upper_limit
+  1 .  2 THR   HA . 18 THR    H 4.0 1.8 5.0 
+  2 .  4 LYS   HA . 18 THR    H 4.0 1.8 5.0 
+  3 .  5 LEU   HA . 52 PHE    H 3.0 1.8 3.5 
+  4 .  6 ILE   HA . 16 THR    H 4.0 1.8 5.0 
+  5 .  8 ASN   HA . 14 GLY    H 4.0 1.8 5.0 
+  6 . 13 LYS   HA .  7 LEU    H 4.0 1.8 5.0 
+  7 . 13 LYS   HA .  9 GLY    H 3.0 1.8 3.5 
+  8 . 15 GLU   HA .  7 LEU    H 2.5 1.8 2.9 
+  9 . 17 THR   HA .  5 LEU    H 3.0 1.8 3.5 
+ 10 . 43 TRP   HA . 55 THR    H 4.0 1.8 5.0 
+ 11 . 52 PHE   HA . 46 ASP    H 3.0 1.8 3.5 
+ 12 . 53 THR   HA .  6 ILE    H 2.5 1.8 2.9 
+ 13 . 54 VAL   HA . 44 THR    H 3.0 1.8 3.5 
+ 14 . 56 GLU   HA . 42 GLU    H 4.0 1.8 5.0 
+ 15 .  3 TYR    H . 18 THR    H 3.0 1.8 3.5 
+ 16 .  6 ILE    H . 54 VAL    H 4.0 1.8 5.0 
+ 17 .  7 LEU    H . 14 GLY    H 3.0 1.8 3.5 
+ 18 .  8 ASN    H . 54 VAL    H 4.0 1.8 5.0 
+ 19 . 16 THR    H .  5 LEU    H 3.0 1.8 3.5 
+ 20 . 42 GLU    H . 55 THR    H 4.0 1.8 5.0 
+ 21 . 44 THR    H . 53 THR    H 3.0 1.8 3.5 
+ 22 . 52 PHE    H .  4 LYS    H 3.0 1.8 3.5 
+ 23 . 52 PHE    H .  6 ILE    H 4.0 1.8 5.0 
+ 24 .  4 LYS   HA . 17 THR   HA 2.5 1.8 2.7 
+ 25 . 15 GLU   HA .  6 ILE   HA 2.5 1.8 2.7 
+ 26 . 19 GLU   HA .  2 THR   HA 2.5 1.8 2.7 
+ 27 . 43 TRP   HA . 54 VAL   HA 2.5 1.8 2.7 
+ 28 . 51 THR   HA .  5 LEU   HA 4.0 1.8 6.0 
+ 29 . 52 PHE   HA . 45 TYR   HA 2.5 1.8 2.7 
+ 30 . 53 THR   HA .  5 LEU   HA 4.0 1.8 6.0 
+ 31 . 53 THR   HA .  7 LEU   HA 4.0 1.8 5.0 
+ 32 . 56 GLU   HA . 41 GLY  HA% 2.5 0.8 2.7 
+ 33 .  2 THR   HA . 19 GLU  HB% 4.0 1.8 5.0 
+ 34 .  3 TYR   HA . 50 LYS  HB% 4.0 1.8 5.0 
+ 35 .  4 LYS   HA . 17 THR   HB 4.0 1.8 5.0 
+ 36 .  5 LEU   HA . 52 PHE  HB% 3.0 1.8 3.3 
+ 37 . 17 THR   HA .  2 THR   HB 4.0 1.8 7.0 
+ 38 . 17 THR   HA .  4 LYS  HB% 4.0 1.8 6.0 
+ 39 . 26 ALA   HA . 20 ALA  HB% 3.0 1.8 3.3 
+ 40 . 40 ASP   HA . 34 ALA  HB% 4.0 1.8 5.0 
+ 41 . 55 THR   HA .  8 ASN  HB% 2.5 1.8 2.7 
+ 42 . 54 VAL   HA . 43 TRP  HB% 4.0 1.8 5.0 
+ 43 . 43 TRP   HA . 54 VAL   HB 4.0 1.8 5.0 
+ 44 . 52 PHE   HA .  3 TYR  HB% 4.0 1.8 6.0 
+ 45 . 26 ALA  HB% .  3 TYR  HB% 3.0 1.8 3.3 
+ 46 . 26 ALA  HB% . 20 ALA  HB% 2.5 1.8 2.7 
+ 47 . 34 ALA  HB% . 54 VAL   HB 4.0 1.8 5.0 
+ 48 . 54 VAL   HB .  8 ASN    H 4.0 1.8 6.0 
+ 49 . 55 THR   HB . 42 GLU  HB% 3.0 1.8 3.3 
+ 50 . 17 THR   HB .  3 TYR    H 4.0 1.8 5.0 
+ 51 . 51 THR   HB . 46 ASP    H 4.0 1.8 5.0 
+ 52 . 53 THR   HB . 44 THR    H 4.0 1.8 5.0 
+ 53 . 55 THR   HB . 42 GLU    H 4.0 1.8 5.0 
+ 54 .  3 TYR  HB% . 18 THR    H 4.0 1.8 6.0 
+ 55 .  5 LEU  HB% . 16 THR    H 3.0 1.8 3.5 
+ 56 .  5 LEU  HB% . 15 GLU    H 4.0 1.8 7.0 
+ 57 . 15 GLU  HB% .  7 LEU    H 4.0 0.8 6.0 
+ 58 . 54 VAL   HB .  8 ASN    H 4.0 1.8 6.0 
+ 59 . 56 GLU  HB% . 10 LYS    H 2.5 1.8 2.9 
+ 60 .  5 LEU HD2% . 16 THR HG2% 3.0 1.8 4.3 
+ 61 .  5 LEU HD2% . 30 PHE   HA 3.0 1.8 3.8 
+ 62 .  5 LEU HD1% . 30 PHE  HB% 4.0 1.8 5.5 
+ 63 .  5 LEU HD2% . 30 PHE  HB% 4.0 1.8 5.5 
+ 64 .  5 LEU HD2% . 30 PHE  HB% 3.0 0.8 3.8 
+ 65 .  5 LEU HD1% . 30 PHE  HB% 4.0 1.8 5.5 
+ 66 .  5 LEU HD2% . 33 TYR  HB% 4.0 1.8 5.5 
+ 67 .  5 LEU HD2% . 34 ALA   HA 4.0 1.8 5.5 
+ 68 .  5 LEU HD2% . 34 ALA    H 4.0 1.8 5.5 
+ 69 .  5 LEU HD2% . 34 ALA  HB% 3.0 1.8 3.8 
+ 70 .  5 LEU HD1% . 34 ALA  HB% 4.0 1.8 6.5 
+ 71 .  5 LEU HD1% . 52 PHE    H 4.0 1.8 5.5 
+ 72 .  5 LEU HD1% . 54 VAL    H 2.5 1.8 3.2 
+ 73 .  5 LEU HD1% . 15 GLU   HA 4.0 1.8 5.5 
+ 74 .  5 LEU HD1% . 53 THR   HA 3.0 1.8 3.8 
+ 75 .  5 LEU HD1% . 54 VAL HG1% 4.0 1.8 6.0 
+ 76 .  5 LEU HD1% . 54 VAL HG2% 4.0 1.8 6.0 
+ 77 .  5 LEU HD1% . 54 VAL   HB 4.0 1.8 5.5 
+ 78 .  5 LEU   HG . 15 GLU   HA 4.0 1.8 5.0 
+ 79 .  6 ILE HG2% . 14 GLY    H 4.0 1.8 5.5 
+ 80 .  6 ILE HD1% . 15 GLU  HB% 4.0 1.8 5.5 
+ 81 .  7 LEU HD1% . 15 GLU   HA 3.0 1.8 3.8 
+ 82 .  7 LEU HD1% . 16 THR HG2% 3.0 1.8 4.3 
+ 83 .  7 LEU  HD% . 34 ALA    H 4.0 1.8 5.5 
+ 84 .  7 LEU HD1% . 34 ALA   HA 4.0 1.8 5.5 
+ 85 .  7 LEU HD2% . 34 ALA   HA 4.0 1.8 5.5 
+ 86 .  7 LEU  HD% . 15 GLU  HG% 4.0 1.8 6.0 
+ 87 .  7 LEU HD2% . 34 ALA  HB% 3.0 1.8 3.8 
+ 88 .  7 LEU HD2% . 54 VAL   HB 4.0 1.8 5.5 
+ 89 .  7 LEU HD2% . 39 VAL   HB 4.0 1.8 5.5 
+ 90 . 12 LEU HD2% . 37 ASN  HB% 2.5 1.8 3.2 
+ 91 . 12 LEU HD1% . 37 ASN  HB% 4.0 1.8 5.5 
+ 92 . 56 GLU  HG% . 10 LYS    H 4.0 1.8 5.0 
+ 93 . 39 VAL HG1% .  9 GLY    H 4.0 2.8 5.5 
+ 94 . 39 VAL HG2% .  9 GLY    H 4.0 1.8 6.5 
+ 95 . 39 VAL HG1% .  8 ASN    H 4.0 1.8 6.5 
+ 96 . 39 VAL HG1% . 10 LYS    H 4.0 1.8 6.5 
+ 97 . 39 VAL HG2% . 10 LYS    H 4.0 1.8 5.5 
+ 98 . 39 VAL HG2% . 12 LEU    H 4.0 1.8 5.5 
+ 99 . 39 VAL HG1% . 12 LEU    H 4.0 1.8 6.5 
+100 . 39 VAL HG1% . 54 VAL   HA 4.0 1.8 5.5 
+101 . 39 VAL HG1% . 56 GLU   HA 4.0 1.8 5.5 
+102 . 39 VAL HG1% . 56 GLU    H 4.0 1.8 5.5 
+103 . 39 VAL HG1% . 56 GLU  HG% 3.0 1.8 4.0 
+104 . 39 VAL HG1% . 56 GLU  HB% 4.0 1.8 6.5 
+105 . 39 VAL HG1% . 54 VAL HG1% 2.5 1.8 3.7 
+106 . 39 VAL HG1% . 54 VAL HG2% 2.5 1.8 3.7 
+107 . 39 VAL HG1% . 54 VAL   HB 4.0 1.8 5.5 
+108 . 39 VAL HG1% . 34 ALA  HB% 4.0 1.8 5.5 
+109 . 39 VAL HG2% . 34 ALA  HB% 4.0 1.8 6.5 
+110 . 39 VAL HG1% .  7 LEU   HA 4.0 1.8 5.5 
+111 . 54 VAL HG1% .  5 LEU  HB% 4.0 1.8 5.5 
+112 . 54 VAL HG1% .  7 LEU HD2% 2.5 0.3 3.7 
+113 . 54 VAL HG2% .  7 LEU HD2% 4.0 1.8 7.0 
+114 . 54 VAL HG1% .  7 LEU   HG 3.0 1.8 3.8 
+115 . 54 VAL HG2% .  7 LEU  HB% 4.0 1.8 6.5 
+116 . 54 VAL HG1% .  8 ASN    H 2.5 1.8 3.2 
+117 . 54 VAL HG1% . 34 ALA  HB% 3.0 1.8 3.8 
+118 . 54 VAL HG2% . 34 ALA  HB% 4.0 1.8 6.5 
+119 . 54 VAL HG1% . 39 VAL   HB 4.0 1.8 5.5 
+120 . 54 VAL HG2% . 40 ASP   HA 4.0 1.8 5.5 
+121 . 54 VAL HG2% . 41 GLY    H 3.0 1.8 3.8 
+122 . 54 VAL HG1% . 41 GLY    H 4.0 1.8 5.5 
+123 . 54 VAL HG2% . 41 GLY  HA% 4.0 1.8 5.5 
+124 . 54 VAL HG2% . 42 GLU    H 4.0 1.8 5.5 
+125 . 54 VAL HG2% . 43 TRP   HA 3.0 1.8 3.9 
+126 .  2 THR HG2% . 18 THR    H 2.5 1.3 3.4 
+127 .  2 THR HG2% . 17 THR   HA 4.0 1.8 6.5 
+128 .  2 THR HG2% . 19 GLU  HG% 4.0 1.8 5.5 
+129 . 16 THR HG2% .  5 LEU    H 3.0 1.8 3.9 
+130 . 16 THR HG2% .  5 LEU  HB% 3.0 1.8 3.8 
+131 . 16 THR HG2% . 33 TYR  HB% 4.0 1.8 6.5 
+132 . 17 THR HG2% .  4 LYS   HA 3.0 1.8 3.8 
+133 . 17 THR HG2% .  4 LYS    H 4.0 1.8 6.5 
+134 . 18 THR HG2% .  3 TYR    H 3.0 1.8 3.9 
+135 . 18 THR HG2% .  3 TYR  HB% 4.0 1.8 5.5 
+136 . 18 THR HG2% . 26 ALA   HA 3.0 1.8 3.8 
+137 . 18 THR HG2% . 29 VAL HG1% 3.0 1.8 4.3 
+138 . 18 THR HG2% . 29 VAL HG2% 4.0 1.8 6.0 
+139 . 18 THR HG2% . 29 VAL   HB 3.0 1.8 3.8 
+140 . 25 THR   HB . 28 LYS  HD% 4.0 1.8 6.0 
+141 . 25 THR   HB . 28 LYS  HE% 4.0 1.8 6.0 
+142 . 51 THR HG2% .  4 LYS  HB% 3.0 1.8 3.8 
+143 . 51 THR HG2% .  5 LEU   HA 4.0 1.8 5.5 
+144 . 51 THR HG2% .  6 ILE HG1% 4.0 1.8 6.0 
+145 . 53 THR HG2% .  6 ILE   HB 3.0 1.8 3.8 
+146 . 53 THR HG2% .  7 LEU    H 4.0 1.8 5.5 
+147 . 53 THR HG2% .  8 ASN  HB% 4.0 1.8 5.5 
+148 . 55 THR HG2% .  8 ASN    H 4.0 1.8 5.5 
+149 .  3 TYR  HD% . 20 ALA  HB% 3.0 1.8 3.8 
+150 .  3 TYR  HE% . 20 ALA  HB% 3.0 1.8 3.8 
+151 .  3 TYR  HE% . 23 ALA  HB% 4.0 1.8 6.5 
+152 .  3 TYR  HD% . 26 ALA  HB% 3.0 1.8 3.8 
+153 .  3 TYR  HD% . 45 TYR  HE% 3.0 1.8 3.3 
+154 .  3 TYR  HD% . 50 LYS   HA 3.0 1.8 3.3 
+155 .  3 TYR  HD% . 50 LYS  HB% 2.5 1.8 2.7 
+156 . 30 PHE   HZ .  3 TYR  HB% 4.0 1.8 5.0 
+157 . 30 PHE  HE% .  3 TYR  HB% 4.0 1.8 5.0 
+158 . 30 PHE   HZ .  4 LYS   HA 4.0 1.8 5.0 
+159 . 30 PHE  HE% .  4 LYS   HA 4.0 1.8 5.0 
+160 . 30 PHE  HD% .  5 LEU  HB% 3.0 1.8 3.3 
+161 . 30 PHE  HE% .  5 LEU  HB% 3.0 1.8 3.3 
+162 . 30 PHE   HZ .  5 LEU  HB% 4.0 1.8 5.0 
+163 . 30 PHE   HZ .  5 LEU    H 4.0 1.8 5.0 
+164 . 30 PHE  HE% .  5 LEU    H 4.0 1.8 5.0 
+165 . 30 PHE  HE% . 16 THR HG2% 3.0 1.8 3.8 
+166 . 30 PHE   HZ . 16 THR HG2% 4.0 1.8 6.5 
+167 . 30 PHE  HE% . 16 THR   HB 4.0 1.8 6.0 
+168 . 30 PHE   HZ . 17 THR   HA 3.0 1.8 3.3 
+169 . 30 PHE  HE% . 17 THR   HA 4.0 1.8 5.0 
+170 . 30 PHE   HZ . 17 THR   HB 4.0 1.8 6.0 
+171 . 30 PHE  HE% . 18 THR    H 4.0 1.8 5.0 
+172 . 30 PHE   HZ . 18 THR   HB 4.0 1.8 5.0 
+173 . 30 PHE  HE% . 18 THR   HB 3.0 1.8 3.3 
+174 . 30 PHE   HZ . 18 THR HG2% 3.0 1.8 3.8 
+175 . 33 TYR  HD% . 16 THR HG2% 4.0 1.8 5.5 
+176 . 33 TYR  HD% .  5 LEU HD2% 3.0 1.8 3.8 
+177 . 33 TYR  HD% .  7 LEU HD1% 3.0 1.8 3.8 
+178 . 33 TYR  HE% .  7 LEU HD1% 3.0 1.8 3.8 
+179 . 33 TYR  HD% .  7 LEU HD2% 3.0 1.8 3.8 
+180 . 33 TYR  HE% .  7 LEU HD2% 3.0 1.8 3.8 
+181 . 43 TRP  HH2 .  5 LEU HD1% 3.0 1.8 3.8 
+182 . 43 TRP  HZ3 .  5 LEU HD1% 3.0 1.8 3.8 
+183 . 43 TRP  HH2 .  5 LEU HD1% 3.0 1.8 3.8 
+184 . 43 TRP  HZ3 .  5 LEU HD1% 3.0 1.8 3.8 
+185 . 43 TRP  HZ3 .  5 LEU  HB% 4.0 1.8 5.0 
+186 . 43 TRP  HE3 .  5 LEU HD1% 4.0 1.8 5.5 
+187 . 43 TRP  HZ2 .  5 LEU HD1% 4.0 1.8 5.5 
+188 . 43 TRP  HH2 . 30 PHE    H 4.0 1.8 6.0 
+189 . 43 TRP  HH2 . 31 LYS    H 4.0 1.8 5.0 
+190 . 43 TRP  HH2 . 31 LYS   HA 3.0 1.8 3.3 
+191 . 43 TRP  HZ2 . 31 LYS   HA 3.0 1.8 3.3 
+192 . 43 TRP  HH2 . 31 LYS   HA 3.0 1.8 3.3 
+193 . 43 TRP  HE3 . 31 LYS  HB% 4.0 1.8 6.0 
+194 . 43 TRP  HH2 . 31 LYS  HB% 4.0 1.8 6.0 
+195 . 43 TRP  HZ2 . 31 LYS  HB% 4.0 1.8 6.0 
+196 . 43 TRP  HE1 . 31 LYS   HA 4.0 1.8 6.0 
+197 . 43 TRP  HE1 . 31 LYS  HB% 4.0 1.8 6.0 
+198 . 43 TRP  HE1 . 31 LYS  HG% 4.0 1.8 6.0 
+199 . 43 TRP  HH2 . 34 ALA  HB% 2.5 1.8 2.7 
+200 . 43 TRP  HZ2 . 34 ALA  HB% 3.0 1.8 3.3 
+201 . 43 TRP  HZ3 . 34 ALA  HB% 4.0 1.8 5.0 
+202 . 43 TRP  HE1 . 40 ASP   HA 4.0 1.8 5.0 
+203 . 43 TRP  HZ3 . 52 PHE  HD% 4.0 1.8 5.0 
+204 . 43 TRP  HE3 . 52 PHE  HD% 3.0 1.8 3.3 
+205 . 43 TRP  HE3 . 52 PHE  HE% 4.0 1.8 5.0 
+206 . 43 TRP  HE3 . 52 PHE   HA 4.0 1.8 6.0 
+207 . 43 TRP  HE3 . 52 PHE  HB% 4.0 1.8 5.0 
+208 . 43 TRP  HE3 . 53 THR    H 4.0 1.8 5.0 
+209 . 43 TRP  HZ2 . 54 VAL   HB 4.0 1.8 5.0 
+210 . 43 TRP  HE3 . 54 VAL   HB 4.0 1.8 5.0 
+211 . 43 TRP  HE3 . 54 VAL   HA 4.0 1.8 5.0 
+212 . 43 TRP  HE1 . 54 VAL HG1% 4.0 1.8 5.5 
+213 . 43 TRP  HE1 . 54 VAL HG2% 3.0 1.8 3.8 
+214 . 43 TRP  HZ2 . 54 VAL HG2% 3.0 1.8 3.8 
+215 . 43 TRP  HZ2 . 54 VAL HG1% 4.0 1.8 5.5 
+216 . 43 TRP  HE3 . 54 VAL HG2% 3.0 1.8 3.8 
+217 . 43 TRP  HE3 . 54 VAL HG1% 4.0 1.8 5.5 
+218 . 43 TRP  HH2 . 54 VAL HG2% 4.0 1.8 5.5 
+219 . 43 TRP  HH2 . 54 VAL HG1% 4.0 1.8 5.5 
+220 . 43 TRP  HZ3 . 54 VAL HG2% 4.0 1.8 5.5 
+221 . 43 TRP  HZ3 . 54 VAL HG1% 4.0 1.8 5.5 
+222 . 43 TRP  HE3 . 54 VAL HG2% 3.0 0.8 3.8 
+223 . 45 TYR  HE% . 23 ALA  HB% 4.0 1.8 5.5 
+224 . 45 TYR  HE% . 26 ALA    H 4.0 1.8 7.0 
+225 . 45 TYR  HE% . 51 THR    H 4.0 1.8 5.0 
+226 . 45 TYR  HE% . 52 PHE  HD% 4.0 1.8 5.0 
+227 . 45 TYR  HE% . 52 PHE  HE% 3.0 1.8 3.3 
+228 . 45 TYR  HE% . 52 PHE   HZ 4.0 1.8 5.0 
+229 . 45 TYR  HD% . 52 PHE  HD% 4.0 1.8 5.0 
+230 . 45 TYR  HD% . 52 PHE  HE% 3.0 1.8 3.3 
+231 . 45 TYR  HD% . 52 PHE   HA 3.0 1.8 3.3 
+232 . 52 PHE  HD% .  5 LEU  HB% 4.0 1.8 6.0 
+233 . 52 PHE  HD% .  5 LEU HD1% 4.0 1.8 5.5 
+234 . 52 PHE  HE% . 23 ALA  HB% 4.0 1.8 5.5 
+235 . 52 PHE   HZ . 23 ALA  HB% 3.0 1.8 3.8 
+236 . 52 PHE   HZ . 23 ALA   HA 4.0 1.8 5.0 
+237 . 52 PHE  HD% . 26 ALA  HB% 4.0 1.8 5.5 
+238 . 52 PHE  HE% . 26 ALA  HB% 3.0 1.8 3.8 
+239 . 52 PHE   HZ . 26 ALA  HB% 4.0 0.3 6.5 
+240 . 52 PHE  HE% . 27 GLU    H 4.0 1.8 5.0 
+241 . 52 PHE   HZ . 27 GLU    H 3.0 1.8 3.5 
+242 . 52 PHE  HE% . 27 GLU  HG% 3.0 1.8 3.3 
+243 . 52 PHE   HZ . 27 GLU  HG% 3.0 1.8 3.3 
+244 . 52 PHE   HZ . 27 GLU   HA 4.0 1.8 6.0 
+245 . 52 PHE  HD% . 30 PHE  HB% 4.0 1.8 5.0 
+246 . 52 PHE  HD% . 30 PHE   HZ 4.0 1.8 6.0 
+247 . 52 PHE  HD% . 44 THR    H 4.0 1.8 5.0 
+248 . 52 PHE  HD% . 45 TYR  HB% 4.0 1.8 5.0 
+249 . 52 PHE  HE% . 45 TYR  HB% 3.0 1.8 3.3 
+250 . 52 PHE  HD% . 45 TYR   HA 4.0 1.8 5.0 
+251 .  6 ILE HD1% . 53 THR   HA 4.0 1.8 5.5 
+252 .  6 ILE   HB . 53 THR   HA 3.0 1.8 3.3 
+253 .  8 ASN HD2% . 55 THR HG2% 3.0 1.8 4.0 
+254 .  8 ASN HD2% . 55 THR    H 4.0 1.8 6.0 
+255 .  1 MET   HA .  2 THR    H 2.5 1.8 2.9 
+256 .  2 THR   HA .  3 TYR    H 2.5 1.8 2.9 
+257 .  3 TYR   HA .  4 LYS    H 2.5 1.8 2.9 
+258 .  4 LYS   HA .  5 LEU    H 2.5 1.8 2.9 
+259 .  5 LEU   HA .  6 ILE    H 2.5 1.8 2.9 
+260 .  6 ILE   HA .  7 LEU    H 2.5 1.8 2.9 
+261 .  7 LEU   HA .  8 ASN    H 2.5 1.8 2.9 
+262 .  8 ASN   HA .  9 GLY    H 2.5 1.8 2.9 
+263 .  9 GLY  HA% . 10 LYS    H 2.5 0.8 2.9 
+264 . 10 LYS   HA . 11 THR    H 4.0 1.8 5.0 
+265 . 11 THR   HA . 12 LEU    H 3.0 1.8 3.5 
+266 . 12 LEU   HA . 13 LYS    H 2.5 1.8 2.9 
+267 . 13 LYS   HA . 14 GLY    H 2.5 1.8 2.9 
+268 . 14 GLY  HA% . 15 GLU    H 2.5 1.8 2.9 
+269 . 15 GLU   HA . 16 THR    H 2.5 1.8 2.9 
+270 . 16 THR   HA . 17 THR    H 3.0 1.8 3.5 
+271 . 17 THR   HA . 18 THR    H 2.5 1.8 2.9 
+272 . 18 THR   HA . 19 GLU    H 2.5 1.8 2.9 
+273 . 19 GLU   HA . 20 ALA    H 2.5 1.8 2.9 
+274 . 20 ALA   HA . 21 VAL    H 2.5 1.8 2.9 
+275 . 21 VAL    H . 22 ASP    H 4.0 1.8 5.4 
+276 . 22 ASP   HA . 23 ALA    H 2.5 1.8 2.9 
+277 . 23 ALA   HA . 24 ALA    H 4.0 1.8 5.0 
+278 . 24 ALA   HA . 25 THR    H 4.0 1.8 5.0 
+279 . 25 THR   HA . 26 ALA    H 4.0 1.8 5.0 
+280 . 26 ALA   HA . 27 GLU    H 4.0 1.8 5.0 
+281 . 27 GLU   HA . 28 LYS    H 4.0 1.8 5.0 
+282 . 28 LYS   HA . 29 VAL    H 4.0 1.8 5.0 
+283 . 32 GLN   HA . 33 TYR    H 4.0 1.8 5.0 
+284 . 33 TYR   HA . 34 ALA    H 3.0 1.8 3.5 
+285 . 34 ALA   HA . 35 ASN    H 4.0 1.8 5.0 
+286 . 35 ASN   HA . 36 ASP    H 4.0 1.8 5.0 
+287 . 36 ASP   HA . 37 ASN    H 4.0 1.8 5.0 
+288 . 37 ASN   HA . 38 GLY    H 3.0 1.8 3.5 
+289 . 38 GLY  HA% . 39 VAL    H 3.0 1.8 3.5 
+290 . 39 VAL   HA . 40 ASP    H 3.0 1.8 3.5 
+291 . 40 ASP   HA . 41 GLY    H 3.0 1.8 3.5 
+292 . 41 GLY  HA% . 42 GLU    H 2.5 1.8 2.9 
+293 . 42 GLU   HA . 43 TRP    H 2.5 1.8 2.9 
+294 . 43 TRP   HA . 44 THR    H 2.5 1.8 2.9 
+295 . 44 THR   HA . 45 TYR    H 2.5 1.8 2.9 
+296 . 45 TYR   HA . 46 ASP    H 2.5 1.8 2.9 
+297 . 46 ASP   HA . 47 ASP    H 2.5 1.8 2.9 
+298 . 47 ASP   HA . 48 ALA    H 4.0 1.8 6.0 
+299 . 48 ALA   HA . 49 THR    H 4.0 1.8 5.0 
+300 . 49 THR   HA . 50 LYS    H 3.0 1.8 3.5 
+301 . 50 LYS   HA . 51 THR    H 3.0 1.8 3.5 
+302 . 51 THR   HA . 52 PHE    H 2.5 1.8 2.9 
+303 . 52 PHE   HA . 53 THR    H 2.5 1.8 2.9 
+304 . 53 THR   HA . 54 VAL    H 2.5 1.8 2.9 
+305 . 54 VAL   HA . 55 THR    H 2.5 1.8 2.9 
+306 . 55 THR   HA . 56 GLU    H 2.5 1.8 2.9 
+307 .  2 THR    H .  3 TYR    H 4.0 1.8 5.0 
+308 .  6 ILE    H .  7 LEU    H 4.0 1.8 5.0 
+309 .  8 ASN    H .  9 GLY    H 3.0 1.8 3.5 
+310 .  9 GLY    H . 10 LYS    H 4.0 1.8 5.0 
+311 . 10 LYS    H . 11 THR    H 2.5 1.8 2.9 
+312 . 11 THR    H . 12 LEU    H 2.5 1.8 2.9 
+313 . 12 LEU    H . 13 LYS    H 4.0 1.8 5.0 
+314 . 15 GLU    H . 16 THR    H 4.0 1.8 5.0 
+315 . 16 THR    H . 17 THR    H 4.0 1.8 5.0 
+316 . 18 THR    H . 19 GLU    H 4.0 1.8 5.0 
+317 . 21 VAL    H . 22 ASP    H 2.5 1.8 2.9 
+318 . 22 ASP    H . 23 ALA    H 4.0 1.8 5.0 
+319 . 23 ALA    H . 24 ALA    H 3.0 1.8 3.5 
+320 . 24 ALA    H . 25 THR    H 2.5 1.8 2.9 
+321 . 25 THR    H . 26 ALA    H 2.5 1.8 2.9 
+322 . 26 ALA    H . 27 GLU    H 2.5 1.8 2.9 
+323 . 27 GLU    H . 28 LYS    H 2.5 1.8 2.9 
+324 . 28 LYS    H . 29 VAL    H 2.5 1.8 2.9 
+325 . 29 VAL    H . 30 PHE    H 2.5 1.8 2.9 
+326 . 30 PHE    H . 31 LYS    H 2.5 1.8 2.9 
+327 . 31 LYS    H . 32 GLN    H 2.5 1.8 2.9 
+328 . 32 GLN    H . 33 TYR    H 2.5 1.8 2.9 
+329 . 33 TYR    H . 34 ALA    H 2.5 1.8 2.9 
+330 . 34 ALA    H . 35 ASN    H 2.5 1.8 2.9 
+331 . 35 ASN    H . 36 ASP    H 2.5 1.8 2.9 
+332 . 36 ASP    H . 37 ASN    H 2.5 1.8 2.9 
+333 . 37 ASN    H . 38 GLY    H 2.5 1.8 2.9 
+334 . 38 GLY    H . 39 VAL    H 2.5 1.8 2.9 
+335 . 42 GLU    H . 43 TRP    H 4.0 1.8 5.0 
+336 . 44 THR    H . 45 TYR    H 4.0 1.8 5.0 
+337 . 45 TYR    H . 46 ASP    H 4.0 1.8 5.0 
+338 . 47 ASP    H . 48 ALA    H 3.0 1.8 3.5 
+339 . 48 ALA    H . 49 THR    H 3.0 1.8 3.5 
+340 . 49 THR    H . 50 LYS    H 2.5 1.8 2.7 
+341 . 50 LYS    H . 51 THR    H 2.5 1.8 2.9 
+342 . 51 THR    H . 52 PHE    H 4.0 1.8 5.0 
+343 . 55 THR    H . 56 GLU    H 4.0 1.8 5.0 
+344 .  2 THR   HA .  3 TYR  HB% 4.0 1.8 5.0 
+345 .  4 LYS   HA .  5 LEU  HB% 4.0 1.8 6.0 
+346 . 30 PHE   HA . 29 VAL   HB 4.0 1.8 5.0 
+347 . 51 THR   HA . 52 PHE  HB% 4.0 1.8 5.0 
+348 . 52 PHE   HA . 53 THR   HB 4.0 1.8 5.0 
+349 . 49 THR   HA . 48 ALA  HB% 4.0 1.8 5.0 
+350 . 34 ALA   HA . 39 VAL   HB 4.0 1.8 5.0 
+351 .  9 GLY  HA% . 11 THR    H 4.0 1.8 6.0 
+352 . 20 ALA   HA . 22 ASP    H 4.0 1.8 5.0 
+353 . 28 LYS   HA . 30 PHE    H 4.0 1.8 5.0 
+354 . 35 ASN   HA . 37 ASN    H 4.0 1.8 5.0 
+355 . 46 ASP   HA . 48 ALA    H 4.0 1.8 5.0 
+356 . 48 ALA   HA . 50 LYS    H 4.0 1.8 5.0 
+357 . 23 ALA   HA . 26 ALA    H 3.0 1.8 3.5 
+358 . 24 ALA   HA . 27 GLU    H 3.0 1.8 3.5 
+359 . 26 ALA   HA . 29 VAL    H 3.0 1.8 3.5 
+360 . 28 LYS   HA . 31 LYS    H 4.0 1.8 5.0 
+361 . 30 PHE   HA . 33 TYR    H 4.0 1.8 5.0 
+362 . 31 LYS   HA . 34 ALA    H 3.0 1.8 3.5 
+363 . 32 GLN   HA . 35 ASN    H 4.0 1.8 5.0 
+364 . 33 TYR   HA . 36 ASP    H 3.0 1.8 3.5 
+365 . 34 ALA   HA . 37 ASN    H 4.0 1.8 5.0 
+366 . 35 ASN   HA . 38 GLY    H 3.0 1.8 3.5 
+367 . 10 LYS    H . 12 LEU    H 4.0 1.8 5.0 
+368 . 24 ALA    H . 26 ALA    H 4.0 1.8 5.0 
+369 . 27 GLU    H . 29 VAL    H 4.0 1.8 5.0 
+370 . 30 PHE    H . 28 LYS    H 4.0 1.8 5.0 
+371 . 31 LYS    H . 29 VAL    H 4.0 1.8 5.0 
+372 . 31 LYS    H . 33 TYR    H 4.0 1.8 5.0 
+373 . 34 ALA    H . 32 GLN    H 4.0 1.8 5.0 
+374 . 34 ALA    H . 36 ASP    H 4.0 1.8 5.0 
+375 . 36 ASP    H . 38 GLY    H 4.0 1.8 5.0 
+376 . 39 VAL    H . 37 ASN    H 4.0 1.8 5.0 
+377 . 47 ASP    H . 49 THR    H 4.0 1.8 5.0 
+378 . 48 ALA    H . 50 LYS    H 4.0 1.8 5.0 
+379 . 49 THR    H . 51 THR    H 4.0 1.8 5.0 
+380 .  9 GLY    H . 12 LEU    H 4.0 1.8 5.0 
+381 . 27 GLU    H . 30 PHE    H 4.0 1.8 5.0 
+382 . 46 ASP    H . 51 THR    H 4.0 1.8 5.0 
+383 . 23 ALA   HA . 27 GLU    H 4.0 1.8 5.0 
+384 . 32 GLN   HA . 36 ASP    H 4.0 1.8 5.0 
+385 . 35 ASN   HA . 39 VAL    H 4.0 1.8 5.0 
+386 . 34 ALA   HA . 39 VAL    H 4.0 1.8 5.0 
+387 . 46 ASP   HA . 51 THR    H 4.0 1.8 5.0 
+388 . 23 ALA   HA . 26 ALA  HB% 3.0 1.8 3.8 
+389 . 24 ALA   HA . 27 GLU  HB% 3.0 1.8 3.3 
+390 . 26 ALA   HA . 29 VAL   HB 3.0 1.8 3.3 
+391 . 28 LYS   HA . 31 LYS  HB% 3.0 1.8 3.3 
+392 . 29 VAL   HA . 32 GLN  HB% 3.0 1.8 3.3 
+393 . 30 PHE   HA . 33 TYR  HB% 3.0 1.8 3.3 
+394 . 31 LYS   HA . 34 ALA  HB% 3.0 1.8 3.3 
+395 . 32 GLN   HA . 35 ASN  HB% 3.0 1.8 3.3 
+396 . 33 TYR   HA . 36 ASP  HB% 3.0 1.8 3.3 
+397 . 34 ALA   HA . 37 ASN  HB% 3.0 1.8 3.3 
+398 .  8 ASN   HA . 13 LYS   HA 4.0 1.8 5.0 
+399 . 51 THR   HB . 46 ASP  HB% 3.0 1.8 3.3 
+400 . 49 THR    H . 46 ASP  HB% 4.0 1.8 5.0 
+401 . 50 LYS    H . 51 THR    H 4.0 1.8 5.0 
+402 . 50 LYS    H . 48 ALA  HB% 4.0 0.3 6.5 
+403 .  6 ILE   HB .  7 LEU    H 4.0 1.8 5.0 
+404 . 34 ALA  HB% . 39 VAL    H 4.0 1.8 5.0 
+405 . 37 ASN  HB% . 39 VAL    H 4.0 1.8 5.0 
+406 . 23 ALA  HB% . 26 ALA  HB% 4.0 1.8 6.0 
+407 . 22 ASP  HB% . 24 ALA    H 4.0 1.8 5.0 
+408 . 20 ALA  HB% . 22 ASP    H 3.0 0.3 5.0 
+409 .  2 THR HG2% .  3 TYR    H 2.5 1.8 3.4 
+410 . 11 THR HG2% . 12 LEU    H 4.0 1.8 5.5 
+411 . 11 THR HG2% . 10 LYS  HB% 4.0 1.8 5.5 
+412 . 16 THR HG2% . 17 THR   HA 4.0 1.8 6.5 
+413 . 16 THR HG2% . 17 THR    H 3.0 1.8 3.9 
+414 . 16 THR HG2% . 15 GLU   HA 4.0 1.8 5.5 
+415 . 16 THR HG2% . 15 GLU   HA 4.0 1.8 6.5 
+416 . 18 THR HG2% . 17 THR   HA 4.0 1.8 6.5 
+417 . 18 THR HG2% . 19 GLU    H 3.0 1.8 3.9 
+418 . 18 THR HG2% . 20 ALA    H 4.0 1.8 5.5 
+419 . 18 THR HG2% . 19 GLU   HA 4.0 1.8 6.5 
+420 . 25 THR HG2% . 26 ALA    H 4.0 1.8 5.5 
+421 . 25 THR HG2% . 22 ASP    H 4.0 1.8 5.5 
+422 . 25 THR HG2% . 21 VAL    H 4.0 1.8 5.5 
+423 . 49 THR HG2% . 50 LYS    H 4.0 1.8 5.5 
+424 . 49 THR HG2% . 48 ALA  HB% 3.0 1.8 3.8 
+425 . 49 THR HG2% . 48 ALA    H 4.0 1.8 5.5 
+426 . 49 THR HG2% . 46 ASP  HB% 4.0 1.8 6.5 
+427 . 51 THR HG2% . 52 PHE    H 2.5 1.8 3.4 
+428 . 51 THR HG2% . 46 ASP  HB% 4.0 1.8 5.5 
+429 . 53 THR HG2% . 54 VAL    H 2.5 1.8 3.4 
+430 . 53 THR HG2% . 55 THR    H 4.0 1.8 5.5 
+431 . 53 THR   HA . 54 VAL   HB 4.0 1.8 5.0 
+432 . 53 THR   HA . 54 VAL HG1% 4.0 1.8 5.5 
+433 . 55 THR HG2% . 56 GLU    H 3.0 1.8 3.9 
+434 . 54 VAL HG1% . 55 THR    H 3.0 1.8 4.0 
+435 . 54 VAL HG2% . 55 THR    H 2.5 1.8 3.4 
+436 . 54 VAL HG2% . 56 GLU  HG% 4.0 1.8 6.5 
+437 . 54 VAL HG1% . 56 GLU  HG% 4.0 1.8 5.5 
+438 . 39 VAL HG2% . 38 GLY    H 4.0 1.8 5.5 
+439 . 39 VAL HG1% . 40 ASP   HA 4.0 1.8 5.5 
+440 . 39 VAL HG1% . 34 ALA   HA 4.0 1.8 5.5 
+441 . 29 VAL HG2% . 26 ALA   HA 3.0 1.8 3.9 
+442 . 29 VAL HG1% . 26 ALA   HA 3.0 1.8 3.9 
+443 . 29 VAL HG2% . 28 LYS   HA 4.0 1.8 5.5 
+444 . 29 VAL HG1% . 30 PHE   HA 4.0 1.8 5.5 
+445 . 29 VAL HG1% . 33 TYR  HB% 4.0 1.8 6.5 
+446 . 21 VAL HG2% . 22 ASP    H 3.0 1.8 3.9 
+447 .  6 ILE HG2% .  8 ASN    H 4.0 1.8 5.5 
+448 .  6 ILE HG2% .  8 ASN  HB% 4.0 1.8 5.5 
+449 . 37 ASN HD2% . 33 TYR   HA 4.0 1.8 5.0 
+450 . 37 ASN HD2% . 34 ALA   HA 4.0 1.8 6.0 
+451 . 37 ASN HD2% . 36 ASP  HB% 4.0 1.8 5.0 
+452 .  8 ASN HD2% .  6 ILE HG2% 4.0 1.8 5.5 
+453 . 30 PHE  HD% . 29 VAL HG1% 4.0 0.3 6.5 
+454 . 30 PHE  HE% . 29 VAL HG1% 4.0 0.3 7.5 
+455 . 30 PHE  HD% . 27 GLU   HA 4.0 1.8 5.0 
+456 . 33 TYR  HD% . 37 ASN HD2% 4.0 0.8 5.0 
+457 . 33 TYR  HD% . 34 ALA   HA 3.0 1.8 3.3 
+458 . 33 TYR  HE% . 34 ALA    H 4.0 1.8 6.0 
+459 . 33 TYR  HD% . 34 ALA  HB% 4.0 1.8 5.5 
+460 . 43 TRP  HD1 . 42 GLU   HA 4.0 1.8 5.0 
+461 . 45 TYR  HE% . 47 ASP   HA 3.0 1.8 3.3 
+462 . 45 TYR  HE% . 50 LYS   HA 4.0 1.8 5.0 
+463 . 45 TYR  HE% . 50 LYS    H 4.0 1.8 6.0 
+464 . 45 TYR  HE% . 47 ASP  HB% 3.0 1.8 3.3 
+465 . 43 TRP  HE1 . 40 ASP   HA 4.0 1.8 5.0 
+466 . 43 TRP  HE1 . 41 GLY    H 4.0 1.8 5.0 
+467 . 43 TRP  HD1 . 41 GLY    H 4.0 1.8 6.0 
+468 . 43 TRP  HD1 . 42 GLU  HB% 4.0 1.8 5.0 
+469 . 52 PHE  HD% . 53 THR    H 4.0 1.8 5.0 
+470 . 52 PHE  HD% . 51 THR HG2% 4.0 1.8 5.5 
+471 . 52 PHE  HD% . 51 THR   HA 4.0 1.8 5.0 
+472 . 52 PHE  HD% . 52 PHE   HA 3.0 1.8 3.3 
+473 .  5 LEU   HG .  7 LEU   HA 4.0 1.8 5.0 
+474 .  5 LEU HD1% .  7 LEU   HA 4.0 1.8 5.5 
+475 .  5 LEU HD1% .  7 LEU   HG 4.0 1.8 5.5 
+476 .  5 LEU HD2% .  7 LEU   HG 4.0 1.8 5.5 
+477 .  5 LEU HD2% .  7 LEU HD1% 3.0 1.8 4.3 
+478 .  5 LEU HD2% .  7 LEU HD2% 3.0 1.8 4.3 
+479 .  7 LEU HD2% .  8 ASN    H 4.0 1.8 5.5 
+480 .  7 LEU  HD% .  8 ASN   HA 4.0 1.8 6.5 
+481 .  7 LEU  HD% .  5 LEU  HB% 4.0 1.8 6.5 
+482 . 12 LEU HD1% . 13 LYS    H 3.0 1.8 3.8 
+483 . 12 LEU HD2% . 13 LYS    H 4.0 1.8 6.5 
+484 . 13 LYS  HG% .  8 ASN   HA 2.5 1.8 2.7 
+485 . 13 LYS  HD% .  8 ASN   HA 4.0 1.8 5.0 
+486 . 13 LYS  HB% .  8 ASN   HA 4.0 1.8 6.0 
+487 . 27 GLU  HG% . 24 ALA   HA 3.0 1.8 3.3 
+488 .  2 THR    H .  2 THR   HA 3.0 1.8 3.5 
+489 .  3 TYR    H .  3 TYR   HA 3.0 1.8 3.5 
+490 .  4 LYS    H .  4 LYS   HA 4.0 1.8 5.0 
+491 .  5 LEU    H .  5 LEU   HA 3.0 1.8 3.5 
+492 .  6 ILE    H .  6 ILE   HA 3.0 1.8 3.5 
+493 .  7 LEU    H .  7 LEU   HA 3.0 1.8 3.5 
+494 .  8 ASN    H .  8 ASN   HA 3.0 1.8 3.5 
+495 . 10 LYS    H . 10 LYS   HA 4.0 1.8 5.0 
+496 . 11 THR    H . 11 THR   HA 4.0 1.8 5.0 
+497 . 12 LEU    H . 12 LEU   HA 3.0 1.8 3.5 
+498 . 13 LYS    H . 13 LYS   HA 3.0 1.8 3.5 
+499 . 15 GLU    H . 15 GLU   HA 3.0 1.8 3.5 
+500 . 16 THR    H . 16 THR   HA 3.0 1.8 3.5 
+501 . 17 THR    H . 17 THR   HA 3.0 1.8 3.5 
+502 . 18 THR    H . 18 THR   HA 3.0 1.8 3.5 
+503 . 19 GLU    H . 19 GLU   HA 4.0 1.8 5.0 
+504 . 20 ALA    H . 20 ALA   HA 3.0 1.8 3.5 
+505 . 21 VAL    H . 21 VAL   HA 3.0 1.8 3.5 
+506 . 22 ASP    H . 22 ASP   HA 3.0 1.8 3.5 
+507 . 23 ALA    H . 23 ALA   HA 3.0 1.8 3.5 
+508 . 24 ALA    H . 24 ALA   HA 3.0 1.8 3.5 
+509 . 25 THR    H . 25 THR   HA 3.0 1.8 3.5 
+510 . 26 ALA    H . 26 ALA   HA 3.0 1.8 3.5 
+511 . 27 GLU    H . 27 GLU   HA 2.5 1.8 2.9 
+512 . 28 LYS    H . 28 LYS   HA 3.0 1.8 3.5 
+513 . 29 VAL    H . 29 VAL   HA 3.0 1.8 3.5 
+514 . 30 PHE    H . 30 PHE   HA 3.0 1.8 3.5 
+515 . 31 LYS    H . 31 LYS   HA 3.0 1.8 3.5 
+516 . 32 GLN    H . 32 GLN   HA 3.0 1.8 3.5 
+517 . 33 TYR    H . 33 TYR   HA 2.5 1.8 2.9 
+518 . 34 ALA    H . 34 ALA   HA 2.5 1.8 2.9 
+519 . 35 ASN    H . 35 ASN   HA 3.0 1.8 3.5 
+520 . 36 ASP    H . 36 ASP   HA 2.5 1.8 2.9 
+521 . 37 ASN    H . 37 ASN   HA 3.0 1.8 3.5 
+522 . 39 VAL    H . 39 VAL   HA 3.0 1.8 3.5 
+523 . 40 ASP    H . 40 ASP   HA 3.0 1.8 3.5 
+524 . 42 GLU    H . 42 GLU   HA 3.0 1.8 3.5 
+525 . 43 TRP    H . 43 TRP   HA 3.0 1.8 3.5 
+526 . 44 THR    H . 44 THR   HA 3.0 1.8 3.5 
+527 . 45 TYR    H . 45 TYR   HA 4.0 1.8 5.0 
+528 . 46 ASP    H . 46 ASP   HA 3.0 1.8 3.5 
+529 . 47 ASP    H . 47 ASP   HA 3.0 1.8 3.5 
+530 . 48 ALA    H . 48 ALA   HA 4.0 1.8 5.0 
+531 . 49 THR    H . 49 THR   HA 4.0 1.8 5.0 
+532 . 50 LYS    H . 50 LYS   HA 2.5 1.8 2.9 
+533 . 51 THR    H . 51 THR   HA 3.0 1.8 3.5 
+534 . 52 PHE    H . 52 PHE   HA 4.0 1.8 5.0 
+535 . 53 THR    H . 53 THR   HA 3.0 1.8 3.5 
+536 . 54 VAL    H . 54 VAL   HA 3.0 1.8 3.5 
+537 . 55 THR    H . 55 THR   HA 3.0 1.8 3.5 
+538 . 56 GLU    H . 56 GLU   HA 3.0 1.8 3.5 
+539 .  9 GLY  HA% .  9 GLY    H 2.5 1.8 2.9 
+540 . 14 GLY  HA% . 14 GLY    H 3.0 1.8 3.5 
+541 . 38 GLY  HA% . 38 GLY    H 2.5 1.8 2.9 
+542 . 41 GLY  HA% . 41 GLY    H 2.5 1.8 2.9 
+543 .  2 THR    H .  2 THR   HB 2.5 1.8 2.9 
+544 .  3 TYR    H .  3 TYR  HB% 3.0 1.8 3.5 
+545 .  4 LYS    H .  4 LYS  HB% 2.5 1.8 2.9 
+546 .  5 LEU    H .  5 LEU  HB% 2.5 1.8 2.9 
+547 .  6 ILE    H .  6 ILE   HB 3.0 1.8 3.5 
+548 .  7 LEU    H .  7 LEU  HB% 2.5 1.8 2.9 
+549 .  8 ASN    H .  8 ASN  HB% 3.0 1.8 3.5 
+550 . 10 LYS    H . 10 LYS  HB% 3.0 1.8 3.5 
+551 . 11 THR    H . 11 THR   HB 4.0 1.8 5.0 
+552 . 12 LEU    H . 12 LEU  HB% 3.0 1.8 3.5 
+553 . 13 LYS    H . 13 LYS  HB% 2.5 1.8 2.9 
+554 . 15 GLU    H . 15 GLU  HB% 3.0 1.8 3.5 
+555 . 16 THR    H . 16 THR   HB 3.0 1.8 3.5 
+556 . 17 THR    H . 17 THR   HB 4.0 1.8 5.0 
+557 . 18 THR    H . 18 THR   HB 4.0 1.8 5.0 
+558 . 20 ALA    H . 20 ALA  HB% 3.0 1.8 3.5 
+559 . 21 VAL    H . 21 VAL   HB 4.0 1.8 5.0 
+560 . 22 ASP    H . 22 ASP  HB% 3.0 1.8 3.5 
+561 . 23 ALA    H . 23 ALA  HB% 3.0 1.8 3.5 
+562 . 24 ALA    H . 24 ALA  HB% 3.0 1.8 3.5 
+563 . 25 THR    H . 25 THR   HB 4.0 1.8 5.0 
+564 . 26 ALA    H . 26 ALA  HB% 3.0 1.8 3.5 
+565 . 27 GLU    H . 27 GLU  HB% 2.5 1.8 2.9 
+566 . 28 LYS    H . 28 LYS  HB% 3.0 1.8 3.5 
+567 . 29 VAL    H . 29 VAL   HB 2.5 1.8 2.9 
+568 . 30 PHE    H . 30 PHE  HB% 2.5 1.8 2.9 
+569 . 31 LYS    H . 31 LYS  HB% 2.5 1.8 2.9 
+570 . 32 GLN    H . 32 GLN  HB% 2.5 1.8 2.9 
+571 . 33 TYR    H . 33 TYR  HB% 3.0 1.8 3.5 
+572 . 34 ALA    H . 34 ALA  HB% 2.5 1.8 2.9 
+573 . 35 ASN    H . 35 ASN  HB% 3.0 1.8 3.5 
+574 . 36 ASP    H . 36 ASP  HB% 2.5 1.8 2.9 
+575 . 37 ASN    H . 37 ASN  HB% 2.5 1.8 2.9 
+576 . 39 VAL    H . 39 VAL   HB 2.5 1.8 2.9 
+577 . 40 ASP    H . 40 ASP  HB% 3.0 1.8 3.5 
+578 . 42 GLU    H . 42 GLU  HB% 2.5 1.8 2.9 
+579 . 43 TRP    H . 43 TRP  HB% 2.5 1.8 2.9 
+580 . 44 THR    H . 44 THR   HB 4.0 1.8 5.0 
+581 . 45 TYR    H . 45 TYR  HB% 2.5 1.8 2.9 
+582 . 46 ASP    H . 46 ASP  HB% 3.0 1.8 3.5 
+583 . 47 ASP    H . 47 ASP  HB% 3.0 1.8 3.5 
+584 . 48 ALA    H . 48 ALA  HB% 3.0 1.8 3.5 
+585 . 50 LYS    H . 50 LYS  HB% 4.0 1.8 5.0 
+586 . 51 THR    H . 51 THR   HB 2.5 1.8 2.9 
+587 . 52 PHE    H . 52 PHE  HB% 2.5 1.8 2.9 
+588 . 53 THR    H . 53 THR   HB 2.5 1.8 2.9 
+589 . 54 VAL    H . 54 VAL   HB 3.0 1.8 3.5 
+590 . 55 THR    H . 55 THR   HB 2.5 1.8 2.9 
+591 . 56 GLU    H . 56 GLU  HB% 3.0 1.8 3.5 
+592 . 21 VAL    H . 21 VAL  HG% 3.0 1.8 4.5 
+593 . 21 VAL   HA . 21 VAL  HG% 3.0 1.8 4.3 
+594 . 29 VAL   HA . 29 VAL HG2% 2.5 1.8 3.2 
+595 . 29 VAL   HA . 29 VAL HG1% 3.0 1.8 3.8 
+596 . 29 VAL    H . 29 VAL HG2% 2.5 1.8 3.4 
+597 . 29 VAL    H . 29 VAL HG1% 4.0 1.8 5.5 
+598 . 39 VAL   HA . 39 VAL HG1% 2.5 1.8 3.4 
+599 . 39 VAL   HA . 39 VAL HG2% 3.0 1.8 3.8 
+600 . 39 VAL    H . 39 VAL HG2% 2.5 1.8 3.4 
+601 . 39 VAL    H . 39 VAL HG1% 4.0 1.8 5.5 
+602 . 54 VAL   HA . 54 VAL HG1% 4.0 1.8 5.5 
+603 . 54 VAL   HA . 54 VAL HG2% 2.5 1.8 3.2 
+604 . 54 VAL    H . 54 VAL HG1% 2.5 1.8 3.4 
+605 . 54 VAL    H . 54 VAL HG2% 4.0 1.8 5.5 
+606 .  2 THR HG2% .  2 THR   HA 3.0 1.8 3.8 
+607 . 11 THR HG2% . 11 THR   HA 2.5 1.8 3.2 
+608 . 16 THR HG2% . 16 THR   HA 3.0 1.8 3.8 
+609 . 17 THR HG2% . 17 THR   HA 2.5 1.8 3.0 
+610 . 18 THR HG2% . 18 THR   HA 4.0 1.8 5.5 
+611 . 25 THR HG2% . 25 THR   HA 2.5 1.8 3.2 
+612 . 44 THR HG2% . 44 THR   HA 2.5 1.8 3.2 
+613 . 51 THR HG2% . 51 THR   HA 2.5 1.8 3.2 
+614 . 53 THR HG2% . 53 THR   HA 2.5 1.8 3.2 
+615 . 55 THR HG2% . 55 THR   HA 4.0 1.7 5.5 
+616 .  2 THR HG2% .  2 THR    H 4.0 1.8 5.5 
+617 . 11 THR HG2% . 11 THR    H 3.0 1.8 3.8 
+618 . 16 THR HG2% . 16 THR    H 3.0 1.8 3.8 
+619 . 17 THR HG2% . 17 THR    H 3.0 1.8 3.8 
+620 . 18 THR HG2% . 18 THR    H 3.0 1.8 3.8 
+621 . 25 THR HG2% . 25 THR    H 4.0 1.8 5.5 
+622 . 44 THR HG2% . 44 THR    H 3.0 1.8 3.8 
+623 . 49 THR HG2% . 49 THR    H 3.0 1.8 3.8 
+624 . 51 THR HG2% . 51 THR    H 4.0 1.8 5.5 
+625 . 53 THR HG2% . 53 THR    H 4.0 1.8 5.5 
+626 . 55 THR HG2% . 55 THR    H 4.0 1.8 5.5 
+627 . 15 GLU    H . 15 GLU  HG% 4.0 1.8 5.0 
+628 . 15 GLU   HA . 15 GLU  HG% 4.0 1.8 5.0 
+629 . 19 GLU    H . 19 GLU  HG% 4.0 1.8 6.0 
+630 . 19 GLU   HA . 19 GLU  HG% 4.0 1.8 5.9 
+631 . 27 GLU   HA . 27 GLU  HG% 2.5 1.8 2.9 
+632 . 27 GLU    H . 27 GLU  HG% 4.0 1.8 5.0 
+633 . 42 GLU    H . 42 GLU  HG% 4.0 1.8 6.0 
+634 . 56 GLU    H . 56 GLU  HG% 4.0 1.8 5.0 
+635 . 56 GLU   HA . 56 GLU  HG% 2.5 1.8 2.7 
+636 .  1 MET   HA .  1 MET  HG% 3.0 1.8 3.3 
+637 .  5 LEU   HA .  5 LEU HD2% 4.0 1.8 6.5 
+638 .  5 LEU   HA .  5 LEU HD1% 2.5 0.3 3.2 
+639 .  5 LEU   HA .  5 LEU   HG 4.0 1.8 5.0 
+640 .  5 LEU    H .  5 LEU HD2% 4.0 1.8 6.5 
+641 .  5 LEU    H .  5 LEU HD1% 4.0 1.8 5.5 
+642 .  7 LEU   HA .  7 LEU   HG 3.0 1.8 3.3 
+643 .  7 LEU    H .  7 LEU   HG 3.0 1.8 3.3 
+644 .  7 LEU   HA .  7 LEU HD2% 2.5 1.8 3.2 
+645 .  7 LEU    H .  7 LEU HD1% 3.0 1.8 3.9 
+646 . 12 LEU HD1% . 12 LEU   HA 3.0 1.8 3.8 
+647 . 12 LEU HD2% . 12 LEU   HA 4.0 1.8 6.5 
+648 .  6 ILE    H .  6 ILE HG1% 3.0 1.8 3.3 
+649 .  6 ILE    H .  6 ILE HG2% 4.0 1.8 5.5 
+650 .  6 ILE   HA .  6 ILE HG2% 2.5 1.8 3.4 
+651 .  6 ILE   HA .  6 ILE HD1% 4.0 2.8 5.5 
+652 .  6 ILE   HA .  6 ILE HG1% 3.0 1.8 3.3 
+653 .  6 ILE   HB .  6 ILE HD1% 3.0 1.8 3.8 
+654 .  4 LYS   HA .  4 LYS  HG% 2.5 1.8 2.7 
+655 . 10 LYS    H . 10 LYS  HG% 4.0 1.8 5.0 
+656 . 10 LYS    H . 10 LYS  HD% 4.0 1.8 5.0 
+657 . 13 LYS    H . 13 LYS  HG% 3.0 1.8 3.5 
+658 . 13 LYS   HA . 13 LYS  HG% 2.5 1.8 2.7 
+659 . 28 LYS    H . 28 LYS  HG% 4.0 1.8 5.0 
+660 . 28 LYS   HA . 28 LYS  HG% 3.0 1.8 3.3 
+661 . 31 LYS    H . 31 LYS  HG% 4.0 1.8 5.0 
+662 . 31 LYS   HA . 31 LYS  HG% 3.0 1.8 3.3 
+663 . 31 LYS   HA . 31 LYS  HD% 4.0 1.8 5.0 
+664 . 31 LYS    H . 31 LYS  HG% 4.0 1.8 5.0 
+665 . 50 LYS    H . 50 LYS  HG% 4.0 1.8 5.0 
+666 . 50 LYS    H . 50 LYS  HD% 4.0 1.8 5.0 
+667 . 50 LYS   HA . 50 LYS  HG% 3.0 1.8 3.3 
+668 . 50 LYS   HA . 50 LYS  HD% 4.0 1.8 5.0 
+669 . 50 LYS  HG% . 50 LYS  HE% 4.0 1.8 6.0 
+670 . 32 GLN   HA . 32 GLN HE2% 4.0 0.8 6.0 
+671 . 35 ASN   HA . 35 ASN HD2% 4.0 0.8 5.0 
+672 . 20 ALA    N .  1 MET    O 3.3 2.5 3.5 
+673 .  3 TYR    N . 18 THR    O 3.3 2.5 3.5 
+674 . 18 THR    N .  3 TYR    O 3.3 2.5 3.5 
+675 .  5 LEU    N . 16 THR    O 3.3 2.5 3.5 
+676 . 16 THR    N .  5 LEU    O 3.3 2.5 3.5 
+677 .  7 LEU    N . 14 GLY    O 3.3 2.5 3.5 
+678 . 14 GLY    N .  7 LEU    O 3.3 2.5 3.5 
+679 .  9 GLY    N . 12 LEU    O 3.3 2.5 3.5 
+680 .  4 LYS    N . 50 LYS    O 3.3 2.5 3.5 
+681 . 52 PHE    N .  4 LYS    O 3.3 2.5 3.5 
+682 .  6 ILE    N . 52 PHE    O 3.3 2.5 3.5 
+683 . 54 VAL    N .  6 ILE    O 3.3 2.5 3.5 
+684 .  8 ASN    N . 54 VAL    O 3.3 2.5 3.5 
+685 . 42 GLU    N . 55 THR    O 3.3 2.5 3.5 
+686 . 55 THR    N . 42 GLU    O 3.3 2.5 3.5 
+687 . 44 THR    N . 53 THR    O 3.3 2.5 3.5 
+688 . 53 THR    N . 44 THR    O 3.3 2.5 3.5 
+689 . 46 ASP    N . 51 THR    O 3.3 2.5 3.5 
+690 . 50 LYS    N . 46 ASP    O 3.3 2.5 3.5 
+691 . 51 THR    N . 46 ASP    O 3.3 2.5 3.5 
+692 . 22 ASP    O . 26 ALA    N 3.3 2.5 3.5 
+693 . 23 ALA    O . 27 GLU    N 3.3 2.5 3.5 
+694 . 25 THR    O . 29 VAL    N 3.3 2.5 3.5 
+695 . 26 ALA    O . 30 PHE    N 3.3 2.5 3.5 
+696 . 27 GLU    O . 31 LYS    N 3.3 2.5 3.5 
+697 . 28 LYS    O . 32 GLN    N 3.3 2.5 3.5 
+698 . 29 VAL    O . 33 TYR    N 3.3 2.5 3.5 
+699 . 30 PHE    O . 34 ALA    N 3.3 2.5 3.5 
+700 . 31 LYS    O . 35 ASN    N 3.3 2.5 3.5 
+701 . 34 ALA    O . 39 VAL    N 3.3 2.5 3.5 
+702 . 22 ASP  OD% . 25 THR    N 3.3 2.5 3.5 
+703 . 20 ALA    H .  1 MET    O 2.3 1.5 2.5 
+704 .  3 TYR    H . 18 THR    O 2.3 1.5 2.5 
+705 . 18 THR    H .  3 TYR    O 2.3 1.5 2.5 
+706 .  5 LEU    H . 16 THR    O 2.3 1.5 2.5 
+707 . 16 THR    H .  5 LEU    O 2.3 1.5 2.5 
+708 .  7 LEU    H . 14 GLY    O 2.3 1.5 2.5 
+709 . 14 GLY    H .  7 LEU    O 2.3 1.5 2.5 
+710 .  9 GLY    H . 12 LEU    O 2.3 1.5 2.5 
+711 .  4 LYS    H . 50 LYS    O 2.3 1.5 2.5 
+712 . 52 PHE    H .  4 LYS    O 2.3 1.5 2.5 
+713 .  6 ILE    H . 52 PHE    O 2.3 1.5 2.5 
+714 . 54 VAL    H .  6 ILE    O 2.3 1.5 2.5 
+715 .  8 ASN    H . 54 VAL    O 2.3 1.5 2.5 
+716 . 42 GLU    H . 55 THR    O 2.3 1.5 2.5 
+717 . 55 THR    H . 42 GLU    O 2.3 1.5 2.5 
+718 . 44 THR    H . 53 THR    O 2.3 1.5 2.5 
+719 . 53 THR    H . 44 THR    O 2.3 1.5 2.5 
+720 . 46 ASP    H . 51 THR    O 2.3 1.5 2.5 
+721 . 50 LYS    H . 46 ASP    O 2.3 1.5 2.5 
+722 . 51 THR    H . 46 ASP    O 2.3 1.5 2.5 
+723 . 22 ASP    O . 26 ALA    H 2.3 1.5 2.5 
+724 . 23 ALA    O . 27 GLU    H 2.3 1.5 2.5 
+725 . 25 THR    O . 29 VAL    H 2.3 1.5 2.5 
+726 . 26 ALA    O . 30 PHE    H 2.3 1.5 2.5 
+727 . 27 GLU    O . 31 LYS    H 2.3 1.5 2.5 
+728 . 28 LYS    O . 32 GLN    H 2.3 1.5 2.5 
+729 . 29 VAL    O . 33 TYR    H 2.3 1.5 2.5 
+730 . 30 PHE    O . 34 ALA    H 2.3 1.5 2.5 
+731 . 31 LYS    O . 35 ASN    H 2.3 1.5 2.5 
+732 . 34 ALA    O . 39 VAL    H 2.3 1.5 2.5 
+733 . 22 ASP  OD% . 25 THR    H 2.3 1.5 2.5 
+734 . 46 ASP  OD% . 48 ALA    H 2.3 1.5 2.5 
+735 . 46 ASP  OD% . 48 ALA    N 3.3 2.5 3.5 
+stop_
+save_
+save_nef_dihedral_restraint_list_1
+_nef_dihedral_restraint_list.sf_category  nef_dihedral_restraint_list
+_nef_dihedral_restraint_list.sf_framecode  nef_dihedral_restraint_list_1
+loop_
+_nef_dihedral_restraint.restraint_id
+_nef_dihedral_restraint.chain_code_1
+_nef_dihedral_restraint.sequence_code_1
+_nef_dihedral_restraint.residue_name_1
+_nef_dihedral_restraint.atom_name_1
+_nef_dihedral_restraint.chain_code_2
+_nef_dihedral_restraint.sequence_code_2
+_nef_dihedral_restraint.residue_name_2
+_nef_dihedral_restraint.atom_name_2
+_nef_dihedral_restraint.chain_code_3
+_nef_dihedral_restraint.sequence_code_3
+_nef_dihedral_restraint.residue_name_3
+_nef_dihedral_restraint.atom_name_3
+_nef_dihedral_restraint.chain_code_4
+_nef_dihedral_restraint.sequence_code_4
+_nef_dihedral_restraint.residue_name_4
+_nef_dihedral_restraint.atom_name_4
+_nef_dihedral_restraint.weight
+_nef_dihedral_restraint.target_value
+_nef_dihedral_restraint.lower_limit
+_nef_dihedral_restraint.upper_limit
+  3 .  1 MET  C .  2 THR  N .  2 THR  CA .  2 THR   C 1.0 -105.0 -145.0  -65.0 
+  4 .  2 THR  C .  3 TYR  N .  3 TYR  CA .  3 TYR   C 1.0 -115.0 -145.0  -85.0 
+  5 .  3 TYR  C .  4 LYS  N .  4 LYS  CA .  4 LYS   C 1.0 -120.0 -155.0  -85.0 
+  6 .  4 LYS  C .  5 LEU  N .  5 LEU  CA .  5 LEU   C 1.0 -110.0 -140.0  -80.0 
+  7 .  5 LEU  C .  6 ILE  N .  6 ILE  CA .  6 ILE   C 1.0 -120.0 -150.0  -90.0 
+  8 .  6 ILE  C .  7 LEU  N .  7 LEU  CA .  7 LEU   C 1.0 -120.0 -160.0  -80.0 
+  9 .  7 LEU  C .  8 ASN  N .  8 ASN  CA .  8 ASN   C 1.0 -135.0 -170.0 -100.0 
+ 10 .  8 ASN  C .  9 GLY  N .  9 GLY  CA .  9 GLY   C 1.0  -95.0 -175.0  -15.0 
+ 11 .  9 GLY  C . 10 LYS  N . 10 LYS  CA . 10 LYS   C 1.0  -70.0 -100.0  -40.0 
+ 12 . 10 LYS  C . 11 THR  N . 11 THR  CA . 11 THR   C 1.0 -120.0 -150.0  -90.0 
+ 13 . 11 THR  C . 12 LEU  N . 12 LEU  CA . 12 LEU   C 1.0 -120.0 -175.0  -65.0 
+ 14 . 12 LEU  C . 13 LYS  N . 13 LYS  CA . 13 LYS   C 1.0 -120.0 -155.0  -85.0 
+ 15 . 14 GLY  C . 15 GLU  N . 15 GLU  CA . 15 GLU   C 1.0 -125.0 -175.0  -75.0 
+ 16 . 15 GLU  C . 16 THR  N . 16 THR  CA . 16 THR   C 1.0 -120.0 -175.0  -65.0 
+ 17 . 16 THR  C . 17 THR  N . 17 THR  CA . 17 THR   C 1.0 -120.0 -155.0  -85.0 
+ 18 . 17 THR  C . 18 THR  N . 18 THR  CA . 18 THR   C 1.0 -115.0 -175.0  -55.0 
+ 19 . 18 THR  C . 19 GLU  N . 19 GLU  CA . 19 GLU   C 1.0 -120.0 -155.0  -85.0 
+ 20 . 19 GLU  C . 20 ALA  N . 20 ALA  CA . 20 ALA   C 1.0 -110.0 -155.0  -65.0 
+ 21 . 20 ALA  C . 21 VAL  N . 21 VAL  CA . 21 VAL   C 1.0  -70.0 -100.0  -40.0 
+ 22 . 21 VAL  C . 22 ASP  N . 22 ASP  CA . 22 ASP   C 1.0 -115.0 -175.0  -55.0 
+ 23 . 22 ASP  C . 23 ALA  N . 23 ALA  CA . 23 ALA   C 1.0  -60.0  -90.0  -30.0 
+ 24 . 23 ALA  C . 24 ALA  N . 24 ALA  CA . 24 ALA   C 1.0  -65.0  -95.0  -35.0 
+ 25 . 24 ALA  C . 25 THR  N . 25 THR  CA . 25 THR   C 1.0  -70.0 -100.0  -40.0 
+ 26 . 25 THR  C . 26 ALA  N . 26 ALA  CA . 26 ALA   C 1.0  -60.0  -90.0  -30.0 
+ 27 . 26 ALA  C . 27 GLU  N . 27 GLU  CA . 27 GLU   C 1.0  -70.0 -100.0  -40.0 
+ 28 . 27 GLU  C . 28 LYS  N . 28 LYS  CA . 28 LYS   C 1.0  -70.0 -100.0  -40.0 
+ 29 . 28 LYS  C . 29 VAL  N . 29 VAL  CA . 29 VAL   C 1.0  -70.0 -100.0  -40.0 
+ 30 . 29 VAL  C . 30 PHE  N . 30 PHE  CA . 30 PHE   C 1.0  -70.0 -105.0  -35.0 
+ 31 . 30 PHE  C . 31 LYS  N . 31 LYS  CA . 31 LYS   C 1.0  -60.0  -90.0  -30.0 
+ 32 . 31 LYS  C . 32 GLN  N . 32 GLN  CA . 32 GLN   C 1.0  -70.0 -100.0  -40.0 
+ 33 . 32 GLN  C . 33 TYR  N . 33 TYR  CA . 33 TYR   C 1.0  -70.0 -100.0  -40.0 
+ 34 . 33 TYR  C . 34 ALA  N . 34 ALA  CA . 34 ALA   C 1.0  -70.0 -100.0  -40.0 
+ 35 . 34 ALA  C . 35 ASN  N . 35 ASN  CA . 35 ASN   C 1.0  -60.0  -90.0  -30.0 
+ 36 . 35 ASN  C . 36 ASP  N . 36 ASP  CA . 36 ASP   C 1.0  -60.0  -90.0  -30.0 
+ 37 . 36 ASP  C . 37 ASN  N . 37 ASN  CA . 37 ASN   C 1.0 -110.0 -140.0  -80.0 
+ 38 . 37 ASN  C . 38 GLY  N . 38 GLY  CA . 38 GLY   C 1.0   65.0    5.0  125.0 
+ 39 . 38 GLY  C . 39 VAL  N . 39 VAL  CA . 39 VAL   C 1.0 -115.0 -155.0  -75.0 
+ 40 . 39 VAL  C . 40 ASP  N . 40 ASP  CA . 40 ASP   C 1.0 -120.0 -165.0  -75.0 
+ 41 . 41 GLY  C . 42 GLU  N . 42 GLU  CA . 42 GLU   C 1.0 -115.0 -155.0  -75.0 
+ 42 . 42 GLU  C . 43 TRP  N . 43 TRP  CA . 43 TRP   C 1.0 -120.0 -155.0  -85.0 
+ 43 . 43 TRP  C . 44 THR  N . 44 THR  CA . 44 THR   C 1.0 -120.0 -165.0  -75.0 
+ 44 . 44 THR  C . 45 TYR  N . 45 TYR  CA . 45 TYR   C 1.0 -120.0 -155.0  -85.0 
+ 45 . 45 TYR  C . 46 ASP  N . 46 ASP  CA . 46 ASP   C 1.0 -125.0 -155.0  -95.0 
+ 46 . 46 ASP  C . 47 ASP  N . 47 ASP  CA . 47 ASP   C 1.0  -65.0  -95.0  -35.0 
+ 47 . 47 ASP  C . 48 ALA  N . 48 ALA  CA . 48 ALA   C 1.0  -70.0 -100.0  -40.0 
+ 48 . 48 ALA  C . 49 THR  N . 49 THR  CA . 49 THR   C 1.0 -130.0 -165.0  -95.0 
+ 49 . 49 THR  C . 50 LYS  N . 50 LYS  CA . 50 LYS   C 1.0   60.0   25.0   95.0 
+ 50 . 50 LYS  C . 51 THR  N . 51 THR  CA . 51 THR   C 1.0 -120.0 -155.0  -85.0 
+ 51 . 51 THR  C . 52 PHE  N . 52 PHE  CA . 52 PHE   C 1.0 -120.0 -160.0  -80.0 
+ 52 . 52 PHE  C . 53 THR  N . 53 THR  CA . 53 THR   C 1.0 -120.0 -160.0  -80.0 
+ 53 . 53 THR  C . 54 VAL  N . 54 VAL  CA . 54 VAL   C 1.0 -120.0 -155.0  -85.0 
+ 54 . 54 VAL  C . 55 THR  N . 55 THR  CA . 55 THR   C 1.0 -120.0 -150.0  -90.0 
+ 55 . 55 THR  C . 56 GLU  N . 56 GLU  CA . 56 GLU   C 1.0 -110.0 -160.0  -60.0 
+ 56 .  2 THR  N .  2 THR CA .  2 THR   C .  3 TYR   N 1.0  145.0   95.0  195.0 
+ 57 .  3 TYR  N .  3 TYR CA .  3 TYR   C .  4 LYS   N 1.0  160.0  110.0  210.0 
+ 58 .  4 LYS  N .  4 LYS CA .  4 LYS   C .  5 LEU   N 1.0  165.0  115.0  215.0 
+ 59 .  5 LEU  N .  5 LEU CA .  5 LEU   C .  6 ILE   N 1.0  130.0   75.0  185.0 
+ 60 .  6 ILE  N .  6 ILE CA .  6 ILE   C .  7 LEU   N 1.0  125.0   65.0  185.0 
+ 61 .  7 LEU  N .  7 LEU CA .  7 LEU   C .  8 ASN   N 1.0  120.0   55.0  185.0 
+ 62 .  8 ASN  N .  8 ASN CA .  8 ASN   C .  9 GLY   N 1.0   65.0   15.0  115.0 
+ 63 . 10 LYS  N . 10 LYS CA . 10 LYS   C . 11 THR   N 1.0  -30.0  -80.0   20.0 
+ 64 . 11 THR  N . 11 THR CA . 11 THR   C . 12 LEU   N 1.0  -25.0  -75.0   25.0 
+ 65 . 12 LEU  N . 12 LEU CA . 12 LEU   C . 13 LYS   N 1.0  120.0   45.0  195.0 
+ 66 . 13 LYS  N . 13 LYS CA . 13 LYS   C . 14 GLY   N 1.0  170.0  120.0  220.0 
+ 67 . 14 GLY  N . 14 GLY CA . 14 GLY   C . 15 GLU   N 1.0  180.0  130.0  230.0 
+ 68 . 15 GLU  N . 15 GLU CA . 15 GLU   C . 16 THR   N 1.0  140.0   25.0  255.0 
+ 69 . 16 THR  N . 16 THR CA . 16 THR   C . 17 THR   N 1.0  110.0   25.0  195.0 
+ 70 . 17 THR  N . 17 THR CA . 17 THR   C . 18 THR   N 1.0  160.0  110.0  210.0 
+ 71 . 18 THR  N . 18 THR CA . 18 THR   C . 19 GLU   N 1.0  130.0   75.0  185.0 
+ 72 . 19 GLU  N . 19 GLU CA . 19 GLU   C . 20 ALA   N 1.0  120.0   55.0  185.0 
+ 73 . 20 ALA  N . 20 ALA CA . 20 ALA   C . 21 VAL   N 1.0  190.0  125.0  255.0 
+ 74 . 21 VAL  N . 21 VAL CA . 21 VAL   C . 22 ASP   N 1.0  -20.0  -70.0   30.0 
+ 75 . 23 ALA  N . 23 ALA CA . 23 ALA   C . 24 ALA   N 1.0  -40.0  -90.0   10.0 
+ 76 . 24 ALA  N . 24 ALA CA . 24 ALA   C . 25 THR   N 1.0  -40.0  -90.0   10.0 
+ 77 . 25 THR  N . 25 THR CA . 25 THR   C . 26 ALA   N 1.0  -40.0  -90.0   10.0 
+ 78 . 26 ALA  N . 26 ALA CA . 26 ALA   C . 27 GLU   N 1.0  -45.0  -95.0    5.0 
+ 79 . 27 GLU  N . 27 GLU CA . 27 GLU   C . 28 LYS   N 1.0  -45.0  -95.0    5.0 
+ 80 . 28 LYS  N . 28 LYS CA . 28 LYS   C . 29 VAL   N 1.0  -40.0  -90.0   10.0 
+ 81 . 29 VAL  N . 29 VAL CA . 29 VAL   C . 30 PHE   N 1.0  -45.0  -95.0    5.0 
+ 82 . 30 PHE  N . 30 PHE CA . 30 PHE   C . 31 LYS   N 1.0  -35.0  -85.0   15.0 
+ 83 . 31 LYS  N . 31 LYS CA . 31 LYS   C . 32 GLN   N 1.0  -35.0  -85.0   15.0 
+ 84 . 32 GLN  N . 32 GLN CA . 32 GLN   C . 33 TYR   N 1.0  -40.0  -90.0   10.0 
+ 85 . 33 TYR  N . 33 TYR CA . 33 TYR   C . 34 ALA   N 1.0  -40.0  -90.0   10.0 
+ 86 . 34 ALA  N . 34 ALA CA . 34 ALA   C . 35 ASN   N 1.0  -45.0  -95.0    5.0 
+ 87 . 35 ASN  N . 35 ASN CA . 35 ASN   C . 36 ASP   N 1.0  -40.0  -90.0   10.0 
+ 88 . 36 ASP  N . 36 ASP CA . 36 ASP   C . 37 ASN   N 1.0  -30.0  -90.0   30.0 
+ 89 . 37 ASN  N . 37 ASN CA . 37 ASN   C . 38 GLY   N 1.0  -10.0  -60.0   40.0 
+ 90 . 38 GLY  N . 38 GLY CA . 38 GLY   C . 39 VAL   N 1.0   15.0  -35.0   65.0 
+ 91 . 42 GLU  N . 42 GLU CA . 42 GLU   C . 43 TRP   N 1.0  155.0  105.0  205.0 
+ 92 . 43 TRP  N . 43 TRP CA . 43 TRP   C . 44 THR   N 1.0  155.0  105.0  205.0 
+ 93 . 44 THR  N . 44 THR CA . 44 THR   C . 45 TYR   N 1.0  160.0  110.0  210.0 
+ 94 . 45 TYR  N . 45 TYR CA . 45 TYR   C . 46 ASP   N 1.0  120.0   70.0  170.0 
+ 95 . 46 ASP  N . 46 ASP CA . 46 ASP   C . 47 ASP   N 1.0   70.0   20.0  120.0 
+ 96 . 47 ASP  N . 47 ASP CA . 47 ASP   C . 48 ALA   N 1.0  -45.0  -95.0    5.0 
+ 97 . 48 ALA  N . 48 ALA CA . 48 ALA   C . 49 THR   N 1.0  -40.0  -90.0   10.0 
+ 98 . 49 THR  N . 49 THR CA . 49 THR   C . 50 LYS   N 1.0    0.0  -60.0   60.0 
+ 99 . 50 LYS  N . 50 LYS CA . 50 LYS   C . 51 THR   N 1.0   15.0  -45.0   75.0 
+100 . 51 THR  N . 51 THR CA . 51 THR   C . 52 PHE   N 1.0  120.0   55.0  185.0 
+101 . 52 PHE  N . 52 PHE CA . 52 PHE   C . 53 THR   N 1.0  160.0  110.0  210.0 
+102 . 53 THR  N . 53 THR CA . 53 THR   C . 54 VAL   N 1.0  170.0  120.0  220.0 
+103 . 54 VAL  N . 54 VAL CA . 54 VAL   C . 55 THR   N 1.0  145.0   95.0  195.0 
+104 . 55 THR  N . 55 THR CA . 55 THR   C . 56 GLU   N 1.0  130.0   75.0  185.0 
+105 .  2 THR  N .  2 THR CA .  2 THR  CB .  2 THR OG1 1.0  -60.0  -90.0  -30.0 
+106 .  3 TYR  N .  3 TYR CA .  3 TYR  CB .  3 TYR  CG 1.0  -60.0  -80.0  -40.0 
+107 .  4 LYS  N .  4 LYS CA .  4 LYS  CB .  4 LYS  CG 1.0  180.0  150.0  210.0 
+108 .  5 LEU  N .  5 LEU CA .  5 LEU  CB .  5 LEU  CG 1.0  180.0  150.0  210.0 
+109 .  6 ILE  N .  6 ILE CA .  6 ILE  CB .  6 ILE CG1 1.0  -60.0  -90.0  -30.0 
+110 .  7 LEU  N .  7 LEU CA .  7 LEU  CB .  7 LEU  CG 1.0  -60.0  -80.0  -40.0 
+111 . 12 LEU  N . 12 LEU CA . 12 LEU  CB . 12 LEU  CG 1.0  180.0  150.0  210.0 
+112 . 13 LYS  N . 13 LYS CA . 13 LYS  CB . 13 LYS  CG 1.0  -60.0  -80.0  -40.0 
+113 . 16 THR  N . 16 THR CA . 16 THR  CB . 16 THR OG1 1.0  180.0  160.0  200.0 
+114 . 17 THR  N . 17 THR CA . 17 THR  CB . 17 THR OG1 1.0   60.0   40.0   80.0 
+115 . 18 THR  N . 18 THR CA . 18 THR  CB . 18 THR OG1 1.0  180.0  160.0  200.0 
+116 . 19 GLU  N . 19 GLU CA . 19 GLU  CB . 19 GLU  CG 1.0 -120.0 -210.0  -30.0 
+117 . 21 VAL  N . 21 VAL CA . 21 VAL  CB . 21 VAL CG1 1.0  -60.0  -80.0  -40.0 
+118 . 22 ASP  N . 22 ASP CA . 22 ASP  CB . 22 ASP  CG 1.0   60.0   30.0   90.0 
+119 . 29 VAL  N . 29 VAL CA . 29 VAL  CB . 29 VAL CG1 1.0  185.0  155.0  215.0 
+120 . 30 PHE  N . 30 PHE CA . 30 PHE  CB . 30 PHE  CG 1.0  -75.0 -105.0  -45.0 
+121 . 33 TYR  N . 33 TYR CA . 33 TYR  CB . 33 TYR  CG 1.0  180.0  150.0  210.0 
+122 . 36 ASP  N . 36 ASP CA . 36 ASP  CB . 36 ASP  CG 1.0  -70.0 -100.0  -40.0 
+123 . 37 ASN  N . 37 ASN CA . 37 ASN  CB . 37 ASN  CG 1.0  -60.0  -90.0  -30.0 
+124 . 39 VAL  N . 39 VAL CA . 39 VAL  CB . 39 VAL CG1 1.0  180.0  150.0  210.0 
+125 . 42 GLU  N . 42 GLU CA . 42 GLU  CB . 42 GLU  CG 1.0  -65.0  -95.0  -35.0 
+126 . 43 TRP  N . 43 TRP CA . 43 TRP  CB . 43 TRP  CG 1.0  -60.0  -80.0  -40.0 
+127 . 44 THR  N . 44 THR CA . 44 THR  CB . 44 THR OG1 1.0   65.0   40.0   90.0 
+128 . 45 TYR  N . 45 TYR CA . 45 TYR  CB . 45 TYR  CG 1.0  180.0  160.0  200.0 
+129 . 46 ASP  N . 46 ASP CA . 46 ASP  CB . 46 ASP  CG 1.0  190.0  160.0  220.0 
+130 . 47 ASP  N . 47 ASP CA . 47 ASP  CB . 47 ASP  CG 1.0  175.0  150.0  200.0 
+131 . 49 THR  N . 49 THR CA . 49 THR  CB . 49 THR OG1 1.0   60.0   30.0   90.0 
+132 . 50 LYS  N . 50 LYS CA . 50 LYS  CB . 50 LYS  CG 1.0  -75.0 -105.0  -45.0 
+133 . 51 THR  N . 51 THR CA . 51 THR  CB . 51 THR OG1 1.0  -60.0  -90.0  -30.0 
+134 . 52 PHE  N . 52 PHE CA . 52 PHE  CB . 52 PHE  CG 1.0  -75.0 -115.0  -35.0 
+135 . 54 VAL  N . 54 VAL CA . 54 VAL  CB . 54 VAL CG1 1.0   65.0   35.0   95.0 
+136 . 55 THR  N . 55 THR CA . 55 THR  CB . 55 THR OG1 1.0  -60.0  -80.0  -40.0 
+137 .  3 TYR CA .  3 TYR CB .  3 TYR  CG .  3 TYR CD1 1.0   90.0   55.0  125.0 
+138 . 30 PHE CA . 30 PHE CB . 30 PHE  CG . 30 PHE CD1 1.0   90.0   20.0  160.0 
+139 . 33 TYR CA . 33 TYR CB . 33 TYR  CG . 33 TYR CD1 1.0   90.0   55.0  125.0 
+140 . 43 TRP CA . 43 TRP CB . 43 TRP  CG . 43 TRP CD1 1.0   90.0   55.0  125.0 
+141 . 45 TYR CA . 45 TYR CB . 45 TYR  CG . 45 TYR CD1 1.0   90.0   55.0  125.0 
+142 . 52 PHE CA . 52 PHE CB . 52 PHE  CG . 52 PHE CD1 1.0   90.0   55.0  125.0 
+143 . 12 LEU CA . 12 LEU CB . 12 LEU  CG . 12 LEU CD1 1.0   60.0   20.0  100.0 
+144 .  5 LEU CA .  5 LEU CB .  5 LEU  CG .  5 LEU CD1 1.0   60.0   30.0   90.0 
+145 .  7 LEU CA .  7 LEU CB .  7 LEU  CG .  7 LEU CD1 1.0  180.0  150.0  210.0 
+146 . 27 GLU CA . 27 GLU CB . 27 GLU  CG . 27 GLU  CD 1.0  180.0  140.0  220.0 
+147 .  6 ILE CA .  6 ILE CB .  6 ILE CG1 .  6 ILE CD1 1.0  180.0  140.0  220.0 
+148 . 46 ASP CA . 46 ASP CB . 46 ASP  CG . 46 ASP OD1 1.0    0.0  -30.0   30.0 
+149 .  3 TYR CA .  3 TYR CB .  3 TYR  CG .  3 TYR CD1 1.0   90.0    0.0  180.0 
+150 . 30 PHE CA . 30 PHE CB . 30 PHE  CG . 30 PHE CD1 1.0   90.0    0.0  180.0 
+151 . 33 TYR CA . 33 TYR CB . 33 TYR  CG . 33 TYR CD1 1.0   90.0    0.0  180.0 
+152 . 45 TYR CA . 45 TYR CB . 45 TYR  CG . 45 TYR CD1 1.0   90.0    0.0  180.0 
+153 . 52 PHE CA . 52 PHE CB . 52 PHE  CG . 52 PHE CD1 1.0   90.0    0.0  180.0 
+154 . 22 ASP CA . 22 ASP CB . 22 ASP  CG . 22 ASP OD1 1.0    0.0  -90.0   90.0 
+155 . 36 ASP CA . 36 ASP CB . 36 ASP  CG . 36 ASP OD1 1.0    0.0  -90.0   90.0 
+156 . 40 ASP CA . 40 ASP CB . 40 ASP  CG . 40 ASP OD1 1.0    0.0  -90.0   90.0 
+157 . 46 ASP CA . 46 ASP CB . 46 ASP  CG . 46 ASP OD1 1.0    0.0  -90.0   90.0 
+158 . 47 ASP CA . 47 ASP CB . 47 ASP  CG . 47 ASP OD1 1.0    0.0  -90.0   90.0 
+159 . 15 GLU CB . 15 GLU CG . 15 GLU  CD . 15 GLU OE1 1.0    0.0  -90.0   90.0 
+160 . 19 GLU CB . 19 GLU CG . 19 GLU  CD . 19 GLU OE1 1.0    0.0  -90.0   90.0 
+161 . 27 GLU CB . 27 GLU CG . 27 GLU  CD . 27 GLU OE1 1.0    0.0  -90.0   90.0 
+162 . 42 GLU CB . 42 GLU CG . 42 GLU  CD . 42 GLU OE1 1.0    0.0  -90.0   90.0 
+163 . 56 GLU CB . 56 GLU CG . 56 GLU  CD . 56 GLU OE1 1.0    0.0  -90.0   90.0 
+stop_
+save_
+save_nef_rdc_restraint_list_b
+_nef_rdc_restraint_list.sf_category  nef_rdc_restraint_list
+_nef_rdc_restraint_list.sf_framecode  nef_rdc_restraint_list_b
+_nef_rdc_restraint_list.tensor_magnitude  -9.9
+_nef_rdc_restraint_list.tensor_rhombicity  0.23
+loop_
+_nef_rdc_restraint.restraint_id
+_nef_rdc_restraint.chain_code_1
+_nef_rdc_restraint.sequence_code_1
+_nef_rdc_restraint.residue_name_1
+_nef_rdc_restraint.atom_name_1
+_nef_rdc_restraint.chain_code_2
+_nef_rdc_restraint.sequence_code_2
+_nef_rdc_restraint.residue_name_2
+_nef_rdc_restraint.atom_name_2
+_nef_rdc_restraint.weight
+_nef_rdc_restraint.target_value
+_nef_rdc_restraint.xplor_nih_use_sign
+_nef_rdc_restraint.lower_limit
+_nef_rdc_restraint.upper_limit
+_nef_rdc_restraint.scale
+_nef_rdc_restraint.distance_dependent
+  1 .  2 THR N .  2 THR H   1.0    2.269 True    2.069    2.469 1.0 false 
+  2 .  3 TYR N .  3 TYR H   1.0    7.947 True    7.747    8.147 1.0 false 
+  3 .  4 LYS N .  4 LYS H   1.0   9.6945 True   9.4945   9.8945 1.0 false 
+  4 .  5 LEU N .  5 LEU H   1.0  14.2345 True  14.0345  14.4345 1.0 false 
+  5 .  6 ILE N .  6 ILE H   1.0   10.177 True    9.977   10.377 1.0 false 
+  6 .  7 LEU N .  7 LEU H   1.0  13.8145 True  13.6145  14.0145 1.0 false 
+  7 .  8 ASN N .  8 ASN H   1.0   5.3225 True   5.1225   5.5225 1.0 false 
+  8 .  9 GLY N .  9 GLY H   1.0  11.5085 True  11.3085  11.7085 1.0 false 
+  9 . 10 LYS N . 10 LYS H   1.0    7.095 True    6.895    7.295 1.0 false 
+ 10 . 11 THR N . 11 THR H   1.0  -1.0385 True  -1.2385  -0.8385 1.0 false 
+ 11 . 12 LEU N . 12 LEU H   1.0  12.4045 True  12.2045  12.6045 1.0 false 
+ 12 . 14 GLY N . 14 GLY H   1.0  12.1125 True  11.9125  12.3125 1.0 false 
+ 13 . 15 GLU N . 15 GLU H   1.0   12.202 True   12.002   12.402 1.0 false 
+ 14 . 16 THR N . 16 THR H   1.0  12.0935 True  11.8935  12.2935 1.0 false 
+ 15 . 17 THR N . 17 THR H   1.0    9.965 True    9.765   10.165 1.0 false 
+ 16 . 18 THR N . 18 THR H   1.0    6.539 True    6.339    6.739 1.0 false 
+ 17 . 19 GLU N . 19 GLU H   1.0    6.824 True    6.624    7.024 1.0 false 
+ 18 . 21 VAL N . 21 VAL H   1.0    5.815 True    5.615    6.015 1.0 false 
+ 19 . 22 ASP N . 22 ASP H   1.0   -3.731 True   -3.931   -3.531 1.0 false 
+ 20 . 24 ALA N . 24 ALA H   1.0 -13.9725 True -14.1725 -13.7725 1.0 false 
+ 21 . 25 THR N . 25 THR H   1.0  -8.9115 True  -9.1115  -8.7115 1.0 false 
+ 22 . 26 ALA N . 26 ALA H   1.0   -4.912 True   -5.112   -4.712 1.0 false 
+ 23 . 27 GLU N . 27 GLU H   1.0 -10.4595 True -10.6595 -10.2595 1.0 false 
+ 24 . 29 VAL N . 29 VAL H   1.0    -9.73 True    -9.93    -9.53 1.0 false 
+ 25 . 30 PHE N . 30 PHE H   1.0  -8.7115 True  -8.9115  -8.5115 1.0 false 
+ 26 . 31 LYS N . 31 LYS H   1.0 -15.9925 True -16.1925 -15.7925 1.0 false 
+ 27 . 32 GLN N . 32 GLN H   1.0  -17.976 True  -18.176  -17.776 1.0 false 
+ 28 . 34 ALA N . 34 ALA H   1.0 -10.3985 True -10.5985 -10.1985 1.0 false 
+ 29 . 36 ASP N . 36 ASP H   1.0 -16.0695 True -16.2695 -15.8695 1.0 false 
+ 30 . 37 ASN N . 37 ASN H   1.0  -3.0165 True  -3.2165  -2.8165 1.0 false 
+ 31 . 38 GLY N . 38 GLY H   1.0  -8.9895 True  -9.1895  -8.7895 1.0 false 
+ 32 . 39 VAL N . 39 VAL H   1.0  -12.274 True  -12.474  -12.074 1.0 false 
+ 33 . 40 ASP N . 40 ASP H   1.0  -14.428 True  -14.628  -14.228 1.0 false 
+ 34 . 41 GLY N . 41 GLY H   1.0 -11.3295 True -11.5295 -11.1295 1.0 false 
+ 35 . 44 THR N . 44 THR H   1.0   12.032 True   11.832   12.232 1.0 false 
+ 36 . 45 TYR N . 45 TYR H   1.0   13.497 True   13.297   13.697 1.0 false 
+ 37 . 46 ASP N . 46 ASP H   1.0  11.2565 True  11.0565  11.4565 1.0 false 
+ 38 . 48 ALA N . 48 ALA H   1.0  -3.4545 True  -3.6545  -3.2545 1.0 false 
+ 39 . 49 THR N . 49 THR H   1.0   1.9595 True   1.7595   2.1595 1.0 false 
+ 40 . 50 LYS N . 50 LYS H   1.0   9.9435 True   9.7435  10.1435 1.0 false 
+ 41 . 51 THR N . 51 THR H   1.0   10.133 True    9.933   10.333 1.0 false 
+ 42 . 52 PHE N . 52 PHE H   1.0   12.877 True   12.677   13.077 1.0 false 
+ 43 . 53 THR N . 53 THR H   1.0  11.1995 True  10.9995  11.3995 1.0 false 
+ 44 . 54 VAL N . 54 VAL H   1.0  13.0545 True  12.8545  13.2545 1.0 false 
+ 45 . 55 THR N . 55 THR H   1.0   7.4555 True   7.2555   7.6555 1.0 false 
+ 46 . 56 GLU N . 56 GLU H   1.0  12.4895 True  12.2895  12.6895 1.0 false 
+ 47 .  1 MET C .  2 THR N  0.05  -0.9848 True  -1.1848  -0.7848 1.0 false 
+ 48 .  2 THR C .  3 TYR N  0.05  -6.4239 True  -6.6239  -6.2239 1.0 false 
+ 49 .  3 TYR C .  4 LYS N  0.05  -6.7085 True  -6.9085  -6.5085 1.0 false 
+ 50 .  4 LYS C .  5 LEU N  0.05 -10.6659 True -10.8659 -10.4659 1.0 false 
+ 51 .  5 LEU C .  6 ILE N  0.05   1.5089 True   1.3089   1.7089 1.0 false 
+ 52 .  6 ILE C .  7 LEU N  0.05  -3.7812 True  -3.9812  -3.5812 1.0 false 
+ 53 .  7 LEU C .  8 ASN N  0.05   8.0638 True   7.8638   8.2638 1.0 false 
+ 54 .  8 ASN C .  9 GLY N  0.05   4.7434 True   4.5434   4.9434 1.0 false 
+ 55 .  9 GLY C . 10 LYS N  0.05  -6.7085 True  -6.9085  -6.5085 1.0 false 
+ 56 . 10 LYS C . 11 THR N  0.05   2.7783 True   2.5783   2.9783 1.0 false 
+ 57 . 11 THR C . 12 LEU N  0.05 -13.4668 True -13.6668 -13.2668 1.0 false 
+ 58 . 12 LEU C . 13 LYS N  0.05     8.38 True     8.18     8.58 1.0 false 
+ 59 . 13 LYS C . 14 GLY N  0.05 -14.2483 True -14.4483 -14.0483 1.0 false 
+ 60 . 14 GLY C . 15 GLU N  0.05  -7.6301 True  -7.8301  -7.4301 1.0 false 
+ 61 . 15 GLU C . 16 THR N  0.05 -10.9911 True -11.1911 -10.7911 1.0 false 
+ 62 . 16 THR C . 17 THR N  0.05  -9.1706 True  -9.3706  -8.9706 1.0 false 
+ 63 . 17 THR C . 18 THR N  0.05 -10.8556 True -11.0556 -10.6556 1.0 false 
+ 64 . 18 THR C . 19 GLU N  0.05  -9.5455 True  -9.7455  -9.3455 1.0 false 
+ 65 . 19 GLU C . 20 ALA N  0.05   3.4514 True   3.2514   3.6514 1.0 false 
+ 66 . 20 ALA C . 21 VAL N  0.05  -1.8612 True  -2.0612  -1.6612 1.0 false 
+ 67 . 21 VAL C . 22 ASP N  0.05 -17.2841 True -17.4841 -17.0841 1.0 false 
+ 68 . 23 ALA C . 24 ALA N  0.05   0.8267 True   0.6267   1.0267 1.0 false 
+ 69 . 24 ALA C . 25 THR N  0.05  14.2618 True  14.0618  14.4618 1.0 false 
+ 70 . 25 THR C . 26 ALA N  0.05    5.552 True    5.352    5.752 1.0 false 
+ 71 . 27 GLU C . 28 LYS N  0.05  -6.3471 True  -6.5471  -6.1471 1.0 false 
+ 72 . 28 LYS C . 29 VAL N  0.05   5.6153 True   5.4153   5.8153 1.0 false 
+ 73 . 29 VAL C . 30 PHE N  0.05   6.7401 True   6.5401   6.9401 1.0 false 
+ 74 . 30 PHE C . 31 LYS N  0.05   9.2022 True   9.0022   9.4022 1.0 false 
+ 75 . 31 LYS C . 32 GLN N  0.05    -3.23 True    -3.43    -3.03 1.0 false 
+ 76 . 33 TYR C . 34 ALA N  0.05  11.4655 True  11.2655  11.6655 1.0 false 
+ 77 . 35 ASN C . 36 ASP N  0.05   2.1006 True   1.9006   2.3006 1.0 false 
+ 78 . 36 ASP C . 37 ASN N  0.05   0.7544 True   0.5544   0.9544 1.0 false 
+ 79 . 37 ASN C . 38 GLY N  0.05  11.4655 True  11.2655  11.6655 1.0 false 
+ 80 . 38 GLY C . 39 VAL N  0.05 -11.3254 True -11.5254 -11.1254 1.0 false 
+ 81 . 39 VAL C . 40 ASP N  0.05   4.4859 True   4.2859   4.6859 1.0 false 
+ 82 . 40 ASP C . 41 GLY N  0.05  -3.0493 True  -3.2493  -2.8493 1.0 false 
+ 83 . 42 GLU C . 43 TRP N  0.05 -15.8385 True -16.0385 -15.6385 1.0 false 
+ 84 . 43 TRP C . 44 THR N  0.05   5.5023 True   5.3023   5.7023 1.0 false 
+ 85 . 44 THR C . 45 TYR N  0.05 -12.0934 True -12.2934 -11.8934 1.0 false 
+ 86 . 45 TYR C . 46 ASP N  0.05   9.3513 True   9.1513   9.5513 1.0 false 
+ 87 . 46 ASP C . 47 ASP N  0.05  -6.1393 True  -6.3393  -5.9393 1.0 false 
+ 88 . 47 ASP C . 48 ALA N  0.05   0.8132 True   0.6132   1.0132 1.0 false 
+ 89 . 48 ALA C . 49 THR N  0.05 -12.3329 True -12.5329 -12.1329 1.0 false 
+ 90 . 49 THR C . 50 LYS N  0.05   5.8276 True   5.6276   6.0276 1.0 false 
+ 91 . 50 LYS C . 51 THR N  0.05  -9.3468 True  -9.5468  -9.1468 1.0 false 
+ 92 . 51 THR C . 52 PHE N  0.05   1.4275 True   1.2275   1.6275 1.0 false 
+ 93 . 52 PHE C . 53 THR N  0.05   -1.807 True   -2.007   -1.607 1.0 false 
+ 94 . 53 THR C . 54 VAL N  0.05  -6.2477 True  -6.4477  -6.0477 1.0 false 
+ 95 . 54 VAL C . 55 THR N  0.05   4.6711 True   4.4711   4.8711 1.0 false 
+ 96 . 55 THR C . 56 GLU N  0.05  -8.4568 True  -8.6568  -8.2568 1.0 false 
+ 97 .  1 MET C .  2 THR H 0.108   6.2918 True   6.0918   6.4918 1.0 false 
+ 98 .  2 THR C .  3 TYR H 0.108    1.845 True    1.645    2.045 1.0 false 
+ 99 .  3 TYR C .  4 LYS H 0.108   3.8495 True   3.6495   4.0495 1.0 false 
+100 .  4 LYS C .  5 LEU H 0.108   0.9453 True   0.7453   1.1453 1.0 false 
+101 .  5 LEU C .  6 ILE H 0.108  10.7188 True  10.5188  10.9188 1.0 false 
+102 .  6 ILE C .  7 LEU H 0.108   5.9316 True   5.7316   6.1316 1.0 false 
+103 .  7 LEU C .  8 ASN H 0.108  13.0334 True  12.8334  13.2334 1.0 false 
+104 .  8 ASN C .  9 GLY H 0.108  11.3009 True  11.1009  11.5009 1.0 false 
+105 .  9 GLY C . 10 LYS H 0.108   4.9863 True   4.7863   5.1863 1.0 false 
+106 . 10 LYS C . 11 THR H 0.108  -0.5213 True  -0.7213  -0.3213 1.0 false 
+107 . 11 THR C . 12 LEU H 0.108   -0.152 True   -0.352    0.048 1.0 false 
+108 . 12 LEU C . 13 LYS H 0.108   11.924 True   11.724   12.124 1.0 false 
+109 . 13 LYS C . 14 GLY H 0.108  -0.7158 True  -0.9158  -0.5158 1.0 false 
+110 . 14 GLY C . 15 GLU H 0.108     6.31 True     6.11     6.51 1.0 false 
+111 . 15 GLU C . 16 THR H 0.108  -0.1307 True  -0.3307   0.0693 1.0 false 
+112 . 16 THR C . 17 THR H 0.108   5.2508 True   5.0508   5.4508 1.0 false 
+113 . 17 THR C . 18 THR H 0.108  -0.1824 True  -0.3824   0.0176 1.0 false 
+114 . 18 THR C . 19 GLU H 0.108   5.1626 True   4.9626   5.3626 1.0 false 
+115 . 19 GLU C . 20 ALA H 0.108   4.0289 True   3.8289   4.2289 1.0 false 
+116 . 20 ALA C . 21 VAL H 0.108   4.4894 True   4.2894   4.6894 1.0 false 
+117 . 21 VAL C . 22 ASP H 0.108  -7.8313 True  -8.0313  -7.6313 1.0 false 
+118 . 23 ALA C . 24 ALA H 0.108  -8.1793 True  -8.3793  -7.9793 1.0 false 
+119 . 24 ALA C . 25 THR H 0.108   8.2675 True   8.0675   8.4675 1.0 false 
+120 . 25 THR C . 26 ALA H 0.108   3.2416 True   3.0416   3.4416 1.0 false 
+121 . 27 GLU C . 28 LYS H 0.108 -15.1565 True -15.3565 -14.9565 1.0 false 
+122 . 28 LYS C . 29 VAL H 0.108  -4.1049 True  -4.3049  -3.9049 1.0 false 
+123 . 29 VAL C . 30 PHE H 0.108   3.6778 True   3.4778   3.8778 1.0 false 
+124 . 30 PHE C . 31 LYS H 0.108  -1.0182 True  -1.2182  -0.8182 1.0 false 
+125 . 31 LYS C . 32 GLN H 0.108 -12.6884 True -12.8884 -12.4884 1.0 false 
+126 . 33 TYR C . 34 ALA H 0.108   7.5912 True   7.3912   7.7912 1.0 false 
+127 . 34 ALA C . 35 ASN H 0.108  -8.4012 True  -8.6012  -8.2012 1.0 false 
+128 . 35 ASN C . 36 ASP H 0.108    -11.0 True    -11.2    -10.8 1.0 false 
+129 . 36 ASP C . 37 ASN H 0.108   7.8298 True   7.6298   8.0298 1.0 false 
+130 . 37 ASN C . 38 GLY H 0.108   4.4787 True   4.2787   4.6787 1.0 false 
+131 . 38 GLY C . 39 VAL H 0.108 -17.1991 True -17.3991 -16.9991 1.0 false 
+132 . 39 VAL C . 40 ASP H 0.108   -6.962 True   -7.162   -6.762 1.0 false 
+133 . 40 ASP C . 41 GLY H 0.108  -9.8237 True -10.0237  -9.6237 1.0 false 
+134 . 42 GLU C . 43 TRP H 0.108  -2.8723 True  -3.0723  -2.6723 1.0 false 
+135 . 43 TRP C . 44 THR H 0.108  12.3222 True  12.1222  12.5222 1.0 false 
+136 . 44 THR C . 45 TYR H 0.108  -1.2508 True  -1.4508  -1.0508 1.0 false 
+137 . 45 TYR C . 46 ASP H 0.108  13.8146 True  13.6146  14.0146 1.0 false 
+138 . 46 ASP C . 47 ASP H 0.108   7.0669 True   6.8669   7.2669 1.0 false 
+139 . 47 ASP C . 48 ALA H 0.108  -2.5836 True  -2.7836  -2.3836 1.0 false 
+140 . 48 ALA C . 49 THR H 0.108  -9.6064 True  -9.8064  -9.4064 1.0 false 
+141 . 49 THR C . 50 LYS H 0.108   9.4559 True   9.2559   9.6559 1.0 false 
+142 . 50 LYS C . 51 THR H 0.108   3.8784 True   3.6784   4.0784 1.0 false 
+143 . 51 THR C . 52 PHE H 0.108   8.0593 True   7.8593   8.2593 1.0 false 
+144 . 52 PHE C . 53 THR H 0.108  12.9392 True  12.7392  13.1392 1.0 false 
+145 . 53 THR C . 54 VAL H 0.108   3.7021 True   3.5021   3.9021 1.0 false 
+146 . 54 VAL C . 55 THR H 0.108  11.6641 True  11.4641  11.8641 1.0 false 
+147 . 55 THR C . 56 GLU H 0.108   2.0349 True   1.8349   2.2349 1.0 false 
+stop_
+save_
+save_nef_rdc_restraint_list_t
+_nef_rdc_restraint_list.sf_category  nef_rdc_restraint_list
+_nef_rdc_restraint_list.sf_framecode  nef_rdc_restraint_list_t
+_nef_rdc_restraint_list.tensor_magnitude  -6.5
+_nef_rdc_restraint_list.tensor_rhombicity  0.62
+loop_
+_nef_rdc_restraint.restraint_id
+_nef_rdc_restraint.chain_code_1
+_nef_rdc_restraint.sequence_code_1
+_nef_rdc_restraint.residue_name_1
+_nef_rdc_restraint.atom_name_1
+_nef_rdc_restraint.chain_code_2
+_nef_rdc_restraint.sequence_code_2
+_nef_rdc_restraint.residue_name_2
+_nef_rdc_restraint.atom_name_2
+_nef_rdc_restraint.weight
+_nef_rdc_restraint.target_value
+_nef_rdc_restraint.xplor_nih_use_sign
+_nef_rdc_restraint.lower_limit
+_nef_rdc_restraint.upper_limit
+_nef_rdc_restraint.scale
+_nef_rdc_restraint.distance_dependent
+  1 .  2 THR N .  2 THR H   1.0   -3.733 True   -3.933   -3.533 1.0 false 
+  2 .  3 TYR N .  3 TYR H   1.0 -11.2515 True -11.4515 -11.0515 1.0 false 
+  3 .  4 LYS N .  4 LYS H   1.0  -12.871 True  -13.071  -12.671 1.0 false 
+  4 .  6 ILE N .  6 ILE H   1.0   -5.947 True   -6.147   -5.747 1.0 false 
+  5 .  7 LEU N .  7 LEU H   1.0   -3.398 True   -3.598   -3.198 1.0 false 
+  6 .  8 ASN N .  8 ASN H   1.0   3.5395 True   3.3395   3.7395 1.0 false 
+  7 .  9 GLY N .  9 GLY H   1.0  -5.1925 True  -5.3925  -4.9925 1.0 false 
+  8 . 10 LYS N . 10 LYS H   1.0     3.17 True     2.97     3.37 1.0 false 
+  9 . 11 THR N . 11 THR H   1.0    8.194 True    7.994    8.394 1.0 false 
+ 10 . 12 LEU N . 12 LEU H   1.0  -4.4335 True  -4.6335  -4.2335 1.0 false 
+ 11 . 14 GLY N . 14 GLY H   1.0    -8.25 True    -8.45    -8.05 1.0 false 
+ 12 . 15 GLU N . 15 GLU H   1.0   -9.008 True   -9.208   -8.808 1.0 false 
+ 13 . 16 THR N . 16 THR H   1.0  -11.233 True  -11.433  -11.033 1.0 false 
+ 14 . 17 THR N . 17 THR H   1.0 -12.6505 True -12.8505 -12.4505 1.0 false 
+ 15 . 18 THR N . 18 THR H   1.0  -12.142 True  -12.342  -11.942 1.0 false 
+ 16 . 19 GLU N . 19 GLU H   1.0  -11.342 True  -11.542  -11.142 1.0 false 
+ 17 . 20 ALA N . 20 ALA H   1.0  -5.3265 True  -5.5265  -5.1265 1.0 false 
+ 18 . 21 VAL N . 21 VAL H   1.0   -6.195 True   -6.395   -5.995 1.0 false 
+ 19 . 22 ASP N . 22 ASP H   1.0   -5.393 True   -5.593   -5.193 1.0 false 
+ 20 . 24 ALA N . 24 ALA H   1.0   3.6865 True   3.4865   3.8865 1.0 false 
+ 21 . 25 THR N . 25 THR H   1.0  -0.3235 True  -0.5235  -0.1235 1.0 false 
+ 22 . 26 ALA N . 26 ALA H   1.0   -5.027 True   -5.227   -4.827 1.0 false 
+ 23 . 27 GLU N . 27 GLU H   1.0   0.8095 True   0.6095   1.0095 1.0 false 
+ 24 . 29 VAL N . 29 VAL H   1.0   -0.829 True   -1.029   -0.629 1.0 false 
+ 25 . 30 PHE N . 30 PHE H   1.0  -1.4495 True  -1.6495  -1.2495 1.0 false 
+ 26 . 31 LYS N . 31 LYS H   1.0    8.284 True    8.084    8.484 1.0 false 
+ 27 . 32 GLN N . 32 GLN H   1.0   7.4545 True   7.2545   7.6545 1.0 false 
+ 28 . 33 TYR N . 33 TYR H   1.0   1.3695 True   1.1695   1.5695 1.0 false 
+ 29 . 34 ALA N . 34 ALA H   1.0   2.2825 True   2.0825   2.4825 1.0 false 
+ 30 . 36 ASP N . 36 ASP H   1.0   5.3615 True   5.1615   5.5615 1.0 false 
+ 31 . 37 ASN N . 37 ASN H   1.0  -4.8195 True  -5.0195  -4.6195 1.0 false 
+ 32 . 38 GLY N . 38 GLY H   1.0  11.0435 True  10.8435  11.2435 1.0 false 
+ 33 . 39 VAL N . 39 VAL H   1.0    8.555 True    8.355    8.755 1.0 false 
+ 34 . 40 ASP N . 40 ASP H   1.0   12.882 True   12.682   13.082 1.0 false 
+ 35 . 42 GLU N . 42 GLU H   1.0    9.848 True    9.648   10.048 1.0 false 
+ 36 . 43 TRP N . 43 TRP H   1.0    0.895 True    0.695    1.095 1.0 false 
+ 37 . 44 THR N . 44 THR H   1.0  -7.1445 True  -7.3445  -6.9445 1.0 false 
+ 38 . 45 TYR N . 45 TYR H   1.0   -9.737 True   -9.937   -9.537 1.0 false 
+ 39 . 46 ASP N . 46 ASP H   1.0  -11.724 True  -11.924  -11.524 1.0 false 
+ 40 . 48 ALA N . 48 ALA H   1.0   1.0725 True   0.8725   1.2725 1.0 false 
+ 41 . 49 THR N . 49 THR H   1.0   0.3445 True   0.1445   0.5445 1.0 false 
+ 42 . 50 LYS N . 50 LYS H   1.0  -10.466 True  -10.666  -10.266 1.0 false 
+ 43 . 51 THR N . 51 THR H   1.0  -13.191 True  -13.391  -12.991 1.0 false 
+ 44 . 52 PHE N . 52 PHE H   1.0  -10.893 True  -11.093  -10.693 1.0 false 
+ 45 . 53 THR N . 53 THR H   1.0  -4.1935 True  -4.3935  -3.9935 1.0 false 
+ 46 . 54 VAL N . 54 VAL H   1.0   -2.897 True   -3.097   -2.697 1.0 false 
+ 47 . 55 THR N . 55 THR H   1.0   0.3375 True   0.1375   0.5375 1.0 false 
+ 48 . 56 GLU N . 56 GLU H   1.0   -0.972 True   -1.172   -0.772 1.0 false 
+ 49 .  1 MET C .  2 THR N  0.05   8.3529 True   8.1529   8.5529 1.0 false 
+ 50 .  2 THR C .  3 TYR N  0.05   0.1897 True  -0.0103   0.3897 1.0 false 
+ 51 .  3 TYR C .  4 LYS N  0.05   4.2555 True   4.0555   4.4555 1.0 false 
+ 52 .  4 LYS C .  5 LEU N  0.05  -2.0148 True  -2.2148  -1.8148 1.0 false 
+ 53 .  5 LEU C .  6 ILE N  0.05  -2.0464 True  -2.2464  -1.8464 1.0 false 
+ 54 .  6 ILE C .  7 LEU N  0.05  -4.2374 True  -4.4374  -4.0374 1.0 false 
+ 55 .  7 LEU C .  8 ASN N  0.05  -5.7463 True  -5.9463  -5.5463 1.0 false 
+ 56 .  8 ASN C .  9 GLY N  0.05 -11.7365 True -11.9365 -11.5365 1.0 false 
+ 57 .  9 GLY C . 10 LYS N  0.05   0.1626 True  -0.0374   0.3626 1.0 false 
+ 58 . 10 LYS C . 11 THR N  0.05  -3.5417 True  -3.7417  -3.3417 1.0 false 
+ 59 . 11 THR C . 12 LEU N  0.05   7.2732 True   7.0732   7.4732 1.0 false 
+ 60 . 12 LEU C . 13 LYS N  0.05  -0.6053 True  -0.8053  -0.4053 1.0 false 
+ 61 . 13 LYS C . 14 GLY N  0.05   6.0806 True   5.8806   6.2806 1.0 false 
+ 62 . 14 GLY C . 15 GLU N  0.05   4.8654 True   4.6654   5.0654 1.0 false 
+ 63 . 15 GLU C . 16 THR N  0.05  11.0002 True  10.8002  11.2002 1.0 false 
+ 64 . 16 THR C . 17 THR N  0.05   4.2736 True   4.0736   4.4736 1.0 false 
+ 65 . 17 THR C . 18 THR N  0.05    6.564 True    6.364    6.764 1.0 false 
+ 66 . 18 THR C . 19 GLU N  0.05   5.4617 True   5.2617   5.6617 1.0 false 
+ 67 . 19 GLU C . 20 ALA N  0.05  -8.2038 True  -8.4038  -8.0038 1.0 false 
+ 68 . 20 ALA C . 21 VAL N  0.05   6.5459 True   6.3459   6.7459 1.0 false 
+ 69 . 21 VAL C . 22 ASP N  0.05   4.3639 True   4.1639   4.5639 1.0 false 
+ 70 . 23 ALA C . 24 ALA N  0.05   7.1332 True   6.9332   7.3332 1.0 false 
+ 71 . 24 ALA C . 25 THR N  0.05  -8.3394 True  -8.5394  -8.1394 1.0 false 
+ 72 . 25 THR C . 26 ALA N  0.05   -2.313 True   -2.513   -2.113 1.0 false 
+ 73 . 27 GLU C . 28 LYS N  0.05   7.9599 True   7.7599   8.1599 1.0 false 
+ 74 . 28 LYS C . 29 VAL N  0.05    0.506 True    0.306    0.706 1.0 false 
+ 75 . 29 VAL C . 30 PHE N  0.05  -7.8966 True  -8.0966  -7.6966 1.0 false 
+ 76 . 30 PHE C . 31 LYS N  0.05   0.2033 True   0.0033   0.4033 1.0 false 
+ 77 . 31 LYS C . 32 GLN N  0.05   2.0826 True   1.8826   2.2826 1.0 false 
+ 78 . 33 TYR C . 34 ALA N  0.05 -13.2951 True -13.4951 -13.0951 1.0 false 
+ 79 . 35 ASN C . 36 ASP N  0.05   1.2965 True   1.0965   1.4965 1.0 false 
+ 80 . 36 ASP C . 37 ASN N  0.05  -7.1693 True  -7.3693  -6.9693 1.0 false 
+ 81 . 37 ASN C . 38 GLY N  0.05  -1.1926 True  -1.3926  -0.9926 1.0 false 
+ 82 . 38 GLY C . 39 VAL N  0.05  -0.0361 True  -0.2361   0.1639 1.0 false 
+ 83 . 39 VAL C . 40 ASP N  0.05  -4.8789 True  -5.0789  -4.6789 1.0 false 
+ 84 . 40 ASP C . 41 GLY N  0.05  -3.8083 True  -4.0083  -3.6083 1.0 false 
+ 85 . 41 GLY C . 42 GLU N  0.05  -6.7537 True  -6.9537  -6.5537 1.0 false 
+ 86 . 42 GLU C . 43 TRP N  0.05  12.1567 True  11.9567  12.3567 1.0 false 
+ 87 . 43 TRP C . 44 THR N  0.05  -0.0768 True  -0.2768   0.1232 1.0 false 
+ 88 . 44 THR C . 45 TYR N  0.05   0.9803 True   0.7803   1.1803 1.0 false 
+ 89 . 45 TYR C . 46 ASP N  0.05   -0.393 True   -0.593   -0.193 1.0 false 
+ 90 . 46 ASP C . 47 ASP N  0.05   4.1471 True   3.9471   4.3471 1.0 false 
+ 91 . 47 ASP C . 48 ALA N  0.05   0.9487 True   0.7487   1.1487 1.0 false 
+ 92 . 48 ALA C . 49 THR N  0.05   1.4637 True   1.2637   1.6637 1.0 false 
+ 93 . 49 THR C . 50 LYS N  0.05   5.7237 True   5.5237   5.9237 1.0 false 
+ 94 . 50 LYS C . 51 THR N  0.05   3.5914 True   3.3914   3.7914 1.0 false 
+ 95 . 51 THR C . 52 PHE N  0.05  -9.0983 True  -9.2983  -8.8983 1.0 false 
+ 96 . 52 PHE C . 53 THR N  0.05   1.1023 True   0.9023   1.3023 1.0 false 
+ 97 . 53 THR C . 54 VAL N  0.05  -4.3504 True  -4.5504  -4.1504 1.0 false 
+ 98 . 54 VAL C . 55 THR N  0.05   -3.989 True   -4.189   -3.789 1.0 false 
+ 99 . 55 THR C . 56 GLU N  0.05   0.6686 True   0.4686   0.8686 1.0 false 
+100 .  1 MET C .  2 THR H 0.108   3.9833 True   3.7833   4.1833 1.0 false 
+101 .  2 THR C .  3 TYR H 0.108  -5.1064 True  -5.3064  -4.9064 1.0 false 
+102 .  3 TYR C .  4 LYS H 0.108  -7.4757 True  -7.6757  -7.2757 1.0 false 
+103 .  4 LYS C .  5 LEU H 0.108  -7.5015 True  -7.7015  -7.3015 1.0 false 
+104 .  5 LEU C .  6 ILE H 0.108   -9.348 True   -9.548   -9.148 1.0 false 
+105 .  6 ILE C .  7 LEU H 0.108  -5.8237 True  -6.0237  -5.6237 1.0 false 
+106 .  7 LEU C .  8 ASN H 0.108  -7.4498 True  -7.6498  -7.2498 1.0 false 
+107 .  8 ASN C .  9 GLY H 0.108 -11.3526 True -11.5526 -11.1526 1.0 false 
+108 .  9 GLY C . 10 LYS H 0.108   -0.731 True   -0.931   -0.531 1.0 false 
+109 . 10 LYS C . 11 THR H 0.108   3.9225 True   3.7225   4.1225 1.0 false 
+110 . 11 THR C . 12 LEU H 0.108    0.503 True    0.303    0.703 1.0 false 
+111 . 12 LEU C . 13 LYS H 0.108  -1.7447 True  -1.9447  -1.5447 1.0 false 
+112 . 13 LYS C . 14 GLY H 0.108  -1.9544 True  -2.1544  -1.7544 1.0 false 
+113 . 14 GLY C . 15 GLU H 0.108  -4.9514 True  -5.1514  -4.7514 1.0 false 
+114 . 15 GLU C . 16 THR H 0.108   1.9954 True   1.7954   2.1954 1.0 false 
+115 . 16 THR C . 17 THR H 0.108  -2.6368 True  -2.8368  -2.4368 1.0 false 
+116 . 17 THR C . 18 THR H 0.108  -4.8298 True  -5.0298  -4.6298 1.0 false 
+117 . 18 THR C . 19 GLU H 0.108  -2.8283 True  -3.0283  -2.6283 1.0 false 
+118 . 19 GLU C . 20 ALA H 0.108  -9.9103 True -10.1103  -9.7103 1.0 false 
+119 . 20 ALA C . 21 VAL H 0.108   4.0653 True   3.8653   4.2653 1.0 false 
+120 . 21 VAL C . 22 ASP H 0.108      3.5 True      3.3      3.7 1.0 false 
+121 . 23 ALA C . 24 ALA H 0.108   7.2356 True   7.0356   7.4356 1.0 false 
+122 . 24 ALA C . 25 THR H 0.108  -6.9818 True  -7.1818  -6.7818 1.0 false 
+123 . 25 THR C . 26 ALA H 0.108  -5.3237 True  -5.5237  -5.1237 1.0 false 
+124 . 26 ALA C . 27 GLU H 0.108   4.1003 True   3.9003   4.3003 1.0 false 
+125 . 27 GLU C . 28 LYS H 0.108  11.5091 True  11.3091  11.7091 1.0 false 
+126 . 28 LYS C . 29 VAL H 0.108   0.6824 True   0.4824   0.8824 1.0 false 
+127 . 29 VAL C . 30 PHE H 0.108 -10.0988 True -10.2988  -9.8988 1.0 false 
+128 . 30 PHE C . 31 LYS H 0.108   6.0258 True   5.8258   6.2258 1.0 false 
+129 . 31 LYS C . 32 GLN H 0.108   7.5851 True   7.3851   7.7851 1.0 false 
+130 . 33 TYR C . 34 ALA H 0.108  -8.8465 True  -9.0465  -8.6465 1.0 false 
+131 . 34 ALA C . 35 ASN H 0.108   11.424 True   11.224   11.624 1.0 false 
+132 . 35 ASN C . 36 ASP H 0.108   6.3587 True   6.1587   6.5587 1.0 false 
+133 . 36 ASP C . 37 ASN H 0.108  -9.2112 True  -9.4112  -9.0112 1.0 false 
+134 . 37 ASN C . 38 GLY H 0.108   6.5805 True   6.3805   6.7805 1.0 false 
+135 . 38 GLY C . 39 VAL H 0.108   8.3222 True   8.1222   8.5222 1.0 false 
+136 . 39 VAL C . 40 ASP H 0.108   6.2219 True   6.0219   6.4219 1.0 false 
+137 . 40 ASP C . 41 GLY H 0.108   4.7644 True   4.5644   4.9644 1.0 false 
+138 . 41 GLY C . 42 GLU H 0.108   1.1125 True   0.9125   1.3125 1.0 false 
+139 . 42 GLU C . 43 TRP H 0.108   9.6565 True   9.4565   9.8565 1.0 false 
+140 . 43 TRP C . 44 THR H 0.108  -1.7006 True  -1.9006  -1.5006 1.0 false 
+141 . 44 THR C . 45 TYR H 0.108   -7.193 True   -7.393   -6.993 1.0 false 
+142 . 45 TYR C . 46 ASP H 0.108  -5.6915 True  -5.8915  -5.4915 1.0 false 
+143 . 46 ASP C . 47 ASP H 0.108  -8.6398 True  -8.8398  -8.4398 1.0 false 
+144 . 47 ASP C . 48 ALA H 0.108   1.3252 True   1.1252   1.5252 1.0 false 
+145 . 48 ALA C . 49 THR H 0.108   6.0957 True   5.8957   6.2957 1.0 false 
+146 . 49 THR C . 50 LYS H 0.108  -0.4818 True  -0.6818  -0.2818 1.0 false 
+147 . 50 LYS C . 51 THR H 0.108   -4.035 True   -4.235   -3.835 1.0 false 
+148 . 51 THR C . 52 PHE H 0.108 -13.5942 True -13.7942 -13.3942 1.0 false 
+149 . 52 PHE C . 53 THR H 0.108  -2.3024 True  -2.5024  -2.1024 1.0 false 
+150 . 53 THR C . 54 VAL H 0.108  -3.1976 True  -3.3976  -2.9976 1.0 false 
+151 . 54 VAL C . 55 THR H 0.108  -4.6049 True  -4.8049  -4.4049 1.0 false 
+152 . 55 THR C . 56 GLU H 0.108  -0.6641 True  -0.8641  -0.4641 1.0 false 
+stop_
+save_
