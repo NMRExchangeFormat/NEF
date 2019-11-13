@@ -303,7 +303,7 @@ Amino acids:
 - The N-terminal form (linking code 'start') has the backbone 'H' replaced by 'H1', 'H2', 'H3', with
 additional wildcard expressions 'H%'. Also, for each variant there is an additional variant
 with deprotonated amino terminal (code "-H3")
-- The C-terminal form has an extra 'Std form atom' 'OXT' and an extra 'Additional atom' 'HXT'.
+- The C-terminal form has an extra 'Std form atom' "OXT" and an extra 'Additional atom' "HXT".
 Also, for each variant there is an additional variant with protonated carboxy terminal (code "+HXT")
 - The non-linked form (linking code 'single') has the extra atoms and variant codes of both the 'start' 
 and 'end' forms.
