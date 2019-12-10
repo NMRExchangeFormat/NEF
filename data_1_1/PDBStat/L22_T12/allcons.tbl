@@ -1,0 +1,2662 @@
+!Manual Input
+assign (resid	1 and name C	) (resid	2 and name N	)
+       (resid	2 and name CA	) (resid	2 and name C	)	1.0	-70.2	20.0	2
+assign (resid	2 and name N	) (resid	2 and name CA	)
+       (resid	2 and name C	) (resid	3 and name N	)	1.0	147.8	26.8	2
+assign (resid	2 and name C	) (resid	3 and name N	)
+       (resid	3 and name CA	) (resid	3 and name C	)	1.0	-64.4	20.0	2
+assign (resid	3 and name N	) (resid	3 and name CA	)
+       (resid	3 and name C	) (resid	4 and name N	)	1.0	-35.7	20.0	2
+assign (resid	3 and name C	) (resid	4 and name N	)
+       (resid	4 and name CA	) (resid	4 and name C	)	1.0	-65.2	20.0	2
+assign (resid	4 and name N	) (resid	4 and name CA	)
+       (resid	4 and name C	) (resid	5 and name N	)	1.0	-43.9	20.0	2
+assign (resid	4 and name C	) (resid	5 and name N	)
+       (resid	5 and name CA	) (resid	5 and name C	)	1.0	-64.4	20.0	2
+assign (resid	5 and name N	) (resid	5 and name CA	)
+       (resid	5 and name C	) (resid	6 and name N	)	1.0	-42.1	20.0	2
+assign (resid	5 and name C	) (resid	6 and name N	)
+       (resid	6 and name CA	) (resid	6 and name C	)	1.0	-64.8	20.0	2
+assign (resid	6 and name N	) (resid	6 and name CA	)
+       (resid	6 and name C	) (resid	7 and name N	)	1.0	-41.2	20.0	2
+assign (resid	6 and name C	) (resid	7 and name N	)
+       (resid	7 and name CA	) (resid	7 and name C	)	1.0	-66.8	20.0	2
+assign (resid	7 and name N	) (resid	7 and name CA	)
+       (resid	7 and name C	) (resid	8 and name N	)	1.0	-41.3	20.0	2
+assign (resid	7 and name C	) (resid	8 and name N	)
+       (resid	8 and name CA	) (resid	8 and name C	)	1.0	-63.6	20.0	2
+assign (resid	8 and name N	) (resid	8 and name CA	)
+       (resid	8 and name C	) (resid	9 and name N	)	1.0	-42.0	20.0	2
+assign (resid	8 and name C	) (resid	9 and name N	)
+       (resid	9 and name CA	) (resid	9 and name C	)	1.0	-62.8	20.0	2
+assign (resid	9 and name N	) (resid	9 and name CA	)
+       (resid	9 and name C	) (resid	10 and name N	)	1.0	-38.6	20.0	2
+assign (resid	9 and name C	) (resid	10 and name N	)
+       (resid	10 and name CA	) (resid	10 and name C	)	1.0	-65.4	20.0	2
+assign (resid	10 and name N	) (resid	10 and name CA	)
+       (resid	10 and name C	) (resid	11 and name N	)	1.0	-40.3	20.0	2
+assign (resid	10 and name C	) (resid	11 and name N	)
+       (resid	11 and name CA	) (resid	11 and name C	)	1.0	-65.7	20.0	2
+assign (resid	11 and name N	) (resid	11 and name CA	)
+       (resid	11 and name C	) (resid	12 and name N	)	1.0	-41.1	20.0	2
+assign (resid	11 and name C	) (resid	12 and name N	)
+       (resid	12 and name CA	) (resid	12 and name C	)	1.0	-63.1	20.0	2
+assign (resid	12 and name N	) (resid	12 and name CA	)
+       (resid	12 and name C	) (resid	13 and name N	)	1.0	-41.0	20.0	2
+assign (resid	12 and name C	) (resid	13 and name N	)
+       (resid	13 and name CA	) (resid	13 and name C	)	1.0	-66.6	20.0	2
+assign (resid	13 and name N	) (resid	13 and name CA	)
+       (resid	13 and name C	) (resid	14 and name N	)	1.0	-36.4	20.0	2
+assign (resid	13 and name C	) (resid	14 and name N	)
+       (resid	14 and name CA	) (resid	14 and name C	)	1.0	-67.5	20.0	2
+assign (resid	14 and name N	) (resid	14 and name CA	)
+       (resid	14 and name C	) (resid	15 and name N	)	1.0	-30.4	20.0	2
+assign (resid	14 and name C	) (resid	15 and name N	)
+       (resid	15 and name CA	) (resid	15 and name C	)	1.0	-108.0	20.0	2
+assign (resid	15 and name N	) (resid	15 and name CA	)
+       (resid	15 and name C	) (resid	16 and name N	)	1.0	8.1	22.6	2
+assign (resid	15 and name C	) (resid	16 and name N	)
+       (resid	16 and name CA	) (resid	16 and name C	)	1.0	-53.4	20.0	2
+assign (resid	16 and name N	) (resid	16 and name CA	)
+       (resid	16 and name C	) (resid	17 and name N	)	1.0	-43.7	20.0	2
+assign (resid	17 and name C	) (resid	18 and name N	)
+       (resid	18 and name CA	) (resid	18 and name C	)	1.0	-105.7	21.3	2
+assign (resid	18 and name N	) (resid	18 and name CA	)
+       (resid	18 and name C	) (resid	19 and name N	)	1.0	-5.9	29.3	2
+assign (resid	18 and name C	) (resid	19 and name N	)
+       (resid	19 and name CA	) (resid	19 and name C	)	1.0	-114.1	35.1	2
+assign (resid	19 and name N	) (resid	19 and name CA	)
+       (resid	19 and name C	) (resid	20 and name N	)	1.0	140.8	24.7	2
+assign (resid	19 and name C	) (resid	20 and name N	)
+       (resid	20 and name CA	) (resid	20 and name C	)	1.0	-74.1	23.0	2
+assign (resid	20 and name N	) (resid	20 and name CA	)
+       (resid	20 and name C	) (resid	21 and name N	)	1.0	128.8	29.9	2
+assign (resid	21 and name C	) (resid	22 and name N	)
+       (resid	22 and name CA	) (resid	22 and name C	)	1.0	-62.5	20.0	2
+assign (resid	22 and name N	) (resid	22 and name CA	)
+       (resid	22 and name C	) (resid	23 and name N	)	1.0	-34.8	20.0	2
+assign (resid	22 and name C	) (resid	23 and name N	)
+       (resid	23 and name CA	) (resid	23 and name C	)	1.0	-64.3	20.0	2
+assign (resid	23 and name N	) (resid	23 and name CA	)
+       (resid	23 and name C	) (resid	24 and name N	)	1.0	-40.7	20.0	2
+assign (resid	23 and name C	) (resid	24 and name N	)
+       (resid	24 and name CA	) (resid	24 and name C	)	1.0	-67.8	20.0	2
+assign (resid	24 and name N	) (resid	24 and name CA	)
+       (resid	24 and name C	) (resid	25 and name N	)	1.0	-40.5	20.0	2
+assign (resid	24 and name C	) (resid	25 and name N	)
+       (resid	25 and name CA	) (resid	25 and name C	)	1.0	-64.8	20.0	2
+assign (resid	25 and name N	) (resid	25 and name CA	)
+       (resid	25 and name C	) (resid	26 and name N	)	1.0	-43.0	20.0	2
+assign (resid	25 and name C	) (resid	26 and name N	)
+       (resid	26 and name CA	) (resid	26 and name C	)	1.0	-63.4	20.0	2
+assign (resid	26 and name N	) (resid	26 and name CA	)
+       (resid	26 and name C	) (resid	27 and name N	)	1.0	-40.8	20.0	2
+assign (resid	26 and name C	) (resid	27 and name N	)
+       (resid	27 and name CA	) (resid	27 and name C	)	1.0	-64.5	20.0	2
+assign (resid	27 and name N	) (resid	27 and name CA	)
+       (resid	27 and name C	) (resid	28 and name N	)	1.0	-39.1	20.0	2
+assign (resid	27 and name C	) (resid	28 and name N	)
+       (resid	28 and name CA	) (resid	28 and name C	)	1.0	-65.3	20.0	2
+assign (resid	28 and name N	) (resid	28 and name CA	)
+       (resid	28 and name C	) (resid	29 and name N	)	1.0	-45.6	20.0	2
+assign (resid	28 and name C	) (resid	29 and name N	)
+       (resid	29 and name CA	) (resid	29 and name C	)	1.0	-62.3	20.0	2
+assign (resid	29 and name N	) (resid	29 and name CA	)
+       (resid	29 and name C	) (resid	30 and name N	)	1.0	-42.3	20.0	2
+assign (resid	29 and name C	) (resid	30 and name N	)
+       (resid	30 and name CA	) (resid	30 and name C	)	1.0	-64.7	20.0	2
+assign (resid	30 and name N	) (resid	30 and name CA	)
+       (resid	30 and name C	) (resid	31 and name N	)	1.0	-40.5	20.0	2
+assign (resid	30 and name C	) (resid	31 and name N	)
+       (resid	31 and name CA	) (resid	31 and name C	)	1.0	-66.1	20.0	2
+assign (resid	31 and name N	) (resid	31 and name CA	)
+       (resid	31 and name C	) (resid	32 and name N	)	1.0	-40.1	20.0	2
+assign (resid	31 and name C	) (resid	32 and name N	)
+       (resid	32 and name CA	) (resid	32 and name C	)	1.0	-64.7	20.0	2
+assign (resid	32 and name N	) (resid	32 and name CA	)
+       (resid	32 and name C	) (resid	33 and name N	)	1.0	-42.9	20.0	2
+assign (resid	32 and name C	) (resid	33 and name N	)
+       (resid	33 and name CA	) (resid	33 and name C	)	1.0	-63.4	20.0	2
+assign (resid	33 and name N	) (resid	33 and name CA	)
+       (resid	33 and name C	) (resid	34 and name N	)	1.0	-28.4	20.0	2
+assign (resid	33 and name C	) (resid	34 and name N	)
+       (resid	34 and name CA	) (resid	34 and name C	)	1.0	-82.7	20.0	2
+assign (resid	34 and name N	) (resid	34 and name CA	)
+       (resid	34 and name C	) (resid	35 and name N	)	1.0	-12.4	20.0	2
+assign (resid	34 and name C	) (resid	35 and name N	)
+       (resid	35 and name CA	) (resid	35 and name C	)	1.0	-104.2	22.9	2
+assign (resid	35 and name N	) (resid	35 and name CA	)
+       (resid	35 and name C	) (resid	36 and name N	)	1.0	-14.8	31.7	2
+assign (resid	35 and name C	) (resid	36 and name N	)
+       (resid	36 and name CA	) (resid	36 and name C	)	1.0	-126.4	32.2	2
+assign (resid	36 and name N	) (resid	36 and name CA	)
+       (resid	36 and name C	) (resid	37 and name N	)	1.0	151.8	22.8	2
+assign (resid	36 and name C	) (resid	37 and name N	)
+       (resid	37 and name CA	) (resid	37 and name C	)	1.0	-104.2	29.1	2
+assign (resid	37 and name N	) (resid	37 and name CA	)
+       (resid	37 and name C	) (resid	38 and name N	)	1.0	-14.7	27.6	2
+assign (resid	37 and name C	) (resid	38 and name N	)
+       (resid	38 and name CA	) (resid	38 and name C	)	1.0	-147.4	47.5	2
+assign (resid	38 and name N	) (resid	38 and name CA	)
+       (resid	38 and name C	) (resid	39 and name N	)	1.0	161.4	24.6	2
+assign (resid	38 and name C	) (resid	39 and name N	)
+       (resid	39 and name CA	) (resid	39 and name C	)	1.0	-65.3	20.0	2
+assign (resid	39 and name N	) (resid	39 and name CA	)
+       (resid	39 and name C	) (resid	40 and name N	)	1.0	-34.1	20.0	2
+assign (resid	39 and name C	) (resid	40 and name N	)
+       (resid	40 and name CA	) (resid	40 and name C	)	1.0	-61.7	20.0	2
+assign (resid	40 and name N	) (resid	40 and name CA	)
+       (resid	40 and name C	) (resid	41 and name N	)	1.0	-40.8	20.0	2
+assign (resid	40 and name C	) (resid	41 and name N	)
+       (resid	41 and name CA	) (resid	41 and name C	)	1.0	-66.5	20.0	2
+assign (resid	41 and name N	) (resid	41 and name CA	)
+       (resid	41 and name C	) (resid	42 and name N	)	1.0	-41.4	20.0	2
+assign (resid	41 and name C	) (resid	42 and name N	)
+       (resid	42 and name CA	) (resid	42 and name C	)	1.0	-65.1	20.0	2
+assign (resid	42 and name N	) (resid	42 and name CA	)
+       (resid	42 and name C	) (resid	43 and name N	)	1.0	-40.3	20.0	2
+assign (resid	42 and name C	) (resid	43 and name N	)
+       (resid	43 and name CA	) (resid	43 and name C	)	1.0	-64.5	20.0	2
+assign (resid	43 and name N	) (resid	43 and name CA	)
+       (resid	43 and name C	) (resid	44 and name N	)	1.0	-41.1	20.0	2
+assign (resid	43 and name C	) (resid	44 and name N	)
+       (resid	44 and name CA	) (resid	44 and name C	)	1.0	-62.7	20.0	2
+assign (resid	44 and name N	) (resid	44 and name CA	)
+       (resid	44 and name C	) (resid	45 and name N	)	1.0	-44.4	20.0	2
+assign (resid	44 and name C	) (resid	45 and name N	)
+       (resid	45 and name CA	) (resid	45 and name C	)	1.0	-64.6	20.0	2
+assign (resid	45 and name N	) (resid	45 and name CA	)
+       (resid	45 and name C	) (resid	46 and name N	)	1.0	-43.5	20.0	2
+assign (resid	45 and name C	) (resid	46 and name N	)
+       (resid	46 and name CA	) (resid	46 and name C	)	1.0	-64.5	20.0	2
+assign (resid	46 and name N	) (resid	46 and name CA	)
+       (resid	46 and name C	) (resid	47 and name N	)	1.0	-43.8	20.0	2
+assign (resid	46 and name C	) (resid	47 and name N	)
+       (resid	47 and name CA	) (resid	47 and name C	)	1.0	-65.7	20.0	2
+assign (resid	47 and name N	) (resid	47 and name CA	)
+       (resid	47 and name C	) (resid	48 and name N	)	1.0	-42.1	20.0	2
+assign (resid	47 and name C	) (resid	48 and name N	)
+       (resid	48 and name CA	) (resid	48 and name C	)	1.0	-66.3	20.0	2
+assign (resid	48 and name N	) (resid	48 and name CA	)
+       (resid	48 and name C	) (resid	49 and name N	)	1.0	-41.5	20.0	2
+assign (resid	48 and name C	) (resid	49 and name N	)
+       (resid	49 and name CA	) (resid	49 and name C	)	1.0	-65.6	20.0	2
+assign (resid	49 and name N	) (resid	49 and name CA	)
+       (resid	49 and name C	) (resid	50 and name N	)	1.0	-39.8	20.0	2
+assign (resid	49 and name C	) (resid	50 and name N	)
+       (resid	50 and name CA	) (resid	50 and name C	)	1.0	-61.4	20.0	2
+assign (resid	50 and name N	) (resid	50 and name CA	)
+       (resid	50 and name C	) (resid	51 and name N	)	1.0	-39.5	20.0	2
+assign (resid	50 and name C	) (resid	51 and name N	)
+       (resid	51 and name CA	) (resid	51 and name C	)	1.0	-68.5	20.0	2
+assign (resid	51 and name N	) (resid	51 and name CA	)
+       (resid	51 and name C	) (resid	52 and name N	)	1.0	-27.3	20.0	2
+assign (resid	51 and name C	) (resid	52 and name N	)
+       (resid	52 and name CA	) (resid	52 and name C	)	1.0	-90.5	20.0	2
+assign (resid	52 and name N	) (resid	52 and name CA	)
+       (resid	52 and name C	) (resid	53 and name N	)	1.0	-8.3	20.0	2
+assign (resid	52 and name C	) (resid	53 and name N	)
+       (resid	53 and name CA	) (resid	53 and name C	)	1.0	-70.1	30.0	2
+assign (resid	53 and name N	) (resid	53 and name CA	)
+       (resid	53 and name C	) (resid	54 and name N	)	1.0	142.9	30.5	2
+assign (resid	53 and name C	) (resid	54 and name N	)
+       (resid	54 and name CA	) (resid	54 and name C	)	1.0	-92.6	49.6	2
+assign (resid	54 and name N	) (resid	54 and name CA	)
+       (resid	54 and name C	) (resid	55 and name N	)	1.0	141.9	28.1	2
+assign (resid	54 and name C	) (resid	55 and name N	)
+       (resid	55 and name CA	) (resid	55 and name C	)	1.0	-91.8	74.0	2
+assign (resid	55 and name N	) (resid	55 and name CA	)
+       (resid	55 and name C	) (resid	56 and name N	)	1.0	146.1	54.3	2
+assign (resid	56 and name C	) (resid	57 and name N	)
+       (resid	57 and name CA	) (resid	57 and name C	)	1.0	-62.6	20.0	2
+assign (resid	57 and name N	) (resid	57 and name CA	)
+       (resid	57 and name C	) (resid	58 and name N	)	1.0	-36.9	20.0	2
+assign (resid	57 and name C	) (resid	58 and name N	)
+       (resid	58 and name CA	) (resid	58 and name C	)	1.0	-61.4	20.0	2
+assign (resid	58 and name N	) (resid	58 and name CA	)
+       (resid	58 and name C	) (resid	59 and name N	)	1.0	-40.9	20.0	2
+assign (resid	58 and name C	) (resid	59 and name N	)
+       (resid	59 and name CA	) (resid	59 and name C	)	1.0	-66.7	20.0	2
+assign (resid	59 and name N	) (resid	59 and name CA	)
+       (resid	59 and name C	) (resid	60 and name N	)	1.0	-41.5	20.0	2
+assign (resid	59 and name C	) (resid	60 and name N	)
+       (resid	60 and name CA	) (resid	60 and name C	)	1.0	-64.7	20.0	2
+assign (resid	60 and name N	) (resid	60 and name CA	)
+       (resid	60 and name C	) (resid	61 and name N	)	1.0	-42.1	20.0	2
+assign (resid	60 and name C	) (resid	61 and name N	)
+       (resid	61 and name CA	) (resid	61 and name C	)	1.0	-64.0	20.0	2
+assign (resid	61 and name N	) (resid	61 and name CA	)
+       (resid	61 and name C	) (resid	62 and name N	)	1.0	-43.6	20.0	2
+assign (resid	61 and name C	) (resid	62 and name N	)
+       (resid	62 and name CA	) (resid	62 and name C	)	1.0	-63.8	20.0	2
+assign (resid	62 and name N	) (resid	62 and name CA	)
+       (resid	62 and name C	) (resid	63 and name N	)	1.0	-39.6	20.0	2
+assign (resid	62 and name C	) (resid	63 and name N	)
+       (resid	63 and name CA	) (resid	63 and name C	)	1.0	-63.5	20.0	2
+assign (resid	63 and name N	) (resid	63 and name CA	)
+       (resid	63 and name C	) (resid	64 and name N	)	1.0	-43.7	20.0	2
+assign (resid	63 and name C	) (resid	64 and name N	)
+       (resid	64 and name CA	) (resid	64 and name C	)	1.0	-64.7	20.0	2
+assign (resid	64 and name N	) (resid	64 and name CA	)
+       (resid	64 and name C	) (resid	65 and name N	)	1.0	-43.5	20.0	2
+assign (resid	64 and name C	) (resid	65 and name N	)
+       (resid	65 and name CA	) (resid	65 and name C	)	1.0	-64.5	20.0	2
+assign (resid	65 and name N	) (resid	65 and name CA	)
+       (resid	65 and name C	) (resid	66 and name N	)	1.0	-43.2	20.0	2
+assign (resid	65 and name C	) (resid	66 and name N	)
+       (resid	66 and name CA	) (resid	66 and name C	)	1.0	-64.7	20.0	2
+assign (resid	66 and name N	) (resid	66 and name CA	)
+       (resid	66 and name C	) (resid	67 and name N	)	1.0	-38.4	20.0	2
+assign (resid	66 and name C	) (resid	67 and name N	)
+       (resid	67 and name CA	) (resid	67 and name C	)	1.0	-64.9	20.0	2
+assign (resid	67 and name N	) (resid	67 and name CA	)
+       (resid	67 and name C	) (resid	68 and name N	)	1.0	-44.5	20.0	2
+assign (resid	67 and name C	) (resid	68 and name N	)
+       (resid	68 and name CA	) (resid	68 and name C	)	1.0	-66.1	20.0	2
+assign (resid	68 and name N	) (resid	68 and name CA	)
+       (resid	68 and name C	) (resid	69 and name N	)	1.0	-35.7	20.0	2
+assign (resid	68 and name C	) (resid	69 and name N	)
+       (resid	69 and name CA	) (resid	69 and name C	)	1.0	-74.7	20.0	2
+assign (resid	69 and name N	) (resid	69 and name CA	)
+       (resid	69 and name C	) (resid	70 and name N	)	1.0	-19.0	20.0	2
+assign (resid	70 and name C	) (resid	71 and name N	)
+       (resid	71 and name CA	) (resid	71 and name C	)	1.0	-66.6	30.0	2
+assign (resid	71 and name N	) (resid	71 and name CA	)
+       (resid	71 and name C	) (resid	72 and name N	)	1.0	139.4	35.0	2
+!END Manual Input
+!Manual Input
+assign (resid	1 and name C	) (resid	2 and name N	)
+       (resid	2 and name CA	) (resid	2 and name C	)	1.0	-70.2	20.0	2
+assign (resid	2 and name N	) (resid	2 and name CA	)
+       (resid	2 and name C	) (resid	3 and name N	)	1.0	147.8	26.8	2
+assign (resid	2 and name C	) (resid	3 and name N	)
+       (resid	3 and name CA	) (resid	3 and name C	)	1.0	-64.4	20.0	2
+assign (resid	3 and name N	) (resid	3 and name CA	)
+       (resid	3 and name C	) (resid	4 and name N	)	1.0	-35.7	20.0	2
+assign (resid	3 and name C	) (resid	4 and name N	)
+       (resid	4 and name CA	) (resid	4 and name C	)	1.0	-65.2	20.0	2
+assign (resid	4 and name N	) (resid	4 and name CA	)
+       (resid	4 and name C	) (resid	5 and name N	)	1.0	-43.9	20.0	2
+assign (resid	4 and name C	) (resid	5 and name N	)
+       (resid	5 and name CA	) (resid	5 and name C	)	1.0	-64.4	20.0	2
+assign (resid	5 and name N	) (resid	5 and name CA	)
+       (resid	5 and name C	) (resid	6 and name N	)	1.0	-42.1	20.0	2
+assign (resid	5 and name C	) (resid	6 and name N	)
+       (resid	6 and name CA	) (resid	6 and name C	)	1.0	-64.8	20.0	2
+assign (resid	6 and name N	) (resid	6 and name CA	)
+       (resid	6 and name C	) (resid	7 and name N	)	1.0	-41.2	20.0	2
+assign (resid	6 and name C	) (resid	7 and name N	)
+       (resid	7 and name CA	) (resid	7 and name C	)	1.0	-66.8	20.0	2
+assign (resid	7 and name N	) (resid	7 and name CA	)
+       (resid	7 and name C	) (resid	8 and name N	)	1.0	-41.3	20.0	2
+assign (resid	7 and name C	) (resid	8 and name N	)
+       (resid	8 and name CA	) (resid	8 and name C	)	1.0	-63.6	20.0	2
+assign (resid	8 and name N	) (resid	8 and name CA	)
+       (resid	8 and name C	) (resid	9 and name N	)	1.0	-42.0	20.0	2
+assign (resid	8 and name C	) (resid	9 and name N	)
+       (resid	9 and name CA	) (resid	9 and name C	)	1.0	-62.8	20.0	2
+assign (resid	9 and name N	) (resid	9 and name CA	)
+       (resid	9 and name C	) (resid	10 and name N	)	1.0	-38.6	20.0	2
+assign (resid	9 and name C	) (resid	10 and name N	)
+       (resid	10 and name CA	) (resid	10 and name C	)	1.0	-65.4	20.0	2
+assign (resid	10 and name N	) (resid	10 and name CA	)
+       (resid	10 and name C	) (resid	11 and name N	)	1.0	-40.3	20.0	2
+assign (resid	10 and name C	) (resid	11 and name N	)
+       (resid	11 and name CA	) (resid	11 and name C	)	1.0	-65.7	20.0	2
+assign (resid	11 and name N	) (resid	11 and name CA	)
+       (resid	11 and name C	) (resid	12 and name N	)	1.0	-41.1	20.0	2
+assign (resid	11 and name C	) (resid	12 and name N	)
+       (resid	12 and name CA	) (resid	12 and name C	)	1.0	-63.1	20.0	2
+assign (resid	12 and name N	) (resid	12 and name CA	)
+       (resid	12 and name C	) (resid	13 and name N	)	1.0	-41.0	20.0	2
+assign (resid	12 and name C	) (resid	13 and name N	)
+       (resid	13 and name CA	) (resid	13 and name C	)	1.0	-66.6	20.0	2
+assign (resid	13 and name N	) (resid	13 and name CA	)
+       (resid	13 and name C	) (resid	14 and name N	)	1.0	-36.4	20.0	2
+assign (resid	13 and name C	) (resid	14 and name N	)
+       (resid	14 and name CA	) (resid	14 and name C	)	1.0	-67.5	20.0	2
+assign (resid	14 and name N	) (resid	14 and name CA	)
+       (resid	14 and name C	) (resid	15 and name N	)	1.0	-30.4	20.0	2
+assign (resid	14 and name C	) (resid	15 and name N	)
+       (resid	15 and name CA	) (resid	15 and name C	)	1.0	-108.0	20.0	2
+assign (resid	15 and name N	) (resid	15 and name CA	)
+       (resid	15 and name C	) (resid	16 and name N	)	1.0	8.1	22.6	2
+assign (resid	15 and name C	) (resid	16 and name N	)
+       (resid	16 and name CA	) (resid	16 and name C	)	1.0	-53.4	20.0	2
+assign (resid	16 and name N	) (resid	16 and name CA	)
+       (resid	16 and name C	) (resid	17 and name N	)	1.0	-43.7	20.0	2
+assign (resid	17 and name C	) (resid	18 and name N	)
+       (resid	18 and name CA	) (resid	18 and name C	)	1.0	-105.7	21.3	2
+assign (resid	18 and name N	) (resid	18 and name CA	)
+       (resid	18 and name C	) (resid	19 and name N	)	1.0	-5.9	29.3	2
+assign (resid	18 and name C	) (resid	19 and name N	)
+       (resid	19 and name CA	) (resid	19 and name C	)	1.0	-114.1	35.1	2
+assign (resid	19 and name N	) (resid	19 and name CA	)
+       (resid	19 and name C	) (resid	20 and name N	)	1.0	140.8	24.7	2
+assign (resid	19 and name C	) (resid	20 and name N	)
+       (resid	20 and name CA	) (resid	20 and name C	)	1.0	-74.1	23.0	2
+assign (resid	20 and name N	) (resid	20 and name CA	)
+       (resid	20 and name C	) (resid	21 and name N	)	1.0	128.8	29.9	2
+assign (resid	21 and name C	) (resid	22 and name N	)
+       (resid	22 and name CA	) (resid	22 and name C	)	1.0	-62.5	20.0	2
+assign (resid	22 and name N	) (resid	22 and name CA	)
+       (resid	22 and name C	) (resid	23 and name N	)	1.0	-34.8	20.0	2
+assign (resid	22 and name C	) (resid	23 and name N	)
+       (resid	23 and name CA	) (resid	23 and name C	)	1.0	-64.3	20.0	2
+assign (resid	23 and name N	) (resid	23 and name CA	)
+       (resid	23 and name C	) (resid	24 and name N	)	1.0	-40.7	20.0	2
+assign (resid	23 and name C	) (resid	24 and name N	)
+       (resid	24 and name CA	) (resid	24 and name C	)	1.0	-67.8	20.0	2
+assign (resid	24 and name N	) (resid	24 and name CA	)
+       (resid	24 and name C	) (resid	25 and name N	)	1.0	-40.5	20.0	2
+assign (resid	24 and name C	) (resid	25 and name N	)
+       (resid	25 and name CA	) (resid	25 and name C	)	1.0	-64.8	20.0	2
+assign (resid	25 and name N	) (resid	25 and name CA	)
+       (resid	25 and name C	) (resid	26 and name N	)	1.0	-43.0	20.0	2
+assign (resid	25 and name C	) (resid	26 and name N	)
+       (resid	26 and name CA	) (resid	26 and name C	)	1.0	-63.4	20.0	2
+assign (resid	26 and name N	) (resid	26 and name CA	)
+       (resid	26 and name C	) (resid	27 and name N	)	1.0	-40.8	20.0	2
+assign (resid	26 and name C	) (resid	27 and name N	)
+       (resid	27 and name CA	) (resid	27 and name C	)	1.0	-64.5	20.0	2
+assign (resid	27 and name N	) (resid	27 and name CA	)
+       (resid	27 and name C	) (resid	28 and name N	)	1.0	-39.1	20.0	2
+assign (resid	27 and name C	) (resid	28 and name N	)
+       (resid	28 and name CA	) (resid	28 and name C	)	1.0	-65.3	20.0	2
+assign (resid	28 and name N	) (resid	28 and name CA	)
+       (resid	28 and name C	) (resid	29 and name N	)	1.0	-45.6	20.0	2
+assign (resid	28 and name C	) (resid	29 and name N	)
+       (resid	29 and name CA	) (resid	29 and name C	)	1.0	-62.3	20.0	2
+assign (resid	29 and name N	) (resid	29 and name CA	)
+       (resid	29 and name C	) (resid	30 and name N	)	1.0	-42.3	20.0	2
+assign (resid	29 and name C	) (resid	30 and name N	)
+       (resid	30 and name CA	) (resid	30 and name C	)	1.0	-64.7	20.0	2
+assign (resid	30 and name N	) (resid	30 and name CA	)
+       (resid	30 and name C	) (resid	31 and name N	)	1.0	-40.5	20.0	2
+assign (resid	30 and name C	) (resid	31 and name N	)
+       (resid	31 and name CA	) (resid	31 and name C	)	1.0	-66.1	20.0	2
+assign (resid	31 and name N	) (resid	31 and name CA	)
+       (resid	31 and name C	) (resid	32 and name N	)	1.0	-40.1	20.0	2
+assign (resid	31 and name C	) (resid	32 and name N	)
+       (resid	32 and name CA	) (resid	32 and name C	)	1.0	-64.7	20.0	2
+assign (resid	32 and name N	) (resid	32 and name CA	)
+       (resid	32 and name C	) (resid	33 and name N	)	1.0	-42.9	20.0	2
+assign (resid	32 and name C	) (resid	33 and name N	)
+       (resid	33 and name CA	) (resid	33 and name C	)	1.0	-63.4	20.0	2
+assign (resid	33 and name N	) (resid	33 and name CA	)
+       (resid	33 and name C	) (resid	34 and name N	)	1.0	-28.4	20.0	2
+assign (resid	33 and name C	) (resid	34 and name N	)
+       (resid	34 and name CA	) (resid	34 and name C	)	1.0	-82.7	20.0	2
+assign (resid	34 and name N	) (resid	34 and name CA	)
+       (resid	34 and name C	) (resid	35 and name N	)	1.0	-12.4	20.0	2
+assign (resid	34 and name C	) (resid	35 and name N	)
+       (resid	35 and name CA	) (resid	35 and name C	)	1.0	-104.2	22.9	2
+assign (resid	35 and name N	) (resid	35 and name CA	)
+       (resid	35 and name C	) (resid	36 and name N	)	1.0	-14.8	31.7	2
+assign (resid	35 and name C	) (resid	36 and name N	)
+       (resid	36 and name CA	) (resid	36 and name C	)	1.0	-126.4	32.2	2
+assign (resid	36 and name N	) (resid	36 and name CA	)
+       (resid	36 and name C	) (resid	37 and name N	)	1.0	151.8	22.8	2
+assign (resid	36 and name C	) (resid	37 and name N	)
+       (resid	37 and name CA	) (resid	37 and name C	)	1.0	-104.2	29.1	2
+assign (resid	37 and name N	) (resid	37 and name CA	)
+       (resid	37 and name C	) (resid	38 and name N	)	1.0	-14.7	27.6	2
+assign (resid	37 and name C	) (resid	38 and name N	)
+       (resid	38 and name CA	) (resid	38 and name C	)	1.0	-147.4	47.5	2
+assign (resid	38 and name N	) (resid	38 and name CA	)
+       (resid	38 and name C	) (resid	39 and name N	)	1.0	161.4	24.6	2
+assign (resid	38 and name C	) (resid	39 and name N	)
+       (resid	39 and name CA	) (resid	39 and name C	)	1.0	-65.3	20.0	2
+assign (resid	39 and name N	) (resid	39 and name CA	)
+       (resid	39 and name C	) (resid	40 and name N	)	1.0	-34.1	20.0	2
+assign (resid	39 and name C	) (resid	40 and name N	)
+       (resid	40 and name CA	) (resid	40 and name C	)	1.0	-61.7	20.0	2
+assign (resid	40 and name N	) (resid	40 and name CA	)
+       (resid	40 and name C	) (resid	41 and name N	)	1.0	-40.8	20.0	2
+assign (resid	40 and name C	) (resid	41 and name N	)
+       (resid	41 and name CA	) (resid	41 and name C	)	1.0	-66.5	20.0	2
+assign (resid	41 and name N	) (resid	41 and name CA	)
+       (resid	41 and name C	) (resid	42 and name N	)	1.0	-41.4	20.0	2
+assign (resid	41 and name C	) (resid	42 and name N	)
+       (resid	42 and name CA	) (resid	42 and name C	)	1.0	-65.1	20.0	2
+assign (resid	42 and name N	) (resid	42 and name CA	)
+       (resid	42 and name C	) (resid	43 and name N	)	1.0	-40.3	20.0	2
+assign (resid	42 and name C	) (resid	43 and name N	)
+       (resid	43 and name CA	) (resid	43 and name C	)	1.0	-64.5	20.0	2
+assign (resid	43 and name N	) (resid	43 and name CA	)
+       (resid	43 and name C	) (resid	44 and name N	)	1.0	-41.1	20.0	2
+assign (resid	43 and name C	) (resid	44 and name N	)
+       (resid	44 and name CA	) (resid	44 and name C	)	1.0	-62.7	20.0	2
+assign (resid	44 and name N	) (resid	44 and name CA	)
+       (resid	44 and name C	) (resid	45 and name N	)	1.0	-44.4	20.0	2
+assign (resid	44 and name C	) (resid	45 and name N	)
+       (resid	45 and name CA	) (resid	45 and name C	)	1.0	-64.6	20.0	2
+assign (resid	45 and name N	) (resid	45 and name CA	)
+       (resid	45 and name C	) (resid	46 and name N	)	1.0	-43.5	20.0	2
+assign (resid	45 and name C	) (resid	46 and name N	)
+       (resid	46 and name CA	) (resid	46 and name C	)	1.0	-64.5	20.0	2
+assign (resid	46 and name N	) (resid	46 and name CA	)
+       (resid	46 and name C	) (resid	47 and name N	)	1.0	-43.8	20.0	2
+assign (resid	46 and name C	) (resid	47 and name N	)
+       (resid	47 and name CA	) (resid	47 and name C	)	1.0	-65.7	20.0	2
+assign (resid	47 and name N	) (resid	47 and name CA	)
+       (resid	47 and name C	) (resid	48 and name N	)	1.0	-42.1	20.0	2
+assign (resid	47 and name C	) (resid	48 and name N	)
+       (resid	48 and name CA	) (resid	48 and name C	)	1.0	-66.3	20.0	2
+assign (resid	48 and name N	) (resid	48 and name CA	)
+       (resid	48 and name C	) (resid	49 and name N	)	1.0	-41.5	20.0	2
+assign (resid	48 and name C	) (resid	49 and name N	)
+       (resid	49 and name CA	) (resid	49 and name C	)	1.0	-65.6	20.0	2
+assign (resid	49 and name N	) (resid	49 and name CA	)
+       (resid	49 and name C	) (resid	50 and name N	)	1.0	-39.8	20.0	2
+assign (resid	49 and name C	) (resid	50 and name N	)
+       (resid	50 and name CA	) (resid	50 and name C	)	1.0	-61.4	20.0	2
+assign (resid	50 and name N	) (resid	50 and name CA	)
+       (resid	50 and name C	) (resid	51 and name N	)	1.0	-39.5	20.0	2
+assign (resid	50 and name C	) (resid	51 and name N	)
+       (resid	51 and name CA	) (resid	51 and name C	)	1.0	-68.5	20.0	2
+assign (resid	51 and name N	) (resid	51 and name CA	)
+       (resid	51 and name C	) (resid	52 and name N	)	1.0	-27.3	20.0	2
+assign (resid	51 and name C	) (resid	52 and name N	)
+       (resid	52 and name CA	) (resid	52 and name C	)	1.0	-90.5	20.0	2
+assign (resid	52 and name N	) (resid	52 and name CA	)
+       (resid	52 and name C	) (resid	53 and name N	)	1.0	-8.3	20.0	2
+assign (resid	52 and name C	) (resid	53 and name N	)
+       (resid	53 and name CA	) (resid	53 and name C	)	1.0	-70.1	30.0	2
+assign (resid	53 and name N	) (resid	53 and name CA	)
+       (resid	53 and name C	) (resid	54 and name N	)	1.0	142.9	30.5	2
+assign (resid	53 and name C	) (resid	54 and name N	)
+       (resid	54 and name CA	) (resid	54 and name C	)	1.0	-92.6	49.6	2
+assign (resid	54 and name N	) (resid	54 and name CA	)
+       (resid	54 and name C	) (resid	55 and name N	)	1.0	141.9	28.1	2
+assign (resid	54 and name C	) (resid	55 and name N	)
+       (resid	55 and name CA	) (resid	55 and name C	)	1.0	-91.8	74.0	2
+assign (resid	55 and name N	) (resid	55 and name CA	)
+       (resid	55 and name C	) (resid	56 and name N	)	1.0	146.1	54.3	2
+assign (resid	56 and name C	) (resid	57 and name N	)
+       (resid	57 and name CA	) (resid	57 and name C	)	1.0	-62.6	20.0	2
+assign (resid	57 and name N	) (resid	57 and name CA	)
+       (resid	57 and name C	) (resid	58 and name N	)	1.0	-36.9	20.0	2
+assign (resid	57 and name C	) (resid	58 and name N	)
+       (resid	58 and name CA	) (resid	58 and name C	)	1.0	-61.4	20.0	2
+assign (resid	58 and name N	) (resid	58 and name CA	)
+       (resid	58 and name C	) (resid	59 and name N	)	1.0	-40.9	20.0	2
+assign (resid	58 and name C	) (resid	59 and name N	)
+       (resid	59 and name CA	) (resid	59 and name C	)	1.0	-66.7	20.0	2
+assign (resid	59 and name N	) (resid	59 and name CA	)
+       (resid	59 and name C	) (resid	60 and name N	)	1.0	-41.5	20.0	2
+assign (resid	59 and name C	) (resid	60 and name N	)
+       (resid	60 and name CA	) (resid	60 and name C	)	1.0	-64.7	20.0	2
+assign (resid	60 and name N	) (resid	60 and name CA	)
+       (resid	60 and name C	) (resid	61 and name N	)	1.0	-42.1	20.0	2
+assign (resid	60 and name C	) (resid	61 and name N	)
+       (resid	61 and name CA	) (resid	61 and name C	)	1.0	-64.0	20.0	2
+assign (resid	61 and name N	) (resid	61 and name CA	)
+       (resid	61 and name C	) (resid	62 and name N	)	1.0	-43.6	20.0	2
+assign (resid	61 and name C	) (resid	62 and name N	)
+       (resid	62 and name CA	) (resid	62 and name C	)	1.0	-63.8	20.0	2
+assign (resid	62 and name N	) (resid	62 and name CA	)
+       (resid	62 and name C	) (resid	63 and name N	)	1.0	-39.6	20.0	2
+assign (resid	62 and name C	) (resid	63 and name N	)
+       (resid	63 and name CA	) (resid	63 and name C	)	1.0	-63.5	20.0	2
+assign (resid	63 and name N	) (resid	63 and name CA	)
+       (resid	63 and name C	) (resid	64 and name N	)	1.0	-43.7	20.0	2
+assign (resid	63 and name C	) (resid	64 and name N	)
+       (resid	64 and name CA	) (resid	64 and name C	)	1.0	-64.7	20.0	2
+assign (resid	64 and name N	) (resid	64 and name CA	)
+       (resid	64 and name C	) (resid	65 and name N	)	1.0	-43.5	20.0	2
+assign (resid	64 and name C	) (resid	65 and name N	)
+       (resid	65 and name CA	) (resid	65 and name C	)	1.0	-64.5	20.0	2
+assign (resid	65 and name N	) (resid	65 and name CA	)
+       (resid	65 and name C	) (resid	66 and name N	)	1.0	-43.2	20.0	2
+assign (resid	65 and name C	) (resid	66 and name N	)
+       (resid	66 and name CA	) (resid	66 and name C	)	1.0	-64.7	20.0	2
+assign (resid	66 and name N	) (resid	66 and name CA	)
+       (resid	66 and name C	) (resid	67 and name N	)	1.0	-38.4	20.0	2
+assign (resid	66 and name C	) (resid	67 and name N	)
+       (resid	67 and name CA	) (resid	67 and name C	)	1.0	-64.9	20.0	2
+assign (resid	67 and name N	) (resid	67 and name CA	)
+       (resid	67 and name C	) (resid	68 and name N	)	1.0	-44.5	20.0	2
+assign (resid	67 and name C	) (resid	68 and name N	)
+       (resid	68 and name CA	) (resid	68 and name C	)	1.0	-66.1	20.0	2
+assign (resid	68 and name N	) (resid	68 and name CA	)
+       (resid	68 and name C	) (resid	69 and name N	)	1.0	-35.7	20.0	2
+assign (resid	68 and name C	) (resid	69 and name N	)
+       (resid	69 and name CA	) (resid	69 and name C	)	1.0	-74.7	20.0	2
+assign (resid	69 and name N	) (resid	69 and name CA	)
+       (resid	69 and name C	) (resid	70 and name N	)	1.0	-19.0	20.0	2
+assign (resid	70 and name C	) (resid	71 and name N	)
+       (resid	71 and name CA	) (resid	71 and name C	)	1.0	-66.6	30.0	2
+assign (resid	71 and name N	) (resid	71 and name CA	)
+       (resid	71 and name C	) (resid	72 and name N	)	1.0	139.4	35.0	2
+!END Manual Input
+! created by  ASDP Version 2.2 Copyright(C) 2019
+
+assign (resid 4    and name O     )(resid 8    and name N     )    3.00  0.2  0.2
+assign (resid 4    and name O     )(resid 8    and name HN    )     2.1  0.3  0.3
+assign (resid 5    and name O     )(resid 9    and name N     )    3.00  0.2  0.2
+assign (resid 5    and name O     )(resid 9    and name HN    )     2.1  0.3  0.3
+assign (resid 6    and name O     )(resid 10   and name N     )    3.00  0.2  0.2
+assign (resid 6    and name O     )(resid 10   and name HN    )     2.1  0.3  0.3
+assign (resid 7    and name O     )(resid 11   and name N     )    3.00  0.2  0.2
+assign (resid 7    and name O     )(resid 11   and name HN    )     2.1  0.3  0.3
+assign (resid 8    and name O     )(resid 12   and name N     )    3.00  0.2  0.2
+assign (resid 8    and name O     )(resid 12   and name HN    )     2.1  0.3  0.3
+assign (resid 9    and name O     )(resid 13   and name N     )    3.00  0.2  0.2
+assign (resid 9    and name O     )(resid 13   and name HN    )     2.1  0.3  0.3
+assign (resid 10   and name O     )(resid 14   and name N     )    3.00  0.2  0.2
+assign (resid 10   and name O     )(resid 14   and name HN    )     2.1  0.3  0.3
+assign (resid 13   and name O     )(resid 16   and name N     )    3.00  0.2  0.2
+assign (resid 13   and name O     )(resid 16   and name HN    )     2.1  0.3  0.3
+assign (resid 15   and name O     )(resid 19   and name N     )    3.00  0.2  0.2
+assign (resid 15   and name O     )(resid 19   and name HN    )     2.1  0.3  0.3
+assign (resid 22   and name O     )(resid 26   and name N     )    3.00  0.2  0.2
+assign (resid 22   and name O     )(resid 26   and name HN    )     2.1  0.3  0.3
+assign (resid 23   and name O     )(resid 27   and name N     )    3.00  0.2  0.2
+assign (resid 23   and name O     )(resid 27   and name HN    )     2.1  0.3  0.3
+assign (resid 24   and name O     )(resid 28   and name N     )    3.00  0.2  0.2
+assign (resid 24   and name O     )(resid 28   and name HN    )     2.1  0.3  0.3
+assign (resid 25   and name O     )(resid 29   and name N     )    3.00  0.2  0.2
+assign (resid 25   and name O     )(resid 29   and name HN    )     2.1  0.3  0.3
+assign (resid 26   and name O     )(resid 30   and name N     )    3.00  0.2  0.2
+assign (resid 26   and name O     )(resid 30   and name HN    )     2.1  0.3  0.3
+assign (resid 27   and name O     )(resid 31   and name N     )    3.00  0.2  0.2
+assign (resid 27   and name O     )(resid 31   and name HN    )     2.1  0.3  0.3
+assign (resid 29   and name O     )(resid 33   and name N     )    3.00  0.2  0.2
+assign (resid 29   and name O     )(resid 33   and name HN    )     2.1  0.3  0.3
+assign (resid 39   and name O     )(resid 43   and name N     )    3.00  0.2  0.2
+assign (resid 39   and name O     )(resid 43   and name HN    )     2.1  0.3  0.3
+assign (resid 40   and name O     )(resid 44   and name N     )    3.00  0.2  0.2
+assign (resid 40   and name O     )(resid 44   and name HN    )     2.1  0.3  0.3
+assign (resid 41   and name O     )(resid 45   and name N     )    3.00  0.2  0.2
+assign (resid 41   and name O     )(resid 45   and name HN    )     2.1  0.3  0.3
+assign (resid 42   and name O     )(resid 46   and name N     )    3.00  0.2  0.2
+assign (resid 42   and name O     )(resid 46   and name HN    )     2.1  0.3  0.3
+assign (resid 43   and name O     )(resid 47   and name N     )    3.00  0.2  0.2
+assign (resid 43   and name O     )(resid 47   and name HN    )     2.1  0.3  0.3
+assign (resid 44   and name O     )(resid 48   and name N     )    3.00  0.2  0.2
+assign (resid 44   and name O     )(resid 48   and name HN    )     2.1  0.3  0.3
+assign (resid 45   and name O     )(resid 49   and name N     )    3.00  0.2  0.2
+assign (resid 45   and name O     )(resid 49   and name HN    )     2.1  0.3  0.3
+assign (resid 46   and name O     )(resid 50   and name N     )    3.00  0.2  0.2
+assign (resid 46   and name O     )(resid 50   and name HN    )     2.1  0.3  0.3
+assign (resid 47   and name O     )(resid 51   and name N     )    3.00  0.2  0.2
+assign (resid 47   and name O     )(resid 51   and name HN    )     2.1  0.3  0.3
+assign (resid 48   and name O     )(resid 52   and name N     )    3.00  0.2  0.2
+assign (resid 48   and name O     )(resid 52   and name HN    )     2.1  0.3  0.3
+assign (resid 54   and name O     )(resid 58   and name N     )    3.00  0.2  0.2
+assign (resid 54   and name O     )(resid 58   and name HN    )     2.1  0.3  0.3
+assign (resid 57   and name O     )(resid 61   and name N     )    3.00  0.2  0.2
+assign (resid 57   and name O     )(resid 61   and name HN    )     2.1  0.3  0.3
+assign (resid 58   and name O     )(resid 62   and name N     )    3.00  0.2  0.2
+assign (resid 58   and name O     )(resid 62   and name HN    )     2.1  0.3  0.3
+assign (resid 59   and name O     )(resid 63   and name N     )    3.00  0.2  0.2
+assign (resid 59   and name O     )(resid 63   and name HN    )     2.1  0.3  0.3
+assign (resid 60   and name O     )(resid 64   and name N     )    3.00  0.2  0.2
+assign (resid 60   and name O     )(resid 64   and name HN    )     2.1  0.3  0.3
+assign (resid 61   and name O     )(resid 65   and name N     )    3.00  0.2  0.2
+assign (resid 61   and name O     )(resid 65   and name HN    )     2.1  0.3  0.3
+assign (resid 62   and name O     )(resid 66   and name N     )    3.00  0.2  0.2
+assign (resid 62   and name O     )(resid 66   and name HN    )     2.1  0.3  0.3
+assign (resid 63   and name O     )(resid 67   and name N     )    3.00  0.2  0.2
+assign (resid 63   and name O     )(resid 67   and name HN    )     2.1  0.3  0.3
+assign (resid 64   and name O     )(resid 68   and name N     )    3.00  0.2  0.2
+assign (resid 64   and name O     )(resid 68   and name HN    )     2.1  0.3  0.3
+assign (resid 65   and name O     )(resid 69   and name N     )    3.00  0.2  0.2
+assign (resid 65   and name O     )(resid 69   and name HN    )     2.1  0.3  0.3
+! created by  ASDP Version 2.2 Copyright(C) 2019
+
+!G1
+assign (resid 1    and name HA#   )(resid 5    and name HD#   )     4.0 2.2 1.0
+!S2
+!assign (resid 2    and name HA    )(resid 2    and name HB#   )     2.9 1.1 0.5
+assign (resid 2    and name HA    )(resid 3    and name HN    )     2.9 1.1 0.5
+assign (resid 2    and name HA    )(resid 3    and name HG##  )     4.0 2.2 1.0
+assign (resid 2    and name HA    )(resid 4    and name HN    )     4.0 2.2 1.0
+assign (resid 2    and name HA    )(resid 5    and name HN    )     5.0 3.2 1.0
+assign (resid 2    and name HB#   )(resid 3    and name HN    )     3.6 1.8 1.0
+assign (resid 2    and name HB2   )(resid 4    and name HN    )     5.0 3.2 1.0
+assign (resid 2    and name HB#   )(resid 4    and name HG##  )     4.0 2.2 1.0
+assign (resid 2    and name HB#   )(resid 5    and name HN    )     3.6 1.8 1.0
+assign (resid 2    and name HB2   )(resid 5    and name HB#   )     2.9 1.1 0.5
+assign (resid 2    and name HB1   )(resid 5    and name HD#   )     4.0 2.2 1.0
+!V3
+assign (resid 3    and name HN    )(resid 3    and name HA    )     3.6 1.8 1.0
+assign (resid 3    and name HN    )(resid 3    and name HB    )     2.9 1.1 0.5
+assign (resid 3    and name HN    )(resid 3    and name HG##  )     4.0 2.2 1.0
+assign (resid 3    and name HN    )(resid 4    and name HN    )     3.6 1.8 1.0
+assign (resid 3    and name HN    )(resid 4    and name HG##  )     4.0 2.2 1.0
+!assign (resid 3    and name HN    )(resid 5    and name HN    )     5.0 3.2 1.0
+!assign (resid 3    and name HA    )(resid 3    and name HB    )     3.6 1.8 1.0
+assign (resid 3    and name HA    )(resid 3    and name HG##  )     4.0 2.2 1.0
+assign (resid 3    and name HA    )(resid 4    and name HN    )     3.6 1.8 1.0
+assign (resid 3    and name HA    )(resid 4    and name HA    )     5.0 3.2 1.0
+assign (resid 3    and name HA    )(resid 6    and name HN    )     4.0 2.2 1.0
+assign (resid 3    and name HA    )(resid 6    and name HB#   )     3.6 1.8 1.0
+assign (resid 3    and name HA    )(resid 7    and name HN    )     5.0 3.2 1.0
+!assign (resid 3    and name HB    )(resid 3    and name HG##  )     4.0 2.2 1.0
+assign (resid 3    and name HB    )(resid 4    and name HN    )     3.6 1.8 1.0
+assign (resid 3    and name HB    )(resid 4    and name HG##  )     4.0 2.2 1.0
+assign (resid 3    and name HG##  )(resid 4    and name HN    )     4.0 2.2 1.0
+assign (resid 3    and name HG##  )(resid 4    and name HA    )     4.0 2.2 1.0
+assign (resid 3    and name HG##  )(resid 4    and name HB    )     4.0 2.2 1.0
+assign (resid 3    and name HG##  )(resid 5    and name HN    )     4.0 2.2 1.0
+assign (resid 3    and name HG##  )(resid 6    and name HN    )     4.0 2.2 1.0
+assign (resid 3    and name HG##  )(resid 7    and name HN    )     4.0 2.2 1.0
+assign (resid 3    and name HG##  )(resid 7    and name HE#   )     4.0 2.2 1.0
+!V4
+assign (resid 4    and name HN    )(resid 4    and name HA    )     2.9 1.1 0.5
+assign (resid 4    and name HN    )(resid 4    and name HB    )     3.6 1.8 1.0
+assign (resid 4    and name HN    )(resid 4    and name HG##  )     4.0 2.2 1.0
+assign (resid 4    and name HN    )(resid 5    and name HN    )     2.9 1.1 0.5
+!assign (resid 4    and name HN    )(resid 6    and name HN    )     5.0 3.2 1.0
+assign (resid 4    and name HN    )(resid 38   and name HA    )     5.0 3.2 1.0
+!assign (resid 4    and name HA    )(resid 4    and name HB    )     2.9 1.1 0.5
+assign (resid 4    and name HA    )(resid 4    and name HG##  )     4.0 2.2 1.0
+assign (resid 4    and name HA    )(resid 5    and name HN    )     3.6 1.8 1.0
+assign (resid 4    and name HA    )(resid 6    and name HN    )     5.0 3.2 1.0
+assign (resid 4    and name HA    )(resid 7    and name HN    )     4.0 2.2 1.0
+assign (resid 4    and name HA    )(resid 7    and name HB#   )     3.6 1.8 1.0
+assign (resid 4    and name HA    )(resid 7    and name HG2   )     4.0 2.2 1.0
+assign (resid 4    and name HA    )(resid 8    and name HN    )     5.0 3.2 1.0
+assign (resid 4    and name HA    )(resid 8    and name HD##  )     4.0 2.2 1.0
+assign (resid 4    and name HA    )(resid 39   and name HB1   )     5.0 3.2 1.0
+assign (resid 4    and name HA    )(resid 39   and name HD##  )     4.0 2.2 1.0
+!assign (resid 4    and name HB    )(resid 4    and name HG##  )     4.0 2.2 1.0
+assign (resid 4    and name HB    )(resid 5    and name HN    )     3.6 1.8 1.0
+assign (resid 4    and name HB    )(resid 36   and name HG##  )     4.0 2.2 1.0
+assign (resid 4    and name HB    )(resid 38   and name HA    )     4.0 2.2 1.0
+assign (resid 4    and name HB    )(resid 39   and name HN    )     5.0 3.2 1.0
+assign (resid 4    and name HG##  )(resid 5    and name HN    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 5    and name HA    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 5    and name HB2   )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 6    and name HN    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 7    and name HN    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 7    and name HB#   )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 8    and name HN    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 33   and name HA    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 37   and name HA    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 38   and name HN    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 38   and name HA    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 38   and name HB#   )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 39   and name HN    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 39   and name HA    )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 39   and name HB1   )     4.0 2.2 1.0
+assign (resid 4    and name HG##  )(resid 42   and name HB#   )     4.0 2.2 1.0
+!K5
+assign (resid 5    and name HN    )(resid 5    and name HA    )     3.6 1.8 1.0
+assign (resid 5    and name HN    )(resid 5    and name HB#   )     2.3 0.5 0.4
+assign (resid 5    and name HN    )(resid 5    and name HG2   )     4.0 2.2 1.0
+assign (resid 5    and name HN    )(resid 5    and name HG#   )     4.0 2.2 1.0
+assign (resid 5    and name HN    )(resid 5    and name HD#   )     4.0 2.2 1.0
+assign (resid 5    and name HN    )(resid 6    and name HN    )     2.9 1.1 0.5
+assign (resid 5    and name HN    )(resid 6    and name HB2   )     5.0 3.2 1.0
+!assign (resid 5    and name HN    )(resid 7    and name HN    )     5.0 3.2 1.0
+assign (resid 5    and name HN    )(resid 8    and name HN    )     5.0 3.2 1.0
+!assign (resid 5    and name HA    )(resid 5    and name HB#   )     2.9 1.1 0.5
+assign (resid 5    and name HA    )(resid 5    and name HG#   )     4.0 2.2 1.0
+assign (resid 5    and name HA    )(resid 5    and name HD#   )     4.0 2.2 1.0
+assign (resid 5    and name HA    )(resid 5    and name HE#   )     4.0 2.2 1.0
+assign (resid 5    and name HA    )(resid 6    and name HN    )     3.6 1.8 1.0
+assign (resid 5    and name HA    )(resid 7    and name HN    )     5.0 3.2 1.0
+assign (resid 5    and name HA    )(resid 8    and name HN    )     3.6 1.8 1.0
+assign (resid 5    and name HA    )(resid 8    and name HB#   )     3.6 1.8 1.0
+assign (resid 5    and name HA    )(resid 8    and name HD##  )     4.0 2.2 1.0
+assign (resid 5    and name HA    )(resid 9    and name HN    )     4.0 2.2 1.0
+assign (resid 5    and name HA    )(resid 9    and name HG#   )     4.0 2.2 1.0
+assign (resid 5    and name HA    )(resid 29   and name HG##  )     4.0 2.2 1.0
+!assign (resid 5    and name HB#   )(resid 5    and name HG#   )     4.0 2.2 1.0
+assign (resid 5    and name HB#   )(resid 5    and name HD#   )     4.0 2.2 1.0
+assign (resid 5    and name HB#   )(resid 5    and name HE#   )     4.0 2.2 1.0
+assign (resid 5    and name HB#   )(resid 6    and name HN    )     2.9 1.1 0.5
+assign (resid 5    and name HB2   )(resid 33   and name HA    )     4.0 2.2 1.0
+assign (resid 5    and name HB2   )(resid 33   and name HB1   )     4.0 2.2 1.0
+!assign (resid 5    and name HG#   )(resid 5    and name HD#   )     4.0 2.2 1.0
+assign (resid 5    and name HG#   )(resid 5    and name HE#   )     4.0 2.2 1.0
+assign (resid 5    and name HG#   )(resid 6    and name HN    )     4.0 2.2 1.0
+assign (resid 5    and name HG1   )(resid 6    and name HN    )     4.0 2.2 1.0
+assign (resid 5    and name HG2   )(resid 6    and name HA    )     4.0 2.2 1.0
+assign (resid 5    and name HG#   )(resid 9    and name HN    )     4.0 2.2 1.0
+assign (resid 5    and name HG#   )(resid 9    and name HG#   )     4.0 2.2 1.0
+assign (resid 5    and name HG#   )(resid 33   and name HB#   )     4.0 2.2 1.0
+!assign (resid 5    and name HD#   )(resid 5    and name HE#   )     4.0 2.2 1.0
+assign (resid 5    and name HD#   )(resid 6    and name HN    )     4.0 2.2 1.0
+assign (resid 5    and name HD#   )(resid 9    and name HG#   )     4.0 2.2 1.0
+assign (resid 5    and name HD#   )(resid 33   and name HB2   )     4.0 2.2 1.0
+assign (resid 5    and name HE#   )(resid 9    and name HG#   )     4.0 2.2 1.0
+assign (resid 5    and name HE#   )(resid 33   and name HB2   )     4.0 2.2 1.0
+!E6
+assign (resid 6    and name HN    )(resid 6    and name HA    )     2.9 1.1 0.5
+assign (resid 6    and name HN    )(resid 6    and name HB#   )     2.9 1.1 0.5
+assign (resid 6    and name HN    )(resid 6    and name HG#   )     4.0 2.2 1.0
+assign (resid 6    and name HN    )(resid 7    and name HN    )     2.9 1.1 0.5
+!assign (resid 6    and name HN    )(resid 8    and name HN    )     4.0 2.2 1.0
+assign (resid 6    and name HN    )(resid 9    and name HN    )     5.0 3.2 1.0
+!assign (resid 6    and name HA    )(resid 6    and name HB#   )     2.9 1.1 0.5
+assign (resid 6    and name HA    )(resid 6    and name HG#   )     4.0 2.2 1.0
+assign (resid 6    and name HA    )(resid 7    and name HN    )     4.0 2.2 1.0
+assign (resid 6    and name HA    )(resid 9    and name HN    )     4.0 2.2 1.0
+assign (resid 6    and name HA    )(resid 9    and name HB#   )     4.0 2.2 1.0
+assign (resid 6    and name HA    )(resid 9    and name HG#   )     4.0 2.2 1.0
+assign (resid 6    and name HA    )(resid 10   and name HN    )     5.0 3.2 1.0
+!assign (resid 6    and name HB#   )(resid 6    and name HG#   )     4.0 2.2 1.0
+assign (resid 6    and name HB#   )(resid 7    and name HN    )     3.6 1.8 1.0
+assign (resid 6    and name HG#   )(resid 7    and name HN    )     4.0 2.2 1.0
+assign (resid 6    and name HG2   )(resid 10   and name HE#   )     4.0 2.2 1.0
+!K7
+assign (resid 7    and name HN    )(resid 7    and name HA    )     3.6 1.8 1.0
+assign (resid 7    and name HN    )(resid 7    and name HB#   )     2.9 1.1 0.5
+assign (resid 7    and name HN    )(resid 7    and name HG#   )     4.0 2.2 1.0
+assign (resid 7    and name HN    )(resid 7    and name HD#   )     4.0 2.2 1.0
+assign (resid 7    and name HN    )(resid 7    and name HE#   )     4.0 2.2 1.0
+assign (resid 7    and name HN    )(resid 8    and name HN    )     2.9 1.1 0.5
+assign (resid 7    and name HN    )(resid 8    and name HD##  )     4.0 2.2 1.0
+!assign (resid 7    and name HN    )(resid 9    and name HN    )     5.0 3.2 1.0
+assign (resid 7    and name HN    )(resid 39   and name HD##  )     4.0 2.2 1.0
+!assign (resid 7    and name HA    )(resid 7    and name HB#   )     2.9 1.1 0.5
+assign (resid 7    and name HA    )(resid 7    and name HG#   )     4.0 2.2 1.0
+assign (resid 7    and name HA    )(resid 7    and name HE#   )     4.0 2.2 1.0
+assign (resid 7    and name HA    )(resid 8    and name HN    )     3.6 1.8 1.0
+assign (resid 7    and name HA    )(resid 10   and name HN    )     3.6 1.8 1.0
+assign (resid 7    and name HA    )(resid 10   and name HB#   )     2.9 1.1 0.5
+assign (resid 7    and name HA    )(resid 10   and name HE#   )     4.0 2.2 1.0
+!assign (resid 7    and name HB#   )(resid 7    and name HG#   )     4.0 2.2 1.0
+assign (resid 7    and name HB1   )(resid 7    and name HD#   )     4.0 2.2 1.0
+assign (resid 7    and name HB#   )(resid 7    and name HE#   )     4.0 2.2 1.0
+assign (resid 7    and name HB#   )(resid 8    and name HN    )     3.6 1.8 1.0
+assign (resid 7    and name HB1   )(resid 8    and name HD##  )     4.0 2.2 1.0
+assign (resid 7    and name HB1   )(resid 39   and name HB1   )     5.0 3.2 1.0
+assign (resid 7    and name HB#   )(resid 39   and name HD##  )     4.0 2.2 1.0
+assign (resid 7    and name HB2   )(resid 68   and name HD##  )     4.0 2.2 1.0
+!assign (resid 7    and name HG#   )(resid 7    and name HD#   )     4.0 2.2 1.0
+assign (resid 7    and name HG#   )(resid 7    and name HE#   )     4.0 2.2 1.0
+assign (resid 7    and name HG#   )(resid 8    and name HN    )     4.0 2.2 1.0
+assign (resid 7    and name HG1   )(resid 11   and name HN    )     4.0 2.2 1.0
+assign (resid 7    and name HG2   )(resid 39   and name HD##  )     4.0 2.2 1.0
+assign (resid 7    and name HG#   )(resid 68   and name HD##  )     4.0 2.2 1.0
+!assign (resid 7    and name HD#   )(resid 7    and name HE#   )     4.0 2.2 1.0
+assign (resid 7    and name HD#   )(resid 39   and name HD##  )     4.0 2.2 1.0
+assign (resid 7    and name HD1   )(resid 68   and name HD##  )     4.0 2.2 1.0
+assign (resid 7    and name HE#   )(resid 39   and name HD##  )     4.0 2.2 1.0
+assign (resid 7    and name HE#   )(resid 68   and name HD##  )     4.0 2.2 1.0
+!L8
+assign (resid 8    and name HN    )(resid 8    and name HA    )     2.9 1.1 0.5
+assign (resid 8    and name HN    )(resid 8    and name HB#   )     2.9 1.1 0.5
+assign (resid 8    and name HN    )(resid 8    and name HG    )     4.0 2.2 1.0
+assign (resid 8    and name HN    )(resid 8    and name HD##  )     4.0 2.2 1.0
+assign (resid 8    and name HN    )(resid 9    and name HN    )     2.9 1.1 0.5
+!assign (resid 8    and name HN    )(resid 10   and name HN    )     4.0 2.2 1.0
+assign (resid 8    and name HN    )(resid 11   and name HN    )     5.0 3.2 1.0
+!assign (resid 8    and name HA    )(resid 8    and name HB#   )     2.9 1.1 0.5
+assign (resid 8    and name HA    )(resid 8    and name HG    )     4.0 2.2 1.0
+assign (resid 8    and name HA    )(resid 8    and name HD##  )     4.0 2.2 1.0
+assign (resid 8    and name HA    )(resid 9    and name HN    )     3.6 1.8 1.0
+assign (resid 8    and name HA    )(resid 10   and name HN    )     5.0 3.2 1.0
+assign (resid 8    and name HA    )(resid 11   and name HN    )     4.0 2.2 1.0
+assign (resid 8    and name HA    )(resid 11   and name HB#   )     4.0 2.2 1.0
+assign (resid 8    and name HA    )(resid 12   and name HN    )     5.0 3.2 1.0
+assign (resid 8    and name HA    )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 8    and name HA    )(resid 46   and name HD##  )     4.0 2.2 1.0
+assign (resid 8    and name HA    )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 8    and name HA    )(resid 68   and name HD##  )     4.0 2.2 1.0
+!assign (resid 8    and name HB#   )(resid 8    and name HG    )     4.0 2.2 1.0
+assign (resid 8    and name HB#   )(resid 8    and name HD##  )     4.0 2.2 1.0
+assign (resid 8    and name HB#   )(resid 9    and name HN    )     2.9 1.1 0.5
+assign (resid 8    and name HB1   )(resid 9    and name HN    )     3.6 1.8 1.0
+assign (resid 8    and name HB#   )(resid 9    and name HG#   )     4.0 2.2 1.0
+assign (resid 8    and name HB1   )(resid 11   and name HB#   )     4.0 2.2 1.0
+assign (resid 8    and name HB1   )(resid 29   and name HB    )     5.0 3.2 1.0
+assign (resid 8    and name HB#   )(resid 29   and name HG##  )     4.0 2.2 1.0
+!assign (resid 8    and name HG    )(resid 8    and name HD##  )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 9    and name HN    )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 29   and name HA    )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 29   and name HB    )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 33   and name HN    )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 33   and name HB#   )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 34   and name HN    )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 36   and name HG##  )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 42   and name HA    )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 8    and name HD##  )(resid 46   and name HG    )     4.0 2.2 1.0
+!E9
+assign (resid 9    and name HN    )(resid 9    and name HA    )     3.6 1.8 1.0
+assign (resid 9    and name HN    )(resid 9    and name HB#   )     2.9 1.1 0.5
+assign (resid 9    and name HN    )(resid 9    and name HG#   )     4.0 2.2 1.0
+assign (resid 9    and name HN    )(resid 10   and name HN    )     2.9 1.1 0.5
+!assign (resid 9    and name HN    )(resid 11   and name HN    )     4.0 2.2 1.0
+assign (resid 9    and name HN    )(resid 11   and name HB#   )     4.0 2.2 1.0
+assign (resid 9    and name HN    )(resid 12   and name HN    )     5.0 3.2 1.0
+assign (resid 9    and name HN    )(resid 29   and name HG##  )     4.0 2.2 1.0
+!assign (resid 9    and name HA    )(resid 9    and name HB#   )     2.9 1.1 0.5
+assign (resid 9    and name HA    )(resid 9    and name HG#   )     4.0 2.2 1.0
+assign (resid 9    and name HA    )(resid 10   and name HN    )     4.0 2.2 1.0
+assign (resid 9    and name HA    )(resid 11   and name HN    )     4.0 2.2 1.0
+assign (resid 9    and name HA    )(resid 12   and name HN    )     3.6 1.8 1.0
+assign (resid 9    and name HA    )(resid 12   and name HB#   )     3.6 1.8 1.0
+assign (resid 9    and name HA    )(resid 12   and name HD##  )     4.0 2.2 1.0
+assign (resid 9    and name HA    )(resid 13   and name HN    )     5.0 3.2 1.0
+assign (resid 9    and name HA    )(resid 13   and name HD1#  )     4.0 2.2 1.0
+assign (resid 9    and name HA    )(resid 29   and name HG##  )     4.0 2.2 1.0
+!assign (resid 9    and name HB#   )(resid 9    and name HG#   )     4.0 2.2 1.0
+assign (resid 9    and name HB#   )(resid 10   and name HN    )     3.6 1.8 1.0
+assign (resid 9    and name HB2   )(resid 13   and name HG11  )     4.0 2.2 1.0
+assign (resid 9    and name HB#   )(resid 13   and name HD1#  )     4.0 2.2 1.0
+assign (resid 9    and name HG#   )(resid 10   and name HN    )     4.0 2.2 1.0
+assign (resid 9    and name HG2   )(resid 12   and name HD##  )     4.0 2.2 1.0
+assign (resid 9    and name HG#   )(resid 29   and name HG##  )     4.0 2.2 1.0
+!K10
+assign (resid 10   and name HN    )(resid 10   and name HA    )     2.9 1.1 0.5
+assign (resid 10   and name HN    )(resid 10   and name HB#   )     2.9 1.1 0.5
+assign (resid 10   and name HN    )(resid 10   and name HG#   )     4.0 2.2 1.0
+assign (resid 10   and name HN    )(resid 10   and name HD#   )     4.0 2.2 1.0
+assign (resid 10   and name HN    )(resid 11   and name HN    )     2.9 1.1 0.5
+assign (resid 10   and name HN    )(resid 13   and name HN    )     5.0 3.2 1.0
+assign (resid 10   and name HN    )(resid 13   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 10   and name HA    )(resid 10   and name HB#   )     2.9 1.1 0.5
+assign (resid 10   and name HA    )(resid 10   and name HG#   )     4.0 2.2 1.0
+assign (resid 10   and name HA    )(resid 10   and name HE#   )     4.0 2.2 1.0
+assign (resid 10   and name HA    )(resid 11   and name HN    )     3.6 1.8 1.0
+assign (resid 10   and name HA    )(resid 11   and name HA    )     4.0 2.2 1.0
+assign (resid 10   and name HA    )(resid 12   and name HN    )     5.0 3.2 1.0
+assign (resid 10   and name HA    )(resid 13   and name HN    )     4.0 2.2 1.0
+assign (resid 10   and name HA    )(resid 13   and name HB    )     3.6 1.8 1.0
+assign (resid 10   and name HA    )(resid 13   and name HG11  )     4.0 2.2 1.0
+assign (resid 10   and name HA    )(resid 13   and name HG2#  )     4.0 2.2 1.0
+assign (resid 10   and name HA    )(resid 13   and name HD1#  )     4.0 2.2 1.0
+assign (resid 10   and name HA    )(resid 14   and name HN    )     5.0 3.2 1.0
+!assign (resid 10   and name HB#   )(resid 10   and name HG#   )     4.0 2.2 1.0
+assign (resid 10   and name HB#   )(resid 10   and name HD#   )     4.0 2.2 1.0
+assign (resid 10   and name HB#   )(resid 10   and name HE#   )     4.0 2.2 1.0
+assign (resid 10   and name HB#   )(resid 11   and name HN    )     2.9 1.1 0.5
+assign (resid 10   and name HB#   )(resid 11   and name HA    )     4.0 2.2 1.0
+assign (resid 10   and name HB#   )(resid 14   and name HG1   )     4.0 2.2 1.0
+!assign (resid 10   and name HG1   )(resid 10   and name HD#   )     4.0 2.2 1.0
+assign (resid 10   and name HG#   )(resid 10   and name HE#   )     4.0 2.2 1.0
+assign (resid 10   and name HG2   )(resid 11   and name HN    )     4.0 2.2 1.0
+assign (resid 10   and name HG#   )(resid 14   and name HG1   )     4.0 2.2 1.0
+!assign (resid 10   and name HD#   )(resid 10   and name HE#   )     4.0 2.2 1.0
+assign (resid 10   and name HD#   )(resid 11   and name HN    )     4.0 2.2 1.0
+!A11
+assign (resid 11   and name HN    )(resid 11   and name HA    )     4.0 2.2 1.0
+assign (resid 11   and name HN    )(resid 11   and name HB#   )     4.0 2.2 1.0
+assign (resid 11   and name HN    )(resid 12   and name HN    )     2.9 1.1 0.5
+!assign (resid 11   and name HN    )(resid 13   and name HN    )     5.0 3.2 1.0
+assign (resid 11   and name HN    )(resid 68   and name HD##  )     4.0 2.2 1.0
+!assign (resid 11   and name HA    )(resid 11   and name HB#   )     4.0 2.2 1.0
+assign (resid 11   and name HA    )(resid 12   and name HN    )     4.0 2.2 1.0
+assign (resid 11   and name HA    )(resid 14   and name HN    )     4.0 2.2 1.0
+assign (resid 11   and name HA    )(resid 14   and name HB#   )     4.0 2.2 1.0
+assign (resid 11   and name HA    )(resid 14   and name HG#   )     4.0 2.2 1.0
+assign (resid 11   and name HA    )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 11   and name HA    )(resid 67   and name HD#   )     4.0 2.2 1.0
+assign (resid 11   and name HA    )(resid 67   and name HE#   )     4.0 2.2 1.0
+assign (resid 11   and name HA    )(resid 68   and name HD##  )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 12   and name HN    )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 12   and name HA    )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 13   and name HN    )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 14   and name HN    )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 64   and name HA    )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 67   and name HN    )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 67   and name HB#   )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 67   and name HD#   )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 67   and name HE#   )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 68   and name HN    )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 68   and name HG    )     4.0 2.2 1.0
+assign (resid 11   and name HB#   )(resid 68   and name HD##  )     4.0 2.2 1.0
+!L12
+assign (resid 12   and name HN    )(resid 12   and name HA    )     3.6 1.8 1.0
+assign (resid 12   and name HN    )(resid 12   and name HB#   )     2.9 1.1 0.5
+assign (resid 12   and name HN    )(resid 12   and name HG    )     4.0 2.2 1.0
+assign (resid 12   and name HN    )(resid 12   and name HD##  )     4.0 2.2 1.0
+assign (resid 12   and name HN    )(resid 13   and name HN    )     3.6 1.8 1.0
+!assign (resid 12   and name HN    )(resid 14   and name HN    )     4.0 2.2 1.0
+assign (resid 12   and name HN    )(resid 15   and name HG##  )     4.0 2.2 1.0
+assign (resid 12   and name HN    )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 12   and name HN    )(resid 64   and name HD##  )     4.0 2.2 1.0
+!assign (resid 12   and name HA    )(resid 12   and name HB#   )     2.9 1.1 0.5
+assign (resid 12   and name HA    )(resid 12   and name HG    )     4.0 2.2 1.0
+assign (resid 12   and name HA    )(resid 12   and name HD##  )     4.0 2.2 1.0
+assign (resid 12   and name HA    )(resid 13   and name HN    )     4.0 2.2 1.0
+assign (resid 12   and name HA    )(resid 15   and name HN    )     4.0 2.2 1.0
+assign (resid 12   and name HA    )(resid 15   and name HG##  )     4.0 2.2 1.0
+assign (resid 12   and name HA    )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 12   and name HA    )(resid 64   and name HD##  )     4.0 2.2 1.0
+!assign (resid 12   and name HB#   )(resid 12   and name HG    )     4.0 2.2 1.0
+assign (resid 12   and name HB#   )(resid 12   and name HD##  )     4.0 2.2 1.0
+assign (resid 12   and name HB#   )(resid 13   and name HN    )     2.9 1.1 0.5
+assign (resid 12   and name HB#   )(resid 13   and name HG11  )     4.0 2.2 1.0
+assign (resid 12   and name HB#   )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 12   and name HB2   )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 12   and name HB2   )(resid 64   and name HD##  )     4.0 2.2 1.0
+!assign (resid 12   and name HG    )(resid 12   and name HD##  )     4.0 2.2 1.0
+assign (resid 12   and name HG    )(resid 13   and name HN    )     4.0 2.2 1.0
+assign (resid 12   and name HG    )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 12   and name HG    )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 13   and name HN    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 13   and name HG11  )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 22   and name HA    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 25   and name HA    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 25   and name HB1   )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 25   and name HG    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 25   and name HD##  )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 26   and name HN    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 26   and name HA    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 26   and name HB#   )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 26   and name HG#   )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 26   and name HD1   )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 26   and name HE#   )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 27   and name HN    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 29   and name HN    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 29   and name HB    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 30   and name HN    )     4.0 2.2 1.0
+assign (resid 12   and name HD##  )(resid 64   and name HA    )     4.0 2.2 1.0
+!I13
+assign (resid 13   and name HN    )(resid 13   and name HA    )     3.6 1.8 1.0
+assign (resid 13   and name HN    )(resid 13   and name HB    )     2.9 1.1 0.5
+assign (resid 13   and name HN    )(resid 13   and name HG1#  )     4.0 2.2 1.0
+assign (resid 13   and name HN    )(resid 13   and name HG2#  )     4.0 2.2 1.0
+assign (resid 13   and name HN    )(resid 13   and name HD1#  )     4.0 2.2 1.0
+assign (resid 13   and name HN    )(resid 14   and name HN    )     2.9 1.1 0.5
+assign (resid 13   and name HN    )(resid 15   and name HN    )     5.0 3.2 1.0
+assign (resid 13   and name HN    )(resid 22   and name HE#   )     4.0 2.2 1.0
+!assign (resid 13   and name HA    )(resid 13   and name HB    )     3.6 1.8 1.0
+assign (resid 13   and name HA    )(resid 13   and name HG1#  )     4.0 2.2 1.0
+assign (resid 13   and name HA    )(resid 13   and name HG2#  )     4.0 2.2 1.0
+assign (resid 13   and name HA    )(resid 13   and name HD1#  )     4.0 2.2 1.0
+assign (resid 13   and name HA    )(resid 14   and name HN    )     4.0 2.2 1.0
+assign (resid 13   and name HA    )(resid 14   and name HA    )     5.0 3.2 1.0
+assign (resid 13   and name HA    )(resid 15   and name HN    )     5.0 3.2 1.0
+assign (resid 13   and name HA    )(resid 16   and name HN    )     4.0 2.2 1.0
+assign (resid 13   and name HA    )(resid 16   and name HA    )     5.0 3.2 1.0
+assign (resid 13   and name HA    )(resid 16   and name HB#   )     2.3 0.5 0.4
+assign (resid 13   and name HA    )(resid 16   and name HD#   )     4.0 2.2 1.0
+assign (resid 13   and name HA    )(resid 22   and name HE#   )     4.0 2.2 1.0
+!assign (resid 13   and name HB    )(resid 13   and name HG1#  )     4.0 2.2 1.0
+!assign (resid 13   and name HB    )(resid 13   and name HG2#  )     4.0 2.2 1.0
+assign (resid 13   and name HB    )(resid 13   and name HD1#  )     4.0 2.2 1.0
+assign (resid 13   and name HB    )(resid 14   and name HN    )     3.6 1.8 1.0
+assign (resid 13   and name HG1#  )(resid 13   and name HG2#  )     4.0 2.2 1.0
+!assign (resid 13   and name HG1#  )(resid 13   and name HD1#  )     4.0 2.2 1.0
+assign (resid 13   and name HG11  )(resid 14   and name HN    )     4.0 2.2 1.0
+assign (resid 13   and name HG12  )(resid 16   and name HB2   )     4.0 2.2 1.0
+assign (resid 13   and name HG11  )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 13   and name HG2#  )(resid 14   and name HN    )     4.0 2.2 1.0
+assign (resid 13   and name HG2#  )(resid 14   and name HA    )     4.0 2.2 1.0
+assign (resid 13   and name HG2#  )(resid 15   and name HN    )     4.0 2.2 1.0
+assign (resid 13   and name HG2#  )(resid 16   and name HN    )     4.0 2.2 1.0
+assign (resid 13   and name HG2#  )(resid 16   and name HD#   )     4.0 2.2 1.0
+assign (resid 13   and name HG2#  )(resid 17   and name HD1   )     4.0 2.2 1.0
+!E14
+assign (resid 14   and name HN    )(resid 14   and name HA    )     3.6 1.8 1.0
+assign (resid 14   and name HN    )(resid 14   and name HB#   )     2.9 1.1 0.5
+assign (resid 14   and name HN    )(resid 14   and name HG#   )     4.0 2.2 1.0
+assign (resid 14   and name HN    )(resid 15   and name HN    )     2.9 1.1 0.5
+assign (resid 14   and name HN    )(resid 15   and name HG##  )     4.0 2.2 1.0
+!assign (resid 14   and name HA    )(resid 14   and name HB#   )     2.9 1.1 0.5
+assign (resid 14   and name HA    )(resid 14   and name HG#   )     4.0 2.2 1.0
+assign (resid 14   and name HA    )(resid 15   and name HN    )     3.6 1.8 1.0
+assign (resid 14   and name HA    )(resid 16   and name HN    )     5.0 3.2 1.0
+!assign (resid 14   and name HB#   )(resid 14   and name HG#   )     4.0 2.2 1.0
+assign (resid 14   and name HB#   )(resid 15   and name HN    )     3.6 1.8 1.0
+assign (resid 14   and name HB#   )(resid 15   and name HA    )     4.0 2.2 1.0
+assign (resid 14   and name HB#   )(resid 15   and name HG##  )     4.0 2.2 1.0
+assign (resid 14   and name HB2   )(resid 16   and name HN    )     5.0 3.2 1.0
+assign (resid 14   and name HB1   )(resid 67   and name HD#   )     4.0 2.2 1.0
+assign (resid 14   and name HB#   )(resid 67   and name HE#   )     4.0 2.2 1.0
+assign (resid 14   and name HB#   )(resid 67   and name HZ    )     4.0 2.2 1.0
+assign (resid 14   and name HG#   )(resid 15   and name HN    )     4.0 2.2 1.0
+assign (resid 14   and name HG1   )(resid 15   and name HN    )     4.0 2.2 1.0
+assign (resid 14   and name HG2   )(resid 67   and name HE#   )     4.0 2.2 1.0
+assign (resid 14   and name HG2   )(resid 67   and name HZ    )     4.0 2.2 1.0
+!V15
+assign (resid 15   and name HN    )(resid 15   and name HA    )     3.6 1.8 1.0
+assign (resid 15   and name HN    )(resid 15   and name HB    )     4.0 2.2 1.0
+assign (resid 15   and name HN    )(resid 15   and name HG##  )     4.0 2.2 1.0
+assign (resid 15   and name HN    )(resid 16   and name HN    )     2.9 1.1 0.5
+assign (resid 15   and name HN    )(resid 16   and name HA    )     5.0 3.2 1.0
+assign (resid 15   and name HN    )(resid 17   and name HD2   )     4.0 2.2 1.0
+assign (resid 15   and name HN    )(resid 19   and name HG##  )     4.0 2.2 1.0
+assign (resid 15   and name HN    )(resid 64   and name HD##  )     4.0 2.2 1.0
+!assign (resid 15   and name HA    )(resid 15   and name HB    )     3.6 1.8 1.0
+assign (resid 15   and name HA    )(resid 15   and name HG##  )     4.0 2.2 1.0
+assign (resid 15   and name HA    )(resid 16   and name HN    )     4.0 2.2 1.0
+assign (resid 15   and name HA    )(resid 17   and name HD#   )     4.0 2.2 1.0
+assign (resid 15   and name HA    )(resid 18   and name HN    )     4.0 2.2 1.0
+assign (resid 15   and name HA    )(resid 18   and name HB#   )     4.0 2.2 1.0
+assign (resid 15   and name HA    )(resid 18   and name HD#   )     4.0 2.2 1.0
+!assign (resid 15   and name HB    )(resid 15   and name HG##  )     4.0 2.2 1.0
+assign (resid 15   and name HB    )(resid 16   and name HN    )     5.0 3.2 1.0
+assign (resid 15   and name HB    )(resid 18   and name HN    )     5.0 3.2 1.0
+assign (resid 15   and name HB    )(resid 18   and name HB#   )     2.9 1.1 0.5
+assign (resid 15   and name HB    )(resid 18   and name HD#   )     4.0 2.2 1.0
+assign (resid 15   and name HB    )(resid 19   and name HN    )     5.0 3.2 1.0
+assign (resid 15   and name HB    )(resid 19   and name HB    )     5.0 3.2 1.0
+assign (resid 15   and name HB    )(resid 19   and name HG##  )     4.0 2.2 1.0
+assign (resid 15   and name HB    )(resid 63   and name HG2#  )     4.0 2.2 1.0
+assign (resid 15   and name HB    )(resid 63   and name HD1#  )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 16   and name HN    )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 18   and name HN    )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 18   and name HB#   )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 18   and name HD#   )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 18   and name HE#   )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 19   and name HN    )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 19   and name HB    )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 19   and name HG##  )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 63   and name HB    )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 63   and name HG2#  )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 64   and name HN    )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 64   and name HA    )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 64   and name HB2   )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 67   and name HN    )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 67   and name HA    )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 67   and name HB#   )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 67   and name HD#   )     4.0 2.2 1.0
+assign (resid 15   and name HG##  )(resid 67   and name HE#   )     4.0 2.2 1.0
+!R16
+assign (resid 16   and name HN    )(resid 16   and name HA    )     3.6 1.8 1.0
+assign (resid 16   and name HN    )(resid 16   and name HB#   )     3.6 1.8 1.0
+assign (resid 16   and name HN    )(resid 16   and name HG#   )     4.0 2.2 1.0
+assign (resid 16   and name HN    )(resid 16   and name HD1   )     4.0 2.2 1.0
+assign (resid 16   and name HN    )(resid 17   and name HG1   )     4.0 2.2 1.0
+assign (resid 16   and name HN    )(resid 17   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HN    )(resid 18   and name HN    )     5.0 3.2 1.0
+assign (resid 16   and name HN    )(resid 19   and name HG##  )     4.0 2.2 1.0
+assign (resid 16   and name HN    )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HN    )(resid 22   and name HE#   )     4.0 2.2 1.0
+!assign (resid 16   and name HA    )(resid 16   and name HB#   )     2.9 1.1 0.5
+assign (resid 16   and name HA    )(resid 16   and name HG#   )     4.0 2.2 1.0
+assign (resid 16   and name HA    )(resid 16   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HA    )(resid 17   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HA    )(resid 18   and name HN    )     5.0 3.2 1.0
+assign (resid 16   and name HA    )(resid 19   and name HN    )     5.0 3.2 1.0
+assign (resid 16   and name HA    )(resid 19   and name HB    )     5.0 3.2 1.0
+assign (resid 16   and name HA    )(resid 19   and name HG##  )     4.0 2.2 1.0
+assign (resid 16   and name HA    )(resid 22   and name HB2   )     4.0 2.2 1.0
+assign (resid 16   and name HA    )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HA    )(resid 22   and name HE#   )     4.0 2.2 1.0
+!assign (resid 16   and name HB#   )(resid 16   and name HG#   )     4.0 2.2 1.0
+assign (resid 16   and name HB#   )(resid 16   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HB#   )(resid 17   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HB2   )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HB#   )(resid 22   and name HE#   )     4.0 2.2 1.0
+!assign (resid 16   and name HG#   )(resid 16   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HG2   )(resid 17   and name HA    )     4.0 2.2 1.0
+assign (resid 16   and name HG2   )(resid 17   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HG1   )(resid 22   and name HB#   )     4.0 2.2 1.0
+assign (resid 16   and name HG#   )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HG1   )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 16   and name HD1   )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 16   and name HD#   )(resid 22   and name HE#   )     4.0 2.2 1.0
+!P17
+!assign (resid 17   and name HA    )(resid 17   and name HB#   )     2.9 1.1 0.5
+!assign (resid 17   and name HA    )(resid 17   and name HG1   )     4.0 2.2 1.0
+!assign (resid 17   and name HA    )(resid 17   and name HD#   )     4.0 2.2 1.0
+assign (resid 17   and name HA    )(resid 18   and name HN    )     4.0 2.2 1.0
+assign (resid 17   and name HA    )(resid 19   and name HN    )     5.0 3.2 1.0
+!assign (resid 17   and name HB#   )(resid 17   and name HG1   )     4.0 2.2 1.0
+!assign (resid 17   and name HB#   )(resid 17   and name HD#   )     4.0 2.2 1.0
+assign (resid 17   and name HB#   )(resid 18   and name HN    )     3.6 1.8 1.0
+!assign (resid 17   and name HG1   )(resid 17   and name HD#   )     4.0 2.2 1.0
+assign (resid 17   and name HG1   )(resid 18   and name HN    )     4.0 2.2 1.0
+assign (resid 17   and name HD#   )(resid 18   and name HN    )     4.0 2.2 1.0
+assign (resid 17   and name HD2   )(resid 18   and name HD#   )     4.0 2.2 1.0
+assign (resid 17   and name HD2   )(resid 19   and name HN    )     4.0 2.2 1.0
+!Y18
+assign (resid 18   and name HN    )(resid 18   and name HA    )     3.6 1.8 1.0
+assign (resid 18   and name HN    )(resid 18   and name HB#   )     3.6 1.8 1.0
+assign (resid 18   and name HN    )(resid 18   and name HD#   )     4.0 2.2 1.0
+assign (resid 18   and name HN    )(resid 19   and name HN    )     2.9 1.1 0.5
+assign (resid 18   and name HN    )(resid 19   and name HG##  )     4.0 2.2 1.0
+!assign (resid 18   and name HA    )(resid 18   and name HB#   )     2.9 1.1 0.5
+assign (resid 18   and name HA    )(resid 18   and name HD#   )     4.0 2.2 1.0
+assign (resid 18   and name HA    )(resid 18   and name HE#   )     4.0 2.2 1.0
+assign (resid 18   and name HA    )(resid 19   and name HN    )     3.6 1.8 1.0
+assign (resid 18   and name HB#   )(resid 18   and name HD#   )     4.0 2.2 1.0
+assign (resid 18   and name HB#   )(resid 18   and name HE#   )     4.0 2.2 1.0
+assign (resid 18   and name HB#   )(resid 19   and name HN    )     3.6 1.8 1.0
+assign (resid 18   and name HB1   )(resid 19   and name HA    )     5.0 3.2 1.0
+assign (resid 18   and name HB#   )(resid 19   and name HG##  )     4.0 2.2 1.0
+assign (resid 18   and name HB#   )(resid 63   and name HG2#  )     4.0 2.2 1.0
+assign (resid 18   and name HB1   )(resid 63   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 18   and name HD#   )(resid 18   and name HE#   )     4.0 2.2 1.0
+assign (resid 18   and name HD#   )(resid 63   and name HG2#  )     4.0 2.2 1.0
+assign (resid 18   and name HD#   )(resid 63   and name HD1#  )     4.0 2.2 1.0
+assign (resid 18   and name HE#   )(resid 63   and name HD1#  )     4.0 2.2 1.0
+!V19
+assign (resid 19   and name HN    )(resid 19   and name HA    )     3.6 1.8 1.0
+assign (resid 19   and name HN    )(resid 19   and name HB    )     3.6 1.8 1.0
+assign (resid 19   and name HN    )(resid 19   and name HG##  )     4.0 2.2 1.0
+assign (resid 19   and name HN    )(resid 20   and name HN    )     5.0 3.2 1.0
+!assign (resid 19   and name HA    )(resid 19   and name HB    )     3.6 1.8 1.0
+assign (resid 19   and name HA    )(resid 19   and name HG##  )     4.0 2.2 1.0
+assign (resid 19   and name HA    )(resid 20   and name HN    )     2.9 1.1 0.5
+!assign (resid 19   and name HB    )(resid 19   and name HG##  )     4.0 2.2 1.0
+assign (resid 19   and name HB    )(resid 20   and name HN    )     3.6 1.8 1.0
+assign (resid 19   and name HB    )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 19   and name HB    )(resid 25   and name HD##  )     4.0 2.2 1.0
+assign (resid 19   and name HB    )(resid 60   and name HA    )     5.0 3.2 1.0
+assign (resid 19   and name HB    )(resid 60   and name HB1   )     5.0 3.2 1.0
+assign (resid 19   and name HG##  )(resid 20   and name HN    )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 21   and name HN    )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 22   and name HN    )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 22   and name HA    )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 22   and name HB2   )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 25   and name HB2   )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 25   and name HG    )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 25   and name HD##  )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 59   and name HG2#  )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 60   and name HN    )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 60   and name HA    )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 60   and name HB#   )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 63   and name HB    )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 63   and name HG11  )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 63   and name HG2#  )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 63   and name HD1#  )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 64   and name HN    )     4.0 2.2 1.0
+assign (resid 19   and name HG##  )(resid 64   and name HB2   )     4.0 2.2 1.0
+!E20
+assign (resid 20   and name HN    )(resid 20   and name HA    )     3.6 1.8 1.0
+assign (resid 20   and name HN    )(resid 20   and name HB#   )     2.9 1.1 0.5
+assign (resid 20   and name HN    )(resid 20   and name HG#   )     4.0 2.2 1.0
+assign (resid 20   and name HN    )(resid 21   and name HN    )     5.0 3.2 1.0
+assign (resid 20   and name HN    )(resid 21   and name HD#   )     4.0 2.2 1.0
+assign (resid 20   and name HN    )(resid 60   and name HA    )     5.0 3.2 1.0
+assign (resid 20   and name HN    )(resid 60   and name HB1   )     5.0 3.2 1.0
+!assign (resid 20   and name HA    )(resid 20   and name HB#   )     2.9 1.1 0.5
+assign (resid 20   and name HA    )(resid 20   and name HG#   )     4.0 2.2 1.0
+assign (resid 20   and name HA    )(resid 21   and name HN    )     4.0 2.2 1.0
+assign (resid 20   and name HA    )(resid 22   and name HN    )     5.0 3.2 1.0
+!assign (resid 20   and name HB#   )(resid 20   and name HG#   )     4.0 2.2 1.0
+assign (resid 20   and name HB#   )(resid 21   and name HN    )     2.9 1.1 0.5
+assign (resid 20   and name HB#   )(resid 21   and name HD#   )     4.0 2.2 1.0
+assign (resid 20   and name HB1   )(resid 21   and name HE#   )     4.0 2.2 1.0
+assign (resid 20   and name HG1   )(resid 21   and name HN    )     4.0 2.2 1.0
+assign (resid 20   and name HG1   )(resid 21   and name HD#   )     4.0 2.2 1.0
+assign (resid 20   and name HG2   )(resid 21   and name HE#   )     4.0 2.2 1.0
+!Y21
+assign (resid 21   and name HN    )(resid 21   and name HA    )     3.6 1.8 1.0
+assign (resid 21   and name HN    )(resid 21   and name HB#   )     3.6 1.8 1.0
+assign (resid 21   and name HN    )(resid 21   and name HD#   )     4.0 2.2 1.0
+assign (resid 21   and name HN    )(resid 22   and name HN    )     4.0 2.2 1.0
+!assign (resid 21   and name HA    )(resid 21   and name HB#   )     3.6 1.8 1.0
+assign (resid 21   and name HA    )(resid 21   and name HD#   )     4.0 2.2 1.0
+assign (resid 21   and name HA    )(resid 21   and name HE#   )     4.0 2.2 1.0
+assign (resid 21   and name HA    )(resid 22   and name HN    )     2.9 1.1 0.5
+assign (resid 21   and name HA    )(resid 22   and name HB1   )     5.0 3.2 1.0
+assign (resid 21   and name HA    )(resid 23   and name HN    )     4.0 2.2 1.0
+assign (resid 21   and name HA    )(resid 23   and name HB2   )     5.0 3.2 1.0
+assign (resid 21   and name HA    )(resid 24   and name HN    )     5.0 3.2 1.0
+assign (resid 21   and name HA    )(resid 24   and name HB2   )     5.0 3.2 1.0
+assign (resid 21   and name HB#   )(resid 21   and name HD#   )     4.0 2.2 1.0
+assign (resid 21   and name HB#   )(resid 21   and name HE#   )     4.0 2.2 1.0
+assign (resid 21   and name HB#   )(resid 22   and name HN    )     4.0 2.2 1.0
+assign (resid 21   and name HB#   )(resid 24   and name HN    )     4.0 2.2 1.0
+assign (resid 21   and name HB1   )(resid 24   and name HN    )     4.0 2.2 1.0
+assign (resid 21   and name HB1   )(resid 24   and name HA    )     5.0 3.2 1.0
+assign (resid 21   and name HB#   )(resid 24   and name HB#   )     3.6 1.8 1.0
+assign (resid 21   and name HB#   )(resid 24   and name HG#   )     4.0 2.2 1.0
+assign (resid 21   and name HB#   )(resid 25   and name HN    )     5.0 3.2 1.0
+assign (resid 21   and name HB#   )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 21   and name HB#   )(resid 57   and name HE#   )     4.0 2.2 1.0
+!assign (resid 21   and name HD#   )(resid 21   and name HE#   )     4.0 2.2 1.0
+assign (resid 21   and name HD#   )(resid 22   and name HN    )     4.0 2.2 1.0
+assign (resid 21   and name HD#   )(resid 24   and name HG#   )     4.0 2.2 1.0
+assign (resid 21   and name HD#   )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 21   and name HE#   )(resid 56   and name HB1   )     4.0 2.2 1.0
+assign (resid 21   and name HE#   )(resid 56   and name HG#   )     4.0 2.2 1.0
+assign (resid 21   and name HE#   )(resid 56   and name HD2   )     4.0 2.2 1.0
+assign (resid 21   and name HE#   )(resid 57   and name HN    )     4.0 2.2 1.0
+!Y22
+assign (resid 22   and name HN    )(resid 22   and name HA    )     3.6 1.8 1.0
+assign (resid 22   and name HN    )(resid 22   and name HB#   )     2.9 1.1 0.5
+assign (resid 22   and name HN    )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 22   and name HN    )(resid 23   and name HN    )     3.6 1.8 1.0
+!assign (resid 22   and name HN    )(resid 24   and name HN    )     5.0 3.2 1.0
+!assign (resid 22   and name HA    )(resid 22   and name HB#   )     2.9 1.1 0.5
+assign (resid 22   and name HA    )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 22   and name HA    )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 22   and name HA    )(resid 23   and name HN    )     4.0 2.2 1.0
+assign (resid 22   and name HA    )(resid 25   and name HN    )     3.6 1.8 1.0
+assign (resid 22   and name HA    )(resid 25   and name HB1   )     4.0 2.2 1.0
+assign (resid 22   and name HA    )(resid 25   and name HD##  )     4.0 2.2 1.0
+assign (resid 22   and name HA    )(resid 26   and name HN    )     5.0 3.2 1.0
+assign (resid 22   and name HB#   )(resid 22   and name HD#   )     4.0 2.2 1.0
+assign (resid 22   and name HB#   )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 22   and name HB#   )(resid 23   and name HN    )     2.9 1.1 0.5
+!assign (resid 22   and name HD#   )(resid 22   and name HE#   )     4.0 2.2 1.0
+assign (resid 22   and name HD#   )(resid 23   and name HN    )     4.0 2.2 1.0
+assign (resid 22   and name HD#   )(resid 23   and name HA    )     4.0 2.2 1.0
+assign (resid 22   and name HD#   )(resid 26   and name HN    )     4.0 2.2 1.0
+assign (resid 22   and name HD#   )(resid 26   and name HD1   )     4.0 2.2 1.0
+assign (resid 22   and name HE#   )(resid 26   and name HG#   )     4.0 2.2 1.0
+assign (resid 22   and name HE#   )(resid 26   and name HD1   )     4.0 2.2 1.0
+assign (resid 22   and name HE#   )(resid 26   and name HE#   )     4.0 2.2 1.0
+!N23
+assign (resid 23   and name HN    )(resid 23   and name HA    )     3.6 1.8 1.0
+assign (resid 23   and name HN    )(resid 23   and name HB#   )     2.9 1.1 0.5
+assign (resid 23   and name HN    )(resid 23   and name HD2#  )     4.0 2.2 1.0
+assign (resid 23   and name HN    )(resid 24   and name HN    )     3.6 1.8 1.0
+assign (resid 23   and name HN    )(resid 24   and name HB2   )     5.0 3.2 1.0
+!assign (resid 23   and name HN    )(resid 25   and name HN    )     5.0 3.2 1.0
+!assign (resid 23   and name HA    )(resid 23   and name HB#   )     2.9 1.1 0.5
+assign (resid 23   and name HA    )(resid 23   and name HD2#  )     4.0 2.2 1.0
+assign (resid 23   and name HA    )(resid 24   and name HN    )     4.0 2.2 1.0
+assign (resid 23   and name HA    )(resid 25   and name HN    )     5.0 3.2 1.0
+assign (resid 23   and name HA    )(resid 26   and name HN    )     3.6 1.8 1.0
+assign (resid 23   and name HA    )(resid 26   and name HB#   )     3.6 1.8 1.0
+assign (resid 23   and name HA    )(resid 26   and name HG#   )     4.0 2.2 1.0
+assign (resid 23   and name HA    )(resid 26   and name HD1   )     4.0 2.2 1.0
+assign (resid 23   and name HA    )(resid 26   and name HE#   )     4.0 2.2 1.0
+assign (resid 23   and name HA    )(resid 27   and name HN    )     5.0 3.2 1.0
+assign (resid 23   and name HA    )(resid 27   and name HB#   )     4.0 2.2 1.0
+assign (resid 23   and name HB#   )(resid 23   and name HD2#  )     4.0 2.2 1.0
+assign (resid 23   and name HB#   )(resid 24   and name HN    )     3.6 1.8 1.0
+assign (resid 23   and name HB#   )(resid 24   and name HA    )     5.0 3.2 1.0
+!E24
+assign (resid 24   and name HN    )(resid 24   and name HA    )     3.6 1.8 1.0
+assign (resid 24   and name HN    )(resid 24   and name HB2   )     3.6 1.8 1.0
+assign (resid 24   and name HN    )(resid 24   and name HB#   )     3.6 1.8 1.0
+assign (resid 24   and name HN    )(resid 24   and name HG2   )     4.0 2.2 1.0
+assign (resid 24   and name HN    )(resid 24   and name HG#   )     4.0 2.2 1.0
+assign (resid 24   and name HN    )(resid 25   and name HN    )     3.6 1.8 1.0
+assign (resid 24   and name HN    )(resid 25   and name HB2   )     5.0 3.2 1.0
+!assign (resid 24   and name HN    )(resid 26   and name HN    )     4.0 2.2 1.0
+assign (resid 24   and name HN    )(resid 27   and name HN    )     5.0 3.2 1.0
+assign (resid 24   and name HN    )(resid 27   and name HB#   )     4.0 2.2 1.0
+assign (resid 24   and name HN    )(resid 57   and name HE#   )     4.0 2.2 1.0
+!assign (resid 24   and name HA    )(resid 24   and name HB#   )     2.9 1.1 0.5
+assign (resid 24   and name HA    )(resid 24   and name HG#   )     4.0 2.2 1.0
+assign (resid 24   and name HA    )(resid 25   and name HN    )     3.6 1.8 1.0
+assign (resid 24   and name HA    )(resid 26   and name HN    )     5.0 3.2 1.0
+assign (resid 24   and name HA    )(resid 27   and name HN    )     4.0 2.2 1.0
+assign (resid 24   and name HA    )(resid 27   and name HB#   )     4.0 2.2 1.0
+assign (resid 24   and name HA    )(resid 28   and name HN    )     5.0 3.2 1.0
+!assign (resid 24   and name HB#   )(resid 24   and name HG#   )     4.0 2.2 1.0
+assign (resid 24   and name HB#   )(resid 25   and name HN    )     2.9 1.1 0.5
+assign (resid 24   and name HB1   )(resid 25   and name HN    )     4.0 2.2 1.0
+assign (resid 24   and name HB1   )(resid 25   and name HA    )     5.0 3.2 1.0
+assign (resid 24   and name HB2   )(resid 25   and name HB2   )     5.0 3.2 1.0
+assign (resid 24   and name HB2   )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 24   and name HB#   )(resid 57   and name HE#   )     4.0 2.2 1.0
+assign (resid 24   and name HB1   )(resid 57   and name HZ    )     4.0 2.2 1.0
+assign (resid 24   and name HG2   )(resid 25   and name HN    )     4.0 2.2 1.0
+assign (resid 24   and name HG#   )(resid 25   and name HN    )     4.0 2.2 1.0
+assign (resid 24   and name HG#   )(resid 57   and name HE#   )     4.0 2.2 1.0
+assign (resid 24   and name HG1   )(resid 57   and name HZ    )     4.0 2.2 1.0
+!L25
+assign (resid 25   and name HN    )(resid 25   and name HA    )     3.6 1.8 1.0
+assign (resid 25   and name HN    )(resid 25   and name HB#   )     2.9 1.1 0.5
+assign (resid 25   and name HN    )(resid 25   and name HG    )     4.0 2.2 1.0
+assign (resid 25   and name HN    )(resid 25   and name HD##  )     4.0 2.2 1.0
+assign (resid 25   and name HN    )(resid 26   and name HN    )     2.9 1.1 0.5
+!assign (resid 25   and name HN    )(resid 27   and name HN    )     4.0 2.2 1.0
+assign (resid 25   and name HN    )(resid 27   and name HB#   )     4.0 2.2 1.0
+assign (resid 25   and name HN    )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 25   and name HN    )(resid 57   and name HE#   )     4.0 2.2 1.0
+assign (resid 25   and name HN    )(resid 57   and name HZ    )     4.0 2.2 1.0
+!assign (resid 25   and name HA    )(resid 25   and name HB#   )     2.9 1.1 0.5
+assign (resid 25   and name HA    )(resid 25   and name HG    )     4.0 2.2 1.0
+assign (resid 25   and name HA    )(resid 25   and name HD##  )     4.0 2.2 1.0
+assign (resid 25   and name HA    )(resid 26   and name HN    )     4.0 2.2 1.0
+assign (resid 25   and name HA    )(resid 28   and name HN    )     3.6 1.8 1.0
+assign (resid 25   and name HA    )(resid 28   and name HB#   )     3.6 1.8 1.0
+assign (resid 25   and name HA    )(resid 29   and name HN    )     5.0 3.2 1.0
+assign (resid 25   and name HA    )(resid 57   and name HE#   )     4.0 2.2 1.0
+assign (resid 25   and name HA    )(resid 57   and name HZ    )     4.0 2.2 1.0
+!assign (resid 25   and name HB#   )(resid 25   and name HG    )     4.0 2.2 1.0
+assign (resid 25   and name HB#   )(resid 25   and name HD##  )     4.0 2.2 1.0
+assign (resid 25   and name HB2   )(resid 26   and name HN    )     3.6 1.8 1.0
+assign (resid 25   and name HB#   )(resid 26   and name HN    )     3.6 1.8 1.0
+assign (resid 25   and name HB1   )(resid 57   and name HE#   )     4.0 2.2 1.0
+!assign (resid 25   and name HG    )(resid 25   and name HD##  )     4.0 2.2 1.0
+assign (resid 25   and name HG    )(resid 28   and name HD##  )     4.0 2.2 1.0
+assign (resid 25   and name HG    )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 28   and name HB1   )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 29   and name HN    )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 57   and name HE#   )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 57   and name HZ    )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 60   and name HN    )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 60   and name HB#   )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 61   and name HN    )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 61   and name HA    )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 61   and name HG1#  )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 64   and name HN    )     4.0 2.2 1.0
+assign (resid 25   and name HD##  )(resid 64   and name HB2   )     4.0 2.2 1.0
+!K26
+assign (resid 26   and name HN    )(resid 26   and name HA    )     3.6 1.8 1.0
+assign (resid 26   and name HN    )(resid 26   and name HB#   )     2.9 1.1 0.5
+assign (resid 26   and name HN    )(resid 26   and name HG#   )     4.0 2.2 1.0
+assign (resid 26   and name HN    )(resid 26   and name HD1   )     4.0 2.2 1.0
+assign (resid 26   and name HN    )(resid 27   and name HN    )     2.9 1.1 0.5
+assign (resid 26   and name HN    )(resid 27   and name HB#   )     4.0 2.2 1.0
+!assign (resid 26   and name HN    )(resid 28   and name HN    )     5.0 3.2 1.0
+assign (resid 26   and name HN    )(resid 29   and name HN    )     5.0 3.2 1.0
+assign (resid 26   and name HN    )(resid 29   and name HG##  )     4.0 2.2 1.0
+!assign (resid 26   and name HA    )(resid 26   and name HB#   )     2.9 1.1 0.5
+assign (resid 26   and name HA    )(resid 26   and name HG#   )     4.0 2.2 1.0
+assign (resid 26   and name HA    )(resid 26   and name HD#   )     4.0 2.2 1.0
+assign (resid 26   and name HA    )(resid 27   and name HN    )     4.0 2.2 1.0
+assign (resid 26   and name HA    )(resid 27   and name HA    )     4.0 2.2 1.0
+assign (resid 26   and name HA    )(resid 27   and name HB#   )     4.0 2.2 1.0
+assign (resid 26   and name HA    )(resid 29   and name HN    )     3.6 1.8 1.0
+assign (resid 26   and name HA    )(resid 29   and name HB    )     3.6 1.8 1.0
+assign (resid 26   and name HA    )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 26   and name HA    )(resid 30   and name HN    )     4.0 2.2 1.0
+!assign (resid 26   and name HB#   )(resid 26   and name HG#   )     4.0 2.2 1.0
+assign (resid 26   and name HB#   )(resid 26   and name HE#   )     4.0 2.2 1.0
+assign (resid 26   and name HB#   )(resid 27   and name HN    )     2.9 1.1 0.5
+assign (resid 26   and name HB1   )(resid 27   and name HB#   )     4.0 2.2 1.0
+!assign (resid 26   and name HG#   )(resid 26   and name HD#   )     4.0 2.2 1.0
+assign (resid 26   and name HG#   )(resid 26   and name HE#   )     4.0 2.2 1.0
+assign (resid 26   and name HG#   )(resid 27   and name HN    )     4.0 2.2 1.0
+assign (resid 26   and name HG#   )(resid 27   and name HA    )     4.0 2.2 1.0
+assign (resid 26   and name HG#   )(resid 30   and name HN    )     4.0 2.2 1.0
+assign (resid 26   and name HG#   )(resid 30   and name HB2   )     4.0 2.2 1.0
+!assign (resid 26   and name HD#   )(resid 26   and name HE#   )     4.0 2.2 1.0
+assign (resid 26   and name HD2   )(resid 29   and name HG##  )     4.0 2.2 1.0
+!A27
+assign (resid 27   and name HN    )(resid 27   and name HA    )     4.0 2.2 1.0
+assign (resid 27   and name HN    )(resid 27   and name HB#   )     4.0 2.2 1.0
+assign (resid 27   and name HN    )(resid 28   and name HN    )     2.9 1.1 0.5
+!assign (resid 27   and name HN    )(resid 29   and name HN    )     4.0 2.2 1.0
+!assign (resid 27   and name HA    )(resid 27   and name HB#   )     4.0 2.2 1.0
+assign (resid 27   and name HA    )(resid 28   and name HN    )     4.0 2.2 1.0
+assign (resid 27   and name HA    )(resid 29   and name HN    )     4.0 2.2 1.0
+assign (resid 27   and name HA    )(resid 30   and name HN    )     4.0 2.2 1.0
+assign (resid 27   and name HA    )(resid 30   and name HB#   )     4.0 2.2 1.0
+assign (resid 27   and name HA    )(resid 31   and name HN    )     4.0 2.2 1.0
+assign (resid 27   and name HB#   )(resid 28   and name HN    )     4.0 2.2 1.0
+assign (resid 27   and name HB#   )(resid 28   and name HA    )     4.0 2.2 1.0
+assign (resid 27   and name HB#   )(resid 28   and name HB1   )     4.0 2.2 1.0
+assign (resid 27   and name HB#   )(resid 29   and name HN    )     4.0 2.2 1.0
+assign (resid 27   and name HB#   )(resid 30   and name HN    )     4.0 2.2 1.0
+assign (resid 27   and name HB#   )(resid 30   and name HB1   )     4.0 2.2 1.0
+assign (resid 27   and name HB#   )(resid 31   and name HB2   )     4.0 2.2 1.0
+!L28
+assign (resid 28   and name HN    )(resid 28   and name HA    )     3.6 1.8 1.0
+assign (resid 28   and name HN    )(resid 28   and name HB#   )     2.9 1.1 0.5
+assign (resid 28   and name HN    )(resid 28   and name HG    )     4.0 2.2 1.0
+assign (resid 28   and name HN    )(resid 28   and name HD##  )     4.0 2.2 1.0
+assign (resid 28   and name HN    )(resid 29   and name HN    )     2.9 1.1 0.5
+assign (resid 28   and name HN    )(resid 29   and name HG##  )     4.0 2.2 1.0
+!assign (resid 28   and name HN    )(resid 30   and name HN    )     4.0 2.2 1.0
+assign (resid 28   and name HN    )(resid 31   and name HN    )     5.0 3.2 1.0
+assign (resid 28   and name HN    )(resid 57   and name HZ    )     4.0 2.2 1.0
+!assign (resid 28   and name HA    )(resid 28   and name HB#   )     3.6 1.8 1.0
+assign (resid 28   and name HA    )(resid 28   and name HG    )     4.0 2.2 1.0
+assign (resid 28   and name HA    )(resid 28   and name HD##  )     4.0 2.2 1.0
+assign (resid 28   and name HA    )(resid 29   and name HN    )     4.0 2.2 1.0
+assign (resid 28   and name HA    )(resid 29   and name HA    )     5.0 3.2 1.0
+assign (resid 28   and name HA    )(resid 30   and name HN    )     5.0 3.2 1.0
+assign (resid 28   and name HA    )(resid 31   and name HN    )     3.6 1.8 1.0
+assign (resid 28   and name HA    )(resid 31   and name HB#   )     3.6 1.8 1.0
+assign (resid 28   and name HA    )(resid 31   and name HD#   )     4.0 2.2 1.0
+assign (resid 28   and name HA    )(resid 32   and name HN    )     5.0 3.2 1.0
+!assign (resid 28   and name HB#   )(resid 28   and name HG    )     4.0 2.2 1.0
+assign (resid 28   and name HB#   )(resid 28   and name HD##  )     4.0 2.2 1.0
+assign (resid 28   and name HB#   )(resid 29   and name HN    )     2.9 1.1 0.5
+assign (resid 28   and name HB#   )(resid 57   and name HZ    )     4.0 2.2 1.0
+!assign (resid 28   and name HG    )(resid 28   and name HD##  )     4.0 2.2 1.0
+assign (resid 28   and name HG    )(resid 29   and name HN    )     4.0 2.2 1.0
+assign (resid 28   and name HG    )(resid 29   and name HA    )     4.0 2.2 1.0
+assign (resid 28   and name HG    )(resid 31   and name HB1   )     4.0 2.2 1.0
+assign (resid 28   and name HG    )(resid 32   and name HN    )     4.0 2.2 1.0
+assign (resid 28   and name HG    )(resid 32   and name HD1#  )     4.0 2.2 1.0
+assign (resid 28   and name HG    )(resid 57   and name HZ    )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 29   and name HN    )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 31   and name HB1   )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 31   and name HD2   )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 32   and name HD1#  )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 46   and name HA    )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 46   and name HD##  )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 49   and name HB#   )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 49   and name HG2   )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 52   and name HE#   )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 57   and name HE#   )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 57   and name HZ    )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 61   and name HG1#  )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 28   and name HD##  )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!V29
+assign (resid 29   and name HN    )(resid 29   and name HA    )     3.6 1.8 1.0
+assign (resid 29   and name HN    )(resid 29   and name HB    )     3.6 1.8 1.0
+assign (resid 29   and name HN    )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 29   and name HN    )(resid 30   and name HN    )     2.9 1.1 0.5
+assign (resid 29   and name HN    )(resid 30   and name HB1   )     5.0 3.2 1.0
+!assign (resid 29   and name HN    )(resid 31   and name HN    )     5.0 3.2 1.0
+assign (resid 29   and name HN    )(resid 64   and name HD##  )     4.0 2.2 1.0
+!assign (resid 29   and name HA    )(resid 29   and name HB    )     3.6 1.8 1.0
+assign (resid 29   and name HA    )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 29   and name HA    )(resid 30   and name HN    )     3.6 1.8 1.0
+assign (resid 29   and name HA    )(resid 31   and name HN    )     5.0 3.2 1.0
+assign (resid 29   and name HA    )(resid 32   and name HN    )     3.6 1.8 1.0
+assign (resid 29   and name HA    )(resid 32   and name HB    )     2.9 1.1 0.5
+assign (resid 29   and name HA    )(resid 32   and name HG1#  )     4.0 2.2 1.0
+assign (resid 29   and name HA    )(resid 32   and name HD1#  )     4.0 2.2 1.0
+assign (resid 29   and name HA    )(resid 33   and name HN    )     4.0 2.2 1.0
+!assign (resid 29   and name HB    )(resid 29   and name HG##  )     4.0 2.2 1.0
+assign (resid 29   and name HB    )(resid 30   and name HN    )     3.6 1.8 1.0
+assign (resid 29   and name HG##  )(resid 30   and name HN    )     4.0 2.2 1.0
+assign (resid 29   and name HG##  )(resid 30   and name HA    )     4.0 2.2 1.0
+assign (resid 29   and name HG##  )(resid 30   and name HB2   )     4.0 2.2 1.0
+assign (resid 29   and name HG##  )(resid 31   and name HN    )     4.0 2.2 1.0
+assign (resid 29   and name HG##  )(resid 32   and name HN    )     4.0 2.2 1.0
+assign (resid 29   and name HG##  )(resid 32   and name HB    )     4.0 2.2 1.0
+assign (resid 29   and name HG##  )(resid 33   and name HN    )     4.0 2.2 1.0
+assign (resid 29   and name HG##  )(resid 33   and name HB#   )     4.0 2.2 1.0
+assign (resid 29   and name HG##  )(resid 64   and name HD##  )     4.0 2.2 1.0
+!S30
+assign (resid 30   and name HN    )(resid 30   and name HA    )     3.6 1.8 1.0
+assign (resid 30   and name HN    )(resid 30   and name HB#   )     2.9 1.1 0.5
+assign (resid 30   and name HN    )(resid 31   and name HN    )     2.9 1.1 0.5
+assign (resid 30   and name HN    )(resid 31   and name HB2   )     5.0 3.2 1.0
+assign (resid 30   and name HN    )(resid 33   and name HN    )     5.0 3.2 1.0
+!assign (resid 30   and name HA    )(resid 30   and name HB#   )     2.9 1.1 0.5
+assign (resid 30   and name HA    )(resid 31   and name HN    )     4.0 2.2 1.0
+assign (resid 30   and name HA    )(resid 33   and name HN    )     3.6 1.8 1.0
+assign (resid 30   and name HA    )(resid 33   and name HB1   )     5.0 3.2 1.0
+assign (resid 30   and name HA    )(resid 34   and name HN    )     5.0 3.2 1.0
+assign (resid 30   and name HB#   )(resid 31   and name HN    )     3.6 1.8 1.0
+assign (resid 30   and name HB1   )(resid 31   and name HB2   )     5.0 3.2 1.0
+!K31
+assign (resid 31   and name HN    )(resid 31   and name HA    )     2.9 1.1 0.5
+assign (resid 31   and name HN    )(resid 31   and name HB#   )     2.9 1.1 0.5
+assign (resid 31   and name HN    )(resid 31   and name HG#   )     4.0 2.2 1.0
+assign (resid 31   and name HN    )(resid 31   and name HD1   )     4.0 2.2 1.0
+assign (resid 31   and name HN    )(resid 32   and name HN    )     2.9 1.1 0.5
+assign (resid 31   and name HN    )(resid 32   and name HB    )     4.0 2.2 1.0
+assign (resid 31   and name HN    )(resid 32   and name HG11  )     4.0 2.2 1.0
+assign (resid 31   and name HN    )(resid 32   and name HD1#  )     4.0 2.2 1.0
+assign (resid 31   and name HN    )(resid 33   and name HN    )     4.0 2.2 1.0
+!assign (resid 31   and name HA    )(resid 31   and name HB#   )     2.9 1.1 0.5
+assign (resid 31   and name HA    )(resid 31   and name HG#   )     4.0 2.2 1.0
+assign (resid 31   and name HA    )(resid 32   and name HN    )     3.6 1.8 1.0
+assign (resid 31   and name HA    )(resid 33   and name HN    )     5.0 3.2 1.0
+assign (resid 31   and name HA    )(resid 34   and name HN    )     4.0 2.2 1.0
+!assign (resid 31   and name HB#   )(resid 31   and name HG#   )     4.0 2.2 1.0
+assign (resid 31   and name HB#   )(resid 31   and name HD#   )     4.0 2.2 1.0
+assign (resid 31   and name HB#   )(resid 32   and name HN    )     2.9 1.1 0.5
+assign (resid 31   and name HB1   )(resid 32   and name HA    )     5.0 3.2 1.0
+assign (resid 31   and name HB1   )(resid 32   and name HG11  )     4.0 2.2 1.0
+assign (resid 31   and name HB1   )(resid 32   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 31   and name HG#   )(resid 31   and name HD#   )     4.0 2.2 1.0
+assign (resid 31   and name HG2   )(resid 32   and name HN    )     4.0 2.2 1.0
+assign (resid 31   and name HG2   )(resid 32   and name HA    )     4.0 2.2 1.0
+assign (resid 31   and name HD1   )(resid 32   and name HN    )     4.0 2.2 1.0
+assign (resid 31   and name HD1   )(resid 32   and name HD1#  )     4.0 2.2 1.0
+!I32
+assign (resid 32   and name HN    )(resid 32   and name HA    )     3.6 1.8 1.0
+assign (resid 32   and name HN    )(resid 32   and name HB    )     2.9 1.1 0.5
+assign (resid 32   and name HN    )(resid 32   and name HG1#  )     4.0 2.2 1.0
+assign (resid 32   and name HN    )(resid 32   and name HG11  )     4.0 2.2 1.0
+assign (resid 32   and name HN    )(resid 32   and name HG2#  )     4.0 2.2 1.0
+assign (resid 32   and name HN    )(resid 32   and name HD1#  )     4.0 2.2 1.0
+assign (resid 32   and name HN    )(resid 33   and name HN    )     2.9 1.1 0.5
+assign (resid 32   and name HN    )(resid 34   and name HN    )     5.0 3.2 1.0
+!assign (resid 32   and name HA    )(resid 32   and name HB    )     3.6 1.8 1.0
+assign (resid 32   and name HA    )(resid 32   and name HG1#  )     4.0 2.2 1.0
+assign (resid 32   and name HA    )(resid 32   and name HG2#  )     4.0 2.2 1.0
+assign (resid 32   and name HA    )(resid 32   and name HD1#  )     4.0 2.2 1.0
+assign (resid 32   and name HA    )(resid 33   and name HN    )     3.6 1.8 1.0
+assign (resid 32   and name HA    )(resid 33   and name HA    )     5.0 3.2 1.0
+assign (resid 32   and name HA    )(resid 34   and name HN    )     5.0 3.2 1.0
+assign (resid 32   and name HA    )(resid 35   and name HN    )     5.0 3.2 1.0
+assign (resid 32   and name HA    )(resid 35   and name HA    )     5.0 3.2 1.0
+assign (resid 32   and name HA    )(resid 36   and name HN    )     5.0 3.2 1.0
+assign (resid 32   and name HA    )(resid 45   and name HG##  )     4.0 2.2 1.0
+!assign (resid 32   and name HB    )(resid 32   and name HG1#  )     4.0 2.2 1.0
+!assign (resid 32   and name HB    )(resid 32   and name HG2#  )     4.0 2.2 1.0
+assign (resid 32   and name HB    )(resid 32   and name HD1#  )     4.0 2.2 1.0
+assign (resid 32   and name HB    )(resid 33   and name HN    )     2.9 1.1 0.5
+assign (resid 32   and name HB    )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 32   and name HG1#  )(resid 32   and name HG2#  )     4.0 2.2 1.0
+!assign (resid 32   and name HG1#  )(resid 32   and name HD1#  )     4.0 2.2 1.0
+assign (resid 32   and name HG1#  )(resid 33   and name HN    )     4.0 2.2 1.0
+assign (resid 32   and name HG11  )(resid 33   and name HN    )     4.0 2.2 1.0
+assign (resid 32   and name HG12  )(resid 45   and name HG##  )     4.0 2.2 1.0
+assign (resid 32   and name HG2#  )(resid 32   and name HD1#  )     4.0 2.2 1.0
+assign (resid 32   and name HG2#  )(resid 33   and name HN    )     4.0 2.2 1.0
+assign (resid 32   and name HG2#  )(resid 35   and name HB2   )     4.0 2.2 1.0
+assign (resid 32   and name HG2#  )(resid 42   and name HA    )     4.0 2.2 1.0
+assign (resid 32   and name HG2#  )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 32   and name HG2#  )(resid 45   and name HN    )     4.0 2.2 1.0
+assign (resid 32   and name HG2#  )(resid 45   and name HB    )     4.0 2.2 1.0
+assign (resid 32   and name HG2#  )(resid 45   and name HG##  )     4.0 2.2 1.0
+assign (resid 32   and name HD1#  )(resid 33   and name HN    )     4.0 2.2 1.0
+assign (resid 32   and name HD1#  )(resid 45   and name HB    )     4.0 2.2 1.0
+assign (resid 32   and name HD1#  )(resid 45   and name HG##  )     4.0 2.2 1.0
+assign (resid 32   and name HD1#  )(resid 46   and name HN    )     4.0 2.2 1.0
+assign (resid 32   and name HD1#  )(resid 46   and name HA    )     4.0 2.2 1.0
+assign (resid 32   and name HD1#  )(resid 49   and name HG#   )     4.0 2.2 1.0
+!S33
+assign (resid 33   and name HN    )(resid 33   and name HA    )     2.9 1.1 0.5
+assign (resid 33   and name HN    )(resid 33   and name HB#   )     2.9 1.1 0.5
+assign (resid 33   and name HN    )(resid 34   and name HN    )     3.6 1.8 1.0
+assign (resid 33   and name HN    )(resid 35   and name HN    )     5.0 3.2 1.0
+assign (resid 33   and name HN    )(resid 36   and name HN    )     5.0 3.2 1.0
+assign (resid 33   and name HN    )(resid 36   and name HG##  )     4.0 2.2 1.0
+assign (resid 33   and name HA    )(resid 34   and name HN    )     3.6 1.8 1.0
+assign (resid 33   and name HA    )(resid 36   and name HN    )     5.0 3.2 1.0
+assign (resid 33   and name HA    )(resid 36   and name HG##  )     4.0 2.2 1.0
+assign (resid 33   and name HB1   )(resid 34   and name HN    )     3.6 1.8 1.0
+!S34
+assign (resid 34   and name HN    )(resid 34   and name HA    )     2.9 1.1 0.5
+assign (resid 34   and name HN    )(resid 34   and name HB#   )     3.6 1.8 1.0
+assign (resid 34   and name HN    )(resid 35   and name HN    )     2.9 1.1 0.5
+assign (resid 34   and name HN    )(resid 36   and name HN    )     3.6 1.8 1.0
+assign (resid 34   and name HN    )(resid 36   and name HG##  )     4.0 2.2 1.0
+!assign (resid 34   and name HA    )(resid 34   and name HB#   )     2.9 1.1 0.5
+assign (resid 34   and name HA    )(resid 35   and name HN    )     3.6 1.8 1.0
+assign (resid 34   and name HA    )(resid 36   and name HN    )     5.0 3.2 1.0
+assign (resid 34   and name HB#   )(resid 35   and name HN    )     4.0 2.2 1.0
+!S35
+assign (resid 35   and name HN    )(resid 35   and name HA    )     3.6 1.8 1.0
+assign (resid 35   and name HN    )(resid 35   and name HB#   )     2.9 1.1 0.5
+assign (resid 35   and name HN    )(resid 36   and name HN    )     2.9 1.1 0.5
+assign (resid 35   and name HN    )(resid 36   and name HG##  )     4.0 2.2 1.0
+!assign (resid 35   and name HA    )(resid 35   and name HB#   )     2.9 1.1 0.5
+assign (resid 35   and name HA    )(resid 36   and name HN    )     3.6 1.8 1.0
+assign (resid 35   and name HB#   )(resid 36   and name HN    )     3.6 1.8 1.0
+assign (resid 35   and name HB2   )(resid 36   and name HG##  )     4.0 2.2 1.0
+!V36
+assign (resid 36   and name HN    )(resid 36   and name HA    )     3.6 1.8 1.0
+assign (resid 36   and name HN    )(resid 36   and name HB    )     3.6 1.8 1.0
+assign (resid 36   and name HN    )(resid 36   and name HG##  )     4.0 2.2 1.0
+assign (resid 36   and name HN    )(resid 37   and name HN    )     5.0 3.2 1.0
+!assign (resid 36   and name HA    )(resid 36   and name HB    )     3.6 1.8 1.0
+assign (resid 36   and name HA    )(resid 36   and name HG##  )     4.0 2.2 1.0
+assign (resid 36   and name HA    )(resid 37   and name HN    )     2.9 1.1 0.5
+assign (resid 36   and name HA    )(resid 41   and name HB#   )     4.0 2.2 1.0
+assign (resid 36   and name HA    )(resid 41   and name HG1   )     4.0 2.2 1.0
+!assign (resid 36   and name HB    )(resid 36   and name HG##  )     4.0 2.2 1.0
+assign (resid 36   and name HB    )(resid 37   and name HN    )     2.9 1.1 0.5
+assign (resid 36   and name HB    )(resid 37   and name HA    )     5.0 3.2 1.0
+assign (resid 36   and name HB    )(resid 38   and name HN    )     2.9 1.1 0.5
+assign (resid 36   and name HB    )(resid 41   and name HB1   )     3.6 1.8 1.0
+assign (resid 36   and name HB    )(resid 41   and name HG2   )     4.0 2.2 1.0
+assign (resid 36   and name HB    )(resid 42   and name HN    )     5.0 3.2 1.0
+assign (resid 36   and name HB    )(resid 42   and name HA    )     4.0 2.2 1.0
+assign (resid 36   and name HB    )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 37   and name HN    )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 37   and name HA    )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 38   and name HN    )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 41   and name HA    )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 41   and name HB1   )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 41   and name HG#   )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 42   and name HN    )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 42   and name HA    )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 43   and name HN    )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 45   and name HN    )     4.0 2.2 1.0
+assign (resid 36   and name HG##  )(resid 45   and name HB    )     4.0 2.2 1.0
+!N37
+assign (resid 37   and name HN    )(resid 37   and name HA    )     3.6 1.8 1.0
+assign (resid 37   and name HN    )(resid 37   and name HB#   )     2.9 1.1 0.5
+assign (resid 37   and name HN    )(resid 37   and name HD2#  )     4.0 2.2 1.0
+assign (resid 37   and name HN    )(resid 38   and name HN    )     2.9 1.1 0.5
+assign (resid 37   and name HN    )(resid 41   and name HB#   )     3.6 1.8 1.0
+!assign (resid 37   and name HA    )(resid 37   and name HB#   )     2.9 1.1 0.5
+assign (resid 37   and name HA    )(resid 38   and name HN    )     3.6 1.8 1.0
+assign (resid 37   and name HB#   )(resid 37   and name HD2#  )     4.0 2.2 1.0
+assign (resid 37   and name HB#   )(resid 38   and name HN    )     2.9 1.1 0.5
+assign (resid 37   and name HB#   )(resid 41   and name HB2   )     4.0 2.2 1.0
+assign (resid 37   and name HB2   )(resid 41   and name HG2   )     4.0 2.2 1.0
+!D38
+assign (resid 38   and name HN    )(resid 38   and name HA    )     3.6 1.8 1.0
+assign (resid 38   and name HN    )(resid 38   and name HB#   )     3.6 1.8 1.0
+assign (resid 38   and name HN    )(resid 39   and name HN    )     5.0 3.2 1.0
+assign (resid 38   and name HN    )(resid 41   and name HN    )     3.6 1.8 1.0
+assign (resid 38   and name HN    )(resid 41   and name HB#   )     2.9 1.1 0.5
+assign (resid 38   and name HN    )(resid 41   and name HG2   )     4.0 2.2 1.0
+assign (resid 38   and name HN    )(resid 42   and name HN    )     4.0 2.2 1.0
+assign (resid 38   and name HN    )(resid 42   and name HB#   )     4.0 2.2 1.0
+!assign (resid 38   and name HA    )(resid 38   and name HB#   )     2.9 1.1 0.5
+assign (resid 38   and name HA    )(resid 39   and name HN    )     2.9 1.1 0.5
+assign (resid 38   and name HA    )(resid 40   and name HN    )     4.0 2.2 1.0
+assign (resid 38   and name HA    )(resid 41   and name HN    )     5.0 3.2 1.0
+assign (resid 38   and name HB#   )(resid 39   and name HN    )     2.9 1.1 0.5
+assign (resid 38   and name HB2   )(resid 40   and name HN    )     5.0 3.2 1.0
+assign (resid 38   and name HB#   )(resid 40   and name HN    )     3.6 1.8 1.0
+assign (resid 38   and name HB2   )(resid 41   and name HN    )     5.0 3.2 1.0
+assign (resid 38   and name HB1   )(resid 41   and name HB2   )     5.0 3.2 1.0
+!L39
+assign (resid 39   and name HN    )(resid 39   and name HA    )     3.6 1.8 1.0
+assign (resid 39   and name HN    )(resid 39   and name HB#   )     2.9 1.1 0.5
+assign (resid 39   and name HN    )(resid 39   and name HG    )     4.0 2.2 1.0
+assign (resid 39   and name HN    )(resid 39   and name HD##  )     4.0 2.2 1.0
+assign (resid 39   and name HN    )(resid 40   and name HN    )     3.6 1.8 1.0
+assign (resid 39   and name HN    )(resid 40   and name HB2   )     5.0 3.2 1.0
+!assign (resid 39   and name HA    )(resid 39   and name HB#   )     2.9 1.1 0.5
+assign (resid 39   and name HA    )(resid 39   and name HG    )     4.0 2.2 1.0
+assign (resid 39   and name HA    )(resid 39   and name HD##  )     4.0 2.2 1.0
+assign (resid 39   and name HA    )(resid 40   and name HN    )     3.6 1.8 1.0
+assign (resid 39   and name HA    )(resid 42   and name HN    )     3.6 1.8 1.0
+assign (resid 39   and name HA    )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 39   and name HA    )(resid 43   and name HN    )     5.0 3.2 1.0
+!assign (resid 39   and name HB#   )(resid 39   and name HG    )     4.0 2.2 1.0
+assign (resid 39   and name HB#   )(resid 39   and name HD##  )     4.0 2.2 1.0
+assign (resid 39   and name HB#   )(resid 40   and name HN    )     3.6 1.8 1.0
+assign (resid 39   and name HB2   )(resid 43   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 39   and name HG    )(resid 39   and name HD##  )     4.0 2.2 1.0
+assign (resid 39   and name HG    )(resid 40   and name HN    )     4.0 2.2 1.0
+assign (resid 39   and name HG    )(resid 43   and name HD1#  )     4.0 2.2 1.0
+assign (resid 39   and name HD##  )(resid 40   and name HN    )     4.0 2.2 1.0
+assign (resid 39   and name HD##  )(resid 40   and name HB2   )     4.0 2.2 1.0
+!E40
+assign (resid 40   and name HN    )(resid 40   and name HA    )     3.6 1.8 1.0
+assign (resid 40   and name HN    )(resid 40   and name HB#   )     2.9 1.1 0.5
+assign (resid 40   and name HN    )(resid 40   and name HG#   )     4.0 2.2 1.0
+assign (resid 40   and name HN    )(resid 41   and name HN    )     2.9 1.1 0.5
+!assign (resid 40   and name HN    )(resid 42   and name HN    )     5.0 3.2 1.0
+assign (resid 40   and name HN    )(resid 43   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 40   and name HA    )(resid 40   and name HB#   )     2.9 1.1 0.5
+assign (resid 40   and name HA    )(resid 40   and name HG#   )     4.0 2.2 1.0
+assign (resid 40   and name HA    )(resid 41   and name HN    )     3.6 1.8 1.0
+assign (resid 40   and name HA    )(resid 43   and name HN    )     4.0 2.2 1.0
+assign (resid 40   and name HA    )(resid 43   and name HB    )     3.6 1.8 1.0
+assign (resid 40   and name HA    )(resid 43   and name HG11  )     4.0 2.2 1.0
+assign (resid 40   and name HA    )(resid 43   and name HD1#  )     4.0 2.2 1.0
+assign (resid 40   and name HA    )(resid 44   and name HN    )     5.0 3.2 1.0
+!assign (resid 40   and name HB#   )(resid 40   and name HG#   )     4.0 2.2 1.0
+assign (resid 40   and name HB#   )(resid 41   and name HN    )     3.6 1.8 1.0
+assign (resid 40   and name HB1   )(resid 44   and name HG##  )     4.0 2.2 1.0
+assign (resid 40   and name HG#   )(resid 41   and name HN    )     4.0 2.2 1.0
+assign (resid 40   and name HG#   )(resid 43   and name HN    )     4.0 2.2 1.0
+assign (resid 40   and name HG#   )(resid 43   and name HB    )     4.0 2.2 1.0
+assign (resid 40   and name HG#   )(resid 43   and name HG2#  )     4.0 2.2 1.0
+assign (resid 40   and name HG#   )(resid 43   and name HD1#  )     4.0 2.2 1.0
+assign (resid 40   and name HG#   )(resid 44   and name HG##  )     4.0 2.2 1.0
+!E41
+assign (resid 41   and name HN    )(resid 41   and name HA    )     3.6 1.8 1.0
+assign (resid 41   and name HN    )(resid 41   and name HB#   )     2.9 1.1 0.5
+assign (resid 41   and name HN    )(resid 41   and name HB1   )     3.6 1.8 1.0
+assign (resid 41   and name HN    )(resid 41   and name HG2   )     4.0 2.2 1.0
+assign (resid 41   and name HN    )(resid 42   and name HN    )     2.9 1.1 0.5
+assign (resid 41   and name HN    )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 41   and name HN    )(resid 44   and name HN    )     5.0 3.2 1.0
+assign (resid 41   and name HN    )(resid 44   and name HG##  )     4.0 2.2 1.0
+!assign (resid 41   and name HA    )(resid 41   and name HB#   )     2.9 1.1 0.5
+assign (resid 41   and name HA    )(resid 41   and name HG#   )     4.0 2.2 1.0
+assign (resid 41   and name HA    )(resid 42   and name HN    )     3.6 1.8 1.0
+assign (resid 41   and name HA    )(resid 43   and name HN    )     5.0 3.2 1.0
+assign (resid 41   and name HA    )(resid 44   and name HN    )     3.6 1.8 1.0
+assign (resid 41   and name HA    )(resid 44   and name HB    )     3.6 1.8 1.0
+assign (resid 41   and name HA    )(resid 44   and name HG##  )     4.0 2.2 1.0
+assign (resid 41   and name HA    )(resid 45   and name HN    )     4.0 2.2 1.0
+!assign (resid 41   and name HB#   )(resid 41   and name HG#   )     4.0 2.2 1.0
+assign (resid 41   and name HB#   )(resid 42   and name HN    )     2.9 1.1 0.5
+assign (resid 41   and name HB1   )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 41   and name HG2   )(resid 42   and name HN    )     4.0 2.2 1.0
+assign (resid 41   and name HG#   )(resid 42   and name HN    )     4.0 2.2 1.0
+assign (resid 41   and name HG1   )(resid 44   and name HG##  )     4.0 2.2 1.0
+assign (resid 41   and name HG#   )(resid 45   and name HG##  )     4.0 2.2 1.0
+!A42
+assign (resid 42   and name HN    )(resid 42   and name HA    )     4.0 2.2 1.0
+assign (resid 42   and name HN    )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 42   and name HN    )(resid 43   and name HN    )     3.6 1.8 1.0
+assign (resid 42   and name HN    )(resid 43   and name HB    )     4.0 2.2 1.0
+assign (resid 42   and name HN    )(resid 45   and name HN    )     5.0 3.2 1.0
+assign (resid 42   and name HN    )(resid 45   and name HG##  )     4.0 2.2 1.0
+!assign (resid 42   and name HA    )(resid 42   and name HB#   )     4.0 2.2 1.0
+assign (resid 42   and name HA    )(resid 43   and name HN    )     4.0 2.2 1.0
+assign (resid 42   and name HA    )(resid 44   and name HN    )     4.0 2.2 1.0
+assign (resid 42   and name HA    )(resid 45   and name HN    )     4.0 2.2 1.0
+assign (resid 42   and name HA    )(resid 45   and name HB    )     4.0 2.2 1.0
+assign (resid 42   and name HA    )(resid 45   and name HG##  )     4.0 2.2 1.0
+assign (resid 42   and name HA    )(resid 46   and name HN    )     4.0 2.2 1.0
+assign (resid 42   and name HA    )(resid 46   and name HG    )     4.0 2.2 1.0
+assign (resid 42   and name HB#   )(resid 43   and name HN    )     4.0 2.2 1.0
+assign (resid 42   and name HB#   )(resid 43   and name HA    )     4.0 2.2 1.0
+assign (resid 42   and name HB#   )(resid 43   and name HG11  )     4.0 2.2 1.0
+assign (resid 42   and name HB#   )(resid 44   and name HN    )     4.0 2.2 1.0
+assign (resid 42   and name HB#   )(resid 45   and name HN    )     4.0 2.2 1.0
+assign (resid 42   and name HB#   )(resid 45   and name HG##  )     4.0 2.2 1.0
+assign (resid 42   and name HB#   )(resid 46   and name HN    )     4.0 2.2 1.0
+assign (resid 42   and name HB#   )(resid 46   and name HB2   )     4.0 2.2 1.0
+assign (resid 42   and name HB#   )(resid 46   and name HD##  )     4.0 2.2 1.0
+!I43
+assign (resid 43   and name HN    )(resid 43   and name HA    )     3.6 1.8 1.0
+assign (resid 43   and name HN    )(resid 43   and name HB    )     2.9 1.1 0.5
+assign (resid 43   and name HN    )(resid 43   and name HG1#  )     4.0 2.2 1.0
+assign (resid 43   and name HN    )(resid 43   and name HG2#  )     4.0 2.2 1.0
+assign (resid 43   and name HN    )(resid 43   and name HD1#  )     4.0 2.2 1.0
+assign (resid 43   and name HN    )(resid 44   and name HN    )     3.6 1.8 1.0
+assign (resid 43   and name HN    )(resid 44   and name HG##  )     4.0 2.2 1.0
+!assign (resid 43   and name HN    )(resid 45   and name HN    )     4.0 2.2 1.0
+assign (resid 43   and name HN    )(resid 46   and name HN    )     5.0 3.2 1.0
+assign (resid 43   and name HN    )(resid 46   and name HD##  )     4.0 2.2 1.0
+!assign (resid 43   and name HA    )(resid 43   and name HB    )     3.6 1.8 1.0
+assign (resid 43   and name HA    )(resid 43   and name HG1#  )     4.0 2.2 1.0
+assign (resid 43   and name HA    )(resid 43   and name HG2#  )     4.0 2.2 1.0
+assign (resid 43   and name HA    )(resid 43   and name HD1#  )     4.0 2.2 1.0
+assign (resid 43   and name HA    )(resid 44   and name HN    )     5.0 3.2 1.0
+assign (resid 43   and name HA    )(resid 46   and name HN    )     3.6 1.8 1.0
+assign (resid 43   and name HA    )(resid 46   and name HB#   )     3.6 1.8 1.0
+assign (resid 43   and name HA    )(resid 46   and name HD##  )     4.0 2.2 1.0
+assign (resid 43   and name HA    )(resid 47   and name HN    )     5.0 3.2 1.0
+assign (resid 43   and name HA    )(resid 65   and name HD##  )     4.0 2.2 1.0
+!assign (resid 43   and name HB    )(resid 43   and name HG1#  )     4.0 2.2 1.0
+!assign (resid 43   and name HB    )(resid 43   and name HG2#  )     4.0 2.2 1.0
+assign (resid 43   and name HB    )(resid 43   and name HD1#  )     4.0 2.2 1.0
+assign (resid 43   and name HB    )(resid 44   and name HN    )     3.6 1.8 1.0
+assign (resid 43   and name HB    )(resid 44   and name HA    )     5.0 3.2 1.0
+assign (resid 43   and name HB    )(resid 44   and name HG##  )     4.0 2.2 1.0
+assign (resid 43   and name HG12  )(resid 43   and name HG2#  )     4.0 2.2 1.0
+!assign (resid 43   and name HG1#  )(resid 43   and name HD1#  )     4.0 2.2 1.0
+assign (resid 43   and name HG12  )(resid 44   and name HN    )     4.0 2.2 1.0
+assign (resid 43   and name HG12  )(resid 65   and name HD##  )     4.0 2.2 1.0
+assign (resid 43   and name HG12  )(resid 68   and name HB2   )     4.0 2.2 1.0
+assign (resid 43   and name HG1#  )(resid 68   and name HD##  )     4.0 2.2 1.0
+assign (resid 43   and name HG2#  )(resid 44   and name HN    )     4.0 2.2 1.0
+assign (resid 43   and name HG2#  )(resid 44   and name HA    )     4.0 2.2 1.0
+assign (resid 43   and name HG2#  )(resid 44   and name HG##  )     4.0 2.2 1.0
+assign (resid 43   and name HG2#  )(resid 47   and name HN    )     4.0 2.2 1.0
+assign (resid 43   and name HG2#  )(resid 47   and name HG1   )     4.0 2.2 1.0
+assign (resid 43   and name HG2#  )(resid 47   and name HD2   )     4.0 2.2 1.0
+assign (resid 43   and name HG2#  )(resid 65   and name HD##  )     4.0 2.2 1.0
+assign (resid 43   and name HG2#  )(resid 69   and name HG#   )     4.0 2.2 1.0
+assign (resid 43   and name HD1#  )(resid 44   and name HN    )     4.0 2.2 1.0
+assign (resid 43   and name HD1#  )(resid 44   and name HG##  )     4.0 2.2 1.0
+assign (resid 43   and name HD1#  )(resid 68   and name HB#   )     4.0 2.2 1.0
+assign (resid 43   and name HD1#  )(resid 69   and name HA    )     4.0 2.2 1.0
+assign (resid 43   and name HD1#  )(resid 69   and name HG2   )     4.0 2.2 1.0
+!V44
+assign (resid 44   and name HN    )(resid 44   and name HA    )     3.6 1.8 1.0
+assign (resid 44   and name HN    )(resid 44   and name HB    )     2.9 1.1 0.5
+assign (resid 44   and name HN    )(resid 44   and name HG##  )     4.0 2.2 1.0
+assign (resid 44   and name HN    )(resid 45   and name HN    )     2.9 1.1 0.5
+!assign (resid 44   and name HN    )(resid 46   and name HN    )     4.0 2.2 1.0
+!assign (resid 44   and name HA    )(resid 44   and name HB    )     3.6 1.8 1.0
+assign (resid 44   and name HA    )(resid 44   and name HG##  )     4.0 2.2 1.0
+assign (resid 44   and name HA    )(resid 45   and name HN    )     3.6 1.8 1.0
+assign (resid 44   and name HA    )(resid 47   and name HN    )     4.0 2.2 1.0
+assign (resid 44   and name HA    )(resid 47   and name HB#   )     3.6 1.8 1.0
+assign (resid 44   and name HA    )(resid 47   and name HG1   )     4.0 2.2 1.0
+assign (resid 44   and name HA    )(resid 47   and name HD2   )     4.0 2.2 1.0
+assign (resid 44   and name HA    )(resid 48   and name HN    )     5.0 3.2 1.0
+assign (resid 44   and name HA    )(resid 65   and name HD##  )     4.0 2.2 1.0
+!assign (resid 44   and name HB    )(resid 44   and name HG##  )     4.0 2.2 1.0
+assign (resid 44   and name HB    )(resid 45   and name HN    )     2.9 1.1 0.5
+assign (resid 44   and name HB    )(resid 46   and name HN    )     5.0 3.2 1.0
+assign (resid 44   and name HG##  )(resid 45   and name HN    )     4.0 2.2 1.0
+assign (resid 44   and name HG##  )(resid 45   and name HA    )     4.0 2.2 1.0
+assign (resid 44   and name HG##  )(resid 47   and name HN    )     4.0 2.2 1.0
+assign (resid 44   and name HG##  )(resid 48   and name HN    )     4.0 2.2 1.0
+assign (resid 44   and name HG##  )(resid 48   and name HB2   )     4.0 2.2 1.0
+assign (resid 44   and name HG##  )(resid 48   and name HG2   )     4.0 2.2 1.0
+!V45
+assign (resid 45   and name HN    )(resid 45   and name HA    )     3.6 1.8 1.0
+assign (resid 45   and name HN    )(resid 45   and name HB    )     2.9 1.1 0.5
+assign (resid 45   and name HN    )(resid 45   and name HG##  )     4.0 2.2 1.0
+assign (resid 45   and name HN    )(resid 46   and name HN    )     2.9 1.1 0.5
+assign (resid 45   and name HN    )(resid 46   and name HG    )     4.0 2.2 1.0
+!assign (resid 45   and name HN    )(resid 47   and name HN    )     4.0 2.2 1.0
+assign (resid 45   and name HN    )(resid 48   and name HN    )     4.0 2.2 1.0
+!assign (resid 45   and name HA    )(resid 45   and name HB    )     3.6 1.8 1.0
+assign (resid 45   and name HA    )(resid 45   and name HG##  )     4.0 2.2 1.0
+assign (resid 45   and name HA    )(resid 46   and name HN    )     4.0 2.2 1.0
+assign (resid 45   and name HA    )(resid 47   and name HN    )     5.0 3.2 1.0
+assign (resid 45   and name HA    )(resid 48   and name HN    )     3.6 1.8 1.0
+assign (resid 45   and name HA    )(resid 48   and name HB#   )     3.6 1.8 1.0
+assign (resid 45   and name HA    )(resid 48   and name HG#   )     4.0 2.2 1.0
+assign (resid 45   and name HA    )(resid 49   and name HN    )     5.0 3.2 1.0
+!assign (resid 45   and name HB    )(resid 45   and name HG##  )     4.0 2.2 1.0
+assign (resid 45   and name HB    )(resid 46   and name HN    )     3.6 1.8 1.0
+assign (resid 45   and name HB    )(resid 49   and name HG1   )     4.0 2.2 1.0
+assign (resid 45   and name HG##  )(resid 46   and name HN    )     4.0 2.2 1.0
+assign (resid 45   and name HG##  )(resid 46   and name HG    )     4.0 2.2 1.0
+assign (resid 45   and name HG##  )(resid 48   and name HN    )     4.0 2.2 1.0
+assign (resid 45   and name HG##  )(resid 48   and name HB2   )     4.0 2.2 1.0
+assign (resid 45   and name HG##  )(resid 49   and name HN    )     4.0 2.2 1.0
+assign (resid 45   and name HG##  )(resid 49   and name HB2   )     4.0 2.2 1.0
+assign (resid 45   and name HG##  )(resid 49   and name HG#   )     4.0 2.2 1.0
+!L46
+assign (resid 46   and name HN    )(resid 46   and name HA    )     2.9 1.1 0.5
+assign (resid 46   and name HN    )(resid 46   and name HB#   )     2.3 0.5 0.4
+assign (resid 46   and name HN    )(resid 46   and name HG    )     4.0 2.2 1.0
+assign (resid 46   and name HN    )(resid 46   and name HD##  )     4.0 2.2 1.0
+assign (resid 46   and name HN    )(resid 47   and name HN    )     2.9 1.1 0.5
+!assign (resid 46   and name HN    )(resid 48   and name HN    )     5.0 3.2 1.0
+!assign (resid 46   and name HA    )(resid 46   and name HB#   )     2.9 1.1 0.5
+assign (resid 46   and name HA    )(resid 46   and name HG    )     4.0 2.2 1.0
+assign (resid 46   and name HA    )(resid 46   and name HD##  )     4.0 2.2 1.0
+assign (resid 46   and name HA    )(resid 47   and name HN    )     4.0 2.2 1.0
+assign (resid 46   and name HA    )(resid 48   and name HN    )     5.0 3.2 1.0
+assign (resid 46   and name HA    )(resid 49   and name HN    )     3.6 1.8 1.0
+assign (resid 46   and name HA    )(resid 49   and name HB#   )     2.9 1.1 0.5
+assign (resid 46   and name HA    )(resid 49   and name HG#   )     4.0 2.2 1.0
+assign (resid 46   and name HA    )(resid 50   and name HN    )     4.0 2.2 1.0
+assign (resid 46   and name HA    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 46   and name HA    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 46   and name HB#   )(resid 46   and name HG    )     4.0 2.2 1.0
+assign (resid 46   and name HB#   )(resid 46   and name HD##  )     4.0 2.2 1.0
+assign (resid 46   and name HB#   )(resid 47   and name HN    )     3.6 1.8 1.0
+assign (resid 46   and name HB1   )(resid 47   and name HA    )     5.0 3.2 1.0
+assign (resid 46   and name HB1   )(resid 50   and name HB2   )     5.0 3.2 1.0
+assign (resid 46   and name HB#   )(resid 65   and name HB#   )     3.6 1.8 1.0
+assign (resid 46   and name HB#   )(resid 65   and name HD##  )     4.0 2.2 1.0
+!assign (resid 46   and name HG    )(resid 46   and name HD##  )     4.0 2.2 1.0
+assign (resid 46   and name HG    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 46   and name HG    )(resid 65   and name HD##  )     4.0 2.2 1.0
+assign (resid 46   and name HD##  )(resid 49   and name HN    )     4.0 2.2 1.0
+assign (resid 46   and name HD##  )(resid 49   and name HB2   )     4.0 2.2 1.0
+assign (resid 46   and name HD##  )(resid 49   and name HG2   )     4.0 2.2 1.0
+assign (resid 46   and name HD##  )(resid 61   and name HA    )     4.0 2.2 1.0
+assign (resid 46   and name HD##  )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 46   and name HD##  )(resid 64   and name HB2   )     4.0 2.2 1.0
+assign (resid 46   and name HD##  )(resid 65   and name HN    )     4.0 2.2 1.0
+assign (resid 46   and name HD##  )(resid 68   and name HB2   )     4.0 2.2 1.0
+!R47
+assign (resid 47   and name HN    )(resid 47   and name HA    )     3.6 1.8 1.0
+assign (resid 47   and name HN    )(resid 47   and name HB#   )     2.9 1.1 0.5
+assign (resid 47   and name HN    )(resid 47   and name HG#   )     4.0 2.2 1.0
+assign (resid 47   and name HN    )(resid 48   and name HN    )     2.9 1.1 0.5
+assign (resid 47   and name HN    )(resid 48   and name HB2   )     4.0 2.2 1.0
+!assign (resid 47   and name HN    )(resid 49   and name HN    )     4.0 2.2 1.0
+assign (resid 47   and name HN    )(resid 65   and name HD##  )     4.0 2.2 1.0
+!assign (resid 47   and name HA    )(resid 47   and name HB#   )     2.9 1.1 0.5
+assign (resid 47   and name HA    )(resid 47   and name HG#   )     4.0 2.2 1.0
+assign (resid 47   and name HA    )(resid 47   and name HD#   )     4.0 2.2 1.0
+assign (resid 47   and name HA    )(resid 48   and name HN    )     4.0 2.2 1.0
+assign (resid 47   and name HA    )(resid 50   and name HN    )     4.0 2.2 1.0
+assign (resid 47   and name HA    )(resid 50   and name HB#   )     3.6 1.8 1.0
+assign (resid 47   and name HA    )(resid 50   and name HG1   )     4.0 2.2 1.0
+assign (resid 47   and name HA    )(resid 51   and name HN    )     5.0 3.2 1.0
+assign (resid 47   and name HA    )(resid 51   and name HG1   )     4.0 2.2 1.0
+assign (resid 47   and name HA    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 47   and name HA    )(resid 65   and name HD##  )     4.0 2.2 1.0
+!assign (resid 47   and name HB#   )(resid 47   and name HG#   )     4.0 2.2 1.0
+assign (resid 47   and name HB#   )(resid 47   and name HD#   )     4.0 2.2 1.0
+assign (resid 47   and name HB#   )(resid 48   and name HN    )     3.6 1.8 1.0
+assign (resid 47   and name HB1   )(resid 48   and name HN    )     3.6 1.8 1.0
+assign (resid 47   and name HB1   )(resid 48   and name HG2   )     4.0 2.2 1.0
+assign (resid 47   and name HB#   )(resid 65   and name HD##  )     4.0 2.2 1.0
+!assign (resid 47   and name HG#   )(resid 47   and name HD#   )     4.0 2.2 1.0
+assign (resid 47   and name HG2   )(resid 48   and name HN    )     4.0 2.2 1.0
+assign (resid 47   and name HG1   )(resid 65   and name HD##  )     4.0 2.2 1.0
+assign (resid 47   and name HD#   )(resid 65   and name HD##  )     4.0 2.2 1.0
+!E48
+assign (resid 48   and name HN    )(resid 48   and name HA    )     3.6 1.8 1.0
+assign (resid 48   and name HN    )(resid 48   and name HB#   )     2.9 1.1 0.5
+assign (resid 48   and name HN    )(resid 48   and name HG2   )     4.0 2.2 1.0
+assign (resid 48   and name HN    )(resid 48   and name HG#   )     4.0 2.2 1.0
+assign (resid 48   and name HN    )(resid 49   and name HN    )     3.6 1.8 1.0
+assign (resid 48   and name HN    )(resid 49   and name HG2   )     4.0 2.2 1.0
+!assign (resid 48   and name HN    )(resid 50   and name HN    )     5.0 3.2 1.0
+assign (resid 48   and name HN    )(resid 51   and name HN    )     5.0 3.2 1.0
+assign (resid 48   and name HN    )(resid 65   and name HD##  )     4.0 2.2 1.0
+!assign (resid 48   and name HA    )(resid 48   and name HB#   )     2.9 1.1 0.5
+assign (resid 48   and name HA    )(resid 48   and name HG#   )     4.0 2.2 1.0
+assign (resid 48   and name HA    )(resid 49   and name HN    )     4.0 2.2 1.0
+assign (resid 48   and name HA    )(resid 50   and name HN    )     5.0 3.2 1.0
+assign (resid 48   and name HA    )(resid 51   and name HN    )     3.6 1.8 1.0
+assign (resid 48   and name HA    )(resid 51   and name HB#   )     3.6 1.8 1.0
+assign (resid 48   and name HA    )(resid 51   and name HG2   )     4.0 2.2 1.0
+assign (resid 48   and name HA    )(resid 52   and name HN    )     5.0 3.2 1.0
+!assign (resid 48   and name HB#   )(resid 48   and name HG#   )     4.0 2.2 1.0
+assign (resid 48   and name HB#   )(resid 49   and name HN    )     2.9 1.1 0.5
+assign (resid 48   and name HG2   )(resid 49   and name HN    )     4.0 2.2 1.0
+assign (resid 48   and name HG2   )(resid 51   and name HD#   )     4.0 2.2 1.0
+!E49
+assign (resid 49   and name HN    )(resid 49   and name HA    )     3.6 1.8 1.0
+assign (resid 49   and name HN    )(resid 49   and name HB2   )     2.9 1.1 0.5
+assign (resid 49   and name HN    )(resid 49   and name HB1   )     4.0 2.2 1.0
+assign (resid 49   and name HN    )(resid 49   and name HG2   )     4.0 2.2 1.0
+assign (resid 49   and name HN    )(resid 49   and name HG#   )     4.0 2.2 1.0
+assign (resid 49   and name HN    )(resid 50   and name HN    )     3.6 1.8 1.0
+!assign (resid 49   and name HN    )(resid 51   and name HN    )     4.0 2.2 1.0
+assign (resid 49   and name HN    )(resid 52   and name HG2   )     4.0 2.2 1.0
+assign (resid 49   and name HN    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 49   and name HA    )(resid 49   and name HB#   )     3.6 1.8 1.0
+assign (resid 49   and name HA    )(resid 49   and name HG#   )     4.0 2.2 1.0
+assign (resid 49   and name HA    )(resid 50   and name HN    )     4.0 2.2 1.0
+assign (resid 49   and name HA    )(resid 51   and name HN    )     5.0 3.2 1.0
+assign (resid 49   and name HA    )(resid 52   and name HN    )     3.6 1.8 1.0
+assign (resid 49   and name HA    )(resid 52   and name HB#   )     5.0 3.2 1.0
+assign (resid 49   and name HA    )(resid 52   and name HG#   )     4.0 2.2 1.0
+assign (resid 49   and name HA    )(resid 52   and name HD2   )     4.0 2.2 1.0
+assign (resid 49   and name HA    )(resid 52   and name HE#   )     4.0 2.2 1.0
+assign (resid 49   and name HA    )(resid 53   and name HN    )     5.0 3.2 1.0
+assign (resid 49   and name HA    )(resid 53   and name HB#   )     4.0 2.2 1.0
+assign (resid 49   and name HA    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 49   and name HB#   )(resid 49   and name HG#   )     4.0 2.2 1.0
+assign (resid 49   and name HB#   )(resid 50   and name HN    )     2.9 1.1 0.5
+assign (resid 49   and name HB1   )(resid 50   and name HN    )     5.0 3.2 1.0
+assign (resid 49   and name HB1   )(resid 52   and name HE#   )     4.0 2.2 1.0
+assign (resid 49   and name HB#   )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 49   and name HB#   )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 49   and name HG2   )(resid 50   and name HN    )     4.0 2.2 1.0
+assign (resid 49   and name HG1   )(resid 50   and name HN    )     4.0 2.2 1.0
+assign (resid 49   and name HG2   )(resid 52   and name HE#   )     4.0 2.2 1.0
+!E50
+assign (resid 50   and name HN    )(resid 50   and name HA    )     3.6 1.8 1.0
+assign (resid 50   and name HN    )(resid 50   and name HB#   )     2.9 1.1 0.5
+assign (resid 50   and name HN    )(resid 50   and name HG#   )     4.0 2.2 1.0
+assign (resid 50   and name HN    )(resid 51   and name HN    )     3.6 1.8 1.0
+assign (resid 50   and name HN    )(resid 51   and name HG1   )     4.0 2.2 1.0
+!assign (resid 50   and name HN    )(resid 52   and name HN    )     5.0 3.2 1.0
+assign (resid 50   and name HN    )(resid 53   and name HN    )     5.0 3.2 1.0
+assign (resid 50   and name HN    )(resid 53   and name HB#   )     4.0 2.2 1.0
+assign (resid 50   and name HN    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 50   and name HN    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 50   and name HN    )(resid 65   and name HD##  )     4.0 2.2 1.0
+!assign (resid 50   and name HA    )(resid 50   and name HB#   )     3.6 1.8 1.0
+assign (resid 50   and name HA    )(resid 50   and name HG#   )     4.0 2.2 1.0
+assign (resid 50   and name HA    )(resid 51   and name HN    )     4.0 2.2 1.0
+assign (resid 50   and name HA    )(resid 52   and name HN    )     5.0 3.2 1.0
+assign (resid 50   and name HA    )(resid 53   and name HN    )     4.0 2.2 1.0
+assign (resid 50   and name HA    )(resid 53   and name HB#   )     4.0 2.2 1.0
+assign (resid 50   and name HA    )(resid 58   and name HA    )     4.0 2.2 1.0
+assign (resid 50   and name HA    )(resid 58   and name HG1   )     4.0 2.2 1.0
+assign (resid 50   and name HA    )(resid 58   and name HD2   )     4.0 2.2 1.0
+assign (resid 50   and name HA    )(resid 61   and name HB    )     4.0 2.2 1.0
+assign (resid 50   and name HA    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 50   and name HA    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 50   and name HB#   )(resid 50   and name HG#   )     4.0 2.2 1.0
+assign (resid 50   and name HB#   )(resid 51   and name HN    )     3.6 1.8 1.0
+assign (resid 50   and name HB1   )(resid 51   and name HA    )     5.0 3.2 1.0
+assign (resid 50   and name HB1   )(resid 51   and name HG1   )     4.0 2.2 1.0
+assign (resid 50   and name HB1   )(resid 52   and name HN    )     5.0 3.2 1.0
+assign (resid 50   and name HB2   )(resid 58   and name HG1   )     4.0 2.2 1.0
+assign (resid 50   and name HB#   )(resid 61   and name HB    )     4.0 2.2 1.0
+assign (resid 50   and name HB#   )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 50   and name HB2   )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 50   and name HB1   )(resid 65   and name HD##  )     4.0 2.2 1.0
+assign (resid 50   and name HG2   )(resid 51   and name HN    )     4.0 2.2 1.0
+assign (resid 50   and name HG2   )(resid 53   and name HB#   )     4.0 2.2 1.0
+assign (resid 50   and name HG1   )(resid 58   and name HA    )     4.0 2.2 1.0
+assign (resid 50   and name HG#   )(resid 58   and name HG#   )     4.0 2.2 1.0
+assign (resid 50   and name HG1   )(resid 58   and name HE2   )     4.0 2.2 1.0
+assign (resid 50   and name HG#   )(resid 61   and name HB    )     4.0 2.2 1.0
+assign (resid 50   and name HG#   )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 50   and name HG#   )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 50   and name HG2   )(resid 62   and name HN    )     4.0 2.2 1.0
+assign (resid 50   and name HG1   )(resid 62   and name HA    )     4.0 2.2 1.0
+assign (resid 50   and name HG1   )(resid 62   and name HG#   )     4.0 2.2 1.0
+!K51
+assign (resid 51   and name HN    )(resid 51   and name HA    )     2.9 1.1 0.5
+assign (resid 51   and name HN    )(resid 51   and name HB#   )     2.9 1.1 0.5
+assign (resid 51   and name HN    )(resid 51   and name HG#   )     4.0 2.2 1.0
+assign (resid 51   and name HN    )(resid 51   and name HD#   )     4.0 2.2 1.0
+assign (resid 51   and name HN    )(resid 52   and name HN    )     3.6 1.8 1.0
+assign (resid 51   and name HN    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+!assign (resid 51   and name HA    )(resid 51   and name HB#   )     2.9 1.1 0.5
+assign (resid 51   and name HA    )(resid 51   and name HG#   )     4.0 2.2 1.0
+assign (resid 51   and name HA    )(resid 51   and name HE#   )     4.0 2.2 1.0
+assign (resid 51   and name HA    )(resid 52   and name HN    )     3.6 1.8 1.0
+assign (resid 51   and name HA    )(resid 53   and name HN    )     5.0 3.2 1.0
+assign (resid 51   and name HA    )(resid 58   and name HE#   )     4.0 2.2 1.0
+!assign (resid 51   and name HB#   )(resid 51   and name HG#   )     4.0 2.2 1.0
+assign (resid 51   and name HB#   )(resid 51   and name HD#   )     4.0 2.2 1.0
+assign (resid 51   and name HB#   )(resid 51   and name HE#   )     4.0 2.2 1.0
+assign (resid 51   and name HB#   )(resid 52   and name HN    )     2.9 1.1 0.5
+assign (resid 51   and name HB#   )(resid 52   and name HG#   )     4.0 2.2 1.0
+assign (resid 51   and name HB#   )(resid 53   and name HN    )     5.0 3.2 1.0
+!assign (resid 51   and name HG#   )(resid 51   and name HD#   )     4.0 2.2 1.0
+assign (resid 51   and name HG#   )(resid 51   and name HE#   )     4.0 2.2 1.0
+!assign (resid 51   and name HD#   )(resid 51   and name HE#   )     4.0 2.2 1.0
+!K52
+assign (resid 52   and name HN    )(resid 52   and name HA    )     3.6 1.8 1.0
+assign (resid 52   and name HN    )(resid 52   and name HB#   )     2.9 1.1 0.5
+assign (resid 52   and name HN    )(resid 52   and name HG#   )     4.0 2.2 1.0
+assign (resid 52   and name HN    )(resid 52   and name HD2   )     4.0 2.2 1.0
+assign (resid 52   and name HN    )(resid 52   and name HE#   )     4.0 2.2 1.0
+assign (resid 52   and name HN    )(resid 53   and name HN    )     2.9 1.1 0.5
+assign (resid 52   and name HN    )(resid 53   and name HB#   )     4.0 2.2 1.0
+!assign (resid 52   and name HA    )(resid 52   and name HB#   )     2.3 0.5 0.4
+assign (resid 52   and name HA    )(resid 52   and name HG#   )     4.0 2.2 1.0
+assign (resid 52   and name HA    )(resid 52   and name HD2   )     4.0 2.2 1.0
+assign (resid 52   and name HA    )(resid 52   and name HE#   )     4.0 2.2 1.0
+assign (resid 52   and name HA    )(resid 53   and name HN    )     3.6 1.8 1.0
+!assign (resid 52   and name HB#   )(resid 52   and name HG#   )     4.0 2.2 1.0
+assign (resid 52   and name HB#   )(resid 52   and name HD2   )     4.0 2.2 1.0
+assign (resid 52   and name HB#   )(resid 52   and name HE#   )     4.0 2.2 1.0
+assign (resid 52   and name HB#   )(resid 53   and name HN    )     3.6 1.8 1.0
+!assign (resid 52   and name HG#   )(resid 52   and name HD2   )     4.0 2.2 1.0
+assign (resid 52   and name HG#   )(resid 52   and name HE#   )     4.0 2.2 1.0
+assign (resid 52   and name HG1   )(resid 53   and name HN    )     4.0 2.2 1.0
+!assign (resid 52   and name HD2   )(resid 52   and name HE#   )     4.0 2.2 1.0
+assign (resid 52   and name HD2   )(resid 53   and name HN    )     4.0 2.2 1.0
+assign (resid 52   and name HE#   )(resid 53   and name HA    )     4.0 2.2 1.0
+!A53
+assign (resid 53   and name HN    )(resid 53   and name HA    )     4.0 2.2 1.0
+assign (resid 53   and name HN    )(resid 53   and name HB#   )     4.0 2.2 1.0
+assign (resid 53   and name HN    )(resid 54   and name HN    )     5.0 3.2 1.0
+assign (resid 53   and name HN    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 53   and name HA    )(resid 53   and name HB#   )     4.0 2.2 1.0
+assign (resid 53   and name HA    )(resid 54   and name HN    )     4.0 2.2 1.0
+assign (resid 53   and name HA    )(resid 54   and name HA    )     4.0 2.2 1.0
+assign (resid 53   and name HA    )(resid 54   and name HB2   )     4.0 2.2 1.0
+assign (resid 53   and name HA    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 53   and name HB#   )(resid 54   and name HN    )     4.0 2.2 1.0
+assign (resid 53   and name HB#   )(resid 57   and name HB#   )     4.0 2.2 1.0
+assign (resid 53   and name HB#   )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 53   and name HB#   )(resid 57   and name HE#   )     4.0 2.2 1.0
+assign (resid 53   and name HB#   )(resid 58   and name HN    )     4.0 2.2 1.0
+assign (resid 53   and name HB#   )(resid 58   and name HA    )     4.0 2.2 1.0
+assign (resid 53   and name HB#   )(resid 58   and name HG2   )     4.0 2.2 1.0
+assign (resid 53   and name HB#   )(resid 58   and name HD2   )     4.0 2.2 1.0
+assign (resid 53   and name HB#   )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!S54
+assign (resid 54   and name HN    )(resid 54   and name HA    )     3.6 1.8 1.0
+assign (resid 54   and name HN    )(resid 54   and name HB#   )     2.9 1.1 0.5
+assign (resid 54   and name HN    )(resid 55   and name HN    )     5.0 3.2 1.0
+assign (resid 54   and name HN    )(resid 57   and name HB1   )     5.0 3.2 1.0
+assign (resid 54   and name HN    )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 54   and name HN    )(resid 58   and name HN    )     5.0 3.2 1.0
+assign (resid 54   and name HN    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 54   and name HA    )(resid 54   and name HB1   )     3.6 1.8 1.0
+assign (resid 54   and name HA    )(resid 55   and name HN    )     2.9 1.1 0.5
+assign (resid 54   and name HA    )(resid 55   and name HA    )     3.6 1.8 1.0
+assign (resid 54   and name HA    )(resid 55   and name HG1   )     4.0 2.2 1.0
+assign (resid 54   and name HA    )(resid 58   and name HN    )     4.0 2.2 1.0
+assign (resid 54   and name HA    )(resid 58   and name HB#   )     5.0 3.2 1.0
+assign (resid 54   and name HA    )(resid 58   and name HG#   )     4.0 2.2 1.0
+assign (resid 54   and name HA    )(resid 58   and name HD#   )     4.0 2.2 1.0
+assign (resid 54   and name HA    )(resid 58   and name HE1   )     4.0 2.2 1.0
+assign (resid 54   and name HB#   )(resid 55   and name HN    )     3.6 1.8 1.0
+!E55
+assign (resid 55   and name HN    )(resid 55   and name HA    )     3.6 1.8 1.0
+assign (resid 55   and name HN    )(resid 55   and name HB#   )     3.6 1.8 1.0
+assign (resid 55   and name HN    )(resid 55   and name HG#   )     4.0 2.2 1.0
+assign (resid 55   and name HN    )(resid 56   and name HA    )     5.0 3.2 1.0
+assign (resid 55   and name HN    )(resid 58   and name HN    )     5.0 3.2 1.0
+assign (resid 55   and name HN    )(resid 58   and name HB#   )     4.0 2.2 1.0
+assign (resid 55   and name HN    )(resid 58   and name HD#   )     4.0 2.2 1.0
+assign (resid 55   and name HN    )(resid 58   and name HE1   )     4.0 2.2 1.0
+!assign (resid 55   and name HA    )(resid 55   and name HB#   )     3.6 1.8 1.0
+assign (resid 55   and name HA    )(resid 55   and name HG#   )     4.0 2.2 1.0
+assign (resid 55   and name HA    )(resid 56   and name HA    )     3.6 1.8 1.0
+assign (resid 55   and name HA    )(resid 56   and name HD2   )     4.0 2.2 1.0
+assign (resid 55   and name HA    )(resid 57   and name HN    )     2.9 1.1 0.5
+assign (resid 55   and name HA    )(resid 57   and name HB1   )     3.6 1.8 1.0
+assign (resid 55   and name HA    )(resid 58   and name HN    )     2.3 0.5 0.4
+assign (resid 55   and name HA    )(resid 58   and name HB#   )     3.6 1.8 1.0
+assign (resid 55   and name HA    )(resid 59   and name HN    )     3.6 1.8 1.0
+!assign (resid 55   and name HB#   )(resid 55   and name HG#   )     4.0 2.2 1.0
+assign (resid 55   and name HB#   )(resid 56   and name HA    )     2.9 1.1 0.5
+assign (resid 55   and name HB1   )(resid 56   and name HD2   )     4.0 2.2 1.0
+assign (resid 55   and name HB2   )(resid 58   and name HN    )     5.0 3.2 1.0
+assign (resid 55   and name HB2   )(resid 58   and name HD1   )     4.0 2.2 1.0
+assign (resid 55   and name HG1   )(resid 56   and name HA    )     4.0 2.2 1.0
+assign (resid 55   and name HG#   )(resid 58   and name HB1   )     4.0 2.2 1.0
+assign (resid 55   and name HG#   )(resid 58   and name HD#   )     4.0 2.2 1.0
+assign (resid 55   and name HG2   )(resid 59   and name HN    )     4.0 2.2 1.0
+assign (resid 55   and name HG2   )(resid 59   and name HB    )     4.0 2.2 1.0
+!P56
+!assign (resid 56   and name HA    )(resid 56   and name HB#   )     2.9 1.1 0.5
+!assign (resid 56   and name HA    )(resid 56   and name HG#   )     4.0 2.2 1.0
+!assign (resid 56   and name HA    )(resid 56   and name HD2   )     4.0 2.2 1.0
+assign (resid 56   and name HA    )(resid 57   and name HN    )     4.0 2.2 1.0
+assign (resid 56   and name HA    )(resid 58   and name HN    )     4.0 2.2 1.0
+assign (resid 56   and name HA    )(resid 58   and name HB1   )     5.0 3.2 1.0
+assign (resid 56   and name HA    )(resid 59   and name HN    )     4.0 2.2 1.0
+assign (resid 56   and name HA    )(resid 59   and name HB    )     5.0 3.2 1.0
+assign (resid 56   and name HA    )(resid 59   and name HG2#  )     4.0 2.2 1.0
+!assign (resid 56   and name HB#   )(resid 56   and name HG#   )     4.0 2.2 1.0
+!assign (resid 56   and name HB#   )(resid 56   and name HD2   )     4.0 2.2 1.0
+assign (resid 56   and name HB#   )(resid 57   and name HN    )     4.0 2.2 1.0
+assign (resid 56   and name HB1   )(resid 57   and name HN    )     5.0 3.2 1.0
+!assign (resid 56   and name HG#   )(resid 56   and name HD2   )     4.0 2.2 1.0
+assign (resid 56   and name HG#   )(resid 57   and name HN    )     4.0 2.2 1.0
+assign (resid 56   and name HG2   )(resid 57   and name HB2   )     4.0 2.2 1.0
+assign (resid 56   and name HD2   )(resid 57   and name HN    )     4.0 2.2 1.0
+!F57
+assign (resid 57   and name HN    )(resid 57   and name HA    )     2.9 1.1 0.5
+assign (resid 57   and name HN    )(resid 57   and name HB#   )     2.3 0.5 0.4
+assign (resid 57   and name HN    )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 57   and name HN    )(resid 58   and name HN    )     3.6 1.8 1.0
+!assign (resid 57   and name HN    )(resid 59   and name HN    )     5.0 3.2 1.0
+!assign (resid 57   and name HA    )(resid 57   and name HB#   )     2.9 1.1 0.5
+assign (resid 57   and name HA    )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 57   and name HA    )(resid 57   and name HE#   )     4.0 2.2 1.0
+assign (resid 57   and name HA    )(resid 58   and name HN    )     3.6 1.8 1.0
+assign (resid 57   and name HA    )(resid 60   and name HN    )     3.6 1.8 1.0
+assign (resid 57   and name HA    )(resid 60   and name HB#   )     3.6 1.8 1.0
+assign (resid 57   and name HA    )(resid 61   and name HN    )     5.0 3.2 1.0
+assign (resid 57   and name HB#   )(resid 57   and name HD#   )     4.0 2.2 1.0
+assign (resid 57   and name HB#   )(resid 58   and name HN    )     2.9 1.1 0.5
+assign (resid 57   and name HB1   )(resid 59   and name HN    )     5.0 3.2 1.0
+!assign (resid 57   and name HD#   )(resid 57   and name HE#   )     4.0 2.2 1.0
+!assign (resid 57   and name HD#   )(resid 57   and name HZ    )     4.0 2.2 1.0
+assign (resid 57   and name HD#   )(resid 58   and name HN    )     4.0 2.2 1.0
+assign (resid 57   and name HD#   )(resid 58   and name HA    )     4.0 2.2 1.0
+assign (resid 57   and name HD#   )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 57   and name HE#   )(resid 57   and name HZ    )     4.0 2.2 1.0
+assign (resid 57   and name HE#   )(resid 60   and name HB2   )     4.0 2.2 1.0
+assign (resid 57   and name HE#   )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 57   and name HZ    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!K58
+assign (resid 58   and name HN    )(resid 58   and name HA    )     3.6 1.8 1.0
+assign (resid 58   and name HN    )(resid 58   and name HB#   )     2.9 1.1 0.5
+assign (resid 58   and name HN    )(resid 58   and name HG2   )     4.0 2.2 1.0
+assign (resid 58   and name HN    )(resid 58   and name HG#   )     4.0 2.2 1.0
+assign (resid 58   and name HN    )(resid 59   and name HN    )     2.9 1.1 0.5
+!assign (resid 58   and name HN    )(resid 60   and name HN    )     5.0 3.2 1.0
+assign (resid 58   and name HN    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 58   and name HA    )(resid 58   and name HB#   )     2.9 1.1 0.5
+assign (resid 58   and name HA    )(resid 58   and name HG#   )     4.0 2.2 1.0
+assign (resid 58   and name HA    )(resid 58   and name HD#   )     4.0 2.2 1.0
+assign (resid 58   and name HA    )(resid 59   and name HN    )     4.0 2.2 1.0
+assign (resid 58   and name HA    )(resid 60   and name HN    )     5.0 3.2 1.0
+assign (resid 58   and name HA    )(resid 61   and name HN    )     4.0 2.2 1.0
+assign (resid 58   and name HA    )(resid 61   and name HB    )     4.0 2.2 1.0
+assign (resid 58   and name HA    )(resid 61   and name HG1#  )     4.0 2.2 1.0
+assign (resid 58   and name HA    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 58   and name HA    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 58   and name HB#   )(resid 58   and name HG#   )     4.0 2.2 1.0
+assign (resid 58   and name HB#   )(resid 58   and name HD#   )     4.0 2.2 1.0
+assign (resid 58   and name HB#   )(resid 58   and name HE#   )     4.0 2.2 1.0
+assign (resid 58   and name HB#   )(resid 59   and name HN    )     2.9 1.1 0.5
+!assign (resid 58   and name HG#   )(resid 58   and name HD#   )     4.0 2.2 1.0
+assign (resid 58   and name HG#   )(resid 58   and name HE#   )     4.0 2.2 1.0
+assign (resid 58   and name HG1   )(resid 61   and name HD1#  )     4.0 2.2 1.0
+!assign (resid 58   and name HD#   )(resid 58   and name HE#   )     4.0 2.2 1.0
+!T59
+assign (resid 59   and name HN    )(resid 59   and name HA    )     3.6 1.8 1.0
+assign (resid 59   and name HN    )(resid 59   and name HB    )     3.6 1.8 1.0
+assign (resid 59   and name HN    )(resid 59   and name HG2#  )     4.0 2.2 1.0
+assign (resid 59   and name HN    )(resid 60   and name HN    )     3.6 1.8 1.0
+!assign (resid 59   and name HN    )(resid 61   and name HN    )     5.0 3.2 1.0
+!assign (resid 59   and name HA    )(resid 59   and name HB    )     4.0 2.2 1.0
+assign (resid 59   and name HA    )(resid 59   and name HG2#  )     4.0 2.2 1.0
+assign (resid 59   and name HA    )(resid 60   and name HN    )     4.0 2.2 1.0
+assign (resid 59   and name HA    )(resid 61   and name HN    )     5.0 3.2 1.0
+assign (resid 59   and name HA    )(resid 62   and name HN    )     4.0 2.2 1.0
+assign (resid 59   and name HA    )(resid 62   and name HB#   )     3.6 1.8 1.0
+assign (resid 59   and name HA    )(resid 62   and name HG#   )     4.0 2.2 1.0
+assign (resid 59   and name HA    )(resid 62   and name HD2   )     4.0 2.2 1.0
+assign (resid 59   and name HA    )(resid 63   and name HN    )     5.0 3.2 1.0
+!assign (resid 59   and name HB    )(resid 59   and name HG2#  )     4.0 2.2 1.0
+assign (resid 59   and name HB    )(resid 60   and name HN    )     4.0 2.2 1.0
+assign (resid 59   and name HB    )(resid 63   and name HG12  )     4.0 2.2 1.0
+assign (resid 59   and name HG2#  )(resid 60   and name HN    )     4.0 2.2 1.0
+assign (resid 59   and name HG2#  )(resid 60   and name HA    )     4.0 2.2 1.0
+assign (resid 59   and name HG2#  )(resid 62   and name HN    )     4.0 2.2 1.0
+assign (resid 59   and name HG2#  )(resid 62   and name HB1   )     4.0 2.2 1.0
+assign (resid 59   and name HG2#  )(resid 62   and name HG#   )     4.0 2.2 1.0
+assign (resid 59   and name HG2#  )(resid 63   and name HN    )     4.0 2.2 1.0
+assign (resid 59   and name HG2#  )(resid 63   and name HG1#  )     4.0 2.2 1.0
+assign (resid 59   and name HG2#  )(resid 63   and name HD1#  )     4.0 2.2 1.0
+!D60
+assign (resid 60   and name HN    )(resid 60   and name HA    )     2.9 1.1 0.5
+assign (resid 60   and name HN    )(resid 60   and name HB#   )     2.9 1.1 0.5
+assign (resid 60   and name HN    )(resid 61   and name HN    )     3.6 1.8 1.0
+!assign (resid 60   and name HN    )(resid 62   and name HN    )     5.0 3.2 1.0
+assign (resid 60   and name HN    )(resid 63   and name HN    )     5.0 3.2 1.0
+!assign (resid 60   and name HA    )(resid 60   and name HB#   )     3.6 1.8 1.0
+assign (resid 60   and name HA    )(resid 61   and name HN    )     4.0 2.2 1.0
+assign (resid 60   and name HA    )(resid 62   and name HN    )     5.0 3.2 1.0
+assign (resid 60   and name HA    )(resid 63   and name HN    )     3.6 1.8 1.0
+assign (resid 60   and name HA    )(resid 63   and name HB    )     3.6 1.8 1.0
+assign (resid 60   and name HA    )(resid 63   and name HG1#  )     4.0 2.2 1.0
+assign (resid 60   and name HA    )(resid 63   and name HD1#  )     4.0 2.2 1.0
+assign (resid 60   and name HA    )(resid 64   and name HN    )     5.0 3.2 1.0
+assign (resid 60   and name HB#   )(resid 61   and name HN    )     3.6 1.8 1.0
+!I61
+assign (resid 61   and name HN    )(resid 61   and name HA    )     2.9 1.1 0.5
+assign (resid 61   and name HN    )(resid 61   and name HB    )     2.9 1.1 0.5
+assign (resid 61   and name HN    )(resid 61   and name HG1#  )     4.0 2.2 1.0
+assign (resid 61   and name HN    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 61   and name HN    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 61   and name HN    )(resid 62   and name HN    )     3.6 1.8 1.0
+assign (resid 61   and name HN    )(resid 62   and name HB1   )     5.0 3.2 1.0
+!assign (resid 61   and name HN    )(resid 63   and name HN    )     5.0 3.2 1.0
+!assign (resid 61   and name HA    )(resid 61   and name HB    )     3.6 1.8 1.0
+assign (resid 61   and name HA    )(resid 61   and name HG1#  )     4.0 2.2 1.0
+assign (resid 61   and name HA    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 61   and name HA    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 61   and name HA    )(resid 62   and name HN    )     4.0 2.2 1.0
+assign (resid 61   and name HA    )(resid 63   and name HN    )     5.0 3.2 1.0
+assign (resid 61   and name HA    )(resid 64   and name HN    )     3.6 1.8 1.0
+assign (resid 61   and name HA    )(resid 64   and name HB#   )     3.6 1.8 1.0
+assign (resid 61   and name HA    )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 61   and name HA    )(resid 65   and name HN    )     5.0 3.2 1.0
+!assign (resid 61   and name HB    )(resid 61   and name HG1#  )     4.0 2.2 1.0
+!assign (resid 61   and name HB    )(resid 61   and name HG2#  )     4.0 2.2 1.0
+assign (resid 61   and name HB    )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 61   and name HB    )(resid 62   and name HN    )     3.6 1.8 1.0
+assign (resid 61   and name HB    )(resid 63   and name HN    )     5.0 3.2 1.0
+assign (resid 61   and name HG1#  )(resid 61   and name HG2#  )     4.0 2.2 1.0
+!assign (resid 61   and name HG1#  )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 61   and name HG11  )(resid 62   and name HN    )     4.0 2.2 1.0
+assign (resid 61   and name HG2#  )(resid 61   and name HD1#  )     4.0 2.2 1.0
+assign (resid 61   and name HG2#  )(resid 62   and name HN    )     4.0 2.2 1.0
+assign (resid 61   and name HG2#  )(resid 62   and name HA    )     4.0 2.2 1.0
+assign (resid 61   and name HG2#  )(resid 65   and name HN    )     4.0 2.2 1.0
+assign (resid 61   and name HG2#  )(resid 65   and name HD##  )     4.0 2.2 1.0
+assign (resid 61   and name HD1#  )(resid 62   and name HN    )     4.0 2.2 1.0
+!R62
+assign (resid 62   and name HN    )(resid 62   and name HA    )     3.6 1.8 1.0
+assign (resid 62   and name HN    )(resid 62   and name HB#   )     2.9 1.1 0.5
+assign (resid 62   and name HN    )(resid 62   and name HG#   )     4.0 2.2 1.0
+assign (resid 62   and name HN    )(resid 63   and name HN    )     3.6 1.8 1.0
+assign (resid 62   and name HN    )(resid 63   and name HB    )     5.0 3.2 1.0
+assign (resid 62   and name HN    )(resid 63   and name HG12  )     4.0 2.2 1.0
+!assign (resid 62   and name HN    )(resid 64   and name HN    )     5.0 3.2 1.0
+assign (resid 62   and name HN    )(resid 65   and name HN    )     5.0 3.2 1.0
+!assign (resid 62   and name HA    )(resid 62   and name HB#   )     2.9 1.1 0.5
+assign (resid 62   and name HA    )(resid 62   and name HG#   )     4.0 2.2 1.0
+assign (resid 62   and name HA    )(resid 62   and name HD#   )     4.0 2.2 1.0
+assign (resid 62   and name HA    )(resid 63   and name HN    )     5.0 3.2 1.0
+assign (resid 62   and name HA    )(resid 65   and name HN    )     4.0 2.2 1.0
+assign (resid 62   and name HA    )(resid 65   and name HB#   )     3.6 1.8 1.0
+assign (resid 62   and name HA    )(resid 66   and name HN    )     4.0 2.2 1.0
+!assign (resid 62   and name HB#   )(resid 62   and name HG#   )     4.0 2.2 1.0
+assign (resid 62   and name HB#   )(resid 62   and name HD#   )     4.0 2.2 1.0
+assign (resid 62   and name HB#   )(resid 63   and name HN    )     3.6 1.8 1.0
+assign (resid 62   and name HB1   )(resid 63   and name HG12  )     4.0 2.2 1.0
+!assign (resid 62   and name HG#   )(resid 62   and name HD#   )     4.0 2.2 1.0
+assign (resid 62   and name HG#   )(resid 63   and name HN    )     4.0 2.2 1.0
+assign (resid 62   and name HG#   )(resid 63   and name HA    )     4.0 2.2 1.0
+assign (resid 62   and name HG#   )(resid 66   and name HN    )     4.0 2.2 1.0
+assign (resid 62   and name HD1   )(resid 63   and name HN    )     4.0 2.2 1.0
+assign (resid 62   and name HD2   )(resid 63   and name HG12  )     4.0 2.2 1.0
+assign (resid 62   and name HD2   )(resid 66   and name HN    )     4.0 2.2 1.0
+assign (resid 62   and name HD#   )(resid 66   and name HN    )     4.0 2.2 1.0
+!I63
+assign (resid 63   and name HN    )(resid 63   and name HA    )     3.6 1.8 1.0
+assign (resid 63   and name HN    )(resid 63   and name HB    )     2.9 1.1 0.5
+assign (resid 63   and name HN    )(resid 63   and name HG1#  )     4.0 2.2 1.0
+assign (resid 63   and name HN    )(resid 63   and name HG2#  )     4.0 2.2 1.0
+assign (resid 63   and name HN    )(resid 63   and name HD1#  )     4.0 2.2 1.0
+assign (resid 63   and name HN    )(resid 64   and name HN    )     2.9 1.1 0.5
+assign (resid 63   and name HN    )(resid 64   and name HB2   )     5.0 3.2 1.0
+!assign (resid 63   and name HN    )(resid 65   and name HN    )     4.0 2.2 1.0
+assign (resid 63   and name HN    )(resid 66   and name HN    )     5.0 3.2 1.0
+!assign (resid 63   and name HA    )(resid 63   and name HB    )     3.6 1.8 1.0
+assign (resid 63   and name HA    )(resid 63   and name HG1#  )     4.0 2.2 1.0
+assign (resid 63   and name HA    )(resid 63   and name HG2#  )     4.0 2.2 1.0
+assign (resid 63   and name HA    )(resid 63   and name HD1#  )     4.0 2.2 1.0
+assign (resid 63   and name HA    )(resid 64   and name HN    )     4.0 2.2 1.0
+assign (resid 63   and name HA    )(resid 66   and name HN    )     4.0 2.2 1.0
+assign (resid 63   and name HA    )(resid 66   and name HB#   )     3.6 1.8 1.0
+assign (resid 63   and name HA    )(resid 67   and name HN    )     5.0 3.2 1.0
+!assign (resid 63   and name HB    )(resid 63   and name HG1#  )     4.0 2.2 1.0
+!assign (resid 63   and name HB    )(resid 63   and name HG2#  )     4.0 2.2 1.0
+assign (resid 63   and name HB    )(resid 63   and name HD1#  )     4.0 2.2 1.0
+assign (resid 63   and name HB    )(resid 64   and name HN    )     2.9 1.1 0.5
+assign (resid 63   and name HB    )(resid 64   and name HA    )     5.0 3.2 1.0
+assign (resid 63   and name HG1#  )(resid 63   and name HG2#  )     4.0 2.2 1.0
+!assign (resid 63   and name HG1#  )(resid 63   and name HD1#  )     4.0 2.2 1.0
+assign (resid 63   and name HG1#  )(resid 64   and name HN    )     4.0 2.2 1.0
+assign (resid 63   and name HG2#  )(resid 64   and name HN    )     4.0 2.2 1.0
+assign (resid 63   and name HG2#  )(resid 64   and name HA    )     4.0 2.2 1.0
+assign (resid 63   and name HD1#  )(resid 64   and name HN    )     4.0 2.2 1.0
+assign (resid 63   and name HD1#  )(resid 66   and name HB#   )     4.0 2.2 1.0
+!L64
+assign (resid 64   and name HN    )(resid 64   and name HA    )     3.6 1.8 1.0
+assign (resid 64   and name HN    )(resid 64   and name HB#   )     2.9 1.1 0.5
+assign (resid 64   and name HN    )(resid 64   and name HG    )     4.0 2.2 1.0
+assign (resid 64   and name HN    )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 64   and name HN    )(resid 65   and name HN    )     2.9 1.1 0.5
+assign (resid 64   and name HN    )(resid 65   and name HB2   )     5.0 3.2 1.0
+!assign (resid 64   and name HN    )(resid 66   and name HN    )     5.0 3.2 1.0
+assign (resid 64   and name HN    )(resid 67   and name HN    )     5.0 3.2 1.0
+!assign (resid 64   and name HA    )(resid 64   and name HB#   )     3.6 1.8 1.0
+assign (resid 64   and name HA    )(resid 64   and name HG    )     4.0 2.2 1.0
+assign (resid 64   and name HA    )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 64   and name HA    )(resid 65   and name HN    )     4.0 2.2 1.0
+assign (resid 64   and name HA    )(resid 66   and name HN    )     5.0 3.2 1.0
+assign (resid 64   and name HA    )(resid 67   and name HN    )     5.0 3.2 1.0
+assign (resid 64   and name HA    )(resid 67   and name HB#   )     3.6 1.8 1.0
+assign (resid 64   and name HA    )(resid 68   and name HN    )     5.0 3.2 1.0
+!assign (resid 64   and name HB#   )(resid 64   and name HG    )     4.0 2.2 1.0
+assign (resid 64   and name HB#   )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 64   and name HB#   )(resid 65   and name HN    )     2.9 1.1 0.5
+assign (resid 64   and name HB1   )(resid 65   and name HD##  )     4.0 2.2 1.0
+!assign (resid 64   and name HG    )(resid 64   and name HD##  )     4.0 2.2 1.0
+assign (resid 64   and name HD##  )(resid 65   and name HN    )     4.0 2.2 1.0
+assign (resid 64   and name HD##  )(resid 67   and name HN    )     4.0 2.2 1.0
+assign (resid 64   and name HD##  )(resid 67   and name HB1   )     4.0 2.2 1.0
+assign (resid 64   and name HD##  )(resid 67   and name HD#   )     4.0 2.2 1.0
+!L65
+assign (resid 65   and name HN    )(resid 65   and name HA    )     2.9 1.1 0.5
+assign (resid 65   and name HN    )(resid 65   and name HB#   )     2.9 1.1 0.5
+assign (resid 65   and name HN    )(resid 65   and name HD##  )     4.0 2.2 1.0
+assign (resid 65   and name HN    )(resid 66   and name HN    )     3.6 1.8 1.0
+!assign (resid 65   and name HN    )(resid 67   and name HN    )     5.0 3.2 1.0
+!assign (resid 65   and name HA    )(resid 65   and name HB#   )     2.9 1.1 0.5
+assign (resid 65   and name HA    )(resid 65   and name HD##  )     4.0 2.2 1.0
+assign (resid 65   and name HA    )(resid 66   and name HN    )     3.6 1.8 1.0
+assign (resid 65   and name HA    )(resid 67   and name HN    )     5.0 3.2 1.0
+assign (resid 65   and name HA    )(resid 68   and name HN    )     3.6 1.8 1.0
+assign (resid 65   and name HA    )(resid 68   and name HB#   )     3.6 1.8 1.0
+assign (resid 65   and name HA    )(resid 68   and name HG    )     4.0 2.2 1.0
+assign (resid 65   and name HA    )(resid 69   and name HN    )     4.0 2.2 1.0
+assign (resid 65   and name HB#   )(resid 65   and name HD##  )     4.0 2.2 1.0
+assign (resid 65   and name HB#   )(resid 66   and name HN    )     2.9 1.1 0.5
+assign (resid 65   and name HD##  )(resid 66   and name HN    )     4.0 2.2 1.0
+assign (resid 65   and name HD##  )(resid 68   and name HB1   )     4.0 2.2 1.0
+assign (resid 65   and name HD##  )(resid 69   and name HN    )     4.0 2.2 1.0
+assign (resid 65   and name HD##  )(resid 69   and name HG2   )     4.0 2.2 1.0
+!D66
+assign (resid 66   and name HN    )(resid 66   and name HA    )     3.6 1.8 1.0
+assign (resid 66   and name HN    )(resid 66   and name HB#   )     2.9 1.1 0.5
+assign (resid 66   and name HN    )(resid 67   and name HN    )     3.6 1.8 1.0
+!assign (resid 66   and name HN    )(resid 68   and name HN    )     4.0 2.2 1.0
+!assign (resid 66   and name HA    )(resid 66   and name HB#   )     2.9 1.1 0.5
+assign (resid 66   and name HA    )(resid 67   and name HN    )     4.0 2.2 1.0
+assign (resid 66   and name HA    )(resid 68   and name HN    )     5.0 3.2 1.0
+assign (resid 66   and name HA    )(resid 69   and name HN    )     3.6 1.8 1.0
+assign (resid 66   and name HA    )(resid 69   and name HB#   )     2.9 1.1 0.5
+assign (resid 66   and name HA    )(resid 69   and name HG#   )     4.0 2.2 1.0
+assign (resid 66   and name HA    )(resid 70   and name HN    )     5.0 3.2 1.0
+assign (resid 66   and name HB2   )(resid 67   and name HN    )     3.6 1.8 1.0
+assign (resid 66   and name HB#   )(resid 67   and name HN    )     3.6 1.8 1.0
+assign (resid 66   and name HB1   )(resid 67   and name HA    )     5.0 3.2 1.0
+!F67
+assign (resid 67   and name HN    )(resid 67   and name HA    )     3.6 1.8 1.0
+assign (resid 67   and name HN    )(resid 67   and name HB#   )     2.9 1.1 0.5
+assign (resid 67   and name HN    )(resid 67   and name HD#   )     4.0 2.2 1.0
+assign (resid 67   and name HN    )(resid 68   and name HN    )     2.9 1.1 0.5
+assign (resid 67   and name HN    )(resid 68   and name HB2   )     4.0 2.2 1.0
+!assign (resid 67   and name HN    )(resid 69   and name HN    )     5.0 3.2 1.0
+assign (resid 67   and name HN    )(resid 70   and name HN    )     5.0 3.2 1.0
+!assign (resid 67   and name HA    )(resid 67   and name HB#   )     2.9 1.1 0.5
+assign (resid 67   and name HA    )(resid 67   and name HD#   )     4.0 2.2 1.0
+assign (resid 67   and name HA    )(resid 68   and name HN    )     4.0 2.2 1.0
+assign (resid 67   and name HA    )(resid 70   and name HN    )     5.0 3.2 1.0
+assign (resid 67   and name HA    )(resid 70   and name HA    )     5.0 3.2 1.0
+assign (resid 67   and name HA    )(resid 70   and name HB#   )     5.0 3.2 1.0
+assign (resid 67   and name HB#   )(resid 67   and name HD#   )     4.0 2.2 1.0
+assign (resid 67   and name HB#   )(resid 67   and name HE#   )     4.0 2.2 1.0
+assign (resid 67   and name HB#   )(resid 68   and name HN    )     2.9 1.1 0.5
+assign (resid 67   and name HB1   )(resid 68   and name HB2   )     5.0 3.2 1.0
+assign (resid 67   and name HB1   )(resid 68   and name HG    )     4.0 2.2 1.0
+assign (resid 67   and name HB1   )(resid 68   and name HD##  )     4.0 2.2 1.0
+!assign (resid 67   and name HD#   )(resid 67   and name HE#   )     4.0 2.2 1.0
+!assign (resid 67   and name HD#   )(resid 67   and name HZ    )     4.0 2.2 1.0
+assign (resid 67   and name HD#   )(resid 68   and name HN    )     4.0 2.2 1.0
+assign (resid 67   and name HD#   )(resid 68   and name HA    )     4.0 2.2 1.0
+assign (resid 67   and name HD#   )(resid 68   and name HG    )     4.0 2.2 1.0
+assign (resid 67   and name HD#   )(resid 68   and name HD##  )     4.0 2.2 1.0
+!assign (resid 67   and name HE#   )(resid 67   and name HZ    )     4.0 2.2 1.0
+assign (resid 67   and name HE#   )(resid 68   and name HD##  )     4.0 2.2 1.0
+!L68
+assign (resid 68   and name HN    )(resid 68   and name HA    )     3.6 1.8 1.0
+assign (resid 68   and name HN    )(resid 68   and name HB#   )     2.3 0.5 0.4
+assign (resid 68   and name HN    )(resid 68   and name HG    )     4.0 2.2 1.0
+assign (resid 68   and name HN    )(resid 68   and name HD##  )     4.0 2.2 1.0
+assign (resid 68   and name HN    )(resid 69   and name HN    )     2.9 1.1 0.5
+!assign (resid 68   and name HN    )(resid 70   and name HN    )     5.0 3.2 1.0
+!assign (resid 68   and name HA    )(resid 68   and name HB#   )     2.9 1.1 0.5
+assign (resid 68   and name HA    )(resid 68   and name HG    )     4.0 2.2 1.0
+assign (resid 68   and name HA    )(resid 68   and name HD##  )     4.0 2.2 1.0
+assign (resid 68   and name HA    )(resid 69   and name HN    )     4.0 2.2 1.0
+assign (resid 68   and name HA    )(resid 70   and name HN    )     5.0 3.2 1.0
+!assign (resid 68   and name HB#   )(resid 68   and name HG    )     4.0 2.2 1.0
+assign (resid 68   and name HB#   )(resid 68   and name HD##  )     4.0 2.2 1.0
+assign (resid 68   and name HB#   )(resid 69   and name HN    )     2.9 1.1 0.5
+!assign (resid 68   and name HG    )(resid 68   and name HD##  )     4.0 2.2 1.0
+assign (resid 68   and name HD##  )(resid 69   and name HN    )     4.0 2.2 1.0
+!E69
+assign (resid 69   and name HN    )(resid 69   and name HA    )     3.6 1.8 1.0
+assign (resid 69   and name HN    )(resid 69   and name HB#   )     2.9 1.1 0.5
+assign (resid 69   and name HN    )(resid 69   and name HG2   )     4.0 2.2 1.0
+assign (resid 69   and name HN    )(resid 69   and name HG#   )     4.0 2.2 1.0
+assign (resid 69   and name HN    )(resid 70   and name HN    )     2.9 1.1 0.5
+!assign (resid 69   and name HA    )(resid 69   and name HB#   )     2.9 1.1 0.5
+assign (resid 69   and name HA    )(resid 69   and name HG#   )     4.0 2.2 1.0
+assign (resid 69   and name HA    )(resid 70   and name HN    )     3.6 1.8 1.0
+!assign (resid 69   and name HB#   )(resid 69   and name HG#   )     4.0 2.2 1.0
+assign (resid 69   and name HB#   )(resid 70   and name HN    )     2.9 1.1 0.5
+assign (resid 69   and name HB1   )(resid 70   and name HA    )     5.0 3.2 1.0
+assign (resid 69   and name HB1   )(resid 71   and name HN    )     5.0 3.2 1.0
+assign (resid 69   and name HG2   )(resid 70   and name HN    )     4.0 2.2 1.0
+!S70
+assign (resid 70   and name HN    )(resid 70   and name HA    )     2.9 1.1 0.5
+assign (resid 70   and name HN    )(resid 70   and name HB#   )     2.9 1.1 0.5
+assign (resid 70   and name HN    )(resid 71   and name HN    )     4.0 2.2 1.0
+!assign (resid 70   and name HA    )(resid 70   and name HB#   )     2.9 1.1 0.5
+assign (resid 70   and name HA    )(resid 71   and name HN    )     2.9 1.1 0.5
+assign (resid 70   and name HB#   )(resid 71   and name HN    )     3.6 1.8 1.0
+!K71
+assign (resid 71   and name HN    )(resid 71   and name HA    )     2.9 1.1 0.5
+assign (resid 71   and name HN    )(resid 71   and name HB#   )     2.9 1.1 0.5
+assign (resid 71   and name HN    )(resid 71   and name HG2   )     4.0 2.2 1.0
+assign (resid 71   and name HN    )(resid 72   and name HD#   )     4.0 2.2 1.0
+!assign (resid 71   and name HA    )(resid 71   and name HB#   )     2.9 1.1 0.5
+assign (resid 71   and name HA    )(resid 71   and name HG2   )     4.0 2.2 1.0
+assign (resid 71   and name HA    )(resid 71   and name HD2   )     4.0 2.2 1.0
+assign (resid 71   and name HA    )(resid 71   and name HE1   )     4.0 2.2 1.0
+assign (resid 71   and name HA    )(resid 72   and name HD#   )     4.0 2.2 1.0
+!assign (resid 71   and name HB#   )(resid 71   and name HG2   )     4.0 2.2 1.0
+assign (resid 71   and name HB#   )(resid 71   and name HD2   )     4.0 2.2 1.0
+assign (resid 71   and name HB#   )(resid 72   and name HD#   )     4.0 2.2 1.0
+assign (resid 71   and name HG2   )(resid 71   and name HE#   )     4.0 2.2 1.0
+assign (resid 71   and name HG2   )(resid 72   and name HD2   )     4.0 2.2 1.0
+!assign (resid 71   and name HD2   )(resid 71   and name HE#   )     4.0 2.2 1.0
+assign (resid 71   and name HD2   )(resid 72   and name HD#   )     4.0 2.2 1.0
+!P72
+!assign (resid 72   and name HA    )(resid 72   and name HB#   )     2.9 1.1 0.5
+!assign (resid 72   and name HA    )(resid 72   and name HG#   )     4.0 2.2 1.0
+!assign (resid 72   and name HA    )(resid 72   and name HD2   )     4.0 2.2 1.0
+!assign (resid 72   and name HB#   )(resid 72   and name HG#   )     4.0 2.2 1.0
+!assign (resid 72   and name HB#   )(resid 72   and name HD#   )     4.0 2.2 1.0
+!assign (resid 72   and name HG#   )(resid 72   and name HD#   )     4.0 2.2 1.0
+! created by  ASDP Version 2.2 Copyright(C) 2019
+
+! SER 2
+	assign (resid   1 and name C ) (resid   2 and name N ) (resid   2 and name CA )
+	       (resid   2 and name C ) (resid   3 and name N )	58.546	63.824
+! VAL 3
+	assign (resid   2 and name C ) (resid   3 and name N ) (resid   3 and name CA )
+	       (resid   3 and name C ) (resid   4 and name N )	64.761	31.87
+! VAL 4
+	assign (resid   3 and name C ) (resid   4 and name N ) (resid   4 and name CA )
+	       (resid   4 and name C ) (resid   5 and name N )	66.273	31.407
+! LYS 5
+	assign (resid   4 and name C ) (resid   5 and name N ) (resid   5 and name CA )
+	       (resid   5 and name C ) (resid   6 and name N )	60.305	32.927
+! GLU 6
+	assign (resid   5 and name C ) (resid   6 and name N ) (resid   6 and name CA )
+	       (resid   6 and name C ) (resid   7 and name N )	59.403	29.526
+! LYS 7
+	assign (resid   6 and name C ) (resid   7 and name N ) (resid   7 and name CA )
+	       (resid   7 and name C ) (resid   8 and name N )	59.335	32.772
+! LEU 8
+	assign (resid   7 and name C ) (resid   8 and name N ) (resid   8 and name CA )
+	       (resid   8 and name C ) (resid   9 and name N )	58.165	41.64
+! GLU 9
+	assign (resid   8 and name C ) (resid   9 and name N ) (resid   9 and name CA )
+	       (resid   9 and name C ) (resid  10 and name N )	60.227	29.003
+! LYS 10
+	assign (resid   9 and name C ) (resid  10 and name N ) (resid  10 and name CA )
+	       (resid  10 and name C ) (resid  11 and name N )	59.335	32.337
+! ALA 11
+	assign (resid  10 and name C ) (resid  11 and name N ) (resid  11 and name CA )
+	       (resid  11 and name C ) (resid  12 and name N )	54.893	19.327
+! LEU 12
+	assign (resid  11 and name C ) (resid  12 and name N ) (resid  12 and name CA )
+	       (resid  12 and name C ) (resid  13 and name N )	57.856	41.85
+! ILE 13
+	assign (resid  12 and name C ) (resid  13 and name N ) (resid  13 and name CA )
+	       (resid  13 and name C ) (resid  14 and name N )	64.575	37.977
+! GLU 14
+	assign (resid  13 and name C ) (resid  14 and name N ) (resid  14 and name CA )
+	       (resid  14 and name C ) (resid  15 and name N )	58.722	29.479
+! VAL 15
+	assign (resid  14 and name C ) (resid  15 and name N ) (resid  15 and name CA )
+	       (resid  15 and name C ) (resid  16 and name N )	61.267	31.687
+! ARG 16
+	assign (resid  15 and name C ) (resid  16 and name N ) (resid  16 and name CA )
+	       (resid  16 and name C ) (resid  17 and name N )	61.262	27.97
+! PRO 17
+	assign (resid  16 and name C ) (resid  17 and name N ) (resid  17 and name CA )
+	       (resid  17 and name C ) (resid  18 and name N )	64.899	30.677
+! TYR 18
+	assign (resid  17 and name C ) (resid  18 and name N ) (resid  18 and name CA )
+	       (resid  18 and name C ) (resid  19 and name N )	57.107	39.962
+! VAL 19
+	assign (resid  18 and name C ) (resid  19 and name N ) (resid  19 and name CA )
+	       (resid  19 and name C ) (resid  20 and name N )	60.021	33.877
+! GLU 20
+	assign (resid  19 and name C ) (resid  20 and name N ) (resid  20 and name CA )
+	       (resid  20 and name C ) (resid  21 and name N )	58.238	30.693
+! TYR 21
+	assign (resid  20 and name C ) (resid  21 and name N ) (resid  21 and name CA )
+	       (resid  21 and name C ) (resid  22 and name N )	55.414	35.634
+! TYR 22
+	assign (resid  21 and name C ) (resid  22 and name N ) (resid  22 and name CA )
+	       (resid  22 and name C ) (resid  23 and name N )	62.977	38.737
+! ASN 23
+	assign (resid  22 and name C ) (resid  23 and name N ) (resid  23 and name CA )
+	       (resid  23 and name C ) (resid  24 and name N )	56.781	37.179
+! GLU 24
+	assign (resid  23 and name C ) (resid  24 and name N ) (resid  24 and name CA )
+	       (resid  24 and name C ) (resid  25 and name N )	60.287	28.518
+! LEU 25
+	assign (resid  24 and name C ) (resid  25 and name N ) (resid  25 and name CA )
+	       (resid  25 and name C ) (resid  26 and name N )	57.973	42.493
+! LYS 26
+	assign (resid  25 and name C ) (resid  26 and name N ) (resid  26 and name CA )
+	       (resid  26 and name C ) (resid  27 and name N )	59.754	31.888
+! ALA 27
+	assign (resid  26 and name C ) (resid  27 and name N ) (resid  27 and name CA )
+	       (resid  27 and name C ) (resid  28 and name N )	55.124	17.867
+! LEU 28
+	assign (resid  27 and name C ) (resid  28 and name N ) (resid  28 and name CA )
+	       (resid  28 and name C ) (resid  29 and name N )	58.12	41.939
+! VAL 29
+	assign (resid  28 and name C ) (resid  29 and name N ) (resid  29 and name CA )
+	       (resid  29 and name C ) (resid  30 and name N )	67.349	31.327
+! SER 30
+	assign (resid  29 and name C ) (resid  30 and name N ) (resid  30 and name CA )
+	       (resid  30 and name C ) (resid  31 and name N )	61.921	62.792
+! LYS 31
+	assign (resid  30 and name C ) (resid  31 and name N ) (resid  31 and name CA )
+	       (resid  31 and name C ) (resid  32 and name N )	59.351	32.325
+! ILE 32
+	assign (resid  31 and name C ) (resid  32 and name N ) (resid  32 and name CA )
+	       (resid  32 and name C ) (resid  33 and name N )	65.097	38.854
+! SER 33
+	assign (resid  32 and name C ) (resid  33 and name N ) (resid  33 and name CA )
+	       (resid  33 and name C ) (resid  34 and name N )	61.972	63.184
+! SER 34
+	assign (resid  33 and name C ) (resid  34 and name N ) (resid  34 and name CA )
+	       (resid  34 and name C ) (resid  35 and name N )	59.616	64.05
+! SER 35
+	assign (resid  34 and name C ) (resid  35 and name N ) (resid  35 and name CA )
+	       (resid  35 and name C ) (resid  36 and name N )	59.071	65.572
+! VAL 36
+	assign (resid  35 and name C ) (resid  36 and name N ) (resid  36 and name CA )
+	       (resid  36 and name C ) (resid  37 and name N )	60.067	34.293
+! ASN 37
+	assign (resid  36 and name C ) (resid  37 and name N ) (resid  37 and name CA )
+	       (resid  37 and name C ) (resid  38 and name N )	54.155	41.095
+! ASP 38
+	assign (resid  37 and name C ) (resid  38 and name N ) (resid  38 and name CA )
+	       (resid  38 and name C ) (resid  39 and name N )	53.074	43.111
+! LEU 39
+	assign (resid  38 and name C ) (resid  39 and name N ) (resid  39 and name CA )
+	       (resid  39 and name C ) (resid  40 and name N )	57.534	42.281
+! GLU 40
+	assign (resid  39 and name C ) (resid  40 and name N ) (resid  40 and name CA )
+	       (resid  40 and name C ) (resid  41 and name N )	60.47	28.675
+! GLU 41
+	assign (resid  40 and name C ) (resid  41 and name N ) (resid  41 and name CA )
+	       (resid  41 and name C ) (resid  42 and name N )	59.192	30.508
+! ALA 42
+	assign (resid  41 and name C ) (resid  42 and name N ) (resid  42 and name CA )
+	       (resid  42 and name C ) (resid  43 and name N )	55.46	18.434
+! ILE 43
+	assign (resid  42 and name C ) (resid  43 and name N ) (resid  43 and name CA )
+	       (resid  43 and name C ) (resid  44 and name N )	65.871	37.927
+! VAL 44
+	assign (resid  43 and name C ) (resid  44 and name N ) (resid  44 and name CA )
+	       (resid  44 and name C ) (resid  45 and name N )	67.691	31.731
+! VAL 45
+	assign (resid  44 and name C ) (resid  45 and name N ) (resid  45 and name CA )
+	       (resid  45 and name C ) (resid  46 and name N )	66.733	31.635
+! LEU 46
+	assign (resid  45 and name C ) (resid  46 and name N ) (resid  46 and name CA )
+	       (resid  46 and name C ) (resid  47 and name N )	58.635	42.395
+! ARG 47
+	assign (resid  46 and name C ) (resid  47 and name N ) (resid  47 and name CA )
+	       (resid  47 and name C ) (resid  48 and name N )	59.704	30.258
+! GLU 48
+	assign (resid  47 and name C ) (resid  48 and name N ) (resid  48 and name CA )
+	       (resid  48 and name C ) (resid  49 and name N )	59.309	29.044
+! GLU 49
+	assign (resid  48 and name C ) (resid  49 and name N ) (resid  49 and name CA )
+	       (resid  49 and name C ) (resid  50 and name N )	58.748	28.158
+! GLU 50
+	assign (resid  49 and name C ) (resid  50 and name N ) (resid  50 and name CA )
+	       (resid  50 and name C ) (resid  51 and name N )	60.639	29.042
+! LYS 51
+	assign (resid  50 and name C ) (resid  51 and name N ) (resid  51 and name CA )
+	       (resid  51 and name C ) (resid  52 and name N )	59.164	32.753
+! LYS 52
+	assign (resid  51 and name C ) (resid  52 and name N ) (resid  52 and name CA )
+	       (resid  52 and name C ) (resid  53 and name N )	56.776	33.879
+! ALA 53
+	assign (resid  52 and name C ) (resid  53 and name N ) (resid  53 and name CA )
+	       (resid  53 and name C ) (resid  54 and name N )	52.271	19.835
+! SER 54
+	assign (resid  53 and name C ) (resid  54 and name N ) (resid  54 and name CA )
+	       (resid  54 and name C ) (resid  55 and name N )	56.918	65.082
+! GLU 55
+	assign (resid  54 and name C ) (resid  55 and name N ) (resid  55 and name CA )
+	       (resid  55 and name C ) (resid  56 and name N )	56.366	28.496
+! PRO 56
+	assign (resid  55 and name C ) (resid  56 and name N ) (resid  56 and name CA )
+	       (resid  56 and name C ) (resid  57 and name N )	63.581	34.226
+! PHE 57
+	assign (resid  56 and name C ) (resid  57 and name N ) (resid  57 and name CA )
+	       (resid  57 and name C ) (resid  58 and name N )	59.991	38.868
+! LYS 58
+	assign (resid  57 and name C ) (resid  58 and name N ) (resid  58 and name CA )
+	       (resid  58 and name C ) (resid  59 and name N )	60.408	32.922
+! THR 59
+	assign (resid  58 and name C ) (resid  59 and name N ) (resid  59 and name CA )
+	       (resid  59 and name C ) (resid  60 and name N )	67.814	68.028
+! ASP 60
+	assign (resid  59 and name C ) (resid  60 and name N ) (resid  60 and name CA )
+	       (resid  60 and name C ) (resid  61 and name N )	58.49	40.763
+! ILE 61
+	assign (resid  60 and name C ) (resid  61 and name N ) (resid  61 and name CA )
+	       (resid  61 and name C ) (resid  62 and name N )	65.852	38.346
+! ARG 62
+	assign (resid  61 and name C ) (resid  62 and name N ) (resid  62 and name CA )
+	       (resid  62 and name C ) (resid  63 and name N )	59.21	29.135
+! ILE 63
+	assign (resid  62 and name C ) (resid  63 and name N ) (resid  63 and name CA )
+	       (resid  63 and name C ) (resid  64 and name N )	65.564	37.688
+! LEU 64
+	assign (resid  63 and name C ) (resid  64 and name N ) (resid  64 and name CA )
+	       (resid  64 and name C ) (resid  65 and name N )	58.606	41.668
+! LEU 65
+	assign (resid  64 and name C ) (resid  65 and name N ) (resid  65 and name CA )
+	       (resid  65 and name C ) (resid  66 and name N )	59.014	42.662
+! ASP 66
+	assign (resid  65 and name C ) (resid  66 and name N ) (resid  66 and name CA )
+	       (resid  66 and name C ) (resid  67 and name N )	57.238	40.023
+! PHE 67
+	assign (resid  66 and name C ) (resid  67 and name N ) (resid  67 and name CA )
+	       (resid  67 and name C ) (resid  68 and name N )	61.925	39.412
+! LEU 68
+	assign (resid  67 and name C ) (resid  68 and name N ) (resid  68 and name CA )
+	       (resid  68 and name C ) (resid  69 and name N )	57.42	42.864
+! GLU 69
+	assign (resid  68 and name C ) (resid  69 and name N ) (resid  69 and name CA )
+	       (resid  69 and name C ) (resid  70 and name N )	57.663	30.426
+! SER 70
+	assign (resid  69 and name C ) (resid  70 and name N ) (resid  70 and name CA )
+	       (resid  70 and name C ) (resid  71 and name N )	59.224	63.73
+! LYS 71
+	assign (resid  70 and name C ) (resid  71 and name N ) (resid  71 and name CA )
+	       (resid  71 and name C ) (resid  72 and name N )	53.787	32.165

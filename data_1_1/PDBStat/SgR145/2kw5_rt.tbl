@@ -1,0 +1,2946 @@
+*HEADER    STRUCTURAL GENOMICS, UNKNOWN FUNCTION   31-MAR-10   2KW5              
+*TITLE     SOLUTION NMR STRUCTURE OF THE SLR1183 PROTEIN FROM                    
+*TITLE    2 SYNECHOCYSTIS SP. PCC 6803, NORTHEAST STRUCTURAL GENOMICS            
+*TITLE    3 CONSORTIUM TARGET SGR145                                             
+*COMPND    MOL_ID: 1;                                                            
+*COMPND   2 MOLECULE: SLR1183 PROTEIN;                                           
+*COMPND   3 CHAIN: A;                                                            
+*COMPND   4 ENGINEERED: YES                                                      
+*SOURCE    MOL_ID: 1;                                                            
+*SOURCE   2 ORGANISM_SCIENTIFIC: SYNECHOCYSTIS;                                  
+*SOURCE   3 ORGANISM_TAXID: 1148;                                                
+*SOURCE   4 STRAIN: PCC 6803;                                                    
+*SOURCE   5 GENE: SLR1183;                                                       
+*SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+*SOURCE   7 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+*SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21;                                      
+*SOURCE   9 EXPRESSION_SYSTEM_VECTOR: PET21                                      
+*KEYWDS    STRUCTURAL GENOMICS, NORTHEAST STRUCTURAL GENOMICS                    
+*KEYWDS   2 CONSORTIUM (NESG), PSI-2, PROTEIN STRUCTURE INITIATIVE,              
+*KEYWDS   3 UNKNOWN FUNCTION                                                     
+*EXPDTA    SOLUTION NMR                                                          
+*NUMMDL    20                                                                    
+*AUTHOR    P.ROSSI, F.FOROUHAR, H.LEE, O.LANGE, B.MAO, A.LEMAK,                  
+*AUTHOR   2 M.MAGLAQUI, R.BELOTE, C.CICCOSANTI, E.FOOTE, S.SAHDEV,               
+*AUTHOR   3 T.ACTON, R.XIAO, J.EVERETT, D.BAKER, G.T.MONTELIONE,                 
+*AUTHOR   4 'NORTHEAST, GENOMICS, (NESG)', NORTHEAST STRUCTURAL                  
+*AUTHOR   5 GENOMICS CONSORTIUM (NESG)                                           
+*REVDAT   2   02-MAR-11 2KW5    1                                            
+*REVDAT   1   21-APR-10 2KW5    0                                                
+
+
+ assign (resid  59 and name HN   )   (resid  60 and name HN   )    2.86  1.06  0.29
+ assign (resid  60 and name HN   )   (resid  62 and name HN   )    5.02  3.22  0.50
+ assign (resid  24 and name HN   )   (resid  25 and name HN   )    3.40  1.60  0.34
+ assign (resid  31 and name HN   )   (resid  32 and name HN   )    4.25  2.45  0.43
+ assign (resid  49 and name HN   )   (resid  50 and name HN   )    2.92  1.12  0.29
+ assign (resid  51 and name HN   )   (resid  52 and name HN   )    2.70  0.90  0.27
+ assign (resid  52 and name HN   )   (resid  53 and name HN   )    4.42  2.62  0.44
+ assign (resid  89 and name HN   )   (resid  90 and name HN   )    3.50  1.70  0.35
+ assign (resid  92 and name HN   )   (resid  93 and name HN   )    3.66  1.86  0.37
+ assign (resid 128 and name HN   )   (resid 129 and name HN   )    4.71  2.91  0.47
+ assign (resid 129 and name HN   )   (resid 130 and name HN   )    5.01  3.21  0.50
+ assign (resid 132 and name HN   )   (resid 133 and name HN   )    4.59  2.79  0.46
+ assign (resid 135 and name HN   )   (resid 136 and name HN   )    2.91  1.11  0.29
+ assign (resid 140 and name HN   )   (resid 141 and name HN   )    4.59  2.79  0.46
+ assign (resid 141 and name HN   )   (resid 142 and name HN   )    3.29  1.49  0.33
+ assign (resid 145 and name HN   )   (resid 146 and name HN   )    2.44  0.64  0.24
+ assign (resid 146 and name HN   )   (resid 147 and name HN   )    4.08  2.28  0.41
+ assign (resid 153 and name HN   )   (resid 154 and name HN   )    2.75  0.95  0.28
+ assign (resid 156 and name HN   )   (resid 157 and name HN   )    2.95  1.15  0.30
+ assign (resid 170 and name HN   )   (resid 171 and name HN   )    4.46  2.66  0.45
+ assign (resid 189 and name HN   )   (resid 190 and name HN   )    4.82  3.02  0.48
+ assign (resid  30 and name HN   )   (resid  31 and name HN   )    3.50  1.70  0.35
+ assign (resid  47 and name HN   )   (resid  48 and name HN   )    3.92  2.12  0.39
+ assign (resid  48 and name HN   )   (resid  49 and name HN   )    3.76  1.96  0.38
+ assign (resid  56 and name HN   )   (resid  57 and name HN   )    4.44  2.64  0.44
+ assign (resid  75 and name HN   )   (resid  76 and name HN   )    2.71  0.91  0.27
+ assign (resid  82 and name HN   )   (resid  83 and name HN   )    4.47  2.67  0.45
+ assign (resid 136 and name HN   )   (resid 137 and name HN   )    2.98  1.18  0.30
+ assign (resid 154 and name HN   )   (resid 155 and name HN   )    2.87  1.07  0.29
+ assign (resid 191 and name HN   )   (resid 192 and name HN   )    4.41  2.61  0.44
+ assign (resid  62 and name HN   )   (resid  63 and name HN   )    3.36  1.56  0.34
+ assign (resid  66 and name HN   )   (resid  67 and name HN   )    2.98  1.18  0.30
+ assign (resid  74 and name HN   )   (resid  75 and name HN   )    2.78  0.98  0.28
+ assign (resid  83 and name HN   )   (resid  84 and name HN   )    4.48  2.68  0.45
+ assign (resid  87 and name HN   )   (resid  88 and name HN   )    2.62  0.82  0.26
+ assign (resid  88 and name HN   )   (resid  89 and name HN   )    3.93  2.13  0.39
+ assign (resid  91 and name HN   )   (resid  92 and name HN   )    3.91  2.11  0.39
+ assign (resid 109 and name HN   )   (resid 110 and name HN   )    2.75  0.95  0.28
+ assign (resid 124 and name HN   )   (resid 125 and name HN   )    3.50  1.70  0.35
+ assign (resid 131 and name HN   )   (resid 132 and name HN   )    4.87  3.07  0.49
+ assign (resid 158 and name HN   )   (resid 159 and name HN   )    2.98  1.18  0.30
+ assign (resid 164 and name HN   )   (resid 165 and name HN   )    4.63  2.83  0.46
+ assign (resid 167 and name HN   )   (resid 168 and name HN   )    4.19  2.39  0.42
+ assign (resid 169 and name HN   )   (resid 170 and name HN   )    4.36  2.56  0.44
+ assign (resid 192 and name HN   )   (resid 193 and name HN   )    4.72  2.92  0.47
+ assign (resid  27 and name HN   )   (resid  28 and name HN   )    2.64  0.84  0.26
+ assign (resid  45 and name HN   )   (resid  46 and name HN   )    3.57  1.77  0.36
+ assign (resid  63 and name HN   )   (resid  64 and name HN   )    3.23  1.43  0.32
+ assign (resid  71 and name HN   )   (resid  72 and name HN   )    3.25  1.45  0.33
+ assign (resid  73 and name HN   )   (resid  74 and name HN   )    2.74  0.94  0.27
+ assign (resid  76 and name HN   )   (resid  77 and name HN   )    4.41  2.61  0.44
+ assign (resid  78 and name HN   )   (resid  79 and name HN   )    4.59  2.79  0.46
+ assign (resid  86 and name HN   )   (resid  87 and name HN   )    3.22  1.42  0.32
+ assign (resid  90 and name HN   )   (resid  91 and name HN   )    4.39  2.59  0.44
+ assign (resid 110 and name HN   )   (resid 111 and name HN   )    3.02  1.22  0.30
+ assign (resid 111 and name HN   )   (resid 112 and name HN   )    2.78  0.98  0.28
+ assign (resid 155 and name HN   )   (resid 156 and name HN   )    2.84  1.04  0.28
+ assign (resid 162 and name HN   )   (resid 163 and name HN   )    2.46  0.66  0.25
+ assign (resid 163 and name HN   )   (resid 164 and name HN   )    4.00  2.20  0.40
+ assign (resid 165 and name HN   )   (resid 166 and name HN   )    4.55  2.75  0.46
+ assign (resid 166 and name HN   )   (resid 167 and name HN   )    2.53  0.73  0.25
+ assign (resid 168 and name HN   )   (resid 169 and name HN   )    3.70  1.90  0.37
+ assign (resid 172 and name HN   )   (resid 173 and name HN   )    4.62  2.82  0.46
+ assign (resid 174 and name HN   )   (resid 175 and name HN   )    4.69  2.89  0.47
+ assign (resid 186 and name HN   )   (resid 187 and name HN   )    4.52  2.72  0.45
+ assign (resid 153 and name HN   )   (resid 155 and name HN   )    4.38  2.58  0.44
+ assign (resid 156 and name HN   )   (resid 158 and name HN   )    3.89  2.09  0.39
+ assign (resid 153 and name HN   )   (resid 156 and name HN   )    4.96  3.16  0.50
+ assign (resid 156 and name HN   )   (resid 159 and name HN   )    4.52  2.72  0.45
+ assign (resid 162 and name HN   )   (resid 164 and name HN   )    5.57  3.77  0.56
+ assign (resid 166 and name HN   )   (resid 193 and name HN   )    3.91  2.11  0.39
+ assign (resid 166 and name HN   )   (resid 192 and name HN   )    4.73  2.93  0.47
+ assign (resid 167 and name HN   )   (resid 192 and name HN   )    5.48  3.68  0.55
+ assign (resid  73 and name HN   )   (resid  75 and name HN   )    3.68  1.88  0.37
+ assign (resid  84 and name HN   )   (resid  85 and name HN   )    4.21  2.41  0.42
+ assign (resid  26 and name HN   )   (resid  28 and name HN   )    3.86  2.06  0.39
+ assign (resid 173 and name HN   )   (resid 185 and name HN   )    2.83  1.03  0.28
+ assign (resid 184 and name HN   )   (resid 185 and name HN   )    4.54  2.74  0.45
+ assign (resid 175 and name HD2* )   (resid 185 and name HN   )    3.82  2.02  0.38
+ assign (resid  85 and name HN   )   (resid  86 and name HN   )    3.58  1.78  0.36
+ assign (resid 107 and name HN   )   (resid 110 and name HN   )    4.53  2.73  0.45
+ assign (resid  68 and name HN   )   (resid  69 and name HN   )    2.94  1.14  0.29
+ assign (resid  67 and name HN   )   (resid  68 and name HN   )    3.22  1.42  0.32
+ assign (resid 107 and name HN   )   (resid 108 and name HN   )    3.36  1.56  0.34
+ assign (resid 108 and name HN   )   (resid 110 and name HN   )    3.92  2.12  0.39
+ assign (resid 155 and name HN   )   (resid 158 and name HN   )    4.53  2.73  0.45
+ assign (resid  32 and name HN   )   (resid  97 and name HN   )    4.67  2.87  0.47
+ assign (resid  93 and name HN   )   (resid  95 and name HN   )    4.26  2.46  0.43
+ assign (resid 108 and name HN   )   (resid 109 and name HN   )    3.18  1.38  0.32
+ assign (resid 110 and name HN   )   (resid 112 and name HN   )    3.98  2.18  0.40
+ assign (resid 112 and name HN   )   (resid 114 and name HN   )    3.95  2.15  0.40
+ assign (resid 112 and name HN   )   (resid 113 and name HN   )    2.77  0.97  0.28
+ assign (resid  79 and name HN   )   (resid  80 and name HN   )    4.18  2.38  0.42
+ assign (resid 140 and name HN   )   (resid 142 and name HN   )    5.26  3.46  0.53
+ assign (resid 138 and name HN   )   (resid 140 and name HN   )    4.74  2.94  0.47
+ assign (resid 139 and name HN   )   (resid 140 and name HN   )    3.86  2.06  0.39
+ assign (resid  23 and name HN   )   (resid  26 and name HN   )    4.87  3.07  0.49
+ assign (resid 137 and name HN   )   (resid 138 and name HN   )    2.90  1.10  0.29
+ assign (resid 138 and name HN   )   (resid 139 and name HN   )    2.89  1.09  0.29
+ assign (resid 137 and name HN   )   (resid 139 and name HN   )    4.67  2.87  0.47
+ assign (resid 135 and name HN   )   (resid 138 and name HN   )    4.98  3.18  0.50
+ assign (resid 136 and name HN   )   (resid 138 and name HN   )    3.74  1.94  0.37
+ assign (resid 102 and name HN   )   (resid 130 and name HN   )    5.55  3.75  0.56
+ assign (resid 129 and name HN   )   (resid 190 and name HN   )    3.66  1.86  0.37
+ assign (resid 100 and name HN   )   (resid 128 and name HN   )    4.15  2.35  0.42
+ assign (resid 148 and name HN   )   (resid 149 and name HN   )    2.73  0.93  0.27
+ assign (resid 146 and name HN   )   (resid 148 and name HN   )    4.16  2.36  0.42
+ assign (resid 145 and name HN   )   (resid 148 and name HN   )    5.62  3.82  0.56
+ assign (resid 149 and name HN   )   (resid 150 and name HN   )    2.65  0.85  0.27
+ assign (resid 146 and name HN   )   (resid 149 and name HN   )    4.22  2.42  0.42
+ assign (resid 117 and name HN   )   (resid 118 and name HN   )    3.26  1.46  0.33
+ assign (resid 116 and name HN   )   (resid 117 and name HN   )    3.21  1.41  0.32
+ assign (resid 114 and name HN   )   (resid 116 and name HN   )    4.08  2.28  0.41
+ assign (resid  94 and name HN   )   (resid  95 and name HE1  )    5.02  3.22  0.50
+ assign (resid  91 and name HN   )   (resid  94 and name HN   )    5.27  3.47  0.53
+ assign (resid  94 and name HN   )   (resid  95 and name HN   )    3.36  1.56  0.34
+ assign (resid  72 and name HN   )   (resid  73 and name HN   )    2.70  0.90  0.27
+ assign (resid  72 and name HN   )   (resid  75 and name HN   )    4.58  2.78  0.46
+ assign (resid  23 and name HN   )   (resid  24 and name HN   )    3.43  1.63  0.34
+ assign (resid  24 and name HN   )   (resid  24 and name HG1* )    3.32  1.52  0.33
+ assign (resid  24 and name HN   )   (resid  24 and name HG2* )    3.04  1.24  0.30
+ assign (resid  24 and name HN   )   (resid 191 and name HD2* )    3.75  1.95  0.38
+ assign (resid  24 and name HN   )   (resid 128 and name HD1* )    4.30  2.50  0.43
+ assign (resid  25 and name HN   )   (resid  26 and name HN   )    2.89  1.09  0.29
+ assign (resid  26 and name HN   )   (resid  27 and name HN   )    2.74  0.94  0.27
+ assign (resid  24 and name HN   )   (resid  26 and name HN   )    4.16  2.36  0.42
+ assign (resid  33 and name HN   )   (resid  55 and name HN   )    4.39  2.59  0.44
+ assign (resid  33 and name HN   )   (resid  34 and name HN   )    4.84  3.04  0.48
+ assign (resid  34 and name HN   )   (resid  35 and name HN   )    4.78  2.98  0.48
+ assign (resid  34 and name HN   )   (resid  99 and name HN   )    5.01  3.21  0.50
+ assign (resid 131 and name HN   )   (resid 188 and name HN   )    3.79  1.99  0.38
+ assign (resid  22 and name HN   )   (resid  23 and name HN   )    3.79  1.99  0.38
+ assign (resid  22 and name HN   )   (resid  24 and name HN   )    4.90  3.10  0.49
+ assign (resid 120 and name HN   )   (resid 121 and name HN   )    3.60  1.80  0.36
+ assign (resid  44 and name HN   )   (resid  45 and name HN   )    3.85  2.05  0.38
+ assign (resid  43 and name HN   )   (resid  44 and name HN   )    3.86  2.06  0.39
+ assign (resid  43 and name HN   )   (resid  45 and name HN   )    4.85  3.05  0.48
+ assign (resid  42 and name HN   )   (resid  43 and name HN   )    4.49  2.69  0.45
+ assign (resid 100 and name HN   )   (resid 101 and name HN   )    4.97  3.17  0.50
+ assign (resid 167 and name HN   )   (resid 191 and name HN   )    3.39  1.59  0.34
+ assign (resid  64 and name HN   )   (resid  66 and name HN   )    4.08  2.28  0.41
+ assign (resid  69 and name HN   )   (resid  70 and name HN   )    2.97  1.17  0.30
+ assign (resid  53 and name HN   )   (resid  54 and name HN   )    4.27  2.47  0.43
+ assign (resid  35 and name HN   )   (resid  55 and name HN   )    4.83  3.03  0.48
+ assign (resid 175 and name HN   )   (resid 184 and name HN   )    4.28  2.48  0.43
+ assign (resid 175 and name HN   )   (resid 185 and name HN   )    4.87  3.07  0.49
+ assign (resid  44 and name HN   )   (resid  46 and name HN   )    4.83  3.03  0.48
+ assign (resid  60 and name HN   )   (resid  63 and name HN   )    4.75  2.95  0.47
+ assign (resid  76 and name HN   )   (resid  76 and name HG2* )    2.60  0.80  0.26
+ assign (resid 101 and name HN   )   (resid 102 and name HN   )    4.64  2.84  0.46
+ assign (resid  35 and name HN   )   (resid  57 and name HN   )    4.64  2.84  0.46
+ assign (resid  37 and name HN   )   (resid  57 and name HN   )    4.05  2.25  0.41
+ assign (resid  57 and name HN   )   (resid  81 and name HG2* )    4.41  2.61  0.44
+ assign (resid  36 and name HD2* )   (resid  57 and name HN   )    4.12  2.32  0.41
+ assign (resid  34 and name HD1* )   (resid  57 and name HN   )    3.50  1.70  0.35
+ assign (resid 129 and name HN   )   (resid 129 and name HD1* )    4.69  2.89  0.47
+ assign (resid 129 and name HN   )   (resid 190 and name HD1* )    4.33  2.53  0.43
+ assign (resid 163 and name HN   )   (resid 195 and name HD2* )    4.76  2.96  0.48
+ assign (resid 160 and name HD2* )   (resid 163 and name HN   )    3.74  1.94  0.37
+ assign (resid  48 and name HN   )   (resid  50 and name HN   )    4.25  2.45  0.43
+ assign (resid  50 and name HN   )   (resid  50 and name HD2* )    3.17  1.37  0.32
+ assign (resid  50 and name HN   )   (resid  50 and name HD1* )    3.95  2.15  0.40
+ assign (resid  64 and name HD1* )   (resid  81 and name HN   )    3.37  1.57  0.34
+ assign (resid  57 and name HG1* )   (resid  81 and name HN   )    4.30  2.50  0.43
+ assign (resid 109 and name HN   )   (resid 109 and name HD2* )    3.64  1.84  0.36
+ assign (resid 137 and name HN   )   (resid 137 and name HD2* )    3.24  1.44  0.32
+ assign (resid 137 and name HN   )   (resid 150 and name HD1* )    4.37  2.57  0.44
+ assign (resid 137 and name HN   )   (resid 150 and name HD2* )    5.11  3.31  0.51
+ assign (resid 137 and name HN   )   (resid 147 and name HD2* )    3.88  2.08  0.39
+ assign (resid 137 and name HN   )   (resid 137 and name HD1* )    3.95  2.15  0.40
+ assign (resid 150 and name HN   )   (resid 150 and name HD1* )    3.80  2.00  0.38
+ assign (resid 159 and name HN   )   (resid 160 and name HN   )    2.68  0.88  0.27
+ assign (resid 160 and name HN   )   (resid 160 and name HD2* )    4.22  2.42  0.42
+ assign (resid  61 and name HN   )   (resid  62 and name HG1* )    3.33  1.53  0.33
+ assign (resid 163 and name HD1* )   (resid 166 and name HN   )    4.79  2.99  0.48
+ assign (resid 186 and name HN   )   (resid 187 and name HD2* )    3.76  1.96  0.38
+ assign (resid  54 and name HN   )   (resid  55 and name HN   )    4.50  2.70  0.45
+ assign (resid  54 and name HN   )   (resid  79 and name HN   )    4.64  2.84  0.46
+ assign (resid  54 and name HN   )   (resid  54 and name HG2* )    3.00  1.20  0.30
+ assign (resid  54 and name HN   )   (resid  78 and name HD1* )    4.62  2.82  0.46
+ assign (resid  65 and name HN   )   (resid  67 and name HN   )    4.29  2.49  0.43
+ assign (resid  64 and name HN   )   (resid  65 and name HN   )    3.19  1.39  0.32
+ assign (resid  68 and name HN   )   (resid  71 and name HN   )    5.06  3.26  0.51
+ assign (resid  69 and name HN   )   (resid  71 and name HN   )    4.17  2.37  0.42
+ assign (resid  57 and name HN   )   (resid  58 and name HN   )    4.70  2.90  0.47
+ assign (resid  58 and name HN   )   (resid  60 and name HN   )    4.87  3.07  0.49
+ assign (resid  62 and name HG1* )   (resid  64 and name HN   )    4.99  3.19  0.50
+ assign (resid  62 and name HG2* )   (resid  64 and name HN   )    4.01  2.21  0.40
+ assign (resid  64 and name HN   )   (resid  64 and name HD1* )    3.98  2.18  0.40
+ assign (resid  85 and name HN   )   (resid  87 and name HN   )    4.42  2.62  0.44
+ assign (resid 157 and name HN   )   (resid 159 and name HN   )    3.97  2.17  0.40
+ assign (resid 153 and name HN   )   (resid 157 and name HN   )    5.21  3.41  0.52
+ assign (resid 154 and name HN   )   (resid 157 and name HN   )    4.81  3.01  0.48
+ assign (resid 108 and name HN   )   (resid 111 and name HN   )    4.88  3.08  0.49
+ assign (resid 111 and name HN   )   (resid 113 and name HN   )    4.14  2.34  0.41
+ assign (resid 160 and name HN   )   (resid 162 and name HN   )    5.08  3.28  0.51
+ assign (resid  50 and name HN   )   (resid  51 and name HN   )    2.99  1.19  0.30
+ assign (resid  62 and name HG2* )   (resid  63 and name HN   )    3.22  1.42  0.32
+ assign (resid 156 and name HD2* )   (resid 157 and name HN   )    4.58  2.78  0.46
+ assign (resid 156 and name HD1* )   (resid 157 and name HN   )    4.24  2.44  0.42
+ assign (resid 157 and name HN   )   (resid 190 and name HD2* )    3.65  1.85  0.37
+ assign (resid 138 and name HN   )   (resid 147 and name HD2* )    2.76  0.96  0.28
+ assign (resid 149 and name HN   )   (resid 150 and name HD2* )    4.21  2.41  0.42
+ assign (resid 191 and name HD1* )   (resid 192 and name HN   )    2.71  0.91  0.27
+ assign (resid  24 and name HG1* )   (resid 192 and name HN   )    5.08  3.28  0.51
+ assign (resid  60 and name HN   )   (resid  62 and name HG2* )    4.36  2.56  0.44
+ assign (resid  60 and name HN   )   (resid  64 and name HD1* )    4.39  2.59  0.44
+ assign (resid  60 and name HN   )   (resid  64 and name HD2* )    4.83  3.03  0.48
+ assign (resid 127 and name HN   )   (resid 192 and name HN   )    3.37  1.57  0.34
+ assign (resid 152 and name HN   )   (resid 154 and name HN   )    5.34  3.54  0.53
+ assign (resid  85 and name HN   )   (resid  88 and name HN   )    4.38  2.58  0.44
+ assign (resid  86 and name HN   )   (resid  88 and name HN   )    3.60  1.80  0.36
+ assign (resid 160 and name HN   )   (resid 165 and name HE1  )    4.40  2.60  0.44
+ assign (resid  89 and name HN   )   (resid  91 and name HG2* )    3.76  1.96  0.38
+ assign (resid 101 and name HN   )   (resid 101 and name HD1* )    3.77  1.97  0.38
+ assign (resid 195 and name HN   )   (resid 195 and name HD2* )    2.85  1.05  0.28
+ assign (resid 163 and name HD1* )   (resid 195 and name HN   )    3.93  2.13  0.39
+ assign (resid  56 and name HN   )   (resid  64 and name HD2* )    4.50  2.70  0.45
+ assign (resid  34 and name HD1* )   (resid  56 and name HN   )    4.47  2.67  0.45
+ assign (resid  56 and name HN   )   (resid  57 and name HG2* )    4.66  2.86  0.47
+ assign (resid 160 and name HD2* )   (resid 165 and name HE1  )    5.32  3.52  0.53
+ assign (resid 160 and name HD1* )   (resid 165 and name HE1  )    4.59  2.79  0.46
+ assign (resid 158 and name HN   )   (resid 165 and name HE1  )    5.62  3.82  0.56
+ assign (resid  56 and name HN   )   (resid  81 and name HN   )    3.63  1.83  0.36
+ assign (resid 163 and name HD1* )   (resid 165 and name HN   )    4.37  2.57  0.44
+ assign (resid  57 and name HG1* )   (resid  82 and name HN   )    3.95  2.15  0.40
+ assign (resid  34 and name HD2* )   (resid  95 and name HE1  )    3.07  1.27  0.31
+ assign (resid 147 and name HN   )   (resid 147 and name HD1* )    2.90  1.10  0.29
+ assign (resid 147 and name HN   )   (resid 147 and name HD2* )    3.26  1.46  0.33
+ assign (resid 147 and name HN   )   (resid 150 and name HD2* )    4.81  3.01  0.48
+ assign (resid 137 and name HD1* )   (resid 147 and name HN   )    3.11  1.31  0.31
+ assign (resid 137 and name HD2* )   (resid 147 and name HN   )    3.23  1.43  0.32
+ assign (resid  54 and name HG1* )   (resid  55 and name HN   )    2.89  1.09  0.29
+ assign (resid  58 and name HN   )   (resid  64 and name HD1* )    3.23  1.43  0.32
+ assign (resid  57 and name HG1* )   (resid  58 and name HN   )    3.23  1.43  0.32
+ assign (resid  21 and name HD1* )   (resid  25 and name HN   )    3.74  1.94  0.37
+ assign (resid  25 and name HN   )   (resid  50 and name HD1* )    5.35  3.55  0.54
+ assign (resid  25 and name HN   )   (resid  47 and name HD2* )    4.51  2.71  0.45
+ assign (resid  25 and name HN   )   (resid  28 and name HD1* )    3.61  1.81  0.36
+ assign (resid  24 and name HG2* )   (resid  25 and name HN   )    3.01  1.21  0.30
+ assign (resid  34 and name HD1* )   (resid  37 and name HN   )    5.93  4.13  0.59
+ assign (resid 133 and name HN   )   (resid 147 and name HD2* )    5.16  3.36  0.52
+ assign (resid 133 and name HN   )   (resid 150 and name HD1* )    3.52  1.72  0.35
+ assign (resid 156 and name HN   )   (resid 156 and name HD2* )    3.75  1.95  0.38
+ assign (resid 156 and name HN   )   (resid 156 and name HD1* )    3.61  1.81  0.36
+ assign (resid 156 and name HN   )   (resid 190 and name HD2* )    5.17  3.37  0.52
+ assign (resid  35 and name HN   )   (resid  81 and name HG2* )    5.39  3.59  0.54
+ assign (resid 163 and name HD1* )   (resid 193 and name HN   )    2.96  1.16  0.30
+ assign (resid  81 and name HG1* )   (resid  84 and name HN   )    4.02  2.22  0.40
+ assign (resid  57 and name HG2* )   (resid  84 and name HN   )    4.44  2.64  0.44
+ assign (resid 156 and name HD2* )   (resid 159 and name HN   )    5.16  3.36  0.52
+ assign (resid 127 and name HN   )   (resid 191 and name HD1* )    3.71  1.91  0.37
+ assign (resid 127 and name HN   )   (resid 163 and name HD2* )    3.81  2.01  0.38
+ assign (resid  57 and name HG1* )   (resid  83 and name HN   )    2.99  1.19  0.30
+ assign (resid  28 and name HN   )   (resid  28 and name HD1* )    3.68  1.88  0.37
+ assign (resid 190 and name HN   )   (resid 190 and name HD1* )    4.15  2.35  0.42
+ assign (resid  71 and name HN   )   (resid  76 and name HG2* )    4.07  2.27  0.41
+ assign (resid 105 and name HD1* )   (resid 110 and name HN   )    4.13  2.33  0.41
+ assign (resid  71 and name HN   )   (resid  78 and name HD1* )    3.81  2.01  0.38
+ assign (resid 171 and name HD2* )   (resid 189 and name HN   )    4.35  2.55  0.44
+ assign (resid 135 and name HN   )   (resid 147 and name HD2* )    4.07  2.27  0.41
+ assign (resid  91 and name HG1* )   (resid  94 and name HN   )    3.37  1.57  0.34
+ assign (resid 163 and name HD1* )   (resid 164 and name HN   )    2.99  1.19  0.30
+ assign (resid  30 and name HN   )   (resid  33 and name HD1* )    5.57  3.77  0.56
+ assign (resid  72 and name HN   )   (resid  76 and name HG2* )    4.35  2.55  0.44
+ assign (resid 117 and name HG2* )   (resid 118 and name HN   )    3.10  1.30  0.31
+ assign (resid 118 and name HN   )   (resid 160 and name HD2* )    3.07  1.27  0.31
+ assign (resid  22 and name HN   )   (resid  22 and name HG1* )    3.48  1.68  0.35
+ assign (resid 145 and name HN   )   (resid 149 and name HD1* )    3.41  1.61  0.34
+ assign (resid 121 and name HD1* )   (resid 124 and name HN   )    4.32  2.52  0.43
+ assign (resid 124 and name HN   )   (resid 163 and name HD1* )    5.29  3.49  0.53
+ assign (resid 124 and name HN   )   (resid 163 and name HD2* )    5.59  3.79  0.56
+ assign (resid  22 and name HG2* )   (resid  23 and name HN   )    2.95  1.15  0.30
+ assign (resid  91 and name HN   )   (resid  95 and name HE1  )    2.94  1.14  0.29
+ assign (resid  90 and name HN   )   (resid  95 and name HE1  )    5.81  4.01  0.58
+ assign (resid  99 and name HG2* )   (resid 100 and name HN   )    4.03  2.23  0.40
+ assign (resid  99 and name HN   )   (resid  99 and name HG1* )    4.19  2.39  0.42
+ assign (resid  99 and name HN   )   (resid  99 and name HG2* )    4.19  2.39  0.42
+ assign (resid 101 and name HN   )   (resid 103 and name HN   )    6.00  4.20  0.60
+ assign (resid 102 and name HN   )   (resid 103 and name HN   )    4.23  2.43  0.42
+ assign (resid 187 and name HD2* )   (resid 188 and name HN   )    3.63  1.83  0.36
+ assign (resid 187 and name HD1* )   (resid 188 and name HN   )    4.77  2.97  0.48
+ assign (resid 105 and name HN   )   (resid 105 and name HD2* )    3.91  2.11  0.39
+ assign (resid 105 and name HD1* )   (resid 113 and name HN   )    3.99  2.19  0.40
+ assign (resid 113 and name HN   )   (resid 113 and name HD2* )    4.40  2.60  0.44
+ assign (resid 125 and name HN   )   (resid 194 and name HN   )    4.42  2.62  0.44
+ assign (resid 126 and name HG2* )   (resid 128 and name HN   )    4.65  2.85  0.47
+ assign (resid 128 and name HN   )   (resid 191 and name HD1* )    4.79  2.99  0.48
+ assign (resid 101 and name HD1* )   (resid 128 and name HN   )    4.11  2.31  0.41
+ assign (resid  85 and name HN   )   (resid  85 and name HD1* )    4.87  3.07  0.49
+ assign (resid  85 and name HN   )   (resid 109 and name HD2* )    5.29  3.49  0.53
+ assign (resid  61 and name HN   )   (resid  62 and name HN   )    3.83  2.03  0.38
+ assign (resid 153 and name HN   )   (resid 188 and name HD1* )    2.88  1.08  0.29
+ assign (resid 153 and name HN   )   (resid 153 and name HD2* )    3.03  1.23  0.30
+ assign (resid 153 and name HN   )   (resid 190 and name HD2* )    4.71  2.91  0.47
+ assign (resid 137 and name HD1* )   (resid 149 and name HN   )    3.63  1.83  0.36
+ assign (resid  47 and name HN   )   (resid  47 and name HD1* )    3.96  2.16  0.40
+ assign (resid 175 and name HN   )   (resid 175 and name HD2* )    4.02  2.22  0.40
+ assign (resid 104 and name HN   )   (resid 105 and name HN   )    4.64  2.84  0.46
+ assign (resid 101 and name HD1* )   (resid 102 and name HN   )    4.03  2.23  0.40
+ assign (resid 104 and name HN   )   (resid 105 and name HD2* )    4.14  2.34  0.41
+ assign (resid  34 and name HD1* )   (resid  55 and name HN   )    4.67  2.87  0.47
+ assign (resid  91 and name HN   )   (resid  93 and name HN   )    4.82  3.02  0.48
+ assign (resid  91 and name HG1* )   (resid  93 and name HN   )    3.66  1.86  0.37
+ assign (resid 154 and name HN   )   (resid 158 and name HN   )    5.52  3.72  0.55
+ assign (resid 131 and name HN   )   (resid 156 and name HD1* )    5.46  3.66  0.55
+ assign (resid  70 and name HD1* )   (resid  72 and name HN   )    6.00  4.20  0.60
+ assign (resid 159 and name HN   )   (resid 165 and name HE1  )    5.05  3.25  0.51
+ assign (resid  64 and name HN   )   (resid  67 and name HN   )    4.80  3.00  0.48
+ assign (resid 173 and name HN   )   (resid 187 and name HD1* )    3.39  1.59  0.34
+ assign (resid  51 and name HN   )   (resid  76 and name HG1* )    3.40  1.60  0.34
+ assign (resid 145 and name HN   )   (resid 149 and name HN   )    5.18  3.38  0.52
+ assign (resid  31 and name HN   )   (resid  33 and name HD1* )    4.11  2.31  0.41
+ assign (resid  21 and name HD2* )   (resid  46 and name HN   )    5.01  3.21  0.50
+ assign (resid  90 and name HD1* )   (resid 121 and name HN   )    3.90  2.10  0.39
+ assign (resid 117 and name HG1* )   (resid 121 and name HN   )    4.38  2.58  0.44
+ assign (resid  89 and name HN   )   (resid  91 and name HN   )    5.95  4.15  0.59
+ assign (resid  90 and name HD1* )   (resid  91 and name HN   )    5.12  3.32  0.51
+ assign (resid 132 and name HN   )   (resid 188 and name HD1* )    5.29  3.49  0.53
+ assign (resid 132 and name HN   )   (resid 150 and name HD1* )    4.72  2.92  0.47
+ assign (resid 132 and name HN   )   (resid 187 and name HD2* )    5.39  3.59  0.54
+ assign (resid 169 and name HN   )   (resid 171 and name HN   )    5.89  4.09  0.59
+ assign (resid  42 and name HN   )   (resid  44 and name HN   )    4.79  2.99  0.48
+ assign (resid 148 and name HN   )   (resid 150 and name HD1* )    4.86  3.06  0.49
+ assign (resid 148 and name HN   )   (resid 150 and name HD2* )    5.39  3.59  0.54
+ assign (resid  64 and name HD1* )   (resid  80 and name HN   )    5.32  3.52  0.53
+ assign (resid  64 and name HD2* )   (resid  80 and name HN   )    4.80  3.00  0.48
+ assign (resid  77 and name HN   )   (resid  78 and name HD1* )    4.56  2.76  0.46
+ assign (resid 110 and name HN   )   (resid 113 and name HN   )    4.71  2.91  0.47
+ assign (resid  78 and name HN   )   (resid  78 and name HD1* )    3.86  2.06  0.39
+ assign (resid 107 and name HN   )   (resid 111 and name HN   )    5.78  3.98  0.58
+ assign (resid  64 and name HD1* )   (resid  65 and name HN   )    4.56  2.76  0.46
+ assign (resid 137 and name HD2* )   (resid 139 and name HN   )    5.09  3.29  0.51
+ assign (resid  90 and name HN   )   (resid  91 and name HG2* )    3.19  1.39  0.32
+ assign (resid  34 and name HD2* )   (resid  90 and name HN   )    4.55  2.75  0.46
+ assign (resid  62 and name HN   )   (resid  62 and name HG1* )    2.73  0.93  0.27
+ assign (resid  46 and name HN   )   (resid  48 and name HN   )    4.75  2.95  0.47
+ assign (resid  48 and name HN   )   (resid  54 and name HG1* )    3.56  1.76  0.36
+ assign (resid  48 and name HN   )   (resid  54 and name HG2* )    3.77  1.97  0.38
+ assign (resid  48 and name HN   )   (resid  50 and name HD1* )    5.51  3.71  0.55
+ assign (resid  84 and name HN   )   (resid  86 and name HN   )    5.38  3.58  0.54
+ assign (resid  85 and name HD2* )   (resid  87 and name HN   )    5.22  3.42  0.52
+ assign (resid 137 and name HD1* )   (resid 146 and name HN   )    3.10  1.30  0.31
+ assign (resid  87 and name HN   )   (resid  89 and name HN   )    5.67  3.87  0.57
+ assign (resid  34 and name HN   )   (resid  54 and name HG1* )    4.92  3.12  0.49
+ assign (resid 175 and name HD2* )   (resid 184 and name HN   )    5.04  3.24  0.50
+ assign (resid  45 and name HN   )   (resid  47 and name HN   )    4.57  2.77  0.46
+ assign (resid  47 and name HN   )   (resid  50 and name HN   )    5.31  3.51  0.53
+ assign (resid 129 and name HD1* )   (resid 130 and name HN   )    5.20  3.40  0.52
+ assign (resid 165 and name HN   )   (resid 165 and name HE1  )    4.61  2.81  0.46
+ assign (resid 114 and name HN   )   (resid 117 and name HG2* )    3.86  2.06  0.39
+ assign (resid 117 and name HG2* )   (resid 120 and name HN   )    5.15  3.35  0.52
+ assign (resid  90 and name HD1* )   (resid 120 and name HN   )    4.93  3.13  0.49
+ assign (resid  62 and name HN   )   (resid  62 and name HG2* )    3.22  1.42  0.32
+ assign (resid 102 and name HN   )   (resid 128 and name HN   )    5.37  3.57  0.54
+ assign (resid  61 and name HN   )   (resid  63 and name HN   )    4.81  3.01  0.48
+ assign (resid 157 and name HN   )   (resid 165 and name HE1  )    4.93  3.13  0.49
+ assign (resid  90 and name HD1* )   (resid 113 and name HD1* )    2.76  0.96  0.28
+ assign (resid  90 and name HD1* )   (resid 117 and name HG2* )    2.88  1.08  0.29
+ assign (resid  90 and name HD1* )   (resid 117 and name HG1* )    3.24  1.44  0.32
+ assign (resid  72 and name HN   )   (resid  78 and name HD1* )    5.54  3.74  0.55
+ assign (resid  46 and name HN   )   (resid  78 and name HD1* )    5.27  3.47  0.53
+ assign (resid  76 and name HG2* )   (resid  78 and name HD1* )    3.86  2.06  0.39
+ assign (resid 128 and name HD1* )   (resid 192 and name HN   )    5.99  4.19  0.60
+ assign (resid  25 and name HN   )   (resid 128 and name HD1* )    4.79  2.99  0.48
+ assign (resid 126 and name HG2* )   (resid 128 and name HD1* )    3.24  1.44  0.32
+ assign (resid  21 and name HD1* )   (resid 128 and name HD1* )    2.83  1.03  0.28
+ assign (resid  24 and name HG2* )   (resid 128 and name HD1* )    2.75  0.95  0.28
+ assign (resid  28 and name HD1* )   (resid 126 and name HG2* )    3.02  1.22  0.30
+ assign (resid  21 and name HD1* )   (resid  28 and name HD1* )    3.58  1.78  0.36
+ assign (resid  28 and name HD1* )   (resid  47 and name HD1* )    3.11  1.31  0.31
+ assign (resid  28 and name HD1* )   (resid  47 and name HD2* )    2.58  0.78  0.26
+ assign (resid  33 and name HD1* )   (resid  54 and name HG2* )    2.89  1.09  0.29
+ assign (resid  33 and name HD1* )   (resid  99 and name HG1* )    3.80  2.00  0.38
+ assign (resid  33 and name HD1* )   (resid  47 and name HD1* )    3.83  2.03  0.38
+ assign (resid  33 and name HD1* )   (resid  50 and name HD1* )    4.06  2.26  0.41
+ assign (resid  33 and name HD1* )   (resid  47 and name HD2* )    3.36  1.56  0.34
+ assign (resid  91 and name HN   )   (resid  98 and name HD1* )    4.79  2.99  0.48
+ assign (resid 188 and name HD1* )   (resid 190 and name HD1* )    3.33  1.53  0.33
+ assign (resid  34 and name HD2* )   (resid  98 and name HD1* )    3.49  1.69  0.35
+ assign (resid 166 and name HN   )   (resid 167 and name HD1* )    5.34  3.54  0.53
+ assign (resid  24 and name HN   )   (resid 167 and name HD1* )    4.84  3.04  0.48
+ assign (resid 167 and name HD1* )   (resid 191 and name HD2* )    2.51  0.71  0.25
+ assign (resid  49 and name HN   )   (resid  76 and name HG2* )    3.39  1.59  0.34
+ assign (resid  51 and name HN   )   (resid  76 and name HG2* )    5.31  3.51  0.53
+ assign (resid  50 and name HN   )   (resid  76 and name HG2* )    4.87  3.07  0.49
+ assign (resid  24 and name HG2* )   (resid 126 and name HG2* )    3.36  1.56  0.34
+ assign (resid  21 and name HD1* )   (resid  24 and name HG2* )    2.54  0.74  0.25
+ assign (resid  48 and name HN   )   (resid  50 and name HD2* )    5.57  3.77  0.56
+ assign (resid  47 and name HN   )   (resid  50 and name HD2* )    5.13  3.33  0.51
+ assign (resid  58 and name HN   )   (resid  64 and name HD2* )    3.16  1.36  0.32
+ assign (resid  63 and name HN   )   (resid  64 and name HD2* )    4.83  3.03  0.48
+ assign (resid  64 and name HD2* )   (resid  65 and name HN   )    4.59  2.79  0.46
+ assign (resid  64 and name HN   )   (resid  64 and name HD2* )    3.56  1.76  0.36
+ assign (resid  57 and name HG1* )   (resid  64 and name HD2* )    4.11  2.31  0.41
+ assign (resid  36 and name HD2* )   (resid  37 and name HN   )    4.12  2.32  0.41
+ assign (resid  36 and name HD2* )   (resid  57 and name HG1* )    3.40  1.60  0.34
+ assign (resid  34 and name HD2* )   (resid  36 and name HD2* )    2.80  1.00  0.28
+ assign (resid  34 and name HN   )   (resid  99 and name HG2* )    5.74  3.94  0.57
+ assign (resid  99 and name HG2* )   (resid 128 and name HN   )    4.71  2.91  0.47
+ assign (resid  99 and name HG2* )   (resid 126 and name HG2* )    2.95  1.15  0.30
+ assign (resid  24 and name HG2* )   (resid  99 and name HG2* )    3.42  1.62  0.34
+ assign (resid  47 and name HD2* )   (resid  50 and name HN   )    5.44  3.64  0.54
+ assign (resid  21 and name HD2* )   (resid  47 and name HD2* )    2.81  1.01  0.28
+ assign (resid  47 and name HD2* )   (resid  50 and name HD1* )    2.85  1.05  0.28
+ assign (resid 163 and name HN   )   (resid 163 and name HD2* )    4.51  2.71  0.45
+ assign (resid 126 and name HG1* )   (resid 163 and name HD2* )    4.85  3.05  0.48
+ assign (resid 163 and name HD2* )   (resid 195 and name HD2* )    5.10  3.30  0.51
+ assign (resid 160 and name HD2* )   (resid 163 and name HD2* )    3.53  1.73  0.35
+ assign (resid 137 and name HD2* )   (resid 150 and name HD2* )    3.65  1.85  0.37
+ assign (resid 129 and name HD1* )   (resid 190 and name HD1* )    3.27  1.47  0.33
+ assign (resid 163 and name HN   )   (resid 163 and name HD1* )    4.07  2.27  0.41
+ assign (resid 126 and name HG1* )   (resid 163 and name HD1* )    4.64  2.84  0.46
+ assign (resid 163 and name HD1* )   (resid 195 and name HD2* )    4.41  2.61  0.44
+ assign (resid 105 and name HD1* )   (resid 113 and name HD2* )    2.66  0.86  0.27
+ assign (resid 175 and name HD1* )   (resid 186 and name HN   )    5.31  3.51  0.53
+ assign (resid 175 and name HD1* )   (resid 185 and name HN   )    4.58  2.78  0.46
+ assign (resid 169 and name HN   )   (resid 171 and name HD1* )    5.59  3.79  0.56
+ assign (resid 169 and name HN   )   (resid 171 and name HD2* )    4.67  2.87  0.47
+ assign (resid 171 and name HN   )   (resid 171 and name HD2* )    3.13  1.33  0.31
+ assign (resid 171 and name HD2* )   (resid 172 and name HN   )    3.84  2.04  0.38
+ assign (resid  47 and name HD1* )   (resid  99 and name HG1* )    2.67  0.87  0.27
+ assign (resid  27 and name HN   )   (resid 191 and name HD2* )    5.38  3.58  0.54
+ assign (resid 128 and name HD1* )   (resid 191 and name HD2* )    4.39  2.59  0.44
+ assign (resid  24 and name HG1* )   (resid 191 and name HD2* )    2.80  1.00  0.28
+ assign (resid 126 and name HG1* )   (resid 191 and name HD1* )    2.95  1.15  0.30
+ assign (resid 128 and name HD1* )   (resid 191 and name HD1* )    3.47  1.67  0.35
+ assign (resid  21 and name HN   )   (resid  21 and name HD1* )    4.57  2.77  0.46
+ assign (resid 165 and name HN   )   (resid 166 and name HD2* )    5.38  3.58  0.54
+ assign (resid 166 and name HD2* )   (resid 167 and name HN   )    4.89  3.09  0.49
+ assign (resid  35 and name HN   )   (resid  99 and name HG1* )    4.53  2.73  0.45
+ assign (resid  33 and name HN   )   (resid  99 and name HG1* )    5.99  4.19  0.60
+ assign (resid  54 and name HG1* )   (resid  99 and name HG1* )    3.35  1.55  0.34
+ assign (resid  28 and name HD1* )   (resid  99 and name HG1* )    3.77  1.97  0.38
+ assign (resid  22 and name HG1* )   (resid  23 and name HN   )    3.86  2.06  0.39
+ assign (resid  57 and name HG1* )   (resid  85 and name HD2* )    3.15  1.35  0.32
+ assign (resid 121 and name HN   )   (resid 160 and name HD2* )    5.53  3.73  0.55
+ assign (resid 190 and name HD2* )   (resid 192 and name HN   )    5.83  4.03  0.58
+ assign (resid 169 and name HN   )   (resid 190 and name HD2* )    4.20  2.40  0.42
+ assign (resid 168 and name HN   )   (resid 190 and name HD2* )    4.94  3.14  0.49
+ assign (resid 189 and name HN   )   (resid 190 and name HD2* )    5.34  3.54  0.53
+ assign (resid 153 and name HD1* )   (resid 190 and name HD2* )    3.42  1.62  0.34
+ assign (resid 153 and name HD2* )   (resid 190 and name HD2* )    2.50  0.70  0.25
+ assign (resid  34 and name HD1* )   (resid  95 and name HE1  )    4.40  2.60  0.44
+ assign (resid  34 and name HD1* )   (resid  81 and name HG2* )    3.37  1.57  0.34
+ assign (resid  34 and name HD1* )   (resid  36 and name HD2* )    3.14  1.34  0.31
+ assign (resid  34 and name HD1* )   (resid  57 and name HG2* )    2.82  1.02  0.28
+ assign (resid  24 and name HG1* )   (resid 191 and name HD1* )    2.73  0.93  0.27
+ assign (resid  76 and name HG1* )   (resid  77 and name HN   )    3.73  1.93  0.37
+ assign (resid  21 and name HD1* )   (resid  47 and name HD2* )    2.76  0.96  0.28
+ assign (resid  85 and name HN   )   (resid  85 and name HD2* )    4.37  2.57  0.44
+ assign (resid  85 and name HD2* )   (resid  86 and name HN   )    4.58  2.78  0.46
+ assign (resid 118 and name HN   )   (resid 121 and name HD2* )    4.96  3.16  0.50
+ assign (resid 117 and name HG1* )   (resid 121 and name HD2* )    2.80  1.00  0.28
+ assign (resid 121 and name HD2* )   (resid 160 and name HD2* )    3.55  1.75  0.35
+ assign (resid 121 and name HD2* )   (resid 160 and name HD1* )    3.95  2.15  0.40
+ assign (resid  35 and name HN   )   (resid  47 and name HD1* )    5.82  4.02  0.58
+ assign (resid 121 and name HD1* )   (resid 127 and name HN   )    6.00  4.20  0.60
+ assign (resid 153 and name HD2* )   (resid 154 and name HN   )    4.56  2.76  0.46
+ assign (resid 153 and name HD2* )   (resid 156 and name HN   )    4.78  2.98  0.48
+ assign (resid 153 and name HD2* )   (resid 155 and name HN   )    5.65  3.85  0.56
+ assign (resid 129 and name HD1* )   (resid 153 and name HD2* )    4.55  2.75  0.46
+ assign (resid 113 and name HD1* )   (resid 114 and name HN   )    4.55  2.75  0.46
+ assign (resid 113 and name HN   )   (resid 113 and name HD1* )    4.50  2.70  0.45
+ assign (resid  89 and name HN   )   (resid 113 and name HD1* )    5.59  3.79  0.56
+ assign (resid 113 and name HD1* )   (resid 117 and name HG1* )    3.95  2.15  0.40
+ assign (resid  62 and name HG1* )   (resid  63 and name HN   )    3.52  1.72  0.35
+ assign (resid  91 and name HG1* )   (resid  95 and name HE1  )    4.92  3.12  0.49
+ assign (resid  91 and name HN   )   (resid  91 and name HG1* )    4.02  2.22  0.40
+ assign (resid  56 and name HN   )   (resid  81 and name HG1* )    5.82  4.02  0.58
+ assign (resid  81 and name HN   )   (resid  81 and name HG1* )    3.86  2.06  0.39
+ assign (resid  34 and name HD1* )   (resid  81 and name HG1* )    3.91  2.11  0.39
+ assign (resid  57 and name HG2* )   (resid  81 and name HG1* )    2.98  1.18  0.30
+ assign (resid 126 and name HG1* )   (resid 192 and name HN   )    4.71  2.91  0.47
+ assign (resid 126 and name HG1* )   (resid 193 and name HN   )    4.64  2.84  0.46
+ assign (resid  24 and name HG2* )   (resid 126 and name HG1* )    4.66  2.86  0.47
+ assign (resid  81 and name HG2* )   (resid  95 and name HE1  )    5.55  3.75  0.56
+ assign (resid  81 and name HG2* )   (resid  82 and name HN   )    3.85  2.05  0.38
+ assign (resid  58 and name HN   )   (resid  81 and name HG2* )    5.56  3.76  0.56
+ assign (resid  57 and name HG1* )   (resid  81 and name HG2* )    3.81  2.01  0.38
+ assign (resid  57 and name HG2* )   (resid  81 and name HG2* )    3.29  1.49  0.33
+ assign (resid 100 and name HN   )   (resid 126 and name HG2* )    4.53  2.73  0.45
+ assign (resid  28 and name HN   )   (resid 126 and name HG2* )    4.70  2.90  0.47
+ assign (resid  54 and name HG1* )   (resid  56 and name HN   )    4.45  2.65  0.44
+ assign (resid  54 and name HG1* )   (resid  79 and name HN   )    5.18  3.38  0.52
+ assign (resid 113 and name HN   )   (resid 117 and name HG2* )    5.71  3.91  0.57
+ assign (resid  53 and name HN   )   (resid  54 and name HG2* )    4.61  2.81  0.46
+ assign (resid  85 and name HN   )   (resid 109 and name HD1* )    4.52  2.72  0.45
+ assign (resid 147 and name HD2* )   (resid 150 and name HD1* )    2.92  1.12  0.29
+ assign (resid 105 and name HD1* )   (resid 109 and name HD2* )    3.46  1.66  0.35
+ assign (resid  37 and name HN   )   (resid  85 and name HD1* )    4.36  2.56  0.44
+ assign (resid  21 and name HD2* )   (resid  24 and name HG2* )    3.96  2.16  0.40
+ assign (resid 153 and name HN   )   (resid 156 and name HD1* )    4.97  3.17  0.50
+ assign (resid 156 and name HD1* )   (resid 190 and name HD2* )    4.15  2.35  0.42
+ assign (resid  34 and name HD2* )   (resid  36 and name HD1* )    4.53  2.73  0.45
+ assign (resid 147 and name HD1* )   (resid 150 and name HD1* )    4.09  2.29  0.41
+ assign (resid 129 and name HD2* )   (resid 156 and name HD2* )    3.69  1.89  0.37
+ assign (resid 156 and name HD2* )   (resid 160 and name HD1* )    3.56  1.76  0.36
+ assign (resid 118 and name HN   )   (resid 160 and name HD1* )    4.86  3.06  0.49
+ assign (resid 159 and name HN   )   (resid 160 and name HD1* )    5.38  3.58  0.54
+ assign (resid 129 and name HD1* )   (resid 160 and name HD1* )    4.00  2.20  0.40
+ assign (resid 160 and name HD1* )   (resid 163 and name HD2* )    3.10  1.30  0.31
+ assign (resid  34 and name HD2* )   (resid  91 and name HN   )    4.92  3.12  0.49
+ assign (resid  22 and name HG2* )   (resid  24 and name HN   )    4.46  2.66  0.45
+ assign (resid  57 and name HG2* )   (resid  81 and name HN   )    4.10  2.30  0.41
+ assign (resid  57 and name HG2* )   (resid  82 and name HN   )    5.05  3.25  0.51
+ assign (resid  37 and name HN   )   (resid  57 and name HG2* )    3.87  2.07  0.39
+ assign (resid  57 and name HG2* )   (resid  85 and name HD2* )    3.49  1.69  0.35
+ assign (resid 154 and name HN   )   (resid 188 and name HD1* )    5.15  3.35  0.52
+ assign (resid 137 and name HD1* )   (resid 150 and name HN   )    4.32  2.52  0.43
+ assign (resid 145 and name HN   )   (resid 149 and name HD2* )    4.88  3.08  0.49
+ assign (resid 153 and name HD1* )   (resid 189 and name HN   )    5.16  3.36  0.52
+ assign (resid 133 and name HN   )   (resid 187 and name HD2* )    4.84  3.04  0.48
+ assign (resid  99 and name HG2* )   (resid 128 and name HD1* )    3.28  1.48  0.33
+ assign (resid  24 and name HG1* )   (resid 128 and name HD1* )    2.80  1.00  0.28
+ assign (resid  90 and name HD1* )   (resid  98 and name HD1* )    2.80  1.00  0.28
+ assign (resid  24 and name HG2* )   (resid  28 and name HD1* )    2.86  1.06  0.29
+ assign (resid 117 and name HG1* )   (resid 121 and name HD1* )    3.18  1.38  0.32
+ assign (resid  21 and name HD1* )   (resid  99 and name HG2* )    3.29  1.49  0.33
+ assign (resid 113 and name HD2* )   (resid 117 and name HG2* )    3.40  1.60  0.34
+ assign (resid  33 and name HD1* )   (resid  54 and name HG1* )    3.68  1.88  0.37
+ assign (resid  70 and name HD1* )   (resid  73 and name HN   )    4.63  2.83  0.46
+ assign (resid 138 and name HN   )   (resid 150 and name HD1* )    5.71  3.91  0.57
+ assign (resid 149 and name HN   )   (resid 150 and name HD1* )    5.93  4.13  0.59
+ assign (resid  57 and name HN   )   (resid  57 and name HG1* )    3.92  2.12  0.39
+ assign (resid 153 and name HN   )   (resid 153 and name HD1* )    3.87  2.07  0.39
+ assign (resid  33 and name HD1* )   (resid  53 and name HN   )    5.09  3.29  0.51
+ assign (resid  24 and name HG1* )   (resid  26 and name HN   )    5.47  3.67  0.55
+ assign (resid  99 and name HG2* )   (resid 101 and name HN   )    4.91  3.11  0.49
+ assign (resid  28 and name HD1* )   (resid  99 and name HG2* )    3.10  1.30  0.31
+ assign (resid 126 and name HG2* )   (resid 191 and name HD1* )    3.42  1.62  0.34
+ assign (resid 105 and name HD1* )   (resid 113 and name HD1* )    3.26  1.46  0.33
+ assign (resid 188 and name HD1* )   (resid 189 and name HN   )    5.27  3.47  0.53
+ assign (resid  22 and name HG2* )   (resid  26 and name HN   )    5.66  3.86  0.57
+ assign (resid  74 and name HN   )   (resid  76 and name HG1* )    4.41  2.61  0.44
+ assign (resid 117 and name HG1* )   (resid 160 and name HD1* )    3.49  1.69  0.35
+ assign (resid 117 and name HG1* )   (resid 160 and name HD2* )    3.07  1.27  0.31
+ assign (resid 117 and name HG2* )   (resid 160 and name HD2* )    3.84  2.04  0.38
+ assign (resid  34 and name HD2* )   (resid  57 and name HG2* )    3.94  2.14  0.39
+ assign (resid  34 and name HD2* )   (resid  91 and name HG2* )    5.16  3.36  0.52
+ assign (resid 129 and name HD1* )   (resid 190 and name HD2* )    4.08  2.28  0.41
+ assign (resid 169 and name HN   )   (resid 190 and name HD1* )    6.00  4.20  0.60
+ assign (resid 129 and name HD1* )   (resid 156 and name HD1* )    3.66  1.86  0.37
+ assign (resid 128 and name HN   )   (resid 129 and name HD1* )    6.00  4.20  0.60
+ assign (resid 129 and name HD1* )   (resid 157 and name HN   )    6.00  4.20  0.60
+ assign (resid 121 and name HD1* )   (resid 163 and name HD2* )    3.48  1.68  0.35
+ assign (resid  36 and name HD2* )   (resid  81 and name HG1* )    4.58  2.78  0.46
+ assign (resid  36 and name HD2* )   (resid  85 and name HD2* )    2.52  0.72  0.25
+ assign (resid  36 and name HD2* )   (resid  91 and name HN   )    5.95  4.15  0.59
+ assign (resid  35 and name HN   )   (resid  36 and name HD2* )    4.95  3.15  0.49
+ assign (resid  36 and name HD2* )   (resid  58 and name HN   )    6.00  4.20  0.60
+ assign (resid  24 and name HG1* )   (resid 126 and name HG1* )    4.26  2.46  0.43
+ assign (resid  28 and name HD1* )   (resid 126 and name HG1* )    4.61  2.81  0.46
+ assign (resid  47 and name HD1* )   (resid  54 and name HG1* )    2.89  1.09  0.29
+ assign (resid 133 and name HN   )   (resid 150 and name HD2* )    5.00  3.20  0.50
+ assign (resid 185 and name HN   )   (resid 187 and name HD2* )    5.44  3.64  0.54
+ assign (resid 105 and name HD2* )   (resid 109 and name HD1* )    2.56  0.76  0.26
+ assign (resid 105 and name HD1* )   (resid 109 and name HD1* )    3.02  1.22  0.30
+ assign (resid 175 and name HN   )   (resid 175 and name HD1* )    4.96  3.16  0.50
+ assign (resid  47 and name HD2* )   (resid  50 and name HD2* )    3.85  2.05  0.38
+ assign (resid  24 and name HG2* )   (resid  47 and name HD2* )    3.66  1.86  0.37
+ assign (resid  47 and name HD1* )   (resid  54 and name HG2* )    3.64  1.84  0.36
+ assign (resid  50 and name HD1* )   (resid  54 and name HG2* )    4.11  2.31  0.41
+ assign (resid  47 and name HD2* )   (resid  54 and name HG2* )    3.86  2.06  0.39
+ assign (resid  64 and name HD1* )   (resid  82 and name HN   )    4.92  3.12  0.49
+ assign (resid  57 and name HG2* )   (resid  85 and name HD1* )    5.13  3.33  0.51
+ assign (resid  70 and name HD1* )   (resid  74 and name HN   )    3.55  1.75  0.35
+ assign (resid  26 and name HN   )   (resid  47 and name HD2* )    6.00  4.20  0.60
+ assign (resid 137 and name HD2* )   (resid 147 and name HD2* )    2.89  1.09  0.29
+ assign (resid 137 and name HD2* )   (resid 145 and name HN   )    4.24  2.44  0.42
+ assign (resid 137 and name HD2* )   (resid 140 and name HN   )    5.45  3.65  0.55
+ assign (resid  21 and name HD2* )   (resid  28 and name HD1* )    4.44  2.64  0.44
+ assign (resid  36 and name HD2* )   (resid  85 and name HD1* )    3.68  1.88  0.37
+ assign (resid  36 and name HD1* )   (resid  85 and name HD2* )    2.73  0.93  0.27
+ assign (resid  85 and name HD2* )   (resid 113 and name HD1* )    3.83  2.03  0.38
+ assign (resid  62 and name HG2* )   (resid  65 and name HN   )    5.68  3.88  0.57
+ assign (resid  62 and name HG2* )   (resid  66 and name HN   )    6.00  4.20  0.60
+ assign (resid  93 and name HN   )   (resid  94 and name HN   )    2.85  1.05  0.28
+ assign (resid 169 and name HN   )   (resid 189 and name HN   )    2.93  1.13  0.29
+ assign (resid  70 and name HN   )   (resid  71 and name HN   )    3.66  1.86  0.37
+ assign (resid 193 and name HN   )   (resid 194 and name HN   )    4.40  2.60  0.44
+ assign (resid  46 and name HN   )   (resid  47 and name HN   )    3.47  1.67  0.35
+ assign (resid 152 and name HN   )   (resid 153 and name HN   )    4.65  2.85  0.47
+ assign (resid  80 and name HN   )   (resid  81 and name HN   )    4.64  2.84  0.46
+ assign (resid  81 and name HN   )   (resid  82 and name HN   )    4.67  2.87  0.47
+ assign (resid 171 and name HN   )   (resid 189 and name HN   )    3.97  2.17  0.40
+ assign (resid  77 and name HN   )   (resid  78 and name HN   )    4.49  2.69  0.45
+ assign (resid 157 and name HN   )   (resid 158 and name HN   )    2.94  1.14  0.29
+ assign (resid 171 and name HN   )   (resid 172 and name HN   )    4.70  2.90  0.47
+ assign (resid 171 and name HN   )   (resid 187 and name HN   )    3.64  1.84  0.36
+ assign (resid 171 and name HN   )   (resid 188 and name HN   )    4.35  2.55  0.44
+ assign (resid 124 and name HN   )   (resid 195 and name HN   )    5.56  3.76  0.56
+ assign (resid 152 and name HN   )   (resid 155 and name HN   )    4.11  2.31  0.41
+ assign (resid 152 and name HN   )   (resid 156 and name HN   )    4.39  2.59  0.44
+ assign (resid 154 and name HN   )   (resid 156 and name HN   )    4.51  2.71  0.45
+ assign (resid 164 and name HN   )   (resid 195 and name HN   )    4.51  2.71  0.45
+ assign (resid 187 and name HN   )   (resid 188 and name HN   )    4.60  2.80  0.46
+ assign (resid 172 and name HN   )   (resid 187 and name HN   )    5.08  3.28  0.51
+ assign (resid 174 and name HN   )   (resid 185 and name HN   )    5.70  3.90  0.57
+ assign (resid 166 and name HN   )   (resid 191 and name HN   )    4.18  2.38  0.42
+ assign (resid 111 and name HN   )   (resid 114 and name HN   )    4.96  3.16  0.50
+ assign (resid  65 and name HN   )   (resid  66 and name HN   )    3.60  1.80  0.36
+ assign (resid  58 and name HN   )   (resid  81 and name HN   )    4.18  2.38  0.42
+ assign (resid  56 and name HN   )   (resid  79 and name HN   )    4.31  2.51  0.43
+ assign (resid  73 and name HN   )   (resid  76 and name HN   )    4.91  3.11  0.49
+ assign (resid  72 and name HN   )   (resid  74 and name HN   )    4.44  2.64  0.44
+ assign (resid  70 and name HN   )   (resid  72 and name HN   )    4.96  3.16  0.50
+ assign (resid  72 and name HN   )   (resid  76 and name HN   )    4.91  3.11  0.49
+ assign (resid  34 and name HN   )   (resid  55 and name HN   )    5.56  3.76  0.56
+ assign (resid  68 and name HN   )   (resid  70 and name HN   )    4.57  2.77  0.46
+ assign (resid  69 and name HN   )   (resid  72 and name HN   )    5.49  3.69  0.55
+ assign (resid  62 and name HN   )   (resid  65 and name HN   )    4.99  3.19  0.50
+ assign (resid  65 and name HN   )   (resid  68 and name HN   )    5.30  3.50  0.53
+ assign (resid  62 and name HN   )   (resid  64 and name HN   )    4.87  3.07  0.49
+ assign (resid  33 and name HN   )   (resid  53 and name HN   )    5.26  3.46  0.53
+ assign (resid  50 and name HN   )   (resid  52 and name HN   )    3.78  1.98  0.38
+ assign (resid  49 and name HN   )   (resid  52 and name HN   )    5.49  3.69  0.55
+ assign (resid 109 and name HN   )   (resid 112 and name HN   )    5.03  3.23  0.50
+ assign (resid 109 and name HN   )   (resid 111 and name HN   )    4.49  2.69  0.45
+ assign (resid 142 and name HN   )   (resid 143 and name HN   )    4.80  3.00  0.48
+ assign (resid  23 and name HN   )   (resid  25 and name HN   )    4.68  2.88  0.47
+ assign (resid 133 and name HN   )   (resid 137 and name HN   )    6.00  4.20  0.60
+ assign (resid 133 and name HN   )   (resid 136 and name HN   )    4.32  2.52  0.43
+ assign (resid 133 and name HN   )   (resid 135 and name HN   )    4.69  2.89  0.47
+ assign (resid 135 and name HN   )   (resid 137 and name HN   )    5.18  3.38  0.52
+ assign (resid  56 and name HN   )   (resid  80 and name HN   )    5.19  3.39  0.52
+ assign (resid  74 and name HN   )   (resid  76 and name HN   )    3.75  1.95  0.38
+ assign (resid 145 and name HN   )   (resid 147 and name HN   )    5.28  3.48  0.53
+ assign (resid 147 and name HN   )   (resid 148 and name HN   )    3.07  1.27  0.31
+ assign (resid 148 and name HN   )   (resid 150 and name HN   )    4.16  2.36  0.42
+ assign (resid 147 and name HN   )   (resid 149 and name HN   )    4.62  2.82  0.46
+ assign (resid 146 and name HN   )   (resid 150 and name HN   )    6.00  4.20  0.60
+ assign (resid 118 and name HN   )   (resid 121 and name HN   )    4.79  2.99  0.48
+ assign (resid 119 and name HN   )   (resid 121 and name HN   )    5.17  3.37  0.52
+ assign (resid 113 and name HN   )   (resid 114 and name HN   )    2.40  0.60  0.24
+ assign (resid 173 and name HN   )   (resid 186 and name HN   )    5.16  3.36  0.52
+ assign (resid 173 and name HN   )   (resid 187 and name HN   )    4.61  2.81  0.46
+ assign (resid  58 and name HN   )   (resid  83 and name HN   )    4.01  2.21  0.40
+ assign (resid  25 and name HN   )   (resid  28 and name HN   )    4.89  3.09  0.49
+ assign (resid  25 and name HN   )   (resid  27 and name HN   )    4.23  2.43  0.42
+ assign (resid  32 and name HN   )   (resid  53 and name HN   )    6.00  4.20  0.60
+ assign (resid 119 and name HN   )   (resid 120 and name HN   )    3.65  1.85  0.37
+ assign (resid 185 and name HN   )   (resid 186 and name HN   )    4.50  2.70  0.45
+ assign (resid 185 and name HN   )   (resid 187 and name HN   )    6.00  4.20  0.60
+ assign (resid 124 and name HN   )   (resid 194 and name HN   )    3.78  1.98  0.38
+ assign (resid  37 and name HN   )   (resid  59 and name HN   )    5.01  3.21  0.50
+ assign (resid  84 and name HN   )   (resid  88 and name HN   )    5.52  3.72  0.55
+ assign (resid 158 and name HN   )   (resid 160 and name HN   )    4.11  2.31  0.41
+ assign (resid 160 and name HN   )   (resid 163 and name HN   )    5.71  3.91  0.57
+ assign (resid 155 and name HN   )   (resid 157 and name HN   )    4.42  2.62  0.44
+ assign (resid  63 and name HN   )   (resid  66 and name HN   )    5.09  3.29  0.51
+ assign (resid  49 and name HN   )   (resid  51 and name HN   )    4.70  2.90  0.47
+ assign (resid  57 and name HN   )   (resid  81 and name HN   )    5.27  3.47  0.53
+ assign (resid  60 and name HN   )   (resid  83 and name HN   )    5.60  3.80  0.56
+ assign (resid 165 and name HN   )   (resid 193 and name HN   )    5.29  3.49  0.53
+ assign (resid 165 and name HN   )   (resid 167 and name HN   )    5.90  4.10  0.59
+ assign (resid 167 and name HN   )   (resid 193 and name HN   )    6.00  4.20  0.60
+ assign (resid 133 and name HN   )   (resid 186 and name HN   )    4.78  2.98  0.48
+ assign (resid  32 and name HN   )   (resid  33 and name HN   )    5.28  3.48  0.53
+ assign (resid 162 and name HN   )   (resid 165 and name HE1  )    6.00  4.20  0.60
+ assign (resid  55 and name HN   )   (resid  56 and name HN   )    5.06  3.26  0.51
+ assign (resid 102 and name HN   )   (resid 129 and name HN   )    6.00  4.20  0.60
+ assign (resid 107 and name HN   )   (resid 109 and name HN   )    4.87  3.07  0.49
+ assign (resid  98 and name HD1* )   (resid 117 and name HG1* )    3.72  1.92  0.37
+ assign (resid  98 and name HD1* )   (resid 121 and name HD2* )    3.80  2.00  0.38
+ assign (resid 153 and name HD2* )   (resid 188 and name HD1* )    3.95  2.15  0.40
+ assign (resid 153 and name HD1* )   (resid 188 and name HD1* )    4.32  2.52  0.43
+ assign (resid 153 and name HD2* )   (resid 190 and name HD1* )    3.22  1.42  0.32
+ assign (resid 109 and name HD2* )   (resid 113 and name HD1* )    5.36  3.56  0.54
+ assign (resid  36 and name HD2* )   (resid 113 and name HD1* )    4.09  2.29  0.41
+ assign (resid 113 and name HD1* )   (resid 117 and name HG2* )    4.08  2.28  0.41
+ assign (resid  36 and name HD2* )   (resid  98 and name HD1* )    5.52  3.72  0.55
+ assign (resid  36 and name HD2* )   (resid  90 and name HD1* )    4.58  2.78  0.46
+ assign (resid  57 and name HG1* )   (resid  81 and name HG1* )    2.51  0.71  0.25
+ assign (resid  34 and name HD2* )   (resid  81 and name HG1* )    4.86  3.06  0.49
+ assign (resid  64 and name HD1* )   (resid  81 and name HG1* )    5.40  3.60  0.54
+ assign (resid 166 and name HD2* )   (resid 167 and name HD1* )    5.70  3.90  0.57
+ assign (resid 126 and name HG1* )   (resid 166 and name HD2* )    5.38  3.58  0.54
+ assign (resid 171 and name HD1* )   (resid 187 and name HD1* )    4.74  2.94  0.47
+ assign (resid  64 and name HD2* )   (resid  81 and name HG2* )    5.12  3.32  0.51
+ assign (resid  28 and name HD1* )   (resid 128 and name HD1* )    4.18  2.38  0.42
+ assign (resid  28 and name HD1* )   (resid  33 and name HD1* )    3.94  2.14  0.39
+ assign (resid  21 and name HD2* )   (resid 101 and name HD1* )    4.33  2.53  0.43
+ assign (resid  21 and name HD1* )   (resid 101 and name HD1* )    4.25  2.45  0.43
+ assign (resid  99 and name HG2* )   (resid 101 and name HD1* )    4.16  2.36  0.42
+ assign (resid  85 and name HD1* )   (resid 109 and name HD1* )    4.55  2.75  0.46
+ assign (resid  90 and name HD1* )   (resid 121 and name HD2* )    4.85  3.05  0.48
+ assign (resid 117 and name HG1* )   (resid 163 and name HD2* )    5.09  3.29  0.51
+ assign (resid  85 and name HD1* )   (resid 105 and name HD2* )    3.47  1.67  0.35
+ assign (resid  36 and name HD1* )   (resid 105 and name HD2* )    5.23  3.43  0.52
+ assign (resid  36 and name HD1* )   (resid 117 and name HG2* )    4.91  3.11  0.49
+ assign (resid  47 and name HD2* )   (resid  54 and name HG1* )    5.25  3.45  0.53
+ assign (resid  91 and name HG2* )   (resid  98 and name HD1* )    5.55  3.75  0.56
+ assign (resid  99 and name HG1* )   (resid 101 and name HD1* )    3.96  2.16  0.40
+ assign (resid  99 and name HG1* )   (resid 128 and name HD1* )    5.40  3.60  0.54
+ assign (resid 126 and name HG1* )   (resid 191 and name HD2* )    4.25  2.45  0.43
+ assign (resid 126 and name HG1* )   (resid 166 and name HD1* )    4.18  2.38  0.42
+ assign (resid 126 and name HG1* )   (resid 128 and name HD1* )    5.19  3.39  0.52
+ assign (resid  47 and name HD1* )   (resid  99 and name HG2* )    3.89  2.09  0.39
+ assign (resid 129 and name HD1* )   (resid 156 and name HD2* )    4.12  2.32  0.41
+ assign (resid 137 and name HD2* )   (resid 147 and name HD1* )    4.43  2.63  0.44
+ assign (resid 137 and name HD1* )   (resid 147 and name HD1* )    4.06  2.26  0.41
+ assign (resid 137 and name HD1* )   (resid 147 and name HD2* )    4.56  2.76  0.46
+ assign (resid 105 and name HD2* )   (resid 109 and name HD2* )    4.04  2.24  0.40
+ assign (resid  85 and name HD1* )   (resid 105 and name HD1* )    2.98  1.18  0.30
+ assign (resid  21 and name HD2* )   (resid  54 and name HG2* )    6.00  4.20  0.60
+ assign (resid  21 and name HD2* )   (resid  99 and name HG1* )    6.00  4.20  0.60
+ assign (resid  57 and name HG1* )   (resid  85 and name HD1* )    4.85  3.05  0.48
+ assign (resid 129 and name HD1* )   (resid 160 and name HD2* )    6.00  4.20  0.60
+ assign (resid  36 and name HD1* )   (resid 113 and name HD2* )    4.36  2.56  0.44
+ assign (resid 156 and name HD1* )   (resid 190 and name HD1* )    2.69  0.89  0.27
+ assign (resid 156 and name HD1* )   (resid 188 and name HD1* )    4.02  2.22  0.40
+ assign (resid 137 and name HD1* )   (resid 150 and name HD2* )    4.62  2.82  0.46
+ assign (resid 166 and name HD1* )   (resid 191 and name HD2* )    3.40  1.60  0.34
+ assign (resid 166 and name HD2* )   (resid 191 and name HD2* )    4.50  2.70  0.45
+ assign (resid 126 and name HG2* )   (resid 191 and name HD2* )    5.16  3.36  0.52
+ assign (resid  21 and name HD1* )   (resid 191 and name HD1* )    5.52  3.72  0.55
+ assign (resid 166 and name HD2* )   (resid 191 and name HD1* )    5.20  3.40  0.52
+ assign (resid  24 and name HG2* )   (resid 191 and name HD1* )    4.07  2.27  0.41
+ assign (resid 167 and name HD1* )   (resid 191 and name HD1* )    3.87  2.07  0.39
+ assign (resid 175 and name HD2* )   (resid 187 and name HD1* )    4.54  2.74  0.45
+ assign (resid 121 and name HD1* )   (resid 163 and name HD1* )    5.38  3.58  0.54
+ assign (resid 175 and name HD2* )   (resid 187 and name HD2* )    4.43  2.63  0.44
+ assign (resid 187 and name HD2* )   (resid 188 and name HD1* )    6.00  4.20  0.60
+ assign (resid  90 and name HD1* )   (resid 113 and name HD2* )    4.64  2.84  0.46
+ assign (resid  36 and name HD1* )   (resid  90 and name HD1* )    4.24  2.44  0.42
+ assign (resid  54 and name HG1* )   (resid  78 and name HD1* )    4.61  2.81  0.46
+ assign (resid  24 and name HG2* )   (resid  47 and name HD1* )    4.77  2.97  0.48
+ assign (resid  24 and name HG2* )   (resid 191 and name HD2* )    5.13  3.33  0.51
+ assign (resid 156 and name HD2* )   (resid 190 and name HD1* )    5.45  3.65  0.55
+ assign (resid  34 and name HD2* )   (resid  90 and name HD1* )    4.53  2.73  0.45
+ assign (resid 147 and name HD2* )   (resid 150 and name HD2* )    3.12  1.32  0.31
+ assign (resid 129 and name HD2* )   (resid 156 and name HD1* )    3.54  1.74  0.35
+ assign (resid 117 and name HG2* )   (resid 129 and name HD2* )    6.00  4.20  0.60
+ assign (resid 188 and name HD1* )   (resid 190 and name HD2* )    4.91  3.11  0.49
+ assign (resid  34 and name HD1* )   (resid  85 and name HD2* )    5.19  3.39  0.52
+ assign (resid  34 and name HD1* )   (resid  98 and name HD1* )    5.91  4.11  0.59
+ assign (resid  24 and name HG1* )   (resid 167 and name HD1* )    3.64  1.84  0.36
+ assign (resid  36 and name HD2* )   (resid  57 and name HG2* )    2.94  1.14  0.29
+ assign (resid  47 and name HD2* )   (resid  99 and name HG1* )    4.91  3.11  0.49
+ assign (resid  47 and name HD2* )   (resid  99 and name HG2* )    3.15  1.35  0.32
+ assign (resid  57 and name HG1* )   (resid  64 and name HD1* )    4.45  2.65  0.44
+ assign (resid  36 and name HD1* )   (resid 117 and name HG1* )    4.95  3.15  0.49
+ assign (resid  34 and name HD1* )   (resid  57 and name HG1* )    4.33  2.53  0.43
+ assign (resid 117 and name HG1* )   (resid 129 and name HD1* )    5.93  4.13  0.59
+ assign (resid 160 and name HD1* )   (resid 163 and name HD1* )    4.46  2.66  0.45
+ assign (resid 117 and name HG1* )   (resid 163 and name HD1* )    6.00  4.20  0.60
+ assign (resid  21 and name HD1* )   (resid  99 and name HG1* )    4.73  2.93  0.47
+ assign (resid  34 and name HD2* )   (resid  81 and name HG2* )    4.72  2.92  0.47
+ assign (resid  81 and name HG2* )   (resid  85 and name HD2* )    6.00  4.20  0.60
+ assign (resid  47 and name HD1* )   (resid 126 and name HG2* )    5.12  3.32  0.51
+ assign (resid  21 and name HD1* )   (resid 126 and name HG2* )    4.90  3.10  0.49
+ assign (resid  36 and name HD1* )   (resid  85 and name HD1* )    4.45  2.65  0.44
+ assign (resid  36 and name HD1* )   (resid  57 and name HG1* )    5.62  3.82  0.56
+ assign (resid  70 and name HD1* )   (resid  78 and name HD1* )    5.44  3.64  0.54
+ assign (resid  21 and name HD2* )   (resid  47 and name HD1* )    3.61  1.81  0.36
+ assign (resid  21 and name HD2* )   (resid  50 and name HD1* )    4.16  2.36  0.42
+ assign (resid 137 and name HD2* )   (resid 150 and name HD1* )    3.99  2.19  0.40
+ assign (resid 121 and name HD2* )   (resid 163 and name HD2* )    4.31  2.51  0.43
+ assign (resid  47 and name HD1* )   (resid 128 and name HD1* )    5.23  3.43  0.52
+ assign (resid  21 and name HD2* )   (resid  99 and name HG2* )    4.86  3.06  0.49
+ assign (resid  33 and name HD1* )   (resid  99 and name HG2* )    4.84  3.04  0.48
+ assign (resid  21 and name HD2* )   (resid 128 and name HD1* )    5.07  3.27  0.51
+ assign (resid  28 and name HD1* )   (resid 191 and name HD1* )    5.37  3.57  0.54
+ assign (resid  47 and name HD2* )   (resid 128 and name HD1* )    4.92  3.12  0.49
+ assign (resid 156 and name HD2* )   (resid 188 and name HD1* )    6.00  4.20  0.60
+ assign (resid 163 and name HD2* )   (resid 191 and name HD1* )    5.51  3.71  0.55
+ assign (resid 129 and name HD1* )   (resid 188 and name HD1* )    5.73  3.93  0.57
+ assign (resid  98 and name HD1* )   (resid 121 and name HD1* )    3.80  2.00  0.38
+ assign (resid  81 and name HG1* )   (resid  85 and name HD2* )    4.94  3.14  0.49
+ assign (resid  36 and name HD2* )   (resid 113 and name HD2* )    5.50  3.70  0.55
+ assign (resid  85 and name HD1* )   (resid 109 and name HD2* )    4.43  2.63  0.44
+ assign (resid 126 and name HG2* )   (resid 166 and name HD1* )    5.38  3.58  0.54
+ assign (resid  36 and name HD1* )   (resid 113 and name HD1* )    4.16  2.36  0.42
+ assign (resid 166 and name HD1* )   (resid 167 and name HD1* )    4.81  3.01  0.48
+ assign (resid 153 and name HD1* )   (resid 190 and name HD1* )    4.09  2.29  0.41
+ assign (resid  64 and name HD1* )   (resid  83 and name HN   )    3.74  1.94  0.37
+ assign (resid 166 and name HN   )   (resid 191 and name HD1* )    4.44  2.64  0.44
+ assign (resid  24 and name HN   )   (resid 191 and name HD1* )    4.37  2.57  0.44
+ assign (resid 167 and name HN   )   (resid 191 and name HD1* )    4.75  2.95  0.47
+ assign (resid 126 and name HG1* )   (resid 194 and name HN   )    3.70  1.90  0.37
+ assign (resid 126 and name HG2* )   (resid 127 and name HN   )    3.99  2.19  0.40
+ assign (resid  75 and name HN   )   (resid  76 and name HG2* )    3.89  2.09  0.39
+ assign (resid  76 and name HG2* )   (resid  78 and name HN   )    4.70  2.90  0.47
+ assign (resid  23 and name HN   )   (resid  24 and name HG1* )    4.35  2.55  0.44
+ assign (resid  70 and name HN   )   (resid  70 and name HD1* )    4.20  2.40  0.42
+ assign (resid  21 and name HN   )   (resid  21 and name HD2* )    4.74  2.94  0.47
+ assign (resid  37 and name HN   )   (resid  85 and name HD2* )    4.14  2.34  0.41
+ assign (resid  85 and name HD2* )   (resid  88 and name HN   )    4.73  2.93  0.47
+ assign (resid  84 and name HN   )   (resid  85 and name HD2* )    3.41  1.61  0.34
+ assign (resid 121 and name HD2* )   (resid 127 and name HN   )    4.42  2.62  0.44
+ assign (resid  36 and name HN   )   (resid  36 and name HD2* )    4.25  2.45  0.43
+ assign (resid 149 and name HN   )   (resid 149 and name HD1* )    3.63  1.83  0.36
+ assign (resid 148 and name HN   )   (resid 149 and name HD2* )    4.81  3.01  0.48
+ assign (resid 149 and name HD2* )   (resid 150 and name HN   )    4.90  3.10  0.49
+ assign (resid  36 and name HD1* )   (resid  37 and name HN   )    4.87  3.07  0.49
+ assign (resid 109 and name HD1* )   (resid 110 and name HN   )    5.02  3.22  0.50
+ assign (resid  86 and name HN   )   (resid 109 and name HD1* )    4.71  2.91  0.47
+ assign (resid 136 and name HN   )   (resid 137 and name HD2* )    4.83  3.03  0.48
+ assign (resid 113 and name HD1* )   (resid 117 and name HN   )    4.19  2.39  0.42
+ assign (resid 113 and name HD1* )   (resid 116 and name HN   )    4.15  2.35  0.42
+ assign (resid 193 and name HN   )   (resid 195 and name HD2* )    4.66  2.86  0.47
+ assign (resid 163 and name HD2* )   (resid 192 and name HN   )    4.49  2.69  0.45
+ assign (resid  35 and name HN   )   (resid  54 and name HG1* )    4.38  2.58  0.44
+ assign (resid 166 and name HN   )   (resid 166 and name HD2* )    3.40  1.60  0.34
+ assign (resid 166 and name HD2* )   (resid 193 and name HN   )    3.96  2.16  0.40
+ assign (resid  91 and name HG2* )   (resid  93 and name HN   )    4.45  2.65  0.44
+ assign (resid  50 and name HD2* )   (resid  51 and name HN   )    4.56  2.76  0.46
+ assign (resid  91 and name HG1* )   (resid  92 and name HN   )    3.15  1.35  0.32
+ assign (resid 136 and name HN   )   (resid 147 and name HD1* )    4.89  3.09  0.49
+ assign (resid 146 and name HN   )   (resid 147 and name HD1* )    5.43  3.63  0.54
+ assign (resid 130 and name HN   )   (resid 156 and name HD1* )    5.22  3.42  0.52
+ assign (resid 166 and name HN   )   (resid 191 and name HD2* )    4.21  2.41  0.42
+ assign (resid 147 and name HN   )   (resid 150 and name HD1* )    4.25  2.45  0.43
+ assign (resid 170 and name HN   )   (resid 171 and name HD2* )    3.95  2.15  0.40
+ assign (resid 171 and name HN   )   (resid 171 and name HD1* )    4.06  2.26  0.41
+ assign (resid 171 and name HD1* )   (resid 189 and name HN   )    4.15  2.35  0.42
+ assign (resid  49 and name HN   )   (resid  76 and name HG1* )    4.50  2.70  0.45
+ assign (resid  76 and name HN   )   (resid  76 and name HG1* )    3.12  1.32  0.31
+ assign (resid  75 and name HN   )   (resid  76 and name HG1* )    3.94  2.14  0.39
+ assign (resid 167 and name HD1* )   (resid 190 and name HN   )    5.64  3.84  0.56
+ assign (resid  90 and name HD1* )   (resid 116 and name HN   )    4.99  3.19  0.50
+ assign (resid  23 and name HN   )   (resid  24 and name HG2* )    3.92  2.12  0.39
+ assign (resid  24 and name HG2* )   (resid  26 and name HN   )    4.11  2.31  0.41
+ assign (resid 160 and name HN   )   (resid 160 and name HD1* )    4.30  2.50  0.43
+ assign (resid  34 and name HN   )   (resid  34 and name HD1* )    4.65  2.85  0.47
+ assign (resid  34 and name HD1* )   (resid  36 and name HN   )    4.42  2.62  0.44
+ assign (resid  57 and name HG2* )   (resid  58 and name HN   )    4.40  2.60  0.44
+ assign (resid  28 and name HN   )   (resid  47 and name HD2* )    6.00  4.20  0.60
+ assign (resid  57 and name HG1* )   (resid  84 and name HN   )    4.04  2.24  0.40
+ assign (resid 117 and name HG1* )   (resid 118 and name HN   )    3.60  1.80  0.36
+ assign (resid  57 and name HG1* )   (resid  60 and name HN   )    5.98  4.18  0.60
+ assign (resid 116 and name HN   )   (resid 117 and name HG1* )    6.00  4.20  0.60
+ assign (resid 163 and name HD1* )   (resid 192 and name HN   )    4.63  2.83  0.46
+ assign (resid  80 and name HN   )   (resid  81 and name HG2* )    4.86  3.06  0.49
+ assign (resid  81 and name HG1* )   (resid  83 and name HN   )    4.39  2.59  0.44
+ assign (resid 188 and name HN   )   (resid 188 and name HD1* )    4.19  2.39  0.42
+ assign (resid 152 and name HN   )   (resid 188 and name HD1* )    4.58  2.78  0.46
+ assign (resid  98 and name HD1* )   (resid 125 and name HN   )    5.26  3.46  0.53
+ assign (resid  98 and name HD1* )   (resid 121 and name HN   )    4.16  2.36  0.42
+ assign (resid 137 and name HD2* )   (resid 146 and name HN   )    4.40  2.60  0.44
+ assign (resid 166 and name HD1* )   (resid 167 and name HN   )    4.76  2.96  0.48
+ assign (resid 187 and name HN   )   (resid 187 and name HD2* )    3.55  1.75  0.35
+ assign (resid 171 and name HN   )   (resid 187 and name HD1* )    5.23  3.43  0.52
+ assign (resid  58 and name HN   )   (resid  81 and name HG1* )    4.90  3.10  0.49
+ assign (resid  57 and name HG1* )   (resid  59 and name HN   )    4.89  3.09  0.49
+ assign (resid  37 and name HN   )   (resid  57 and name HG1* )    3.97  2.17  0.40
+ assign (resid  91 and name HG2* )   (resid  95 and name HE1  )    3.45  1.65  0.34
+ assign (resid  33 and name HD1* )   (resid  54 and name HN   )    4.93  3.13  0.49
+ assign (resid  91 and name HN   )   (resid  91 and name HG2* )    2.80  1.00  0.28
+ assign (resid  81 and name HN   )   (resid  81 and name HG2* )    2.70  0.90  0.27
+ assign (resid  64 and name HD2* )   (resid  81 and name HN   )    2.93  1.13  0.29
+ assign (resid  34 and name HD1* )   (resid  81 and name HN   )    5.12  3.32  0.51
+ assign (resid 131 and name HN   )   (resid 153 and name HD2* )    3.90  2.10  0.39
+ assign (resid 131 and name HN   )   (resid 190 and name HD1* )    5.20  3.40  0.52
+ assign (resid 131 and name HN   )   (resid 188 and name HD1* )    4.61  2.81  0.46
+ assign (resid 195 and name HN   )   (resid 195 and name HD1* )    3.69  1.89  0.37
+ assign (resid 191 and name HN   )   (resid 191 and name HD1* )    4.44  2.64  0.44
+ assign (resid 190 and name HD1* )   (resid 191 and name HN   )    5.37  3.57  0.54
+ assign (resid 191 and name HN   )   (resid 191 and name HD2* )    5.65  3.85  0.56
+ assign (resid 190 and name HD2* )   (resid 191 and name HN   )    3.60  1.80  0.36
+ assign (resid 167 and name HD1* )   (resid 191 and name HN   )    4.79  2.99  0.48
+ assign (resid 166 and name HN   )   (resid 166 and name HD1* )    3.77  1.97  0.38
+ assign (resid 153 and name HD2* )   (resid 190 and name HN   )    4.82  3.02  0.48
+ assign (resid 190 and name HN   )   (resid 190 and name HD2* )    4.39  2.59  0.44
+ assign (resid  34 and name HN   )   (resid  34 and name HD2* )    4.62  2.82  0.46
+ assign (resid  34 and name HN   )   (resid  99 and name HG1* )    4.30  2.50  0.43
+ assign (resid  22 and name HN   )   (resid  22 and name HG2* )    2.95  1.15  0.30
+ assign (resid  22 and name HN   )   (resid  24 and name HG2* )    4.53  2.73  0.45
+ assign (resid 117 and name HN   )   (resid 117 and name HG1* )    3.80  2.00  0.38
+ assign (resid 117 and name HN   )   (resid 117 and name HG2* )    3.41  1.61  0.34
+ assign (resid 117 and name HN   )   (resid 160 and name HD2* )    4.95  3.15  0.49
+ assign (resid  90 and name HD1* )   (resid 117 and name HN   )    4.02  2.22  0.40
+ assign (resid 109 and name HN   )   (resid 109 and name HD1* )    3.97  2.17  0.40
+ assign (resid 105 and name HD2* )   (resid 109 and name HN   )    4.77  2.97  0.48
+ assign (resid 105 and name HD1* )   (resid 109 and name HN   )    4.77  2.97  0.48
+ assign (resid 105 and name HN   )   (resid 105 and name HD1* )    4.15  2.35  0.42
+ assign (resid  61 and name HN   )   (resid  62 and name HG2* )    4.63  2.83  0.46
+ assign (resid  99 and name HG1* )   (resid 101 and name HN   )    4.55  2.75  0.46
+ assign (resid 109 and name HD2* )   (resid 113 and name HN   )    5.01  3.21  0.50
+ assign (resid  78 and name HD1* )   (resid  79 and name HN   )    3.81  2.01  0.38
+ assign (resid  28 and name HN   )   (resid 126 and name HG1* )    4.04  2.24  0.40
+ assign (resid  24 and name HG2* )   (resid  28 and name HN   )    5.12  3.32  0.51
+ assign (resid  50 and name HN   )   (resid  76 and name HG1* )    4.47  2.67  0.45
+ assign (resid  50 and name HN   )   (resid  54 and name HG2* )    4.21  2.41  0.42
+ assign (resid  90 and name HN   )   (resid  90 and name HD1* )    4.16  2.36  0.42
+ assign (resid  85 and name HD2* )   (resid  90 and name HN   )    5.23  3.43  0.52
+ assign (resid  90 and name HN   )   (resid 113 and name HD1* )    5.69  3.89  0.57
+ assign (resid 121 and name HD1* )   (resid 125 and name HN   )    4.77  2.97  0.48
+ assign (resid 121 and name HD2* )   (resid 125 and name HN   )    4.68  2.88  0.47
+ assign (resid 125 and name HN   )   (resid 163 and name HD2* )    5.05  3.25  0.51
+ assign (resid 163 and name HD1* )   (resid 194 and name HN   )    3.92  2.12  0.39
+ assign (resid 129 and name HN   )   (resid 129 and name HD2* )    4.12  2.32  0.41
+ assign (resid  34 and name HD1* )   (resid  35 and name HN   )    3.51  1.71  0.35
+ assign (resid  35 and name HN   )   (resid  57 and name HG2* )    4.41  2.61  0.44
+ assign (resid 166 and name HD1* )   (resid 193 and name HN   )    4.26  2.46  0.43
+ assign (resid 163 and name HD2* )   (resid 193 and name HN   )    3.72  1.92  0.37
+ assign (resid 127 and name HN   )   (resid 163 and name HD1* )    4.49  2.69  0.45
+ assign (resid 126 and name HG1* )   (resid 127 and name HN   )    3.96  2.16  0.40
+ assign (resid 153 and name HN   )   (resid 190 and name HD1* )    4.26  2.46  0.43
+ assign (resid 187 and name HN   )   (resid 187 and name HD1* )    4.33  2.53  0.43
+ assign (resid 153 and name HD1* )   (resid 169 and name HN   )    3.01  1.21  0.30
+ assign (resid 113 and name HD2* )   (resid 114 and name HN   )    4.51  2.71  0.45
+ assign (resid 100 and name HN   )   (resid 101 and name HD1* )    4.23  2.43  0.42
+ assign (resid  99 and name HG1* )   (resid 100 and name HN   )    4.11  2.31  0.41
+ assign (resid 100 and name HN   )   (resid 128 and name HD1* )    5.21  3.41  0.52
+ assign (resid  33 and name HN   )   (resid  54 and name HG2* )    3.59  1.79  0.36
+ assign (resid  33 and name HN   )   (resid  33 and name HD1* )    4.24  2.44  0.42
+ assign (resid 102 and name HN   )   (resid 129 and name HD2* )    4.98  3.18  0.50
+ assign (resid  81 and name HG1* )   (resid  82 and name HN   )    2.40  0.60  0.24
+ assign (resid  56 and name HN   )   (resid  64 and name HD1* )    5.92  4.12  0.59
+ assign (resid  56 and name HN   )   (resid  81 and name HG2* )    3.43  1.63  0.34
+ assign (resid 137 and name HD1* )   (resid 148 and name HN   )    3.35  1.55  0.34
+ assign (resid 147 and name HD1* )   (resid 148 and name HN   )    3.64  1.84  0.36
+ assign (resid 137 and name HD2* )   (resid 148 and name HN   )    5.72  3.92  0.57
+ assign (resid 126 and name HG2* )   (resid 192 and name HN   )    5.14  3.34  0.51
+ assign (resid 154 and name HN   )   (resid 190 and name HD2* )    5.66  3.86  0.57
+ assign (resid 124 and name HN   )   (resid 126 and name HG1* )    5.55  3.75  0.56
+ assign (resid 108 and name HN   )   (resid 109 and name HD2* )    5.86  4.06  0.59
+ assign (resid  45 and name HN   )   (resid  78 and name HD1* )    4.90  3.10  0.49
+ assign (resid 164 and name HN   )   (resid 195 and name HD1* )    3.54  1.74  0.35
+ assign (resid 164 and name HN   )   (resid 195 and name HD2* )    2.92  1.12  0.29
+ assign (resid  27 and name HN   )   (resid 126 and name HG1* )    4.55  2.75  0.46
+ assign (resid  27 and name HN   )   (resid 126 and name HG2* )    5.22  3.42  0.52
+ assign (resid  24 and name HG2* )   (resid  27 and name HN   )    4.89  3.09  0.49
+ assign (resid  27 and name HN   )   (resid  28 and name HD1* )    4.71  2.91  0.47
+ assign (resid  76 and name HG2* )   (resid  77 and name HN   )    3.07  1.27  0.31
+ assign (resid 195 and name HD2* )   (resid 196 and name HN   )    3.93  2.13  0.39
+ assign (resid 109 and name HD2* )   (resid 110 and name HN   )    4.87  3.07  0.49
+ assign (resid 105 and name HD2* )   (resid 110 and name HN   )    4.86  3.06  0.49
+ assign (resid  73 and name HN   )   (resid  76 and name HG2* )    4.71  2.91  0.47
+ assign (resid 172 and name HN   )   (resid 187 and name HD1* )    5.33  3.53  0.53
+ assign (resid  74 and name HN   )   (resid  76 and name HG2* )    3.68  1.88  0.37
+ assign (resid 137 and name HD1* )   (resid 145 and name HN   )    3.51  1.71  0.35
+ assign (resid 157 and name HN   )   (resid 190 and name HD1* )    3.92  2.12  0.39
+ assign (resid 153 and name HD2* )   (resid 157 and name HN   )    3.90  2.10  0.39
+ assign (resid 167 and name HN   )   (resid 191 and name HD2* )    3.92  2.12  0.39
+ assign (resid 167 and name HN   )   (resid 190 and name HD2* )    5.14  3.34  0.51
+ assign (resid 167 and name HN   )   (resid 167 and name HD1* )    4.09  2.29  0.41
+ assign (resid  49 and name HN   )   (resid  50 and name HD1* )    5.37  3.57  0.54
+ assign (resid  49 and name HN   )   (resid  54 and name HG2* )    4.62  2.82  0.46
+ assign (resid  49 and name HN   )   (resid  50 and name HD2* )    4.59  2.79  0.46
+ assign (resid  68 and name HN   )   (resid  78 and name HD1* )    4.95  3.15  0.49
+ assign (resid  91 and name HG2* )   (resid  94 and name HN   )    4.89  3.09  0.49
+ assign (resid 152 and name HN   )   (resid 156 and name HD1* )    4.38  2.58  0.44
+ assign (resid  62 and name HG1* )   (resid  65 and name HN   )    5.77  3.97  0.58
+ assign (resid  57 and name HN   )   (resid  57 and name HG2* )    3.16  1.36  0.32
+ assign (resid 150 and name HN   )   (resid 150 and name HD2* )    3.47  1.67  0.35
+ assign (resid  25 and name HN   )   (resid 191 and name HD2* )    6.00  4.20  0.60
+ assign (resid  24 and name HG1* )   (resid  25 and name HN   )    3.94  2.14  0.39
+ assign (resid  64 and name HD2* )   (resid  67 and name HN   )    5.14  3.34  0.51
+ assign (resid  47 and name HD1* )   (resid  48 and name HN   )    4.58  2.78  0.46
+ assign (resid  48 and name HN   )   (resid  76 and name HG2* )    5.17  3.37  0.52
+ assign (resid  70 and name HN   )   (resid  78 and name HD1* )    5.21  3.41  0.52
+ assign (resid 173 and name HN   )   (resid 187 and name HD2* )    4.33  2.53  0.43
+ assign (resid  86 and name HN   )   (resid 109 and name HD2* )    3.94  2.14  0.39
+ assign (resid 136 and name HN   )   (resid 150 and name HD1* )    4.31  2.51  0.43
+ assign (resid 136 and name HN   )   (resid 147 and name HD2* )    3.94  2.14  0.39
+ assign (resid 160 and name HD1* )   (resid 162 and name HN   )    5.79  3.99  0.58
+ assign (resid 160 and name HD2* )   (resid 162 and name HN   )    4.25  2.45  0.43
+ assign (resid  63 and name HN   )   (resid  64 and name HD1* )    5.44  3.64  0.54
+ assign (resid  26 and name HN   )   (resid  28 and name HD1* )    4.67  2.87  0.47
+ assign (resid 117 and name HG1* )   (resid 120 and name HN   )    5.30  3.50  0.53
+ assign (resid 116 and name HN   )   (resid 117 and name HG2* )    3.21  1.41  0.32
+ assign (resid 109 and name HD2* )   (resid 112 and name HN   )    4.89  3.09  0.49
+ assign (resid 137 and name HD2* )   (resid 138 and name HN   )    4.38  2.58  0.44
+ assign (resid 146 and name HN   )   (resid 149 and name HD1* )    3.51  1.71  0.35
+ assign (resid  52 and name HN   )   (resid  54 and name HG2* )    4.43  2.63  0.44
+ assign (resid 121 and name HN   )   (resid 121 and name HD1* )    4.28  2.48  0.43
+ assign (resid 121 and name HN   )   (resid 121 and name HD2* )    4.34  2.54  0.43
+ assign (resid 160 and name HD1* )   (resid 163 and name HN   )    4.70  2.90  0.47
+ assign (resid  85 and name HD2* )   (resid  89 and name HN   )    4.26  2.46  0.43
+ assign (resid  89 and name HN   )   (resid  90 and name HD1* )    5.64  3.84  0.56
+ assign (resid 128 and name HN   )   (resid 129 and name HD2* )    4.58  2.78  0.46
+ assign (resid 128 and name HN   )   (resid 128 and name HD1* )    4.08  2.28  0.41
+ assign (resid  33 and name HD1* )   (resid  34 and name HN   )    5.14  3.34  0.51
+ assign (resid  21 and name HD2* )   (resid  47 and name HN   )    4.22  2.42  0.42
+ assign (resid  21 and name HD1* )   (resid  47 and name HN   )    5.59  3.79  0.56
+ assign (resid  47 and name HN   )   (resid  54 and name HG1* )    4.49  2.69  0.45
+ assign (resid  47 and name HN   )   (resid  54 and name HG2* )    4.96  3.16  0.50
+ assign (resid  47 and name HN   )   (resid  47 and name HD2* )    3.87  2.07  0.39
+ assign (resid  33 and name HD1* )   (resid  47 and name HN   )    5.98  4.18  0.60
+ assign (resid  47 and name HN   )   (resid  78 and name HD1* )    5.67  3.87  0.57
+ assign (resid 132 and name HN   )   (resid 150 and name HD2* )    4.82  3.02  0.48
+ assign (resid 129 and name HD2* )   (resid 130 and name HN   )    3.92  2.12  0.39
+ assign (resid 138 and name HN   )   (resid 147 and name HD1* )    4.95  3.15  0.49
+ assign (resid 149 and name HN   )   (resid 149 and name HD2* )    3.44  1.64  0.34
+ assign (resid 117 and name HG2* )   (resid 121 and name HN   )    4.28  2.48  0.43
+ assign (resid 163 and name HD1* )   (resid 165 and name HE1  )    5.40  3.60  0.54
+ assign (resid 165 and name HE1  )   (resid 190 and name HD2* )    5.09  3.29  0.51
+ assign (resid 105 and name HD1* )   (resid 112 and name HN   )    4.86  3.06  0.49
+ assign (resid 125 and name HN   )   (resid 126 and name HG1* )    4.81  3.01  0.48
+ assign (resid  32 and name HN   )   (resid  97 and name HN   )    4.50  2.70  0.09
+ assign (resid  36 and name HN   )   (resid  99 and name HN   )    4.50  2.70  0.09
+ assign (resid  79 and name HN   )   (resid  54 and name HN   )    4.50  2.70  0.09
+ assign (resid  79 and name HN   )   (resid  56 and name HN   )    4.50  2.70  0.09
+ assign (resid  81 and name HN   )   (resid  56 and name HN   )    4.50  2.70  0.09
+ assign (resid  81 and name HN   )   (resid  58 and name HN   )    4.50  2.70  0.09
+ assign (resid  83 and name HN   )   (resid  58 and name HN   )    4.50  2.70  0.09
+ assign (resid  55 and name HN   )   (resid  33 and name HN   )    4.50  2.70  0.09
+ assign (resid  55 and name HN   )   (resid  35 and name HN   )    4.50  2.70  0.09
+ assign (resid  57 and name HN   )   (resid  35 and name HN   )    4.50  2.70  0.09
+ assign (resid  57 and name HN   )   (resid  37 and name HN   )    4.50  2.70  0.09
+ assign (resid  59 and name HN   )   (resid  37 and name HN   )    4.50  2.70  0.09
+ assign (resid  34 and name HN   )   (resid  97 and name HN   )    4.50  2.70  0.09
+ assign (resid  34 and name HN   )   (resid  99 and name HN   )    4.50  2.70  0.09
+ assign (resid  36 and name HN   )   (resid  99 and name HN   )    4.50  2.70  0.09
+ assign (resid  98 and name HN   )   (resid 126 and name HN   )    4.50  2.70  0.09
+ assign (resid 100 and name HN   )   (resid 126 and name HN   )    4.50  2.70  0.09
+ assign (resid 100 and name HN   )   (resid 128 and name HN   )    4.50  2.70  0.09
+ assign (resid 124 and name HN   )   (resid 194 and name HN   )    3.50  1.70  0.07
+ assign (resid 127 and name HN   )   (resid 192 and name HN   )    3.50  1.70  0.07
+ assign (resid 129 and name HN   )   (resid 190 and name HN   )    3.50  1.70  0.07
+ assign (resid 131 and name HN   )   (resid 188 and name HN   )    3.50  1.70  0.07
+ assign (resid 191 and name HN   )   (resid 167 and name HN   )    3.50  1.70  0.07
+ assign (resid 189 and name HN   )   (resid 169 and name HN   )    3.50  1.70  0.07
+ assign (resid 187 and name HN   )   (resid 171 and name HN   )    4.50  2.70  0.09
+ assign (resid 185 and name HN   )   (resid 173 and name HN   )    3.50  1.70  0.07
+ assign (resid 100 and name HA   )   (resid  36 and name HN   )    3.50  1.70  0.07
+ assign (resid 190 and name HA   )   (resid 168 and name HA   )    3.30  1.50  0.07
+ assign (resid 126 and name HA   )   (resid 193 and name HA   )    3.30  1.50  0.07
+ assign (resid 128 and name HA   )   (resid 191 and name HA   )    3.30  1.50  0.07
+ assign (resid 130 and name HA   )   (resid 189 and name HA   )    3.30  1.50  0.07
+ assign (resid 165 and name HZ3  )   (resid 127 and name HZ   )    6.50  4.70  0.13
+ assign (resid 101 and name HA   )   (resid 128 and name HN   )    3.70  1.90  0.07
+ assign (resid  36 and name HD2* )   (resid 113 and name HD2* )    5.00  3.20  0.10
+ assign (resid 127 and name HD*  )   (resid 160 and name HD1* )    6.00  4.20  0.12
+ assign (resid 127 and name HE*  )   (resid 156 and name HD2* )    6.00  4.20  0.12
+ assign (resid 127 and name HE*  )   (resid 113 and name HD1* )    6.00  4.20  0.12
+ assign (resid 117 and name HG1* )   (resid 160 and name HD2* )    4.00  2.20  0.08
+ assign (resid 117 and name HG2* )   (resid  90 and name HD1* )    4.00  2.20  0.08
+ assign (resid 113 and name HD1* )   (resid  85 and name HD2* )    4.00  2.20  0.08
+ assign (resid 105 and name HD1* )   (resid  85 and name HD2* )    4.00  2.20  0.08
+ assign (resid 105 and name HD1* )   (resid 113 and name HD1* )    4.00  2.20  0.08
+ assign (resid  88 and name HE*  )   (resid  34 and name HD1* )    4.00  2.20  0.08
+ assign (resid  88 and name HE*  )   (resid  34 and name HD2* )    4.00  2.20  0.08
+ assign (resid  95 and name HE1  )   (resid  91 and name HN   )    3.00  1.20  0.06
+ assign (resid  34 and name HD2* )   (resid  90 and name HG2* )    3.50  1.70  0.07
+ assign (resid 114 and name HE*  )   (resid 156 and name HD2* )    3.50  1.70  0.07
+ assign (resid 114 and name HE*  )   (resid 127 and name HZ   )    4.50  2.70  0.09
+ assign (resid  21 and name O    )   (resid  25 and name HN   )    2.50  0.70  0.05
+ assign (resid  21 and name O    )   (resid  25 and name N    )    3.50  1.70  0.07
+ assign (resid  22 and name O    )   (resid  26 and name HN   )    2.50  0.70  0.05
+ assign (resid  22 and name O    )   (resid  26 and name N    )    3.50  1.70  0.07
+ assign (resid  23 and name O    )   (resid  27 and name HN   )    2.50  0.70  0.05
+ assign (resid  23 and name O    )   (resid  27 and name N    )    3.50  1.70  0.07
+ assign (resid  24 and name O    )   (resid  28 and name HN   )    2.50  0.70  0.05
+ assign (resid  24 and name O    )   (resid  28 and name N    )    3.50  1.70  0.07
+ assign (resid  42 and name O    )   (resid  46 and name HN   )    2.50  0.70  0.05
+ assign (resid  42 and name O    )   (resid  46 and name N    )    3.50  1.70  0.07
+ assign (resid  43 and name O    )   (resid  47 and name HN   )    2.50  0.70  0.05
+ assign (resid  43 and name O    )   (resid  47 and name N    )    3.50  1.70  0.07
+ assign (resid  44 and name O    )   (resid  48 and name HN   )    2.50  0.70  0.05
+ assign (resid  44 and name O    )   (resid  48 and name N    )    3.50  1.70  0.07
+ assign (resid  45 and name O    )   (resid  49 and name HN   )    2.50  0.70  0.05
+ assign (resid  45 and name O    )   (resid  49 and name N    )    3.50  1.70  0.07
+ assign (resid  46 and name O    )   (resid  50 and name HN   )    2.50  0.70  0.05
+ assign (resid  46 and name O    )   (resid  50 and name N    )    3.50  1.70  0.07
+ assign (resid  61 and name O    )   (resid  65 and name HN   )    2.50  0.70  0.05
+ assign (resid  61 and name O    )   (resid  65 and name N    )    3.50  1.70  0.07
+ assign (resid  62 and name O    )   (resid  66 and name HN   )    2.50  0.70  0.05
+ assign (resid  62 and name O    )   (resid  66 and name N    )    3.50  1.70  0.07
+ assign (resid  63 and name O    )   (resid  67 and name HN   )    2.50  0.70  0.05
+ assign (resid  63 and name O    )   (resid  67 and name N    )    3.50  1.70  0.07
+ assign (resid  64 and name O    )   (resid  68 and name HN   )    2.50  0.70  0.05
+ assign (resid  64 and name O    )   (resid  68 and name N    )    3.50  1.70  0.07
+ assign (resid  65 and name O    )   (resid  69 and name HN   )    2.50  0.70  0.05
+ assign (resid  65 and name O    )   (resid  69 and name N    )    3.50  1.70  0.07
+ assign (resid  66 and name O    )   (resid  70 and name HN   )    2.50  0.70  0.05
+ assign (resid  66 and name O    )   (resid  70 and name N    )    3.50  1.70  0.07
+ assign (resid  67 and name O    )   (resid  71 and name HN   )    2.50  0.70  0.05
+ assign (resid  67 and name O    )   (resid  71 and name N    )    3.50  1.70  0.07
+ assign (resid  68 and name O    )   (resid  72 and name HN   )    2.50  0.70  0.05
+ assign (resid  68 and name O    )   (resid  72 and name N    )    3.50  1.70  0.07
+ assign (resid  69 and name O    )   (resid  73 and name HN   )    2.50  0.70  0.05
+ assign (resid  69 and name O    )   (resid  73 and name N    )    3.50  1.70  0.07
+ assign (resid  70 and name O    )   (resid  74 and name HN   )    2.50  0.70  0.05
+ assign (resid  70 and name O    )   (resid  74 and name N    )    3.50  1.70  0.07
+ assign (resid 107 and name O    )   (resid 111 and name HN   )    2.50  0.70  0.05
+ assign (resid 107 and name O    )   (resid 111 and name N    )    3.50  1.70  0.07
+ assign (resid 108 and name O    )   (resid 112 and name HN   )    2.50  0.70  0.05
+ assign (resid 108 and name O    )   (resid 112 and name N    )    3.50  1.70  0.07
+ assign (resid 109 and name O    )   (resid 113 and name HN   )    2.50  0.70  0.05
+ assign (resid 109 and name O    )   (resid 113 and name N    )    3.50  1.70  0.07
+ assign (resid 110 and name O    )   (resid 114 and name HN   )    2.50  0.70  0.05
+ assign (resid 110 and name O    )   (resid 114 and name N    )    3.50  1.70  0.07
+ assign (resid 113 and name O    )   (resid 117 and name HN   )    2.50  0.70  0.05
+ assign (resid 113 and name O    )   (resid 117 and name N    )    3.50  1.70  0.07
+ assign (resid 114 and name O    )   (resid 118 and name HN   )    2.50  0.70  0.05
+ assign (resid 114 and name O    )   (resid 118 and name N    )    3.50  1.70  0.07
+ assign (resid 152 and name O    )   (resid 156 and name HN   )    2.50  0.70  0.05
+ assign (resid 152 and name O    )   (resid 156 and name N    )    3.50  1.70  0.07
+ assign (resid 153 and name O    )   (resid 157 and name HN   )    2.50  0.70  0.05
+ assign (resid 153 and name O    )   (resid 157 and name N    )    3.50  1.70  0.07
+ assign (resid 154 and name O    )   (resid 158 and name HN   )    2.50  0.70  0.05
+ assign (resid 154 and name O    )   (resid 158 and name N    )    3.50  1.70  0.07
+ assign (resid 155 and name O    )   (resid 159 and name HN   )    2.50  0.70  0.05
+ assign (resid 155 and name O    )   (resid 159 and name N    )    3.50  1.70  0.07
+ assign (resid  98 and name O    )   (resid 126 and name N    )    3.50  1.70  0.07
+ assign (resid  98 and name O    )   (resid 126 and name HN   )    2.50  0.70  0.05
+ assign (resid  34 and name O    )   (resid  99 and name N    )    3.50  1.70  0.07
+ assign (resid  34 and name O    )   (resid  99 and name HN   )    2.50  0.70  0.05
+ assign (resid  97 and name O    )   (resid  34 and name N    )    3.50  1.70  0.07
+ assign (resid  97 and name O    )   (resid  34 and name HN   )    2.50  0.70  0.05
+ assign (resid  32 and name O    )   (resid  97 and name N    )    3.50  1.70  0.07
+ assign (resid  32 and name O    )   (resid  97 and name HN   )    2.50  0.70  0.05
+ assign (resid  32 and name O    )   (resid  96 and name N    )    3.50  1.70  0.07
+ assign (resid  32 and name O    )   (resid  96 and name HN   )    2.50  0.70  0.05
+ assign (resid 124 and name O    )   (resid  98 and name N    )    3.50  1.70  0.07
+ assign (resid 124 and name O    )   (resid  98 and name HN   )    2.50  0.70  0.05
+ assign (resid 100 and name N    )   (resid 126 and name O    )    3.50  1.70  0.07
+ assign (resid 100 and name HN   )   (resid 126 and name O    )    2.50  0.70  0.05
+ assign (resid 100 and name O    )   (resid 128 and name N    )    3.50  1.70  0.07
+ assign (resid 100 and name O    )   (resid 128 and name HN   )    2.50  0.70  0.05
+ assign (resid 102 and name N    )   (resid 128 and name O    )    3.50  1.70  0.07
+ assign (resid 102 and name HN   )   (resid 128 and name O    )    2.50  0.70  0.05
+ assign (resid 129 and name O    )   (resid 190 and name N    )    3.50  1.70  0.07
+ assign (resid 129 and name O    )   (resid 190 and name HN   )    2.50  0.70  0.05
+ assign (resid 129 and name N    )   (resid 190 and name O    )    3.50  1.70  0.07
+ assign (resid 129 and name HN   )   (resid 190 and name O    )    2.50  0.70  0.05
+ assign (resid 127 and name O    )   (resid 192 and name N    )    3.50  1.70  0.07
+ assign (resid 127 and name O    )   (resid 192 and name HN   )    2.50  0.70  0.05
+ assign (resid 127 and name N    )   (resid 192 and name O    )    3.50  1.70  0.07
+ assign (resid 127 and name HN   )   (resid 192 and name O    )    2.50  0.70  0.05
+ assign (resid 167 and name O    )   (resid 191 and name N    )    3.50  1.70  0.07
+ assign (resid 167 and name O    )   (resid 191 and name HN   )    2.50  0.70  0.05
+ assign (resid 167 and name N    )   (resid 191 and name O    )    3.50  1.70  0.07
+ assign (resid 167 and name HN   )   (resid 191 and name O    )    2.50  0.70  0.05
+ assign (resid 169 and name O    )   (resid 189 and name N    )    3.50  1.70  0.07
+ assign (resid 169 and name O    )   (resid 189 and name HN   )    2.50  0.70  0.05
+ assign (resid 169 and name N    )   (resid 189 and name O    )    3.50  1.70  0.07
+ assign (resid 169 and name HN   )   (resid 189 and name O    )    2.50  0.70  0.05
+assign ( resid   20 and name C    )   ( resid   21 and name N    ) 
+        (resid   21 and name CA   )   ( resid   21 and name C    )  1  -64.60   20.00 2
+assign ( resid   21 and name N    )   ( resid   21 and name CA   ) 
+        (resid   21 and name C    )   ( resid   22 and name N    )  1  -43.10   20.00 2
+assign ( resid   21 and name C    )   ( resid   22 and name N    ) 
+        (resid   22 and name CA   )   ( resid   22 and name C    )  1  -61.40   20.00 2
+assign ( resid   22 and name N    )   ( resid   22 and name CA   ) 
+        (resid   22 and name C    )   ( resid   23 and name N    )  1  -39.80   20.00 2
+assign ( resid   22 and name C    )   ( resid   23 and name N    ) 
+        (resid   23 and name CA   )   ( resid   23 and name C    )  1  -64.10   20.00 2
+assign ( resid   23 and name N    )   ( resid   23 and name CA   ) 
+        (resid   23 and name C    )   ( resid   24 and name N    )  1  -28.55   21.75 2
+assign ( resid   23 and name C    )   ( resid   24 and name N    ) 
+        (resid   24 and name CA   )   ( resid   24 and name C    )  1  -90.30   41.80 2
+assign ( resid   24 and name N    )   ( resid   24 and name CA   ) 
+        (resid   24 and name C    )   ( resid   25 and name N    )  1  -13.35   38.75 2
+assign ( resid   24 and name C    )   ( resid   25 and name N    ) 
+        (resid   25 and name CA   )   ( resid   25 and name C    )  1  -57.10   20.00 2
+assign ( resid   25 and name N    )   ( resid   25 and name CA   ) 
+        (resid   25 and name C    )   ( resid   26 and name N    )  1  -35.70   20.00 2
+assign ( resid   25 and name C    )   ( resid   26 and name N    ) 
+        (resid   26 and name CA   )   ( resid   26 and name C    )  1  -66.20   20.00 2
+assign ( resid   26 and name N    )   ( resid   26 and name CA   ) 
+        (resid   26 and name C    )   ( resid   27 and name N    )  1  -25.85   23.55 2
+assign ( resid   26 and name C    )   ( resid   27 and name N    ) 
+        (resid   27 and name CA   )   ( resid   27 and name C    )  1  -83.70   31.10 2
+assign ( resid   27 and name N    )   ( resid   27 and name CA   ) 
+        (resid   27 and name C    )   ( resid   28 and name N    )  1  -14.75   48.65 2
+assign ( resid   27 and name C    )   ( resid   28 and name N    ) 
+        (resid   28 and name CA   )   ( resid   28 and name C    )  1  -69.80   22.10 2
+assign ( resid   28 and name N    )   ( resid   28 and name CA   ) 
+        (resid   28 and name C    )   ( resid   29 and name N    )  1  135.20   23.90 2
+assign ( resid   29 and name C    )   ( resid   30 and name N    ) 
+        (resid   30 and name CA   )   ( resid   30 and name C    )  1  -79.50   20.00 2
+assign ( resid   30 and name N    )   ( resid   30 and name CA   ) 
+        (resid   30 and name C    )   ( resid   31 and name N    )  1  -15.05   42.25 2
+assign ( resid   30 and name C    )   ( resid   31 and name N    ) 
+        (resid   31 and name CA   )   ( resid   31 and name C    )  1  167.20   70.00 2
+assign ( resid   31 and name N    )   ( resid   31 and name CA   ) 
+        (resid   31 and name C    )   ( resid   32 and name N    )  1  155.30   70.00 2
+assign ( resid   31 and name C    )   ( resid   32 and name N    ) 
+        (resid   32 and name CA   )   ( resid   32 and name C    )  1  -92.65   30.35 2
+assign ( resid   32 and name N    )   ( resid   32 and name CA   ) 
+        (resid   32 and name C    )   ( resid   33 and name N    )  1  137.60   22.10 2
+assign ( resid   32 and name C    )   ( resid   33 and name N    ) 
+        (resid   33 and name CA   )   ( resid   33 and name C    )  1 -133.30   24.70 2
+assign ( resid   33 and name N    )   ( resid   33 and name CA   ) 
+        (resid   33 and name C    )   ( resid   34 and name N    )  1  140.75   22.15 2
+assign ( resid   33 and name C    )   ( resid   34 and name N    ) 
+        (resid   34 and name CA   )   ( resid   34 and name C    )  1 -113.85   32.35 2
+assign ( resid   34 and name N    )   ( resid   34 and name CA   ) 
+        (resid   34 and name C    )   ( resid   35 and name N    )  1  124.90   25.90 2
+assign ( resid   34 and name C    )   ( resid   35 and name N    ) 
+        (resid   35 and name CA   )   ( resid   35 and name C    )  1 -104.30   39.50 2
+assign ( resid   35 and name N    )   ( resid   35 and name CA   ) 
+        (resid   35 and name C    )   ( resid   36 and name N    )  1  142.40   30.40 2
+assign ( resid   35 and name C    )   ( resid   36 and name N    ) 
+        (resid   36 and name CA   )   ( resid   36 and name C    )  1  -96.60   66.10 2
+assign ( resid   36 and name N    )   ( resid   36 and name CA   ) 
+        (resid   36 and name C    )   ( resid   37 and name N    )  1  136.30   53.30 2
+assign ( resid   41 and name C    )   ( resid   42 and name N    ) 
+        (resid   42 and name CA   )   ( resid   42 and name C    )  1  -60.70   20.00 2
+assign ( resid   42 and name N    )   ( resid   42 and name CA   ) 
+        (resid   42 and name C    )   ( resid   43 and name N    )  1  -39.80   20.00 2
+assign ( resid   42 and name C    )   ( resid   43 and name N    ) 
+        (resid   43 and name CA   )   ( resid   43 and name C    )  1  -63.50   20.00 2
+assign ( resid   43 and name N    )   ( resid   43 and name CA   ) 
+        (resid   43 and name C    )   ( resid   44 and name N    )  1  -42.20   20.00 2
+assign ( resid   43 and name C    )   ( resid   44 and name N    ) 
+        (resid   44 and name CA   )   ( resid   44 and name C    )  1  -65.60   20.00 2
+assign ( resid   44 and name N    )   ( resid   44 and name CA   ) 
+        (resid   44 and name C    )   ( resid   45 and name N    )  1  -42.60   20.00 2
+assign ( resid   44 and name C    )   ( resid   45 and name N    ) 
+        (resid   45 and name CA   )   ( resid   45 and name C    )  1  -61.30   20.00 2
+assign ( resid   45 and name N    )   ( resid   45 and name CA   ) 
+        (resid   45 and name C    )   ( resid   46 and name N    )  1  -41.20   20.00 2
+assign ( resid   45 and name C    )   ( resid   46 and name N    ) 
+        (resid   46 and name CA   )   ( resid   46 and name C    )  1  -66.60   20.00 2
+assign ( resid   46 and name N    )   ( resid   46 and name CA   ) 
+        (resid   46 and name C    )   ( resid   47 and name N    )  1  -42.00   20.00 2
+assign ( resid   46 and name C    )   ( resid   47 and name N    ) 
+        (resid   47 and name CA   )   ( resid   47 and name C    )  1  -61.80   20.00 2
+assign ( resid   47 and name N    )   ( resid   47 and name CA   ) 
+        (resid   47 and name C    )   ( resid   48 and name N    )  1  -41.60   20.00 2
+assign ( resid   47 and name C    )   ( resid   48 and name N    ) 
+        (resid   48 and name CA   )   ( resid   48 and name C    )  1  -64.50   20.00 2
+assign ( resid   48 and name N    )   ( resid   48 and name CA   ) 
+        (resid   48 and name C    )   ( resid   49 and name N    )  1  -40.50   20.00 2
+assign ( resid   48 and name C    )   ( resid   49 and name N    ) 
+        (resid   49 and name CA   )   ( resid   49 and name C    )  1  -64.80   20.00 2
+assign ( resid   49 and name N    )   ( resid   49 and name CA   ) 
+        (resid   49 and name C    )   ( resid   50 and name N    )  1  -29.70   24.40 2
+assign ( resid   49 and name C    )   ( resid   50 and name N    ) 
+        (resid   50 and name CA   )   ( resid   50 and name C    )  1  -82.90   20.00 2
+assign ( resid   50 and name N    )   ( resid   50 and name CA   ) 
+        (resid   50 and name C    )   ( resid   51 and name N    )  1   -2.85   34.45 2
+assign ( resid   50 and name C    )   ( resid   51 and name N    ) 
+        (resid   51 and name CA   )   ( resid   51 and name C    )  1   84.15   33.45 2
+assign ( resid   51 and name N    )   ( resid   51 and name CA   ) 
+        (resid   51 and name C    )   ( resid   52 and name N    )  1   12.50   33.50 2
+assign ( resid   51 and name C    )   ( resid   52 and name N    ) 
+        (resid   52 and name CA   )   ( resid   52 and name C    )  1  -83.20   70.00 2
+assign ( resid   52 and name N    )   ( resid   52 and name CA   ) 
+        (resid   52 and name C    )   ( resid   53 and name N    )  1  138.10   38.00 2
+assign ( resid   52 and name C    )   ( resid   53 and name N    ) 
+        (resid   53 and name CA   )   ( resid   53 and name C    )  1  -96.00   30.90 2
+assign ( resid   53 and name N    )   ( resid   53 and name CA   ) 
+        (resid   53 and name C    )   ( resid   54 and name N    )  1  119.85   28.65 2
+assign ( resid   53 and name C    )   ( resid   54 and name N    ) 
+        (resid   54 and name CA   )   ( resid   54 and name C    )  1 -104.70   39.30 2
+assign ( resid   54 and name N    )   ( resid   54 and name CA   ) 
+        (resid   54 and name C    )   ( resid   55 and name N    )  1  129.00   27.80 2
+assign ( resid   54 and name C    )   ( resid   55 and name N    ) 
+        (resid   55 and name CA   )   ( resid   55 and name C    )  1 -110.60   23.90 2
+assign ( resid   55 and name N    )   ( resid   55 and name CA   ) 
+        (resid   55 and name C    )   ( resid   56 and name N    )  1  130.00   24.50 2
+assign ( resid   55 and name C    )   ( resid   56 and name N    ) 
+        (resid   56 and name CA   )   ( resid   56 and name C    )  1 -117.95   31.55 2
+assign ( resid   56 and name N    )   ( resid   56 and name CA   ) 
+        (resid   56 and name C    )   ( resid   57 and name N    )  1  134.20   29.10 2
+assign ( resid   56 and name C    )   ( resid   57 and name N    ) 
+        (resid   57 and name CA   )   ( resid   57 and name C    )  1 -113.70   33.90 2
+assign ( resid   57 and name N    )   ( resid   57 and name CA   ) 
+        (resid   57 and name C    )   ( resid   58 and name N    )  1  140.00   20.00 2
+assign ( resid   57 and name C    )   ( resid   58 and name N    ) 
+        (resid   58 and name CA   )   ( resid   58 and name C    )  1 -135.00   70.00 2
+assign ( resid   58 and name N    )   ( resid   58 and name CA   ) 
+        (resid   58 and name C    )   ( resid   59 and name N    )  1  164.00   52.90 2
+assign ( resid   58 and name C    )   ( resid   59 and name N    ) 
+        (resid   59 and name CA   )   ( resid   59 and name C    )  1  -81.05   37.05 2
+assign ( resid   59 and name N    )   ( resid   59 and name CA   ) 
+        (resid   59 and name C    )   ( resid   60 and name N    )  1  -27.05   37.65 2
+assign ( resid   59 and name C    )   ( resid   60 and name N    ) 
+        (resid   60 and name CA   )   ( resid   60 and name C    )  1 -104.95   56.85 2
+assign ( resid   60 and name N    )   ( resid   60 and name CA   ) 
+        (resid   60 and name C    )   ( resid   61 and name N    )  1  115.35   49.95 2
+assign ( resid   60 and name C    )   ( resid   61 and name N    ) 
+        (resid   61 and name CA   )   ( resid   61 and name C    )  1  -55.60   20.00 2
+assign ( resid   61 and name N    )   ( resid   61 and name CA   ) 
+        (resid   61 and name C    )   ( resid   62 and name N    )  1  -36.80   20.00 2
+assign ( resid   61 and name C    )   ( resid   62 and name N    ) 
+        (resid   62 and name CA   )   ( resid   62 and name C    )  1  -69.50   20.00 2
+assign ( resid   62 and name N    )   ( resid   62 and name CA   ) 
+        (resid   62 and name C    )   ( resid   63 and name N    )  1  -36.20   20.00 2
+assign ( resid   62 and name C    )   ( resid   63 and name N    ) 
+        (resid   63 and name CA   )   ( resid   63 and name C    )  1  -62.90   20.00 2
+assign ( resid   63 and name N    )   ( resid   63 and name CA   ) 
+        (resid   63 and name C    )   ( resid   64 and name N    )  1  -39.20   20.00 2
+assign ( resid   63 and name C    )   ( resid   64 and name N    ) 
+        (resid   64 and name CA   )   ( resid   64 and name C    )  1  -62.20   20.00 2
+assign ( resid   64 and name N    )   ( resid   64 and name CA   ) 
+        (resid   64 and name C    )   ( resid   65 and name N    )  1  -41.80   20.00 2
+assign ( resid   64 and name C    )   ( resid   65 and name N    ) 
+        (resid   65 and name CA   )   ( resid   65 and name C    )  1  -63.30   20.00 2
+assign ( resid   65 and name N    )   ( resid   65 and name CA   ) 
+        (resid   65 and name C    )   ( resid   66 and name N    )  1  -40.80   20.00 2
+assign ( resid   65 and name C    )   ( resid   66 and name N    ) 
+        (resid   66 and name CA   )   ( resid   66 and name C    )  1  -63.50   20.00 2
+assign ( resid   66 and name N    )   ( resid   66 and name CA   ) 
+        (resid   66 and name C    )   ( resid   67 and name N    )  1  -42.50   20.00 2
+assign ( resid   66 and name C    )   ( resid   67 and name N    ) 
+        (resid   67 and name CA   )   ( resid   67 and name C    )  1  -66.30   20.00 2
+assign ( resid   67 and name N    )   ( resid   67 and name CA   ) 
+        (resid   67 and name C    )   ( resid   68 and name N    )  1  -43.70   20.00 2
+assign ( resid   67 and name C    )   ( resid   68 and name N    ) 
+        (resid   68 and name CA   )   ( resid   68 and name C    )  1  -63.85   19.95 2
+assign ( resid   68 and name N    )   ( resid   68 and name CA   ) 
+        (resid   68 and name C    )   ( resid   69 and name N    )  1  -39.00   20.00 2
+assign ( resid   68 and name C    )   ( resid   69 and name N    ) 
+        (resid   69 and name CA   )   ( resid   69 and name C    )  1  -64.00   20.00 2
+assign ( resid   69 and name N    )   ( resid   69 and name CA   ) 
+        (resid   69 and name C    )   ( resid   70 and name N    )  1  -43.40   20.00 2
+assign ( resid   69 and name C    )   ( resid   70 and name N    ) 
+        (resid   70 and name CA   )   ( resid   70 and name C    )  1  -66.00   20.00 2
+assign ( resid   70 and name N    )   ( resid   70 and name CA   ) 
+        (resid   70 and name C    )   ( resid   71 and name N    )  1  -43.60   20.00 2
+assign ( resid   70 and name C    )   ( resid   71 and name N    ) 
+        (resid   71 and name CA   )   ( resid   71 and name C    )  1  -60.30   20.00 2
+assign ( resid   71 and name N    )   ( resid   71 and name CA   ) 
+        (resid   71 and name C    )   ( resid   72 and name N    )  1  -41.40   20.00 2
+assign ( resid   71 and name C    )   ( resid   72 and name N    ) 
+        (resid   72 and name CA   )   ( resid   72 and name C    )  1  -61.90   20.00 2
+assign ( resid   72 and name N    )   ( resid   72 and name CA   ) 
+        (resid   72 and name C    )   ( resid   73 and name N    )  1  -43.40   20.00 2
+assign ( resid   72 and name C    )   ( resid   73 and name N    ) 
+        (resid   73 and name CA   )   ( resid   73 and name C    )  1  -62.00   20.00 2
+assign ( resid   73 and name N    )   ( resid   73 and name CA   ) 
+        (resid   73 and name C    )   ( resid   74 and name N    )  1  -32.80   22.70 2
+assign ( resid   73 and name C    )   ( resid   74 and name N    ) 
+        (resid   74 and name CA   )   ( resid   74 and name C    )  1  -88.40   23.70 2
+assign ( resid   74 and name N    )   ( resid   74 and name CA   ) 
+        (resid   74 and name C    )   ( resid   75 and name N    )  1    0.30   20.00 2
+assign ( resid   74 and name C    )   ( resid   75 and name N    ) 
+        (resid   75 and name CA   )   ( resid   75 and name C    )  1   70.35   23.65 2
+assign ( resid   75 and name N    )   ( resid   75 and name CA   ) 
+        (resid   75 and name C    )   ( resid   76 and name N    )  1   34.45   28.75 2
+assign ( resid   75 and name C    )   ( resid   76 and name N    ) 
+        (resid   76 and name CA   )   ( resid   76 and name C    )  1 -131.45   37.15 2
+assign ( resid   76 and name N    )   ( resid   76 and name CA   ) 
+        (resid   76 and name C    )   ( resid   77 and name N    )  1  160.30   20.00 2
+assign ( resid   76 and name C    )   ( resid   77 and name N    ) 
+        (resid   77 and name CA   )   ( resid   77 and name C    )  1 -114.35   45.35 2
+assign ( resid   77 and name N    )   ( resid   77 and name CA   ) 
+        (resid   77 and name C    )   ( resid   78 and name N    )  1  150.75   31.15 2
+assign ( resid   77 and name C    )   ( resid   78 and name N    ) 
+        (resid   78 and name CA   )   ( resid   78 and name C    )  1 -124.60   45.70 2
+assign ( resid   78 and name N    )   ( resid   78 and name CA   ) 
+        (resid   78 and name C    )   ( resid   79 and name N    )  1  143.85   24.75 2
+assign ( resid   78 and name C    )   ( resid   79 and name N    ) 
+        (resid   79 and name CA   )   ( resid   79 and name C    )  1 -104.35   35.15 2
+assign ( resid   79 and name N    )   ( resid   79 and name CA   ) 
+        (resid   79 and name C    )   ( resid   80 and name N    )  1  131.70   23.00 2
+assign ( resid   79 and name C    )   ( resid   80 and name N    ) 
+        (resid   80 and name CA   )   ( resid   80 and name C    )  1 -124.10   39.50 2
+assign ( resid   80 and name N    )   ( resid   80 and name CA   ) 
+        (resid   80 and name C    )   ( resid   81 and name N    )  1  148.95   44.25 2
+assign ( resid   80 and name C    )   ( resid   81 and name N    ) 
+        (resid   81 and name CA   )   ( resid   81 and name C    )  1 -137.50   39.90 2
+assign ( resid   81 and name N    )   ( resid   81 and name CA   ) 
+        (resid   81 and name C    )   ( resid   82 and name N    )  1  134.60   28.40 2
+assign ( resid   81 and name C    )   ( resid   82 and name N    ) 
+        (resid   82 and name CA   )   ( resid   82 and name C    )  1 -106.65   20.05 2
+assign ( resid   82 and name N    )   ( resid   82 and name CA   ) 
+        (resid   82 and name C    )   ( resid   83 and name N    )  1  120.20   27.30 2
+assign ( resid   82 and name C    )   ( resid   83 and name N    ) 
+        (resid   83 and name CA   )   ( resid   83 and name C    )  1 -108.45   71.75 2
+assign ( resid   83 and name N    )   ( resid   83 and name CA   ) 
+        (resid   83 and name C    )   ( resid   84 and name N    )  1  138.65   38.55 2
+assign ( resid   83 and name C    )   ( resid   84 and name N    ) 
+        (resid   84 and name CA   )   ( resid   84 and name C    )  1  -81.15   59.55 2
+assign ( resid   84 and name N    )   ( resid   84 and name CA   ) 
+        (resid   84 and name C    )   ( resid   85 and name N    )  1  142.10   42.80 2
+assign ( resid   84 and name C    )   ( resid   85 and name N    ) 
+        (resid   85 and name CA   )   ( resid   85 and name C    )  1  -65.40   35.50 2
+assign ( resid   85 and name N    )   ( resid   85 and name CA   ) 
+        (resid   85 and name C    )   ( resid   86 and name N    )  1  -55.00   45.60 2
+assign ( resid   85 and name C    )   ( resid   86 and name N    ) 
+        (resid   86 and name CA   )   ( resid   86 and name C    )  1  -62.45   38.15 2
+assign ( resid   86 and name N    )   ( resid   86 and name CA   ) 
+        (resid   86 and name C    )   ( resid   87 and name N    )  1  -45.10   55.30 2
+assign ( resid   86 and name C    )   ( resid   87 and name N    ) 
+        (resid   87 and name CA   )   ( resid   87 and name C    )  1 -101.55   78.85 2
+assign ( resid   88 and name N    )   ( resid   88 and name CA   ) 
+        (resid   88 and name C    )   ( resid   89 and name N    )  1  130.25   25.85 2
+assign ( resid   88 and name C    )   ( resid   89 and name N    ) 
+        (resid   89 and name CA   )   ( resid   89 and name C    )  1 -107.45   41.75 2
+assign ( resid   89 and name C    )   ( resid   90 and name N    ) 
+        (resid   90 and name CA   )   ( resid   90 and name C    )  1 -103.45   52.15 2
+assign ( resid   90 and name N    )   ( resid   90 and name CA   ) 
+        (resid   90 and name C    )   ( resid   91 and name N    )  1  118.00   21.10 2
+assign ( resid   91 and name C    )   ( resid   92 and name N    ) 
+        (resid   92 and name CA   )   ( resid   92 and name C    )  1  -66.90   20.00 2
+assign ( resid   92 and name N    )   ( resid   92 and name CA   ) 
+        (resid   92 and name C    )   ( resid   93 and name N    )  1  -21.70   20.00 2
+assign ( resid   92 and name C    )   ( resid   93 and name N    ) 
+        (resid   93 and name CA   )   ( resid   93 and name C    )  1  -76.30   20.00 2
+assign ( resid   93 and name N    )   ( resid   93 and name CA   ) 
+        (resid   93 and name C    )   ( resid   94 and name N    )  1  -29.75   31.35 2
+assign ( resid   93 and name C    )   ( resid   94 and name N    ) 
+        (resid   94 and name CA   )   ( resid   94 and name C    )  1  -97.15   37.05 2
+assign ( resid   94 and name N    )   ( resid   94 and name CA   ) 
+        (resid   94 and name C    )   ( resid   95 and name N    )  1  -10.05   32.55 2
+assign ( resid   94 and name C    )   ( resid   95 and name N    ) 
+        (resid   95 and name CA   )   ( resid   95 and name C    )  1 -108.10   70.00 2
+assign ( resid   95 and name N    )   ( resid   95 and name CA   ) 
+        (resid   95 and name C    )   ( resid   96 and name N    )  1  133.80   70.00 2
+assign ( resid   97 and name C    )   ( resid   98 and name N    ) 
+        (resid   98 and name CA   )   ( resid   98 and name C    )  1 -117.35   47.95 2
+assign ( resid   98 and name N    )   ( resid   98 and name CA   ) 
+        (resid   98 and name C    )   ( resid   99 and name N    )  1  138.85   28.85 2
+assign ( resid   98 and name C    )   ( resid   99 and name N    ) 
+        (resid   99 and name CA   )   ( resid   99 and name C    )  1 -119.25   28.95 2
+assign ( resid   99 and name N    )   ( resid   99 and name CA   ) 
+        (resid   99 and name C    )   ( resid  100 and name N    )  1  132.00   24.10 2
+assign ( resid   99 and name C    )   ( resid  100 and name N    ) 
+        (resid  100 and name CA   )   ( resid  100 and name C    )  1 -107.75   34.65 2
+assign ( resid  100 and name N    )   ( resid  100 and name CA   ) 
+        (resid  100 and name C    )   ( resid  101 and name N    )  1  120.45   27.65 2
+assign ( resid  100 and name C    )   ( resid  101 and name N    ) 
+        (resid  101 and name CA   )   ( resid  101 and name C    )  1  -97.80   56.50 2
+assign ( resid  101 and name N    )   ( resid  101 and name CA   ) 
+        (resid  101 and name C    )   ( resid  102 and name N    )  1  137.70   63.50 2
+assign ( resid  101 and name C    )   ( resid  102 and name N    ) 
+        (resid  102 and name CA   )   ( resid  102 and name C    )  1  -90.40   70.00 2
+assign ( resid  102 and name N    )   ( resid  102 and name CA   ) 
+        (resid  102 and name C    )   ( resid  103 and name N    )  1  139.50   28.10 2
+assign ( resid  102 and name C    )   ( resid  103 and name N    ) 
+        (resid  103 and name CA   )   ( resid  103 and name C    )  1  -93.80   46.50 2
+assign ( resid  103 and name N    )   ( resid  103 and name CA   ) 
+        (resid  103 and name C    )   ( resid  104 and name N    )  1  136.40   28.80 2
+assign ( resid  103 and name C    )   ( resid  104 and name N    ) 
+        (resid  104 and name CA   )   ( resid  104 and name C    )  1 -106.30   51.20 2
+assign ( resid  104 and name N    )   ( resid  104 and name CA   ) 
+        (resid  104 and name C    )   ( resid  105 and name N    )  1  129.70   24.20 2
+assign ( resid  104 and name C    )   ( resid  105 and name N    ) 
+        (resid  105 and name CA   )   ( resid  105 and name C    )  1 -118.85   33.45 2
+assign ( resid  105 and name N    )   ( resid  105 and name CA   ) 
+        (resid  105 and name C    )   ( resid  106 and name N    )  1  125.50   53.60 2
+assign ( resid  106 and name N    )   ( resid  106 and name CA   ) 
+        (resid  106 and name C    )   ( resid  107 and name N    )  1  141.30   20.00 2
+assign ( resid  106 and name C    )   ( resid  107 and name N    ) 
+        (resid  107 and name CA   )   ( resid  107 and name C    )  1  -55.40   20.00 2
+assign ( resid  107 and name N    )   ( resid  107 and name CA   ) 
+        (resid  107 and name C    )   ( resid  108 and name N    )  1  -39.50   20.00 2
+assign ( resid  107 and name C    )   ( resid  108 and name N    ) 
+        (resid  108 and name CA   )   ( resid  108 and name C    )  1  -61.00   20.00 2
+assign ( resid  108 and name N    )   ( resid  108 and name CA   ) 
+        (resid  108 and name C    )   ( resid  109 and name N    )  1  -42.80   20.00 2
+assign ( resid  108 and name C    )   ( resid  109 and name N    ) 
+        (resid  109 and name CA   )   ( resid  109 and name C    )  1  -64.40   20.00 2
+assign ( resid  109 and name N    )   ( resid  109 and name CA   ) 
+        (resid  109 and name C    )   ( resid  110 and name N    )  1  -43.20   20.00 2
+assign ( resid  109 and name C    )   ( resid  110 and name N    ) 
+        (resid  110 and name CA   )   ( resid  110 and name C    )  1  -60.30   20.00 2
+assign ( resid  110 and name N    )   ( resid  110 and name CA   ) 
+        (resid  110 and name C    )   ( resid  111 and name N    )  1  -45.10   20.00 2
+assign ( resid  110 and name C    )   ( resid  111 and name N    ) 
+        (resid  111 and name CA   )   ( resid  111 and name C    )  1  -64.70   20.00 2
+assign ( resid  111 and name N    )   ( resid  111 and name CA   ) 
+        (resid  111 and name C    )   ( resid  112 and name N    )  1  -31.60   20.00 2
+assign ( resid  111 and name C    )   ( resid  112 and name N    ) 
+        (resid  112 and name CA   )   ( resid  112 and name C    )  1  -77.50   27.10 2
+assign ( resid  112 and name N    )   ( resid  112 and name CA   ) 
+        (resid  112 and name C    )   ( resid  113 and name N    )  1  -39.45   28.55 2
+assign ( resid  112 and name C    )   ( resid  113 and name N    ) 
+        (resid  113 and name CA   )   ( resid  113 and name C    )  1  -71.50   20.00 2
+assign ( resid  113 and name N    )   ( resid  113 and name CA   ) 
+        (resid  113 and name C    )   ( resid  114 and name N    )  1  -39.80   20.00 2
+assign ( resid  113 and name C    )   ( resid  114 and name N    ) 
+        (resid  114 and name CA   )   ( resid  114 and name C    )  1  -68.35   32.15 2
+assign ( resid  114 and name N    )   ( resid  114 and name CA   ) 
+        (resid  114 and name C    )   ( resid  115 and name N    )  1  -42.70   20.00 2
+assign ( resid  115 and name N    )   ( resid  115 and name CA   ) 
+        (resid  115 and name C    )   ( resid  116 and name N    )  1  -33.40   26.30 2
+assign ( resid  115 and name C    )   ( resid  116 and name N    ) 
+        (resid  116 and name CA   )   ( resid  116 and name C    )  1  -67.50   20.00 2
+assign ( resid  116 and name N    )   ( resid  116 and name CA   ) 
+        (resid  116 and name C    )   ( resid  117 and name N    )  1  -36.40   20.00 2
+assign ( resid  116 and name C    )   ( resid  117 and name N    ) 
+        (resid  117 and name CA   )   ( resid  117 and name C    )  1  -64.60   20.00 2
+assign ( resid  117 and name N    )   ( resid  117 and name CA   ) 
+        (resid  117 and name C    )   ( resid  118 and name N    )  1  -49.80   20.00 2
+assign ( resid  117 and name C    )   ( resid  118 and name N    ) 
+        (resid  118 and name CA   )   ( resid  118 and name C    )  1  -61.10   20.00 2
+assign ( resid  118 and name N    )   ( resid  118 and name CA   ) 
+        (resid  118 and name C    )   ( resid  119 and name N    )  1  -39.40   20.00 2
+assign ( resid  118 and name C    )   ( resid  119 and name N    ) 
+        (resid  119 and name CA   )   ( resid  119 and name C    )  1  -72.00   20.00 2
+assign ( resid  119 and name N    )   ( resid  119 and name CA   ) 
+        (resid  119 and name C    )   ( resid  120 and name N    )  1  -21.50   26.30 2
+assign ( resid  120 and name C    )   ( resid  121 and name N    ) 
+        (resid  121 and name CA   )   ( resid  121 and name C    )  1  -82.50   20.00 2
+assign ( resid  121 and name N    )   ( resid  121 and name CA   ) 
+        (resid  121 and name C    )   ( resid  122 and name N    )  1  139.70   46.70 2
+assign ( resid  121 and name C    )   ( resid  122 and name N    ) 
+        (resid  122 and name CA   )   ( resid  122 and name C    )  1  -84.50   55.00 2
+assign ( resid  122 and name N    )   ( resid  122 and name CA   ) 
+        (resid  122 and name C    )   ( resid  123 and name N    )  1  145.40   24.20 2
+assign ( resid  123 and name N    )   ( resid  123 and name CA   ) 
+        (resid  123 and name C    )   ( resid  124 and name N    )  1  133.90   20.00 2
+assign ( resid  123 and name C    )   ( resid  124 and name N    ) 
+        (resid  124 and name CA   )   ( resid  124 and name C    )  1   92.95   27.45 2
+assign ( resid  124 and name N    )   ( resid  124 and name CA   ) 
+        (resid  124 and name C    )   ( resid  125 and name N    )  1  -11.85   23.25 2
+assign ( resid  124 and name C    )   ( resid  125 and name N    ) 
+        (resid  125 and name CA   )   ( resid  125 and name C    )  1  -94.95   66.25 2
+assign ( resid  125 and name N    )   ( resid  125 and name CA   ) 
+        (resid  125 and name C    )   ( resid  126 and name N    )  1  153.30   20.00 2
+assign ( resid  125 and name C    )   ( resid  126 and name N    ) 
+        (resid  126 and name CA   )   ( resid  126 and name C    )  1 -130.80   20.00 2
+assign ( resid  126 and name N    )   ( resid  126 and name CA   ) 
+        (resid  126 and name C    )   ( resid  127 and name N    )  1  152.50   20.10 2
+assign ( resid  126 and name C    )   ( resid  127 and name N    ) 
+        (resid  127 and name CA   )   ( resid  127 and name C    )  1 -127.30   20.00 2
+assign ( resid  127 and name N    )   ( resid  127 and name CA   ) 
+        (resid  127 and name C    )   ( resid  128 and name N    )  1  133.80   20.00 2
+assign ( resid  127 and name C    )   ( resid  128 and name N    ) 
+        (resid  128 and name CA   )   ( resid  128 and name C    )  1 -130.50   23.10 2
+assign ( resid  128 and name N    )   ( resid  128 and name CA   ) 
+        (resid  128 and name C    )   ( resid  129 and name N    )  1  129.80   20.00 2
+assign ( resid  128 and name C    )   ( resid  129 and name N    ) 
+        (resid  129 and name CA   )   ( resid  129 and name C    )  1 -113.65   38.95 2
+assign ( resid  129 and name N    )   ( resid  129 and name CA   ) 
+        (resid  129 and name C    )   ( resid  130 and name N    )  1  137.95   22.75 2
+assign ( resid  129 and name C    )   ( resid  130 and name N    ) 
+        (resid  130 and name CA   )   ( resid  130 and name C    )  1 -120.90   20.30 2
+assign ( resid  130 and name N    )   ( resid  130 and name CA   ) 
+        (resid  130 and name C    )   ( resid  131 and name N    )  1  126.20   21.70 2
+assign ( resid  130 and name C    )   ( resid  131 and name N    ) 
+        (resid  131 and name CA   )   ( resid  131 and name C    )  1 -141.60   70.00 2
+assign ( resid  131 and name N    )   ( resid  131 and name CA   ) 
+        (resid  131 and name C    )   ( resid  132 and name N    )  1  159.00   66.60 2
+assign ( resid  131 and name C    )   ( resid  132 and name N    ) 
+        (resid  132 and name CA   )   ( resid  132 and name C    )  1  -94.85   46.75 2
+assign ( resid  132 and name N    )   ( resid  132 and name CA   ) 
+        (resid  132 and name C    )   ( resid  133 and name N    )  1  132.30   32.00 2
+assign ( resid  132 and name C    )   ( resid  133 and name N    ) 
+        (resid  133 and name CA   )   ( resid  133 and name C    )  1  -99.85   62.75 2
+assign ( resid  133 and name N    )   ( resid  133 and name CA   ) 
+        (resid  133 and name C    )   ( resid  134 and name N    )  1  148.35   36.15 2
+assign ( resid  134 and name C    )   ( resid  135 and name N    ) 
+        (resid  135 and name CA   )   ( resid  135 and name C    )  1  -63.70   20.00 2
+assign ( resid  135 and name N    )   ( resid  135 and name CA   ) 
+        (resid  135 and name C    )   ( resid  136 and name N    )  1  -35.10   27.00 2
+assign ( resid  135 and name C    )   ( resid  136 and name N    ) 
+        (resid  136 and name CA   )   ( resid  136 and name C    )  1  -61.40   20.00 2
+assign ( resid  136 and name N    )   ( resid  136 and name CA   ) 
+        (resid  136 and name C    )   ( resid  137 and name N    )  1  -41.70   20.00 2
+assign ( resid  136 and name C    )   ( resid  137 and name N    ) 
+        (resid  137 and name CA   )   ( resid  137 and name C    )  1  -67.70   20.00 2
+assign ( resid  137 and name N    )   ( resid  137 and name CA   ) 
+        (resid  137 and name C    )   ( resid  138 and name N    )  1  -32.10   20.00 2
+assign ( resid  137 and name C    )   ( resid  138 and name N    ) 
+        (resid  138 and name CA   )   ( resid  138 and name C    )  1  -80.00   32.30 2
+assign ( resid  138 and name N    )   ( resid  138 and name CA   ) 
+        (resid  138 and name C    )   ( resid  139 and name N    )  1  -18.25   46.15 2
+assign ( resid  138 and name C    )   ( resid  139 and name N    ) 
+        (resid  139 and name CA   )   ( resid  139 and name C    )  1  -88.70   38.30 2
+assign ( resid  139 and name N    )   ( resid  139 and name CA   ) 
+        (resid  139 and name C    )   ( resid  140 and name N    )  1   -1.55   59.85 2
+assign ( resid  140 and name C    )   ( resid  141 and name N    ) 
+        (resid  141 and name CA   )   ( resid  141 and name C    )  1 -106.90   25.40 2
+assign ( resid  141 and name N    )   ( resid  141 and name CA   ) 
+        (resid  141 and name C    )   ( resid  142 and name N    )  1    4.10   31.50 2
+assign ( resid  142 and name C    )   ( resid  143 and name N    ) 
+        (resid  143 and name CA   )   ( resid  143 and name C    )  1 -120.90   70.00 2
+assign ( resid  143 and name N    )   ( resid  143 and name CA   ) 
+        (resid  143 and name C    )   ( resid  144 and name N    )  1  131.40   70.00 2
+assign ( resid  147 and name C    )   ( resid  148 and name N    ) 
+        (resid  148 and name CA   )   ( resid  148 and name C    )  1  -71.50   20.00 2
+assign ( resid  148 and name N    )   ( resid  148 and name CA   ) 
+        (resid  148 and name C    )   ( resid  149 and name N    )  1  -39.90   20.00 2
+assign ( resid  148 and name C    )   ( resid  149 and name N    ) 
+        (resid  149 and name CA   )   ( resid  149 and name C    )  1  -84.40   20.00 2
+assign ( resid  149 and name N    )   ( resid  149 and name CA   ) 
+        (resid  149 and name C    )   ( resid  150 and name N    )  1  -14.95   33.55 2
+assign ( resid  149 and name C    )   ( resid  150 and name N    ) 
+        (resid  150 and name CA   )   ( resid  150 and name C    )  1 -125.35   56.55 2
+assign ( resid  150 and name N    )   ( resid  150 and name CA   ) 
+        (resid  150 and name C    )   ( resid  151 and name N    )  1  100.95   69.05 2
+assign ( resid  152 and name C    )   ( resid  153 and name N    ) 
+        (resid  153 and name CA   )   ( resid  153 and name C    )  1  -55.40   20.00 2
+assign ( resid  153 and name N    )   ( resid  153 and name CA   ) 
+        (resid  153 and name C    )   ( resid  154 and name N    )  1  -47.20   20.00 2
+assign ( resid  153 and name C    )   ( resid  154 and name N    ) 
+        (resid  154 and name CA   )   ( resid  154 and name C    )  1  -61.20   20.00 2
+assign ( resid  154 and name N    )   ( resid  154 and name CA   ) 
+        (resid  154 and name C    )   ( resid  155 and name N    )  1  -38.50   20.00 2
+assign ( resid  154 and name C    )   ( resid  155 and name N    ) 
+        (resid  155 and name CA   )   ( resid  155 and name C    )  1  -66.40   20.00 2
+assign ( resid  155 and name N    )   ( resid  155 and name CA   ) 
+        (resid  155 and name C    )   ( resid  156 and name N    )  1  -41.50   20.00 2
+assign ( resid  155 and name C    )   ( resid  156 and name N    ) 
+        (resid  156 and name CA   )   ( resid  156 and name C    )  1  -62.20   20.00 2
+assign ( resid  156 and name N    )   ( resid  156 and name CA   ) 
+        (resid  156 and name C    )   ( resid  157 and name N    )  1  -45.80   20.00 2
+assign ( resid  156 and name C    )   ( resid  157 and name N    ) 
+        (resid  157 and name CA   )   ( resid  157 and name C    )  1  -58.70   20.00 2
+assign ( resid  157 and name N    )   ( resid  157 and name CA   ) 
+        (resid  157 and name C    )   ( resid  158 and name N    )  1  -37.40   20.00 2
+assign ( resid  157 and name C    )   ( resid  158 and name N    ) 
+        (resid  158 and name CA   )   ( resid  158 and name C    )  1  -64.80   20.00 2
+assign ( resid  158 and name N    )   ( resid  158 and name CA   ) 
+        (resid  158 and name C    )   ( resid  159 and name N    )  1  -33.10   29.80 2
+assign ( resid  158 and name C    )   ( resid  159 and name N    ) 
+        (resid  159 and name CA   )   ( resid  159 and name C    )  1  -87.40   27.40 2
+assign ( resid  159 and name N    )   ( resid  159 and name CA   ) 
+        (resid  159 and name C    )   ( resid  160 and name N    )  1   -9.90   32.70 2
+assign ( resid  159 and name C    )   ( resid  160 and name N    ) 
+        (resid  160 and name CA   )   ( resid  160 and name C    )  1 -106.35   60.25 2
+assign ( resid  160 and name N    )   ( resid  160 and name CA   ) 
+        (resid  160 and name C    )   ( resid  161 and name N    )  1   95.75   58.75 2
+assign ( resid  161 and name C    )   ( resid  162 and name N    ) 
+        (resid  162 and name CA   )   ( resid  162 and name C    )  1  -69.20   20.00 2
+assign ( resid  162 and name N    )   ( resid  162 and name CA   ) 
+        (resid  162 and name C    )   ( resid  163 and name N    )  1  -20.10   21.50 2
+assign ( resid  162 and name C    )   ( resid  163 and name N    ) 
+        (resid  163 and name CA   )   ( resid  163 and name C    )  1  -98.90   27.40 2
+assign ( resid  163 and name N    )   ( resid  163 and name CA   ) 
+        (resid  163 and name C    )   ( resid  164 and name N    )  1   -1.85   55.65 2
+assign ( resid  163 and name C    )   ( resid  164 and name N    ) 
+        (resid  164 and name CA   )   ( resid  164 and name C    )  1  -98.40   58.50 2
+assign ( resid  164 and name N    )   ( resid  164 and name CA   ) 
+        (resid  164 and name C    )   ( resid  165 and name N    )  1  138.10   34.60 2
+assign ( resid  164 and name C    )   ( resid  165 and name N    ) 
+        (resid  165 and name CA   )   ( resid  165 and name C    )  1  -83.20   25.20 2
+assign ( resid  165 and name N    )   ( resid  165 and name CA   ) 
+        (resid  165 and name C    )   ( resid  166 and name N    )  1  123.90   51.20 2
+assign ( resid  165 and name C    )   ( resid  166 and name N    ) 
+        (resid  166 and name CA   )   ( resid  166 and name C    )  1  -88.05   22.65 2
+assign ( resid  166 and name N    )   ( resid  166 and name CA   ) 
+        (resid  166 and name C    )   ( resid  167 and name N    )  1  -37.00   22.80 2
+assign ( resid  166 and name C    )   ( resid  167 and name N    ) 
+        (resid  167 and name CA   )   ( resid  167 and name C    )  1 -151.35   23.65 2
+assign ( resid  167 and name N    )   ( resid  167 and name CA   ) 
+        (resid  167 and name C    )   ( resid  168 and name N    )  1  138.70   26.30 2
+assign ( resid  167 and name C    )   ( resid  168 and name N    ) 
+        (resid  168 and name CA   )   ( resid  168 and name C    )  1 -111.70   42.20 2
+assign ( resid  168 and name N    )   ( resid  168 and name CA   ) 
+        (resid  168 and name C    )   ( resid  169 and name N    )  1  114.85   54.55 2
+assign ( resid  168 and name C    )   ( resid  169 and name N    ) 
+        (resid  169 and name CA   )   ( resid  169 and name C    )  1 -111.65   54.35 2
+assign ( resid  169 and name N    )   ( resid  169 and name CA   ) 
+        (resid  169 and name C    )   ( resid  170 and name N    )  1  138.60   20.00 2
+assign ( resid  169 and name C    )   ( resid  170 and name N    ) 
+        (resid  170 and name CA   )   ( resid  170 and name C    )  1 -112.05   53.35 2
+assign ( resid  170 and name N    )   ( resid  170 and name CA   ) 
+        (resid  170 and name C    )   ( resid  171 and name N    )  1  138.15   38.75 2
+assign ( resid  170 and name C    )   ( resid  171 and name N    ) 
+        (resid  171 and name CA   )   ( resid  171 and name C    )  1 -109.60   61.10 2
+assign ( resid  171 and name N    )   ( resid  171 and name CA   ) 
+        (resid  171 and name C    )   ( resid  172 and name N    )  1  141.20   70.00 2
+assign ( resid  171 and name C    )   ( resid  172 and name N    ) 
+        (resid  172 and name CA   )   ( resid  172 and name C    )  1 -113.45   52.85 2
+assign ( resid  172 and name N    )   ( resid  172 and name CA   ) 
+        (resid  172 and name C    )   ( resid  173 and name N    )  1  148.60   24.60 2
+assign ( resid  172 and name C    )   ( resid  173 and name N    ) 
+        (resid  173 and name CA   )   ( resid  173 and name C    )  1 -131.55   39.25 2
+assign ( resid  173 and name N    )   ( resid  173 and name CA   ) 
+        (resid  173 and name C    )   ( resid  174 and name N    )  1  149.75   23.35 2
+assign ( resid  173 and name C    )   ( resid  174 and name N    ) 
+        (resid  174 and name CA   )   ( resid  174 and name C    )  1  -87.25   24.85 2
+assign ( resid  174 and name N    )   ( resid  174 and name CA   ) 
+        (resid  174 and name C    )   ( resid  175 and name N    )  1  128.10   27.90 2
+assign ( resid  174 and name C    )   ( resid  175 and name N    ) 
+        (resid  175 and name CA   )   ( resid  175 and name C    )  1  -79.40   29.10 2
+assign ( resid  175 and name N    )   ( resid  175 and name CA   ) 
+        (resid  175 and name C    )   ( resid  176 and name N    )  1  136.05   30.45 2
+assign ( resid  183 and name C    )   ( resid  184 and name N    ) 
+        (resid  184 and name CA   )   ( resid  184 and name C    )  1  -93.90   70.00 2
+assign ( resid  184 and name N    )   ( resid  184 and name CA   ) 
+        (resid  184 and name C    )   ( resid  185 and name N    )  1  132.65   50.75 2
+assign ( resid  184 and name C    )   ( resid  185 and name N    ) 
+        (resid  185 and name CA   )   ( resid  185 and name C    )  1 -135.85   28.95 2
+assign ( resid  185 and name N    )   ( resid  185 and name CA   ) 
+        (resid  185 and name C    )   ( resid  186 and name N    )  1  155.10   20.00 2
+assign ( resid  185 and name C    )   ( resid  186 and name N    ) 
+        (resid  186 and name CA   )   ( resid  186 and name C    )  1 -105.95   30.65 2
+assign ( resid  186 and name N    )   ( resid  186 and name CA   ) 
+        (resid  186 and name C    )   ( resid  187 and name N    )  1  128.85   24.35 2
+assign ( resid  186 and name C    )   ( resid  187 and name N    ) 
+        (resid  187 and name CA   )   ( resid  187 and name C    )  1 -127.15   38.65 2
+assign ( resid  187 and name N    )   ( resid  187 and name CA   ) 
+        (resid  187 and name C    )   ( resid  188 and name N    )  1  154.80   20.00 2
+assign ( resid  187 and name C    )   ( resid  188 and name N    ) 
+        (resid  188 and name CA   )   ( resid  188 and name C    )  1 -132.50   35.90 2
+assign ( resid  188 and name N    )   ( resid  188 and name CA   ) 
+        (resid  188 and name C    )   ( resid  189 and name N    )  1  146.90   26.80 2
+assign ( resid  188 and name C    )   ( resid  189 and name N    ) 
+        (resid  189 and name CA   )   ( resid  189 and name C    )  1 -118.40   32.80 2
+assign ( resid  189 and name N    )   ( resid  189 and name CA   ) 
+        (resid  189 and name C    )   ( resid  190 and name N    )  1  145.10   20.90 2
+assign ( resid  189 and name C    )   ( resid  190 and name N    ) 
+        (resid  190 and name CA   )   ( resid  190 and name C    )  1 -141.85   30.45 2
+assign ( resid  190 and name N    )   ( resid  190 and name CA   ) 
+        (resid  190 and name C    )   ( resid  191 and name N    )  1  155.05   25.95 2
+assign ( resid  190 and name C    )   ( resid  191 and name N    ) 
+        (resid  191 and name CA   )   ( resid  191 and name C    )  1 -133.05   30.05 2
+assign ( resid  191 and name N    )   ( resid  191 and name CA   ) 
+        (resid  191 and name C    )   ( resid  192 and name N    )  1  126.60   20.00 2
+assign ( resid  191 and name C    )   ( resid  192 and name N    ) 
+        (resid  192 and name CA   )   ( resid  192 and name C    )  1 -124.40   37.40 2
+assign ( resid  192 and name N    )   ( resid  192 and name CA   ) 
+        (resid  192 and name C    )   ( resid  193 and name N    )  1  129.00   22.80 2
+assign ( resid  192 and name C    )   ( resid  193 and name N    ) 
+        (resid  193 and name CA   )   ( resid  193 and name C    )  1 -119.30   21.40 2
+assign ( resid  193 and name N    )   ( resid  193 and name CA   ) 
+        (resid  193 and name C    )   ( resid  194 and name N    )  1  129.60   20.00 2
+assign ( resid  193 and name C    )   ( resid  194 and name N    ) 
+        (resid  194 and name CA   )   ( resid  194 and name C    )  1  -94.30   34.30 2
+assign ( resid  194 and name N    )   ( resid  194 and name CA   ) 
+        (resid  194 and name C    )   ( resid  195 and name N    )  1  125.20   34.40 2
+assign ( resid  194 and name C    )   ( resid  195 and name N    ) 
+        (resid  195 and name CA   )   ( resid  195 and name C    )  1  -83.00   33.80 2
+assign ( resid  195 and name N    )   ( resid  195 and name CA   ) 
+        (resid  195 and name C    )   ( resid  196 and name N    )  1  141.50   36.80 2
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  22  and name N   )
+       ( resid  22  and name HN  )  0.5880  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  25  and name N   )
+       ( resid  25  and name HN  )  7.1480  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  26  and name N   )
+       ( resid  26  and name HN  )  4.3460  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  27  and name N   )
+       ( resid  27  and name HN  )  1.2760  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  28  and name N   )
+       ( resid  28  and name HN  )  6.9040  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  30  and name N   )
+       ( resid  30  and name HN  ) -9.4550  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  32  and name N   )
+       ( resid  32  and name HN  )  6.2740  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  33  and name N   )
+       ( resid  33  and name HN  )  3.8760  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  34  and name N   )
+       ( resid  34  and name HN  )  0.4800  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  35  and name N   )
+       ( resid  35  and name HN  ) -0.1170  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  45  and name N   )
+       ( resid  45  and name HN  ) -2.4570  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  47  and name N   )
+       ( resid  47  and name HN  ) -6.6830  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  48  and name N   )
+       ( resid  48  and name HN  ) -5.2160  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  49  and name N   )
+       ( resid  49  and name HN  ) -0.3150  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  50  and name N   )
+       ( resid  50  and name HN  ) -5.7550  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  51  and name N   )
+       ( resid  51  and name HN  ) -2.1090  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  54  and name N   )
+       ( resid  54  and name HN  )  4.2340  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  55  and name N   )
+       ( resid  55  and name HN  ) -0.3480  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  56  and name N   )
+       ( resid  56  and name HN  )  1.5530  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  57  and name N   )
+       ( resid  57  and name HN  ) -3.4740  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  60  and name N   )
+       ( resid  60  and name HN  ) -8.5850  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  61  and name N   )
+       ( resid  61  and name HN  ) -8.1710  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  62  and name N   )
+       ( resid  62  and name HN  ) -2.9020  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  65  and name N   )
+       ( resid  65  and name HN  ) -6.7810  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  66  and name N   )
+       ( resid  66  and name HN  ) -0.2950  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  67  and name N   )
+       ( resid  67  and name HN  ) -4.6780  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  68  and name N   )
+       ( resid  68  and name HN  ) -8.5870  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  69  and name N   )
+       ( resid  69  and name HN  ) -3.4250  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  70  and name N   )
+       ( resid  70  and name HN  ) -2.1740  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  71  and name N   )
+       ( resid  71  and name HN  ) -4.1230  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  72  and name N   )
+       ( resid  72  and name HN  ) -8.2490  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  75  and name N   )
+       ( resid  75  and name HN  ) -9.8150  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  76  and name N   )
+       ( resid  76  and name HN  ) -3.0740  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  77  and name N   )
+       ( resid  77  and name HN  ) -7.0720  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  78  and name N   )
+       ( resid  78  and name HN  ) -2.7610  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  80  and name N   )
+       ( resid  80  and name HN  )  1.9940  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  81  and name N   )
+       ( resid  81  and name HN  ) -1.0830  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  82  and name N   )
+       ( resid  82  and name HN  )  2.0190  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  83  and name N   )
+       ( resid  83  and name HN  )  0.8810  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  86  and name N   )
+       ( resid  86  and name HN  )  1.4630  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  88  and name N   )
+       ( resid  88  and name HN  )  5.1650  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  89  and name N   )
+       ( resid  89  and name HN  )  1.0740  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  90  and name N   )
+       ( resid  90  and name HN  )  2.2750  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  91  and name N   )
+       ( resid  91  and name HN  )  5.7730  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  94  and name N   )
+       ( resid  94  and name HN  ) -2.1610  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  95  and name N   )
+       ( resid  95  and name HN  )  2.7200  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid  99  and name N   )
+       ( resid  99  and name HN  ) -2.4830  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 100  and name N   )
+       ( resid 100  and name HN  ) -5.7000  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 102  and name N   )
+       ( resid 102  and name HN  ) -8.1480  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 103  and name N   )
+       ( resid 103  and name HN  ) -6.7600  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 105  and name N   )
+       ( resid 105  and name HN  ) -5.9490  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 107  and name N   )
+       ( resid 107  and name HN  )  3.0380  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 108  and name N   )
+       ( resid 108  and name HN  )  1.6860  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 109  and name N   )
+       ( resid 109  and name HN  )  6.1460  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 112  and name N   )
+       ( resid 112  and name HN  )  6.0170  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 114  and name N   )
+       ( resid 114  and name HN  ) -0.9980  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 116  and name N   )
+       ( resid 116  and name HN  )  0.7030  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 119  and name N   )
+       ( resid 119  and name HN  ) -5.3780  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 120  and name N   )
+       ( resid 120  and name HN  )  1.7520  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 121  and name N   )
+       ( resid 121  and name HN  )  1.6600  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 124  and name N   )
+       ( resid 124  and name HN  )  1.7420  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 125  and name N   )
+       ( resid 125  and name HN  )  3.4540  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 127  and name N   )
+       ( resid 127  and name HN  ) -2.2940  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 128  and name N   )
+       ( resid 128  and name HN  ) -3.7340  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 129  and name N   )
+       ( resid 129  and name HN  ) -6.7800  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 130  and name N   )
+       ( resid 130  and name HN  ) -5.5260  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 131  and name N   )
+       ( resid 131  and name HN  ) -4.0180  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 133  and name N   )
+       ( resid 133  and name HN  )  4.9510  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 135  and name N   )
+       ( resid 135  and name HN  ) -2.6410  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 137  and name N   )
+       ( resid 137  and name HN  )  6.2310  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 143  and name N   )
+       ( resid 143  and name HN  )  1.8160  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 145  and name N   )
+       ( resid 145  and name HN  ) -4.9120  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 146  and name N   )
+       ( resid 146  and name HN  )  0.4430  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 148  and name N   )
+       ( resid 148  and name HN  ) -6.9460  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 149  and name N   )
+       ( resid 149  and name HN  )  0.2350  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 150  and name N   )
+       ( resid 150  and name HN  ) -3.0480  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 152  and name N   )
+       ( resid 152  and name HN  ) -0.6160  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 153  and name N   )
+       ( resid 153  and name HN  )  5.3560  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 154  and name N   )
+       ( resid 154  and name HN  )  4.9680  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 156  and name N   )
+       ( resid 156  and name HN  )  5.2730  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 159  and name N   )
+       ( resid 159  and name HN  )  6.6340  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 160  and name N   )
+       ( resid 160  and name HN  )  0.8150  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 162  and name N   )
+       ( resid 162  and name HN  ) -4.8140  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 163  and name N   )
+       ( resid 163  and name HN  ) -2.5940  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 164  and name N   )
+       ( resid 164  and name HN  )  3.1230  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 165  and name N   )
+       ( resid 165  and name HN  )  3.7630  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 166  and name N   )
+       ( resid 166  and name HN  ) -2.7220  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 167  and name N   )
+       ( resid 167  and name HN  ) -4.9000  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 168  and name N   )
+       ( resid 168  and name HN  ) -7.5770  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 169  and name N   )
+       ( resid 169  and name HN  ) -1.5550  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 171  and name N   )
+       ( resid 171  and name HN  ) -4.2630  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 172  and name N   )
+       ( resid 172  and name HN  ) -9.5740  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 184  and name N   )
+       ( resid 184  and name HN  )  0.9940  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 185  and name N   )
+       ( resid 185  and name HN  ) -8.3680  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 187  and name N   )
+       ( resid 187  and name HN  ) -8.6740  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 188  and name N   )
+       ( resid 188  and name HN  ) -6.1690  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 190  and name N   )
+       ( resid 190  and name HN  ) -1.5810  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 193  and name N   )
+       ( resid 193  and name HN  )  0.4740  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 194  and name N   )
+       ( resid 194  and name HN  )  4.1560  1.5000
+assign ( resid 600  and name OO  )
+       ( resid 600  and name Z   )
+       ( resid 600  and name X   )
+       ( resid 600  and name Y   )
+       ( resid 195  and name N   )
+       ( resid 195  and name HN  ) -1.3600  1.5000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  22  and name N   )
+       ( resid  22  and name HN  ) -5.5700  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  25  and name N   )
+       ( resid  25  and name HN  ) -2.1270  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  26  and name N   )
+       ( resid  26  and name HN  )  4.2110  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  27  and name N   )
+       ( resid  27  and name HN  ) -4.7140  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  28  and name N   )
+       ( resid  28  and name HN  )  6.2780  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  30  and name N   )
+       ( resid  30  and name HN  )-11.9730  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  31  and name N   )
+       ( resid  31  and name HN  )  3.0420  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  32  and name N   )
+       ( resid  32  and name HN  ) -4.3240  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  33  and name N   )
+       ( resid  33  and name HN  ) -4.1980  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  34  and name N   )
+       ( resid  34  and name HN  )-15.0720  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  35  and name N   )
+       ( resid  35  and name HN  ) -8.5090  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  45  and name N   )
+       ( resid  45  and name HN  ) -2.2280  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  47  and name N   )
+       ( resid  47  and name HN  )  4.2090  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  48  and name N   )
+       ( resid  48  and name HN  ) -5.0690  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  49  and name N   )
+       ( resid  49  and name HN  )  4.3490  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  50  and name N   )
+       ( resid  50  and name HN  ) 12.6090  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  51  and name N   )
+       ( resid  51  and name HN  )-17.2520  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  54  and name N   )
+       ( resid  54  and name HN  )  7.2960  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  55  and name N   )
+       ( resid  55  and name HN  )-14.7840  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  56  and name N   )
+       ( resid  56  and name HN  ) -7.0820  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  57  and name N   )
+       ( resid  57  and name HN  )-14.0370  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  60  and name N   )
+       ( resid  60  and name HN  )-11.7540  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  62  and name N   )
+       ( resid  62  and name HN  ) 13.8230  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  65  and name N   )
+       ( resid  65  and name HN  )  8.6250  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  67  and name N   )
+       ( resid  67  and name HN  ) 16.1700  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  68  and name N   )
+       ( resid  68  and name HN  )  7.0330  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  70  and name N   )
+       ( resid  70  and name HN  ) 15.7390  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  71  and name N   )
+       ( resid  71  and name HN  )  3.9350  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  72  and name N   )
+       ( resid  72  and name HN  )  5.4330  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  75  and name N   )
+       ( resid  75  and name HN  )-11.4380  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  76  and name N   )
+       ( resid  76  and name HN  ) -6.7770  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  77  and name N   )
+       ( resid  77  and name HN  )-17.1820  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  78  and name N   )
+       ( resid  78  and name HN  )-19.5950  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  79  and name N   )
+       ( resid  79  and name HN  ) -5.9420  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  80  and name N   )
+       ( resid  80  and name HN  ) -5.2420  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  81  and name N   )
+       ( resid  81  and name HN  ) -5.6800  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  82  and name N   )
+       ( resid  82  and name HN  ) -1.6390  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  83  and name N   )
+       ( resid  83  and name HN  )  3.6330  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  84  and name N   )
+       ( resid  84  and name HN  ) -9.2030  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  86  and name N   )
+       ( resid  86  and name HN  )-11.3450  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  88  and name N   )
+       ( resid  88  and name HN  )  2.6930  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  89  and name N   )
+       ( resid  89  and name HN  ) -7.9190  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  90  and name N   )
+       ( resid  90  and name HN  ) 14.1590  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  91  and name N   )
+       ( resid  91  and name HN  )  8.1380  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  92  and name N   )
+       ( resid  92  and name HN  )  5.3260  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  93  and name N   )
+       ( resid  93  and name HN  )  5.7920  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  94  and name N   )
+       ( resid  94  and name HN  )  8.2080  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  95  and name N   )
+       ( resid  95  and name HN  )  8.1630  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid  99  and name N   )
+       ( resid  99  and name HN  )-11.8800  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 103  and name N   )
+       ( resid 103  and name HN  )-21.7620  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 107  and name N   )
+       ( resid 107  and name HN  )  3.1010  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 108  and name N   )
+       ( resid 108  and name HN  ) -4.0440  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 109  and name N   )
+       ( resid 109  and name HN  )  2.0030  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 111  and name N   )
+       ( resid 111  and name HN  ) -0.0830  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 112  and name N   )
+       ( resid 112  and name HN  ) -5.4740  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 114  and name N   )
+       ( resid 114  and name HN  )  7.4810  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 116  and name N   )
+       ( resid 116  and name HN  ) -3.4640  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 119  and name N   )
+       ( resid 119  and name HN  )  5.2370  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 120  and name N   )
+       ( resid 120  and name HN  )  4.4140  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 121  and name N   )
+       ( resid 121  and name HN  ) 11.1550  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 124  and name N   )
+       ( resid 124  and name HN  ) 12.0620  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 125  and name N   )
+       ( resid 125  and name HN  )  8.7750  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 128  and name N   )
+       ( resid 128  and name HN  )-13.0460  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 129  and name N   )
+       ( resid 129  and name HN  )-19.3470  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 130  and name N   )
+       ( resid 130  and name HN  )-15.0840  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 131  and name N   )
+       ( resid 131  and name HN  )-14.3200  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 133  and name N   )
+       ( resid 133  and name HN  ) 10.1810  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 135  and name N   )
+       ( resid 135  and name HN  )-11.3090  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 137  and name N   )
+       ( resid 137  and name HN  ) -5.0730  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 141  and name N   )
+       ( resid 141  and name HN  )-12.2250  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 143  and name N   )
+       ( resid 143  and name HN  ) -9.5550  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 146  and name N   )
+       ( resid 146  and name HN  )  7.6220  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 147  and name N   )
+       ( resid 147  and name HN  )  2.4730  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 148  and name N   )
+       ( resid 148  and name HN  )-10.5200  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 149  and name N   )
+       ( resid 149  and name HN  ) -7.1550  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 150  and name N   )
+       ( resid 150  and name HN  ) 15.7560  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 152  and name N   )
+       ( resid 152  and name HN  ) 15.6890  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 153  and name N   )
+       ( resid 153  and name HN  )  3.5700  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 154  and name N   )
+       ( resid 154  and name HN  )  2.5890  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 155  and name N   )
+       ( resid 155  and name HN  )  2.3930  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 156  and name N   )
+       ( resid 156  and name HN  )  4.4770  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 159  and name N   )
+       ( resid 159  and name HN  )  7.7700  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 160  and name N   )
+       ( resid 160  and name HN  ) -2.5890  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 162  and name N   )
+       ( resid 162  and name HN  )-13.6110  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 163  and name N   )
+       ( resid 163  and name HN  )  1.2440  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 164  and name N   )
+       ( resid 164  and name HN  )  4.4410  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 165  and name N   )
+       ( resid 165  and name HN  )  2.0370  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 166  and name N   )
+       ( resid 166  and name HN  )-12.5680  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 167  and name N   )
+       ( resid 167  and name HN  ) -2.2380  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 168  and name N   )
+       ( resid 168  and name HN  ) -6.5370  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 169  and name N   )
+       ( resid 169  and name HN  )-11.6610  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 172  and name N   )
+       ( resid 172  and name HN  )-10.9700  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 184  and name N   )
+       ( resid 184  and name HN  )  6.5880  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 185  and name N   )
+       ( resid 185  and name HN  )  1.6110  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 187  and name N   )
+       ( resid 187  and name HN  ) -6.8810  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 188  and name N   )
+       ( resid 188  and name HN  )-17.9900  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 190  and name N   )
+       ( resid 190  and name HN  )-17.0030  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 192  and name N   )
+       ( resid 192  and name HN  )-18.5800  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 194  and name N   )
+       ( resid 194  and name HN  )  3.4060  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 195  and name N   )
+       ( resid 195  and name HN  ) 12.4920  3.7000
+assign ( resid 601  and name OO  )
+       ( resid 601  and name Z   )
+       ( resid 601  and name X   )
+       ( resid 601  and name Y   )
+       ( resid 196  and name N   )
+       ( resid 196  and name HN  ) -0.1220  3.7000
+
