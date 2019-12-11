@@ -1,0 +1,9 @@
+set xrange [1:158]
+set term png truecolor enhanced
+set out 'BeR31_2k2e.nef_ConsPerRes.png'
+set title 'Inter-residue distance constraints per residue'
+set ylabel '# Inter-residue distance constraints'
+set xlabel 'Residue Number' center
+set grid
+unset key
+plot 'BeR31_2k2e.nef_USEFUL_DATA' using 2:4 with impulses lc rgbcolor 'black' lw 6.0

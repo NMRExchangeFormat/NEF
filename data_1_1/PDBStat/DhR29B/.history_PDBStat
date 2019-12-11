@@ -1,0 +1,63 @@
+read coo pdb 2KPU.pdb 
+read rdc cya rdc1.cya 
+quit
+read coo pdb 2KPU.pdb 
+read rdc cya rdc1.cya 
+see rdc rem
+quit
+read coo pdb 2KPU.pdb 
+write seq kakaseq pir
+quit
+read coo pdb 2KPU.pdb 
+read rdc cya rdc1phage.cya 
+read rdc cya rdc2peg.cya 
+eval dar
+quit
+read coo pdb 2KPU.pdb 
+read shif 16570.bmrb 
+read cons cns 2KPU.mr 
+read rdc cya rdc1phage.cya 
+read rdc cya rdc2peg.cya 
+eval dar
+write nef kaka.nef
+quit
+read coo pdb 2KPU.pdb 
+read nef kaka.nef 
+noe summ
+quit
+read coo pdb 2KPU.pdb 
+read rdc cya rdc1phage.cya 
+read rdc cya rdc2peg.cya 
+noe summ
+quit
+read coo pdb 2KPU.pdb 
+read shift 16570.bmrb 
+read cons cns 2KPU.mr 
+read rdc cya rdc1phage.cya 
+read rdc cya rdc2peg.cya 
+noe summ
+write nef kaka.nef
+quit
+read coo pdb 2KPU.pdb 
+read nef kaka.nef 
+quit
+read coo pdb 2KPU.pdb 
+read rdc cya rdc.cya 
+eval dar
+write nef kakanef
+quit
+read coo pdb 2KPU.pdb 
+read shift 16570.bmrb 
+read cons cns 2KPU.mr 
+read rdc cya rdc.cya 
+write nef kaka.nef
+quit
+read coo pdb 2KPU.pdb 
+read nef kaka.nef 
+noe summ
+noe clean
+eval dar
+quit
+read cif 2KPU.cif 
+read cif 2KPU.mmcif 
+quit

@@ -1,0 +1,212 @@
+! created by  ASDP Version 2.2 Copyright(C) 2019
+
+! SER 2
+	assign (resid   1 and name C ) (resid   2 and name N ) (resid   2 and name CA )
+	       (resid   2 and name C ) (resid   3 and name N )	58.546	63.824
+! VAL 3
+	assign (resid   2 and name C ) (resid   3 and name N ) (resid   3 and name CA )
+	       (resid   3 and name C ) (resid   4 and name N )	64.761	31.87
+! VAL 4
+	assign (resid   3 and name C ) (resid   4 and name N ) (resid   4 and name CA )
+	       (resid   4 and name C ) (resid   5 and name N )	66.273	31.407
+! LYS 5
+	assign (resid   4 and name C ) (resid   5 and name N ) (resid   5 and name CA )
+	       (resid   5 and name C ) (resid   6 and name N )	60.305	32.927
+! GLU 6
+	assign (resid   5 and name C ) (resid   6 and name N ) (resid   6 and name CA )
+	       (resid   6 and name C ) (resid   7 and name N )	59.403	29.526
+! LYS 7
+	assign (resid   6 and name C ) (resid   7 and name N ) (resid   7 and name CA )
+	       (resid   7 and name C ) (resid   8 and name N )	59.335	32.772
+! LEU 8
+	assign (resid   7 and name C ) (resid   8 and name N ) (resid   8 and name CA )
+	       (resid   8 and name C ) (resid   9 and name N )	58.165	41.64
+! GLU 9
+	assign (resid   8 and name C ) (resid   9 and name N ) (resid   9 and name CA )
+	       (resid   9 and name C ) (resid  10 and name N )	60.227	29.003
+! LYS 10
+	assign (resid   9 and name C ) (resid  10 and name N ) (resid  10 and name CA )
+	       (resid  10 and name C ) (resid  11 and name N )	59.335	32.337
+! ALA 11
+	assign (resid  10 and name C ) (resid  11 and name N ) (resid  11 and name CA )
+	       (resid  11 and name C ) (resid  12 and name N )	54.893	19.327
+! LEU 12
+	assign (resid  11 and name C ) (resid  12 and name N ) (resid  12 and name CA )
+	       (resid  12 and name C ) (resid  13 and name N )	57.856	41.85
+! ILE 13
+	assign (resid  12 and name C ) (resid  13 and name N ) (resid  13 and name CA )
+	       (resid  13 and name C ) (resid  14 and name N )	64.575	37.977
+! GLU 14
+	assign (resid  13 and name C ) (resid  14 and name N ) (resid  14 and name CA )
+	       (resid  14 and name C ) (resid  15 and name N )	58.722	29.479
+! VAL 15
+	assign (resid  14 and name C ) (resid  15 and name N ) (resid  15 and name CA )
+	       (resid  15 and name C ) (resid  16 and name N )	61.267	31.687
+! ARG 16
+	assign (resid  15 and name C ) (resid  16 and name N ) (resid  16 and name CA )
+	       (resid  16 and name C ) (resid  17 and name N )	61.262	27.97
+! PRO 17
+	assign (resid  16 and name C ) (resid  17 and name N ) (resid  17 and name CA )
+	       (resid  17 and name C ) (resid  18 and name N )	64.899	30.677
+! TYR 18
+	assign (resid  17 and name C ) (resid  18 and name N ) (resid  18 and name CA )
+	       (resid  18 and name C ) (resid  19 and name N )	57.107	39.962
+! VAL 19
+	assign (resid  18 and name C ) (resid  19 and name N ) (resid  19 and name CA )
+	       (resid  19 and name C ) (resid  20 and name N )	60.021	33.877
+! GLU 20
+	assign (resid  19 and name C ) (resid  20 and name N ) (resid  20 and name CA )
+	       (resid  20 and name C ) (resid  21 and name N )	58.238	30.693
+! TYR 21
+	assign (resid  20 and name C ) (resid  21 and name N ) (resid  21 and name CA )
+	       (resid  21 and name C ) (resid  22 and name N )	55.414	35.634
+! TYR 22
+	assign (resid  21 and name C ) (resid  22 and name N ) (resid  22 and name CA )
+	       (resid  22 and name C ) (resid  23 and name N )	62.977	38.737
+! ASN 23
+	assign (resid  22 and name C ) (resid  23 and name N ) (resid  23 and name CA )
+	       (resid  23 and name C ) (resid  24 and name N )	56.781	37.179
+! GLU 24
+	assign (resid  23 and name C ) (resid  24 and name N ) (resid  24 and name CA )
+	       (resid  24 and name C ) (resid  25 and name N )	60.287	28.518
+! LEU 25
+	assign (resid  24 and name C ) (resid  25 and name N ) (resid  25 and name CA )
+	       (resid  25 and name C ) (resid  26 and name N )	57.973	42.493
+! LYS 26
+	assign (resid  25 and name C ) (resid  26 and name N ) (resid  26 and name CA )
+	       (resid  26 and name C ) (resid  27 and name N )	59.754	31.888
+! ALA 27
+	assign (resid  26 and name C ) (resid  27 and name N ) (resid  27 and name CA )
+	       (resid  27 and name C ) (resid  28 and name N )	55.124	17.867
+! LEU 28
+	assign (resid  27 and name C ) (resid  28 and name N ) (resid  28 and name CA )
+	       (resid  28 and name C ) (resid  29 and name N )	58.12	41.939
+! VAL 29
+	assign (resid  28 and name C ) (resid  29 and name N ) (resid  29 and name CA )
+	       (resid  29 and name C ) (resid  30 and name N )	67.349	31.327
+! SER 30
+	assign (resid  29 and name C ) (resid  30 and name N ) (resid  30 and name CA )
+	       (resid  30 and name C ) (resid  31 and name N )	61.921	62.792
+! LYS 31
+	assign (resid  30 and name C ) (resid  31 and name N ) (resid  31 and name CA )
+	       (resid  31 and name C ) (resid  32 and name N )	59.351	32.325
+! ILE 32
+	assign (resid  31 and name C ) (resid  32 and name N ) (resid  32 and name CA )
+	       (resid  32 and name C ) (resid  33 and name N )	65.097	38.854
+! SER 33
+	assign (resid  32 and name C ) (resid  33 and name N ) (resid  33 and name CA )
+	       (resid  33 and name C ) (resid  34 and name N )	61.972	63.184
+! SER 34
+	assign (resid  33 and name C ) (resid  34 and name N ) (resid  34 and name CA )
+	       (resid  34 and name C ) (resid  35 and name N )	59.616	64.05
+! SER 35
+	assign (resid  34 and name C ) (resid  35 and name N ) (resid  35 and name CA )
+	       (resid  35 and name C ) (resid  36 and name N )	59.071	65.572
+! VAL 36
+	assign (resid  35 and name C ) (resid  36 and name N ) (resid  36 and name CA )
+	       (resid  36 and name C ) (resid  37 and name N )	60.067	34.293
+! ASN 37
+	assign (resid  36 and name C ) (resid  37 and name N ) (resid  37 and name CA )
+	       (resid  37 and name C ) (resid  38 and name N )	54.155	41.095
+! ASP 38
+	assign (resid  37 and name C ) (resid  38 and name N ) (resid  38 and name CA )
+	       (resid  38 and name C ) (resid  39 and name N )	53.074	43.111
+! LEU 39
+	assign (resid  38 and name C ) (resid  39 and name N ) (resid  39 and name CA )
+	       (resid  39 and name C ) (resid  40 and name N )	57.534	42.281
+! GLU 40
+	assign (resid  39 and name C ) (resid  40 and name N ) (resid  40 and name CA )
+	       (resid  40 and name C ) (resid  41 and name N )	60.47	28.675
+! GLU 41
+	assign (resid  40 and name C ) (resid  41 and name N ) (resid  41 and name CA )
+	       (resid  41 and name C ) (resid  42 and name N )	59.192	30.508
+! ALA 42
+	assign (resid  41 and name C ) (resid  42 and name N ) (resid  42 and name CA )
+	       (resid  42 and name C ) (resid  43 and name N )	55.46	18.434
+! ILE 43
+	assign (resid  42 and name C ) (resid  43 and name N ) (resid  43 and name CA )
+	       (resid  43 and name C ) (resid  44 and name N )	65.871	37.927
+! VAL 44
+	assign (resid  43 and name C ) (resid  44 and name N ) (resid  44 and name CA )
+	       (resid  44 and name C ) (resid  45 and name N )	67.691	31.731
+! VAL 45
+	assign (resid  44 and name C ) (resid  45 and name N ) (resid  45 and name CA )
+	       (resid  45 and name C ) (resid  46 and name N )	66.733	31.635
+! LEU 46
+	assign (resid  45 and name C ) (resid  46 and name N ) (resid  46 and name CA )
+	       (resid  46 and name C ) (resid  47 and name N )	58.635	42.395
+! ARG 47
+	assign (resid  46 and name C ) (resid  47 and name N ) (resid  47 and name CA )
+	       (resid  47 and name C ) (resid  48 and name N )	59.704	30.258
+! GLU 48
+	assign (resid  47 and name C ) (resid  48 and name N ) (resid  48 and name CA )
+	       (resid  48 and name C ) (resid  49 and name N )	59.309	29.044
+! GLU 49
+	assign (resid  48 and name C ) (resid  49 and name N ) (resid  49 and name CA )
+	       (resid  49 and name C ) (resid  50 and name N )	58.748	28.158
+! GLU 50
+	assign (resid  49 and name C ) (resid  50 and name N ) (resid  50 and name CA )
+	       (resid  50 and name C ) (resid  51 and name N )	60.639	29.042
+! LYS 51
+	assign (resid  50 and name C ) (resid  51 and name N ) (resid  51 and name CA )
+	       (resid  51 and name C ) (resid  52 and name N )	59.164	32.753
+! LYS 52
+	assign (resid  51 and name C ) (resid  52 and name N ) (resid  52 and name CA )
+	       (resid  52 and name C ) (resid  53 and name N )	56.776	33.879
+! ALA 53
+	assign (resid  52 and name C ) (resid  53 and name N ) (resid  53 and name CA )
+	       (resid  53 and name C ) (resid  54 and name N )	52.271	19.835
+! SER 54
+	assign (resid  53 and name C ) (resid  54 and name N ) (resid  54 and name CA )
+	       (resid  54 and name C ) (resid  55 and name N )	56.918	65.082
+! GLU 55
+	assign (resid  54 and name C ) (resid  55 and name N ) (resid  55 and name CA )
+	       (resid  55 and name C ) (resid  56 and name N )	56.366	28.496
+! PRO 56
+	assign (resid  55 and name C ) (resid  56 and name N ) (resid  56 and name CA )
+	       (resid  56 and name C ) (resid  57 and name N )	63.581	34.226
+! PHE 57
+	assign (resid  56 and name C ) (resid  57 and name N ) (resid  57 and name CA )
+	       (resid  57 and name C ) (resid  58 and name N )	59.991	38.868
+! LYS 58
+	assign (resid  57 and name C ) (resid  58 and name N ) (resid  58 and name CA )
+	       (resid  58 and name C ) (resid  59 and name N )	60.408	32.922
+! THR 59
+	assign (resid  58 and name C ) (resid  59 and name N ) (resid  59 and name CA )
+	       (resid  59 and name C ) (resid  60 and name N )	67.814	68.028
+! ASP 60
+	assign (resid  59 and name C ) (resid  60 and name N ) (resid  60 and name CA )
+	       (resid  60 and name C ) (resid  61 and name N )	58.49	40.763
+! ILE 61
+	assign (resid  60 and name C ) (resid  61 and name N ) (resid  61 and name CA )
+	       (resid  61 and name C ) (resid  62 and name N )	65.852	38.346
+! ARG 62
+	assign (resid  61 and name C ) (resid  62 and name N ) (resid  62 and name CA )
+	       (resid  62 and name C ) (resid  63 and name N )	59.21	29.135
+! ILE 63
+	assign (resid  62 and name C ) (resid  63 and name N ) (resid  63 and name CA )
+	       (resid  63 and name C ) (resid  64 and name N )	65.564	37.688
+! LEU 64
+	assign (resid  63 and name C ) (resid  64 and name N ) (resid  64 and name CA )
+	       (resid  64 and name C ) (resid  65 and name N )	58.606	41.668
+! LEU 65
+	assign (resid  64 and name C ) (resid  65 and name N ) (resid  65 and name CA )
+	       (resid  65 and name C ) (resid  66 and name N )	59.014	42.662
+! ASP 66
+	assign (resid  65 and name C ) (resid  66 and name N ) (resid  66 and name CA )
+	       (resid  66 and name C ) (resid  67 and name N )	57.238	40.023
+! PHE 67
+	assign (resid  66 and name C ) (resid  67 and name N ) (resid  67 and name CA )
+	       (resid  67 and name C ) (resid  68 and name N )	61.925	39.412
+! LEU 68
+	assign (resid  67 and name C ) (resid  68 and name N ) (resid  68 and name CA )
+	       (resid  68 and name C ) (resid  69 and name N )	57.42	42.864
+! GLU 69
+	assign (resid  68 and name C ) (resid  69 and name N ) (resid  69 and name CA )
+	       (resid  69 and name C ) (resid  70 and name N )	57.663	30.426
+! SER 70
+	assign (resid  69 and name C ) (resid  70 and name N ) (resid  70 and name CA )
+	       (resid  70 and name C ) (resid  71 and name N )	59.224	63.73
+! LYS 71
+	assign (resid  70 and name C ) (resid  71 and name N ) (resid  71 and name CA )
+	       (resid  71 and name C ) (resid  72 and name N )	53.787	32.165
