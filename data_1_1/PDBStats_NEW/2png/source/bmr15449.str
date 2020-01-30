@@ -1,0 +1,2135 @@
+data_15449
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             15449
+   _Entry.Title                         
+;
+Type I rat fatty acid synthase acyl carrier protein (ACP) domain
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2007-08-30
+   _Entry.Accession_date                 2007-08-30
+   _Entry.Last_release_date              2008-01-28
+   _Entry.Original_release_date          2008-01-28
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.0.8.100
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 E. Ploskon  E. A. . 15449 
+      2 C. Arthur   C. J. . 15449 
+      3 S. Evans    S. E. . 15449 
+      4 C. Williams C. .  . 15449 
+      5 J. Crosby   J. .  . 15449 
+      6 M. Crump    M. P. . 15449 
+
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      'acyl carrier protein' . 15449 
+      'fatty acid synthase'  . 15449 
+      'helical bundle'       . 15449 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 15449 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 283 15449 
+      '15N chemical shifts'  88 15449 
+      '1H chemical shifts'  609 15449 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2008-01-28 2007-08-30 original author . 15449 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      PDB 2PNG 'BMRB Entry Tracking System' 15449 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_citations
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citations
+   _Citation.Entry_ID                     15449
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    17971456
+   _Citation.Full_citation                .
+   _Citation.Title                       'A Mammalian Type I fatty acid synthase acyl carrier protein domain does not bind acyl chains'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Biol. Chem.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               283
+   _Citation.Journal_issue                1
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   518
+   _Citation.Page_last                    528
+   _Citation.Year                         2008
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 E. Ploskon  E. A. . 15449 1 
+      2 C. Arthur   C. J. . 15449 1 
+      3 S. Evans    S. E. . 15449 1 
+      4 C. Williams C. .  . 15449 1 
+      5 J. Crosby   J. .  . 15449 1 
+      6 T. Simpson  T. J. . 15449 1 
+      7 M. Crump    M. P. . 15449 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          15449
+   _Assembly.ID                                1
+   _Assembly.Name                             'ACP domain from rat'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'subunit 1' 1 $Fatty_acid_synthase_(EC_2.3.1.85) A . yes native no no . . . 15449 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_Fatty_acid_synthase_(EC_2.3.1.85)
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      Fatty_acid_synthase_(EC_2.3.1.85)
+   _Entity.Entry_ID                          15449
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              Fatty_acid_synthase_(EC_2.3.1.85)
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+GDGEAQRDLVKAVAHILGIR
+DLAGINLDSSLADLGLDSLM
+GVEVRQILEREHDLVLPIRE
+VRQLTLRKLQEMSSKAGSDT
+ELAAPKSKN
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                89
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                         'RESIDUES 2114-2202, ACYL CARRIER PROTEIN'
+   _Entity.Mutation                          .
+   _Entity.EC_number                         2.3.1.85
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-26
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no PDB  2PNG      . "Type I Rat Fatty Acid Synthase Acyl Carrier Protein (Acp) Domain"                                                                . . . . . 100.00   89 100.00 100.00 2.90e-53 . . . . 15449 1 
+       2 no EMBL CAA31780  . "unnamed protein product [Rattus norvegicus]"                                                                                     . . . . . 100.00 2431 100.00 100.00 3.44e-48 . . . . 15449 1 
+       3 no EMBL CAA31882  . "acyl carrier protein (405 AA); fatty acid synthetase domain [Rattus norvegicus]"                                                 . . . . . 100.00  404 100.00 100.00 7.88e-51 . . . . 15449 1 
+       4 no EMBL CAA44679  . "fatty-acid synthase [Rattus norvegicus]"                                                                                         . . . . . 100.00 2505 100.00 100.00 4.04e-48 . . . . 15449 1 
+       5 no EMBL CAA44680  . "fatty acid synthase [Rattus norvegicus]"                                                                                         . . . . . 100.00 2505 100.00 100.00 4.04e-48 . . . . 15449 1 
+       6 no GB   AAA41144  . "fatty acid synthetase, partial [Rattus norvegicus]"                                                                              . . . . . 100.00  421 100.00 100.00 7.34e-51 . . . . 15449 1 
+       7 no GB   AAA41145  . "fatty acid synthase [Rattus norvegicus]"                                                                                         . . . . . 100.00 2505 100.00 100.00 3.85e-48 . . . . 15449 1 
+       8 no GB   AAA57219  . "fatty acid synthase [Rattus norvegicus]"                                                                                         . . . . . 100.00 2505 100.00 100.00 4.04e-48 . . . . 15449 1 
+       9 no GB   EDM06908  . "fatty acid synthase, isoform CRA_a [Rattus norvegicus]"                                                                          . . . . . 100.00 1346 100.00 100.00 3.44e-48 . . . . 15449 1 
+      10 no GB   EDM06909  . "fatty acid synthase, isoform CRA_b [Rattus norvegicus]"                                                                          . . . . . 100.00 2505 100.00 100.00 4.04e-48 . . . . 15449 1 
+      11 no REF  NP_059028 . "fatty acid synthase [Rattus norvegicus]"                                                                                         . . . . . 100.00 2505 100.00 100.00 4.04e-48 . . . . 15449 1 
+      12 no SP   P12785    . "RecName: Full=Fatty acid synthase; Includes: RecName: Full=[Acyl-carrier-protein] S-acetyltransferase; Includes: RecName: Full=" . . . . . 100.00 2505 100.00 100.00 4.04e-48 . . . . 15449 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+       3D-structure                       SWS-KEYWORD 15449 1 
+       Acetylation                        SWS-KEYWORD 15449 1 
+      'Fatty acid biosynthesis'           SWS-KEYWORD 15449 1 
+      'Fatty acid synthase (EC 2.3.1.85)' RCSB_NAME   15449 1 
+       Hydrolase                          SWS-KEYWORD 15449 1 
+      'Lipid synthesis'                   SWS-KEYWORD 15449 1 
+       Lyase                              SWS-KEYWORD 15449 1 
+      'Multifunctional enzyme'            SWS-KEYWORD 15449 1 
+       NAD                                SWS-KEYWORD 15449 1 
+       NADP                               SWS-KEYWORD 15449 1 
+       Oxidoreductase                     SWS-KEYWORD 15449 1 
+       Phosphopantetheine                 SWS-KEYWORD 15449 1 
+      'Pyridoxal phosphate'               SWS-KEYWORD 15449 1 
+       Transferase                        SWS-KEYWORD 15449 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . GLY . 15449 1 
+       2 . ASP . 15449 1 
+       3 . GLY . 15449 1 
+       4 . GLU . 15449 1 
+       5 . ALA . 15449 1 
+       6 . GLN . 15449 1 
+       7 . ARG . 15449 1 
+       8 . ASP . 15449 1 
+       9 . LEU . 15449 1 
+      10 . VAL . 15449 1 
+      11 . LYS . 15449 1 
+      12 . ALA . 15449 1 
+      13 . VAL . 15449 1 
+      14 . ALA . 15449 1 
+      15 . HIS . 15449 1 
+      16 . ILE . 15449 1 
+      17 . LEU . 15449 1 
+      18 . GLY . 15449 1 
+      19 . ILE . 15449 1 
+      20 . ARG . 15449 1 
+      21 . ASP . 15449 1 
+      22 . LEU . 15449 1 
+      23 . ALA . 15449 1 
+      24 . GLY . 15449 1 
+      25 . ILE . 15449 1 
+      26 . ASN . 15449 1 
+      27 . LEU . 15449 1 
+      28 . ASP . 15449 1 
+      29 . SER . 15449 1 
+      30 . SER . 15449 1 
+      31 . LEU . 15449 1 
+      32 . ALA . 15449 1 
+      33 . ASP . 15449 1 
+      34 . LEU . 15449 1 
+      35 . GLY . 15449 1 
+      36 . LEU . 15449 1 
+      37 . ASP . 15449 1 
+      38 . SER . 15449 1 
+      39 . LEU . 15449 1 
+      40 . MET . 15449 1 
+      41 . GLY . 15449 1 
+      42 . VAL . 15449 1 
+      43 . GLU . 15449 1 
+      44 . VAL . 15449 1 
+      45 . ARG . 15449 1 
+      46 . GLN . 15449 1 
+      47 . ILE . 15449 1 
+      48 . LEU . 15449 1 
+      49 . GLU . 15449 1 
+      50 . ARG . 15449 1 
+      51 . GLU . 15449 1 
+      52 . HIS . 15449 1 
+      53 . ASP . 15449 1 
+      54 . LEU . 15449 1 
+      55 . VAL . 15449 1 
+      56 . LEU . 15449 1 
+      57 . PRO . 15449 1 
+      58 . ILE . 15449 1 
+      59 . ARG . 15449 1 
+      60 . GLU . 15449 1 
+      61 . VAL . 15449 1 
+      62 . ARG . 15449 1 
+      63 . GLN . 15449 1 
+      64 . LEU . 15449 1 
+      65 . THR . 15449 1 
+      66 . LEU . 15449 1 
+      67 . ARG . 15449 1 
+      68 . LYS . 15449 1 
+      69 . LEU . 15449 1 
+      70 . GLN . 15449 1 
+      71 . GLU . 15449 1 
+      72 . MET . 15449 1 
+      73 . SER . 15449 1 
+      74 . SER . 15449 1 
+      75 . LYS . 15449 1 
+      76 . ALA . 15449 1 
+      77 . GLY . 15449 1 
+      78 . SER . 15449 1 
+      79 . ASP . 15449 1 
+      80 . THR . 15449 1 
+      81 . GLU . 15449 1 
+      82 . LEU . 15449 1 
+      83 . ALA . 15449 1 
+      84 . ALA . 15449 1 
+      85 . PRO . 15449 1 
+      86 . LYS . 15449 1 
+      87 . SER . 15449 1 
+      88 . LYS . 15449 1 
+      89 . ASN . 15449 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . GLY  1  1 15449 1 
+      . ASP  2  2 15449 1 
+      . GLY  3  3 15449 1 
+      . GLU  4  4 15449 1 
+      . ALA  5  5 15449 1 
+      . GLN  6  6 15449 1 
+      . ARG  7  7 15449 1 
+      . ASP  8  8 15449 1 
+      . LEU  9  9 15449 1 
+      . VAL 10 10 15449 1 
+      . LYS 11 11 15449 1 
+      . ALA 12 12 15449 1 
+      . VAL 13 13 15449 1 
+      . ALA 14 14 15449 1 
+      . HIS 15 15 15449 1 
+      . ILE 16 16 15449 1 
+      . LEU 17 17 15449 1 
+      . GLY 18 18 15449 1 
+      . ILE 19 19 15449 1 
+      . ARG 20 20 15449 1 
+      . ASP 21 21 15449 1 
+      . LEU 22 22 15449 1 
+      . ALA 23 23 15449 1 
+      . GLY 24 24 15449 1 
+      . ILE 25 25 15449 1 
+      . ASN 26 26 15449 1 
+      . LEU 27 27 15449 1 
+      . ASP 28 28 15449 1 
+      . SER 29 29 15449 1 
+      . SER 30 30 15449 1 
+      . LEU 31 31 15449 1 
+      . ALA 32 32 15449 1 
+      . ASP 33 33 15449 1 
+      . LEU 34 34 15449 1 
+      . GLY 35 35 15449 1 
+      . LEU 36 36 15449 1 
+      . ASP 37 37 15449 1 
+      . SER 38 38 15449 1 
+      . LEU 39 39 15449 1 
+      . MET 40 40 15449 1 
+      . GLY 41 41 15449 1 
+      . VAL 42 42 15449 1 
+      . GLU 43 43 15449 1 
+      . VAL 44 44 15449 1 
+      . ARG 45 45 15449 1 
+      . GLN 46 46 15449 1 
+      . ILE 47 47 15449 1 
+      . LEU 48 48 15449 1 
+      . GLU 49 49 15449 1 
+      . ARG 50 50 15449 1 
+      . GLU 51 51 15449 1 
+      . HIS 52 52 15449 1 
+      . ASP 53 53 15449 1 
+      . LEU 54 54 15449 1 
+      . VAL 55 55 15449 1 
+      . LEU 56 56 15449 1 
+      . PRO 57 57 15449 1 
+      . ILE 58 58 15449 1 
+      . ARG 59 59 15449 1 
+      . GLU 60 60 15449 1 
+      . VAL 61 61 15449 1 
+      . ARG 62 62 15449 1 
+      . GLN 63 63 15449 1 
+      . LEU 64 64 15449 1 
+      . THR 65 65 15449 1 
+      . LEU 66 66 15449 1 
+      . ARG 67 67 15449 1 
+      . LYS 68 68 15449 1 
+      . LEU 69 69 15449 1 
+      . GLN 70 70 15449 1 
+      . GLU 71 71 15449 1 
+      . MET 72 72 15449 1 
+      . SER 73 73 15449 1 
+      . SER 74 74 15449 1 
+      . LYS 75 75 15449 1 
+      . ALA 76 76 15449 1 
+      . GLY 77 77 15449 1 
+      . SER 78 78 15449 1 
+      . ASP 79 79 15449 1 
+      . THR 80 80 15449 1 
+      . GLU 81 81 15449 1 
+      . LEU 82 82 15449 1 
+      . ALA 83 83 15449 1 
+      . ALA 84 84 15449 1 
+      . PRO 85 85 15449 1 
+      . LYS 86 86 15449 1 
+      . SER 87 87 15449 1 
+      . LYS 88 88 15449 1 
+      . ASN 89 89 15449 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       15449
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $Fatty_acid_synthase_(EC_2.3.1.85) . 10116 organism . 'Rattus norvegicus' Rat . . Eukaryota Metazoa Rattus norvegicus . . . . . . . . . . . . . . . . Fasn . . . . 15449 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       15449
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $Fatty_acid_synthase_(EC_2.3.1.85) . 'recombinant technology' 'Escherichia coli' . . . Escherichia coli . . . . . . . . . . . . . . MR . pET15b . . . . . . 15449 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample
+   _Sample.Entry_ID                         15449
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                         '1-2MM ACP; 20MM SODIUM DEUTEROACETATE, 1MM NAN3, 1MMDTT, PH 5.5'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '20MM SODIUM DEUTEROACETATE, 1MM NAN3, 1MMDTT, PH 5.5'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1  ACP                     .                  . . 1 $Fatty_acid_synthase_(EC_2.3.1.85) . .   . 1 2 mM . . . . 15449 1 
+      2 'sodium deuteroacetate' 'natural abundance' . .  .  .                                 . . 20  .  . mM . . . . 15449 1 
+      3 'sodium azide'          'natural abundance' . .  .  .                                 . .  1  .  . mM . . . . 15449 1 
+      4  DTT                    'natural abundance' . .  .  .                                 . .  1  .  . mM . . . . 15449 1 
+      5  D2O                     [U-2H]             . .  .  .                                 . . 10  .  . %  . . . . 15449 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       15449
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'  20   . mM  15449 1 
+       pH                5.5 . pH  15449 1 
+       pressure          1   . atm 15449 1 
+       temperature     298   . K   15449 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_CNS
+   _Software.Sf_category    software
+   _Software.Sf_framecode   CNS
+   _Software.Entry_ID       15449
+   _Software.ID             1
+   _Software.Name           CNS
+   _Software.Version        1.1
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Brunger, Adams, Clore, Gros, Nilges and Read' . . 15449 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement 15449 1 
+
+   stop_
+
+save_
+
+
+save_NMRPipe
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRPipe
+   _Software.Entry_ID       15449
+   _Software.ID             2
+   _Software.Name           NMRPipe
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax' . . 15449 2 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis' 15449 2 
+
+   stop_
+
+save_
+
+
+save_CCPN_Analysis
+   _Software.Sf_category    software
+   _Software.Sf_framecode   CCPN_Analysis
+   _Software.Entry_ID       15449
+   _Software.ID             3
+   _Software.Name           ANALYSIS
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      CCPN . . 15449 3 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis' 15449 3 
+
+   stop_
+
+save_
+
+
+save_Aria
+   _Software.Sf_category    software
+   _Software.Sf_framecode   Aria
+   _Software.Entry_ID       15449
+   _Software.ID             4
+   _Software.Name           ARIA
+   _Software.Version        1.2
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Linge, O'Donoghue and Nilges' . . 15449 4 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'structure solution' 15449 4 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         15449
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            INOVA
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_600
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   600
+   _NMR_spectrometer_list.Entry_ID       15449
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Varian INOVA . 600 . . . 15449 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       15449
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 3D_13C-separated_NOESY no . . . . . . . . . . 1 $sample isotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 15449 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       15449
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 DSS 'methyl protons' . . . . ppm 0.0 .        indirect 0.251449530 . . . 1 $citations . . 1 $citations 15449 1 
+      H  1 DSS 'methyl protons' . . . . ppm 0.0 internal direct   1.0         . . . 1 $citations . . 1 $citations 15449 1 
+      N 15 DSS 'methyl protons' . . . . ppm 0.0 .        indirect 0.101329118 . . . 1 $citations . . 1 $citations 15449 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      15449
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 3D_13C-separated_NOESY . . . 15449 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  3  3 GLY H    H  1   8.535 . . . . . . .  3 GLY HN   . 15449 1 
+        2 . 1 1  3  3 GLY CA   C 13  45.599 . . . . . . .  3 GLY CA   . 15449 1 
+        3 . 1 1  3  3 GLY N    N 15 109.681 . . . . . . .  3 GLY N    . 15449 1 
+        4 . 1 1  4  4 GLU H    H  1   8.166 . . . . . . .  4 GLU HN   . 15449 1 
+        5 . 1 1  4  4 GLU HA   H  1   4.232 . . . . . . .  4 GLU HA   . 15449 1 
+        6 . 1 1  4  4 GLU HB2  H  1   2.023 . . . . . . .  4 GLU HB1  . 15449 1 
+        7 . 1 1  4  4 GLU HB3  H  1   1.931 . . . . . . .  4 GLU HB2  . 15449 1 
+        8 . 1 1  4  4 GLU HG2  H  1   2.208 . . . . . . .  4 GLU HG1  . 15449 1 
+        9 . 1 1  4  4 GLU HG3  H  1   2.208 . . . . . . .  4 GLU HG2  . 15449 1 
+       10 . 1 1  4  4 GLU CA   C 13  56.763 . . . . . . .  4 GLU CA   . 15449 1 
+       11 . 1 1  4  4 GLU CB   C 13  30.256 . . . . . . .  4 GLU CB   . 15449 1 
+       12 . 1 1  4  4 GLU CG   C 13  36.339 . . . . . . .  4 GLU CG   . 15449 1 
+       13 . 1 1  4  4 GLU N    N 15 120.653 . . . . . . .  4 GLU N    . 15449 1 
+       14 . 1 1  5  5 ALA H    H  1   8.297 . . . . . . .  5 ALA HN   . 15449 1 
+       15 . 1 1  5  5 ALA HA   H  1   4.238 . . . . . . .  5 ALA HA   . 15449 1 
+       16 . 1 1  5  5 ALA HB1  H  1   1.348 . . . . . . .  5 ALA HB1  . 15449 1 
+       17 . 1 1  5  5 ALA HB2  H  1   1.348 . . . . . . .  5 ALA HB2  . 15449 1 
+       18 . 1 1  5  5 ALA HB3  H  1   1.348 . . . . . . .  5 ALA HB3  . 15449 1 
+       19 . 1 1  5  5 ALA CA   C 13  52.824 . . . . . . .  5 ALA CA   . 15449 1 
+       20 . 1 1  5  5 ALA CB   C 13  19.078 . . . . . . .  5 ALA CB   . 15449 1 
+       21 . 1 1  5  5 ALA N    N 15 124.679 . . . . . . .  5 ALA N    . 15449 1 
+       22 . 1 1  6  6 GLN H    H  1   8.259 . . . . . . .  6 GLN HN   . 15449 1 
+       23 . 1 1  6  6 GLN HA   H  1   4.252 . . . . . . .  6 GLN HA   . 15449 1 
+       24 . 1 1  6  6 GLN HB2  H  1   2.057 . . . . . . .  6 GLN HB1  . 15449 1 
+       25 . 1 1  6  6 GLN HB3  H  1   1.961 . . . . . . .  6 GLN HB2  . 15449 1 
+       26 . 1 1  6  6 GLN HE21 H  1   6.805 . . . . . . .  6 GLN HE21 . 15449 1 
+       27 . 1 1  6  6 GLN HE22 H  1   7.506 . . . . . . .  6 GLN HE22 . 15449 1 
+       28 . 1 1  6  6 GLN HG2  H  1   2.324 . . . . . . .  6 GLN HG1  . 15449 1 
+       29 . 1 1  6  6 GLN HG3  H  1   2.325 . . . . . . .  6 GLN HG2  . 15449 1 
+       30 . 1 1  6  6 GLN CA   C 13  56.031 . . . . . . .  6 GLN CA   . 15449 1 
+       31 . 1 1  6  6 GLN CB   C 13  29.441 . . . . . . .  6 GLN CB   . 15449 1 
+       32 . 1 1  6  6 GLN CG   C 13  34.051 . . . . . . .  6 GLN CG   . 15449 1 
+       33 . 1 1  6  6 GLN N    N 15 119.348 . . . . . . .  6 GLN N    . 15449 1 
+       34 . 1 1  6  6 GLN NE2  N 15 112.965 . . . . . . .  6 GLN NE2  . 15449 1 
+       35 . 1 1  7  7 ARG H    H  1   8.399 . . . . . . .  7 ARG HN   . 15449 1 
+       36 . 1 1  7  7 ARG HA   H  1   4.277 . . . . . . .  7 ARG HA   . 15449 1 
+       37 . 1 1  7  7 ARG HB2  H  1   1.836 . . . . . . .  7 ARG HB1  . 15449 1 
+       38 . 1 1  7  7 ARG HB3  H  1   1.765 . . . . . . .  7 ARG HB2  . 15449 1 
+       39 . 1 1  7  7 ARG HD2  H  1   3.121 . . . . . . .  7 ARG HD1  . 15449 1 
+       40 . 1 1  7  7 ARG HD3  H  1   3.121 . . . . . . .  7 ARG HD2  . 15449 1 
+       41 . 1 1  7  7 ARG HG2  H  1   1.599 . . . . . . .  7 ARG HG1  . 15449 1 
+       42 . 1 1  7  7 ARG HG3  H  1   1.599 . . . . . . .  7 ARG HG2  . 15449 1 
+       43 . 1 1  7  7 ARG CA   C 13  56.167 . . . . . . .  7 ARG CA   . 15449 1 
+       44 . 1 1  7  7 ARG CB   C 13  30.848 . . . . . . .  7 ARG CB   . 15449 1 
+       45 . 1 1  7  7 ARG CD   C 13  43.520 . . . . . . .  7 ARG CD   . 15449 1 
+       46 . 1 1  7  7 ARG CG   C 13  27.061 . . . . . . .  7 ARG CG   . 15449 1 
+       47 . 1 1  7  7 ARG N    N 15 122.112 . . . . . . .  7 ARG N    . 15449 1 
+       48 . 1 1  8  8 ASP H    H  1   8.219 . . . . . . .  8 ASP HN   . 15449 1 
+       49 . 1 1  8  8 ASP HA   H  1   4.576 . . . . . . .  8 ASP HA   . 15449 1 
+       50 . 1 1  8  8 ASP HB2  H  1   2.763 . . . . . . .  8 ASP HB1  . 15449 1 
+       51 . 1 1  8  8 ASP HB3  H  1   2.638 . . . . . . .  8 ASP HB2  . 15449 1 
+       52 . 1 1  8  8 ASP CA   C 13  54.287 . . . . . . .  8 ASP CA   . 15449 1 
+       53 . 1 1  8  8 ASP CB   C 13  41.734 . . . . . . .  8 ASP CB   . 15449 1 
+       54 . 1 1  8  8 ASP N    N 15 122.125 . . . . . . .  8 ASP N    . 15449 1 
+       55 . 1 1  9  9 LEU H    H  1   8.468 . . . . . . .  9 LEU HN   . 15449 1 
+       56 . 1 1  9  9 LEU HA   H  1   4.023 . . . . . . .  9 LEU HA   . 15449 1 
+       57 . 1 1  9  9 LEU HB2  H  1   1.584 . . . . . . .  9 LEU HB1  . 15449 1 
+       58 . 1 1  9  9 LEU HB3  H  1   1.492 . . . . . . .  9 LEU HB2  . 15449 1 
+       59 . 1 1  9  9 LEU HD11 H  1   0.577 . . . . . . .  9 LEU HD11 . 15449 1 
+       60 . 1 1  9  9 LEU HD12 H  1   0.577 . . . . . . .  9 LEU HD12 . 15449 1 
+       61 . 1 1  9  9 LEU HD13 H  1   0.577 . . . . . . .  9 LEU HD13 . 15449 1 
+       62 . 1 1  9  9 LEU HD21 H  1   0.700 . . . . . . .  9 LEU HD21 . 15449 1 
+       63 . 1 1  9  9 LEU HD22 H  1   0.700 . . . . . . .  9 LEU HD22 . 15449 1 
+       64 . 1 1  9  9 LEU HD23 H  1   0.700 . . . . . . .  9 LEU HD23 . 15449 1 
+       65 . 1 1  9  9 LEU HG   H  1   1.487 . . . . . . .  9 LEU HG   . 15449 1 
+       66 . 1 1  9  9 LEU CA   C 13  58.017 . . . . . . .  9 LEU CA   . 15449 1 
+       67 . 1 1  9  9 LEU CB   C 13  42.777 . . . . . . .  9 LEU CB   . 15449 1 
+       68 . 1 1  9  9 LEU CD1  C 13  24.934 . . . . . . .  9 LEU CD1  . 15449 1 
+       69 . 1 1  9  9 LEU CD2  C 13  23.838 . . . . . . .  9 LEU CD2  . 15449 1 
+       70 . 1 1  9  9 LEU CG   C 13  27.190 . . . . . . .  9 LEU CG   . 15449 1 
+       71 . 1 1  9  9 LEU N    N 15 126.826 . . . . . . .  9 LEU N    . 15449 1 
+       72 . 1 1 10 10 VAL H    H  1   7.896 . . . . . . . 10 VAL HN   . 15449 1 
+       73 . 1 1 10 10 VAL HA   H  1   3.321 . . . . . . . 10 VAL HA   . 15449 1 
+       74 . 1 1 10 10 VAL HB   H  1   2.139 . . . . . . . 10 VAL HB   . 15449 1 
+       75 . 1 1 10 10 VAL HG11 H  1   0.844 . . . . . . . 10 VAL HG11 . 15449 1 
+       76 . 1 1 10 10 VAL HG12 H  1   0.844 . . . . . . . 10 VAL HG12 . 15449 1 
+       77 . 1 1 10 10 VAL HG13 H  1   0.844 . . . . . . . 10 VAL HG13 . 15449 1 
+       78 . 1 1 10 10 VAL HG21 H  1   0.941 . . . . . . . 10 VAL HG21 . 15449 1 
+       79 . 1 1 10 10 VAL HG22 H  1   0.941 . . . . . . . 10 VAL HG22 . 15449 1 
+       80 . 1 1 10 10 VAL HG23 H  1   0.941 . . . . . . . 10 VAL HG23 . 15449 1 
+       81 . 1 1 10 10 VAL CA   C 13  67.266 . . . . . . . 10 VAL CA   . 15449 1 
+       82 . 1 1 10 10 VAL CB   C 13  31.080 . . . . . . . 10 VAL CB   . 15449 1 
+       83 . 1 1 10 10 VAL CG1  C 13  21.472 . . . . . . . 10 VAL CG1  . 15449 1 
+       84 . 1 1 10 10 VAL CG2  C 13  23.828 . . . . . . . 10 VAL CG2  . 15449 1 
+       85 . 1 1 10 10 VAL N    N 15 117.941 . . . . . . . 10 VAL N    . 15449 1 
+       86 . 1 1 11 11 LYS H    H  1   7.779 . . . . . . . 11 LYS HN   . 15449 1 
+       87 . 1 1 11 11 LYS HA   H  1   3.794 . . . . . . . 11 LYS HA   . 15449 1 
+       88 . 1 1 11 11 LYS HB2  H  1   1.727 . . . . . . . 11 LYS HB1  . 15449 1 
+       89 . 1 1 11 11 LYS HB3  H  1   1.727 . . . . . . . 11 LYS HB2  . 15449 1 
+       90 . 1 1 11 11 LYS HD2  H  1   1.626 . . . . . . . 11 LYS HD1  . 15449 1 
+       91 . 1 1 11 11 LYS HD3  H  1   1.626 . . . . . . . 11 LYS HD2  . 15449 1 
+       92 . 1 1 11 11 LYS HE2  H  1   2.942 . . . . . . . 11 LYS HE1  . 15449 1 
+       93 . 1 1 11 11 LYS HE3  H  1   2.942 . . . . . . . 11 LYS HE2  . 15449 1 
+       94 . 1 1 11 11 LYS HG2  H  1   1.482 . . . . . . . 11 LYS HG1  . 15449 1 
+       95 . 1 1 11 11 LYS HG3  H  1   1.253 . . . . . . . 11 LYS HG2  . 15449 1 
+       96 . 1 1 11 11 LYS CA   C 13  59.783 . . . . . . . 11 LYS CA   . 15449 1 
+       97 . 1 1 11 11 LYS CB   C 13  32.482 . . . . . . . 11 LYS CB   . 15449 1 
+       98 . 1 1 11 11 LYS CE   C 13  42.170 . . . . . . . 11 LYS CE   . 15449 1 
+       99 . 1 1 11 11 LYS CG   C 13  25.868 . . . . . . . 11 LYS CG   . 15449 1 
+      100 . 1 1 11 11 LYS N    N 15 118.486 . . . . . . . 11 LYS N    . 15449 1 
+      101 . 1 1 12 12 ALA H    H  1   8.141 . . . . . . . 12 ALA HN   . 15449 1 
+      102 . 1 1 12 12 ALA HA   H  1   4.102 . . . . . . . 12 ALA HA   . 15449 1 
+      103 . 1 1 12 12 ALA HB1  H  1   1.474 . . . . . . . 12 ALA HB1  . 15449 1 
+      104 . 1 1 12 12 ALA HB2  H  1   1.474 . . . . . . . 12 ALA HB2  . 15449 1 
+      105 . 1 1 12 12 ALA HB3  H  1   1.474 . . . . . . . 12 ALA HB3  . 15449 1 
+      106 . 1 1 12 12 ALA CA   C 13  55.298 . . . . . . . 12 ALA CA   . 15449 1 
+      107 . 1 1 12 12 ALA CB   C 13  18.241 . . . . . . . 12 ALA CB   . 15449 1 
+      108 . 1 1 12 12 ALA N    N 15 121.217 . . . . . . . 12 ALA N    . 15449 1 
+      109 . 1 1 13 13 VAL H    H  1   8.251 . . . . . . . 13 VAL HN   . 15449 1 
+      110 . 1 1 13 13 VAL HA   H  1   3.557 . . . . . . . 13 VAL HA   . 15449 1 
+      111 . 1 1 13 13 VAL HB   H  1   2.000 . . . . . . . 13 VAL HB   . 15449 1 
+      112 . 1 1 13 13 VAL HG11 H  1   0.767 . . . . . . . 13 VAL HG11 . 15449 1 
+      113 . 1 1 13 13 VAL HG12 H  1   0.767 . . . . . . . 13 VAL HG12 . 15449 1 
+      114 . 1 1 13 13 VAL HG13 H  1   0.767 . . . . . . . 13 VAL HG13 . 15449 1 
+      115 . 1 1 13 13 VAL HG21 H  1   0.986 . . . . . . . 13 VAL HG21 . 15449 1 
+      116 . 1 1 13 13 VAL HG22 H  1   0.986 . . . . . . . 13 VAL HG22 . 15449 1 
+      117 . 1 1 13 13 VAL HG23 H  1   0.986 . . . . . . . 13 VAL HG23 . 15449 1 
+      118 . 1 1 13 13 VAL CA   C 13  66.856 . . . . . . . 13 VAL CA   . 15449 1 
+      119 . 1 1 13 13 VAL CB   C 13  31.299 . . . . . . . 13 VAL CB   . 15449 1 
+      120 . 1 1 13 13 VAL CG1  C 13  21.973 . . . . . . . 13 VAL CG1  . 15449 1 
+      121 . 1 1 13 13 VAL CG2  C 13  23.861 . . . . . . . 13 VAL CG2  . 15449 1 
+      122 . 1 1 13 13 VAL N    N 15 118.490 . . . . . . . 13 VAL N    . 15449 1 
+      123 . 1 1 14 14 ALA H    H  1   8.815 . . . . . . . 14 ALA HN   . 15449 1 
+      124 . 1 1 14 14 ALA HA   H  1   3.845 . . . . . . . 14 ALA HA   . 15449 1 
+      125 . 1 1 14 14 ALA HB1  H  1   1.420 . . . . . . . 14 ALA HB1  . 15449 1 
+      126 . 1 1 14 14 ALA HB2  H  1   1.420 . . . . . . . 14 ALA HB2  . 15449 1 
+      127 . 1 1 14 14 ALA HB3  H  1   1.420 . . . . . . . 14 ALA HB3  . 15449 1 
+      128 . 1 1 14 14 ALA CA   C 13  56.073 . . . . . . . 14 ALA CA   . 15449 1 
+      129 . 1 1 14 14 ALA CB   C 13  17.486 . . . . . . . 14 ALA CB   . 15449 1 
+      130 . 1 1 14 14 ALA N    N 15 122.554 . . . . . . . 14 ALA N    . 15449 1 
+      131 . 1 1 15 15 HIS H    H  1   8.024 . . . . . . . 15 HIS HN   . 15449 1 
+      132 . 1 1 15 15 HIS HA   H  1   4.292 . . . . . . . 15 HIS HA   . 15449 1 
+      133 . 1 1 15 15 HIS HB2  H  1   3.261 . . . . . . . 15 HIS HB1  . 15449 1 
+      134 . 1 1 15 15 HIS HB3  H  1   3.261 . . . . . . . 15 HIS HB2  . 15449 1 
+      135 . 1 1 15 15 HIS CA   C 13  59.500 . . . . . . . 15 HIS CA   . 15449 1 
+      136 . 1 1 15 15 HIS CB   C 13  29.461 . . . . . . . 15 HIS CB   . 15449 1 
+      137 . 1 1 15 15 HIS N    N 15 115.248 . . . . . . . 15 HIS N    . 15449 1 
+      138 . 1 1 16 16 ILE H    H  1   7.594 . . . . . . . 16 ILE HN   . 15449 1 
+      139 . 1 1 16 16 ILE HA   H  1   3.585 . . . . . . . 16 ILE HA   . 15449 1 
+      140 . 1 1 16 16 ILE HB   H  1   2.002 . . . . . . . 16 ILE HB   . 15449 1 
+      141 . 1 1 16 16 ILE HD11 H  1   0.773 . . . . . . . 16 ILE HD11 . 15449 1 
+      142 . 1 1 16 16 ILE HD12 H  1   0.773 . . . . . . . 16 ILE HD12 . 15449 1 
+      143 . 1 1 16 16 ILE HD13 H  1   0.773 . . . . . . . 16 ILE HD13 . 15449 1 
+      144 . 1 1 16 16 ILE HG12 H  1   1.784 . . . . . . . 16 ILE HG11 . 15449 1 
+      145 . 1 1 16 16 ILE HG13 H  1   1.224 . . . . . . . 16 ILE HG12 . 15449 1 
+      146 . 1 1 16 16 ILE HG21 H  1   0.904 . . . . . . . 16 ILE HG21 . 15449 1 
+      147 . 1 1 16 16 ILE HG22 H  1   0.904 . . . . . . . 16 ILE HG22 . 15449 1 
+      148 . 1 1 16 16 ILE HG23 H  1   0.904 . . . . . . . 16 ILE HG23 . 15449 1 
+      149 . 1 1 16 16 ILE CA   C 13  65.173 . . . . . . . 16 ILE CA   . 15449 1 
+      150 . 1 1 16 16 ILE CB   C 13  38.299 . . . . . . . 16 ILE CB   . 15449 1 
+      151 . 1 1 16 16 ILE CD1  C 13  14.360 . . . . . . . 16 ILE CD1  . 15449 1 
+      152 . 1 1 16 16 ILE CG1  C 13  29.785 . . . . . . . 16 ILE CG1  . 15449 1 
+      153 . 1 1 16 16 ILE CG2  C 13  16.988 . . . . . . . 16 ILE CG2  . 15449 1 
+      154 . 1 1 16 16 ILE N    N 15 123.058 . . . . . . . 16 ILE N    . 15449 1 
+      155 . 1 1 17 17 LEU H    H  1   7.699 . . . . . . . 17 LEU HN   . 15449 1 
+      156 . 1 1 17 17 LEU HA   H  1   4.307 . . . . . . . 17 LEU HA   . 15449 1 
+      157 . 1 1 17 17 LEU HB2  H  1   1.818 . . . . . . . 17 LEU HB1  . 15449 1 
+      158 . 1 1 17 17 LEU HB3  H  1   1.529 . . . . . . . 17 LEU HB2  . 15449 1 
+      159 . 1 1 17 17 LEU HD11 H  1   0.770 . . . . . . . 17 LEU HD11 . 15449 1 
+      160 . 1 1 17 17 LEU HD12 H  1   0.770 . . . . . . . 17 LEU HD12 . 15449 1 
+      161 . 1 1 17 17 LEU HD13 H  1   0.770 . . . . . . . 17 LEU HD13 . 15449 1 
+      162 . 1 1 17 17 LEU HD21 H  1   0.771 . . . . . . . 17 LEU HD21 . 15449 1 
+      163 . 1 1 17 17 LEU HD22 H  1   0.771 . . . . . . . 17 LEU HD22 . 15449 1 
+      164 . 1 1 17 17 LEU HD23 H  1   0.771 . . . . . . . 17 LEU HD23 . 15449 1 
+      165 . 1 1 17 17 LEU HG   H  1   1.656 . . . . . . . 17 LEU HG   . 15449 1 
+      166 . 1 1 17 17 LEU CA   C 13  55.835 . . . . . . . 17 LEU CA   . 15449 1 
+      167 . 1 1 17 17 LEU CB   C 13  43.764 . . . . . . . 17 LEU CB   . 15449 1 
+      168 . 1 1 17 17 LEU CD1  C 13  24.303 . . . . . . . 17 LEU CD1  . 15449 1 
+      169 . 1 1 17 17 LEU CD2  C 13  24.303 . . . . . . . 17 LEU CD2  . 15449 1 
+      170 . 1 1 17 17 LEU CG   C 13  27.702 . . . . . . . 17 LEU CG   . 15449 1 
+      171 . 1 1 17 17 LEU N    N 15 116.966 . . . . . . . 17 LEU N    . 15449 1 
+      172 . 1 1 18 18 GLY H    H  1   7.738 . . . . . . . 18 GLY HN   . 15449 1 
+      173 . 1 1 18 18 GLY HA2  H  1   3.995 . . . . . . . 18 GLY HA1  . 15449 1 
+      174 . 1 1 18 18 GLY HA3  H  1   3.664 . . . . . . . 18 GLY HA2  . 15449 1 
+      175 . 1 1 18 18 GLY CA   C 13  45.724 . . . . . . . 18 GLY CA   . 15449 1 
+      176 . 1 1 18 18 GLY N    N 15 108.198 . . . . . . . 18 GLY N    . 15449 1 
+      177 . 1 1 19 19 ILE H    H  1   8.038 . . . . . . . 19 ILE HN   . 15449 1 
+      178 . 1 1 19 19 ILE HA   H  1   3.898 . . . . . . . 19 ILE HA   . 15449 1 
+      179 . 1 1 19 19 ILE HB   H  1   1.576 . . . . . . . 19 ILE HB   . 15449 1 
+      180 . 1 1 19 19 ILE HD11 H  1   0.842 . . . . . . . 19 ILE HD11 . 15449 1 
+      181 . 1 1 19 19 ILE HD12 H  1   0.842 . . . . . . . 19 ILE HD12 . 15449 1 
+      182 . 1 1 19 19 ILE HD13 H  1   0.842 . . . . . . . 19 ILE HD13 . 15449 1 
+      183 . 1 1 19 19 ILE HG12 H  1   1.460 . . . . . . . 19 ILE HG11 . 15449 1 
+      184 . 1 1 19 19 ILE HG13 H  1   1.014 . . . . . . . 19 ILE HG12 . 15449 1 
+      185 . 1 1 19 19 ILE HG21 H  1   0.701 . . . . . . . 19 ILE HG21 . 15449 1 
+      186 . 1 1 19 19 ILE HG22 H  1   0.701 . . . . . . . 19 ILE HG22 . 15449 1 
+      187 . 1 1 19 19 ILE HG23 H  1   0.701 . . . . . . . 19 ILE HG23 . 15449 1 
+      188 . 1 1 19 19 ILE CA   C 13  61.429 . . . . . . . 19 ILE CA   . 15449 1 
+      189 . 1 1 19 19 ILE CB   C 13  38.929 . . . . . . . 19 ILE CB   . 15449 1 
+      190 . 1 1 19 19 ILE CD1  C 13  14.209 . . . . . . . 19 ILE CD1  . 15449 1 
+      191 . 1 1 19 19 ILE CG1  C 13  27.176 . . . . . . . 19 ILE CG1  . 15449 1 
+      192 . 1 1 19 19 ILE CG2  C 13  17.636 . . . . . . . 19 ILE CG2  . 15449 1 
+      193 . 1 1 19 19 ILE N    N 15 121.417 . . . . . . . 19 ILE N    . 15449 1 
+      194 . 1 1 20 20 ARG H    H  1   8.546 . . . . . . . 20 ARG HN   . 15449 1 
+      195 . 1 1 20 20 ARG HA   H  1   4.187 . . . . . . . 20 ARG HA   . 15449 1 
+      196 . 1 1 20 20 ARG HB2  H  1   1.852 . . . . . . . 20 ARG HB1  . 15449 1 
+      197 . 1 1 20 20 ARG HB3  H  1   1.712 . . . . . . . 20 ARG HB2  . 15449 1 
+      198 . 1 1 20 20 ARG HD2  H  1   3.136 . . . . . . . 20 ARG HD1  . 15449 1 
+      199 . 1 1 20 20 ARG HD3  H  1   3.136 . . . . . . . 20 ARG HD2  . 15449 1 
+      200 . 1 1 20 20 ARG HG2  H  1   1.622 . . . . . . . 20 ARG HG1  . 15449 1 
+      201 . 1 1 20 20 ARG HG3  H  1   1.541 . . . . . . . 20 ARG HG2  . 15449 1 
+      202 . 1 1 20 20 ARG CA   C 13  57.081 . . . . . . . 20 ARG CA   . 15449 1 
+      203 . 1 1 20 20 ARG CB   C 13  30.849 . . . . . . . 20 ARG CB   . 15449 1 
+      204 . 1 1 20 20 ARG CD   C 13  43.092 . . . . . . . 20 ARG CD   . 15449 1 
+      205 . 1 1 20 20 ARG CG   C 13  27.303 . . . . . . . 20 ARG CG   . 15449 1 
+      206 . 1 1 20 20 ARG N    N 15 126.696 . . . . . . . 20 ARG N    . 15449 1 
+      207 . 1 1 21 21 ASP H    H  1   7.525 . . . . . . . 21 ASP HN   . 15449 1 
+      208 . 1 1 21 21 ASP HA   H  1   4.717 . . . . . . . 21 ASP HA   . 15449 1 
+      209 . 1 1 21 21 ASP HB2  H  1   2.680 . . . . . . . 21 ASP HB1  . 15449 1 
+      210 . 1 1 21 21 ASP HB3  H  1   2.489 . . . . . . . 21 ASP HB2  . 15449 1 
+      211 . 1 1 21 21 ASP CA   C 13  53.135 . . . . . . . 21 ASP CA   . 15449 1 
+      212 . 1 1 21 21 ASP CB   C 13  42.524 . . . . . . . 21 ASP CB   . 15449 1 
+      213 . 1 1 21 21 ASP N    N 15 118.282 . . . . . . . 21 ASP N    . 15449 1 
+      214 . 1 1 22 22 LEU H    H  1   8.531 . . . . . . . 22 LEU HN   . 15449 1 
+      215 . 1 1 22 22 LEU HA   H  1   3.982 . . . . . . . 22 LEU HA   . 15449 1 
+      216 . 1 1 22 22 LEU HB2  H  1   1.551 . . . . . . . 22 LEU HB1  . 15449 1 
+      217 . 1 1 22 22 LEU HB3  H  1   1.551 . . . . . . . 22 LEU HB2  . 15449 1 
+      218 . 1 1 22 22 LEU HD11 H  1   0.655 . . . . . . . 22 LEU HD11 . 15449 1 
+      219 . 1 1 22 22 LEU HD12 H  1   0.655 . . . . . . . 22 LEU HD12 . 15449 1 
+      220 . 1 1 22 22 LEU HD13 H  1   0.655 . . . . . . . 22 LEU HD13 . 15449 1 
+      221 . 1 1 22 22 LEU HD21 H  1   0.747 . . . . . . . 22 LEU HD21 . 15449 1 
+      222 . 1 1 22 22 LEU HD22 H  1   0.747 . . . . . . . 22 LEU HD22 . 15449 1 
+      223 . 1 1 22 22 LEU HD23 H  1   0.747 . . . . . . . 22 LEU HD23 . 15449 1 
+      224 . 1 1 22 22 LEU HG   H  1   1.531 . . . . . . . 22 LEU HG   . 15449 1 
+      225 . 1 1 22 22 LEU CA   C 13  55.941 . . . . . . . 22 LEU CA   . 15449 1 
+      226 . 1 1 22 22 LEU CB   C 13  42.382 . . . . . . . 22 LEU CB   . 15449 1 
+      227 . 1 1 22 22 LEU CD1  C 13  23.695 . . . . . . . 22 LEU CD1  . 15449 1 
+      228 . 1 1 22 22 LEU CD2  C 13  25.207 . . . . . . . 22 LEU CD2  . 15449 1 
+      229 . 1 1 22 22 LEU CG   C 13  27.606 . . . . . . . 22 LEU CG   . 15449 1 
+      230 . 1 1 22 22 LEU N    N 15 125.112 . . . . . . . 22 LEU N    . 15449 1 
+      231 . 1 1 23 23 ALA H    H  1   8.198 . . . . . . . 23 ALA HN   . 15449 1 
+      232 . 1 1 23 23 ALA HA   H  1   4.064 . . . . . . . 23 ALA HA   . 15449 1 
+      233 . 1 1 23 23 ALA HB1  H  1   1.335 . . . . . . . 23 ALA HB1  . 15449 1 
+      234 . 1 1 23 23 ALA HB2  H  1   1.335 . . . . . . . 23 ALA HB2  . 15449 1 
+      235 . 1 1 23 23 ALA HB3  H  1   1.335 . . . . . . . 23 ALA HB3  . 15449 1 
+      236 . 1 1 23 23 ALA CA   C 13  54.503 . . . . . . . 23 ALA CA   . 15449 1 
+      237 . 1 1 23 23 ALA CB   C 13  18.233 . . . . . . . 23 ALA CB   . 15449 1 
+      238 . 1 1 23 23 ALA N    N 15 123.095 . . . . . . . 23 ALA N    . 15449 1 
+      239 . 1 1 24 24 GLY H    H  1   8.230 . . . . . . . 24 GLY HN   . 15449 1 
+      240 . 1 1 24 24 GLY HA2  H  1   3.909 . . . . . . . 24 GLY HA1  . 15449 1 
+      241 . 1 1 24 24 GLY HA3  H  1   3.832 . . . . . . . 24 GLY HA2  . 15449 1 
+      242 . 1 1 24 24 GLY CA   C 13  45.288 . . . . . . . 24 GLY CA   . 15449 1 
+      243 . 1 1 24 24 GLY N    N 15 107.822 . . . . . . . 24 GLY N    . 15449 1 
+      244 . 1 1 25 25 ILE H    H  1   7.339 . . . . . . . 25 ILE HN   . 15449 1 
+      245 . 1 1 25 25 ILE HA   H  1   4.074 . . . . . . . 25 ILE HA   . 15449 1 
+      246 . 1 1 25 25 ILE HB   H  1   1.886 . . . . . . . 25 ILE HB   . 15449 1 
+      247 . 1 1 25 25 ILE HD11 H  1   0.766 . . . . . . . 25 ILE HD11 . 15449 1 
+      248 . 1 1 25 25 ILE HD12 H  1   0.766 . . . . . . . 25 ILE HD12 . 15449 1 
+      249 . 1 1 25 25 ILE HD13 H  1   0.766 . . . . . . . 25 ILE HD13 . 15449 1 
+      250 . 1 1 25 25 ILE HG12 H  1   1.325 . . . . . . . 25 ILE HG11 . 15449 1 
+      251 . 1 1 25 25 ILE HG13 H  1   1.285 . . . . . . . 25 ILE HG12 . 15449 1 
+      252 . 1 1 25 25 ILE HG21 H  1   0.763 . . . . . . . 25 ILE HG21 . 15449 1 
+      253 . 1 1 25 25 ILE HG22 H  1   0.763 . . . . . . . 25 ILE HG22 . 15449 1 
+      254 . 1 1 25 25 ILE HG23 H  1   0.763 . . . . . . . 25 ILE HG23 . 15449 1 
+      255 . 1 1 25 25 ILE CA   C 13  59.080 . . . . . . . 25 ILE CA   . 15449 1 
+      256 . 1 1 25 25 ILE CB   C 13  37.948 . . . . . . . 25 ILE CB   . 15449 1 
+      257 . 1 1 25 25 ILE CD1  C 13  11.769 . . . . . . . 25 ILE CD1  . 15449 1 
+      258 . 1 1 25 25 ILE CG1  C 13  28.097 . . . . . . . 25 ILE CG1  . 15449 1 
+      259 . 1 1 25 25 ILE CG2  C 13  18.374 . . . . . . . 25 ILE CG2  . 15449 1 
+      260 . 1 1 25 25 ILE N    N 15 120.777 . . . . . . . 25 ILE N    . 15449 1 
+      261 . 1 1 26 26 ASN H    H  1   8.447 . . . . . . . 26 ASN HN   . 15449 1 
+      262 . 1 1 26 26 ASN HA   H  1   4.607 . . . . . . . 26 ASN HA   . 15449 1 
+      263 . 1 1 26 26 ASN HB2  H  1   3.148 . . . . . . . 26 ASN HB1  . 15449 1 
+      264 . 1 1 26 26 ASN HB3  H  1   2.728 . . . . . . . 26 ASN HB2  . 15449 1 
+      265 . 1 1 26 26 ASN HD21 H  1   6.962 . . . . . . . 26 ASN HD21 . 15449 1 
+      266 . 1 1 26 26 ASN HD22 H  1   7.524 . . . . . . . 26 ASN HD22 . 15449 1 
+      267 . 1 1 26 26 ASN CA   C 13  52.970 . . . . . . . 26 ASN CA   . 15449 1 
+      268 . 1 1 26 26 ASN CB   C 13  38.109 . . . . . . . 26 ASN CB   . 15449 1 
+      269 . 1 1 26 26 ASN N    N 15 124.511 . . . . . . . 26 ASN N    . 15449 1 
+      270 . 1 1 26 26 ASN ND2  N 15 111.972 . . . . . . . 26 ASN ND2  . 15449 1 
+      271 . 1 1 27 27 LEU H    H  1   8.887 . . . . . . . 27 LEU HN   . 15449 1 
+      272 . 1 1 27 27 LEU HA   H  1   4.040 . . . . . . . 27 LEU HA   . 15449 1 
+      273 . 1 1 27 27 LEU HB2  H  1   1.671 . . . . . . . 27 LEU HB1  . 15449 1 
+      274 . 1 1 27 27 LEU HB3  H  1   1.305 . . . . . . . 27 LEU HB2  . 15449 1 
+      275 . 1 1 27 27 LEU HD11 H  1   0.708 . . . . . . . 27 LEU HD11 . 15449 1 
+      276 . 1 1 27 27 LEU HD12 H  1   0.708 . . . . . . . 27 LEU HD12 . 15449 1 
+      277 . 1 1 27 27 LEU HD13 H  1   0.708 . . . . . . . 27 LEU HD13 . 15449 1 
+      278 . 1 1 27 27 LEU HD21 H  1   0.869 . . . . . . . 27 LEU HD21 . 15449 1 
+      279 . 1 1 27 27 LEU HD22 H  1   0.869 . . . . . . . 27 LEU HD22 . 15449 1 
+      280 . 1 1 27 27 LEU HD23 H  1   0.869 . . . . . . . 27 LEU HD23 . 15449 1 
+      281 . 1 1 27 27 LEU HG   H  1   1.781 . . . . . . . 27 LEU HG   . 15449 1 
+      282 . 1 1 27 27 LEU CA   C 13  56.932 . . . . . . . 27 LEU CA   . 15449 1 
+      283 . 1 1 27 27 LEU CB   C 13  41.842 . . . . . . . 27 LEU CB   . 15449 1 
+      284 . 1 1 27 27 LEU CD1  C 13  22.831 . . . . . . . 27 LEU CD1  . 15449 1 
+      285 . 1 1 27 27 LEU CD2  C 13  25.533 . . . . . . . 27 LEU CD2  . 15449 1 
+      286 . 1 1 27 27 LEU CG   C 13  27.023 . . . . . . . 27 LEU CG   . 15449 1 
+      287 . 1 1 27 27 LEU N    N 15 127.749 . . . . . . . 27 LEU N    . 15449 1 
+      288 . 1 1 28 28 ASP H    H  1   8.340 . . . . . . . 28 ASP HN   . 15449 1 
+      289 . 1 1 28 28 ASP HA   H  1   4.953 . . . . . . . 28 ASP HA   . 15449 1 
+      290 . 1 1 28 28 ASP HB2  H  1   2.955 . . . . . . . 28 ASP HB1  . 15449 1 
+      291 . 1 1 28 28 ASP HB3  H  1   2.503 . . . . . . . 28 ASP HB2  . 15449 1 
+      292 . 1 1 28 28 ASP CA   C 13  54.548 . . . . . . . 28 ASP CA   . 15449 1 
+      293 . 1 1 28 28 ASP CB   C 13  41.602 . . . . . . . 28 ASP CB   . 15449 1 
+      294 . 1 1 28 28 ASP N    N 15 113.806 . . . . . . . 28 ASP N    . 15449 1 
+      295 . 1 1 29 29 SER H    H  1   7.360 . . . . . . . 29 SER HN   . 15449 1 
+      296 . 1 1 29 29 SER HA   H  1   4.526 . . . . . . . 29 SER HA   . 15449 1 
+      297 . 1 1 29 29 SER HB2  H  1   3.864 . . . . . . . 29 SER HB1  . 15449 1 
+      298 . 1 1 29 29 SER HB3  H  1   3.761 . . . . . . . 29 SER HB2  . 15449 1 
+      299 . 1 1 29 29 SER CA   C 13  59.215 . . . . . . . 29 SER CA   . 15449 1 
+      300 . 1 1 29 29 SER CB   C 13  64.184 . . . . . . . 29 SER CB   . 15449 1 
+      301 . 1 1 29 29 SER N    N 15 117.328 . . . . . . . 29 SER N    . 15449 1 
+      302 . 1 1 30 30 SER H    H  1   9.187 . . . . . . . 30 SER HN   . 15449 1 
+      303 . 1 1 30 30 SER HA   H  1   4.662 . . . . . . . 30 SER HA   . 15449 1 
+      304 . 1 1 30 30 SER HB2  H  1   4.482 . . . . . . . 30 SER HB1  . 15449 1 
+      305 . 1 1 30 30 SER HB3  H  1   3.983 . . . . . . . 30 SER HB2  . 15449 1 
+      306 . 1 1 30 30 SER CA   C 13  57.319 . . . . . . . 30 SER CA   . 15449 1 
+      307 . 1 1 30 30 SER CB   C 13  64.716 . . . . . . . 30 SER CB   . 15449 1 
+      308 . 1 1 30 30 SER N    N 15 120.930 . . . . . . . 30 SER N    . 15449 1 
+      309 . 1 1 31 31 LEU H    H  1   8.564 . . . . . . . 31 LEU HN   . 15449 1 
+      310 . 1 1 31 31 LEU HA   H  1   3.881 . . . . . . . 31 LEU HA   . 15449 1 
+      311 . 1 1 31 31 LEU HB2  H  1   1.884 . . . . . . . 31 LEU HB1  . 15449 1 
+      312 . 1 1 31 31 LEU HB3  H  1   1.289 . . . . . . . 31 LEU HB2  . 15449 1 
+      313 . 1 1 31 31 LEU HD11 H  1   0.585 . . . . . . . 31 LEU HD11 . 15449 1 
+      314 . 1 1 31 31 LEU HD12 H  1   0.585 . . . . . . . 31 LEU HD12 . 15449 1 
+      315 . 1 1 31 31 LEU HD13 H  1   0.585 . . . . . . . 31 LEU HD13 . 15449 1 
+      316 . 1 1 31 31 LEU HD21 H  1   0.854 . . . . . . . 31 LEU HD21 . 15449 1 
+      317 . 1 1 31 31 LEU HD22 H  1   0.854 . . . . . . . 31 LEU HD22 . 15449 1 
+      318 . 1 1 31 31 LEU HD23 H  1   0.854 . . . . . . . 31 LEU HD23 . 15449 1 
+      319 . 1 1 31 31 LEU HG   H  1   1.904 . . . . . . . 31 LEU HG   . 15449 1 
+      320 . 1 1 31 31 LEU CA   C 13  58.061 . . . . . . . 31 LEU CA   . 15449 1 
+      321 . 1 1 31 31 LEU CB   C 13  40.203 . . . . . . . 31 LEU CB   . 15449 1 
+      322 . 1 1 31 31 LEU CD1  C 13  21.730 . . . . . . . 31 LEU CD1  . 15449 1 
+      323 . 1 1 31 31 LEU CD2  C 13  25.902 . . . . . . . 31 LEU CD2  . 15449 1 
+      324 . 1 1 31 31 LEU CG   C 13  26.646 . . . . . . . 31 LEU CG   . 15449 1 
+      325 . 1 1 31 31 LEU N    N 15 118.437 . . . . . . . 31 LEU N    . 15449 1 
+      326 . 1 1 32 32 ALA H    H  1   8.468 . . . . . . . 32 ALA HN   . 15449 1 
+      327 . 1 1 32 32 ALA HA   H  1   4.081 . . . . . . . 32 ALA HA   . 15449 1 
+      328 . 1 1 32 32 ALA HB1  H  1   1.381 . . . . . . . 32 ALA HB1  . 15449 1 
+      329 . 1 1 32 32 ALA HB2  H  1   1.381 . . . . . . . 32 ALA HB2  . 15449 1 
+      330 . 1 1 32 32 ALA HB3  H  1   1.381 . . . . . . . 32 ALA HB3  . 15449 1 
+      331 . 1 1 32 32 ALA CA   C 13  55.817 . . . . . . . 32 ALA CA   . 15449 1 
+      332 . 1 1 32 32 ALA CB   C 13  18.347 . . . . . . . 32 ALA CB   . 15449 1 
+      333 . 1 1 32 32 ALA N    N 15 120.280 . . . . . . . 32 ALA N    . 15449 1 
+      334 . 1 1 33 33 ASP H    H  1   8.062 . . . . . . . 33 ASP HN   . 15449 1 
+      335 . 1 1 33 33 ASP HA   H  1   4.374 . . . . . . . 33 ASP HA   . 15449 1 
+      336 . 1 1 33 33 ASP HB2  H  1   3.031 . . . . . . . 33 ASP HB1  . 15449 1 
+      337 . 1 1 33 33 ASP HB3  H  1   2.677 . . . . . . . 33 ASP HB2  . 15449 1 
+      338 . 1 1 33 33 ASP CA   C 13  57.144 . . . . . . . 33 ASP CA   . 15449 1 
+      339 . 1 1 33 33 ASP CB   C 13  39.898 . . . . . . . 33 ASP CB   . 15449 1 
+      340 . 1 1 33 33 ASP N    N 15 121.663 . . . . . . . 33 ASP N    . 15449 1 
+      341 . 1 1 34 34 LEU H    H  1   7.556 . . . . . . . 34 LEU HN   . 15449 1 
+      342 . 1 1 34 34 LEU HA   H  1   4.308 . . . . . . . 34 LEU HA   . 15449 1 
+      343 . 1 1 34 34 LEU HB2  H  1   1.876 . . . . . . . 34 LEU HB1  . 15449 1 
+      344 . 1 1 34 34 LEU HB3  H  1   1.655 . . . . . . . 34 LEU HB2  . 15449 1 
+      345 . 1 1 34 34 LEU HD11 H  1   0.720 . . . . . . . 34 LEU HD11 . 15449 1 
+      346 . 1 1 34 34 LEU HD12 H  1   0.720 . . . . . . . 34 LEU HD12 . 15449 1 
+      347 . 1 1 34 34 LEU HD13 H  1   0.720 . . . . . . . 34 LEU HD13 . 15449 1 
+      348 . 1 1 34 34 LEU HD21 H  1   0.860 . . . . . . . 34 LEU HD21 . 15449 1 
+      349 . 1 1 34 34 LEU HD22 H  1   0.860 . . . . . . . 34 LEU HD22 . 15449 1 
+      350 . 1 1 34 34 LEU HD23 H  1   0.860 . . . . . . . 34 LEU HD23 . 15449 1 
+      351 . 1 1 34 34 LEU HG   H  1   1.746 . . . . . . . 34 LEU HG   . 15449 1 
+      352 . 1 1 34 34 LEU CA   C 13  54.960 . . . . . . . 34 LEU CA   . 15449 1 
+      353 . 1 1 34 34 LEU CB   C 13  42.577 . . . . . . . 34 LEU CB   . 15449 1 
+      354 . 1 1 34 34 LEU CD1  C 13  26.009 . . . . . . . 34 LEU CD1  . 15449 1 
+      355 . 1 1 34 34 LEU CD2  C 13  22.306 . . . . . . . 34 LEU CD2  . 15449 1 
+      356 . 1 1 34 34 LEU CG   C 13  26.200 . . . . . . . 34 LEU CG   . 15449 1 
+      357 . 1 1 34 34 LEU N    N 15 118.533 . . . . . . . 34 LEU N    . 15449 1 
+      358 . 1 1 35 35 GLY H    H  1   7.591 . . . . . . . 35 GLY HN   . 15449 1 
+      359 . 1 1 35 35 GLY HA2  H  1   4.312 . . . . . . . 35 GLY HA1  . 15449 1 
+      360 . 1 1 35 35 GLY HA3  H  1   3.608 . . . . . . . 35 GLY HA2  . 15449 1 
+      361 . 1 1 35 35 GLY CA   C 13  44.911 . . . . . . . 35 GLY CA   . 15449 1 
+      362 . 1 1 35 35 GLY N    N 15 105.165 . . . . . . . 35 GLY N    . 15449 1 
+      363 . 1 1 36 36 LEU H    H  1   7.693 . . . . . . . 36 LEU HN   . 15449 1 
+      364 . 1 1 36 36 LEU HA   H  1   4.151 . . . . . . . 36 LEU HA   . 15449 1 
+      365 . 1 1 36 36 LEU HB2  H  1   1.445 . . . . . . . 36 LEU HB1  . 15449 1 
+      366 . 1 1 36 36 LEU HB3  H  1   1.179 . . . . . . . 36 LEU HB2  . 15449 1 
+      367 . 1 1 36 36 LEU HD11 H  1   0.703 . . . . . . . 36 LEU HD11 . 15449 1 
+      368 . 1 1 36 36 LEU HD12 H  1   0.703 . . . . . . . 36 LEU HD12 . 15449 1 
+      369 . 1 1 36 36 LEU HD13 H  1   0.703 . . . . . . . 36 LEU HD13 . 15449 1 
+      370 . 1 1 36 36 LEU HD21 H  1   0.733 . . . . . . . 36 LEU HD21 . 15449 1 
+      371 . 1 1 36 36 LEU HD22 H  1   0.733 . . . . . . . 36 LEU HD22 . 15449 1 
+      372 . 1 1 36 36 LEU HD23 H  1   0.733 . . . . . . . 36 LEU HD23 . 15449 1 
+      373 . 1 1 36 36 LEU HG   H  1   1.736 . . . . . . . 36 LEU HG   . 15449 1 
+      374 . 1 1 36 36 LEU CA   C 13  56.861 . . . . . . . 36 LEU CA   . 15449 1 
+      375 . 1 1 36 36 LEU CB   C 13  43.130 . . . . . . . 36 LEU CB   . 15449 1 
+      376 . 1 1 36 36 LEU CD1  C 13  26.648 . . . . . . . 36 LEU CD1  . 15449 1 
+      377 . 1 1 36 36 LEU CD2  C 13  27.708 . . . . . . . 36 LEU CD2  . 15449 1 
+      378 . 1 1 36 36 LEU CG   C 13  25.873 . . . . . . . 36 LEU CG   . 15449 1 
+      379 . 1 1 36 36 LEU N    N 15 121.266 . . . . . . . 36 LEU N    . 15449 1 
+      380 . 1 1 37 37 ASP H    H  1   7.862 . . . . . . . 37 ASP HN   . 15449 1 
+      381 . 1 1 37 37 ASP HA   H  1   4.900 . . . . . . . 37 ASP HA   . 15449 1 
+      382 . 1 1 37 37 ASP HB2  H  1   3.297 . . . . . . . 37 ASP HB1  . 15449 1 
+      383 . 1 1 37 37 ASP HB3  H  1   2.715 . . . . . . . 37 ASP HB2  . 15449 1 
+      384 . 1 1 37 37 ASP CA   C 13  52.600 . . . . . . . 37 ASP CA   . 15449 1 
+      385 . 1 1 37 37 ASP CB   C 13  41.468 . . . . . . . 37 ASP CB   . 15449 1 
+      386 . 1 1 37 37 ASP N    N 15 131.840 . . . . . . . 37 ASP N    . 15449 1 
+      387 . 1 1 38 38 SER H    H  1   8.367 . . . . . . . 38 SER HN   . 15449 1 
+      388 . 1 1 38 38 SER CA   C 13  62.731 . . . . . . . 38 SER CA   . 15449 1 
+      389 . 1 1 38 38 SER N    N 15 113.250 . . . . . . . 38 SER N    . 15449 1 
+      390 . 1 1 39 39 LEU H    H  1   7.794 . . . . . . . 39 LEU HN   . 15449 1 
+      391 . 1 1 39 39 LEU HA   H  1   4.176 . . . . . . . 39 LEU HA   . 15449 1 
+      392 . 1 1 39 39 LEU HB2  H  1   1.866 . . . . . . . 39 LEU HB1  . 15449 1 
+      393 . 1 1 39 39 LEU HB3  H  1   1.650 . . . . . . . 39 LEU HB2  . 15449 1 
+      394 . 1 1 39 39 LEU HD11 H  1   0.864 . . . . . . . 39 LEU HD11 . 15449 1 
+      395 . 1 1 39 39 LEU HD12 H  1   0.864 . . . . . . . 39 LEU HD12 . 15449 1 
+      396 . 1 1 39 39 LEU HD13 H  1   0.864 . . . . . . . 39 LEU HD13 . 15449 1 
+      397 . 1 1 39 39 LEU HD21 H  1   0.922 . . . . . . . 39 LEU HD21 . 15449 1 
+      398 . 1 1 39 39 LEU HD22 H  1   0.922 . . . . . . . 39 LEU HD22 . 15449 1 
+      399 . 1 1 39 39 LEU HD23 H  1   0.922 . . . . . . . 39 LEU HD23 . 15449 1 
+      400 . 1 1 39 39 LEU HG   H  1   1.652 . . . . . . . 39 LEU HG   . 15449 1 
+      401 . 1 1 39 39 LEU CA   C 13  58.012 . . . . . . . 39 LEU CA   . 15449 1 
+      402 . 1 1 39 39 LEU CB   C 13  41.399 . . . . . . . 39 LEU CB   . 15449 1 
+      403 . 1 1 39 39 LEU CD1  C 13  23.678 . . . . . . . 39 LEU CD1  . 15449 1 
+      404 . 1 1 39 39 LEU CD2  C 13  24.758 . . . . . . . 39 LEU CD2  . 15449 1 
+      405 . 1 1 39 39 LEU CG   C 13  27.347 . . . . . . . 39 LEU CG   . 15449 1 
+      406 . 1 1 39 39 LEU N    N 15 124.295 . . . . . . . 39 LEU N    . 15449 1 
+      407 . 1 1 40 40 MET H    H  1   9.308 . . . . . . . 40 MET HN   . 15449 1 
+      408 . 1 1 40 40 MET HA   H  1   4.067 . . . . . . . 40 MET HA   . 15449 1 
+      409 . 1 1 40 40 MET HB2  H  1   1.882 . . . . . . . 40 MET HB1  . 15449 1 
+      410 . 1 1 40 40 MET HB3  H  1   1.799 . . . . . . . 40 MET HB2  . 15449 1 
+      411 . 1 1 40 40 MET HG2  H  1   2.920 . . . . . . . 40 MET HG1  . 15449 1 
+      412 . 1 1 40 40 MET HG3  H  1   2.514 . . . . . . . 40 MET HG2  . 15449 1 
+      413 . 1 1 40 40 MET CA   C 13  58.878 . . . . . . . 40 MET CA   . 15449 1 
+      414 . 1 1 40 40 MET CB   C 13  34.111 . . . . . . . 40 MET CB   . 15449 1 
+      415 . 1 1 40 40 MET CG   C 13  32.579 . . . . . . . 40 MET CG   . 15449 1 
+      416 . 1 1 40 40 MET N    N 15 121.194 . . . . . . . 40 MET N    . 15449 1 
+      417 . 1 1 41 41 GLY H    H  1   8.347 . . . . . . . 41 GLY HN   . 15449 1 
+      418 . 1 1 41 41 GLY HA2  H  1   3.785 . . . . . . . 41 GLY HA1  . 15449 1 
+      419 . 1 1 41 41 GLY HA3  H  1   3.492 . . . . . . . 41 GLY HA2  . 15449 1 
+      420 . 1 1 41 41 GLY CA   C 13  47.948 . . . . . . . 41 GLY CA   . 15449 1 
+      421 . 1 1 41 41 GLY N    N 15 104.611 . . . . . . . 41 GLY N    . 15449 1 
+      422 . 1 1 42 42 VAL H    H  1   7.376 . . . . . . . 42 VAL HN   . 15449 1 
+      423 . 1 1 42 42 VAL HA   H  1   3.564 . . . . . . . 42 VAL HA   . 15449 1 
+      424 . 1 1 42 42 VAL HB   H  1   2.256 . . . . . . . 42 VAL HB   . 15449 1 
+      425 . 1 1 42 42 VAL HG11 H  1   0.941 . . . . . . . 42 VAL HG11 . 15449 1 
+      426 . 1 1 42 42 VAL HG12 H  1   0.941 . . . . . . . 42 VAL HG12 . 15449 1 
+      427 . 1 1 42 42 VAL HG13 H  1   0.941 . . . . . . . 42 VAL HG13 . 15449 1 
+      428 . 1 1 42 42 VAL HG21 H  1   1.138 . . . . . . . 42 VAL HG21 . 15449 1 
+      429 . 1 1 42 42 VAL HG22 H  1   1.138 . . . . . . . 42 VAL HG22 . 15449 1 
+      430 . 1 1 42 42 VAL HG23 H  1   1.138 . . . . . . . 42 VAL HG23 . 15449 1 
+      431 . 1 1 42 42 VAL CA   C 13  66.748 . . . . . . . 42 VAL CA   . 15449 1 
+      432 . 1 1 42 42 VAL CB   C 13  31.984 . . . . . . . 42 VAL CB   . 15449 1 
+      433 . 1 1 42 42 VAL CG1  C 13  21.092 . . . . . . . 42 VAL CG1  . 15449 1 
+      434 . 1 1 42 42 VAL CG2  C 13  22.703 . . . . . . . 42 VAL CG2  . 15449 1 
+      435 . 1 1 42 42 VAL N    N 15 121.359 . . . . . . . 42 VAL N    . 15449 1 
+      436 . 1 1 43 43 GLU H    H  1   7.351 . . . . . . . 43 GLU HN   . 15449 1 
+      437 . 1 1 43 43 GLU HA   H  1   4.090 . . . . . . . 43 GLU HA   . 15449 1 
+      438 . 1 1 43 43 GLU HB2  H  1   2.203 . . . . . . . 43 GLU HB1  . 15449 1 
+      439 . 1 1 43 43 GLU HB3  H  1   2.118 . . . . . . . 43 GLU HB2  . 15449 1 
+      440 . 1 1 43 43 GLU HG2  H  1   2.394 . . . . . . . 43 GLU HG1  . 15449 1 
+      441 . 1 1 43 43 GLU HG3  H  1   2.258 . . . . . . . 43 GLU HG2  . 15449 1 
+      442 . 1 1 43 43 GLU CA   C 13  59.607 . . . . . . . 43 GLU CA   . 15449 1 
+      443 . 1 1 43 43 GLU CB   C 13  29.587 . . . . . . . 43 GLU CB   . 15449 1 
+      444 . 1 1 43 43 GLU CG   C 13  36.071 . . . . . . . 43 GLU CG   . 15449 1 
+      445 . 1 1 43 43 GLU N    N 15 119.853 . . . . . . . 43 GLU N    . 15449 1 
+      446 . 1 1 44 44 VAL H    H  1   8.408 . . . . . . . 44 VAL HN   . 15449 1 
+      447 . 1 1 44 44 VAL HA   H  1   3.456 . . . . . . . 44 VAL HA   . 15449 1 
+      448 . 1 1 44 44 VAL HB   H  1   1.981 . . . . . . . 44 VAL HB   . 15449 1 
+      449 . 1 1 44 44 VAL HG11 H  1   0.723 . . . . . . . 44 VAL HG11 . 15449 1 
+      450 . 1 1 44 44 VAL HG12 H  1   0.723 . . . . . . . 44 VAL HG12 . 15449 1 
+      451 . 1 1 44 44 VAL HG13 H  1   0.723 . . . . . . . 44 VAL HG13 . 15449 1 
+      452 . 1 1 44 44 VAL HG21 H  1   0.993 . . . . . . . 44 VAL HG21 . 15449 1 
+      453 . 1 1 44 44 VAL HG22 H  1   0.993 . . . . . . . 44 VAL HG22 . 15449 1 
+      454 . 1 1 44 44 VAL HG23 H  1   0.993 . . . . . . . 44 VAL HG23 . 15449 1 
+      455 . 1 1 44 44 VAL CA   C 13  67.073 . . . . . . . 44 VAL CA   . 15449 1 
+      456 . 1 1 44 44 VAL CB   C 13  31.686 . . . . . . . 44 VAL CB   . 15449 1 
+      457 . 1 1 44 44 VAL CG1  C 13  21.743 . . . . . . . 44 VAL CG1  . 15449 1 
+      458 . 1 1 44 44 VAL CG2  C 13  24.378 . . . . . . . 44 VAL CG2  . 15449 1 
+      459 . 1 1 44 44 VAL N    N 15 118.516 . . . . . . . 44 VAL N    . 15449 1 
+      460 . 1 1 45 45 ARG H    H  1   8.400 . . . . . . . 45 ARG HN   . 15449 1 
+      461 . 1 1 45 45 ARG HA   H  1   3.827 . . . . . . . 45 ARG HA   . 15449 1 
+      462 . 1 1 45 45 ARG HB2  H  1   2.100 . . . . . . . 45 ARG HB1  . 15449 1 
+      463 . 1 1 45 45 ARG HB3  H  1   1.849 . . . . . . . 45 ARG HB2  . 15449 1 
+      464 . 1 1 45 45 ARG HD2  H  1   3.147 . . . . . . . 45 ARG HD1  . 15449 1 
+      465 . 1 1 45 45 ARG HD3  H  1   3.147 . . . . . . . 45 ARG HD2  . 15449 1 
+      466 . 1 1 45 45 ARG HE   H  1   7.366 . . . . . . . 45 ARG HE   . 15449 1 
+      467 . 1 1 45 45 ARG HG2  H  1   1.954 . . . . . . . 45 ARG HG1  . 15449 1 
+      468 . 1 1 45 45 ARG HG3  H  1   1.666 . . . . . . . 45 ARG HG2  . 15449 1 
+      469 . 1 1 45 45 ARG CA   C 13  60.509 . . . . . . . 45 ARG CA   . 15449 1 
+      470 . 1 1 45 45 ARG CB   C 13  30.318 . . . . . . . 45 ARG CB   . 15449 1 
+      471 . 1 1 45 45 ARG CD   C 13  44.222 . . . . . . . 45 ARG CD   . 15449 1 
+      472 . 1 1 45 45 ARG CG   C 13  27.711 . . . . . . . 45 ARG CG   . 15449 1 
+      473 . 1 1 45 45 ARG N    N 15 119.390 . . . . . . . 45 ARG N    . 15449 1 
+      474 . 1 1 46 46 GLN H    H  1   8.099 . . . . . . . 46 GLN HN   . 15449 1 
+      475 . 1 1 46 46 GLN HA   H  1   4.243 . . . . . . . 46 GLN HA   . 15449 1 
+      476 . 1 1 46 46 GLN HB2  H  1   2.297 . . . . . . . 46 GLN HB1  . 15449 1 
+      477 . 1 1 46 46 GLN HB3  H  1   2.123 . . . . . . . 46 GLN HB2  . 15449 1 
+      478 . 1 1 46 46 GLN HE21 H  1   6.845 . . . . . . . 46 GLN HE21 . 15449 1 
+      479 . 1 1 46 46 GLN HE22 H  1   7.338 . . . . . . . 46 GLN HE22 . 15449 1 
+      480 . 1 1 46 46 GLN HG2  H  1   2.577 . . . . . . . 46 GLN HG1  . 15449 1 
+      481 . 1 1 46 46 GLN HG3  H  1   2.390 . . . . . . . 46 GLN HG2  . 15449 1 
+      482 . 1 1 46 46 GLN CA   C 13  59.357 . . . . . . . 46 GLN CA   . 15449 1 
+      483 . 1 1 46 46 GLN CB   C 13  28.830 . . . . . . . 46 GLN CB   . 15449 1 
+      484 . 1 1 46 46 GLN CG   C 13  34.721 . . . . . . . 46 GLN CG   . 15449 1 
+      485 . 1 1 46 46 GLN N    N 15 117.975 . . . . . . . 46 GLN N    . 15449 1 
+      486 . 1 1 47 47 ILE H    H  1   7.938 . . . . . . . 47 ILE HN   . 15449 1 
+      487 . 1 1 47 47 ILE HA   H  1   3.790 . . . . . . . 47 ILE HA   . 15449 1 
+      488 . 1 1 47 47 ILE HB   H  1   1.890 . . . . . . . 47 ILE HB   . 15449 1 
+      489 . 1 1 47 47 ILE HD11 H  1   0.788 . . . . . . . 47 ILE HD11 . 15449 1 
+      490 . 1 1 47 47 ILE HD12 H  1   0.788 . . . . . . . 47 ILE HD12 . 15449 1 
+      491 . 1 1 47 47 ILE HD13 H  1   0.788 . . . . . . . 47 ILE HD13 . 15449 1 
+      492 . 1 1 47 47 ILE HG12 H  1   1.812 . . . . . . . 47 ILE HG11 . 15449 1 
+      493 . 1 1 47 47 ILE HG13 H  1   1.109 . . . . . . . 47 ILE HG12 . 15449 1 
+      494 . 1 1 47 47 ILE HG21 H  1   0.873 . . . . . . . 47 ILE HG21 . 15449 1 
+      495 . 1 1 47 47 ILE HG22 H  1   0.873 . . . . . . . 47 ILE HG22 . 15449 1 
+      496 . 1 1 47 47 ILE HG23 H  1   0.873 . . . . . . . 47 ILE HG23 . 15449 1 
+      497 . 1 1 47 47 ILE CA   C 13  65.778 . . . . . . . 47 ILE CA   . 15449 1 
+      498 . 1 1 47 47 ILE CB   C 13  38.423 . . . . . . . 47 ILE CB   . 15449 1 
+      499 . 1 1 47 47 ILE CD1  C 13  14.342 . . . . . . . 47 ILE CD1  . 15449 1 
+      500 . 1 1 47 47 ILE CG1  C 13  29.198 . . . . . . . 47 ILE CG1  . 15449 1 
+      501 . 1 1 47 47 ILE CG2  C 13  17.341 . . . . . . . 47 ILE CG2  . 15449 1 
+      502 . 1 1 47 47 ILE N    N 15 120.727 . . . . . . . 47 ILE N    . 15449 1 
+      503 . 1 1 48 48 LEU H    H  1   8.128 . . . . . . . 48 LEU HN   . 15449 1 
+      504 . 1 1 48 48 LEU HA   H  1   3.967 . . . . . . . 48 LEU HA   . 15449 1 
+      505 . 1 1 48 48 LEU HB2  H  1   2.035 . . . . . . . 48 LEU HB1  . 15449 1 
+      506 . 1 1 48 48 LEU HB3  H  1   1.590 . . . . . . . 48 LEU HB2  . 15449 1 
+      507 . 1 1 48 48 LEU HD11 H  1   0.690 . . . . . . . 48 LEU HD11 . 15449 1 
+      508 . 1 1 48 48 LEU HD12 H  1   0.690 . . . . . . . 48 LEU HD12 . 15449 1 
+      509 . 1 1 48 48 LEU HD13 H  1   0.690 . . . . . . . 48 LEU HD13 . 15449 1 
+      510 . 1 1 48 48 LEU HG   H  1   1.810 . . . . . . . 48 LEU HG   . 15449 1 
+      511 . 1 1 48 48 LEU CA   C 13  58.686 . . . . . . . 48 LEU CA   . 15449 1 
+      512 . 1 1 48 48 LEU CB   C 13  40.950 . . . . . . . 48 LEU CB   . 15449 1 
+      513 . 1 1 48 48 LEU CD1  C 13  23.577 . . . . . . . 48 LEU CD1  . 15449 1 
+      514 . 1 1 48 48 LEU CD2  C 13  26.630 . . . . . . . 48 LEU CD2  . 15449 1 
+      515 . 1 1 48 48 LEU CG   C 13  27.028 . . . . . . . 48 LEU CG   . 15449 1 
+      516 . 1 1 48 48 LEU N    N 15 119.815 . . . . . . . 48 LEU N    . 15449 1 
+      517 . 1 1 49 49 GLU H    H  1   7.919 . . . . . . . 49 GLU HN   . 15449 1 
+      518 . 1 1 49 49 GLU HA   H  1   3.837 . . . . . . . 49 GLU HA   . 15449 1 
+      519 . 1 1 49 49 GLU HB2  H  1   2.088 . . . . . . . 49 GLU HB1  . 15449 1 
+      520 . 1 1 49 49 GLU HB3  H  1   2.088 . . . . . . . 49 GLU HB2  . 15449 1 
+      521 . 1 1 49 49 GLU HG2  H  1   2.176 . . . . . . . 49 GLU HG1  . 15449 1 
+      522 . 1 1 49 49 GLU HG3  H  1   2.070 . . . . . . . 49 GLU HG2  . 15449 1 
+      523 . 1 1 49 49 GLU CA   C 13  60.109 . . . . . . . 49 GLU CA   . 15449 1 
+      524 . 1 1 49 49 GLU CB   C 13  30.023 . . . . . . . 49 GLU CB   . 15449 1 
+      525 . 1 1 49 49 GLU CG   C 13  36.264 . . . . . . . 49 GLU CG   . 15449 1 
+      526 . 1 1 49 49 GLU N    N 15 120.181 . . . . . . . 49 GLU N    . 15449 1 
+      527 . 1 1 50 50 ARG H    H  1   8.476 . . . . . . . 50 ARG HN   . 15449 1 
+      528 . 1 1 50 50 ARG HA   H  1   4.096 . . . . . . . 50 ARG HA   . 15449 1 
+      529 . 1 1 50 50 ARG HB2  H  1   1.963 . . . . . . . 50 ARG HB1  . 15449 1 
+      530 . 1 1 50 50 ARG HB3  H  1   1.878 . . . . . . . 50 ARG HB2  . 15449 1 
+      531 . 1 1 50 50 ARG HD2  H  1   3.175 . . . . . . . 50 ARG HD1  . 15449 1 
+      532 . 1 1 50 50 ARG HD3  H  1   3.175 . . . . . . . 50 ARG HD2  . 15449 1 
+      533 . 1 1 50 50 ARG HE   H  1   7.356 . . . . . . . 50 ARG HE   . 15449 1 
+      534 . 1 1 50 50 ARG HG2  H  1   1.781 . . . . . . . 50 ARG HG1  . 15449 1 
+      535 . 1 1 50 50 ARG HG3  H  1   1.608 . . . . . . . 50 ARG HG2  . 15449 1 
+      536 . 1 1 50 50 ARG CA   C 13  59.054 . . . . . . . 50 ARG CA   . 15449 1 
+      537 . 1 1 50 50 ARG CB   C 13  31.323 . . . . . . . 50 ARG CB   . 15449 1 
+      538 . 1 1 50 50 ARG CD   C 13  43.616 . . . . . . . 50 ARG CD   . 15449 1 
+      539 . 1 1 50 50 ARG CG   C 13  27.729 . . . . . . . 50 ARG CG   . 15449 1 
+      540 . 1 1 50 50 ARG N    N 15 117.871 . . . . . . . 50 ARG N    . 15449 1 
+      541 . 1 1 51 51 GLU H    H  1   8.539 . . . . . . . 51 GLU HN   . 15449 1 
+      542 . 1 1 51 51 GLU HA   H  1   4.351 . . . . . . . 51 GLU HA   . 15449 1 
+      543 . 1 1 51 51 GLU HB2  H  1   1.929 . . . . . . . 51 GLU HB1  . 15449 1 
+      544 . 1 1 51 51 GLU HB3  H  1   1.813 . . . . . . . 51 GLU HB2  . 15449 1 
+      545 . 1 1 51 51 GLU HG2  H  1   2.230 . . . . . . . 51 GLU HG1  . 15449 1 
+      546 . 1 1 51 51 GLU HG3  H  1   2.230 . . . . . . . 51 GLU HG2  . 15449 1 
+      547 . 1 1 51 51 GLU CA   C 13  56.789 . . . . . . . 51 GLU CA   . 15449 1 
+      548 . 1 1 51 51 GLU CB   C 13  30.452 . . . . . . . 51 GLU CB   . 15449 1 
+      549 . 1 1 51 51 GLU CG   C 13  36.734 . . . . . . . 51 GLU CG   . 15449 1 
+      550 . 1 1 51 51 GLU N    N 15 113.618 . . . . . . . 51 GLU N    . 15449 1 
+      551 . 1 1 52 52 HIS H    H  1   7.134 . . . . . . . 52 HIS HN   . 15449 1 
+      552 . 1 1 52 52 HIS HA   H  1   4.715 . . . . . . . 52 HIS HA   . 15449 1 
+      553 . 1 1 52 52 HIS HB2  H  1   3.415 . . . . . . . 52 HIS HB1  . 15449 1 
+      554 . 1 1 52 52 HIS HB3  H  1   3.043 . . . . . . . 52 HIS HB2  . 15449 1 
+      555 . 1 1 52 52 HIS CA   C 13  55.625 . . . . . . . 52 HIS CA   . 15449 1 
+      556 . 1 1 52 52 HIS CB   C 13  31.816 . . . . . . . 52 HIS CB   . 15449 1 
+      557 . 1 1 52 52 HIS N    N 15 114.219 . . . . . . . 52 HIS N    . 15449 1 
+      558 . 1 1 53 53 ASP H    H  1   7.627 . . . . . . . 53 ASP HN   . 15449 1 
+      559 . 1 1 53 53 ASP HA   H  1   4.500 . . . . . . . 53 ASP HA   . 15449 1 
+      560 . 1 1 53 53 ASP HB2  H  1   3.004 . . . . . . . 53 ASP HB1  . 15449 1 
+      561 . 1 1 53 53 ASP HB3  H  1   2.529 . . . . . . . 53 ASP HB2  . 15449 1 
+      562 . 1 1 53 53 ASP CA   C 13  55.561 . . . . . . . 53 ASP CA   . 15449 1 
+      563 . 1 1 53 53 ASP CB   C 13  39.954 . . . . . . . 53 ASP CB   . 15449 1 
+      564 . 1 1 53 53 ASP N    N 15 118.143 . . . . . . . 53 ASP N    . 15449 1 
+      565 . 1 1 54 54 LEU H    H  1   7.625 . . . . . . . 54 LEU HN   . 15449 1 
+      566 . 1 1 54 54 LEU HA   H  1   4.588 . . . . . . . 54 LEU HA   . 15449 1 
+      567 . 1 1 54 54 LEU HB2  H  1   1.357 . . . . . . . 54 LEU HB1  . 15449 1 
+      568 . 1 1 54 54 LEU HB3  H  1   1.272 . . . . . . . 54 LEU HB2  . 15449 1 
+      569 . 1 1 54 54 LEU HD11 H  1   0.842 . . . . . . . 54 LEU HD11 . 15449 1 
+      570 . 1 1 54 54 LEU HD12 H  1   0.842 . . . . . . . 54 LEU HD12 . 15449 1 
+      571 . 1 1 54 54 LEU HD13 H  1   0.842 . . . . . . . 54 LEU HD13 . 15449 1 
+      572 . 1 1 54 54 LEU HD21 H  1   0.846 . . . . . . . 54 LEU HD21 . 15449 1 
+      573 . 1 1 54 54 LEU HD22 H  1   0.846 . . . . . . . 54 LEU HD22 . 15449 1 
+      574 . 1 1 54 54 LEU HD23 H  1   0.846 . . . . . . . 54 LEU HD23 . 15449 1 
+      575 . 1 1 54 54 LEU HG   H  1   1.381 . . . . . . . 54 LEU HG   . 15449 1 
+      576 . 1 1 54 54 LEU CA   C 13  53.878 . . . . . . . 54 LEU CA   . 15449 1 
+      577 . 1 1 54 54 LEU CB   C 13  44.713 . . . . . . . 54 LEU CB   . 15449 1 
+      578 . 1 1 54 54 LEU CD1  C 13  25.321 . . . . . . . 54 LEU CD1  . 15449 1 
+      579 . 1 1 54 54 LEU CD2  C 13  25.321 . . . . . . . 54 LEU CD2  . 15449 1 
+      580 . 1 1 54 54 LEU CG   C 13  26.860 . . . . . . . 54 LEU CG   . 15449 1 
+      581 . 1 1 54 54 LEU N    N 15 120.286 . . . . . . . 54 LEU N    . 15449 1 
+      582 . 1 1 55 55 VAL H    H  1   8.536 . . . . . . . 55 VAL HN   . 15449 1 
+      583 . 1 1 55 55 VAL HA   H  1   3.992 . . . . . . . 55 VAL HA   . 15449 1 
+      584 . 1 1 55 55 VAL HB   H  1   1.937 . . . . . . . 55 VAL HB   . 15449 1 
+      585 . 1 1 55 55 VAL HG11 H  1   0.748 . . . . . . . 55 VAL HG11 . 15449 1 
+      586 . 1 1 55 55 VAL HG12 H  1   0.748 . . . . . . . 55 VAL HG12 . 15449 1 
+      587 . 1 1 55 55 VAL HG13 H  1   0.748 . . . . . . . 55 VAL HG13 . 15449 1 
+      588 . 1 1 55 55 VAL HG21 H  1   0.798 . . . . . . . 55 VAL HG21 . 15449 1 
+      589 . 1 1 55 55 VAL HG22 H  1   0.798 . . . . . . . 55 VAL HG22 . 15449 1 
+      590 . 1 1 55 55 VAL HG23 H  1   0.798 . . . . . . . 55 VAL HG23 . 15449 1 
+      591 . 1 1 55 55 VAL CA   C 13  62.036 . . . . . . . 55 VAL CA   . 15449 1 
+      592 . 1 1 55 55 VAL CB   C 13  31.747 . . . . . . . 55 VAL CB   . 15449 1 
+      593 . 1 1 55 55 VAL CG1  C 13  21.141 . . . . . . . 55 VAL CG1  . 15449 1 
+      594 . 1 1 55 55 VAL CG2  C 13  20.672 . . . . . . . 55 VAL CG2  . 15449 1 
+      595 . 1 1 55 55 VAL N    N 15 126.599 . . . . . . . 55 VAL N    . 15449 1 
+      596 . 1 1 56 56 LEU H    H  1   8.233 . . . . . . . 56 LEU HN   . 15449 1 
+      597 . 1 1 56 56 LEU HA   H  1   4.917 . . . . . . . 56 LEU HA   . 15449 1 
+      598 . 1 1 56 56 LEU HB2  H  1   1.389 . . . . . . . 56 LEU HB1  . 15449 1 
+      599 . 1 1 56 56 LEU HB3  H  1   1.341 . . . . . . . 56 LEU HB2  . 15449 1 
+      600 . 1 1 56 56 LEU HD11 H  1   0.744 . . . . . . . 56 LEU HD11 . 15449 1 
+      601 . 1 1 56 56 LEU HD12 H  1   0.744 . . . . . . . 56 LEU HD12 . 15449 1 
+      602 . 1 1 56 56 LEU HD13 H  1   0.744 . . . . . . . 56 LEU HD13 . 15449 1 
+      603 . 1 1 56 56 LEU HD21 H  1   0.846 . . . . . . . 56 LEU HD21 . 15449 1 
+      604 . 1 1 56 56 LEU HD22 H  1   0.846 . . . . . . . 56 LEU HD22 . 15449 1 
+      605 . 1 1 56 56 LEU HD23 H  1   0.846 . . . . . . . 56 LEU HD23 . 15449 1 
+      606 . 1 1 56 56 LEU HG   H  1   1.439 . . . . . . . 56 LEU HG   . 15449 1 
+      607 . 1 1 56 56 LEU CA   C 13  51.295 . . . . . . . 56 LEU CA   . 15449 1 
+      608 . 1 1 56 56 LEU CB   C 13  45.514 . . . . . . . 56 LEU CB   . 15449 1 
+      609 . 1 1 56 56 LEU CD1  C 13  25.938 . . . . . . . 56 LEU CD1  . 15449 1 
+      610 . 1 1 56 56 LEU CD2  C 13  23.754 . . . . . . . 56 LEU CD2  . 15449 1 
+      611 . 1 1 56 56 LEU CG   C 13  27.229 . . . . . . . 56 LEU CG   . 15449 1 
+      612 . 1 1 56 56 LEU N    N 15 128.567 . . . . . . . 56 LEU N    . 15449 1 
+      613 . 1 1 57 57 PRO HA   H  1   4.595 . . . . . . . 57 PRO HA   . 15449 1 
+      614 . 1 1 57 57 PRO HB2  H  1   2.407 . . . . . . . 57 PRO HB1  . 15449 1 
+      615 . 1 1 57 57 PRO HB3  H  1   1.936 . . . . . . . 57 PRO HB2  . 15449 1 
+      616 . 1 1 57 57 PRO HD2  H  1   3.832 . . . . . . . 57 PRO HD1  . 15449 1 
+      617 . 1 1 57 57 PRO HD3  H  1   3.549 . . . . . . . 57 PRO HD2  . 15449 1 
+      618 . 1 1 57 57 PRO HG2  H  1   2.080 . . . . . . . 57 PRO HG1  . 15449 1 
+      619 . 1 1 57 57 PRO HG3  H  1   1.937 . . . . . . . 57 PRO HG2  . 15449 1 
+      620 . 1 1 57 57 PRO CA   C 13  61.711 . . . . . . . 57 PRO CA   . 15449 1 
+      621 . 1 1 57 57 PRO CB   C 13  32.408 . . . . . . . 57 PRO CB   . 15449 1 
+      622 . 1 1 57 57 PRO CD   C 13  50.475 . . . . . . . 57 PRO CD   . 15449 1 
+      623 . 1 1 57 57 PRO CG   C 13  27.756 . . . . . . . 57 PRO CG   . 15449 1 
+      624 . 1 1 58 58 ILE H    H  1   8.938 . . . . . . . 58 ILE HN   . 15449 1 
+      625 . 1 1 58 58 ILE HA   H  1   3.694 . . . . . . . 58 ILE HA   . 15449 1 
+      626 . 1 1 58 58 ILE HB   H  1   1.893 . . . . . . . 58 ILE HB   . 15449 1 
+      627 . 1 1 58 58 ILE HD11 H  1   0.785 . . . . . . . 58 ILE HD11 . 15449 1 
+      628 . 1 1 58 58 ILE HD12 H  1   0.785 . . . . . . . 58 ILE HD12 . 15449 1 
+      629 . 1 1 58 58 ILE HD13 H  1   0.785 . . . . . . . 58 ILE HD13 . 15449 1 
+      630 . 1 1 58 58 ILE HG12 H  1   1.428 . . . . . . . 58 ILE HG11 . 15449 1 
+      631 . 1 1 58 58 ILE HG13 H  1   1.378 . . . . . . . 58 ILE HG12 . 15449 1 
+      632 . 1 1 58 58 ILE HG21 H  1   0.878 . . . . . . . 58 ILE HG21 . 15449 1 
+      633 . 1 1 58 58 ILE HG22 H  1   0.878 . . . . . . . 58 ILE HG22 . 15449 1 
+      634 . 1 1 58 58 ILE HG23 H  1   0.878 . . . . . . . 58 ILE HG23 . 15449 1 
+      635 . 1 1 58 58 ILE CA   C 13  63.155 . . . . . . . 58 ILE CA   . 15449 1 
+      636 . 1 1 58 58 ILE CB   C 13  37.083 . . . . . . . 58 ILE CB   . 15449 1 
+      637 . 1 1 58 58 ILE CD1  C 13  12.302 . . . . . . . 58 ILE CD1  . 15449 1 
+      638 . 1 1 58 58 ILE CG1  C 13  28.537 . . . . . . . 58 ILE CG1  . 15449 1 
+      639 . 1 1 58 58 ILE CG2  C 13  17.853 . . . . . . . 58 ILE CG2  . 15449 1 
+      640 . 1 1 58 58 ILE N    N 15 123.966 . . . . . . . 58 ILE N    . 15449 1 
+      641 . 1 1 59 59 ARG H    H  1   8.580 . . . . . . . 59 ARG HN   . 15449 1 
+      642 . 1 1 59 59 ARG HA   H  1   3.961 . . . . . . . 59 ARG HA   . 15449 1 
+      643 . 1 1 59 59 ARG HB2  H  1   1.876 . . . . . . . 59 ARG HB1  . 15449 1 
+      644 . 1 1 59 59 ARG HB3  H  1   1.664 . . . . . . . 59 ARG HB2  . 15449 1 
+      645 . 1 1 59 59 ARG HD2  H  1   3.158 . . . . . . . 59 ARG HD1  . 15449 1 
+      646 . 1 1 59 59 ARG HD3  H  1   3.158 . . . . . . . 59 ARG HD2  . 15449 1 
+      647 . 1 1 59 59 ARG HG2  H  1   1.596 . . . . . . . 59 ARG HG1  . 15449 1 
+      648 . 1 1 59 59 ARG HG3  H  1   1.491 . . . . . . . 59 ARG HG2  . 15449 1 
+      649 . 1 1 59 59 ARG CA   C 13  59.429 . . . . . . . 59 ARG CA   . 15449 1 
+      650 . 1 1 59 59 ARG CB   C 13  29.806 . . . . . . . 59 ARG CB   . 15449 1 
+      651 . 1 1 59 59 ARG CD   C 13  43.416 . . . . . . . 59 ARG CD   . 15449 1 
+      652 . 1 1 59 59 ARG CG   C 13  27.309 . . . . . . . 59 ARG CG   . 15449 1 
+      653 . 1 1 59 59 ARG N    N 15 118.397 . . . . . . . 59 ARG N    . 15449 1 
+      654 . 1 1 60 60 GLU H    H  1   7.158 . . . . . . . 60 GLU HN   . 15449 1 
+      655 . 1 1 60 60 GLU HA   H  1   4.190 . . . . . . . 60 GLU HA   . 15449 1 
+      656 . 1 1 60 60 GLU HB2  H  1   2.089 . . . . . . . 60 GLU HB1  . 15449 1 
+      657 . 1 1 60 60 GLU HB3  H  1   1.915 . . . . . . . 60 GLU HB2  . 15449 1 
+      658 . 1 1 60 60 GLU HG2  H  1   2.229 . . . . . . . 60 GLU HG1  . 15449 1 
+      659 . 1 1 60 60 GLU HG3  H  1   2.229 . . . . . . . 60 GLU HG2  . 15449 1 
+      660 . 1 1 60 60 GLU CA   C 13  58.223 . . . . . . . 60 GLU CA   . 15449 1 
+      661 . 1 1 60 60 GLU CB   C 13  30.349 . . . . . . . 60 GLU CB   . 15449 1 
+      662 . 1 1 60 60 GLU CG   C 13  36.984 . . . . . . . 60 GLU CG   . 15449 1 
+      663 . 1 1 60 60 GLU N    N 15 116.061 . . . . . . . 60 GLU N    . 15449 1 
+      664 . 1 1 61 61 VAL H    H  1   7.883 . . . . . . . 61 VAL HN   . 15449 1 
+      665 . 1 1 61 61 VAL HA   H  1   3.400 . . . . . . . 61 VAL HA   . 15449 1 
+      666 . 1 1 61 61 VAL HB   H  1   2.195 . . . . . . . 61 VAL HB   . 15449 1 
+      667 . 1 1 61 61 VAL HG11 H  1   0.808 . . . . . . . 61 VAL HG11 . 15449 1 
+      668 . 1 1 61 61 VAL HG12 H  1   0.808 . . . . . . . 61 VAL HG12 . 15449 1 
+      669 . 1 1 61 61 VAL HG13 H  1   0.808 . . . . . . . 61 VAL HG13 . 15449 1 
+      670 . 1 1 61 61 VAL HG21 H  1   0.845 . . . . . . . 61 VAL HG21 . 15449 1 
+      671 . 1 1 61 61 VAL HG22 H  1   0.845 . . . . . . . 61 VAL HG22 . 15449 1 
+      672 . 1 1 61 61 VAL HG23 H  1   0.845 . . . . . . . 61 VAL HG23 . 15449 1 
+      673 . 1 1 61 61 VAL CA   C 13  66.387 . . . . . . . 61 VAL CA   . 15449 1 
+      674 . 1 1 61 61 VAL CB   C 13  31.621 . . . . . . . 61 VAL CB   . 15449 1 
+      675 . 1 1 61 61 VAL CG1  C 13  21.461 . . . . . . . 61 VAL CG1  . 15449 1 
+      676 . 1 1 61 61 VAL CG2  C 13  23.760 . . . . . . . 61 VAL CG2  . 15449 1 
+      677 . 1 1 61 61 VAL N    N 15 122.539 . . . . . . . 61 VAL N    . 15449 1 
+      678 . 1 1 62 62 ARG H    H  1   7.820 . . . . . . . 62 ARG HN   . 15449 1 
+      679 . 1 1 62 62 ARG HA   H  1   3.706 . . . . . . . 62 ARG HA   . 15449 1 
+      680 . 1 1 62 62 ARG HB2  H  1   1.857 . . . . . . . 62 ARG HB1  . 15449 1 
+      681 . 1 1 62 62 ARG HB3  H  1   1.766 . . . . . . . 62 ARG HB2  . 15449 1 
+      682 . 1 1 62 62 ARG HD2  H  1   3.145 . . . . . . . 62 ARG HD1  . 15449 1 
+      683 . 1 1 62 62 ARG HD3  H  1   3.063 . . . . . . . 62 ARG HD2  . 15449 1 
+      684 . 1 1 62 62 ARG HG2  H  1   1.759 . . . . . . . 62 ARG HG1  . 15449 1 
+      685 . 1 1 62 62 ARG HG3  H  1   1.473 . . . . . . . 62 ARG HG2  . 15449 1 
+      686 . 1 1 62 62 ARG CA   C 13  59.725 . . . . . . . 62 ARG CA   . 15449 1 
+      687 . 1 1 62 62 ARG CB   C 13  31.257 . . . . . . . 62 ARG CB   . 15449 1 
+      688 . 1 1 62 62 ARG CD   C 13  43.567 . . . . . . . 62 ARG CD   . 15449 1 
+      689 . 1 1 62 62 ARG CG   C 13  28.806 . . . . . . . 62 ARG CG   . 15449 1 
+      690 . 1 1 62 62 ARG N    N 15 113.477 . . . . . . . 62 ARG N    . 15449 1 
+      691 . 1 1 63 63 GLN H    H  1   6.828 . . . . . . . 63 GLN HN   . 15449 1 
+      692 . 1 1 63 63 GLN HA   H  1   4.376 . . . . . . . 63 GLN HA   . 15449 1 
+      693 . 1 1 63 63 GLN HB2  H  1   2.327 . . . . . . . 63 GLN HB1  . 15449 1 
+      694 . 1 1 63 63 GLN HB3  H  1   1.948 . . . . . . . 63 GLN HB2  . 15449 1 
+      695 . 1 1 63 63 GLN HE21 H  1   6.833 . . . . . . . 63 GLN HE21 . 15449 1 
+      696 . 1 1 63 63 GLN HE22 H  1   7.388 . . . . . . . 63 GLN HE22 . 15449 1 
+      697 . 1 1 63 63 GLN HG2  H  1   2.545 . . . . . . . 63 GLN HG1  . 15449 1 
+      698 . 1 1 63 63 GLN HG3  H  1   2.404 . . . . . . . 63 GLN HG2  . 15449 1 
+      699 . 1 1 63 63 GLN CA   C 13  55.144 . . . . . . . 63 GLN CA   . 15449 1 
+      700 . 1 1 63 63 GLN CB   C 13  29.951 . . . . . . . 63 GLN CB   . 15449 1 
+      701 . 1 1 63 63 GLN CG   C 13  34.064 . . . . . . . 63 GLN CG   . 15449 1 
+      702 . 1 1 63 63 GLN N    N 15 111.463 . . . . . . . 63 GLN N    . 15449 1 
+      703 . 1 1 63 63 GLN NE2  N 15 111.957 . . . . . . . 63 GLN NE2  . 15449 1 
+      704 . 1 1 64 64 LEU H    H  1   7.379 . . . . . . . 64 LEU HN   . 15449 1 
+      705 . 1 1 64 64 LEU HA   H  1   4.172 . . . . . . . 64 LEU HA   . 15449 1 
+      706 . 1 1 64 64 LEU HB2  H  1   2.025 . . . . . . . 64 LEU HB1  . 15449 1 
+      707 . 1 1 64 64 LEU HB3  H  1   1.127 . . . . . . . 64 LEU HB2  . 15449 1 
+      708 . 1 1 64 64 LEU HD11 H  1   0.791 . . . . . . . 64 LEU HD11 . 15449 1 
+      709 . 1 1 64 64 LEU HD12 H  1   0.791 . . . . . . . 64 LEU HD12 . 15449 1 
+      710 . 1 1 64 64 LEU HD13 H  1   0.791 . . . . . . . 64 LEU HD13 . 15449 1 
+      711 . 1 1 64 64 LEU HD21 H  1   0.791 . . . . . . . 64 LEU HD21 . 15449 1 
+      712 . 1 1 64 64 LEU HD22 H  1   0.791 . . . . . . . 64 LEU HD22 . 15449 1 
+      713 . 1 1 64 64 LEU HD23 H  1   0.791 . . . . . . . 64 LEU HD23 . 15449 1 
+      714 . 1 1 64 64 LEU HG   H  1   2.019 . . . . . . . 64 LEU HG   . 15449 1 
+      715 . 1 1 64 64 LEU CA   C 13  55.952 . . . . . . . 64 LEU CA   . 15449 1 
+      716 . 1 1 64 64 LEU CB   C 13  43.068 . . . . . . . 64 LEU CB   . 15449 1 
+      717 . 1 1 64 64 LEU CD1  C 13  23.004 . . . . . . . 64 LEU CD1  . 15449 1 
+      718 . 1 1 64 64 LEU CD2  C 13  23.004 . . . . . . . 64 LEU CD2  . 15449 1 
+      719 . 1 1 64 64 LEU CG   C 13  26.348 . . . . . . . 64 LEU CG   . 15449 1 
+      720 . 1 1 64 64 LEU N    N 15 121.349 . . . . . . . 64 LEU N    . 15449 1 
+      721 . 1 1 65 65 THR H    H  1   6.392 . . . . . . . 65 THR HN   . 15449 1 
+      722 . 1 1 65 65 THR HA   H  1   5.032 . . . . . . . 65 THR HA   . 15449 1 
+      723 . 1 1 65 65 THR HB   H  1   4.675 . . . . . . . 65 THR HB   . 15449 1 
+      724 . 1 1 65 65 THR HG21 H  1   0.962 . . . . . . . 65 THR HG21 . 15449 1 
+      725 . 1 1 65 65 THR HG22 H  1   0.962 . . . . . . . 65 THR HG22 . 15449 1 
+      726 . 1 1 65 65 THR HG23 H  1   0.962 . . . . . . . 65 THR HG23 . 15449 1 
+      727 . 1 1 65 65 THR CA   C 13  57.929 . . . . . . . 65 THR CA   . 15449 1 
+      728 . 1 1 65 65 THR CB   C 13  71.511 . . . . . . . 65 THR CB   . 15449 1 
+      729 . 1 1 65 65 THR CG2  C 13  21.608 . . . . . . . 65 THR CG2  . 15449 1 
+      730 . 1 1 66 66 LEU H    H  1   8.802 . . . . . . . 66 LEU HN   . 15449 1 
+      731 . 1 1 66 66 LEU HA   H  1   4.036 . . . . . . . 66 LEU HA   . 15449 1 
+      732 . 1 1 66 66 LEU HB2  H  1   1.956 . . . . . . . 66 LEU HB1  . 15449 1 
+      733 . 1 1 66 66 LEU HB3  H  1   1.301 . . . . . . . 66 LEU HB2  . 15449 1 
+      734 . 1 1 66 66 LEU HD11 H  1   0.680 . . . . . . . 66 LEU HD11 . 15449 1 
+      735 . 1 1 66 66 LEU HD12 H  1   0.680 . . . . . . . 66 LEU HD12 . 15449 1 
+      736 . 1 1 66 66 LEU HD13 H  1   0.680 . . . . . . . 66 LEU HD13 . 15449 1 
+      737 . 1 1 66 66 LEU HD21 H  1   0.729 . . . . . . . 66 LEU HD21 . 15449 1 
+      738 . 1 1 66 66 LEU HD22 H  1   0.729 . . . . . . . 66 LEU HD22 . 15449 1 
+      739 . 1 1 66 66 LEU HD23 H  1   0.729 . . . . . . . 66 LEU HD23 . 15449 1 
+      740 . 1 1 66 66 LEU HG   H  1   1.745 . . . . . . . 66 LEU HG   . 15449 1 
+      741 . 1 1 66 66 LEU CA   C 13  58.681 . . . . . . . 66 LEU CA   . 15449 1 
+      742 . 1 1 66 66 LEU CB   C 13  41.161 . . . . . . . 66 LEU CB   . 15449 1 
+      743 . 1 1 66 66 LEU CD1  C 13  22.575 . . . . . . . 66 LEU CD1  . 15449 1 
+      744 . 1 1 66 66 LEU CD2  C 13  26.240 . . . . . . . 66 LEU CD2  . 15449 1 
+      745 . 1 1 66 66 LEU CG   C 13  27.000 . . . . . . . 66 LEU CG   . 15449 1 
+      746 . 1 1 66 66 LEU N    N 15 120.696 . . . . . . . 66 LEU N    . 15449 1 
+      747 . 1 1 67 67 ARG H    H  1   8.917 . . . . . . . 67 ARG HN   . 15449 1 
+      748 . 1 1 67 67 ARG HA   H  1   3.801 . . . . . . . 67 ARG HA   . 15449 1 
+      749 . 1 1 67 67 ARG HB2  H  1   1.588 . . . . . . . 67 ARG HB1  . 15449 1 
+      750 . 1 1 67 67 ARG HB3  H  1   1.588 . . . . . . . 67 ARG HB2  . 15449 1 
+      751 . 1 1 67 67 ARG HD2  H  1   3.324 . . . . . . . 67 ARG HD1  . 15449 1 
+      752 . 1 1 67 67 ARG HD3  H  1   2.994 . . . . . . . 67 ARG HD2  . 15449 1 
+      753 . 1 1 67 67 ARG HE   H  1   8.674 . . . . . . . 67 ARG HE   . 15449 1 
+      754 . 1 1 67 67 ARG CA   C 13  59.849 . . . . . . . 67 ARG CA   . 15449 1 
+      755 . 1 1 67 67 ARG CB   C 13  30.037 . . . . . . . 67 ARG CB   . 15449 1 
+      756 . 1 1 67 67 ARG CD   C 13  42.702 . . . . . . . 67 ARG CD   . 15449 1 
+      757 . 1 1 67 67 ARG N    N 15 120.193 . . . . . . . 67 ARG N    . 15449 1 
+      758 . 1 1 68 68 LYS H    H  1   7.887 . . . . . . . 68 LYS HN   . 15449 1 
+      759 . 1 1 68 68 LYS HA   H  1   4.051 . . . . . . . 68 LYS HA   . 15449 1 
+      760 . 1 1 68 68 LYS HB2  H  1   1.844 . . . . . . . 68 LYS HB1  . 15449 1 
+      761 . 1 1 68 68 LYS HB3  H  1   1.844 . . . . . . . 68 LYS HB2  . 15449 1 
+      762 . 1 1 68 68 LYS HD2  H  1   1.700 . . . . . . . 68 LYS HD1  . 15449 1 
+      763 . 1 1 68 68 LYS HD3  H  1   1.700 . . . . . . . 68 LYS HD2  . 15449 1 
+      764 . 1 1 68 68 LYS HE2  H  1   2.927 . . . . . . . 68 LYS HE1  . 15449 1 
+      765 . 1 1 68 68 LYS HE3  H  1   2.927 . . . . . . . 68 LYS HE2  . 15449 1 
+      766 . 1 1 68 68 LYS HG2  H  1   1.503 . . . . . . . 68 LYS HG1  . 15449 1 
+      767 . 1 1 68 68 LYS HG3  H  1   1.503 . . . . . . . 68 LYS HG2  . 15449 1 
+      768 . 1 1 68 68 LYS CA   C 13  58.644 . . . . . . . 68 LYS CA   . 15449 1 
+      769 . 1 1 68 68 LYS CB   C 13  32.455 . . . . . . . 68 LYS CB   . 15449 1 
+      770 . 1 1 68 68 LYS CD   C 13  28.937 . . . . . . . 68 LYS CD   . 15449 1 
+      771 . 1 1 68 68 LYS CE   C 13  42.120 . . . . . . . 68 LYS CE   . 15449 1 
+      772 . 1 1 68 68 LYS CG   C 13  25.498 . . . . . . . 68 LYS CG   . 15449 1 
+      773 . 1 1 68 68 LYS N    N 15 118.771 . . . . . . . 68 LYS N    . 15449 1 
+      774 . 1 1 69 69 LEU H    H  1   7.912 . . . . . . . 69 LEU HN   . 15449 1 
+      775 . 1 1 69 69 LEU HA   H  1   4.045 . . . . . . . 69 LEU HA   . 15449 1 
+      776 . 1 1 69 69 LEU HB2  H  1   2.033 . . . . . . . 69 LEU HB1  . 15449 1 
+      777 . 1 1 69 69 LEU HB3  H  1   1.148 . . . . . . . 69 LEU HB2  . 15449 1 
+      778 . 1 1 69 69 LEU HD11 H  1   0.819 . . . . . . . 69 LEU HD11 . 15449 1 
+      779 . 1 1 69 69 LEU HD12 H  1   0.819 . . . . . . . 69 LEU HD12 . 15449 1 
+      780 . 1 1 69 69 LEU HD13 H  1   0.819 . . . . . . . 69 LEU HD13 . 15449 1 
+      781 . 1 1 69 69 LEU HD21 H  1   0.824 . . . . . . . 69 LEU HD21 . 15449 1 
+      782 . 1 1 69 69 LEU HD22 H  1   0.824 . . . . . . . 69 LEU HD22 . 15449 1 
+      783 . 1 1 69 69 LEU HD23 H  1   0.824 . . . . . . . 69 LEU HD23 . 15449 1 
+      784 . 1 1 69 69 LEU HG   H  1   1.856 . . . . . . . 69 LEU HG   . 15449 1 
+      785 . 1 1 69 69 LEU CA   C 13  57.895 . . . . . . . 69 LEU CA   . 15449 1 
+      786 . 1 1 69 69 LEU CB   C 13  41.480 . . . . . . . 69 LEU CB   . 15449 1 
+      787 . 1 1 69 69 LEU CD1  C 13  23.908 . . . . . . . 69 LEU CD1  . 15449 1 
+      788 . 1 1 69 69 LEU CD2  C 13  27.047 . . . . . . . 69 LEU CD2  . 15449 1 
+      789 . 1 1 69 69 LEU CG   C 13  26.900 . . . . . . . 69 LEU CG   . 15449 1 
+      790 . 1 1 69 69 LEU N    N 15 118.821 . . . . . . . 69 LEU N    . 15449 1 
+      791 . 1 1 70 70 GLN H    H  1   8.316 . . . . . . . 70 GLN HN   . 15449 1 
+      792 . 1 1 70 70 GLN HA   H  1   3.897 . . . . . . . 70 GLN HA   . 15449 1 
+      793 . 1 1 70 70 GLN HB2  H  1   2.236 . . . . . . . 70 GLN HB1  . 15449 1 
+      794 . 1 1 70 70 GLN HB3  H  1   2.236 . . . . . . . 70 GLN HB2  . 15449 1 
+      795 . 1 1 70 70 GLN HE21 H  1   6.599 . . . . . . . 70 GLN HE21 . 15449 1 
+      796 . 1 1 70 70 GLN HE22 H  1   7.335 . . . . . . . 70 GLN HE22 . 15449 1 
+      797 . 1 1 70 70 GLN HG2  H  1   2.435 . . . . . . . 70 GLN HG1  . 15449 1 
+      798 . 1 1 70 70 GLN HG3  H  1   2.298 . . . . . . . 70 GLN HG2  . 15449 1 
+      799 . 1 1 70 70 GLN CA   C 13  59.199 . . . . . . . 70 GLN CA   . 15449 1 
+      800 . 1 1 70 70 GLN CB   C 13  28.780 . . . . . . . 70 GLN CB   . 15449 1 
+      801 . 1 1 70 70 GLN CG   C 13  34.200 . . . . . . . 70 GLN CG   . 15449 1 
+      802 . 1 1 70 70 GLN N    N 15 120.930 . . . . . . . 70 GLN N    . 15449 1 
+      803 . 1 1 70 70 GLN NE2  N 15 110.708 . . . . . . . 70 GLN NE2  . 15449 1 
+      804 . 1 1 71 71 GLU H    H  1   7.961 . . . . . . . 71 GLU HN   . 15449 1 
+      805 . 1 1 71 71 GLU HA   H  1   4.038 . . . . . . . 71 GLU HA   . 15449 1 
+      806 . 1 1 71 71 GLU HB2  H  1   2.198 . . . . . . . 71 GLU HB1  . 15449 1 
+      807 . 1 1 71 71 GLU HB3  H  1   2.130 . . . . . . . 71 GLU HB2  . 15449 1 
+      808 . 1 1 71 71 GLU HG2  H  1   2.455 . . . . . . . 71 GLU HG1  . 15449 1 
+      809 . 1 1 71 71 GLU HG3  H  1   2.197 . . . . . . . 71 GLU HG2  . 15449 1 
+      810 . 1 1 71 71 GLU CA   C 13  58.989 . . . . . . . 71 GLU CA   . 15449 1 
+      811 . 1 1 71 71 GLU CB   C 13  29.685 . . . . . . . 71 GLU CB   . 15449 1 
+      812 . 1 1 71 71 GLU CG   C 13  36.420 . . . . . . . 71 GLU CG   . 15449 1 
+      813 . 1 1 71 71 GLU N    N 15 120.108 . . . . . . . 71 GLU N    . 15449 1 
+      814 . 1 1 72 72 MET H    H  1   7.992 . . . . . . . 72 MET HN   . 15449 1 
+      815 . 1 1 72 72 MET HA   H  1   4.117 . . . . . . . 72 MET HA   . 15449 1 
+      816 . 1 1 72 72 MET HB2  H  1   2.013 . . . . . . . 72 MET HB1  . 15449 1 
+      817 . 1 1 72 72 MET HB3  H  1   1.913 . . . . . . . 72 MET HB2  . 15449 1 
+      818 . 1 1 72 72 MET HG2  H  1   2.616 . . . . . . . 72 MET HG1  . 15449 1 
+      819 . 1 1 72 72 MET HG3  H  1   2.490 . . . . . . . 72 MET HG2  . 15449 1 
+      820 . 1 1 72 72 MET CA   C 13  58.237 . . . . . . . 72 MET CA   . 15449 1 
+      821 . 1 1 72 72 MET CB   C 13  33.670 . . . . . . . 72 MET CB   . 15449 1 
+      822 . 1 1 72 72 MET CG   C 13  32.029 . . . . . . . 72 MET CG   . 15449 1 
+      823 . 1 1 72 72 MET N    N 15 117.885 . . . . . . . 72 MET N    . 15449 1 
+      824 . 1 1 73 73 SER H    H  1   7.722 . . . . . . . 73 SER HN   . 15449 1 
+      825 . 1 1 73 73 SER HA   H  1   4.416 . . . . . . . 73 SER HA   . 15449 1 
+      826 . 1 1 73 73 SER HB2  H  1   4.093 . . . . . . . 73 SER HB1  . 15449 1 
+      827 . 1 1 73 73 SER HB3  H  1   3.973 . . . . . . . 73 SER HB2  . 15449 1 
+      828 . 1 1 73 73 SER CA   C 13  59.649 . . . . . . . 73 SER CA   . 15449 1 
+      829 . 1 1 73 73 SER CB   C 13  64.077 . . . . . . . 73 SER CB   . 15449 1 
+      830 . 1 1 73 73 SER N    N 15 113.308 . . . . . . . 73 SER N    . 15449 1 
+      831 . 1 1 74 74 SER H    H  1   7.914 . . . . . . . 74 SER HN   . 15449 1 
+      832 . 1 1 74 74 SER HA   H  1   4.474 . . . . . . . 74 SER HA   . 15449 1 
+      833 . 1 1 74 74 SER HB2  H  1   3.943 . . . . . . . 74 SER HB1  . 15449 1 
+      834 . 1 1 74 74 SER HB3  H  1   3.850 . . . . . . . 74 SER HB2  . 15449 1 
+      835 . 1 1 74 74 SER CA   C 13  59.101 . . . . . . . 74 SER CA   . 15449 1 
+      836 . 1 1 74 74 SER CB   C 13  63.851 . . . . . . . 74 SER CB   . 15449 1 
+      837 . 1 1 74 74 SER N    N 15 116.509 . . . . . . . 74 SER N    . 15449 1 
+      838 . 1 1 75 75 LYS H    H  1   8.130 . . . . . . . 75 LYS HN   . 15449 1 
+      839 . 1 1 75 75 LYS HA   H  1   4.325 . . . . . . . 75 LYS HA   . 15449 1 
+      840 . 1 1 75 75 LYS HB2  H  1   1.840 . . . . . . . 75 LYS HB1  . 15449 1 
+      841 . 1 1 75 75 LYS HB3  H  1   1.721 . . . . . . . 75 LYS HB2  . 15449 1 
+      842 . 1 1 75 75 LYS HD2  H  1   1.657 . . . . . . . 75 LYS HD1  . 15449 1 
+      843 . 1 1 75 75 LYS HD3  H  1   1.657 . . . . . . . 75 LYS HD2  . 15449 1 
+      844 . 1 1 75 75 LYS HE2  H  1   2.978 . . . . . . . 75 LYS HE1  . 15449 1 
+      845 . 1 1 75 75 LYS HE3  H  1   2.978 . . . . . . . 75 LYS HE2  . 15449 1 
+      846 . 1 1 75 75 LYS HG2  H  1   1.415 . . . . . . . 75 LYS HG1  . 15449 1 
+      847 . 1 1 75 75 LYS HG3  H  1   1.415 . . . . . . . 75 LYS HG2  . 15449 1 
+      848 . 1 1 75 75 LYS CA   C 13  56.442 . . . . . . . 75 LYS CA   . 15449 1 
+      849 . 1 1 75 75 LYS CB   C 13  32.858 . . . . . . . 75 LYS CB   . 15449 1 
+      850 . 1 1 75 75 LYS CD   C 13  29.106 . . . . . . . 75 LYS CD   . 15449 1 
+      851 . 1 1 75 75 LYS CE   C 13  42.581 . . . . . . . 75 LYS CE   . 15449 1 
+      852 . 1 1 75 75 LYS CG   C 13  24.735 . . . . . . . 75 LYS CG   . 15449 1 
+      853 . 1 1 75 75 LYS N    N 15 122.900 . . . . . . . 75 LYS N    . 15449 1 
+      854 . 1 1 76 76 ALA H    H  1   8.220 . . . . . . . 76 ALA HN   . 15449 1 
+      855 . 1 1 76 76 ALA HA   H  1   4.340 . . . . . . . 76 ALA HA   . 15449 1 
+      856 . 1 1 76 76 ALA HB1  H  1   1.421 . . . . . . . 76 ALA HB1  . 15449 1 
+      857 . 1 1 76 76 ALA HB2  H  1   1.421 . . . . . . . 76 ALA HB2  . 15449 1 
+      858 . 1 1 76 76 ALA HB3  H  1   1.421 . . . . . . . 76 ALA HB3  . 15449 1 
+      859 . 1 1 76 76 ALA CA   C 13  52.907 . . . . . . . 76 ALA CA   . 15449 1 
+      860 . 1 1 76 76 ALA CB   C 13  19.315 . . . . . . . 76 ALA CB   . 15449 1 
+      861 . 1 1 76 76 ALA N    N 15 124.937 . . . . . . . 76 ALA N    . 15449 1 
+      862 . 1 1 77 77 GLY H    H  1   8.353 . . . . . . . 77 GLY HN   . 15449 1 
+      863 . 1 1 77 77 GLY CA   C 13  45.405 . . . . . . . 77 GLY CA   . 15449 1 
+      864 . 1 1 77 77 GLY N    N 15 108.296 . . . . . . . 77 GLY N    . 15449 1 
+      865 . 1 1 78 78 SER H    H  1   8.181 . . . . . . . 78 SER HN   . 15449 1 
+      866 . 1 1 78 78 SER HA   H  1   4.472 . . . . . . . 78 SER HA   . 15449 1 
+      867 . 1 1 78 78 SER HB2  H  1   3.932 . . . . . . . 78 SER HB1  . 15449 1 
+      868 . 1 1 78 78 SER HB3  H  1   3.847 . . . . . . . 78 SER HB2  . 15449 1 
+      869 . 1 1 78 78 SER CA   C 13  58.477 . . . . . . . 78 SER CA   . 15449 1 
+      870 . 1 1 78 78 SER CB   C 13  64.091 . . . . . . . 78 SER CB   . 15449 1 
+      871 . 1 1 78 78 SER N    N 15 115.467 . . . . . . . 78 SER N    . 15449 1 
+      872 . 1 1 79 79 ASP H    H  1   8.494 . . . . . . . 79 ASP HN   . 15449 1 
+      873 . 1 1 79 79 ASP HA   H  1   4.640 . . . . . . . 79 ASP HA   . 15449 1 
+      874 . 1 1 79 79 ASP HB2  H  1   2.711 . . . . . . . 79 ASP HB1  . 15449 1 
+      875 . 1 1 79 79 ASP HB3  H  1   2.658 . . . . . . . 79 ASP HB2  . 15449 1 
+      876 . 1 1 79 79 ASP CA   C 13  54.777 . . . . . . . 79 ASP CA   . 15449 1 
+      877 . 1 1 79 79 ASP CB   C 13  41.015 . . . . . . . 79 ASP CB   . 15449 1 
+      878 . 1 1 79 79 ASP N    N 15 122.409 . . . . . . . 79 ASP N    . 15449 1 
+      879 . 1 1 80 80 THR H    H  1   8.016 . . . . . . . 80 THR HN   . 15449 1 
+      880 . 1 1 80 80 THR HA   H  1   4.242 . . . . . . . 80 THR HA   . 15449 1 
+      881 . 1 1 80 80 THR HB   H  1   4.245 . . . . . . . 80 THR HB   . 15449 1 
+      882 . 1 1 80 80 THR HG21 H  1   1.181 . . . . . . . 80 THR HG21 . 15449 1 
+      883 . 1 1 80 80 THR HG22 H  1   1.181 . . . . . . . 80 THR HG22 . 15449 1 
+      884 . 1 1 80 80 THR HG23 H  1   1.181 . . . . . . . 80 THR HG23 . 15449 1 
+      885 . 1 1 80 80 THR CA   C 13  62.458 . . . . . . . 80 THR CA   . 15449 1 
+      886 . 1 1 80 80 THR CB   C 13  69.707 . . . . . . . 80 THR CB   . 15449 1 
+      887 . 1 1 80 80 THR CG2  C 13  21.340 . . . . . . . 80 THR CG2  . 15449 1 
+      888 . 1 1 80 80 THR N    N 15 113.817 . . . . . . . 80 THR N    . 15449 1 
+      889 . 1 1 81 81 GLU H    H  1   8.273 . . . . . . . 81 GLU HN   . 15449 1 
+      890 . 1 1 81 81 GLU CA   C 13  56.832 . . . . . . . 81 GLU CA   . 15449 1 
+      891 . 1 1 81 81 GLU CB   C 13  30.165 . . . . . . . 81 GLU CB   . 15449 1 
+      892 . 1 1 81 81 GLU N    N 15 123.037 . . . . . . . 81 GLU N    . 15449 1 
+      893 . 1 1 82 82 LEU H    H  1   8.099 . . . . . . . 82 LEU HN   . 15449 1 
+      894 . 1 1 82 82 LEU HA   H  1   4.260 . . . . . . . 82 LEU HA   . 15449 1 
+      895 . 1 1 82 82 LEU HB2  H  1   1.606 . . . . . . . 82 LEU HB1  . 15449 1 
+      896 . 1 1 82 82 LEU HB3  H  1   1.544 . . . . . . . 82 LEU HB2  . 15449 1 
+      897 . 1 1 82 82 LEU HD11 H  1   0.839 . . . . . . . 82 LEU HD11 . 15449 1 
+      898 . 1 1 82 82 LEU HD12 H  1   0.839 . . . . . . . 82 LEU HD12 . 15449 1 
+      899 . 1 1 82 82 LEU HD13 H  1   0.839 . . . . . . . 82 LEU HD13 . 15449 1 
+      900 . 1 1 82 82 LEU HD21 H  1   0.897 . . . . . . . 82 LEU HD21 . 15449 1 
+      901 . 1 1 82 82 LEU HD22 H  1   0.897 . . . . . . . 82 LEU HD22 . 15449 1 
+      902 . 1 1 82 82 LEU HD23 H  1   0.897 . . . . . . . 82 LEU HD23 . 15449 1 
+      903 . 1 1 82 82 LEU CA   C 13  55.308 . . . . . . . 82 LEU CA   . 15449 1 
+      904 . 1 1 82 82 LEU CB   C 13  42.320 . . . . . . . 82 LEU CB   . 15449 1 
+      905 . 1 1 82 82 LEU CD1  C 13  23.573 . . . . . . . 82 LEU CD1  . 15449 1 
+      906 . 1 1 82 82 LEU CD2  C 13  24.996 . . . . . . . 82 LEU CD2  . 15449 1 
+      907 . 1 1 82 82 LEU N    N 15 122.786 . . . . . . . 82 LEU N    . 15449 1 
+      908 . 1 1 83 83 ALA H    H  1   8.075 . . . . . . . 83 ALA HN   . 15449 1 
+      909 . 1 1 83 83 ALA HA   H  1   4.263 . . . . . . . 83 ALA HA   . 15449 1 
+      910 . 1 1 83 83 ALA HB1  H  1   1.333 . . . . . . . 83 ALA HB1  . 15449 1 
+      911 . 1 1 83 83 ALA HB2  H  1   1.333 . . . . . . . 83 ALA HB2  . 15449 1 
+      912 . 1 1 83 83 ALA HB3  H  1   1.333 . . . . . . . 83 ALA HB3  . 15449 1 
+      913 . 1 1 83 83 ALA CA   C 13  52.199 . . . . . . . 83 ALA CA   . 15449 1 
+      914 . 1 1 83 83 ALA CB   C 13  19.336 . . . . . . . 83 ALA CB   . 15449 1 
+      915 . 1 1 83 83 ALA N    N 15 124.360 . . . . . . . 83 ALA N    . 15449 1 
+      916 . 1 1 84 84 ALA H    H  1   8.058 . . . . . . . 84 ALA HN   . 15449 1 
+      917 . 1 1 84 84 ALA HA   H  1   4.539 . . . . . . . 84 ALA HA   . 15449 1 
+      918 . 1 1 84 84 ALA HB1  H  1   1.318 . . . . . . . 84 ALA HB1  . 15449 1 
+      919 . 1 1 84 84 ALA HB2  H  1   1.318 . . . . . . . 84 ALA HB2  . 15449 1 
+      920 . 1 1 84 84 ALA HB3  H  1   1.318 . . . . . . . 84 ALA HB3  . 15449 1 
+      921 . 1 1 84 84 ALA CA   C 13  50.495 . . . . . . . 84 ALA CA   . 15449 1 
+      922 . 1 1 84 84 ALA CB   C 13  18.168 . . . . . . . 84 ALA CB   . 15449 1 
+      923 . 1 1 84 84 ALA N    N 15 124.390 . . . . . . . 84 ALA N    . 15449 1 
+      924 . 1 1 85 85 PRO HA   H  1   4.387 . . . . . . . 85 PRO HA   . 15449 1 
+      925 . 1 1 85 85 PRO HB2  H  1   2.268 . . . . . . . 85 PRO HB1  . 15449 1 
+      926 . 1 1 85 85 PRO HB3  H  1   1.865 . . . . . . . 85 PRO HB2  . 15449 1 
+      927 . 1 1 85 85 PRO HD2  H  1   3.762 . . . . . . . 85 PRO HD1  . 15449 1 
+      928 . 1 1 85 85 PRO HD3  H  1   3.596 . . . . . . . 85 PRO HD2  . 15449 1 
+      929 . 1 1 85 85 PRO HG2  H  1   1.995 . . . . . . . 85 PRO HG1  . 15449 1 
+      930 . 1 1 85 85 PRO HG3  H  1   1.995 . . . . . . . 85 PRO HG2  . 15449 1 
+      931 . 1 1 85 85 PRO CA   C 13  63.125 . . . . . . . 85 PRO CA   . 15449 1 
+      932 . 1 1 85 85 PRO CB   C 13  32.176 . . . . . . . 85 PRO CB   . 15449 1 
+      933 . 1 1 85 85 PRO CD   C 13  50.487 . . . . . . . 85 PRO CD   . 15449 1 
+      934 . 1 1 85 85 PRO CG   C 13  27.495 . . . . . . . 85 PRO CG   . 15449 1 
+      935 . 1 1 86 86 LYS H    H  1   8.407 . . . . . . . 86 LYS HN   . 15449 1 
+      936 . 1 1 86 86 LYS HA   H  1   4.301 . . . . . . . 86 LYS HA   . 15449 1 
+      937 . 1 1 86 86 LYS HB2  H  1   1.827 . . . . . . . 86 LYS HB1  . 15449 1 
+      938 . 1 1 86 86 LYS HB3  H  1   1.727 . . . . . . . 86 LYS HB2  . 15449 1 
+      939 . 1 1 86 86 LYS HD2  H  1   1.675 . . . . . . . 86 LYS HD1  . 15449 1 
+      940 . 1 1 86 86 LYS HD3  H  1   1.675 . . . . . . . 86 LYS HD2  . 15449 1 
+      941 . 1 1 86 86 LYS HE2  H  1   2.994 . . . . . . . 86 LYS HE1  . 15449 1 
+      942 . 1 1 86 86 LYS HE3  H  1   2.994 . . . . . . . 86 LYS HE2  . 15449 1 
+      943 . 1 1 86 86 LYS HG2  H  1   1.457 . . . . . . . 86 LYS HG1  . 15449 1 
+      944 . 1 1 86 86 LYS HG3  H  1   1.457 . . . . . . . 86 LYS HG2  . 15449 1 
+      945 . 1 1 86 86 LYS CA   C 13  56.272 . . . . . . . 86 LYS CA   . 15449 1 
+      946 . 1 1 86 86 LYS CB   C 13  33.260 . . . . . . . 86 LYS CB   . 15449 1 
+      947 . 1 1 86 86 LYS CD   C 13  29.585 . . . . . . . 86 LYS CD   . 15449 1 
+      948 . 1 1 86 86 LYS CE   C 13  41.967 . . . . . . . 86 LYS CE   . 15449 1 
+      949 . 1 1 86 86 LYS CG   C 13  24.788 . . . . . . . 86 LYS CG   . 15449 1 
+      950 . 1 1 86 86 LYS N    N 15 121.711 . . . . . . . 86 LYS N    . 15449 1 
+      951 . 1 1 87 87 SER H    H  1   8.285 . . . . . . . 87 SER HN   . 15449 1 
+      952 . 1 1 87 87 SER HA   H  1   4.383 . . . . . . . 87 SER HA   . 15449 1 
+      953 . 1 1 87 87 SER HB2  H  1   3.839 . . . . . . . 87 SER HB1  . 15449 1 
+      954 . 1 1 87 87 SER HB3  H  1   3.839 . . . . . . . 87 SER HB2  . 15449 1 
+      955 . 1 1 87 87 SER CA   C 13  58.275 . . . . . . . 87 SER CA   . 15449 1 
+      956 . 1 1 87 87 SER CB   C 13  63.981 . . . . . . . 87 SER CB   . 15449 1 
+      957 . 1 1 87 87 SER N    N 15 117.043 . . . . . . . 87 SER N    . 15449 1 
+      958 . 1 1 88 88 LYS H    H  1   8.329 . . . . . . . 88 LYS HN   . 15449 1 
+      959 . 1 1 88 88 LYS HA   H  1   4.323 . . . . . . . 88 LYS HA   . 15449 1 
+      960 . 1 1 88 88 LYS HB2  H  1   1.847 . . . . . . . 88 LYS HB1  . 15449 1 
+      961 . 1 1 88 88 LYS HB3  H  1   1.711 . . . . . . . 88 LYS HB2  . 15449 1 
+      962 . 1 1 88 88 LYS HD2  H  1   1.612 . . . . . . . 88 LYS HD1  . 15449 1 
+      963 . 1 1 88 88 LYS HD3  H  1   1.612 . . . . . . . 88 LYS HD2  . 15449 1 
+      964 . 1 1 88 88 LYS HE2  H  1   2.947 . . . . . . . 88 LYS HE1  . 15449 1 
+      965 . 1 1 88 88 LYS HE3  H  1   2.950 . . . . . . . 88 LYS HE2  . 15449 1 
+      966 . 1 1 88 88 LYS HG2  H  1   1.415 . . . . . . . 88 LYS HG1  . 15449 1 
+      967 . 1 1 88 88 LYS HG3  H  1   1.415 . . . . . . . 88 LYS HG2  . 15449 1 
+      968 . 1 1 88 88 LYS CA   C 13  56.365 . . . . . . . 88 LYS CA   . 15449 1 
+      969 . 1 1 88 88 LYS CB   C 13  33.260 . . . . . . . 88 LYS CB   . 15449 1 
+      970 . 1 1 88 88 LYS CD   C 13  29.585 . . . . . . . 88 LYS CD   . 15449 1 
+      971 . 1 1 88 88 LYS CE   C 13  42.129 . . . . . . . 88 LYS CE   . 15449 1 
+      972 . 1 1 88 88 LYS CG   C 13  24.683 . . . . . . . 88 LYS CG   . 15449 1 
+      973 . 1 1 88 88 LYS N    N 15 123.498 . . . . . . . 88 LYS N    . 15449 1 
+      974 . 1 1 89 89 ASN H    H  1   7.994 . . . . . . . 89 ASN HN   . 15449 1 
+      975 . 1 1 89 89 ASN HA   H  1   4.432 . . . . . . . 89 ASN HA   . 15449 1 
+      976 . 1 1 89 89 ASN HB2  H  1   2.733 . . . . . . . 89 ASN HB1  . 15449 1 
+      977 . 1 1 89 89 ASN HB3  H  1   2.615 . . . . . . . 89 ASN HB2  . 15449 1 
+      978 . 1 1 89 89 ASN CA   C 13  54.910 . . . . . . . 89 ASN CA   . 15449 1 
+      979 . 1 1 89 89 ASN CB   C 13  40.446 . . . . . . . 89 ASN CB   . 15449 1 
+      980 . 1 1 89 89 ASN N    N 15 125.227 . . . . . . . 89 ASN N    . 15449 1 
+
+   stop_
+
+save_
+
