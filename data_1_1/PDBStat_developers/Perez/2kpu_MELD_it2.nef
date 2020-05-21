@@ -1,0 +1,1114 @@
+data_nef_MELD_MELD_test1.nef
+   
+  save_nef_nmr_meta_data
+      _nef_nmr_meta_data.sf_category     nef_nmr_meta_data
+      _nef_nmr_meta_data.sf_framecode    nef_nmr_meta_data
+      _nef_nmr_meta_data.format_name     nmr_exchange_format
+      _nef_nmr_meta_data.format_version  1.1
+      _nef_nmr_meta_data.program_name    MELD-NEF 
+      _nef_nmr_meta_data.program_version 1.0
+      _nef_nmr_meta_data.creation_date   2020-03-31
+      _nef_nmr_meta_data.uuid            MELD-NEF_2020-03-31
+      
+      loop_
+          _nef_program_script.program_name
+          _nef_program_script.script_name
+          
+          MELD MELD-NEF
+       stop_
+  save_
+  
+  
+  save_nef_molecular_system
+
+      _nef_molecular_system.sf_category nef_molecular_system
+      _nef_molecular_system.sf_framecode nef_molecular_system
+
+      loop_
+         _nef_sequence.index
+         _nef_sequence.chain_code
+         _nef_sequence.sequence_code
+         _nef_sequence.residue_name
+         _nef_sequence.linking
+         _nef_sequence.residue_variant
+
+
+       1  A   1  SER  start   .
+       2  A   2  SER  middle  .
+       3  A   3  GLN  middle  .
+       4  A   4  THR  middle  .
+       5  A   5  LEU  middle  .
+       6  A   6  ASP  middle  .
+       7  A   7  ARG  middle  .
+       8  A   8  ASP  middle  .
+       9  A   9  PRO  middle  .
+      10  A  10  THR  middle  .
+      11  A  11  LEU  middle  .
+      12  A  12  THR  middle  .
+      13  A  13  LEU  middle  .
+      14  A  14  SER  middle  .
+      15  A  15  LEU  middle  .
+      16  A  16  ILE  middle  .
+      17  A  17  ALA  middle  .
+      18  A  18  LYS  middle  .
+      19  A  19  ASN  middle  .
+      20  A  20  THR  middle  .
+      21  A  21  PRO  middle  .
+      22  A  22  ALA  middle  .
+      23  A  23  ASN  middle  .
+      24  A  24  SER  middle  .
+      25  A  25  MET  middle  .
+      26  A  26  ILE  middle  .
+      27  A  27  MET  middle  .
+      28  A  28  THR  middle  .
+      29  A  29  LYS  middle  .
+      30  A  30  LEU  middle  .
+      31  A  31  PRO  middle  .
+      32  A  32  SER  middle  .
+      33  A  33  VAL  middle  .
+      34  A  34  ARG  middle  .
+      35  A  35  VAL  middle  .
+      36  A  36  LYS  middle  .
+      37  A  37  THR  middle  .
+      38  A  38  GLU  middle  .
+      39  A  39  GLY  middle  .
+      40  A  40  TYR  middle  .
+      41  A  41  ASN  middle  .
+      42  A  42  PRO  middle  .
+      43  A  43  SER  middle  .
+      44  A  44  ILE  middle  .
+      45  A  45  ASN  middle  .
+      46  A  46  VAL  middle  .
+      47  A  47  ASN  middle  .
+      48  A  48  GLU  middle  .
+      49  A  49  LEU  middle  .
+      50  A  50  PHE  middle  .
+      51  A  51  ALA  middle  .
+      52  A  52  TYR  middle  .
+      53  A  53  VAL  middle  .
+      54  A  54  ASP  middle  .
+      55  A  55  LEU  middle  .
+      56  A  56  SER  middle  .
+      57  A  57  GLY  middle  .
+      58  A  58  SER  middle  .
+      59  A  59  GLU  middle  .
+      60  A  60  PRO  middle  .
+      61  A  61  GLY  middle  .
+      62  A  62  GLU  middle  .
+      63  A  63  HIS  middle  .
+      64  A  64  ASP  middle  .
+      65  A  65  TYR  middle  .
+      66  A  66  GLU  middle  .
+      67  A  67  VAL  middle  .
+      68  A  68  LYS  middle  .
+      69  A  69  VAL  middle  .
+      70  A  70  GLU  middle  .
+      71  A  71  PRO  middle  .
+      72  A  72  ILE  middle  .
+      73  A  73  PRO  middle  .
+      74  A  74  ASN  middle  .
+      75  A  75  ILE  middle  .
+      76  A  76  LYS  middle  .
+      77  A  77  ILE  middle  .
+      78  A  78  VAL  middle  .
+      79  A  79  GLU  middle  .
+      80  A  80  ILE  middle  .
+      81  A  81  SER  middle  .
+      82  A  82  PRO  middle  .
+      83  A  83  ARG  middle  .
+      84  A  84  VAL  middle  .
+      85  A  85  VAL  middle  .
+      86  A  86  THR  middle  .
+      87  A  87  LEU  middle  .
+      88  A  88  GLN  middle  .
+      89  A  89  LEU  middle  .
+      90  A  90  GLU  middle  .
+      91  A  91  HIS  middle  .
+      92  A  92  HIS  middle  .
+      93  A  93  HIS  middle  .
+      94  A  94  HIS  middle  .
+      95  A  95  HIS  middle  .
+      96  A  96  HIS  end     .
+    stop_
+
+
+
+   save_
+save_nef_distance_restraint_list_2kpu.mr
+
+      _nef_distance_restraint_list.sf_category nef_distance_restraint_list
+      _nef_distance_restraint_list.sf_framecode nef_distance_restraint_list_2kpu.mr
+      _nef_distance_restraint_list.potential_type .
+      _nef_distance_restraint_list.restraint_origin noe
+
+      loop_
+         _nef_distance_restraint.index
+         _nef_distance_restraint.restraint_id
+         _nef_distance_restraint.restraint_combination_id
+         _nef_distance_restraint.chain_code_1
+         _nef_distance_restraint.sequence_code_1
+         _nef_distance_restraint.residue_name_1
+         _nef_distance_restraint.atom_name_1
+         _nef_distance_restraint.chain_code_2
+         _nef_distance_restraint.sequence_code_2
+         _nef_distance_restraint.residue_name_2
+         _nef_distance_restraint.atom_name_2
+         _nef_distance_restraint.weight
+         _nef_distance_restraint.target_value
+         _nef_distance_restraint.target_value_uncertainty
+         _nef_distance_restraint.lower_limit
+         _nef_distance_restraint.upper_limit
+
+
+        1    1  .  A  19  ASN  H    A  20  THR  H    1  1.8  .  1.8  3.5
+        2    2  .  A  23  ASN  H    A  24  SER  H    1  1.8  .  1.8  5
+        3    3  .  A  27  MET  H    A  28  THR  H    1  1.8  .  1.8  3.5
+        4    4  .  A  28  THR  H    A  29  LYS  H    1  1.8  .  1.8  5
+        5    5  .  A  39  GLY  H    A  40  TYR  H    1  1.8  .  1.8  5
+        6    6  .  A  40  TYR  H    A  41  ASN  H    1  1.8  .  1.8  5
+        7    7  .  A  43  SER  H    A  44  ILE  H    1  1.8  .  1.8  3.5
+        8    8  .  A  44  ILE  H    A  45  ASN  H    1  1.8  .  1.8  5
+        9    9  .  A  46  VAL  H    A  47  ASN  H    1  1.8  .  1.8  3.5
+       10   10  .  A  47  ASN  H    A  48  GLU  H    1  1.8  .  1.8  3.5
+       11   11  .  A  48  GLU  H    A  49  LEU  H    1  1.8  .  1.8  3.5
+       12   12  .  A  54  ASP  H    A  55  LEU  H    1  1.8  .  1.8  5
+       13   13  .  A  55  LEU  H    A  56  SER  H    1  1.8  .  1.8  5
+       14   14  .  A  56  SER  H    A  57  GLY  H    1  1.8  .  1.8  5
+       15   15  .  A  57  GLY  H    A  58  SER  H    1  1.8  .  1.8  5
+       16   16  .  A  58  SER  H    A  59  GLU  H    1  1.8  .  1.8  5
+       17   17  .  A  69  VAL  H    A  70  GLU  H    1  1.8  .  1.8  5
+       18   18  .  A  74  ASN  H    A  75  ILE  H    1  1.8  .  1.8  5
+       19   19  .  A  79  GLU  H    A  80  ILE  H    1  1.8  .  1.8  5
+       20   20  .  A  83  ARG  H    A  84  VAL  H    1  1.8  .  1.8  3
+       21   21  .  A  90  GLU  H    A  91  HIS  H    1  1.8  .  1.8  5
+       22   22  .  A  91  HIS  H    A  92  HIS  H    1  1.8  .  1.8  5
+       23   23  .  A  78  VAL  H    A  79  GLU  H    1  1.8  .  1.8  3
+       24   24  .  A  46  VAL  H    A  48  GLU  H    1  1.8  .  1.8  5
+       25   25  .  A  47  ASN  H    A  49  LEU  H    1  1.8  .  1.8  5
+       26   26  .  A   9  PRO  HA   A  10  THR  H    1  1.8  .  1.8  2.9
+       27   27  .  A  10  THR  HA   A  11  LEU  H    1  1.8  .  1.8  3.5
+       28   28  .  A  11  LEU  HA   A  12  THR  H    1  1.8  .  1.8  3.5
+       29   29  .  A  12  THR  HA   A  13  LEU  H    1  1.8  .  1.8  3.5
+       30   30  .  A  13  LEU  HA   A  14  SER  H    1  1.8  .  1.8  2.9
+       31   31  .  A  14  SER  HA   A  15  LEU  H    1  1.8  .  1.8  2.9
+       32   32  .  A  15  LEU  HA   A  16  ILE  H    1  1.8  .  1.8  3.5
+       33   33  .  A  16  ILE  HA   A  17  ALA  H    1  1.8  .  1.8  2.9
+       34   34  .  A  18  LYS  HA   A  19  ASN  H    1  1.8  .  1.8  3.5
+       35   35  .  A  21  PRO  HA   A  22  ALA  H    1  1.8  .  1.8  2.9
+       36   36  .  A  23  ASN  HA   A  24  SER  H    1  1.8  .  1.8  3.5
+       37   37  .  A  24  SER  HA   A  25  MET  H    1  1.8  .  1.8  3.5
+       38   38  .  A  25  MET  HA   A  26  ILE  H    1  1.8  .  1.8  2.9
+       39   39  .  A  26  ILE  HA   A  27  MET  H    1  1.8  .  1.8  3.5
+       40   40  .  A  28  THR  HA   A  29  LYS  H    1  1.8  .  1.8  2.9
+       41   41  .  A  29  LYS  HA   A  30  LEU  H    1  1.8  .  1.8  2.9
+       42   42  .  A  31  PRO  HA   A  32  SER  H    1  1.8  .  1.8  2.9
+       43   43  .  A  32  SER  HA   A  33  VAL  H    1  1.8  .  1.8  3.5
+       44   44  .  A  33  VAL  HA   A  34  ARG  H    1  1.8  .  1.8  3.5
+       45   45  .  A  34  ARG  HA   A  35  VAL  H    1  1.8  .  1.8  2.9
+       46   46  .  A  35  VAL  HA   A  36  LYS  H    1  1.8  .  1.8  3.5
+       47   47  .  A  36  LYS  HA   A  37  THR  H    1  1.8  .  1.8  2.9
+       48   48  .  A  37  THR  HA   A  38  GLU  H    1  1.8  .  1.8  3.5
+       49   49  .  A  38  GLU  HA   A  39  GLY  H    1  1.8  .  1.8  2.9
+       50   50  .  A  40  TYR  HA   A  41  ASN  H    1  1.8  .  1.8  2.9
+       51   51  .  A  44  ILE  HA   A  45  ASN  H    1  1.8  .  1.8  2.9
+       52   52  .  A  45  ASN  HA   A  46  VAL  H    1  1.8  .  1.8  3.5
+       53   53  .  A  49  LEU  HA   A  50  PHE  H    1  1.8  .  1.8  2.9
+       54   54  .  A  50  PHE  HA   A  51  ALA  H    1  1.8  .  1.8  3.5
+       55   55  .  A  52  TYR  HA   A  53  VAL  H    1  1.8  .  1.8  3.5
+       56   56  .  A  53  VAL  HA   A  54  ASP  H    1  1.8  .  1.8  3.5
+       57   57  .  A  54  ASP  HA   A  55  LEU  H    1  1.8  .  1.8  3.5
+       58   58  .  A  56  SER  HA   A  57  GLY  H    1  1.8  .  1.8  3.5
+       59   59  .  A  58  SER  HA   A  59  GLU  H    1  1.8  .  1.8  3.5
+       60   60  .  A  60  PRO  HA   A  61  GLY  H    1  1.8  .  1.8  3.5
+       61   61  .  A  61  GLY  CA   A  62  GLU  H    1  1.8  .  1.8  4.5
+       62   62  .  A  62  GLU  HA   A  63  HIS  H    1  1.8  .  1.8  3.5
+       63   63  .  A  63  HIS  HA   A  64  ASP  H    1  1.8  .  1.8  2.9
+       64   64  .  A  64  ASP  HA   A  65  TYR  H    1  1.8  .  1.8  2.9
+       65   65  .  A  65  TYR  HA   A  66  GLU  H    1  1.8  .  1.8  3.5
+       66   66  .  A  66  GLU  HA   A  67  VAL  H    1  1.8  .  1.8  3.5
+       67   67  .  A  67  VAL  HA   A  68  LYS  H    1  1.8  .  1.8  3.5
+       68   68  .  A  68  LYS  HA   A  69  VAL  H    1  1.8  .  1.8  3.5
+       69   69  .  A  69  VAL  HA   A  70  GLU  H    1  1.8  .  1.8  2.9
+       70   70  .  A  71  PRO  HA   A  72  ILE  H    1  1.8  .  1.8  3.5
+       71   71  .  A  73  PRO  HA   A  74  ASN  H    1  1.8  .  1.8  2.9
+       72   72  .  A  75  ILE  HA   A  76  LYS  H    1  1.8  .  1.8  3.5
+       73   73  .  A  76  LYS  HA   A  77  ILE  H    1  1.8  .  1.8  2.9
+       74   74  .  A  77  ILE  HA   A  78  VAL  H    1  1.8  .  1.8  3.5
+       75   75  .  A  79  GLU  HA   A  80  ILE  H    1  1.8  .  1.8  2.9
+       76   76  .  A  80  ILE  HA   A  81  SER  H    1  1.8  .  1.8  3.5
+       77   77  .  A  82  PRO  HA   A  83  ARG  H    1  1.8  .  1.8  3.5
+       78   78  .  A  84  VAL  HA   A  85  VAL  H    1  1.8  .  1.8  2.9
+       79   79  .  A  85  VAL  HA   A  86  THR  H    1  1.8  .  1.8  3.5
+       80   80  .  A  86  THR  HA   A  87  LEU  H    1  1.8  .  1.8  2.9
+       81   81  .  A  87  LEU  HA   A  88  GLN  H    1  1.8  .  1.8  3.5
+       82   82  .  A  88  GLN  HA   A  89  LEU  H    1  1.8  .  1.8  3.5
+       83   83  .  A  89  LEU  HA   A  90  GLU  H    1  1.8  .  1.8  3.5
+       84   84  .  A  91  HIS  HA   A  92  HIS  H    1  1.8  .  1.8  3.5
+       85   85  .  A  18  LYS  HA   A  20  THR  H    1  1.8  .  1.8  5
+       86   86  .  A  22  ALA  HA   A  24  SER  H    1  1.8  .  1.8  5
+       87   87  .  A  41  ASN  HA   A  43  SER  H    1  1.8  .  1.8  5
+       88   88  .  A  45  ASN  HA   A  47  ASN  H    1  1.8  .  1.8  5
+       89   89  .  A  46  VAL  HA   A  48  GLU  H    1  1.8  .  1.8  5
+       90   90  .  A  47  ASN  HA   A  49  LEU  H    1  1.8  .  1.8  5
+       91   91  .  A  54  ASP  HA   A  56  SER  H    1  1.8  .  1.8  5
+       92   92  .  A  73  PRO  HA   A  75  ILE  H    1  1.8  .  1.8  5
+       93   93  .  A  77  ILE  HA   A  79  GLU  H    1  1.8  .  1.8  5
+       94   94  .  A  81  SER  HA   A  83  ARG  H    1  1.8  .  1.8  5
+       95   95  .  A  82  PRO  HA   A  84  VAL  H    1  1.8  .  1.8  5
+       96   96  .  A  46  VAL  HA   A  49  LEU  H    1  1.8  .  1.8  5
+       97   97  .  A  16  ILE  HB   A  17  ALA  H    1  1.8  .  1.8  3.5
+       98   98  .  A  26  ILE  HB   A  27  MET  H    1  1.8  .  1.8  5
+       99   99  .  A  28  THR  HB   A  29  LYS  H    1  1.8  .  1.8  5
+      100  100  .  A  33  VAL  HB   A  34  ARG  H    1  1.8  .  1.8  5
+      101  101  .  A  37  THR  HB   A  38  GLU  H    1  1.8  .  1.8  3.5
+      102  102  .  A  44  ILE  HB   A  45  ASN  H    1  1.8  .  1.8  5
+      103  103  .  A  46  VAL  HB   A  47  ASN  H    1  1.8  .  1.8  5
+      104  104  .  A  53  VAL  HB   A  54  ASP  H    1  1.8  .  1.8  5
+      105  105  .  A  77  ILE  HB   A  78  VAL  H    1  1.8  .  1.8  5
+      106  106  .  A  78  VAL  HB   A  79  GLU  H    1  1.8  .  1.8  5
+      107  107  .  A  80  ILE  HB   A  81  SER  H    1  1.8  .  1.8  5
+      108  108  .  A  83  ARG  CB   A  84  VAL  H    1  1.8  .  1.8  4.5
+      109  109  .  A  84  VAL  HB   A  85  VAL  H    1  1.8  .  1.8  5
+      110  110  .  A  85  VAL  HB   A  86  THR  H    1  1.8  .  1.8  5
+      111  111  .  A  86  THR  HB   A  87  LEU  H    1  1.8  .  1.8  5
+      112  112  .  A  10  THR  CG2  A  11  LEU  H    1  1.8  .  1.8  6
+      113  113  .  A  11  LEU  HG   A  12  THR  H    1  1.8  .  1.8  5
+      114  114  .  A  11  LEU  CD2  A  12  THR  H    1  1.8  .  1.8  6
+      115  115  .  A  12  THR  CG2  A  13  LEU  H    1  1.8  .  1.8  6
+      116  116  .  A  13  LEU  CD2  A  14  SER  H    1  1.8  .  1.8  6
+      117  117  .  A  15  LEU  HG   A  16  ILE  H    1  1.8  .  1.8  5
+      118  118  .  A  15  LEU  CD1  A  16  ILE  H    1  1.8  .  1.8  6
+      119  119  .  A  16  ILE  CG1  A  17  ALA  H    1  1.8  .  1.8  6
+      120  120  .  A  16  ILE  CG2  A  17  ALA  H    1  1.8  .  1.8  6
+      121  121  .  A  16  ILE  CD1  A  17  ALA  H    1  1.8  .  1.8  6
+      122  122  .  A  18  LYS  CG   A  19  ASN  H    1  1.8  .  1.8  6
+      123  123  .  A  25  MET  CG   A  26  ILE  H    1  1.8  .  1.8  6
+      124  124  .  A  26  ILE  CG1  A  27  MET  H    1  1.8  .  1.8  6
+      125  125  .  A  26  ILE  CG2  A  27  MET  H    1  1.8  .  1.8  6
+      126  126  .  A  28  THR  CG2  A  29  LYS  H    1  1.8  .  1.8  6
+      127  127  .  A  29  LYS  CG   A  30  LEU  H    1  1.8  .  1.8  6
+      128  128  .  A  31  PRO  CG   A  32  SER  H    1  1.8  .  1.8  6
+      129  129  .  A  33  VAL  CG1  A  34  ARG  H    1  1.8  .  1.8  6
+      130  130  .  A  33  VAL  CG2  A  34  ARG  H    1  1.8  .  1.8  6
+      131  131  .  A  34  ARG  CG   A  35  VAL  H    1  1.8  .  1.8  6
+      132  132  .  A  35  VAL  CG1  A  36  LYS  H    1  1.8  .  1.8  6
+      133  133  .  A  36  LYS  CG   A  37  THR  H    1  1.8  .  1.8  6
+      134  134  .  A  36  LYS  CD   A  37  THR  H    1  1.8  .  1.8  6
+      135  135  .  A  37  THR  CG2  A  38  GLU  H    1  1.8  .  1.8  6
+      136  136  .  A  40  TYR  HD1  A  41  ASN  H    1  1.8  .  1.8  5
+      137  137  .  A  42  PRO  CG   A  43  SER  H    1  1.8  .  1.8  6
+      138  138  .  A  42  PRO  CD   A  43  SER  H    1  1.8  .  1.8  6
+      139  139  .  A  44  ILE  CG1  A  45  ASN  H    1  1.8  .  1.8  6
+      140  140  .  A  44  ILE  CG2  A  45  ASN  H    1  1.8  .  1.8  6
+      141  141  .  A  46  VAL  CG1  A  47  ASN  H    1  1.8  .  1.8  6
+      142  142  .  A  46  VAL  CG2  A  47  ASN  H    1  1.8  .  1.8  6
+      143  143  .  A  48  GLU  CG   A  49  LEU  H    1  1.8  .  1.8  6
+      144  144  .  A  49  LEU  CD1  A  50  PHE  H    1  1.8  .  1.8  6
+      145  145  .  A  49  LEU  CD2  A  50  PHE  H    1  1.8  .  1.8  6
+      146  146  .  A  52  TYR  HD1  A  53  VAL  H    1  1.8  .  1.8  5
+      147  147  .  A  53  VAL  CG1  A  54  ASP  H    1  1.8  .  1.8  6
+      148  148  .  A  53  VAL  CG2  A  54  ASP  H    1  1.8  .  1.8  6
+      149  149  .  A  62  GLU  CG   A  63  HIS  H    1  1.8  .  1.8  6
+      150  150  .  A  66  GLU  CG   A  67  VAL  H    1  1.8  .  1.8  6
+      151  151  .  A  67  VAL  CG1  A  68  LYS  H    1  1.8  .  1.8  6
+      152  152  .  A  67  VAL  CG2  A  68  LYS  H    1  1.8  .  1.8  6
+      153  153  .  A  68  LYS  CG   A  69  VAL  H    1  1.8  .  1.8  6
+      154  154  .  A  69  VAL  CG1  A  70  GLU  H    1  1.8  .  1.8  6
+      155  155  .  A  69  VAL  CG2  A  70  GLU  H    1  1.8  .  1.8  6
+      156  156  .  A  75  ILE  CG2  A  76  LYS  H    1  1.8  .  1.8  6
+      157  157  .  A  75  ILE  CD1  A  76  LYS  H    1  1.8  .  1.8  6
+      158  158  .  A  76  LYS  CG   A  77  ILE  H    1  1.8  .  1.8  6
+      159  159  .  A  76  LYS  CD   A  77  ILE  H    1  1.8  .  1.8  6
+      160  160  .  A  77  ILE  CG1  A  78  VAL  H    1  1.8  .  1.8  6
+      161  161  .  A  77  ILE  CG2  A  78  VAL  H    1  1.8  .  1.8  6
+      162  162  .  A  77  ILE  CD1  A  78  VAL  H    1  1.8  .  1.8  6
+      163  163  .  A  78  VAL  CG1  A  79  GLU  H    1  1.8  .  1.8  6
+      164  164  .  A  78  VAL  CG2  A  79  GLU  H    1  1.8  .  1.8  6
+      165  165  .  A  79  GLU  CG   A  80  ILE  H    1  1.8  .  1.8  6
+      166  166  .  A  80  ILE  CG2  A  81  SER  H    1  1.8  .  1.8  6
+      167  167  .  A  84  VAL  CG1  A  85  VAL  H    1  1.8  .  1.8  6
+      168  168  .  A  84  VAL  CG2  A  85  VAL  H    1  1.8  .  1.8  6
+      169  169  .  A  85  VAL  CG1  A  86  THR  H    1  1.8  .  1.8  6
+      170  170  .  A  85  VAL  CG2  A  86  THR  H    1  1.8  .  1.8  6
+      171  171  .  A  86  THR  CG2  A  87  LEU  H    1  1.8  .  1.8  6
+      172  172  .  A  87  LEU  CD2  A  88  GLN  H    1  1.8  .  1.8  6
+      173  173  .  A  88  GLN  CG   A  89  LEU  H    1  1.8  .  1.8  6
+      174  174  .  A  89  LEU  HG   A  90  GLU  H    1  1.8  .  1.8  5
+      175  175  .  A  89  LEU  CD1  A  90  GLU  H    1  1.8  .  1.8  6
+      176  176  .  A  89  LEU  CD2  A  90  GLU  H    1  1.8  .  1.8  6
+      177  177  .  A   8  ASP  H    A   9  PRO  CD   1  1.8  .  1.8  6
+      178  178  .  A  15  LEU  H    A  16  ILE  CG2  1  1.8  .  1.8  6
+      179  179  .  A  24  SER  H    A  25  MET  CB   1  1.8  .  1.8  6
+      180  180  .  A  41  ASN  H    A  42  PRO  CD   1  1.8  .  1.8  6
+      181  181  .  A  43  SER  H    A  44  ILE  HB   1  1.8  .  1.8  5
+      182  182  .  A  43  SER  H    A  44  ILE  CG1  1  1.8  .  1.8  6
+      183  183  .  A  48  GLU  H    A  49  LEU  HG   1  1.8  .  1.8  5
+      184  184  .  A  48  GLU  H    A  49  LEU  CD2  1  1.8  .  1.8  6
+      185  185  .  A  52  TYR  H    A  53  VAL  CG1  1  1.8  .  1.8  6
+      186  186  .  A  83  ARG  H    A  84  VAL  CG2  1  1.8  .  1.8  6
+      187  187  .  A  84  VAL  H    A  85  VAL  CG1  1  1.8  .  1.8  6
+      188  188  .  A  22  ALA  CB   A  24  SER  H    1  1.8  .  1.8  6
+      189  189  .  A  26  ILE  HB   A  28  THR  H    1  1.8  .  1.8  5
+      190  190  .  A  45  ASN  CB   A  47  ASN  H    1  1.8  .  1.8  6
+      191  191  .  A  82  PRO  CB   A  84  VAL  H    1  1.8  .  1.8  6
+      192  192  .  A  10  THR  CG2  A  12  THR  H    1  1.8  .  1.8  6
+      193  193  .  A  26  ILE  CG2  A  28  THR  H    1  1.8  .  1.8  6
+      194  194  .  A  44  ILE  CG2  A  46  VAL  H    1  1.8  .  1.8  6
+      195  195  .  A  67  VAL  CG1  A  69  VAL  H    1  1.8  .  1.8  6
+      196  196  .  A  77  ILE  CG2  A  79  GLU  H    1  1.8  .  1.8  6
+      197  197  .  A  77  ILE  CD1  A  79  GLU  H    1  1.8  .  1.8  6
+      198  198  .  A  84  VAL  CG1  A  86  THR  H    1  1.8  .  1.8  6
+      199  199  .  A  17  ALA  CB   A  20  THR  H    1  1.8  .  1.8  6
+      200  200  .  A  45  ASN  CB   A  48  GLU  H    1  1.8  .  1.8  6
+      201  201  .  A  72  ILE  HB   A  75  ILE  H    1  1.8  .  1.8  5
+      202  202  .  A  72  ILE  CG2  A  75  ILE  H    1  1.8  .  1.8  6
+      203  203  .  A  20  THR  CG2  A  24  SER  H    1  1.8  .  1.8  6
+      204  204  .  A  17  ALA  HA   A  20  THR  HB   1  1.8  .  1.8  5
+      205  205  .  A  46  VAL  HA   A  49  LEU  CB   1  1.8  .  1.8  6
+      206  206  .  A  46  VAL  HA   A  49  LEU  HG   1  1.8  .  1.8  5
+      207  207  .  A  46  VAL  HA   A  49  LEU  CD1  1  1.8  .  1.8  6
+      208  208  .  A  46  VAL  HA   A  49  LEU  CD2  1  1.8  .  1.8  6
+      209  209  .  A  11  LEU  H    A  35  VAL  H    1  1.8  .  1.8  5
+      210  210  .  A  13  LEU  H    A  33  VAL  H    1  1.8  .  1.8  5
+      211  211  .  A  15  LEU  H    A  33  VAL  H    1  1.8  .  1.8  5
+      212  212  .  A  16  ILE  H    A  53  VAL  H    1  1.8  .  1.8  5
+      213  213  .  A  18  LYS  H    A  53  VAL  H    1  1.8  .  1.8  5
+      214  214  .  A  18  LYS  H    A  55  LEU  H    1  1.8  .  1.8  5
+      215  215  .  A  25  MET  H    A  92  HIS  H    1  1.8  .  1.8  5
+      216  216  .  A  28  THR  H    A  88  GLN  H    1  1.8  .  1.8  5
+      217  217  .  A  36  LYS  H    A  79  GLU  H    1  1.8  .  1.8  5
+      218  218  .  A  52  TYR  H    A  68  LYS  H    1  1.8  .  1.8  5
+      219  219  .  A  54  ASP  H    A  66  GLU  H    1  1.8  .  1.8  5
+      220  220  .  A  63  HIS  H    A  87  LEU  H    1  1.8  .  1.8  5
+      221  221  .  A  65  TYR  H    A  85  VAL  H    1  1.8  .  1.8  3.5
+      222  222  .  A  65  TYR  H    A  86  THR  H    1  1.8  .  1.8  5
+      223  223  .  A  67  VAL  H    A  85  VAL  H    1  1.8  .  1.8  5
+      224  224  .  A  10  THR  HA   A  35  VAL  H    1  1.8  .  1.8  5
+      225  225  .  A  10  THR  HA   A  37  THR  H    1  1.8  .  1.8  5
+      226  226  .  A  12  THR  HA   A  35  VAL  H    1  1.8  .  1.8  5
+      227  227  .  A  14  SER  HA   A  32  SER  H    1  1.8  .  1.8  5
+      228  228  .  A  14  SER  HA   A  33  VAL  H    1  1.8  .  1.8  5
+      229  229  .  A  15  LEU  HA   A  51  ALA  H    1  1.8  .  1.8  5
+      230  230  .  A  17  ALA  HA   A  53  VAL  H    1  1.8  .  1.8  5
+      231  231  .  A  24  SER  HA   A  92  HIS  H    1  1.8  .  1.8  5
+      232  232  .  A  26  ILE  HA   A  90  GLU  H    1  1.8  .  1.8  5
+      233  233  .  A  37  THR  HA   A  78  VAL  H    1  1.8  .  1.8  3.5
+      234  234  .  A  39  GLY  CA   A  76  LYS  H    1  1.8  .  1.8  6
+      235  235  .  A  51  ALA  HA   A  70  GLU  H    1  1.8  .  1.8  5
+      236  236  .  A  62  GLU  HA   A  87  LEU  H    1  1.8  .  1.8  5
+      237  237  .  A  62  GLU  HA   A  89  LEU  H    1  1.8  .  1.8  5
+      238  238  .  A  63  HIS  HA   A  87  LEU  H    1  1.8  .  1.8  5
+      239  239  .  A  64  ASP  HA   A  85  VAL  H    1  1.8  .  1.8  5
+      240  240  .  A  64  ASP  HA   A  87  LEU  H    1  1.8  .  1.8  5
+      241  241  .  A  66  GLU  HA   A  85  VAL  H    1  1.8  .  1.8  5
+      242  242  .  A  11  LEU  H    A  34  ARG  HA   1  1.8  .  1.8  5
+      243  243  .  A  11  LEU  H    A  36  LYS  HA   1  1.8  .  1.8  5
+      244  244  .  A  13  LEU  H    A  34  ARG  HA   1  1.8  .  1.8  5
+      245  245  .  A  15  LEU  H    A  32  SER  HA   1  1.8  .  1.8  5
+      246  246  .  A  16  ILE  H    A  52  TYR  HA   1  1.8  .  1.8  5
+      247  247  .  A  18  LYS  H    A  54  ASP  HA   1  1.8  .  1.8  5
+      248  248  .  A  25  MET  H    A  89  LEU  HA   1  1.8  .  1.8  5
+      249  249  .  A  25  MET  H    A  91  HIS  HA   1  1.8  .  1.8  5
+      250  250  .  A  27  MET  H    A  89  LEU  HA   1  1.8  .  1.8  5
+      251  251  .  A  36  LYS  H    A  79  GLU  HA   1  1.8  .  1.8  5
+      252  252  .  A  38  GLU  H    A  77  ILE  HA   1  1.8  .  1.8  5
+      253  253  .  A  40  TYR  H    A  75  ILE  HA   1  1.8  .  1.8  5
+      254  254  .  A  52  TYR  H    A  69  VAL  HA   1  1.8  .  1.8  5
+      255  255  .  A  61  GLY  H    A  90  GLU  HA   1  1.8  .  1.8  5
+      256  256  .  A  63  HIS  H    A  86  THR  HA   1  1.8  .  1.8  5
+      257  257  .  A  63  HIS  H    A  88  GLN  HA   1  1.8  .  1.8  5
+      258  258  .  A  65  TYR  H    A  84  VAL  HA   1  1.8  .  1.8  5
+      259  259  .  A  65  TYR  H    A  86  THR  HA   1  1.8  .  1.8  5
+      260  260  .  A  67  VAL  H    A  83  ARG  HA   1  1.8  .  1.8  5
+      261  261  .  A  67  VAL  H    A  84  VAL  HA   1  1.8  .  1.8  3.5
+      262  262  .  A   8  ASP  HA   A  38  GLU  HA   1  1.8  .  1.8  5
+      263  263  .  A  10  THR  HA   A  36  LYS  HA   1  1.8  .  1.8  3.5
+      264  264  .  A  12  THR  HA   A  34  ARG  HA   1  1.8  .  1.8  5
+      265  265  .  A  24  SER  HA   A  91  HIS  HA   1  1.8  .  1.8  5
+      266  266  .  A  26  ILE  HA   A  89  LEU  HA   1  1.8  .  1.8  5
+      267  267  .  A  37  THR  HA   A  77  ILE  HA   1  1.8  .  1.8  5
+      268  268  .  A  39  GLY  CA   A  75  ILE  HA   1  1.8  .  1.8  6
+      269  269  .  A  51  ALA  HA   A  69  VAL  HA   1  1.8  .  1.8  5
+      270  270  .  A  62  GLU  HA   A  88  GLN  HA   1  1.8  .  1.8  3.5
+      271  271  .  A  64  ASP  HA   A  86  THR  HA   1  1.8  .  1.8  3.5
+      272  272  .  A  66  GLU  HA   A  84  VAL  HA   1  1.8  .  1.8  5
+      273  273  .  A  35  VAL  HA   A  80  ILE  HA   1  1.8  .  1.8  5
+      274  274  .  A  10  THR  CG2  A  35  VAL  H    1  1.8  .  1.8  6
+      275  275  .  A  10  THR  CG2  A  37  THR  H    1  1.8  .  1.8  6
+      276  276  .  A  12  THR  CG2  A  33  VAL  H    1  1.8  .  1.8  6
+      277  277  .  A  13  LEU  CB   A  33  VAL  H    1  1.8  .  1.8  6
+      278  278  .  A  13  LEU  CB   A  51  ALA  H    1  1.8  .  1.8  6
+      279  279  .  A  13  LEU  CD1  A  50  PHE  H    1  1.8  .  1.8  6
+      280  280  .  A  13  LEU  CD1  A  51  ALA  H    1  1.8  .  1.8  6
+      281  281  .  A  13  LEU  CD2  A  51  ALA  H    1  1.8  .  1.8  6
+      282  282  .  A  15  LEU  CB   A  33  VAL  H    1  1.8  .  1.8  6
+      283  283  .  A  15  LEU  CD1  A  52  TYR  H    1  1.8  .  1.8  6
+      284  284  .  A  15  LEU  CD1  A  53  VAL  H    1  1.8  .  1.8  6
+      285  285  .  A  16  ILE  CG1  A  53  VAL  H    1  1.8  .  1.8  6
+      286  286  .  A  18  LYS  CB   A  55  LEU  H    1  1.8  .  1.8  6
+      287  287  .  A  19  ASN  CB   A  56  SER  H    1  1.8  .  1.8  6
+      288  288  .  A  20  THR  CG2  A  26  ILE  H    1  1.8  .  1.8  6
+      289  289  .  A  21  PRO  CG   A  58  SER  H    1  1.8  .  1.8  6
+      290  290  .  A  23  ASN  CB   A  92  HIS  H    1  1.8  .  1.8  6
+      291  291  .  A  25  MET  CB   A  90  GLU  H    1  1.8  .  1.8  6
+      292  292  .  A  25  MET  CG   A  90  GLU  H    1  1.8  .  1.8  6
+      293  293  .  A  26  ILE  CG1  A  90  GLU  H    1  1.8  .  1.8  6
+      294  294  .  A  26  ILE  CG2  A  88  GLN  H    1  1.8  .  1.8  6
+      295  295  .  A  28  THR  HB   A  88  GLN  H    1  1.8  .  1.8  5
+      296  296  .  A  28  THR  CG2  A  88  GLN  H    1  1.8  .  1.8  6
+      297  297  .  A  35  VAL  CG1  A  79  GLU  H    1  1.8  .  1.8  6
+      298  298  .  A  36  LYS  CB   A  78  VAL  H    1  1.8  .  1.8  6
+      299  299  .  A  37  THR  HB   A  76  LYS  H    1  1.8  .  1.8  5
+      300  300  .  A  37  THR  HB   A  78  VAL  H    1  1.8  .  1.8  5
+      301  301  .  A  37  THR  CG2  A  78  VAL  H    1  1.8  .  1.8  6
+      302  302  .  A  38  GLU  CB   A  76  LYS  H    1  1.8  .  1.8  6
+      303  303  .  A  52  TYR  HD1  A  70  GLU  H    1  1.8  .  1.8  5
+      304  304  .  A  52  TYR  HE1  A  70  GLU  H    1  1.8  .  1.8  5
+      305  305  .  A  53  VAL  CG1  A  66  GLU  H    1  1.8  .  1.8  6
+      306  306  .  A  53  VAL  CG1  A  68  LYS  H    1  1.8  .  1.8  6
+      307  307  .  A  65  TYR  HD1  A  87  LEU  H    1  1.8  .  1.8  5
+      308  308  .  A  65  TYR  HE1  A  87  LEU  H    1  1.8  .  1.8  5
+      309  309  .  A  67  VAL  CG2  A  84  VAL  H    1  1.8  .  1.8  6
+      310  310  .  A  67  VAL  CG2  A  85  VAL  H    1  1.8  .  1.8  6
+      311  311  .  A  11  LEU  H    A  35  VAL  HB   1  1.8  .  1.8  5
+      312  312  .  A  11  LEU  H    A  35  VAL  CG2  1  1.8  .  1.8  6
+      313  313  .  A  11  LEU  H    A  37  THR  CG2  1  1.8  .  1.8  6
+      314  314  .  A  13  LEU  H    A  33  VAL  HB   1  1.8  .  1.8  5
+      315  315  .  A  17  ALA  H    A  26  ILE  CD1  1  1.8  .  1.8  6
+      316  316  .  A  17  ALA  H    A  30  LEU  CD1  1  1.8  .  1.8  6
+      317  317  .  A  17  ALA  H    A  30  LEU  CD2  1  1.8  .  1.8  6
+      318  318  .  A  18  LYS  H    A  52  TYR  CB   1  1.8  .  1.8  6
+      319  319  .  A  18  LYS  H    A  53  VAL  CG2  1  1.8  .  1.8  6
+      320  320  .  A  18  LYS  H    A  55  LEU  CD1  1  1.8  .  1.8  6
+      321  321  .  A  20  THR  H    A  55  LEU  CB   1  1.8  .  1.8  6
+      322  322  .  A  23  ASN  H    A  92  HIS  CB   1  1.8  .  1.8  6
+      323  323  .  A  25  MET  H    A  89  LEU  CD1  1  1.8  .  1.8  6
+      324  324  .  A  25  MET  H    A  89  LEU  CD2  1  1.8  .  1.8  6
+      325  325  .  A  27  MET  H    A  88  GLN  CB   1  1.8  .  1.8  6
+      326  326  .  A  28  THR  H    A  88  GLN  CB   1  1.8  .  1.8  6
+      327  327  .  A  34  ARG  H    A  81  SER  CB   1  1.8  .  1.8  6
+      328  328  .  A  34  ARG  H    A  82  PRO  CD   1  1.8  .  1.8  6
+      329  329  .  A  36  LYS  H    A  78  VAL  CG1  1  1.8  .  1.8  6
+      330  330  .  A  36  LYS  H    A  78  VAL  CG2  1  1.8  .  1.8  6
+      331  331  .  A  37  THR  H    A  78  VAL  CG2  1  1.8  .  1.8  6
+      332  332  .  A  38  GLU  H    A  75  ILE  CG2  1  1.8  .  1.8  6
+      333  333  .  A  38  GLU  H    A  78  VAL  CG2  1  1.8  .  1.8  6
+      334  334  .  A  40  TYR  H    A  75  ILE  CG1  1  1.8  .  1.8  6
+      335  335  .  A  40  TYR  H    A  75  ILE  CD1  1  1.8  .  1.8  6
+      336  336  .  A  41  ASN  H    A  75  ILE  CD1  1  1.8  .  1.8  6
+      337  337  .  A  50  PHE  H    A  70  GLU  CB   1  1.8  .  1.8  6
+      338  338  .  A  52  TYR  H    A  67  VAL  CG1  1  1.8  .  1.8  6
+      339  339  .  A  52  TYR  H    A  69  VAL  CG2  1  1.8  .  1.8  6
+      340  340  .  A  61  GLY  H    A  89  LEU  CB   1  1.8  .  1.8  5.5
+      341  341  .  A  61  GLY  H    A  89  LEU  HG   1  1.8  .  1.8  5
+      342  342  .  A  61  GLY  H    A  89  LEU  CD1  1  1.8  .  1.8  6
+      343  343  .  A  63  HIS  H    A  65  TYR  HE1  1  1.8  .  1.8  5
+      344  344  .  A  63  HIS  H    A  86  THR  CG2  1  1.8  .  1.8  6
+      345  345  .  A  65  TYR  H    A  84  VAL  CG1  1  1.8  .  1.8  6
+      346  346  .  A  65  TYR  H    A  85  VAL  CG2  1  1.8  .  1.8  6
+      347  347  .  A  40  TYR  HD1  A   7  ARG  HA   1  1.8  .  1.8  5
+      348  348  .  A  38  GLU  HA   A   9  PRO  CD   1  1.8  .  1.8  6
+      349  349  .  A  10  THR  HA   A  36  LYS  CG   1  1.8  .  1.8  6
+      350  350  .  A  10  THR  CG2  A  34  ARG  HA   1  1.8  .  1.8  6
+      351  351  .  A  12  THR  CG2  A  34  ARG  HA   1  1.8  .  1.8  6
+      352  352  .  A  13  LEU  CB   A  50  PHE  HA   1  1.8  .  1.8  6
+      353  353  .  A  13  LEU  CD1  A  50  PHE  HA   1  1.8  .  1.8  6
+      354  354  .  A  13  LEU  CD2  A  50  PHE  HA   1  1.8  .  1.8  6
+      355  355  .  A  15  LEU  HA   A  51  ALA  CB   1  1.8  .  1.8  6
+      356  356  .  A  15  LEU  CD2  A  30  LEU  HA   1  1.8  .  1.8  6
+      357  357  .  A  15  LEU  CD1  A  52  TYR  HA   1  1.8  .  1.8  6
+      358  358  .  A  16  ILE  HA   A  30  LEU  CD1  1  1.8  .  1.8  6
+      359  359  .  A  16  ILE  CG1  A  52  TYR  HA   1  1.8  .  1.8  6
+      360  360  .  A  17  ALA  HA   A  53  VAL  CG2  1  1.8  .  1.8  6
+      361  361  .  A  17  ALA  HA   A  55  LEU  CD1  1  1.8  .  1.8  6
+      362  362  .  A  17  ALA  HA   A  55  LEU  CD2  1  1.8  .  1.8  6
+      363  363  .  A  17  ALA  HA   A  87  LEU  CD1  1  1.8  .  1.8  6
+      364  364  .  A  18  LYS  CB   A  54  ASP  HA   1  1.8  .  1.8  6
+      365  365  .  A  19  ASN  CB   A  56  SER  HA   1  1.8  .  1.8  6
+      366  366  .  A  20  THR  HA   A  24  SER  HG   1  1.8  .  1.8  5
+      367  367  .  A  20  THR  HA   A  55  LEU  CB   1  1.8  .  1.8  6
+      368  368  .  A  20  THR  HA   A  55  LEU  CD1  1  1.8  .  1.8  6
+      369  369  .  A  20  THR  HA   A  55  LEU  CD2  1  1.8  .  1.8  6
+      370  370  .  A  20  THR  CG2  A  25  MET  HA   1  1.8  .  1.8  6
+      371  371  .  A  21  PRO  CG   A  56  SER  HA   1  1.8  .  1.8  6
+      372  372  .  A  25  MET  CE   A  27  MET  HA   1  1.8  .  1.8  6
+      373  373  .  A  25  MET  CE   A  92  HIS  HA   1  1.8  .  1.8  6
+      374  374  .  A  26  ILE  HA   A  89  LEU  HG   1  1.8  .  1.8  5
+      375  375  .  A  26  ILE  HA   A  89  LEU  CD2  1  1.8  .  1.8  6
+      376  376  .  A  26  ILE  CG1  A  89  LEU  HA   1  1.8  .  1.8  6
+      377  377  .  A  26  ILE  CG2  A  89  LEU  HA   1  1.8  .  1.8  6
+      378  378  .  A  28  THR  HB   A  87  LEU  HA   1  1.8  .  1.8  5
+      379  379  .  A  28  THR  CG2  A  87  LEU  HA   1  1.8  .  1.8  6
+      380  380  .  A  33  VAL  HA   A  67  VAL  CG1  1  1.8  .  1.8  6
+      381  381  .  A  33  VAL  HA   A  82  PRO  CD   1  1.8  .  1.8  6
+      382  382  .  A  33  VAL  CG1  A  51  ALA  HA   1  1.8  .  1.8  6
+      383  383  .  A  35  VAL  CG1  A  80  ILE  HA   1  1.8  .  1.8  6
+      384  384  .  A  37  THR  HA   A  78  VAL  CG1  1  1.8  .  1.8  6
+      385  385  .  A  37  THR  HA   A  78  VAL  CG2  1  1.8  .  1.8  6
+      386  386  .  A  37  THR  CG2  A  77  ILE  HA   1  1.8  .  1.8  6
+      387  387  .  A  39  GLY  CA   A  75  ILE  CD1  1  1.8  .  1.8  7
+      388  388  .  A  40  TYR  HA   A  75  ILE  CD1  1  1.8  .  1.8  6
+      389  389  .  A  44  ILE  CG2  A  46  VAL  HA   1  1.8  .  1.8  6
+      390  390  .  A  51  ALA  HA   A  69  VAL  CG1  1  1.8  .  1.8  6
+      391  391  .  A  51  ALA  HA   A  69  VAL  CG2  1  1.8  .  1.8  6
+      392  392  .  A  53  VAL  CG1  A  67  VAL  HA   1  1.8  .  1.8  6
+      393  393  .  A  55  LEU  HA   A  65  TYR  HE1  1  1.8  .  1.8  5
+      394  394  .  A  58  SER  HA   A  89  LEU  CD1  1  1.8  .  1.8  6
+      395  395  .  A  60  PRO  HA   A  89  LEU  CB   1  1.8  .  1.8  5.5
+      396  396  .  A  60  PRO  HA   A  89  LEU  CD2  1  1.8  .  1.8  6
+      397  397  .  A  60  PRO  CB   A  90  GLU  HA   1  1.8  .  1.8  6
+      398  398  .  A  62  GLU  HA   A  88  GLN  CG   1  1.8  .  1.8  6
+      399  399  .  A  62  GLU  CB   A  88  GLN  HA   1  1.8  .  1.8  6
+      400  400  .  A  64  ASP  HA   A  84  VAL  CG1  1  1.8  .  1.8  6
+      401  401  .  A  65  TYR  HA   A  84  VAL  CG1  1  1.8  .  1.8  6
+      402  402  .  A  66  GLU  HA   A  84  VAL  CG2  1  1.8  .  1.8  6
+      403  403  .  A  67  VAL  CG2  A  84  VAL  HA   1  1.8  .  1.8  6
+      404  404  .  A  71  PRO  HA   A  77  ILE  CG2  1  1.8  .  1.8  6
+      405  405  .  A  71  PRO  HA   A  77  ILE  CD1  1  1.8  .  1.8  6
+      406  406  .  A  80  ILE  CG2  A  83  ARG  HA   1  1.8  .  1.8  6
+      407  407  .  A  84  VAL  CG1  A  86  THR  HA   1  1.8  .  1.8  6
+      408  408  .  A   8  ASP  CB   A  36  LYS  CD   1  1.8  .  1.8  7
+      409  409  .  A   9  PRO  CD   A  41  ASN  ND2  1  1.8  .  1.8  7
+      410  410  .  A   9  PRO  CD   A  75  ILE  CD1  1  1.8  .  1.8  7
+      411  411  .  A  10  THR  CG2  A  34  ARG  CB   1  1.8  .  1.8  7
+      412  412  .  A  10  THR  CG2  A  34  ARG  CG   1  1.8  .  1.8  7
+      413  413  .  A  10  THR  CG2  A  34  ARG  CD   1  1.8  .  1.8  7
+      414  414  .  A  10  THR  CG2  A  34  ARG  HE   1  1.8  .  1.8  6
+      415  415  .  A  10  THR  CG2  A  36  LYS  CG   1  1.8  .  1.8  7
+      416  416  .  A  11  LEU  CB   A  35  VAL  CG2  1  1.8  .  1.8  7
+      417  417  .  A  11  LEU  CB   A  37  THR  CG2  1  1.8  .  1.8  7
+      418  418  .  A  11  LEU  CD1  A  37  THR  CG2  1  1.8  .  1.8  7
+      419  419  .  A  11  LEU  CD2  A  46  VAL  HB   1  1.8  .  1.8  6
+      420  420  .  A  12  THR  CG2  A  32  SER  CB   1  1.8  .  1.8  7
+      421  421  .  A  12  THR  CG2  A  34  ARG  CG   1  1.8  .  1.8  7
+      422  422  .  A  13  LEU  CB   A  33  VAL  CG1  1  1.8  .  1.8  7
+      423  423  .  A  13  LEU  CB   A  35  VAL  CG2  1  1.8  .  1.8  7
+      424  424  .  A  13  LEU  HG   A  35  VAL  CG2  1  1.8  .  1.8  6
+      425  425  .  A  13  LEU  CD2  A  49  LEU  CB   1  1.8  .  1.8  7
+      426  426  .  A  13  LEU  CD1  A  35  VAL  CG2  1  1.8  .  1.8  7
+      427  427  .  A  13  LEU  CD1  A  49  LEU  CB   1  1.8  .  1.8  7
+      428  428  .  A  13  LEU  CD1  A  51  ALA  CB   1  1.8  .  1.8  7
+      429  429  .  A  13  LEU  CD1  A  69  VAL  CG1  1  1.8  .  1.8  7
+      430  430  .  A  14  SER  CB   A  50  PHE  CD1  1  1.8  .  1.8  7
+      431  431  .  A  14  SER  CB   A  50  PHE  HE1  1  1.8  .  1.8  6
+      432  432  .  A  15  LEU  CB   A  30  LEU  CD1  1  1.8  .  1.8  7
+      433  433  .  A  15  LEU  CB   A  30  LEU  CD2  1  1.8  .  1.8  7
+      434  434  .  A  15  LEU  CB   A  31  PRO  CD   1  1.8  .  1.8  7
+      435  435  .  A  15  LEU  CB   A  33  VAL  CG2  1  1.8  .  1.8  7
+      436  436  .  A  15  LEU  CB   A  33  VAL  CG1  1  1.8  .  1.8  7
+      437  437  .  A  15  LEU  HG   A  53  VAL  CG2  1  1.8  .  1.8  6
+      438  438  .  A  15  LEU  HG   A  30  LEU  CD1  1  1.8  .  1.8  6
+      439  439  .  A  15  LEU  HG   A  30  LEU  CD2  1  1.8  .  1.8  6
+      440  440  .  A  15  LEU  CD2  A  30  LEU  CD1  1  1.8  .  1.8  7
+      441  441  .  A  15  LEU  CD2  A  31  PRO  CB   1  1.8  .  1.8  7
+      442  442  .  A  15  LEU  CD2  A  31  PRO  CG   1  1.8  .  1.8  7
+      443  443  .  A  15  LEU  CD1  A  31  PRO  CD   1  1.8  .  1.8  7
+      444  444  .  A  15  LEU  CD2  A  31  PRO  CD   1  1.8  .  1.8  7
+      445  445  .  A  15  LEU  CD1  A  51  ALA  CB   1  1.8  .  1.8  7
+      446  446  .  A  15  LEU  CD1  A  53  VAL  CG2  1  1.8  .  1.8  7
+      447  447  .  A  16  ILE  CG1  A  50  PHE  CB   1  1.8  .  1.8  7
+      448  448  .  A  16  ILE  CG1  A  52  TYR  CB   1  1.8  .  1.8  7
+      449  449  .  A  16  ILE  CG2  A  50  PHE  CB   1  1.8  .  1.8  7
+      450  450  .  A  16  ILE  CG2  A  50  PHE  CD1  1  1.8  .  1.8  7
+      451  451  .  A  16  ILE  CD1  A  18  LYS  CE   1  1.8  .  1.8  7
+      452  452  .  A  16  ILE  CD1  A  50  PHE  CB   1  1.8  .  1.8  7
+      453  453  .  A  16  ILE  CD1  A  50  PHE  CD1  1  1.8  .  1.8  7
+      454  454  .  A  16  ILE  CD1  A  52  TYR  CB   1  1.8  .  1.8  7
+      455  455  .  A  17  ALA  CB   A  20  THR  HB   1  1.8  .  1.8  6
+      456  456  .  A  17  ALA  CB   A  26  ILE  CD1  1  1.8  .  1.8  7
+      457  457  .  A  17  ALA  CB   A  30  LEU  CD1  1  1.8  .  1.8  7
+      458  458  .  A  17  ALA  CB   A  30  LEU  CD2  1  1.8  .  1.8  7
+      459  459  .  A  17  ALA  CB   A  53  VAL  CG2  1  1.8  .  1.8  7
+      460  460  .  A  17  ALA  CB   A  55  LEU  CD1  1  1.8  .  1.8  7
+      461  461  .  A  17  ALA  CB   A  55  LEU  CD2  1  1.8  .  1.8  7
+      462  462  .  A  17  ALA  CB   A  89  LEU  CD2  1  1.8  .  1.8  7
+      463  463  .  A  18  LYS  CG   A  52  TYR  CB   1  1.8  .  1.8  7
+      464  464  .  A  18  LYS  CG   A  52  TYR  HD1  1  1.8  .  1.8  6
+      465  465  .  A  20  THR  CG2  A  24  SER  CB   1  1.8  .  1.8  7
+      466  466  .  A  20  THR  CG2  A  26  ILE  CD1  1  1.8  .  1.8  7
+      467  467  .  A  20  THR  CG2  A  26  ILE  CG1  1  1.8  .  1.8  7
+      468  468  .  A  20  THR  CG2  A  55  LEU  CD1  1  1.8  .  1.8  7
+      469  469  .  A  20  THR  CG2  A  55  LEU  CD2  1  1.8  .  1.8  7
+      470  470  .  A  20  THR  CG2  A  89  LEU  CD1  1  1.8  .  1.8  7
+      471  471  .  A  20  THR  CG2  A  89  LEU  CD2  1  1.8  .  1.8  7
+      472  472  .  A  21  PRO  CD   A  55  LEU  CB   1  1.8  .  1.8  7
+      473  473  .  A  21  PRO  CD   A  89  LEU  CD2  1  1.8  .  1.8  7
+      474  474  .  A  24  SER  CB   A  89  LEU  CD1  1  1.8  .  1.8  7
+      475  475  .  A  24  SER  CB   A  89  LEU  CD2  1  1.8  .  1.8  7
+      476  476  .  A  24  SER  HG   A  89  LEU  CD2  1  1.8  .  1.8  6
+      477  477  .  A  26  ILE  HB   A  30  LEU  CD1  1  1.8  .  1.8  6
+      478  478  .  A  26  ILE  CG1  A  55  LEU  CD2  1  1.8  .  1.8  7
+      479  479  .  A  26  ILE  CG1  A  89  LEU  CD2  1  1.8  .  1.8  7
+      480  480  .  A  26  ILE  CG2  A  28  THR  HB   1  1.8  .  1.8  6
+      481  481  .  A  26  ILE  CG2  A  28  THR  CG2  1  1.8  .  1.8  7
+      482  482  .  A  26  ILE  CG2  A  30  LEU  CD2  1  1.8  .  1.8  7
+      483  483  .  A  26  ILE  CG2  A  30  LEU  CD1  1  1.8  .  1.8  7
+      484  484  .  A  26  ILE  CG2  A  87  LEU  CB   1  1.8  .  1.8  7
+      485  485  .  A  26  ILE  CG2  A  87  LEU  CD1  1  1.8  .  1.8  7
+      486  486  .  A  26  ILE  CG2  A  89  LEU  CD2  1  1.8  .  1.8  7
+      487  487  .  A  26  ILE  CD1  A  30  LEU  CD1  1  1.8  .  1.8  7
+      488  488  .  A  26  ILE  CD1  A  55  LEU  CD1  1  1.8  .  1.8  7
+      489  489  .  A  26  ILE  CD1  A  55  LEU  CD2  1  1.8  .  1.8  7
+      490  490  .  A  27  MET  CG   A  90  GLU  CB   1  1.8  .  1.8  7
+      491  491  .  A  28  THR  HB   A  87  LEU  CD2  1  1.8  .  1.8  6
+      492  492  .  A  28  THR  CG2  A  87  LEU  CD2  1  1.8  .  1.8  7
+      493  493  .  A  28  THR  CG2  A  88  GLN  CB   1  1.8  .  1.8  7
+      494  494  .  A  30  LEU  CD1  A  53  VAL  CG1  1  1.8  .  1.8  7
+      495  495  .  A  31  PRO  CG   A  85  VAL  CG1  1  1.8  .  1.8  7
+      496  496  .  A  31  PRO  CG   A  85  VAL  CG2  1  1.8  .  1.8  7
+      497  497  .  A  31  PRO  CG   A  87  LEU  CD2  1  1.8  .  1.8  7
+      498  498  .  A  31  PRO  CD   A  87  LEU  CD2  1  1.8  .  1.8  7
+      499  499  .  A  33  VAL  CG2  A  51  ALA  CB   1  1.8  .  1.8  7
+      500  500  .  A  33  VAL  HB   A  51  ALA  CB   1  1.8  .  1.8  6
+      501  501  .  A  33  VAL  CG1  A  82  PRO  CD   1  1.8  .  1.8  7
+      502  502  .  A  34  ARG  CB   A  81  SER  CB   1  1.8  .  1.8  7
+      503  503  .  A  35  VAL  HB   A  77  ILE  CD1  1  1.8  .  1.8  6
+      504  504  .  A  35  VAL  CG1  A  77  ILE  CG1  1  1.8  .  1.8  7
+      505  505  .  A  35  VAL  CG1  A  79  GLU  CB   1  1.8  .  1.8  7
+      506  506  .  A  36  LYS  CB   A  78  VAL  HB   1  1.8  .  1.8  6
+      507  507  .  A  36  LYS  CB   A  78  VAL  CG1  1  1.8  .  1.8  7
+      508  508  .  A  36  LYS  CB   A  78  VAL  CG2  1  1.8  .  1.8  7
+      509  509  .  A  36  LYS  CG   A  78  VAL  CG1  1  1.8  .  1.8  7
+      510  510  .  A  36  LYS  CE   A  78  VAL  CG1  1  1.8  .  1.8  7
+      511  511  .  A  36  LYS  CE   A  78  VAL  CG2  1  1.8  .  1.8  7
+      512  512  .  A  37  THR  HB   A  75  ILE  CG2  1  1.8  .  1.8  6
+      513  513  .  A  37  THR  CG2  A  77  ILE  CG1  1  1.8  .  1.8  7
+      514  514  .  A  37  THR  CG2  A  77  ILE  CG2  1  1.8  .  1.8  7
+      515  515  .  A  37  THR  CG2  A  77  ILE  CD1  1  1.8  .  1.8  7
+      516  516  .  A  38  GLU  CB   A  76  LYS  CD   1  1.8  .  1.8  7
+      517  517  .  A  38  GLU  CB   A  78  VAL  CG2  1  1.8  .  1.8  7
+      518  518  .  A  38  GLU  CG   A  76  LYS  CB   1  1.8  .  1.8  7
+      519  519  .  A  38  GLU  CG   A  78  VAL  CG2  1  1.8  .  1.8  7
+      520  520  .  A  38  GLU  CG   A  78  VAL  CG1  1  1.8  .  1.8  7
+      521  521  .  A  41  ASN  CB   A  44  ILE  CG1  1  1.8  .  1.8  7
+      522  522  .  A  41  ASN  CB   A  44  ILE  CD1  1  1.8  .  1.8  7
+      523  523  .  A  41  ASN  CB   A  75  ILE  CG1  1  1.8  .  1.8  7
+      524  524  .  A  41  ASN  CB   A  75  ILE  CD1  1  1.8  .  1.8  7
+      525  525  .  A  41  ASN  ND2  A  44  ILE  CD1  1  1.8  .  1.8  7
+      526  526  .  A  44  ILE  CG1  A  72  ILE  CG2  1  1.8  .  1.8  7
+      527  527  .  A  44  ILE  CG1  A  75  ILE  CG1  1  1.8  .  1.8  7
+      528  528  .  A  44  ILE  CG2  A  46  VAL  CG1  1  1.8  .  1.8  7
+      529  529  .  A  44  ILE  CG2  A  75  ILE  CG1  1  1.8  .  1.8  7
+      530  530  .  A  44  ILE  CD1  A  75  ILE  CG1  1  1.8  .  1.8  7
+      531  531  .  A  46  VAL  CG1  A  49  LEU  HG   1  1.8  .  1.8  6
+      532  532  .  A  46  VAL  CG1  A  49  LEU  CD1  1  1.8  .  1.8  7
+      533  533  .  A  46  VAL  CG2  A  49  LEU  CD1  1  1.8  .  1.8  7
+      534  534  .  A  49  LEU  CD1  A  72  ILE  CD1  1  1.8  .  1.8  7
+      535  535  .  A  49  LEU  CD2  A  72  ILE  CD1  1  1.8  .  1.8  7
+      536  536  .  A  51  ALA  CB   A  67  VAL  CG1  1  1.8  .  1.8  7
+      537  537  .  A  51  ALA  CB   A  69  VAL  CG1  1  1.8  .  1.8  7
+      538  538  .  A  51  ALA  CB   A  69  VAL  CG2  1  1.8  .  1.8  7
+      539  539  .  A  52  TYR  CB   A  68  LYS  CD   1  1.8  .  1.8  7
+      540  540  .  A  52  TYR  HE1  A  70  GLU  CG   1  1.8  .  1.8  6
+      541  541  .  A  53  VAL  HB   A  55  LEU  CD2  1  1.8  .  1.8  6
+      542  542  .  A  53  VAL  HB   A  65  TYR  CB   1  1.8  .  1.8  6
+      543  543  .  A  53  VAL  CG1  A  55  LEU  CD1  1  1.8  .  1.8  7
+      544  544  .  A  53  VAL  CG2  A  55  LEU  CD2  1  1.8  .  1.8  7
+      545  545  .  A  53  VAL  CG1  A  65  TYR  CB   1  1.8  .  1.8  7
+      546  546  .  A  55  LEU  CD2  A  65  TYR  HE1  1  1.8  .  1.8  6
+      547  547  .  A  55  LEU  CD2  A  87  LEU  CD1  1  1.8  .  1.8  7
+      548  548  .  A  55  LEU  CD1  A  89  LEU  HG   1  1.8  .  1.8  6
+      549  549  .  A  55  LEU  CD1  A  89  LEU  CD2  1  1.8  .  1.8  7
+      550  550  .  A  55  LEU  CD2  A  89  LEU  CD1  1  1.8  .  1.8  7
+      551  551  .  A  55  LEU  CD2  A  89  LEU  CD2  1  1.8  .  1.8  7
+      552  552  .  A  58  SER  CB   A  89  LEU  CD1  1  1.8  .  1.8  7
+      553  553  .  A  60  PRO  CB   A  89  LEU  CB   1  1.8  .  1.8  7
+      554  554  .  A  62  GLU  CB   A  86  THR  CG2  1  1.8  .  1.8  7
+      555  555  .  A  62  GLU  CG   A  86  THR  CG2  1  1.8  .  1.8  7
+      556  556  .  A  63  HIS  CB   A  65  TYR  HE1  1  1.8  .  1.8  6
+      557  557  .  A  64  ASP  CB   A  84  VAL  CG1  1  1.8  .  1.8  7
+      558  558  .  A  65  TYR  CB   A  85  VAL  CG2  1  1.8  .  1.8  7
+      559  559  .  A  65  TYR  HD1  A  85  VAL  CG2  1  1.8  .  1.8  6
+      560  560  .  A  65  TYR  HD1  A  87  LEU  HG   1  1.8  .  1.8  5
+      561  561  .  A  65  TYR  HD1  A  87  LEU  CD1  1  1.8  .  1.8  6
+      562  562  .  A  65  TYR  HE1  A  87  LEU  CB   1  1.8  .  1.8  6
+      563  563  .  A  65  TYR  HE1  A  87  LEU  CD1  1  1.8  .  1.8  6
+      564  564  .  A  66  GLU  CB   A  84  VAL  CG2  1  1.8  .  1.8  7
+      565  565  .  A  66  GLU  CG   A  84  VAL  CG2  1  1.8  .  1.8  7
+      566  566  .  A  67  VAL  HB   A  80  ILE  CG2  1  1.8  .  1.8  6
+      567  567  .  A  67  VAL  CG2  A  82  PRO  CD   1  1.8  .  1.8  7
+      568  568  .  A  69  VAL  HB   A  77  ILE  CD1  1  1.8  .  1.8  6
+      569  569  .  A  69  VAL  CG2  A  77  ILE  CG1  1  1.8  .  1.8  7
+      570  570  .  A  72  ILE  HB   A  75  ILE  HB   1  1.8  .  1.8  3.5
+      571  571  .  A  72  ILE  HB   A  75  ILE  CG2  1  1.8  .  1.8  6
+      572  572  .  A  72  ILE  CG2  A  75  ILE  HB   1  1.8  .  1.8  6
+      573  573  .  A  72  ILE  CG2  A  75  ILE  CG1  1  1.8  .  1.8  7
+      574  574  .  A  72  ILE  CG2  A  75  ILE  CG2  1  1.8  .  1.8  7
+      575  575  .  A  76  LYS  CB   A  78  VAL  CG2  1  1.8  .  1.8  7
+      576  576  .  A  76  LYS  CD   A  78  VAL  CG2  1  1.8  .  1.8  7
+      577  577  .  A  82  PRO  CB   A  85  VAL  CG1  1  1.8  .  1.8  7
+      578  578  .  A  82  PRO  CG   A  85  VAL  CG1  1  1.8  .  1.8  7
+      579  579  .  A  82  PRO  CD   A  85  VAL  CG1  1  1.8  .  1.8  7
+      580  580  .  A  85  VAL  HB   A  87  LEU  CD2  1  1.8  .  1.8  6
+      581  581  .  A  85  VAL  CG2  A  87  LEU  HG   1  1.8  .  1.8  6
+      582  582  .  A  53  VAL  CG2  A  55  LEU  CD1  1  1.8  .  1.8  7
+      583  583  .  A  72  ILE  CG2  A  75  ILE  CD1  1  1.8  .  1.8  7
+      584  584  .  A  35  VAL  CG1  A  77  ILE  CD1  1  1.8  .  1.8  7
+      585  585  .  A  10  THR  H    A  10  THR  HB   1  1.8  .  1.8  3.5
+      586  586  .  A  10  THR  H    A  10  THR  CG2  1  1.8  .  1.8  6
+      587  587  .  A  11  LEU  H    A  11  LEU  HG   1  1.8  .  1.8  5
+      588  588  .  A  11  LEU  H    A  11  LEU  CD1  1  1.8  .  1.8  6
+      589  589  .  A  11  LEU  H    A  11  LEU  CD2  1  1.8  .  1.8  6
+      590  590  .  A  11  LEU  HA   A  11  LEU  CD2  1  1.8  .  1.8  6
+      591  591  .  A  11  LEU  CB   A  11  LEU  CD1  1  1.8  .  1.8  7
+      592  592  .  A  11  LEU  CB   A  11  LEU  CD2  1  1.8  .  1.8  7
+      593  593  .  A  12  THR  H    A  12  THR  HB   1  1.8  .  1.8  3.5
+      594  594  .  A  12  THR  H    A  12  THR  CG2  1  1.8  .  1.8  6
+      595  595  .  A  13  LEU  H    A  13  LEU  HG   1  1.8  .  1.8  5
+      596  596  .  A  13  LEU  H    A  13  LEU  CD2  1  1.8  .  1.8  6
+      597  597  .  A  13  LEU  HA   A  13  LEU  CD2  1  1.8  .  1.8  5
+      598  598  .  A  13  LEU  CB   A  13  LEU  CD1  1  1.8  .  1.8  7
+      599  599  .  A  15  LEU  H    A  15  LEU  HG   1  1.8  .  1.8  5
+      600  600  .  A  15  LEU  H    A  15  LEU  CD1  1  1.8  .  1.8  6
+      601  601  .  A  15  LEU  H    A  15  LEU  CD2  1  1.8  .  1.8  6
+      602  602  .  A  15  LEU  HA   A  15  LEU  CD1  1  1.8  .  1.8  6
+      603  603  .  A  15  LEU  CB   A  15  LEU  CD1  1  1.8  .  1.8  7
+      604  604  .  A  15  LEU  CB   A  15  LEU  CD2  1  1.8  .  1.8  7
+      605  605  .  A  16  ILE  H    A  16  ILE  CG1  1  1.8  .  1.8  6
+      606  606  .  A  16  ILE  HA   A  16  ILE  CD1  1  1.8  .  1.8  6
+      607  607  .  A  16  ILE  CG1  A  16  ILE  CG2  1  1.8  .  1.8  7
+      608  608  .  A  16  ILE  CG2  A  16  ILE  CD1  1  1.8  .  1.8  7
+      609  609  .  A  18  LYS  H    A  18  LYS  CG   1  1.8  .  1.8  6
+      610  610  .  A  18  LYS  H    A  18  LYS  CD   1  1.8  .  1.8  6
+      611  611  .  A  18  LYS  CB   A  18  LYS  CD   1  1.8  .  1.8  7
+      612  612  .  A  18  LYS  CB   A  18  LYS  CE   1  1.8  .  1.8  7
+      613  613  .  A  19  ASN  CB   A  19  ASN  ND2  1  1.8  .  1.8  7
+      614  614  .  A  20  THR  H    A  20  THR  CG2  1  1.8  .  1.8  6
+      615  615  .  A  23  ASN  CB   A  23  ASN  ND2  1  1.8  .  1.8  7
+      616  616  .  A  25  MET  H    A  25  MET  CG   1  1.8  .  1.8  6
+      617  617  .  A  25  MET  CG   A  25  MET  CE   1  1.8  .  1.8  7
+      618  618  .  A  26  ILE  H    A  26  ILE  HB   1  1.8  .  1.8  3.5
+      619  619  .  A  26  ILE  H    A  26  ILE  CG1  1  1.8  .  1.8  6
+      620  620  .  A  26  ILE  H    A  26  ILE  CD1  1  1.8  .  1.8  6
+      621  621  .  A  26  ILE  HA   A  26  ILE  CD1  1  1.8  .  1.8  6
+      622  622  .  A  26  ILE  CG1  A  26  ILE  CG2  1  1.8  .  1.8  7
+      623  623  .  A  26  ILE  CG2  A  26  ILE  CD1  1  1.8  .  1.8  7
+      624  624  .  A  27  MET  H    A  27  MET  CG   1  1.8  .  1.8  6
+      625  625  .  A  27  MET  HA   A  27  MET  CE   1  1.8  .  1.8  6
+      626  626  .  A  27  MET  CB   A  27  MET  CE   1  1.8  .  1.8  7
+      627  627  .  A  27  MET  CG   A  27  MET  CE   1  1.8  .  1.8  7
+      628  628  .  A  28  THR  H    A  28  THR  HB   1  1.8  .  1.8  3.5
+      629  629  .  A  28  THR  H    A  28  THR  CG2  1  1.8  .  1.8  6
+      630  630  .  A  29  LYS  H    A  29  LYS  CG   1  1.8  .  1.8  6
+      631  631  .  A  30  LEU  H    A  30  LEU  HG   1  1.8  .  1.8  5
+      632  632  .  A  30  LEU  H    A  30  LEU  CD1  1  1.8  .  1.8  6
+      633  633  .  A  30  LEU  H    A  30  LEU  CD2  1  1.8  .  1.8  6
+      634  634  .  A  30  LEU  HA   A  30  LEU  CD2  1  1.8  .  1.8  6
+      635  635  .  A  30  LEU  CB   A  30  LEU  CD1  1  1.8  .  1.8  7
+      636  636  .  A  30  LEU  CB   A  30  LEU  CD2  1  1.8  .  1.8  7
+      637  637  .  A  33  VAL  H    A  33  VAL  CG1  1  1.8  .  1.8  6
+      638  638  .  A  33  VAL  H    A  33  VAL  CG2  1  1.8  .  1.8  6
+      639  639  .  A  34  ARG  HA   A  34  ARG  CD   1  1.8  .  1.8  6
+      640  640  .  A  34  ARG  CB   A  34  ARG  HE   1  1.8  .  1.8  6
+      641  641  .  A  34  ARG  CG   A  34  ARG  HE   1  1.8  .  1.8  6
+      642  642  .  A  35  VAL  H    A  35  VAL  CG1  1  1.8  .  1.8  6
+      643  643  .  A  35  VAL  H    A  35  VAL  CG2  1  1.8  .  1.8  6
+      644  644  .  A  36  LYS  H    A  36  LYS  CG   1  1.8  .  1.8  6
+      645  645  .  A  36  LYS  CB   A  36  LYS  CD   1  1.8  .  1.8  7
+      646  646  .  A  37  THR  H    A  37  THR  CG2  1  1.8  .  1.8  6
+      647  647  .  A  40  TYR  H    A  40  TYR  HD1  1  1.8  .  1.8  5
+      648  648  .  A  40  TYR  CB   A  40  TYR  HD1  1  1.8  .  1.8  6
+      649  649  .  A  41  ASN  CB   A  41  ASN  ND2  1  1.8  .  1.8  7
+      650  650  .  A  44  ILE  H    A  44  ILE  HB   1  1.8  .  1.8  3.5
+      651  651  .  A  44  ILE  H    A  44  ILE  CG1  1  1.8  .  1.8  6
+      652  652  .  A  44  ILE  H    A  44  ILE  CD1  1  1.8  .  1.8  6
+      653  653  .  A  44  ILE  HA   A  44  ILE  CD1  1  1.8  .  1.8  6
+      654  654  .  A  45  ASN  H    A  45  ASN  CB   1  1.8  .  1.8  4.5
+      655  655  .  A  45  ASN  CB   A  45  ASN  ND2  1  1.8  .  1.8  7
+      656  656  .  A  46  VAL  H    A  46  VAL  CG1  1  1.8  .  1.8  6
+      657  657  .  A  46  VAL  H    A  46  VAL  CG2  1  1.8  .  1.8  6
+      658  658  .  A  46  VAL  HA   A  46  VAL  CG1  1  1.8  .  1.8  4.5
+      659  659  .  A  46  VAL  HA   A  46  VAL  CG2  1  1.8  .  1.8  4.5
+      660  660  .  A  47  ASN  H    A  47  ASN  ND2  1  1.8  .  1.8  6
+      661  661  .  A  47  ASN  CB   A  47  ASN  ND2  1  1.8  .  1.8  7
+      662  662  .  A  48  GLU  H    A  48  GLU  CG   1  1.8  .  1.8  6
+      663  663  .  A  49  LEU  H    A  49  LEU  HG   1  1.8  .  1.8  5
+      664  664  .  A  49  LEU  H    A  49  LEU  CD1  1  1.8  .  1.8  6
+      665  665  .  A  49  LEU  H    A  49  LEU  CD2  1  1.8  .  1.8  6
+      666  666  .  A  49  LEU  HA   A  49  LEU  CD1  1  1.8  .  1.8  6
+      667  667  .  A  49  LEU  HA   A  49  LEU  CD2  1  1.8  .  1.8  5
+      668  668  .  A  49  LEU  CB   A  49  LEU  CD1  1  1.8  .  1.8  7
+      669  669  .  A  49  LEU  CB   A  49  LEU  CD2  1  1.8  .  1.8  7
+      670  670  .  A  50  PHE  H    A  50  PHE  CD1  1  1.8  .  1.8  6
+      671  671  .  A  50  PHE  CB   A  50  PHE  CD1  1  1.8  .  1.8  7
+      672  672  .  A  52  TYR  H    A  52  TYR  HD1  1  1.8  .  1.8  5
+      673  673  .  A  52  TYR  CB   A  52  TYR  HD1  1  1.8  .  1.8  6
+      674  674  .  A  53  VAL  H    A  53  VAL  CG1  1  1.8  .  1.8  6
+      675  675  .  A  53  VAL  H    A  53  VAL  CG2  1  1.8  .  1.8  6
+      676  676  .  A  55  LEU  H    A  55  LEU  HG   1  1.8  .  1.8  5
+      677  677  .  A  55  LEU  H    A  55  LEU  CD1  1  1.8  .  1.8  6
+      678  678  .  A  55  LEU  HA   A  55  LEU  CD1  1  1.8  .  1.8  6
+      679  679  .  A  55  LEU  HA   A  55  LEU  CD2  1  1.8  .  1.8  6
+      680  680  .  A  55  LEU  CB   A  55  LEU  CD1  1  1.8  .  1.8  7
+      681  681  .  A  55  LEU  CB   A  55  LEU  CD2  1  1.8  .  1.8  7
+      682  682  .  A  59  GLU  H    A  59  GLU  CG   1  1.8  .  1.8  6
+      683  683  .  A  62  GLU  H    A  62  GLU  CG   1  1.8  .  1.8  6
+      684  684  .  A  65  TYR  H    A  65  TYR  HD1  1  1.8  .  1.8  5
+      685  685  .  A  65  TYR  HA   A  65  TYR  HD1  1  1.8  .  1.8  5
+      686  686  .  A  65  TYR  CB   A  65  TYR  HD1  1  1.8  .  1.8  6
+      687  687  .  A  66  GLU  H    A  66  GLU  CB   1  1.8  .  1.8  4.5
+      688  688  .  A  66  GLU  H    A  66  GLU  CG   1  1.8  .  1.8  6
+      689  689  .  A  67  VAL  H    A  67  VAL  CG2  1  1.8  .  1.8  6
+      690  690  .  A  68  LYS  H    A  68  LYS  CG   1  1.8  .  1.8  6
+      691  691  .  A  68  LYS  HA   A  68  LYS  CD   1  1.8  .  1.8  6
+      692  692  .  A  68  LYS  CB   A  68  LYS  CD   1  1.8  .  1.8  7
+      693  693  .  A  69  VAL  H    A  69  VAL  CG1  1  1.8  .  1.8  6
+      694  694  .  A  69  VAL  H    A  69  VAL  CG2  1  1.8  .  1.8  6
+      695  695  .  A  70  GLU  H    A  70  GLU  CG   1  1.8  .  1.8  6
+      696  696  .  A  72  ILE  H    A  72  ILE  CG1  1  1.8  .  1.8  6
+      697  697  .  A  72  ILE  CG1  A  72  ILE  CG2  1  1.8  .  1.8  7
+      698  698  .  A  72  ILE  CG2  A  72  ILE  CD1  1  1.8  .  1.8  7
+      699  699  .  A  74  ASN  CB   A  74  ASN  ND2  1  1.8  .  1.8  7
+      700  700  .  A  75  ILE  H    A  75  ILE  HB   1  1.8  .  1.8  3.5
+      701  701  .  A  75  ILE  H    A  75  ILE  CG1  1  1.8  .  1.8  6
+      702  702  .  A  75  ILE  H    A  75  ILE  CD1  1  1.8  .  1.8  6
+      703  703  .  A  75  ILE  HA   A  75  ILE  CD1  1  1.8  .  1.8  6
+      704  704  .  A  75  ILE  CG1  A  75  ILE  CG2  1  1.8  .  1.8  7
+      705  705  .  A  76  LYS  H    A  76  LYS  CB   1  1.8  .  1.8  4.5
+      706  706  .  A  76  LYS  H    A  76  LYS  CG   1  1.8  .  1.8  6
+      707  707  .  A  76  LYS  HA   A  76  LYS  CD   1  1.8  .  1.8  6
+      708  708  .  A  77  ILE  H    A  77  ILE  CG1  1  1.8  .  1.8  6
+      709  709  .  A  77  ILE  H    A  77  ILE  CD1  1  1.8  .  1.8  6
+      710  710  .  A  77  ILE  HA   A  77  ILE  CD1  1  1.8  .  1.8  6
+      711  711  .  A  77  ILE  CG1  A  77  ILE  CG2  1  1.8  .  1.8  7
+      712  712  .  A  78  VAL  H    A  78  VAL  CG1  1  1.8  .  1.8  6
+      713  713  .  A  78  VAL  H    A  78  VAL  CG2  1  1.8  .  1.8  6
+      714  714  .  A  79  GLU  H    A  79  GLU  CG   1  1.8  .  1.8  6
+      715  715  .  A  80  ILE  H    A  80  ILE  CD1  1  1.8  .  1.8  6
+      716  716  .  A  80  ILE  HA   A  80  ILE  CD1  1  1.8  .  1.8  6
+      717  717  .  A  80  ILE  CG1  A  80  ILE  CG2  1  1.8  .  1.8  7
+      718  718  .  A  83  ARG  H    A  83  ARG  CG   1  1.8  .  1.8  6
+      719  719  .  A  83  ARG  HA   A  83  ARG  CD   1  1.8  .  1.8  6
+      720  720  .  A  83  ARG  CB   A  83  ARG  HE   1  1.8  .  1.8  6
+      721  721  .  A  83  ARG  CG   A  83  ARG  HE   1  1.8  .  1.8  6
+      722  722  .  A  84  VAL  H    A  84  VAL  CG2  1  1.8  .  1.8  6
+      723  723  .  A  85  VAL  H    A  85  VAL  CG1  1  1.8  .  1.8  6
+      724  724  .  A  85  VAL  H    A  85  VAL  CG2  1  1.8  .  1.8  6
+      725  725  .  A  86  THR  H    A  86  THR  HB   1  1.8  .  1.8  3.5
+      726  726  .  A  86  THR  H    A  86  THR  CG2  1  1.8  .  1.8  6
+      727  727  .  A  87  LEU  H    A  87  LEU  HG   1  1.8  .  1.8  5
+      728  728  .  A  87  LEU  H    A  87  LEU  CD1  1  1.8  .  1.8  6
+      729  729  .  A  87  LEU  H    A  87  LEU  CD2  1  1.8  .  1.8  6
+      730  730  .  A  87  LEU  HA   A  87  LEU  CD2  1  1.8  .  1.8  5
+      731  731  .  A  87  LEU  CB   A  87  LEU  CD1  1  1.8  .  1.8  7
+      732  732  .  A  87  LEU  CB   A  87  LEU  CD2  1  1.8  .  1.8  7
+      733  733  .  A  88  GLN  H    A  88  GLN  CG   1  1.8  .  1.8  6
+      734  734  .  A  88  GLN  CG   A  88  GLN  OE1  1  1.8  .  1.8  7
+      735  735  .  A  89  LEU  H    A  89  LEU  HG   1  1.8  .  1.8  5
+      736  736  .  A  89  LEU  H    A  89  LEU  CD1  1  1.8  .  1.8  6
+      737  737  .  A  89  LEU  HA   A  89  LEU  CD1  1  1.8  .  1.8  6
+      738  738  .  A  89  LEU  HA   A  89  LEU  CD2  1  1.8  .  1.8  6
+      739  739  .  A  89  LEU  CB   A  89  LEU  CD1  1  1.8  .  1.8  7
+      740  740  .  A  89  LEU  CB   A  89  LEU  CD2  1  1.8  .  1.8  7
+      741  741  .  A  91  HIS  H    A  91  HIS  CB   1  1.8  .  1.8  4.5
+      742  742  .  A  12  THR  CG2  A  13  LEU  HA   1  1.8  .  1.8  6
+      743  743  .  A  13  LEU  HA   A  14  SER  CB   1  1.8  .  1.8  6
+      744  744  .  A  14  SER  CB   A  15  LEU  HA   1  1.8  .  1.8  6
+      745  745  .  A  15  LEU  HA   A  16  ILE  CG2  1  1.8  .  1.8  6
+      746  746  .  A  16  ILE  HA   A  17  ALA  CB   1  1.8  .  1.8  6
+      747  747  .  A  20  THR  CG2  A  21  PRO  CD   1  1.8  .  1.8  7
+      748  748  .  A  21  PRO  HA   A  22  ALA  CB   1  1.8  .  1.8  6
+      749  749  .  A  22  ALA  CB   A  23  ASN  CB   1  1.8  .  1.8  7
+      750  750  .  A  22  ALA  CB   A  23  ASN  ND2  1  1.8  .  1.8  7
+      751  751  .  A  25  MET  CG   A  26  ILE  HA   1  1.8  .  1.8  6
+      752  752  .  A  26  ILE  HA   A  27  MET  CB   1  1.8  .  1.8  6
+      753  753  .  A  26  ILE  CG2  A  27  MET  CB   1  1.8  .  1.8  7
+      754  754  .  A  27  MET  CB   A  28  THR  HA   1  1.8  .  1.8  6
+      755  755  .  A  30  LEU  CB   A  31  PRO  CD   1  1.8  .  1.8  7
+      756  756  .  A  30  LEU  CD2  A  31  PRO  CD   1  1.8  .  1.8  7
+      757  757  .  A  30  LEU  CD2  A  31  PRO  CD   1  1.8  .  1.8  7
+      758  758  .  A  33  VAL  CG2  A  34  ARG  HA   1  1.8  .  1.8  6
+      759  759  .  A  33  VAL  CG2  A  34  ARG  CB   1  1.8  .  1.8  7
+      760  760  .  A  34  ARG  HA   A  35  VAL  CG1  1  1.8  .  1.8  6
+      761  761  .  A  34  ARG  HA   A  35  VAL  CG2  1  1.8  .  1.8  6
+      762  762  .  A  37  THR  HB   A  38  GLU  HA   1  1.8  .  1.8  5
+      763  763  .  A  52  TYR  HA   A  53  VAL  CG1  1  1.8  .  1.8  6
+      764  764  .  A  52  TYR  HA   A  53  VAL  CG2  1  1.8  .  1.8  6
+      765  765  .  A  59  GLU  CB   A  60  PRO  CD   1  1.8  .  1.8  7
+      766  766  .  A  66  GLU  HA   A  67  VAL  CG2  1  1.8  .  1.8  6
+      767  767  .  A  67  VAL  HA   A  68  LYS  HA   1  1.8  .  1.8  5
+      768  768  .  A  67  VAL  CG1  A  68  LYS  CB   1  1.8  .  1.8  7
+      769  769  .  A  68  LYS  HA   A  69  VAL  CG2  1  1.8  .  1.8  6
+      770  770  .  A  70  GLU  CB   A  71  PRO  CD   1  1.8  .  1.8  7
+      771  771  .  A  70  GLU  CG   A  71  PRO  CD   1  1.8  .  1.8  7
+      772  772  .  A  71  PRO  HA   A  72  ILE  CG1  1  1.8  .  1.8  6
+      773  773  .  A  72  ILE  CG2  A  73  PRO  CD   1  1.8  .  1.8  7
+      774  774  .  A  75  ILE  CG2  A  76  LYS  HA   1  1.8  .  1.8  6
+      775  775  .  A  76  LYS  HA   A  77  ILE  CG2  1  1.8  .  1.8  6
+      776  776  .  A  77  ILE  HA   A  78  VAL  CG2  1  1.8  .  1.8  6
+      777  777  .  A  77  ILE  CG1  A  78  VAL  HA   1  1.8  .  1.8  6
+      778  778  .  A  80  ILE  CG2  A  81  SER  HA   1  1.8  .  1.8  6
+      779  779  .  A  81  SER  HA   A  82  PRO  HA   1  1.8  .  1.8  3.5
+      780  780  .  A  81  SER  CB   A  82  PRO  HA   1  1.8  .  1.8  6
+      781  781  .  A  82  PRO  HA   A  83  ARG  HE   1  1.8  .  1.8  5
+      782  782  .  A  82  PRO  CB   A  83  ARG  CB   1  1.8  .  1.8  7
+      783  783  .  A  83  ARG  HA   A  84  VAL  CG2  1  1.8  .  1.8  6
+      784  784  .  A  83  ARG  CB   A  84  VAL  HB   1  1.8  .  1.8  6
+      785  785  .  A  83  ARG  CB   A  84  VAL  CG2  1  1.8  .  1.8  7
+      786  786  .  A  83  ARG  CG   A  84  VAL  CG2  1  1.8  .  1.8  7
+      787  787  .  A  84  VAL  HA   A  85  VAL  CG1  1  1.8  .  1.8  6
+      788  788  .  A  84  VAL  CG1  A  85  VAL  HA   1  1.8  .  1.8  6
+      789  789  .  A  85  VAL  HA   A  86  THR  HB   1  1.8  .  1.8  5
+      790  790  .  A  85  VAL  CG2  A  86  THR  HA   1  1.8  .  1.8  6
+      791  791  .  A  87  LEU  HA   A  88  GLN  CB   1  1.8  .  1.8  6
+      792  792  .  A  89  LEU  CB   A  90  GLU  HA   1  1.8  .  1.8  6
+      793  793  .  A  78  VAL  CG1  A  79  GLU  CB   1  1.8  .  1.8  7
+      794  794  .  A  35  VAL  O    A  11  LEU  H    1  1.6  .  1.6  2.3
+      795  795  .  A  35  VAL  O    A  11  LEU  N    1  2.6  .  2.6  3.3
+      796  796  .  A  33  VAL  O    A  13  LEU  H    1  1.6  .  1.6  2.3
+      797  797  .  A  33  VAL  O    A  13  LEU  N    1  2.6  .  2.6  3.3
+      798  798  .  A  31  PRO  O    A  15  LEU  H    1  1.6  .  1.6  2.3
+      799  799  .  A  31  PRO  O    A  15  LEU  N    1  2.6  .  2.6  3.3
+      800  800  .  A  51  ALA  O    A  16  ILE  H    1  1.6  .  1.6  2.3
+      801  801  .  A  51  ALA  O    A  16  ILE  N    1  2.6  .  2.6  3.3
+      802  802  .  A  53  VAL  O    A  18  LYS  H    1  1.6  .  1.6  2.3
+      803  803  .  A  53  VAL  O    A  18  LYS  N    1  2.6  .  2.6  3.3
+      804  804  .  A  90  GLU  O    A  25  MET  H    1  1.6  .  1.6  2.3
+      805  805  .  A  90  GLU  O    A  25  MET  N    1  2.6  .  2.6  3.3
+      806  806  .  A  13  LEU  O    A  33  VAL  H    1  1.6  .  1.6  2.3
+      807  807  .  A  13  LEU  O    A  33  VAL  N    1  2.6  .  2.6  3.3
+      808  808  .  A  11  LEU  O    A  35  VAL  H    1  1.6  .  1.6  2.3
+      809  809  .  A  11  LEU  O    A  35  VAL  N    1  2.6  .  2.6  3.3
+      810  810  .  A   9  PRO  O    A  37  THR  H    1  1.6  .  1.6  2.3
+      811  811  .  A   9  PRO  O    A  37  THR  N    1  2.6  .  2.6  3.3
+      812  812  .  A  76  LYS  O    A  38  GLU  H    1  1.6  .  1.6  2.3
+      813  813  .  A  76  LYS  O    A  38  GLU  N    1  2.6  .  2.6  3.3
+      814  814  .  A  14  SER  O    A  51  ALA  H    1  1.6  .  1.6  2.3
+      815  815  .  A  14  SER  O    A  51  ALA  N    1  2.6  .  2.6  3.3
+      816  816  .  A  68  LYS  O    A  52  TYR  H    1  1.6  .  1.6  2.3
+      817  817  .  A  68  LYS  O    A  52  TYR  N    1  2.6  .  2.6  3.3
+      818  818  .  A  45  ASN  O    A  49  LEU  H    1  1.6  .  1.6  2.3
+      819  819  .  A  45  ASN  O    A  49  LEU  N    1  2.6  .  2.6  3.3
+      820  820  .  A  16  ILE  O    A  53  VAL  H    1  1.6  .  1.6  2.3
+      821  821  .  A  16  ILE  O    A  53  VAL  N    1  2.6  .  2.6  3.3
+      822  822  .  A  87  LEU  O    A  63  HIS  H    1  1.6  .  1.6  2.3
+      823  823  .  A  87  LEU  O    A  63  HIS  N    1  2.6  .  2.6  3.3
+      824  824  .  A  85  VAL  O    A  65  TYR  H    1  1.6  .  1.6  2.3
+      825  825  .  A  85  VAL  O    A  65  TYR  N    1  2.6  .  2.6  3.3
+      826  826  .  A  52  TYR  O    A  68  LYS  H    1  1.6  .  1.6  2.3
+      827  827  .  A  52  TYR  O    A  68  LYS  N    1  2.6  .  2.6  3.3
+      828  828  .  A  50  PHE  O    A  70  GLU  H    1  1.6  .  1.6  2.3
+      829  829  .  A  50  PHE  O    A  70  GLU  N    1  2.6  .  2.6  3.3
+      830  830  .  A  38  GLU  O    A  76  LYS  H    1  1.6  .  1.6  2.3
+      831  831  .  A  38  GLU  O    A  76  LYS  N    1  2.6  .  2.6  3.3
+      832  832  .  A  36  LYS  O    A  79  GLU  H    1  1.6  .  1.6  2.3
+      833  833  .  A  36  LYS  O    A  79  GLU  N    1  2.6  .  2.6  3.3
+      834  834  .  A  65  TYR  O    A  85  VAL  H    1  1.6  .  1.6  2.3
+      835  835  .  A  65  TYR  O    A  85  VAL  N    1  2.6  .  2.6  3.3
+      836  836  .  A  63  HIS  O    A  87  LEU  H    1  1.6  .  1.6  2.3
+      837  837  .  A  63  HIS  O    A  87  LEU  N    1  2.6  .  2.6  3.3
+      838  838  .  A  61  GLY  O    A  89  LEU  H    1  1.6  .  1.6  2.3
+      839  839  .  A  61  GLY  O    A  89  LEU  N    1  2.6  .  2.6  3.3
+      840  840  .  A  25  MET  O    A  90  GLU  H    1  1.6  .  1.6  2.3
+      841  841  .  A  25  MET  O    A  90  GLU  N    1  2.6  .  2.6  3.3
+    stop_
+
+
+
+   save_
+save_nef_dihedral_restraint_list_2kpu.mr
+
+      _nef_dihedral_restraint_list.sf_category nef_dihedral_restraint_list
+      _nef_dihedral_restraint_list.sf_framecode nef_dihedral_restraint_list_2kpu.mr
+      _nef_dihedral_restraint_list.potential_type .
+      _nef_dihedral_restraint_list.restraint_origin .
+
+      loop_
+         _nef_dihedral_restraint.index
+         _nef_dihedral_restraint.restraint_id
+         _nef_dihedral_restraint.restraint_combination_id
+         _nef_dihedral_restraint.chain_code_1
+         _nef_dihedral_restraint.sequence_code_1
+         _nef_dihedral_restraint.residue_name_1
+         _nef_dihedral_restraint.atom_name_1
+         _nef_dihedral_restraint.chain_code_2
+         _nef_dihedral_restraint.sequence_code_2
+         _nef_dihedral_restraint.residue_name_2
+         _nef_dihedral_restraint.atom_name_2
+         _nef_dihedral_restraint.chain_code_3
+         _nef_dihedral_restraint.sequence_code_3
+         _nef_dihedral_restraint.residue_name_3
+         _nef_dihedral_restraint.atom_name_3
+         _nef_dihedral_restraint.chain_code_4
+         _nef_dihedral_restraint.sequence_code_4
+         _nef_dihedral_restraint.residue_name_4
+         _nef_dihedral_restraint.atom_name_4
+         _nef_dihedral_restraint.weight
+         _nef_dihedral_restraint.target_value
+         _nef_dihedral_restraint.target_value_uncertainty
+         _nef_dihedral_restraint.lower_limit
+         _nef_dihedral_restraint.upper_limit
+         _nef_dihedral_restraint.name
+
+
+       1   1  .  A   9  PRO  C  A  10  THR  N   A  10  THR  CA  A  10  THR  C  1  -117.74  0  -147.74   -87.74  PHI
+       2   2  .  A  10  THR  N  A  10  THR  CA  A  10  THR  C   A  11  LEU  N  1   125.61  0    85.61   165.61  PSI
+       3   3  .  A  10  THR  C  A  11  LEU  N   A  11  LEU  CA  A  11  LEU  C  1  -113.09  0  -143.09   -83.09  PHI
+       4   4  .  A  11  LEU  N  A  11  LEU  CA  A  11  LEU  C   A  12  THR  N  1   125.55  0    85.55   165.55  PSI
+       5   5  .  A  11  LEU  C  A  12  THR  N   A  12  THR  CA  A  12  THR  C  1  -108.77  0  -138.77   -78.77  PHI
+       6   6  .  A  12  THR  N  A  12  THR  CA  A  12  THR  C   A  13  LEU  N  1   125.87  0    85.87   165.87  PSI
+       7   7  .  A  12  THR  C  A  13  LEU  N   A  13  LEU  CA  A  13  LEU  C  1  -118.51  0  -148.51   -88.51  PHI
+       8   8  .  A  13  LEU  N  A  13  LEU  CA  A  13  LEU  C   A  14  SER  N  1   148.86  0   108.86  -171.14  PSI
+       9   9  .  A  14  SER  C  A  15  LEU  N   A  15  LEU  CA  A  15  LEU  C  1  -102.12  0  -132.12   -72.12  PHI
+      10  10  .  A  15  LEU  N  A  15  LEU  CA  A  15  LEU  C   A  16  ILE  N  1   125.6   0    85.6    165.6   PSI
+      11  11  .  A  15  LEU  C  A  16  ILE  N   A  16  ILE  CA  A  16  ILE  C  1  -124.37  0  -154.37   -94.37  PHI
+      12  12  .  A  16  ILE  N  A  16  ILE  CA  A  16  ILE  C   A  17  ALA  N  1   138.21  0    98.21   178.21  PSI
+      13  13  .  A  24  SER  C  A  25  MET  N   A  25  MET  CA  A  25  MET  C  1  -132.99  0  -162.99  -102.99  PHI
+      14  14  .  A  25  MET  N  A  25  MET  CA  A  25  MET  C   A  26  ILE  N  1   144.86  0   104.86  -175.14  PSI
+      15  15  .  A  25  MET  C  A  26  ILE  N   A  26  ILE  CA  A  26  ILE  C  1  -101.5   0  -131.5    -71.5   PHI
+      16  16  .  A  26  ILE  N  A  26  ILE  CA  A  26  ILE  C   A  27  MET  N  1   127.32  0    87.32   167.32  PSI
+      17  17  .  A  32  SER  C  A  33  VAL  N   A  33  VAL  CA  A  33  VAL  C  1  -115.8   0  -145.8    -85.8   PHI
+      18  18  .  A  33  VAL  N  A  33  VAL  CA  A  33  VAL  C   A  34  ARG  N  1   140.92  0   100.92  -179.08  PSI
+      19  19  .  A  33  VAL  C  A  34  ARG  N   A  34  ARG  CA  A  34  ARG  C  1  -113.77  0  -143.77   -83.77  PHI
+      20  20  .  A  34  ARG  N  A  34  ARG  CA  A  34  ARG  C   A  35  VAL  N  1   133.4   0    93.4    173.4   PSI
+      21  21  .  A  34  ARG  C  A  35  VAL  N   A  35  VAL  CA  A  35  VAL  C  1  -121.22  0  -151.22   -91.22  PHI
+      22  22  .  A  35  VAL  N  A  35  VAL  CA  A  35  VAL  C   A  36  LYS  N  1   130.39  0    90.39   170.39  PSI
+      23  23  .  A  35  VAL  C  A  36  LYS  N   A  36  LYS  CA  A  36  LYS  C  1  -104.78  0  -134.78   -74.78  PHI
+      24  24  .  A  36  LYS  N  A  36  LYS  CA  A  36  LYS  C   A  37  THR  N  1   135.96  0    95.96   175.96  PSI
+      25  25  .  A  36  LYS  C  A  37  THR  N   A  37  THR  CA  A  37  THR  C  1  -123.07  0  -153.07   -93.07  PHI
+      26  26  .  A  37  THR  N  A  37  THR  CA  A  37  THR  C   A  38  GLU  N  1   153     0   113     -167     PSI
+      27  27  .  A  46  VAL  C  A  47  ASN  N   A  47  ASN  CA  A  47  ASN  C  1   -67.08  0   -97.08   -37.08  PHI
+      28  28  .  A  47  ASN  N  A  47  ASN  CA  A  47  ASN  C   A  48  GLU  N  1   -30.24  0   -70.24     9.76  PSI
+      29  29  .  A  50  PHE  C  A  51  ALA  N   A  51  ALA  CA  A  51  ALA  C  1  -125.93  0  -155.93   -95.93  PHI
+      30  30  .  A  51  ALA  N  A  51  ALA  CA  A  51  ALA  C   A  52  TYR  N  1   143.33  0   103.33  -176.67  PSI
+      31  31  .  A  51  ALA  C  A  52  TYR  N   A  52  TYR  CA  A  52  TYR  C  1  -129.16  0  -159.16   -99.16  PHI
+      32  32  .  A  52  TYR  N  A  52  TYR  CA  A  52  TYR  C   A  53  VAL  N  1   148     0   108     -172     PSI
+      33  33  .  A  52  TYR  C  A  53  VAL  N   A  53  VAL  CA  A  53  VAL  C  1  -142.5   0  -172.5   -112.5   PHI
+      34  34  .  A  53  VAL  N  A  53  VAL  CA  A  53  VAL  C   A  54  ASP  N  1   158.28  0   118.28  -161.72  PSI
+      35  35  .  A  53  VAL  C  A  54  ASP  N   A  54  ASP  CA  A  54  ASP  C  1  -101.24  0  -131.24   -71.24  PHI
+      36  36  .  A  54  ASP  N  A  54  ASP  CA  A  54  ASP  C   A  55  LEU  N  1   123.93  0    83.93   163.93  PSI
+      37  37  .  A  62  GLU  C  A  63  HIS  N   A  63  HIS  CA  A  63  HIS  C  1  -123.14  0  -153.14   -93.14  PHI
+      38  38  .  A  63  HIS  N  A  63  HIS  CA  A  63  HIS  C   A  64  ASP  N  1   151.49  0   111.49  -168.51  PSI
+      39  39  .  A  63  HIS  C  A  64  ASP  N   A  64  ASP  CA  A  64  ASP  C  1  -111.58  0  -141.58   -81.58  PHI
+      40  40  .  A  64  ASP  N  A  64  ASP  CA  A  64  ASP  C   A  65  TYR  N  1   140.45  0   100.45  -179.55  PSI
+      41  41  .  A  66  GLU  C  A  67  VAL  N   A  67  VAL  CA  A  67  VAL  C  1   -84.17  0  -114.17   -54.17  PHI
+      42  42  .  A  67  VAL  N  A  67  VAL  CA  A  67  VAL  C   A  68  LYS  N  1   130.63  0    90.63   170.63  PSI
+      43  43  .  A  68  LYS  C  A  69  VAL  N   A  69  VAL  CA  A  69  VAL  C  1  -117.13  0  -147.13   -87.13  PHI
+      44  44  .  A  69  VAL  N  A  69  VAL  CA  A  69  VAL  C   A  70  GLU  N  1   126.42  0    86.42   166.42  PSI
+      45  45  .  A  71  PRO  C  A  72  ILE  N   A  72  ILE  CA  A  72  ILE  C  1  -111.56  0  -141.56   -81.56  PHI
+      46  46  .  A  72  ILE  N  A  72  ILE  CA  A  72  ILE  C   A  73  PRO  N  1   133.99  0    93.99   173.99  PSI
+      47  47  .  A  74  ASN  C  A  75  ILE  N   A  75  ILE  CA  A  75  ILE  C  1  -113.8   0  -143.8    -83.8   PHI
+      48  48  .  A  75  ILE  N  A  75  ILE  CA  A  75  ILE  C   A  76  LYS  N  1   140.16  0   100.16  -179.84  PSI
+      49  49  .  A  75  ILE  C  A  76  LYS  N   A  76  LYS  CA  A  76  LYS  C  1  -110.7   0  -140.7    -80.7   PHI
+      50  50  .  A  76  LYS  N  A  76  LYS  CA  A  76  LYS  C   A  77  ILE  N  1   131.44  0    91.44   171.44  PSI
+      51  51  .  A  83  ARG  C  A  84  VAL  N   A  84  VAL  CA  A  84  VAL  C  1  -131     0  -161     -101     PHI
+      52  52  .  A  84  VAL  N  A  84  VAL  CA  A  84  VAL  C   A  85  VAL  N  1   157.19  0   117.19  -162.81  PSI
+      53  53  .  A  84  VAL  C  A  85  VAL  N   A  85  VAL  CA  A  85  VAL  C  1  -137.56  0  -167.56  -107.56  PHI
+      54  54  .  A  85  VAL  N  A  85  VAL  CA  A  85  VAL  C   A  86  THR  N  1   141.3   0   101.3   -178.7   PSI
+      55  55  .  A  85  VAL  C  A  86  THR  N   A  86  THR  CA  A  86  THR  C  1  -105.29  0  -135.29   -75.29  PHI
+      56  56  .  A  86  THR  N  A  86  THR  CA  A  86  THR  C   A  87  LEU  N  1   128.6   0    88.6    168.6   PSI
+      57  57  .  A  86  THR  C  A  87  LEU  N   A  87  LEU  CA  A  87  LEU  C  1  -114.49  0  -144.49   -84.49  PHI
+      58  58  .  A  87  LEU  N  A  87  LEU  CA  A  87  LEU  C   A  88  GLN  N  1   148.13  0   108.13  -171.87  PSI
+      59  59  .  A  87  LEU  C  A  88  GLN  N   A  88  GLN  CA  A  88  GLN  C  1  -115.45  0  -145.45   -85.45  PHI
+      60  60  .  A  88  GLN  N  A  88  GLN  CA  A  88  GLN  C   A  89  LEU  N  1   130.07  0    90.07   170.07  PSI
+      61  61  .  A  88  GLN  C  A  89  LEU  N   A  89  LEU  CA  A  89  LEU  C  1  -107.73  0  -137.73   -77.73  PHI
+      62  62  .  A  89  LEU  N  A  89  LEU  CA  A  89  LEU  C   A  90  GLU  N  1   133.85  0    93.85   173.85  PSI
+      63  63  .  A  89  LEU  C  A  90  GLU  N   A  90  GLU  CA  A  90  GLU  C  1  -130.56  0  -160.56  -100.56  PHI
+      64  64  .  A  90  GLU  N  A  90  GLU  CA  A  90  GLU  C   A  91  HIS  N  1   138.57  0    98.57   178.57  PSI
+      65  65  .  A  90  GLU  C  A  91  HIS  N   A  91  HIS  CA  A  91  HIS  C  1   -97.04  0  -127.04   -67.04  PHI
+      66  66  .  A  91  HIS  N  A  91  HIS  CA  A  91  HIS  C   A  92  HIS  N  1   126.08  0    86.08   166.08  PSI
+    stop_
+
+
+
+   save_
