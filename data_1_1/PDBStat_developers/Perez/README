@@ -1,0 +1,13 @@
+Second stage: 
+1. read initial NEF file,
+2. MELD only handles NOESY and torsion data
+    a. solves Hydrogen ambiguity by tracing to heavy atoms and adding 1 to distance
+    b. write new nef file with data we used
+
+3. Run 1000 MELD steps, cluster and submit 10 structures from top population cluster
+    a. use pdb_extract to convert pdb to mmcif format
+
+4. TODO: Our protocols show room for improvement, which we will pursue.
+    a. Remove number of replicas used (30 currently)
+    b. change REMD protocol to favor exchanges
+    c. Runs take under 2 hours to complete
