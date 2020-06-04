@@ -5,11 +5,9 @@ save_nef_nmr_meta_data
     _nef_nmr_meta_data.sf_framecode          nef_nmr_meta_data                            
     _nef_nmr_meta_data.format_name           nmr_exchange_format                          
     _nef_nmr_meta_data.format_version        1.1                                          
-    _nef_nmr_meta_data.program_name          PDBStat                                      
-    _nef_nmr_meta_data.program_version       5.19-exp                                     
-    _nef_nmr_meta_data.creation_date         2019-11-13T02:23:35                          
-    _nef_nmr_meta_data.uuid                  1573608215                                   
-    _nef_nmr_meta_data.coordinate_file_name  .                                            
+    _nef_nmr_meta_data.program_name          UNRES                                        
+    _nef_nmr_meta_data.program_version       4.0                                          
+    _nef_nmr_meta_data.creation_date         2020-06-02_14:18:22                          
 save_
 
 save_nef_molecular_system                    
@@ -184,12 +182,12 @@ save_nef_chemical_shift_list_2jr2.mr
     _nef_chemical_shift_list.sf_framecode   nef_chemical_shift_list_2jr2.mr              
 
     loop_
-    _nef_chemical_shift_list.chain_code                                   
-    _nef_chemical_shift_list.sequence_code                                
-    _nef_chemical_shift_list.residue_name                                 
-    _nef_chemical_shift_list.atom_name                                    
-    _nef_chemical_shift_list.value                                        
-    _nef_chemical_shift_list.value_uncertainty                            
+    _nef_chemical_shift.chain_code                                   
+    _nef_chemical_shift.sequence_code                                
+    _nef_chemical_shift.residue_name                                 
+    _nef_chemical_shift.atom_name                                    
+    _nef_chemical_shift.value                                        
+    _nef_chemical_shift.value_uncertainty                            
         A  2     PRO    HA       4.400  0.020
         A  2     PRO    HBx      1.970  0.020
         A  2     PRO    HBy      2.420  0.020
@@ -1825,10 +1823,10 @@ save_nef_chemical_shift_list_2jr2.mr
 save_
 
 save_nef_distance_restraint_list_2jr2.mr          
-    _nef_distance_restraint.sf_category       nef_distance_restraint_list                  
-    _nef_distance_restraint.sf_framecode      nef_distance_restraint_list_2jr2.mr          
-    _nef_distance_restraint.potential_type    .                                            
-    _nef_distance_restraint.restraint_origin  noe                                          
+    _nef_distance_restraint_list.sf_category       nef_distance_restraint_list                  
+    _nef_distance_restraint_list.sf_framecode      nef_distance_restraint_list_2jr2.mr          
+    _nef_distance_restraint_list.potential_type    .                                            
+    _nef_distance_restraint_list.restraint_origin  noe                                          
 
     loop_
         _nef_distance_restraint.index                                        
@@ -3358,10 +3356,10 @@ save_nef_distance_restraint_list_2jr2.mr
 save_
 
 save_nef_dihedral_restraint_list_2jr2.mr          
-    _nef_dihedral_restraint.sf_category       nef_dihedral_restraint_list                  
-    _nef_dihedral_restraint.sf_framecode      nef_dihedral_restraint_list_2jr2.mr          
-    _nef_dihedral_restraint.potential_type    .                                            
-    _nef_dihedral_restraint.restraint_origin  .                                            
+    _nef_dihedral_restraint_list.sf_category       nef_dihedral_restraint_list                  
+    _nef_dihedral_restraint_list.sf_framecode      nef_dihedral_restraint_list_2jr2.mr          
+    _nef_dihedral_restraint_list.potential_type    .                                            
+    _nef_dihedral_restraint_list.restraint_origin  .                                            
 
     loop_
         _nef_dihedral_restraint.index                                        

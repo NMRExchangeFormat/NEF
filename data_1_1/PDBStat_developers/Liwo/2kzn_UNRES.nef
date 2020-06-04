@@ -5,11 +5,9 @@ save_nef_nmr_meta_data
     _nef_nmr_meta_data.sf_framecode          nef_nmr_meta_data                            
     _nef_nmr_meta_data.format_name           nmr_exchange_format                          
     _nef_nmr_meta_data.format_version        1.1                                          
-    _nef_nmr_meta_data.program_name          PDBStat                                      
-    _nef_nmr_meta_data.program_version       5.19-exp                                     
-    _nef_nmr_meta_data.creation_date         2019-11-15T11:09:26                          
-    _nef_nmr_meta_data.uuid                  1573812566                                   
-    _nef_nmr_meta_data.coordinate_file_name  .                                            
+    _nef_nmr_meta_data.program_name          UNRES                                        
+    _nef_nmr_meta_data.program_version       4.0                                          
+    _nef_nmr_meta_data.creation_date         2020-06-02_14:18:24                          
 save_
 
 save_nef_molecular_system                    
@@ -179,12 +177,12 @@ save_nef_chemical_shift_list_2kzn.mr
     _nef_chemical_shift_list.sf_framecode   nef_chemical_shift_list_2kzn.mr              
 
     loop_
-    _nef_chemical_shift_list.chain_code                                   
-    _nef_chemical_shift_list.sequence_code                                
-    _nef_chemical_shift_list.residue_name                                 
-    _nef_chemical_shift_list.atom_name                                    
-    _nef_chemical_shift_list.value                                        
-    _nef_chemical_shift_list.value_uncertainty                            
+    _nef_chemical_shift.chain_code                                   
+    _nef_chemical_shift.sequence_code                                
+    _nef_chemical_shift.residue_name                                 
+    _nef_chemical_shift.atom_name                                    
+    _nef_chemical_shift.value                                        
+    _nef_chemical_shift.value_uncertainty                            
         A  3     TYR    C      174.383  0.300
         A  3     TYR    CA      57.651  0.300
         A  3     TYR    CB      39.017  0.300
@@ -979,10 +977,10 @@ save_nef_chemical_shift_list_2kzn.mr
 save_
 
 save_nef_distance_restraint_list_2kzn.mr          
-    _nef_distance_restraint.sf_category       nef_distance_restraint_list                  
-    _nef_distance_restraint.sf_framecode      nef_distance_restraint_list_2kzn.mr          
-    _nef_distance_restraint.potential_type    .                                            
-    _nef_distance_restraint.restraint_origin  noe                                          
+    _nef_distance_restraint_list.sf_category       nef_distance_restraint_list                  
+    _nef_distance_restraint_list.sf_framecode      nef_distance_restraint_list_2kzn.mr          
+    _nef_distance_restraint_list.potential_type    .                                            
+    _nef_distance_restraint_list.restraint_origin  noe                                          
 
     loop_
         _nef_distance_restraint.index                                        
@@ -2296,10 +2294,10 @@ save_nef_distance_restraint_list_2kzn.mr
 save_
 
 save_nef_dihedral_restraint_list_2kzn.mr          
-    _nef_dihedral_restraint.sf_category       nef_dihedral_restraint_list                  
-    _nef_dihedral_restraint.sf_framecode      nef_dihedral_restraint_list_2kzn.mr          
-    _nef_dihedral_restraint.potential_type    .                                            
-    _nef_dihedral_restraint.restraint_origin  .                                            
+    _nef_dihedral_restraint_list.sf_category       nef_dihedral_restraint_list                  
+    _nef_dihedral_restraint_list.sf_framecode      nef_dihedral_restraint_list_2kzn.mr          
+    _nef_dihedral_restraint_list.potential_type    .                                            
+    _nef_dihedral_restraint_list.restraint_origin  .                                            
 
     loop_
         _nef_dihedral_restraint.index                                        
@@ -2808,20 +2806,20 @@ save_nef_rdc_restraint_list_2kzn.mr_1
     _nef_rdc_restraint_list.restraint_origin  .                                            
 
     loop_
-        _nef_rdc_restraint_list.index                                        
-        _nef_rdc_restraint_list.restraint_id                                 
-        _nef_rdc_restraint_list.restraint_combination_id                     
-        _nef_rdc_restraint_list.chain_code_1                                 
-        _nef_rdc_restraint_list.sequence_code_1                              
-        _nef_rdc_restraint_list.residue_name_1                               
-        _nef_rdc_restraint_list.atom_name_1                                  
-        _nef_rdc_restraint_list.chain_code_2                                 
-        _nef_rdc_restraint_list.sequence_code_2                              
-        _nef_rdc_restraint_list.residue_name_2                               
-        _nef_rdc_restraint_list.atom_name_2                                  
-        _nef_rdc_restraint_list.weight                                       
-        _nef_rdc_restraint_list.target_value                                 
-        _nef_rdc_restraint_list.target_value_uncertainty                     
+        _nef_rdc_restraint.index                                        
+        _nef_rdc_restraint.restraint_id                                 
+        _nef_rdc_restraint.restraint_combination_id                     
+        _nef_rdc_restraint.chain_code_1                                 
+        _nef_rdc_restraint.sequence_code_1                              
+        _nef_rdc_restraint.residue_name_1                               
+        _nef_rdc_restraint.atom_name_1                                  
+        _nef_rdc_restraint.chain_code_2                                 
+        _nef_rdc_restraint.sequence_code_2                              
+        _nef_rdc_restraint.residue_name_2                               
+        _nef_rdc_restraint.atom_name_2                                  
+        _nef_rdc_restraint.weight                                       
+        _nef_rdc_restraint.target_value                                 
+        _nef_rdc_restraint.target_value_uncertainty                     
 
      1        1        .        A        5        LYS      N        A        5        LYS      H        1.0      0.463    2.500 
      2        2        .        A        6        GLU      N        A        6        GLU      H        1.0      2.787    2.500 
