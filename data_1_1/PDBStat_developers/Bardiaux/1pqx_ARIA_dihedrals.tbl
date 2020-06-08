@@ -1,0 +1,356 @@
+assign (segid "   A" and resid    2 and name    C) (segid "   A" and resid    3 and name    N)
+       (segid "   A" and resid    3 and name   CA) (segid "   A" and resid    3 and name    C) 1 -40.00 130.00 2
+assign (segid "   A" and resid    3 and name    C) (segid "   A" and resid    4 and name    N)
+       (segid "   A" and resid    4 and name   CA) (segid "   A" and resid    4 and name    C) 1 -120.00  35.00 2
+assign (segid "   A" and resid    4 and name    C) (segid "   A" and resid    5 and name    N)
+       (segid "   A" and resid    5 and name   CA) (segid "   A" and resid    5 and name    C) 1 -35.00 145.00 2
+assign (segid "   A" and resid    5 and name    C) (segid "   A" and resid    6 and name    N)
+       (segid "   A" and resid    6 and name   CA) (segid "   A" and resid    6 and name    C) 1 -42.50 117.50 2
+assign (segid "   A" and resid    6 and name    C) (segid "   A" and resid    7 and name    N)
+       (segid "   A" and resid    7 and name   CA) (segid "   A" and resid    7 and name    C) 1 -47.50 112.50 2
+assign (segid "   A" and resid    8 and name    C) (segid "   A" and resid    9 and name    N)
+       (segid "   A" and resid    9 and name   CA) (segid "   A" and resid    9 and name    C) 1 -120.00  40.00 2
+assign (segid "   A" and resid   10 and name    C) (segid "   A" and resid   11 and name    N)
+       (segid "   A" and resid   11 and name   CA) (segid "   A" and resid   11 and name    C) 1 -120.00  40.00 2
+assign (segid "   A" and resid   12 and name    C) (segid "   A" and resid   13 and name    N)
+       (segid "   A" and resid   13 and name   CA) (segid "   A" and resid   13 and name    C) 1 -40.00 125.00 2
+assign (segid "   A" and resid   13 and name    C) (segid "   A" and resid   14 and name    N)
+       (segid "   A" and resid   14 and name   CA) (segid "   A" and resid   14 and name    C) 1 -120.00  40.00 2
+assign (segid "   A" and resid   14 and name    N) (segid "   A" and resid   14 and name   CA)
+       (segid "   A" and resid   14 and name    C) (segid "   A" and resid   15 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   14 and name    C) (segid "   A" and resid   15 and name    N)
+       (segid "   A" and resid   15 and name   CA) (segid "   A" and resid   15 and name    C) 1 -120.00  35.00 2
+assign (segid "   A" and resid   15 and name    N) (segid "   A" and resid   15 and name   CA)
+       (segid "   A" and resid   15 and name    C) (segid "   A" and resid   16 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   15 and name    C) (segid "   A" and resid   16 and name    N)
+       (segid "   A" and resid   16 and name   CA) (segid "   A" and resid   16 and name    C) 1 -120.00  40.00 2
+assign (segid "   A" and resid   16 and name    N) (segid "   A" and resid   16 and name   CA)
+       (segid "   A" and resid   16 and name    C) (segid "   A" and resid   17 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   16 and name    C) (segid "   A" and resid   17 and name    N)
+       (segid "   A" and resid   17 and name   CA) (segid "   A" and resid   17 and name    C) 1 -120.00  40.00 2
+assign (segid "   A" and resid   17 and name    N) (segid "   A" and resid   17 and name   CA)
+       (segid "   A" and resid   17 and name    C) (segid "   A" and resid   18 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   17 and name    C) (segid "   A" and resid   18 and name    N)
+       (segid "   A" and resid   18 and name   CA) (segid "   A" and resid   18 and name    C) 1 -42.50 122.50 2
+assign (segid "   A" and resid   18 and name    C) (segid "   A" and resid   19 and name    N)
+       (segid "   A" and resid   19 and name   CA) (segid "   A" and resid   19 and name    C) 1 -120.00  40.00 2
+assign (segid "   A" and resid   19 and name    C) (segid "   A" and resid   20 and name    N)
+       (segid "   A" and resid   20 and name   CA) (segid "   A" and resid   20 and name    C) 1  60.00 135.00 2
+assign (segid "   A" and resid   20 and name    C) (segid "   A" and resid   21 and name    N)
+       (segid "   A" and resid   21 and name   CA) (segid "   A" and resid   21 and name    C) 1 -42.50 122.50 2
+assign (segid "   A" and resid   21 and name    C) (segid "   A" and resid   22 and name    N)
+       (segid "   A" and resid   22 and name   CA) (segid "   A" and resid   22 and name    C) 1 -42.50 122.50 2
+assign (segid "   A" and resid   22 and name    C) (segid "   A" and resid   23 and name    N)
+       (segid "   A" and resid   23 and name   CA) (segid "   A" and resid   23 and name    C) 1 -37.50 142.50 2
+assign (segid "   A" and resid   23 and name    C) (segid "   A" and resid   24 and name    N)
+       (segid "   A" and resid   24 and name   CA) (segid "   A" and resid   24 and name    C) 1 -37.50 142.50 2
+assign (segid "   A" and resid   25 and name    C) (segid "   A" and resid   26 and name    N)
+       (segid "   A" and resid   26 and name   CA) (segid "   A" and resid   26 and name    C) 1 -42.50 117.50 2
+assign (segid "   A" and resid   26 and name    C) (segid "   A" and resid   27 and name    N)
+       (segid "   A" and resid   27 and name   CA) (segid "   A" and resid   27 and name    C) 1 -40.00 140.00 2
+assign (segid "   A" and resid   27 and name    C) (segid "   A" and resid   28 and name    N)
+       (segid "   A" and resid   28 and name   CA) (segid "   A" and resid   28 and name    C) 1 -37.50 132.50 2
+assign (segid "   A" and resid   28 and name    C) (segid "   A" and resid   29 and name    N)
+       (segid "   A" and resid   29 and name   CA) (segid "   A" and resid   29 and name    C) 1 -125.00  55.00 2
+assign (segid "   A" and resid   29 and name    N) (segid "   A" and resid   29 and name   CA)
+       (segid "   A" and resid   29 and name    C) (segid "   A" and resid   30 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   29 and name    C) (segid "   A" and resid   30 and name    N)
+       (segid "   A" and resid   30 and name   CA) (segid "   A" and resid   30 and name    C) 1 -120.00  35.00 2
+assign (segid "   A" and resid   30 and name    N) (segid "   A" and resid   30 and name   CA)
+       (segid "   A" and resid   30 and name    C) (segid "   A" and resid   31 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   30 and name    C) (segid "   A" and resid   31 and name    N)
+       (segid "   A" and resid   31 and name   CA) (segid "   A" and resid   31 and name    C) 1 -120.00  35.00 2
+assign (segid "   A" and resid   31 and name    N) (segid "   A" and resid   31 and name   CA)
+       (segid "   A" and resid   31 and name    C) (segid "   A" and resid   32 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   31 and name    C) (segid "   A" and resid   32 and name    N)
+       (segid "   A" and resid   32 and name   CA) (segid "   A" and resid   32 and name    C) 1 -120.00  25.00 2
+assign (segid "   A" and resid   32 and name    C) (segid "   A" and resid   33 and name    N)
+       (segid "   A" and resid   33 and name   CA) (segid "   A" and resid   33 and name    C) 1 -40.00 130.00 2
+assign (segid "   A" and resid   33 and name    C) (segid "   A" and resid   34 and name    N)
+       (segid "   A" and resid   34 and name   CA) (segid "   A" and resid   34 and name    C) 1  60.00 140.00 2
+assign (segid "   A" and resid   34 and name    C) (segid "   A" and resid   35 and name    N)
+       (segid "   A" and resid   35 and name   CA) (segid "   A" and resid   35 and name    C) 1 -37.50 132.50 2
+assign (segid "   A" and resid   39 and name    C) (segid "   A" and resid   40 and name    N)
+       (segid "   A" and resid   40 and name   CA) (segid "   A" and resid   40 and name    C) 1  60.00 120.00 2
+assign (segid "   A" and resid   40 and name    C) (segid "   A" and resid   41 and name    N)
+       (segid "   A" and resid   41 and name   CA) (segid "   A" and resid   41 and name    C) 1  60.00 125.00 2
+assign (segid "   A" and resid   42 and name    C) (segid "   A" and resid   43 and name    N)
+       (segid "   A" and resid   43 and name   CA) (segid "   A" and resid   43 and name    C) 1 -62.50  12.50 2
+assign (segid "   A" and resid   43 and name    N) (segid "   A" and resid   43 and name   CA)
+       (segid "   A" and resid   43 and name    C) (segid "   A" and resid   44 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   43 and name    C) (segid "   A" and resid   44 and name    N)
+       (segid "   A" and resid   44 and name   CA) (segid "   A" and resid   44 and name    C) 1 -47.50  17.50 2
+assign (segid "   A" and resid   44 and name    N) (segid "   A" and resid   44 and name   CA)
+       (segid "   A" and resid   44 and name    C) (segid "   A" and resid   45 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   44 and name    C) (segid "   A" and resid   45 and name    N)
+       (segid "   A" and resid   45 and name   CA) (segid "   A" and resid   45 and name    C) 1 -65.00  35.00 2
+assign (segid "   A" and resid   45 and name    N) (segid "   A" and resid   45 and name   CA)
+       (segid "   A" and resid   45 and name    C) (segid "   A" and resid   46 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   45 and name    C) (segid "   A" and resid   46 and name    N)
+       (segid "   A" and resid   46 and name   CA) (segid "   A" and resid   46 and name    C) 1 -65.00  35.00 2
+assign (segid "   A" and resid   46 and name    N) (segid "   A" and resid   46 and name   CA)
+       (segid "   A" and resid   46 and name    C) (segid "   A" and resid   47 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   46 and name    C) (segid "   A" and resid   47 and name    N)
+       (segid "   A" and resid   47 and name   CA) (segid "   A" and resid   47 and name    C) 1 -85.00  15.00 2
+assign (segid "   A" and resid   47 and name    N) (segid "   A" and resid   47 and name   CA)
+       (segid "   A" and resid   47 and name    C) (segid "   A" and resid   48 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   47 and name    C) (segid "   A" and resid   48 and name    N)
+       (segid "   A" and resid   48 and name   CA) (segid "   A" and resid   48 and name    C) 1 -35.00 145.00 2
+assign (segid "   A" and resid   48 and name    C) (segid "   A" and resid   49 and name    N)
+       (segid "   A" and resid   49 and name   CA) (segid "   A" and resid   49 and name    C) 1  60.00 135.00 2
+assign (segid "   A" and resid   50 and name    C) (segid "   A" and resid   51 and name    N)
+       (segid "   A" and resid   51 and name   CA) (segid "   A" and resid   51 and name    C) 1 -40.00 140.00 2
+assign (segid "   A" and resid   51 and name    C) (segid "   A" and resid   52 and name    N)
+       (segid "   A" and resid   52 and name   CA) (segid "   A" and resid   52 and name    C) 1 -42.50 117.50 2
+assign (segid "   A" and resid   52 and name    C) (segid "   A" and resid   53 and name    N)
+       (segid "   A" and resid   53 and name   CA) (segid "   A" and resid   53 and name    C) 1 -125.00  55.00 2
+assign (segid "   A" and resid   53 and name    N) (segid "   A" and resid   53 and name   CA)
+       (segid "   A" and resid   53 and name    C) (segid "   A" and resid   54 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   53 and name    C) (segid "   A" and resid   54 and name    N)
+       (segid "   A" and resid   54 and name   CA) (segid "   A" and resid   54 and name    C) 1 -120.00  35.00 2
+assign (segid "   A" and resid   54 and name    N) (segid "   A" and resid   54 and name   CA)
+       (segid "   A" and resid   54 and name    C) (segid "   A" and resid   55 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   54 and name    C) (segid "   A" and resid   55 and name    N)
+       (segid "   A" and resid   55 and name   CA) (segid "   A" and resid   55 and name    C) 1 -120.00  35.00 2
+assign (segid "   A" and resid   55 and name    N) (segid "   A" and resid   55 and name   CA)
+       (segid "   A" and resid   55 and name    C) (segid "   A" and resid   56 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   55 and name    C) (segid "   A" and resid   56 and name    N)
+       (segid "   A" and resid   56 and name   CA) (segid "   A" and resid   56 and name    C) 1 -120.00  40.00 2
+assign (segid "   A" and resid   56 and name    N) (segid "   A" and resid   56 and name   CA)
+       (segid "   A" and resid   56 and name    C) (segid "   A" and resid   57 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   56 and name    C) (segid "   A" and resid   57 and name    N)
+       (segid "   A" and resid   57 and name   CA) (segid "   A" and resid   57 and name    C) 1 -40.00 135.00 2
+assign (segid "   A" and resid   57 and name    C) (segid "   A" and resid   58 and name    N)
+       (segid "   A" and resid   58 and name   CA) (segid "   A" and resid   58 and name    C) 1 -40.00 140.00 2
+assign (segid "   A" and resid   58 and name    C) (segid "   A" and resid   59 and name    N)
+       (segid "   A" and resid   59 and name   CA) (segid "   A" and resid   59 and name    C) 1 -120.00  40.00 2
+assign (segid "   A" and resid   60 and name    C) (segid "   A" and resid   61 and name    N)
+       (segid "   A" and resid   61 and name   CA) (segid "   A" and resid   61 and name    C) 1 -120.00  35.00 2
+assign (segid "   A" and resid   61 and name    N) (segid "   A" and resid   61 and name   CA)
+       (segid "   A" and resid   61 and name    C) (segid "   A" and resid   62 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   61 and name    C) (segid "   A" and resid   62 and name    N)
+       (segid "   A" and resid   62 and name   CA) (segid "   A" and resid   62 and name    C) 1 -120.00  35.00 2
+assign (segid "   A" and resid   62 and name    N) (segid "   A" and resid   62 and name   CA)
+       (segid "   A" and resid   62 and name    C) (segid "   A" and resid   63 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   62 and name    C) (segid "   A" and resid   63 and name    N)
+       (segid "   A" and resid   63 and name   CA) (segid "   A" and resid   63 and name    C) 1 -120.00  40.00 2
+assign (segid "   A" and resid   63 and name    N) (segid "   A" and resid   63 and name   CA)
+       (segid "   A" and resid   63 and name    C) (segid "   A" and resid   64 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   63 and name    C) (segid "   A" and resid   64 and name    N)
+       (segid "   A" and resid   64 and name   CA) (segid "   A" and resid   64 and name    C) 1 -125.00  55.00 2
+assign (segid "   A" and resid   64 and name    N) (segid "   A" and resid   64 and name   CA)
+       (segid "   A" and resid   64 and name    C) (segid "   A" and resid   65 and name    N) 1 120.00  60.00 2
+assign (segid "   A" and resid   68 and name    C) (segid "   A" and resid   69 and name    N)
+       (segid "   A" and resid   69 and name   CA) (segid "   A" and resid   69 and name    C) 1 -42.50 122.50 2
+assign (segid "   A" and resid   69 and name    C) (segid "   A" and resid   70 and name    N)
+       (segid "   A" and resid   70 and name   CA) (segid "   A" and resid   70 and name    C) 1 -120.00  35.00 2
+assign (segid "   A" and resid   70 and name    C) (segid "   A" and resid   71 and name    N)
+       (segid "   A" and resid   71 and name   CA) (segid "   A" and resid   71 and name    C) 1 -65.00  35.00 2
+assign (segid "   A" and resid   71 and name    N) (segid "   A" and resid   71 and name   CA)
+       (segid "   A" and resid   71 and name    C) (segid "   A" and resid   72 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   71 and name    C) (segid "   A" and resid   72 and name    N)
+       (segid "   A" and resid   72 and name   CA) (segid "   A" and resid   72 and name    C) 1 -55.00  15.00 2
+assign (segid "   A" and resid   72 and name    N) (segid "   A" and resid   72 and name   CA)
+       (segid "   A" and resid   72 and name    C) (segid "   A" and resid   73 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   72 and name    C) (segid "   A" and resid   73 and name    N)
+       (segid "   A" and resid   73 and name   CA) (segid "   A" and resid   73 and name    C) 1 -80.00  20.00 2
+assign (segid "   A" and resid   73 and name    N) (segid "   A" and resid   73 and name   CA)
+       (segid "   A" and resid   73 and name    C) (segid "   A" and resid   74 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   73 and name    C) (segid "   A" and resid   74 and name    N)
+       (segid "   A" and resid   74 and name   CA) (segid "   A" and resid   74 and name    C) 1 -65.00  35.00 2
+assign (segid "   A" and resid   74 and name    N) (segid "   A" and resid   74 and name   CA)
+       (segid "   A" and resid   74 and name    C) (segid "   A" and resid   75 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   74 and name    C) (segid "   A" and resid   75 and name    N)
+       (segid "   A" and resid   75 and name   CA) (segid "   A" and resid   75 and name    C) 1 -65.00  35.00 2
+assign (segid "   A" and resid   75 and name    N) (segid "   A" and resid   75 and name   CA)
+       (segid "   A" and resid   75 and name    C) (segid "   A" and resid   76 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   76 and name    C) (segid "   A" and resid   77 and name    N)
+       (segid "   A" and resid   77 and name   CA) (segid "   A" and resid   77 and name    C) 1 -80.00  20.00 2
+assign (segid "   A" and resid   77 and name    N) (segid "   A" and resid   77 and name   CA)
+       (segid "   A" and resid   77 and name    C) (segid "   A" and resid   78 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   77 and name    C) (segid "   A" and resid   78 and name    N)
+       (segid "   A" and resid   78 and name   CA) (segid "   A" and resid   78 and name    C) 1 -65.00  35.00 2
+assign (segid "   A" and resid   78 and name    N) (segid "   A" and resid   78 and name   CA)
+       (segid "   A" and resid   78 and name    C) (segid "   A" and resid   79 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   78 and name    C) (segid "   A" and resid   79 and name    N)
+       (segid "   A" and resid   79 and name   CA) (segid "   A" and resid   79 and name    C) 1 -52.50  17.50 2
+assign (segid "   A" and resid   79 and name    N) (segid "   A" and resid   79 and name   CA)
+       (segid "   A" and resid   79 and name    C) (segid "   A" and resid   80 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   79 and name    C) (segid "   A" and resid   80 and name    N)
+       (segid "   A" and resid   80 and name   CA) (segid "   A" and resid   80 and name    C) 1 -52.50  17.50 2
+assign (segid "   A" and resid   80 and name    N) (segid "   A" and resid   80 and name   CA)
+       (segid "   A" and resid   80 and name    C) (segid "   A" and resid   81 and name    N) 1 -35.00  40.00 2
+assign (segid "   A" and resid   80 and name    C) (segid "   A" and resid   81 and name    N)
+       (segid "   A" and resid   81 and name   CA) (segid "   A" and resid   81 and name    C) 1  60.00 135.00 2
+assign (segid "   A" and resid   81 and name    C) (segid "   A" and resid   82 and name    N)
+       (segid "   A" and resid   82 and name   CA) (segid "   A" and resid   82 and name    C) 1 -40.00 130.00 2
+assign (segid "   A" and resid   82 and name    C) (segid "   A" and resid   83 and name    N)
+       (segid "   A" and resid   83 and name   CA) (segid "   A" and resid   83 and name    C) 1 -40.00 135.00 2
+assign (segid "   A" and resid   83 and name    C) (segid "   A" and resid   84 and name    N)
+       (segid "   A" and resid   84 and name   CA) (segid "   A" and resid   84 and name    C) 1 -40.00 140.00 2
+assign (segid "   A" and resid   84 and name    C) (segid "   A" and resid   85 and name    N)
+       (segid "   A" and resid   85 and name   CA) (segid "   A" and resid   85 and name    C) 1 -37.50 142.50 2
+assign (segid "   A" and resid    1 and name    C) (segid "   A" and resid    2 and name    N)
+       (segid "   A" and resid    2 and name   CA) (segid "   A" and resid    2 and name    C) 1 -123.61  60.40 2
+assign (segid "   A" and resid    2 and name    N) (segid "   A" and resid    2 and name   CA)
+       (segid "   A" and resid    2 and name    C) (segid "   A" and resid    3 and name    N) 1 -169.12 145.66 2
+assign (segid "   A" and resid    4 and name    C) (segid "   A" and resid    5 and name    N)
+       (segid "   A" and resid    5 and name   CA) (segid "   A" and resid    5 and name    C) 1 -147.80 115.00 2
+assign (segid "   A" and resid    5 and name    N) (segid "   A" and resid    5 and name   CA)
+       (segid "   A" and resid    5 and name    C) (segid "   A" and resid    6 and name    N) 1 178.49 112.11 2
+assign (segid "   A" and resid    5 and name    C) (segid "   A" and resid    6 and name    N)
+       (segid "   A" and resid    6 and name   CA) (segid "   A" and resid    6 and name    C) 1 -110.70  90.24 2
+assign (segid "   A" and resid    6 and name    N) (segid "   A" and resid    6 and name   CA)
+       (segid "   A" and resid    6 and name    C) (segid "   A" and resid    7 and name    N) 1 -174.19 112.73 2
+assign (segid "   A" and resid   13 and name    C) (segid "   A" and resid   14 and name    N)
+       (segid "   A" and resid   14 and name   CA) (segid "   A" and resid   14 and name    C) 1 -119.50  60.08 2
+assign (segid "   A" and resid   14 and name    N) (segid "   A" and resid   14 and name   CA)
+       (segid "   A" and resid   14 and name    C) (segid "   A" and resid   15 and name    N) 1 -177.00 101.06 2
+assign (segid "   A" and resid   14 and name    C) (segid "   A" and resid   15 and name    N)
+       (segid "   A" and resid   15 and name   CA) (segid "   A" and resid   15 and name    C) 1 -121.17  55.44 2
+assign (segid "   A" and resid   15 and name    N) (segid "   A" and resid   15 and name   CA)
+       (segid "   A" and resid   15 and name    C) (segid "   A" and resid   16 and name    N) 1 -168.64  98.75 2
+assign (segid "   A" and resid   15 and name    C) (segid "   A" and resid   16 and name    N)
+       (segid "   A" and resid   16 and name   CA) (segid "   A" and resid   16 and name    C) 1 -113.12  97.32 2
+assign (segid "   A" and resid   16 and name    N) (segid "   A" and resid   16 and name   CA)
+       (segid "   A" and resid   16 and name    C) (segid "   A" and resid   17 and name    N) 1 -174.18  98.65 2
+assign (segid "   A" and resid   16 and name    C) (segid "   A" and resid   17 and name    N)
+       (segid "   A" and resid   17 and name   CA) (segid "   A" and resid   17 and name    C) 1 -110.88  99.00 2
+assign (segid "   A" and resid   17 and name    N) (segid "   A" and resid   17 and name   CA)
+       (segid "   A" and resid   17 and name    C) (segid "   A" and resid   18 and name    N) 1 -170.46  91.82 2
+assign (segid "   A" and resid   17 and name    C) (segid "   A" and resid   18 and name    N)
+       (segid "   A" and resid   18 and name   CA) (segid "   A" and resid   18 and name    C) 1 -97.27  94.20 2
+assign (segid "   A" and resid   18 and name    N) (segid "   A" and resid   18 and name   CA)
+       (segid "   A" and resid   18 and name    C) (segid "   A" and resid   19 and name    N) 1 -165.02 113.79 2
+assign (segid "   A" and resid   21 and name    C) (segid "   A" and resid   22 and name    N)
+       (segid "   A" and resid   22 and name   CA) (segid "   A" and resid   22 and name    C) 1 -99.43  61.16 2
+assign (segid "   A" and resid   22 and name    N) (segid "   A" and resid   22 and name   CA)
+       (segid "   A" and resid   22 and name    C) (segid "   A" and resid   23 and name    N) 1 -163.21 127.43 2
+assign (segid "   A" and resid   29 and name    N) (segid "   A" and resid   29 and name   CA)
+       (segid "   A" and resid   29 and name    C) (segid "   A" and resid   30 and name    N) 1 176.86 106.40 2
+assign (segid "   A" and resid   29 and name    C) (segid "   A" and resid   30 and name    N)
+       (segid "   A" and resid   30 and name   CA) (segid "   A" and resid   30 and name    C) 1 -106.36  51.12 2
+assign (segid "   A" and resid   30 and name    N) (segid "   A" and resid   30 and name   CA)
+       (segid "   A" and resid   30 and name    C) (segid "   A" and resid   31 and name    N) 1 -173.52 113.48 2
+assign (segid "   A" and resid   37 and name    C) (segid "   A" and resid   38 and name    N)
+       (segid "   A" and resid   38 and name   CA) (segid "   A" and resid   38 and name    C) 1 -89.97  67.48 2
+assign (segid "   A" and resid   38 and name    N) (segid "   A" and resid   38 and name   CA)
+       (segid "   A" and resid   38 and name    C) (segid "   A" and resid   39 and name    N) 1 -157.35 171.62 2
+assign (segid "   A" and resid   40 and name    C) (segid "   A" and resid   41 and name    N)
+       (segid "   A" and resid   41 and name   CA) (segid "   A" and resid   41 and name    C) 1 -79.98  68.20 2
+assign (segid "   A" and resid   41 and name    N) (segid "   A" and resid   41 and name   CA)
+       (segid "   A" and resid   41 and name    C) (segid "   A" and resid   42 and name    N) 1 -52.12  58.67 2
+assign (segid "   A" and resid   42 and name    C) (segid "   A" and resid   43 and name    N)
+       (segid "   A" and resid   43 and name   CA) (segid "   A" and resid   43 and name    C) 1 -66.68  23.24 2
+assign (segid "   A" and resid   43 and name    N) (segid "   A" and resid   43 and name   CA)
+       (segid "   A" and resid   43 and name    C) (segid "   A" and resid   44 and name    N) 1 -53.64  20.08 2
+assign (segid "   A" and resid   43 and name    C) (segid "   A" and resid   44 and name    N)
+       (segid "   A" and resid   44 and name   CA) (segid "   A" and resid   44 and name    C) 1 -62.02  23.96 2
+assign (segid "   A" and resid   44 and name    N) (segid "   A" and resid   44 and name   CA)
+       (segid "   A" and resid   44 and name    C) (segid "   A" and resid   45 and name    N) 1 -52.71  16.21 2
+assign (segid "   A" and resid   44 and name    C) (segid "   A" and resid   45 and name    N)
+       (segid "   A" and resid   45 and name   CA) (segid "   A" and resid   45 and name    C) 1 -65.91  26.64 2
+assign (segid "   A" and resid   45 and name    N) (segid "   A" and resid   45 and name   CA)
+       (segid "   A" and resid   45 and name    C) (segid "   A" and resid   46 and name    N) 1 -53.83  20.81 2
+assign (segid "   A" and resid   45 and name    C) (segid "   A" and resid   46 and name    N)
+       (segid "   A" and resid   46 and name   CA) (segid "   A" and resid   46 and name    C) 1 -64.39  29.76 2
+assign (segid "   A" and resid   46 and name    N) (segid "   A" and resid   46 and name   CA)
+       (segid "   A" and resid   46 and name    C) (segid "   A" and resid   47 and name    N) 1 -51.03  13.24 2
+assign (segid "   A" and resid   47 and name    C) (segid "   A" and resid   48 and name    N)
+       (segid "   A" and resid   48 and name   CA) (segid "   A" and resid   48 and name    C) 1 -80.11  78.12 2
+assign (segid "   A" and resid   48 and name    N) (segid "   A" and resid   48 and name   CA)
+       (segid "   A" and resid   48 and name    C) (segid "   A" and resid   49 and name    N) 1 -158.60 137.61 2
+assign (segid "   A" and resid   50 and name    C) (segid "   A" and resid   51 and name    N)
+       (segid "   A" and resid   51 and name   CA) (segid "   A" and resid   51 and name    C) 1 -81.10  69.52 2
+assign (segid "   A" and resid   51 and name    N) (segid "   A" and resid   51 and name   CA)
+       (segid "   A" and resid   51 and name    C) (segid "   A" and resid   52 and name    N) 1 -155.91 127.49 2
+assign (segid "   A" and resid   53 and name    C) (segid "   A" and resid   54 and name    N)
+       (segid "   A" and resid   54 and name   CA) (segid "   A" and resid   54 and name    C) 1 -131.75  45.88 2
+assign (segid "   A" and resid   54 and name    N) (segid "   A" and resid   54 and name   CA)
+       (segid "   A" and resid   54 and name    C) (segid "   A" and resid   55 and name    N) 1 177.07 139.38 2
+assign (segid "   A" and resid   54 and name    C) (segid "   A" and resid   55 and name    N)
+       (segid "   A" and resid   55 and name   CA) (segid "   A" and resid   55 and name    C) 1 -116.11  68.00 2
+assign (segid "   A" and resid   55 and name    N) (segid "   A" and resid   55 and name   CA)
+       (segid "   A" and resid   55 and name    C) (segid "   A" and resid   56 and name    N) 1 -173.86  93.62 2
+assign (segid "   A" and resid   55 and name    C) (segid "   A" and resid   56 and name    N)
+       (segid "   A" and resid   56 and name   CA) (segid "   A" and resid   56 and name    C) 1 -117.32  93.48 2
+assign (segid "   A" and resid   56 and name    N) (segid "   A" and resid   56 and name   CA)
+       (segid "   A" and resid   56 and name    C) (segid "   A" and resid   57 and name    N) 1 -172.16 114.52 2
+assign (segid "   A" and resid   56 and name    C) (segid "   A" and resid   57 and name    N)
+       (segid "   A" and resid   57 and name   CA) (segid "   A" and resid   57 and name    C) 1 -117.09  95.20 2
+assign (segid "   A" and resid   57 and name    N) (segid "   A" and resid   57 and name   CA)
+       (segid "   A" and resid   57 and name    C) (segid "   A" and resid   58 and name    N) 1 -167.26 134.16 2
+assign (segid "   A" and resid   59 and name    C) (segid "   A" and resid   60 and name    N)
+       (segid "   A" and resid   60 and name   CA) (segid "   A" and resid   60 and name    C) 1 -134.29  62.72 2
+assign (segid "   A" and resid   60 and name    N) (segid "   A" and resid   60 and name   CA)
+       (segid "   A" and resid   60 and name    C) (segid "   A" and resid   61 and name    N) 1 -169.45  97.36 2
+assign (segid "   A" and resid   60 and name    C) (segid "   A" and resid   61 and name    N)
+       (segid "   A" and resid   61 and name   CA) (segid "   A" and resid   61 and name    C) 1 -120.67  81.84 2
+assign (segid "   A" and resid   61 and name    N) (segid "   A" and resid   61 and name   CA)
+       (segid "   A" and resid   61 and name    C) (segid "   A" and resid   62 and name    N) 1 -170.98 122.51 2
+assign (segid "   A" and resid   62 and name    C) (segid "   A" and resid   63 and name    N)
+       (segid "   A" and resid   63 and name   CA) (segid "   A" and resid   63 and name    C) 1 -122.08  61.96 2
+assign (segid "   A" and resid   63 and name    N) (segid "   A" and resid   63 and name   CA)
+       (segid "   A" and resid   63 and name    C) (segid "   A" and resid   64 and name    N) 1 -178.54  95.21 2
+assign (segid "   A" and resid   63 and name    C) (segid "   A" and resid   64 and name    N)
+       (segid "   A" and resid   64 and name   CA) (segid "   A" and resid   64 and name    C) 1 -106.32  95.68 2
+assign (segid "   A" and resid   64 and name    N) (segid "   A" and resid   64 and name   CA)
+       (segid "   A" and resid   64 and name    C) (segid "   A" and resid   65 and name    N) 1 -164.46 116.06 2
+assign (segid "   A" and resid   65 and name    C) (segid "   A" and resid   66 and name    N)
+       (segid "   A" and resid   66 and name   CA) (segid "   A" and resid   66 and name    C) 1 -77.56  89.12 2
+assign (segid "   A" and resid   66 and name    N) (segid "   A" and resid   66 and name   CA)
+       (segid "   A" and resid   66 and name    C) (segid "   A" and resid   67 and name    N) 1 -144.54 134.54 2
+assign (segid "   A" and resid   66 and name    C) (segid "   A" and resid   67 and name    N)
+       (segid "   A" and resid   67 and name   CA) (segid "   A" and resid   67 and name    C) 1 -60.42  39.24 2
+assign (segid "   A" and resid   67 and name    N) (segid "   A" and resid   67 and name   CA)
+       (segid "   A" and resid   67 and name    C) (segid "   A" and resid   68 and name    N) 1 -45.59  22.69 2
+assign (segid "   A" and resid   67 and name    C) (segid "   A" and resid   68 and name    N)
+       (segid "   A" and resid   68 and name   CA) (segid "   A" and resid   68 and name    C) 1 -93.33  67.04 2
+assign (segid "   A" and resid   68 and name    N) (segid "   A" and resid   68 and name   CA)
+       (segid "   A" and resid   68 and name    C) (segid "   A" and resid   69 and name    N) 1 -43.58   9.29 2
+assign (segid "   A" and resid   69 and name    C) (segid "   A" and resid   70 and name    N)
+       (segid "   A" and resid   70 and name   CA) (segid "   A" and resid   70 and name    C) 1 -103.05  74.44 2
+assign (segid "   A" and resid   70 and name    N) (segid "   A" and resid   70 and name   CA)
+       (segid "   A" and resid   70 and name    C) (segid "   A" and resid   71 and name    N) 1 -168.32 145.39 2
+assign (segid "   A" and resid   71 and name    C) (segid "   A" and resid   72 and name    N)
+       (segid "   A" and resid   72 and name   CA) (segid "   A" and resid   72 and name    C) 1 -66.99  32.68 2
+assign (segid "   A" and resid   72 and name    N) (segid "   A" and resid   72 and name   CA)
+       (segid "   A" and resid   72 and name    C) (segid "   A" and resid   73 and name    N) 1 -51.97  29.30 2
+assign (segid "   A" and resid   72 and name    C) (segid "   A" and resid   73 and name    N)
+       (segid "   A" and resid   73 and name   CA) (segid "   A" and resid   73 and name    C) 1 -66.97  44.36 2
+assign (segid "   A" and resid   73 and name    N) (segid "   A" and resid   73 and name   CA)
+       (segid "   A" and resid   73 and name    C) (segid "   A" and resid   74 and name    N) 1 -53.08   6.67 2
+assign (segid "   A" and resid   73 and name    C) (segid "   A" and resid   74 and name    N)
+       (segid "   A" and resid   74 and name   CA) (segid "   A" and resid   74 and name    C) 1 -67.55  21.20 2
+assign (segid "   A" and resid   74 and name    N) (segid "   A" and resid   74 and name   CA)
+       (segid "   A" and resid   74 and name    C) (segid "   A" and resid   75 and name    N) 1 -54.17  14.69 2
+assign (segid "   A" and resid   74 and name    C) (segid "   A" and resid   75 and name    N)
+       (segid "   A" and resid   75 and name   CA) (segid "   A" and resid   75 and name    C) 1 -67.02  17.48 2
+assign (segid "   A" and resid   75 and name    N) (segid "   A" and resid   75 and name   CA)
+       (segid "   A" and resid   75 and name    C) (segid "   A" and resid   76 and name    N) 1 -48.65  15.03 2
+assign (segid "   A" and resid   76 and name    N) (segid "   A" and resid   76 and name   CA)
+       (segid "   A" and resid   76 and name    C) (segid "   A" and resid   77 and name    N) 1 -48.25  16.45 2
+assign (segid "   A" and resid   76 and name    C) (segid "   A" and resid   77 and name    N)
+       (segid "   A" and resid   77 and name   CA) (segid "   A" and resid   77 and name    C) 1 -68.13  17.92 2
+assign (segid "   A" and resid   77 and name    N) (segid "   A" and resid   77 and name   CA)
+       (segid "   A" and resid   77 and name    C) (segid "   A" and resid   78 and name    N) 1 -55.42  13.96 2
+assign (segid "   A" and resid   77 and name    C) (segid "   A" and resid   78 and name    N)
+       (segid "   A" and resid   78 and name   CA) (segid "   A" and resid   78 and name    C) 1 -67.46  38.96 2
+assign (segid "   A" and resid   78 and name    N) (segid "   A" and resid   78 and name   CA)
+       (segid "   A" and resid   78 and name    C) (segid "   A" and resid   79 and name    N) 1 -54.88  21.26 2
+assign (segid "   A" and resid   78 and name    C) (segid "   A" and resid   79 and name    N)
+       (segid "   A" and resid   79 and name   CA) (segid "   A" and resid   79 and name    C) 1 -61.86  25.92 2
+assign (segid "   A" and resid   79 and name    N) (segid "   A" and resid   79 and name   CA)
+       (segid "   A" and resid   79 and name    C) (segid "   A" and resid   80 and name    N) 1 -48.83  30.18 2
+assign (segid "   A" and resid   79 and name    C) (segid "   A" and resid   80 and name    N)
+       (segid "   A" and resid   80 and name   CA) (segid "   A" and resid   80 and name    C) 1 -65.91  23.04 2
+assign (segid "   A" and resid   80 and name    N) (segid "   A" and resid   80 and name   CA)
+       (segid "   A" and resid   80 and name    C) (segid "   A" and resid   81 and name    N) 1 -53.62  19.07 2
+assign (segid "   A" and resid   80 and name    C) (segid "   A" and resid   81 and name    N)
+       (segid "   A" and resid   81 and name   CA) (segid "   A" and resid   81 and name    C) 1 -71.46  30.12 2
+assign (segid "   A" and resid   81 and name    N) (segid "   A" and resid   81 and name   CA)
+       (segid "   A" and resid   81 and name    C) (segid "   A" and resid   82 and name    N) 1 -52.53  22.12 2
+assign (segid "   A" and resid   85 and name    C) (segid "   A" and resid   86 and name    N)
+       (segid "   A" and resid   86 and name   CA) (segid "   A" and resid   86 and name    C) 1 -76.29  43.48 2
+assign (segid "   A" and resid   86 and name    N) (segid "   A" and resid   86 and name   CA)
+       (segid "   A" and resid   86 and name    C) (segid "   A" and resid   87 and name    N) 1 -154.03 157.42 2
