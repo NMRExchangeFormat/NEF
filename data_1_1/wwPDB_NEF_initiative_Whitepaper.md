@@ -3,7 +3,7 @@
 1. Validation of the NMR restraints involving non-degenerate, but non-stereospecifically assigned atoms. 
 
 2. Conversion of the existing available data, chemical shifts and restraints into NEF files.
-This formating involveds, not only, converting a number of files into a single file, but also uses information stored in ambiguity codes to represent the data in a form as close to the original data as possible. Importantly, this was a process which effectively worked in ‘reverse’ order, generating NEF files from existing files in other formats. The aim of the NEF format, of course, is to have these generated as primary source by the various programmes.
+This formating involved, not only, converting a number of files into a single file, but also uses information stored in ambiguity codes to represent the data in a form as close to the original data as possible. Importantly, this was a process which effectively worked in ‘reverse’ order, generating NEF files from existing files in other formats. The aim of the NEF format, of course, is to have these generated as primary source by the various programmes.
 
 3. Expanding mmCIF dictionary to include NEF atom names. 
 This allows NEF atoms (which can be identified with x/y nomenclature) to be mapped onto the atoms in a mmCIF coordinate file on a per model basis. It is essential for solving the NMR non-stereospecific assignment problem.
