@@ -10,6 +10,7 @@ The NMR Restraints validation software package is being developed and integrated
 pdb_id.nef : NEF file from PDBStats_NEW folder
 pdb_id.cif : CIF file from PDBStats_NEW folder
 pdb_id.str : NMR-STAR file translated from NEF
-pdb_id.pdf : wwPDB's validation report in PDF format
+pdb_id.pdf : wwPDB's validation report in PDF format(long: lists all violations)
+pdb_id_summary.pdf : wwPDB's validation report in PDF format(short: lists only top 10)
 pdb_id.xml : wwPDB's validation report in XML format
 
