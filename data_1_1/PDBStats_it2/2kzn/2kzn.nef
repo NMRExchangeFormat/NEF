@@ -6,9 +6,9 @@ save_nef_nmr_meta_data
     _nef_nmr_meta_data.format_name           nmr_exchange_format 
     _nef_nmr_meta_data.format_version        1.1 
     _nef_nmr_meta_data.program_name          PDBStat 
-    _nef_nmr_meta_data.program_version       5.20.2-exp 
-    _nef_nmr_meta_data.creation_date         2020-03-19_00:56:22 
-    _nef_nmr_meta_data.uuid                  1584575782 
+    _nef_nmr_meta_data.program_version       5.20.4-exp 
+    _nef_nmr_meta_data.creation_date         2020-06-29_13:02:15 
+    _nef_nmr_meta_data.uuid                  1593428535 
     _nef_nmr_meta_data.coordinate_file_name  . 
 save_ 
 
@@ -61,7 +61,7 @@ save_nef_molecular_system
       32        A      32       GLU middle         .           
       33        A      33       TYR middle         .           
       34        A      34       TRP middle         .           
-      35        A      35       ASP middle         .           
+      35        A      35       ASP middle         +HD2           
       36        A      36       HIS middle         .           
       37        A      37       LYS middle         .           
       38        A      38       GLU middle         .           
@@ -70,7 +70,7 @@ save_nef_molecular_system
       41        A      41       LEU middle         .           
       42        A      42       TYR middle         .           
       43        A      43       VAL middle         .           
-      44        A      44       ASP middle         .           
+      44        A      44       ASP middle         +HD2           
       45        A      45       ILE middle         .           
       46        A      46       VAL middle         .           
       47        A      47       SER middle         .           
@@ -82,7 +82,7 @@ save_nef_molecular_system
       53        A      53       THR middle         .           
       54        A      54       SER middle         .           
       55        A      55       LYS middle         .           
-      56        A      56       ASP middle         .           
+      56        A      56       ASP middle         +HD2           
       57        A      57       LYS middle         .           
       58        A      58       PHE middle         .           
       59        A      59       ASP middle         .           

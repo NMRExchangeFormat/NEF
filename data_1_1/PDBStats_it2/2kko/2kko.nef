@@ -6,9 +6,9 @@ save_nef_nmr_meta_data
     _nef_nmr_meta_data.format_name           nmr_exchange_format 
     _nef_nmr_meta_data.format_version        1.1 
     _nef_nmr_meta_data.program_name          PDBStat 
-    _nef_nmr_meta_data.program_version       5.20.2-exp 
-    _nef_nmr_meta_data.creation_date         2020-03-19_00:47:52 
-    _nef_nmr_meta_data.uuid                  1584575272 
+    _nef_nmr_meta_data.program_version       5.20.4-exp 
+    _nef_nmr_meta_data.creation_date         2020-06-29_13:01:16 
+    _nef_nmr_meta_data.uuid                  1593428476 
     _nef_nmr_meta_data.coordinate_file_name  . 
 save_ 
 
@@ -958,8 +958,8 @@ save_nef_chemical_shift_list_bmr16368.str
          A         71        ARG       HE        8.310     0.020     
          A         71        ARG       HGx       1.320     0.020     
          A         71        ARG       HGy       1.400     0.020     
-         A         71        ARG       HH%       6.170     0.020     
-         A         71        ARG       HH%       6.890     0.020     
+         A         71        ARG       HH1%      6.170     0.020     
+         A         71        ARG       HH2%      6.890     0.020     
          A         71        ARG       C         173.500   0.200     
          A         71        ARG       CA        54.600    0.200     
          A         71        ARG       CB        33.600    0.200     
@@ -2017,8 +2017,8 @@ save_nef_chemical_shift_list_bmr16368.str
          B         71        ARG       HE        8.310     0.020     
          B         71        ARG       HGx       1.320     0.020     
          B         71        ARG       HGy       1.400     0.020     
-         B         71        ARG       HH%       6.170     0.020     
-         B         71        ARG       HH%       6.890     0.020     
+         B         71        ARG       HH1%      6.170     0.020     
+         B         71        ARG       HH2%      6.890     0.020     
          B         71        ARG       C         173.500   0.200     
          B         71        ARG       CA        54.600    0.200     
          B         71        ARG       CB        33.600    0.200     
@@ -2689,7 +2689,7 @@ save_nef_distance_restraint_list_2kko.mr
          284     284     .       A       22      LEU     HA      A       22      LEU     HD1%    1.0     1.800   .       1.800   4.820  
          285     285     .       A       22      LEU     HA      A       22      LEU     HD2%    1.0     1.800   .       1.800   4.070  
          286     286     .       A       22      LEU     HA      A       28      LEU     HD2%    1.0     1.800   .       1.800   4.430  
-         287     287     .       A       22      LEU     HA      A       31      LEU     HDx%    1.0     1.800   .       1.800   4.770  
+         287     287     .       A       22      LEU     HA      A       31      LEU     HD1%    1.0     1.800   .       1.800   4.770  
          288     288     .       A       22      LEU     HB%     A       22      LEU     HD2%    1.0     1.800   .       1.800   3.490  
          289     289     .       A       22      LEU     HB%     A       23      ALA     H       1.0     1.800   .       1.800   4.330  
          290     290     .       A       22      LEU     HBy     A       22      LEU     HD1%    1.0     1.800   .       1.800   4.060  
@@ -2737,15 +2737,15 @@ save_nef_distance_restraint_list_2kko.mr
          332     332     .       A       28      LEU     HA      A       28      LEU     HD2%    1.0     1.800   .       1.800   3.960  
          333     333     .       A       28      LEU     HA      A       30      ILE     H       1.0     1.800   .       1.800   5.080  
          334     334     .       A       28      LEU     HA      A       31      LEU     HB%     1.0     1.800   .       1.800   4.530  
-         335     335     .       A       28      LEU     HA      A       31      LEU     HDx%    1.0     1.800   .       1.800   4.350  
+         335     335     .       A       28      LEU     HA      A       31      LEU     HD1%    1.0     1.800   .       1.800   4.350  
          336     336     .       A       28      LEU     HA      A       31      LEU     H       1.0     1.800   .       1.800   5.020  
          337     337     .       A       28      LEU     HD1%    A       90      PHE     HD%     1.0     1.800   .       1.800   4.700  
          338     338     .       A       28      LEU     HD1%    A       90      PHE     HE%     1.0     1.800   .       1.800   5.000  
          339     339     .       A       28      LEU     HD2%    A       31      LEU     HB%     1.0     1.800   .       1.800   5.270  
-         340     340     .       A       28      LEU     HD2%    A       31      LEU     HDx%    1.0     1.800   .       1.800   4.390  
+         340     340     .       A       28      LEU     HD2%    A       31      LEU     HD1%    1.0     1.800   .       1.800   4.390  
          341     341     .       A       28      LEU     HD2%    A       90      PHE     HD%     1.0     1.800   .       1.800   4.910  
          342     342     .       A       28      LEU     HD2%    A       90      PHE     HE%     1.0     1.800   .       1.800   3.940  
-         343     343     .       A       28      LEU     HG      A       31      LEU     HDx%    1.0     1.800   .       1.800   5.910  
+         343     343     .       A       28      LEU     HG      A       31      LEU     HD1%    1.0     1.800   .       1.800   5.910  
          344     344     .       A       28      LEU     H       A       28      LEU     HD1%    1.0     1.800   .       1.800   4.490  
          345     345     .       A       28      LEU     H       A       28      LEU     HD2%    1.0     1.800   .       1.800   4.360  
          346     346     .       A       28      LEU     H       A       28      LEU     HG      1.0     1.800   .       1.800   4.730  
@@ -2773,8 +2773,8 @@ save_nef_distance_restraint_list_2kko.mr
          368     368     .       A       30      ILE     HA      A       33      LEU     H       1.0     1.800   .       1.800   5.500  
          369     369     .       A       30      ILE     HA      A       44      ILE     HD1%    1.0     1.800   .       1.800   6.050  
          370     370     .       A       30      ILE     HA      A       48      THR     HG2%    1.0     1.800   .       1.800   4.580  
-         371     371     .       A       30      ILE     HB      A       31      LEU     HDx%    1.0     1.800   .       1.800   5.440  
-         372     372     .       A       30      ILE     HB      A       31      LEU     HDy%    1.0     1.800   .       1.800   5.170  
+         371     371     .       A       30      ILE     HB      A       31      LEU     HD1%    1.0     1.800   .       1.800   5.440  
+         372     372     .       A       30      ILE     HB      A       31      LEU     HD2%    1.0     1.800   .       1.800   5.170  
          373     373     .       A       30      ILE     HB      A       31      LEU     H       1.0     1.800   .       1.800   4.640  
          374     374     .       A       30      ILE     HB      A       59      LEU     HD2%    1.0     1.800   .       1.800   5.380  
          375     375     .       A       30      ILE     HB      A       62      LEU     HD1%    1.0     1.800   .       1.800   3.930  
@@ -2788,7 +2788,7 @@ save_nef_distance_restraint_list_2kko.mr
          383     383     .       A       30      ILE     HD1%    A       59      LEU     HD2%    1.0     1.800   .       1.800   4.510  
          384     384     .       A       30      ILE     HD1%    A       59      LEU     HG      1.0     1.800   .       1.800   4.040  
          385     385     .       A       30      ILE     HD1%    A       59      LEU     H       1.0     1.800   .       1.800   5.130  
-         386     386     .       A       30      ILE     HG2%    A       31      LEU     HDy%    1.0     1.800   .       1.800   4.360  
+         386     386     .       A       30      ILE     HG2%    A       31      LEU     HD2%    1.0     1.800   .       1.800   4.360  
          387     387     .       A       30      ILE     HG2%    A       31      LEU     H       1.0     1.800   .       1.800   4.260  
          388     388     .       A       30      ILE     HG2%    A       32      ASP     H       1.0     1.800   .       1.800   5.680  
          389     389     .       A       30      ILE     HG2%    A       33      LEU     HB%     1.0     1.800   .       1.800   5.140  
@@ -2803,48 +2803,48 @@ save_nef_distance_restraint_list_2kko.mr
          398     398     .       A       30      ILE     H       A       30      ILE     HG1y    1.0     1.800   .       1.800   4.820  
          399     399     .       A       30      ILE     H       A       30      ILE     HG1x    1.0     1.800   .       1.800   4.820  
          400     400     .       A       30      ILE     H       A       30      ILE     HG2%    1.0     1.800   .       1.800   4.680  
-         401     401     .       A       31      LEU     HA      A       31      LEU     HDx%    1.0     1.800   .       1.800   4.520  
-         402     402     .       A       31      LEU     HA      A       31      LEU     HDy%    1.0     1.800   .       1.800   3.490  
+         401     401     .       A       31      LEU     HA      A       31      LEU     HD1%    1.0     1.800   .       1.800   4.520  
+         402     402     .       A       31      LEU     HA      A       31      LEU     HD2%    1.0     1.800   .       1.800   3.490  
          403     403     .       A       31      LEU     HA      A       34      LEU     HB%     1.0     1.800   .       1.800   5.040  
          404     404     .       A       31      LEU     HA      A       34      LEU     HD1%    1.0     1.800   .       1.800   5.000  
          405     405     .       A       31      LEU     HA      A       34      LEU     H       1.0     1.800   .       1.800   5.410  
          406     406     .       A       31      LEU     HA      A       35      ALA     H       1.0     1.800   .       1.800   5.540  
          407     407     .       A       31      LEU     HA      A       62      LEU     HD1%    1.0     1.800   .       1.800   5.390  
          408     408     .       A       31      LEU     HA      A       81      ILE     HD1%    1.0     1.800   .       1.800   4.650  
-         409     409     .       A       31      LEU     HB%     A       31      LEU     HDx%    1.0     1.800   .       1.800   3.590  
-         410     410     .       A       31      LEU     HB%     A       31      LEU     HDy%    1.0     1.800   .       1.800   3.330  
+         409     409     .       A       31      LEU     HB%     A       31      LEU     HD1%    1.0     1.800   .       1.800   3.590  
+         410     410     .       A       31      LEU     HB%     A       31      LEU     HD2%    1.0     1.800   .       1.800   3.330  
          411     411     .       A       31      LEU     HB%     A       62      LEU     HD1%    1.0     1.800   .       1.800   5.380  
          412     412     .       A       31      LEU     HB%     A       90      PHE     HD%     1.0     1.800   .       1.800   5.040  
          413     413     .       A       31      LEU     HB%     A       90      PHE     HE%     1.0     1.800   .       1.800   4.730  
          414     414     .       A       31      LEU     HB%     A       90      PHE     HZ      1.0     1.800   .       1.800   5.870  
          415     415     .       A       31      LEU     HBy     A       32      ASP     H       1.0     1.800   .       1.800   4.610  
          416     416     .       A       31      LEU     HBx     A       32      ASP     H       1.0     1.800   .       1.800   4.610  
-         417     417     .       A       31      LEU     HDx%    A       32      ASP     H       1.0     1.800   .       1.800   5.080  
-         418     418     .       A       31      LEU     HDx%    A       62      LEU     HB%     1.0     1.800   .       1.800   6.050  
-         419     419     .       A       31      LEU     HDx%    A       67      LEU     HB%     1.0     1.800   .       1.800   4.940  
-         420     420     .       A       31      LEU     HDx%    A       67      LEU     HG      1.0     1.800   .       1.800   5.290  
-         421     421     .       A       31      LEU     HDx%    A       86      VAL     HGx%    1.0     1.800   .       1.800   4.600  
-         422     422     .       A       31      LEU     HDx%    A       90      PHE     HD%     1.0     1.800   .       1.800   4.600  
-         423     423     .       A       31      LEU     HDx%    A       90      PHE     HE%     1.0     1.800   .       1.800   4.700  
-         424     424     .       A       31      LEU     HDy%    A       32      ASP     H       1.0     1.800   .       1.800   5.900  
-         425     425     .       A       31      LEU     HDy%    A       34      LEU     H       1.0     1.800   .       1.800   5.630  
-         426     426     .       A       31      LEU     HDy%    A       62      LEU     HB%     1.0     1.800   .       1.800   5.820  
-         427     427     .       A       31      LEU     HDy%    A       62      LEU     HD1%    1.0     1.800   .       1.800   4.070  
-         428     428     .       A       31      LEU     HDy%    A       67      LEU     HA      1.0     1.800   .       1.800   5.840  
-         429     429     .       A       31      LEU     HDy%    A       67      LEU     HB%     1.0     1.800   .       1.800   5.000  
-         430     430     .       A       31      LEU     HDy%    A       67      LEU     HD1%    1.0     1.800   .       1.800   5.070  
-         431     431     .       A       31      LEU     HDy%    A       68      VAL     HB      1.0     1.800   .       1.800   6.050  
-         432     432     .       A       31      LEU     HDy%    A       68      VAL     HG1%    1.0     1.800   .       1.800   3.520  
-         433     433     .       A       31      LEU     HDy%    A       81      ILE     HA      1.0     1.800   .       1.800   4.680  
-         434     434     .       A       31      LEU     HDy%    A       81      ILE     HD1%    1.0     1.800   .       1.800   3.850  
-         435     435     .       A       31      LEU     HDy%    A       81      ILE     HG2%    1.0     1.800   .       1.800   4.810  
-         436     436     .       A       31      LEU     HDy%    A       82      ALA     H       1.0     1.800   .       1.800   6.050  
-         437     437     .       A       31      LEU     HDy%    A       86      VAL     HGx%    1.0     1.800   .       1.800   4.170  
-         438     438     .       A       31      LEU     HDy%    A       90      PHE     HD%     1.0     1.800   .       1.800   4.590  
-         439     439     .       A       31      LEU     HDy%    A       90      PHE     HE%     1.0     1.800   .       1.800   5.160  
+         417     417     .       A       31      LEU     HD1%    A       32      ASP     H       1.0     1.800   .       1.800   5.080  
+         418     418     .       A       31      LEU     HD1%    A       62      LEU     HB%     1.0     1.800   .       1.800   6.050  
+         419     419     .       A       31      LEU     HD1%    A       67      LEU     HB%     1.0     1.800   .       1.800   4.940  
+         420     420     .       A       31      LEU     HD1%    A       67      LEU     HG      1.0     1.800   .       1.800   5.290  
+         421     421     .       A       31      LEU     HD1%    A       86      VAL     HGx%    1.0     1.800   .       1.800   4.600  
+         422     422     .       A       31      LEU     HD1%    A       90      PHE     HD%     1.0     1.800   .       1.800   4.600  
+         423     423     .       A       31      LEU     HD1%    A       90      PHE     HE%     1.0     1.800   .       1.800   4.700  
+         424     424     .       A       31      LEU     HD2%    A       32      ASP     H       1.0     1.800   .       1.800   5.900  
+         425     425     .       A       31      LEU     HD2%    A       34      LEU     H       1.0     1.800   .       1.800   5.630  
+         426     426     .       A       31      LEU     HD2%    A       62      LEU     HB%     1.0     1.800   .       1.800   5.820  
+         427     427     .       A       31      LEU     HD2%    A       62      LEU     HD1%    1.0     1.800   .       1.800   4.070  
+         428     428     .       A       31      LEU     HD2%    A       67      LEU     HA      1.0     1.800   .       1.800   5.840  
+         429     429     .       A       31      LEU     HD2%    A       67      LEU     HB%     1.0     1.800   .       1.800   5.000  
+         430     430     .       A       31      LEU     HD2%    A       67      LEU     HD1%    1.0     1.800   .       1.800   5.070  
+         431     431     .       A       31      LEU     HD2%    A       68      VAL     HB      1.0     1.800   .       1.800   6.050  
+         432     432     .       A       31      LEU     HD2%    A       68      VAL     HG1%    1.0     1.800   .       1.800   3.520  
+         433     433     .       A       31      LEU     HD2%    A       81      ILE     HA      1.0     1.800   .       1.800   4.680  
+         434     434     .       A       31      LEU     HD2%    A       81      ILE     HD1%    1.0     1.800   .       1.800   3.850  
+         435     435     .       A       31      LEU     HD2%    A       81      ILE     HG2%    1.0     1.800   .       1.800   4.810  
+         436     436     .       A       31      LEU     HD2%    A       82      ALA     H       1.0     1.800   .       1.800   6.050  
+         437     437     .       A       31      LEU     HD2%    A       86      VAL     HGx%    1.0     1.800   .       1.800   4.170  
+         438     438     .       A       31      LEU     HD2%    A       90      PHE     HD%     1.0     1.800   .       1.800   4.590  
+         439     439     .       A       31      LEU     HD2%    A       90      PHE     HE%     1.0     1.800   .       1.800   5.160  
          440     440     .       A       31      LEU     HG      A       62      LEU     HD1%    1.0     1.800   .       1.800   4.160  
-         441     441     .       A       31      LEU     H       A       31      LEU     HDx%    1.0     1.800   .       1.800   4.580  
-         442     442     .       A       31      LEU     H       A       31      LEU     HDy%    1.0     1.800   .       1.800   4.180  
+         441     441     .       A       31      LEU     H       A       31      LEU     HD1%    1.0     1.800   .       1.800   4.580  
+         442     442     .       A       31      LEU     H       A       31      LEU     HD2%    1.0     1.800   .       1.800   4.180  
          443     443     .       A       31      LEU     H       A       31      LEU     HG      1.0     1.800   .       1.800   4.570  
          444     444     .       A       31      LEU     H       A       32      ASP     H       1.0     1.800   .       1.800   4.470  
          445     445     .       A       31      LEU     H       A       62      LEU     HD1%    1.0     1.800   .       1.800   4.520  
@@ -2857,8 +2857,8 @@ save_nef_distance_restraint_list_2kko.mr
          452     452     .       A       32      ASP     H       A       33      LEU     H       1.0     1.800   .       1.800   4.290  
          453     453     .       A       32      ASP     H       A       90      PHE     HZ      1.0     1.800   .       1.800   4.830  
          454     454     .       A       33      LEU     HA      A       33      LEU     HD%     1.0     1.800   .       1.800   3.600  
-         455     455     .       A       33      LEU     HA      A       33      LEU     HDx%    1.0     1.800   .       1.800   4.390  
-         456     456     .       A       33      LEU     HA      A       33      LEU     HDy%    1.0     1.800   .       1.800   4.390  
+         455     455     .       A       33      LEU     HA      A       33      LEU     HD1%    1.0     1.800   .       1.800   4.390  
+         456     456     .       A       33      LEU     HA      A       33      LEU     HD2%    1.0     1.800   .       1.800   4.390  
          457     457     .       A       33      LEU     HA      A       33      LEU     HG      1.0     1.800   .       1.800   4.200  
          458     458     .       A       33      LEU     HA      A       36      GLN     HE2%    1.0     1.800   .       1.800   5.240  
          459     459     .       A       33      LEU     HB%     A       34      LEU     H       1.0     1.800   .       1.800   3.930  
@@ -2878,8 +2878,8 @@ save_nef_distance_restraint_list_2kko.mr
          473     473     .       A       33      LEU     HG      A       36      GLN     HE2%    1.0     1.800   .       1.800   5.510  
          474     474     .       A       33      LEU     HG      A       39      ARG     HE      1.0     1.800   .       1.800   6.050  
          475     475     .       A       33      LEU     H       A       33      LEU     HB%     1.0     1.800   .       1.800   3.530  
-         476     476     .       A       33      LEU     H       A       33      LEU     HDx%    1.0     1.800   .       1.800   4.770  
-         477     477     .       A       33      LEU     H       A       33      LEU     HDy%    1.0     1.800   .       1.800   4.770  
+         476     476     .       A       33      LEU     H       A       33      LEU     HD1%    1.0     1.800   .       1.800   4.770  
+         477     477     .       A       33      LEU     H       A       33      LEU     HD2%    1.0     1.800   .       1.800   4.770  
          478     478     .       A       33      LEU     H       A       33      LEU     HG      1.0     1.800   .       1.800   5.300  
          479     479     .       A       33      LEU     H       A       34      LEU     H       1.0     1.800   .       1.800   4.330  
          480     480     .       A       33      LEU     H       A       35      ALA     H       1.0     1.800   .       1.800   5.430  
@@ -3010,22 +3010,22 @@ save_nef_distance_restraint_list_2kko.mr
          605     605     .       A       42      GLU     HB%     A       43      ALA     HA      1.0     1.800   .       1.800   5.640  
          606     606     .       A       42      GLU     HB%     A       43      ALA     H       1.0     1.800   .       1.800   3.980  
          607     607     .       A       42      GLU     HB%     A       45      ALA     HB%     1.0     1.800   .       1.800   5.620  
-         608     608     .       A       42      GLU     HB%     A       52      LEU     HDx%    1.0     1.800   .       1.800   5.150  
-         609     609     .       A       42      GLU     HB%     A       52      LEU     HDy%    1.0     1.800   .       1.800   5.150  
+         608     608     .       A       42      GLU     HB%     A       52      LEU     HD1%    1.0     1.800   .       1.800   5.150  
+         609     609     .       A       42      GLU     HB%     A       52      LEU     HD2%    1.0     1.800   .       1.800   5.150  
          610     610     .       A       42      GLU     HG%     A       43      ALA     H       1.0     1.800   .       1.800   5.030  
          611     611     .       A       42      GLU     HG%     A       45      ALA     HB%     1.0     1.800   .       1.800   4.690  
          612     612     .       A       42      GLU     HG%     A       52      LEU     HD%     1.0     1.800   .       1.800   2.980  
          613     613     .       A       42      GLU     HG%     A       52      LEU     HG      1.0     1.800   .       1.800   4.470  
-         614     614     .       A       42      GLU     HGy     A       52      LEU     HDx%    1.0     1.800   .       1.800   4.340  
-         615     615     .       A       42      GLU     HGy     A       52      LEU     HDy%    1.0     1.800   .       1.800   4.340  
-         616     616     .       A       42      GLU     HGx     A       52      LEU     HDx%    1.0     1.800   .       1.800   4.340  
-         617     617     .       A       42      GLU     HGx     A       52      LEU     HDy%    1.0     1.800   .       1.800   4.340  
+         614     614     .       A       42      GLU     HGy     A       52      LEU     HD1%    1.0     1.800   .       1.800   4.340  
+         615     615     .       A       42      GLU     HGy     A       52      LEU     HD2%    1.0     1.800   .       1.800   4.340  
+         616     616     .       A       42      GLU     HGx     A       52      LEU     HD1%    1.0     1.800   .       1.800   4.340  
+         617     617     .       A       42      GLU     HGx     A       52      LEU     HD2%    1.0     1.800   .       1.800   4.340  
          618     618     .       A       42      GLU     H       A       42      GLU     HB%     1.0     1.800   .       1.800   3.600  
          619     619     .       A       42      GLU     H       A       42      GLU     HG%     1.0     1.800   .       1.800   3.990  
          620     620     .       A       42      GLU     H       A       43      ALA     HB%     1.0     1.800   .       1.800   5.040  
          621     621     .       A       42      GLU     H       A       43      ALA     H       1.0     1.800   .       1.800   4.100  
-         622     622     .       A       42      GLU     H       A       52      LEU     HDx%    1.0     1.800   .       1.800   5.790  
-         623     623     .       A       42      GLU     H       A       52      LEU     HDy%    1.0     1.800   .       1.800   5.790  
+         622     622     .       A       42      GLU     H       A       52      LEU     HD1%    1.0     1.800   .       1.800   5.790  
+         623     623     .       A       42      GLU     H       A       52      LEU     HD2%    1.0     1.800   .       1.800   5.790  
          624     624     .       A       43      ALA     HA      A       46      THR     HB      1.0     1.800   .       1.800   4.100  
          625     625     .       A       43      ALA     HA      A       46      THR     HG2%    1.0     1.800   .       1.800   6.040  
          626     626     .       A       43      ALA     HA      A       46      THR     H       1.0     1.800   .       1.800   4.480  
@@ -3134,8 +3134,8 @@ save_nef_distance_restraint_list_2kko.mr
          729     729     .       A       52      LEU     HA      A       55      ALA     HB%     1.0     1.800   .       1.800   3.840  
          730     730     .       A       52      LEU     HA      A       55      ALA     H       1.0     1.800   .       1.800   4.750  
          731     731     .       A       52      LEU     HA      A       56      SER     H       1.0     1.800   .       1.800   4.520  
-         732     732     .       A       52      LEU     HB%     A       52      LEU     HDx%    1.0     1.800   .       1.800   4.190  
-         733     733     .       A       52      LEU     HB%     A       52      LEU     HDy%    1.0     1.800   .       1.800   4.190  
+         732     732     .       A       52      LEU     HB%     A       52      LEU     HD1%    1.0     1.800   .       1.800   4.190  
+         733     733     .       A       52      LEU     HB%     A       52      LEU     HD2%    1.0     1.800   .       1.800   4.190  
          734     734     .       A       52      LEU     HB%     A       53      THR     H       1.0     1.800   .       1.800   3.710  
          735     735     .       A       52      LEU     HB%     A       55      ALA     HB%     1.0     1.800   .       1.800   5.310  
          736     736     .       A       52      LEU     HB%     A       56      SER     H       1.0     1.800   .       1.800   5.580  
@@ -3370,7 +3370,7 @@ save_nef_distance_restraint_list_2kko.mr
          965     965     .       A       71      ARG     HB%     A       71      ARG     HE      1.0     1.800   .       1.800   4.990  
          966     966     .       A       71      ARG     HB%     A       72      ARG     H       1.0     1.800   .       1.800   4.400  
          967     967     .       A       71      ARG     HB%     A       79      TYR     HA      1.0     1.800   .       1.800   5.870  
-         968     968     .       A       71      ARG     HD%     A       71      ARG     HH%     1.0     1.800   .       1.800   4.850  
+         968     968     .       A       71      ARG     HD%     A       71      ARG     HH2%    1.0     1.800   .       1.800   4.850  
          969     969     .       A       71      ARG     HG%     A       72      ARG     H       1.0     1.800   .       1.800   5.320  
          970     970     .       A       71      ARG     HG%     A       78      TYR     HB%     1.0     1.800   .       1.800   5.010  
          971     971     .       A       71      ARG     H       A       71      ARG     HG%     1.0     1.800   .       1.800   4.690  
@@ -3818,7 +3818,7 @@ save_nef_distance_restraint_list_2kko.mr
          1413    1413    .       B       22      LEU     HA      B       22      LEU     HD1%    1.0     1.800   .       1.800   4.820  
          1414    1414    .       B       22      LEU     HA      B       22      LEU     HD2%    1.0     1.800   .       1.800   4.070  
          1415    1415    .       B       22      LEU     HA      B       28      LEU     HD2%    1.0     1.800   .       1.800   4.430  
-         1416    1416    .       B       22      LEU     HA      B       31      LEU     HDx%    1.0     1.800   .       1.800   4.770  
+         1416    1416    .       B       22      LEU     HA      B       31      LEU     HD1%    1.0     1.800   .       1.800   4.770  
          1417    1417    .       B       22      LEU     HB%     B       22      LEU     HD2%    1.0     1.800   .       1.800   3.490  
          1418    1418    .       B       22      LEU     HB%     B       23      ALA     H       1.0     1.800   .       1.800   4.330  
          1419    1419    .       B       22      LEU     HBy     B       22      LEU     HD1%    1.0     1.800   .       1.800   4.060  
@@ -3866,15 +3866,15 @@ save_nef_distance_restraint_list_2kko.mr
          1461    1461    .       B       28      LEU     HA      B       28      LEU     HD2%    1.0     1.800   .       1.800   3.960  
          1462    1462    .       B       28      LEU     HA      B       30      ILE     H       1.0     1.800   .       1.800   5.080  
          1463    1463    .       B       28      LEU     HA      B       31      LEU     HB%     1.0     1.800   .       1.800   4.530  
-         1464    1464    .       B       28      LEU     HA      B       31      LEU     HDx%    1.0     1.800   .       1.800   4.350  
+         1464    1464    .       B       28      LEU     HA      B       31      LEU     HD1%    1.0     1.800   .       1.800   4.350  
          1465    1465    .       B       28      LEU     HA      B       31      LEU     H       1.0     1.800   .       1.800   5.020  
          1466    1466    .       B       28      LEU     HD1%    B       90      PHE     HD%     1.0     1.800   .       1.800   4.700  
          1467    1467    .       B       28      LEU     HD1%    B       90      PHE     HE%     1.0     1.800   .       1.800   5.000  
          1468    1468    .       B       28      LEU     HD2%    B       31      LEU     HB%     1.0     1.800   .       1.800   5.270  
-         1469    1469    .       B       28      LEU     HD2%    B       31      LEU     HDx%    1.0     1.800   .       1.800   4.390  
+         1469    1469    .       B       28      LEU     HD2%    B       31      LEU     HD1%    1.0     1.800   .       1.800   4.390  
          1470    1470    .       B       28      LEU     HD2%    B       90      PHE     HD%     1.0     1.800   .       1.800   4.910  
          1471    1471    .       B       28      LEU     HD2%    B       90      PHE     HE%     1.0     1.800   .       1.800   3.940  
-         1472    1472    .       B       28      LEU     HG      B       31      LEU     HDx%    1.0     1.800   .       1.800   5.910  
+         1472    1472    .       B       28      LEU     HG      B       31      LEU     HD1%    1.0     1.800   .       1.800   5.910  
          1473    1473    .       B       28      LEU     H       B       28      LEU     HD1%    1.0     1.800   .       1.800   4.490  
          1474    1474    .       B       28      LEU     H       B       28      LEU     HD2%    1.0     1.800   .       1.800   4.360  
          1475    1475    .       B       28      LEU     H       B       28      LEU     HG      1.0     1.800   .       1.800   4.730  
@@ -3902,8 +3902,8 @@ save_nef_distance_restraint_list_2kko.mr
          1497    1497    .       B       30      ILE     HA      B       33      LEU     H       1.0     1.800   .       1.800   5.500  
          1498    1498    .       B       30      ILE     HA      B       44      ILE     HD1%    1.0     1.800   .       1.800   6.050  
          1499    1499    .       B       30      ILE     HA      B       48      THR     HG2%    1.0     1.800   .       1.800   4.580  
-         1500    1500    .       B       30      ILE     HB      B       31      LEU     HDx%    1.0     1.800   .       1.800   5.440  
-         1501    1501    .       B       30      ILE     HB      B       31      LEU     HDy%    1.0     1.800   .       1.800   5.170  
+         1500    1500    .       B       30      ILE     HB      B       31      LEU     HD1%    1.0     1.800   .       1.800   5.440  
+         1501    1501    .       B       30      ILE     HB      B       31      LEU     HD2%    1.0     1.800   .       1.800   5.170  
          1502    1502    .       B       30      ILE     HB      B       31      LEU     H       1.0     1.800   .       1.800   4.640  
          1503    1503    .       B       30      ILE     HB      B       59      LEU     HD2%    1.0     1.800   .       1.800   5.380  
          1504    1504    .       B       30      ILE     HB      B       62      LEU     HD1%    1.0     1.800   .       1.800   3.930  
@@ -3917,7 +3917,7 @@ save_nef_distance_restraint_list_2kko.mr
          1512    1512    .       B       30      ILE     HD1%    B       59      LEU     HD2%    1.0     1.800   .       1.800   4.510  
          1513    1513    .       B       30      ILE     HD1%    B       59      LEU     HG      1.0     1.800   .       1.800   4.040  
          1514    1514    .       B       30      ILE     HD1%    B       59      LEU     H       1.0     1.800   .       1.800   5.130  
-         1515    1515    .       B       30      ILE     HG2%    B       31      LEU     HDy%    1.0     1.800   .       1.800   4.360  
+         1515    1515    .       B       30      ILE     HG2%    B       31      LEU     HD2%    1.0     1.800   .       1.800   4.360  
          1516    1516    .       B       30      ILE     HG2%    B       31      LEU     H       1.0     1.800   .       1.800   4.260  
          1517    1517    .       B       30      ILE     HG2%    B       32      ASP     H       1.0     1.800   .       1.800   5.680  
          1518    1518    .       B       30      ILE     HG2%    B       33      LEU     HB%     1.0     1.800   .       1.800   5.140  
@@ -3932,48 +3932,48 @@ save_nef_distance_restraint_list_2kko.mr
          1527    1527    .       B       30      ILE     H       B       30      ILE     HG1y    1.0     1.800   .       1.800   4.820  
          1528    1528    .       B       30      ILE     H       B       30      ILE     HG1x    1.0     1.800   .       1.800   4.820  
          1529    1529    .       B       30      ILE     H       B       30      ILE     HG2%    1.0     1.800   .       1.800   4.680  
-         1530    1530    .       B       31      LEU     HA      B       31      LEU     HDx%    1.0     1.800   .       1.800   4.520  
-         1531    1531    .       B       31      LEU     HA      B       31      LEU     HDy%    1.0     1.800   .       1.800   3.490  
+         1530    1530    .       B       31      LEU     HA      B       31      LEU     HD1%    1.0     1.800   .       1.800   4.520  
+         1531    1531    .       B       31      LEU     HA      B       31      LEU     HD2%    1.0     1.800   .       1.800   3.490  
          1532    1532    .       B       31      LEU     HA      B       34      LEU     HB%     1.0     1.800   .       1.800   5.040  
          1533    1533    .       B       31      LEU     HA      B       34      LEU     HD1%    1.0     1.800   .       1.800   5.000  
          1534    1534    .       B       31      LEU     HA      B       34      LEU     H       1.0     1.800   .       1.800   5.410  
          1535    1535    .       B       31      LEU     HA      B       35      ALA     H       1.0     1.800   .       1.800   5.540  
          1536    1536    .       B       31      LEU     HA      B       62      LEU     HD1%    1.0     1.800   .       1.800   5.390  
          1537    1537    .       B       31      LEU     HA      B       81      ILE     HD1%    1.0     1.800   .       1.800   4.650  
-         1538    1538    .       B       31      LEU     HB%     B       31      LEU     HDx%    1.0     1.800   .       1.800   3.590  
-         1539    1539    .       B       31      LEU     HB%     B       31      LEU     HDy%    1.0     1.800   .       1.800   3.330  
+         1538    1538    .       B       31      LEU     HB%     B       31      LEU     HD1%    1.0     1.800   .       1.800   3.590  
+         1539    1539    .       B       31      LEU     HB%     B       31      LEU     HD2%    1.0     1.800   .       1.800   3.330  
          1540    1540    .       B       31      LEU     HB%     B       62      LEU     HD1%    1.0     1.800   .       1.800   5.380  
          1541    1541    .       B       31      LEU     HB%     B       90      PHE     HD%     1.0     1.800   .       1.800   5.040  
          1542    1542    .       B       31      LEU     HB%     B       90      PHE     HE%     1.0     1.800   .       1.800   4.730  
          1543    1543    .       B       31      LEU     HB%     B       90      PHE     HZ      1.0     1.800   .       1.800   5.870  
          1544    1544    .       B       31      LEU     HBy     B       32      ASP     H       1.0     1.800   .       1.800   4.610  
          1545    1545    .       B       31      LEU     HBx     B       32      ASP     H       1.0     1.800   .       1.800   4.610  
-         1546    1546    .       B       31      LEU     HDx%    B       32      ASP     H       1.0     1.800   .       1.800   5.080  
-         1547    1547    .       B       31      LEU     HDx%    B       62      LEU     HB%     1.0     1.800   .       1.800   6.050  
-         1548    1548    .       B       31      LEU     HDx%    B       67      LEU     HB%     1.0     1.800   .       1.800   4.940  
-         1549    1549    .       B       31      LEU     HDx%    B       67      LEU     HG      1.0     1.800   .       1.800   5.290  
-         1550    1550    .       B       31      LEU     HDx%    B       86      VAL     HGx%    1.0     1.800   .       1.800   4.600  
-         1551    1551    .       B       31      LEU     HDx%    B       90      PHE     HD%     1.0     1.800   .       1.800   4.600  
-         1552    1552    .       B       31      LEU     HDx%    B       90      PHE     HE%     1.0     1.800   .       1.800   4.700  
-         1553    1553    .       B       31      LEU     HDy%    B       32      ASP     H       1.0     1.800   .       1.800   5.900  
-         1554    1554    .       B       31      LEU     HDy%    B       34      LEU     H       1.0     1.800   .       1.800   5.630  
-         1555    1555    .       B       31      LEU     HDy%    B       62      LEU     HB%     1.0     1.800   .       1.800   5.820  
-         1556    1556    .       B       31      LEU     HDy%    B       62      LEU     HD1%    1.0     1.800   .       1.800   4.070  
-         1557    1557    .       B       31      LEU     HDy%    B       67      LEU     HA      1.0     1.800   .       1.800   5.840  
-         1558    1558    .       B       31      LEU     HDy%    B       67      LEU     HB%     1.0     1.800   .       1.800   5.000  
-         1559    1559    .       B       31      LEU     HDy%    B       67      LEU     HD1%    1.0     1.800   .       1.800   5.070  
-         1560    1560    .       B       31      LEU     HDy%    B       68      VAL     HB      1.0     1.800   .       1.800   6.050  
-         1561    1561    .       B       31      LEU     HDy%    B       68      VAL     HG1%    1.0     1.800   .       1.800   3.520  
-         1562    1562    .       B       31      LEU     HDy%    B       81      ILE     HA      1.0     1.800   .       1.800   4.680  
-         1563    1563    .       B       31      LEU     HDy%    B       81      ILE     HD1%    1.0     1.800   .       1.800   3.850  
-         1564    1564    .       B       31      LEU     HDy%    B       81      ILE     HG2%    1.0     1.800   .       1.800   4.810  
-         1565    1565    .       B       31      LEU     HDy%    B       82      ALA     H       1.0     1.800   .       1.800   6.050  
-         1566    1566    .       B       31      LEU     HDy%    B       86      VAL     HGx%    1.0     1.800   .       1.800   4.170  
-         1567    1567    .       B       31      LEU     HDy%    B       90      PHE     HD%     1.0     1.800   .       1.800   4.590  
-         1568    1568    .       B       31      LEU     HDy%    B       90      PHE     HE%     1.0     1.800   .       1.800   5.160  
+         1546    1546    .       B       31      LEU     HD1%    B       32      ASP     H       1.0     1.800   .       1.800   5.080  
+         1547    1547    .       B       31      LEU     HD1%    B       62      LEU     HB%     1.0     1.800   .       1.800   6.050  
+         1548    1548    .       B       31      LEU     HD1%    B       67      LEU     HB%     1.0     1.800   .       1.800   4.940  
+         1549    1549    .       B       31      LEU     HD1%    B       67      LEU     HG      1.0     1.800   .       1.800   5.290  
+         1550    1550    .       B       31      LEU     HD1%    B       86      VAL     HGx%    1.0     1.800   .       1.800   4.600  
+         1551    1551    .       B       31      LEU     HD1%    B       90      PHE     HD%     1.0     1.800   .       1.800   4.600  
+         1552    1552    .       B       31      LEU     HD1%    B       90      PHE     HE%     1.0     1.800   .       1.800   4.700  
+         1553    1553    .       B       31      LEU     HD2%    B       32      ASP     H       1.0     1.800   .       1.800   5.900  
+         1554    1554    .       B       31      LEU     HD2%    B       34      LEU     H       1.0     1.800   .       1.800   5.630  
+         1555    1555    .       B       31      LEU     HD2%    B       62      LEU     HB%     1.0     1.800   .       1.800   5.820  
+         1556    1556    .       B       31      LEU     HD2%    B       62      LEU     HD1%    1.0     1.800   .       1.800   4.070  
+         1557    1557    .       B       31      LEU     HD2%    B       67      LEU     HA      1.0     1.800   .       1.800   5.840  
+         1558    1558    .       B       31      LEU     HD2%    B       67      LEU     HB%     1.0     1.800   .       1.800   5.000  
+         1559    1559    .       B       31      LEU     HD2%    B       67      LEU     HD1%    1.0     1.800   .       1.800   5.070  
+         1560    1560    .       B       31      LEU     HD2%    B       68      VAL     HB      1.0     1.800   .       1.800   6.050  
+         1561    1561    .       B       31      LEU     HD2%    B       68      VAL     HG1%    1.0     1.800   .       1.800   3.520  
+         1562    1562    .       B       31      LEU     HD2%    B       81      ILE     HA      1.0     1.800   .       1.800   4.680  
+         1563    1563    .       B       31      LEU     HD2%    B       81      ILE     HD1%    1.0     1.800   .       1.800   3.850  
+         1564    1564    .       B       31      LEU     HD2%    B       81      ILE     HG2%    1.0     1.800   .       1.800   4.810  
+         1565    1565    .       B       31      LEU     HD2%    B       82      ALA     H       1.0     1.800   .       1.800   6.050  
+         1566    1566    .       B       31      LEU     HD2%    B       86      VAL     HGx%    1.0     1.800   .       1.800   4.170  
+         1567    1567    .       B       31      LEU     HD2%    B       90      PHE     HD%     1.0     1.800   .       1.800   4.590  
+         1568    1568    .       B       31      LEU     HD2%    B       90      PHE     HE%     1.0     1.800   .       1.800   5.160  
          1569    1569    .       B       31      LEU     HG      B       62      LEU     HD1%    1.0     1.800   .       1.800   4.160  
-         1570    1570    .       B       31      LEU     H       B       31      LEU     HDx%    1.0     1.800   .       1.800   4.580  
-         1571    1571    .       B       31      LEU     H       B       31      LEU     HDy%    1.0     1.800   .       1.800   4.180  
+         1570    1570    .       B       31      LEU     H       B       31      LEU     HD1%    1.0     1.800   .       1.800   4.580  
+         1571    1571    .       B       31      LEU     H       B       31      LEU     HD2%    1.0     1.800   .       1.800   4.180  
          1572    1572    .       B       31      LEU     H       B       31      LEU     HG      1.0     1.800   .       1.800   4.570  
          1573    1573    .       B       31      LEU     H       B       32      ASP     H       1.0     1.800   .       1.800   4.470  
          1574    1574    .       B       31      LEU     H       B       62      LEU     HD1%    1.0     1.800   .       1.800   4.520  
@@ -3986,8 +3986,8 @@ save_nef_distance_restraint_list_2kko.mr
          1581    1581    .       B       32      ASP     H       B       33      LEU     H       1.0     1.800   .       1.800   4.290  
          1582    1582    .       B       32      ASP     H       B       90      PHE     HZ      1.0     1.800   .       1.800   4.830  
          1583    1583    .       B       33      LEU     HA      B       33      LEU     HD%     1.0     1.800   .       1.800   3.600  
-         1584    1584    .       B       33      LEU     HA      B       33      LEU     HDx%    1.0     1.800   .       1.800   4.390  
-         1585    1585    .       B       33      LEU     HA      B       33      LEU     HDy%    1.0     1.800   .       1.800   4.390  
+         1584    1584    .       B       33      LEU     HA      B       33      LEU     HD1%    1.0     1.800   .       1.800   4.390  
+         1585    1585    .       B       33      LEU     HA      B       33      LEU     HD2%    1.0     1.800   .       1.800   4.390  
          1586    1586    .       B       33      LEU     HA      B       33      LEU     HG      1.0     1.800   .       1.800   4.200  
          1587    1587    .       B       33      LEU     HA      B       36      GLN     HE2%    1.0     1.800   .       1.800   5.240  
          1588    1588    .       B       33      LEU     HB%     B       34      LEU     H       1.0     1.800   .       1.800   3.930  
@@ -4007,8 +4007,8 @@ save_nef_distance_restraint_list_2kko.mr
          1602    1602    .       B       33      LEU     HG      B       36      GLN     HE2%    1.0     1.800   .       1.800   5.510  
          1603    1603    .       B       33      LEU     HG      B       39      ARG     HE      1.0     1.800   .       1.800   6.050  
          1604    1604    .       B       33      LEU     H       B       33      LEU     HB%     1.0     1.800   .       1.800   3.530  
-         1605    1605    .       B       33      LEU     H       B       33      LEU     HDx%    1.0     1.800   .       1.800   4.770  
-         1606    1606    .       B       33      LEU     H       B       33      LEU     HDy%    1.0     1.800   .       1.800   4.770  
+         1605    1605    .       B       33      LEU     H       B       33      LEU     HD1%    1.0     1.800   .       1.800   4.770  
+         1606    1606    .       B       33      LEU     H       B       33      LEU     HD2%    1.0     1.800   .       1.800   4.770  
          1607    1607    .       B       33      LEU     H       B       33      LEU     HG      1.0     1.800   .       1.800   5.300  
          1608    1608    .       B       33      LEU     H       B       34      LEU     H       1.0     1.800   .       1.800   4.330  
          1609    1609    .       B       33      LEU     H       B       35      ALA     H       1.0     1.800   .       1.800   5.430  
@@ -4139,22 +4139,22 @@ save_nef_distance_restraint_list_2kko.mr
          1734    1734    .       B       42      GLU     HB%     B       43      ALA     HA      1.0     1.800   .       1.800   5.640  
          1735    1735    .       B       42      GLU     HB%     B       43      ALA     H       1.0     1.800   .       1.800   3.980  
          1736    1736    .       B       42      GLU     HB%     B       45      ALA     HB%     1.0     1.800   .       1.800   5.620  
-         1737    1737    .       B       42      GLU     HB%     B       52      LEU     HDx%    1.0     1.800   .       1.800   5.150  
-         1738    1738    .       B       42      GLU     HB%     B       52      LEU     HDy%    1.0     1.800   .       1.800   5.150  
+         1737    1737    .       B       42      GLU     HB%     B       52      LEU     HD1%    1.0     1.800   .       1.800   5.150  
+         1738    1738    .       B       42      GLU     HB%     B       52      LEU     HD2%    1.0     1.800   .       1.800   5.150  
          1739    1739    .       B       42      GLU     HG%     B       43      ALA     H       1.0     1.800   .       1.800   5.030  
          1740    1740    .       B       42      GLU     HG%     B       45      ALA     HB%     1.0     1.800   .       1.800   4.690  
          1741    1741    .       B       42      GLU     HG%     B       52      LEU     HD%     1.0     1.800   .       1.800   2.980  
          1742    1742    .       B       42      GLU     HG%     B       52      LEU     HG      1.0     1.800   .       1.800   4.470  
-         1743    1743    .       B       42      GLU     HGy     B       52      LEU     HDx%    1.0     1.800   .       1.800   4.340  
-         1744    1744    .       B       42      GLU     HGy     B       52      LEU     HDy%    1.0     1.800   .       1.800   4.340  
-         1745    1745    .       B       42      GLU     HGx     B       52      LEU     HDx%    1.0     1.800   .       1.800   4.340  
-         1746    1746    .       B       42      GLU     HGx     B       52      LEU     HDy%    1.0     1.800   .       1.800   4.340  
+         1743    1743    .       B       42      GLU     HGy     B       52      LEU     HD1%    1.0     1.800   .       1.800   4.340  
+         1744    1744    .       B       42      GLU     HGy     B       52      LEU     HD2%    1.0     1.800   .       1.800   4.340  
+         1745    1745    .       B       42      GLU     HGx     B       52      LEU     HD1%    1.0     1.800   .       1.800   4.340  
+         1746    1746    .       B       42      GLU     HGx     B       52      LEU     HD2%    1.0     1.800   .       1.800   4.340  
          1747    1747    .       B       42      GLU     H       B       42      GLU     HB%     1.0     1.800   .       1.800   3.600  
          1748    1748    .       B       42      GLU     H       B       42      GLU     HG%     1.0     1.800   .       1.800   3.990  
          1749    1749    .       B       42      GLU     H       B       43      ALA     HB%     1.0     1.800   .       1.800   5.040  
          1750    1750    .       B       42      GLU     H       B       43      ALA     H       1.0     1.800   .       1.800   4.100  
-         1751    1751    .       B       42      GLU     H       B       52      LEU     HDx%    1.0     1.800   .       1.800   5.790  
-         1752    1752    .       B       42      GLU     H       B       52      LEU     HDy%    1.0     1.800   .       1.800   5.790  
+         1751    1751    .       B       42      GLU     H       B       52      LEU     HD1%    1.0     1.800   .       1.800   5.790  
+         1752    1752    .       B       42      GLU     H       B       52      LEU     HD2%    1.0     1.800   .       1.800   5.790  
          1753    1753    .       B       43      ALA     HA      B       46      THR     HB      1.0     1.800   .       1.800   4.100  
          1754    1754    .       B       43      ALA     HA      B       46      THR     HG2%    1.0     1.800   .       1.800   6.040  
          1755    1755    .       B       43      ALA     HA      B       46      THR     H       1.0     1.800   .       1.800   4.480  
@@ -4263,8 +4263,8 @@ save_nef_distance_restraint_list_2kko.mr
          1858    1858    .       B       52      LEU     HA      B       55      ALA     HB%     1.0     1.800   .       1.800   3.840  
          1859    1859    .       B       52      LEU     HA      B       55      ALA     H       1.0     1.800   .       1.800   4.750  
          1860    1860    .       B       52      LEU     HA      B       56      SER     H       1.0     1.800   .       1.800   4.520  
-         1861    1861    .       B       52      LEU     HB%     B       52      LEU     HDx%    1.0     1.800   .       1.800   4.190  
-         1862    1862    .       B       52      LEU     HB%     B       52      LEU     HDy%    1.0     1.800   .       1.800   4.190  
+         1861    1861    .       B       52      LEU     HB%     B       52      LEU     HD1%    1.0     1.800   .       1.800   4.190  
+         1862    1862    .       B       52      LEU     HB%     B       52      LEU     HD2%    1.0     1.800   .       1.800   4.190  
          1863    1863    .       B       52      LEU     HB%     B       53      THR     H       1.0     1.800   .       1.800   3.710  
          1864    1864    .       B       52      LEU     HB%     B       55      ALA     HB%     1.0     1.800   .       1.800   5.310  
          1865    1865    .       B       52      LEU     HB%     B       56      SER     H       1.0     1.800   .       1.800   5.580  
@@ -4499,7 +4499,7 @@ save_nef_distance_restraint_list_2kko.mr
          2094    2094    .       B       71      ARG     HB%     B       71      ARG     HE      1.0     1.800   .       1.800   4.990  
          2095    2095    .       B       71      ARG     HB%     B       72      ARG     H       1.0     1.800   .       1.800   4.400  
          2096    2096    .       B       71      ARG     HB%     B       79      TYR     HA      1.0     1.800   .       1.800   5.870  
-         2097    2097    .       B       71      ARG     HD%     B       71      ARG     HH%     1.0     1.800   .       1.800   4.850  
+         2097    2097    .       B       71      ARG     HD%     B       71      ARG     HH2%    1.0     1.800   .       1.800   4.850  
          2098    2098    .       B       71      ARG     HG%     B       72      ARG     H       1.0     1.800   .       1.800   5.320  
          2099    2099    .       B       71      ARG     HG%     B       78      TYR     HB%     1.0     1.800   .       1.800   5.010  
          2100    2100    .       B       71      ARG     H       B       71      ARG     HG%     1.0     1.800   .       1.800   4.690  

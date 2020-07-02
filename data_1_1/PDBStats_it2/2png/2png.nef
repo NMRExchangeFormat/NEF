@@ -6,9 +6,9 @@ save_nef_nmr_meta_data
     _nef_nmr_meta_data.format_name           nmr_exchange_format 
     _nef_nmr_meta_data.format_version        1.1 
     _nef_nmr_meta_data.program_name          PDBStat 
-    _nef_nmr_meta_data.program_version       5.20.2-exp 
-    _nef_nmr_meta_data.creation_date         2020-03-19_00:55:31 
-    _nef_nmr_meta_data.uuid                  1584575731 
+    _nef_nmr_meta_data.program_version       5.20.4-exp 
+    _nef_nmr_meta_data.creation_date         2020-06-29_13:02:10 
+    _nef_nmr_meta_data.uuid                  1593428530 
     _nef_nmr_meta_data.coordinate_file_name  . 
 save_ 
 
@@ -253,8 +253,8 @@ save_nef_chemical_shift_list_bmr15449.str
          A         16        ILE       CA        65.173    0.000     
          A         16        ILE       CB        38.299    0.000     
          A         16        ILE       CD1       14.360    0.000     
-         A         16        ILE       CGx       29.785    0.000     
-         A         16        ILE       CGy       16.988    0.000     
+         A         16        ILE       CG1       29.785    0.000     
+         A         16        ILE       CG2       16.988    0.000     
          A         16        ILE       N         123.058   0.000     
          A         17        LEU       H         7.699     0.000     
          A         17        LEU       HA        4.307     0.000     
@@ -283,8 +283,8 @@ save_nef_chemical_shift_list_bmr15449.str
          A         19        ILE       CA        61.429    0.000     
          A         19        ILE       CB        38.929    0.000     
          A         19        ILE       CD1       14.209    0.000     
-         A         19        ILE       CGx       27.176    0.000     
-         A         19        ILE       CGy       17.636    0.000     
+         A         19        ILE       CG1       27.176    0.000     
+         A         19        ILE       CG2       17.636    0.000     
          A         19        ILE       N         121.417   0.000     
          A         20        ARG       H         8.546     0.000     
          A         20        ARG       HA        4.187     0.000     
@@ -338,8 +338,8 @@ save_nef_chemical_shift_list_bmr15449.str
          A         25        ILE       CA        59.080    0.000     
          A         25        ILE       CB        37.948    0.000     
          A         25        ILE       CD1       11.769    0.000     
-         A         25        ILE       CGx       28.097    0.000     
-         A         25        ILE       CGy       18.374    0.000     
+         A         25        ILE       CG1       28.097    0.000     
+         A         25        ILE       CG2       18.374    0.000     
          A         25        ILE       N         120.777   0.000     
          A         26        ASN       H         8.447     0.000     
          A         26        ASN       HA        4.607     0.000     
@@ -545,8 +545,8 @@ save_nef_chemical_shift_list_bmr15449.str
          A         47        ILE       CA        65.778    0.000     
          A         47        ILE       CB        38.423    0.000     
          A         47        ILE       CD1       14.342    0.000     
-         A         47        ILE       CGx       29.198    0.000     
-         A         47        ILE       CGy       17.341    0.000     
+         A         47        ILE       CG1       29.198    0.000     
+         A         47        ILE       CG2       17.341    0.000     
          A         47        ILE       N         120.727   0.000     
          A         48        LEU       H         8.128     0.000     
          A         48        LEU       HA        3.967     0.000     
@@ -661,8 +661,8 @@ save_nef_chemical_shift_list_bmr15449.str
          A         58        ILE       CA        63.155    0.000     
          A         58        ILE       CB        37.083    0.000     
          A         58        ILE       CD1       12.302    0.000     
-         A         58        ILE       CGx       28.537    0.000     
-         A         58        ILE       CGy       17.853    0.000     
+         A         58        ILE       CG1       28.537    0.000     
+         A         58        ILE       CG2       17.853    0.000     
          A         58        ILE       N         123.966   0.000     
          A         59        ARG       H         8.580     0.000     
          A         59        ARG       HA        3.961     0.000     

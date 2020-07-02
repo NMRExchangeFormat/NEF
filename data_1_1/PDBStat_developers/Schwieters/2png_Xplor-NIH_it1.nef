@@ -1,0 +1,2071 @@
+data_nef_test1
+
+save_nef_nmr_meta_data
+    _nef_nmr_meta_data.sf_category     nef_nmr_meta_data
+    _nef_nmr_meta_data.sf_framecode    nef_nmr_meta_data
+    _nef_nmr_meta_data.format_name     nmr_exchange_format
+    _nef_nmr_meta_data.format_version  1.1
+    _nef_nmr_meta_data.program_name    Xplor-NIH
+    _nef_nmr_meta_data.program_version 3-rc1
+    _nef_nmr_meta_data.creation_date   2020-02-28_09:57:16
+    _nef_nmr_meta_data.uuid            Xplor-NIH_2020-02-28_09:57:16_741B7E7A
+save_
+
+save_nef_molecular_system
+_nef_molecular_system.sf_category  nef_molecular_system
+_nef_molecular_system.sf_framecode  nef_molecular_system
+loop_
+_nef_sequence.index
+_nef_sequence.chain_code
+_nef_sequence.sequence_code
+_nef_sequence.residue_name
+_nef_sequence.residue_variant
+_nef_sequence.linking
+_nef_sequence.cis_peptide
+ 1 A  1 GLY .  start . 
+ 2 A  2 ASP . middle . 
+ 3 A  3 GLY . middle . 
+ 4 A  4 GLU . middle . 
+ 5 A  5 ALA . middle . 
+ 6 A  6 GLN . middle . 
+ 7 A  7 ARG . middle . 
+ 8 A  8 ASP . middle . 
+ 9 A  9 LEU . middle . 
+10 A 10 VAL . middle . 
+11 A 11 LYS . middle . 
+12 A 12 ALA . middle . 
+13 A 13 VAL . middle . 
+14 A 14 ALA . middle . 
+15 A 15 HIS . middle . 
+16 A 16 ILE . middle . 
+17 A 17 LEU . middle . 
+18 A 18 GLY . middle . 
+19 A 19 ILE . middle . 
+20 A 20 ARG . middle . 
+21 A 21 ASP . middle . 
+22 A 22 LEU . middle . 
+23 A 23 ALA . middle . 
+24 A 24 GLY . middle . 
+25 A 25 ILE . middle . 
+26 A 26 ASN . middle . 
+27 A 27 LEU . middle . 
+28 A 28 ASP . middle . 
+29 A 29 SER . middle . 
+30 A 30 SER . middle . 
+31 A 31 LEU . middle . 
+32 A 32 ALA . middle . 
+33 A 33 ASP . middle . 
+34 A 34 LEU . middle . 
+35 A 35 GLY . middle . 
+36 A 36 LEU . middle . 
+37 A 37 ASP . middle . 
+38 A 38 SER . middle . 
+39 A 39 LEU . middle . 
+40 A 40 MET . middle . 
+41 A 41 GLY . middle . 
+42 A 42 VAL . middle . 
+43 A 43 GLU . middle . 
+44 A 44 VAL . middle . 
+45 A 45 ARG . middle . 
+46 A 46 GLN . middle . 
+47 A 47 ILE . middle . 
+48 A 48 LEU . middle . 
+49 A 49 GLU . middle . 
+50 A 50 ARG . middle . 
+51 A 51 GLU . middle . 
+52 A 52 HIS . middle . 
+53 A 53 ASP . middle . 
+54 A 54 LEU . middle . 
+55 A 55 VAL . middle . 
+56 A 56 LEU . middle . 
+57 A 57 PRO . middle . 
+58 A 58 ILE . middle . 
+59 A 59 ARG . middle . 
+60 A 60 GLU . middle . 
+61 A 61 VAL . middle . 
+62 A 62 ARG . middle . 
+63 A 63 GLN . middle . 
+64 A 64 LEU . middle . 
+65 A 65 THR . middle . 
+66 A 66 LEU . middle . 
+67 A 67 ARG . middle . 
+68 A 68 LYS . middle . 
+69 A 69 LEU . middle . 
+70 A 70 GLN . middle . 
+71 A 71 GLU . middle . 
+72 A 72 MET . middle . 
+73 A 73 SER . middle . 
+74 A 74 SER . middle . 
+75 A 75 LYS . middle . 
+76 A 76 ALA . middle . 
+77 A 77 GLY . middle . 
+78 A 78 SER . middle . 
+79 A 79 ASP . middle . 
+80 A 80 THR . middle . 
+81 A 81 GLU . middle . 
+82 A 82 LEU . middle . 
+83 A 83 ALA . middle . 
+84 A 84 ALA . middle . 
+85 A 85 PRO . middle . 
+86 A 86 LYS . middle . 
+87 A 87 SER . middle . 
+88 A 88 LYS . middle . 
+89 A 89 ASN .    end . 
+stop_
+save_
+save_nef_distance_restraint_list_1
+_nef_distance_restraint_list.sf_category  nef_distance_restraint_list
+_nef_distance_restraint_list.sf_framecode  nef_distance_restraint_list_1
+loop_
+_nef_distance_restraint.index
+_nef_distance_restraint.restraint_id
+_nef_distance_restraint.chain_code_1
+_nef_distance_restraint.sequence_code_1
+_nef_distance_restraint.residue_name_1
+_nef_distance_restraint.atom_name_1
+_nef_distance_restraint.chain_code_2
+_nef_distance_restraint.sequence_code_2
+_nef_distance_restraint.residue_name_2
+_nef_distance_restraint.atom_name_2
+_nef_distance_restraint.target_value
+_nef_distance_restraint.lower_limit
+_nef_distance_restraint.upper_limit
+_nef_distance_restraint.weight
+   1    1 A 55 VAL HG2% A 54 LEU    H 2.7                0.0                6.0 1.0 
+   2    1 A 55 VAL HG2% A 53 ASP    H 2.7                0.0                6.0 1.0 
+   3    2 A 59 ARG  HD% A 59 ARG  HG% 2.4                1.7 3.0999999999999996 1.0 
+   4    2 A 50 ARG  HD% A 50 ARG  HG% 2.4                1.7 3.0999999999999996 1.0 
+   5    2 A 20 ARG  HD% A 20 ARG  HG% 2.4                1.7 3.0999999999999996 1.0 
+   6    3 A 30 SER  HB% A 31 LEU   HA 4.2 1.9000000000000004                6.0 1.0 
+   7    3 A 30 SER  HB% A 29 SER  HB% 4.2 1.9000000000000004                6.0 1.0 
+   8    4 A 32 ALA  HB% A 36 LEU HD2% 3.5                1.9                5.1 1.0 
+   9    4 A 23 ALA  HB% A 25 ILE HD1% 3.5                1.9                5.1 1.0 
+  10    4 A 23 ALA  HB% A 22 LEU HD2% 3.5                1.9                5.1 1.0 
+  11    5 A 17 LEU HD1% A 66 LEU  HB% 4.0                2.0                6.0 1.0 
+  12    5 A 17 LEU HD1% A 66 LEU  HB% 4.0                2.0                6.0 1.0 
+  13    5 A 17 LEU HD1% A 25 ILE HG1% 4.0                2.0                6.0 1.0 
+  14    5 A 17 LEU HD1% A 25 ILE HG1% 4.0                2.0                6.0 1.0 
+  15    6 A 17 LEU HD1% A 14 ALA   HA 4.0                2.0                6.0 1.0 
+  16    6 A 17 LEU HD1% A 14 ALA   HA 4.0                2.0                6.0 1.0 
+  17    6 A 69 LEU HD1% A 70 GLN   HA 4.0                2.0                6.0 1.0 
+  18    6 A 69 LEU HD1% A 70 GLN   HA 4.0                2.0                6.0 1.0 
+  19    6 A 17 LEU HD1% A 19 ILE   HA 4.0                2.0                6.0 1.0 
+  20    6 A 17 LEU HD1% A 19 ILE   HA 4.0                2.0                6.0 1.0 
+  21    7 A 72 MET  HB% A 64 LEU HD2% 4.0                2.0                6.0 1.0 
+  22    7 A 72 MET  HB% A 69 LEU HD1% 4.0                2.0                6.0 1.0 
+  23    7 A 40 MET  HB% A 17 LEU HD1% 4.0                2.0                6.0 1.0 
+  24    7 A 40 MET  HB% A 13 VAL HG1% 4.0                2.0                6.0 1.0 
+  25    7 A 40 MET  HB% A 17 LEU HD2% 4.0                2.0                6.0 1.0 
+  26    8 A 47 ILE HG2% A  7 ARG    H 3.1                0.0                6.0 1.0 
+  27    8 A 47 ILE HG2% A 45 ARG    H 3.1                0.0                6.0 1.0 
+  28    8 A 16 ILE HG2% A 44 VAL    H 3.1                0.0                6.0 1.0 
+  29    8 A 16 ILE HG2% A 45 ARG    H 3.1                0.0                6.0 1.0 
+  30    9 A 16 ILE HG2% A 43 GLU    H 3.9                2.0                5.8 1.0 
+  31    9 A 16 ILE HG2% A 42 VAL    H 3.9                2.0                5.8 1.0 
+  32    9 A 47 ILE HG2% A 50 ARG   HE 3.9                2.0                5.8 1.0 
+  33   10 A 19 ILE HG2% A 19 ILE HG1% 2.9 1.7999999999999998                4.0 1.0 
+  34   10 A 19 ILE HG2% A 14 ALA  HB% 2.9 1.7999999999999998                4.0 1.0 
+  35   11 A 41 GLY  HA% A 61 VAL HG1% 4.1 1.9999999999999996                6.0 1.0 
+  36   11 A 41 GLY  HA% A 58 ILE HD1% 4.1 1.9999999999999996                6.0 1.0 
+  37   11 A 41 GLY  HA% A 64 LEU HD1% 4.1 1.9999999999999996                6.0 1.0 
+  38   12 A 41 GLY  HA% A 61 VAL HG1% 3.4                2.0                4.8 1.0 
+  39   12 A 41 GLY  HA% A 58 ILE HD1% 3.4                2.0                4.8 1.0 
+  40   12 A 41 GLY  HA% A 64 LEU HD1% 3.4                2.0                4.8 1.0 
+  41   13 A 62 ARG  HD% A 62 ARG  HB% 2.9 1.7999999999999998                4.0 1.0 
+  42   13 A 50 ARG  HD% A 50 ARG  HB% 2.9 1.7999999999999998                4.0 1.0 
+  43   13 A  7 ARG  HD% A  7 ARG  HB% 2.9 1.7999999999999998                4.0 1.0 
+  44   13 A 45 ARG  HD% A 45 ARG  HB% 2.9 1.7999999999999998                4.0 1.0 
+  45   14 A 47 ILE HD1% A 44 VAL    H 2.5                0.0                6.0 1.0 
+  46   14 A 47 ILE HD1% A 45 ARG    H 2.5                0.0                6.0 1.0 
+  47   15 A 47 ILE HD1% A 46 GLN  HB% 2.2                0.0                6.0 1.0 
+  48   15 A 16 ILE HD1% A 43 GLU  HB% 2.2                0.0                6.0 1.0 
+  49   15 A 47 ILE HD1% A 43 GLU  HB% 2.2                0.0                6.0 1.0 
+  50   16 A 66 LEU   HA A 66 LEU  HB% 2.9 1.7999999999999998                4.0 1.0 
+  51   16 A 25 ILE   HA A 25 ILE HG1% 2.9 1.7999999999999998                4.0 1.0 
+  52   16 A 25 ILE   HA A 25 ILE HG1% 2.9 1.7999999999999998                4.0 1.0 
+  53   17 A 72 MET  HB% A  9 LEU HD2% 3.4                2.0                4.8 1.0 
+  54   17 A 72 MET  HB% A 48 LEU HD1% 3.4                2.0                4.8 1.0 
+  55   18 A 71 GLU   HA A 74 SER    H 3.6                2.0                5.2 1.0 
+  56   18 A 71 GLU   HA A 69 LEU    H 3.6                2.0                5.2 1.0 
+  57   19 A 66 LEU  HB% A 19 ILE HD1% 3.8 1.9999999999999998                5.6 1.0 
+  58   19 A 66 LEU  HB% A 69 LEU HD2% 3.8 1.9999999999999998                5.6 1.0 
+  59   19 A 66 LEU  HB% A 27 LEU HD2% 3.8 1.9999999999999998                5.6 1.0 
+  60   20 A 66 LEU  HB% A 19 ILE HD1% 3.7                2.0                5.4 1.0 
+  61   20 A 66 LEU  HB% A 69 LEU HD2% 3.7                2.0                5.4 1.0 
+  62   20 A 66 LEU  HB% A 27 LEU HD2% 3.7                2.0                5.4 1.0 
+  63   21 A 71 GLU   HA A 71 GLU    H 2.7 1.8000000000000003                3.6 1.0 
+  64   21 A 68 LYS   HA A 71 GLU    H 2.7 1.8000000000000003                3.6 1.0 
+  65   21 A 71 GLU   HA A 72 MET    H 2.7 1.8000000000000003                3.6 1.0 
+  66   22 A 66 LEU   HA A 65 THR    H 4.7                2.0                6.0 1.0 
+  67   22 A 68 LYS   HA A 65 THR    H 4.7                2.0                6.0 1.0 
+  68   23 A 17 LEU   HA A 17 LEU    H 3.4                1.9                4.9 1.0 
+  69   23 A 17 LEU   HA A 18 GLY    H 3.4                1.9                4.9 1.0 
+  70   24 A 52 HIS  HB% A 48 LEU   HA 3.9                2.0                5.8 1.0 
+  71   24 A 52 HIS  HB% A 74 SER  HB% 3.9                2.0                5.8 1.0 
+  72   25 A 52 HIS  HB% A 48 LEU   HA 3.3                1.9  4.699999999999999 1.0 
+  73   25 A 52 HIS  HB% A 74 SER  HB% 3.3                1.9  4.699999999999999 1.0 
+  74   26 A 33 ASP   HA A 34 LEU HD2% 4.6 1.9999999999999996                6.0 1.0 
+  75   26 A 51 GLU   HA A 47 ILE HG2% 4.6 1.9999999999999996                6.0 1.0 
+  76   26 A 51 GLU   HA A 54 LEU HD1% 4.6 1.9999999999999996                6.0 1.0 
+  77   27 A 61 VAL HG1% A 31 LEU  HB% 3.5                2.0                5.0 1.0 
+  78   27 A 10 VAL HG1% A 66 LEU  HB% 3.5                2.0                5.0 1.0 
+  79   27 A 10 VAL HG1% A 25 ILE HG1% 3.5                2.0                5.0 1.0 
+  80   28 A 10 VAL HG2% A 66 LEU  HB% 4.2                2.0                6.0 1.0 
+  81   28 A 13 VAL HG2% A 66 LEU  HB% 4.2                2.0                6.0 1.0 
+  82   28 A 13 VAL HG2% A 31 LEU  HB% 4.2                2.0                6.0 1.0 
+  83   28 A 10 VAL HG2% A 27 LEU  HB% 4.2                2.0                6.0 1.0 
+  84   29 A 10 VAL HG2% A 69 LEU  HB% 2.7 1.8000000000000003                3.6 1.0 
+  85   29 A 13 VAL HG2% A 69 LEU  HB% 2.7 1.8000000000000003                3.6 1.0 
+  86   30 A 22 LEU   HA A 19 ILE HD1% 5.0 1.7999999999999998                6.0 1.0 
+  87   30 A 22 LEU   HA A 27 LEU HD2% 5.0 1.7999999999999998                6.0 1.0 
+  88   31 A 27 LEU HD2% A 67 ARG   HA 4.2                2.0                6.0 1.0 
+  89   31 A 31 LEU HD2% A 41 GLY  HA% 4.2                2.0                6.0 1.0 
+  90   32 A 27 LEU HD1% A 70 GLN HE2% 4.5                2.0                6.0 1.0 
+  91   32 A 66 LEU HD1% A 70 GLN HE2% 4.5                2.0                6.0 1.0 
+  92   33 A 36 LEU HD1% A 42 VAL    H 5.0                1.9                6.0 1.0 
+  93   33 A 36 LEU HD1% A 43 GLU    H 5.0                1.9                6.0 1.0 
+  94   34 A 34 LEU HD2% A 32 ALA   HA 3.0                0.0                6.0 1.0 
+  95   34 A 34 LEU HD2% A 27 LEU   HA 3.0                0.0                6.0 1.0 
+  96   34 A 34 LEU HD2% A 66 LEU   HA 3.0                0.0                6.0 1.0 
+  97   35 A 39 LEU   HA A 41 GLY    H 4.3                2.0                6.0 1.0 
+  98   35 A 39 LEU   HA A 38 SER    H 4.3                2.0                6.0 1.0 
+  99   36 A 48 LEU   HA A 54 LEU    H 4.0                2.0                6.0 1.0 
+ 100   36 A 48 LEU   HA A 53 ASP    H 4.0                2.0                6.0 1.0 
+ 101   37 A 48 LEU HD1% A 54 LEU    H 4.8                1.9                6.0 1.0 
+ 102   37 A 48 LEU HD1% A 53 ASP    H 4.8                1.9                6.0 1.0 
+ 103   38 A 58 ILE HG2% A 32 ALA   HA 3.7                2.0                5.4 1.0 
+ 104   38 A 47 ILE HG2% A 50 ARG   HA 3.7                2.0                5.4 1.0 
+ 105   39 A 62 ARG  HB% A 36 LEU HD2% 4.6 1.8999999999999995                6.0 1.0 
+ 106   39 A 20 ARG  HB% A 22 LEU HD2% 4.6 1.8999999999999995                6.0 1.0 
+ 107   40 A 64 LEU HD2% A 72 MET  HB% 3.2                2.0                4.4 1.0 
+ 108   40 A 64 LEU HD2% A 72 MET  HB% 3.2                2.0                4.4 1.0 
+ 109   40 A 64 LEU HD2% A 63 GLN  HB% 3.2                2.0                4.4 1.0 
+ 110   40 A 64 LEU HD2% A 63 GLN  HB% 3.2                2.0                4.4 1.0 
+ 111   40 A 64 LEU HD1% A 72 MET  HB% 3.2                2.0                4.4 1.0 
+ 112   40 A 64 LEU HD1% A 72 MET  HB% 3.2                2.0                4.4 1.0 
+ 113   40 A 64 LEU HD1% A 63 GLN  HB% 3.2                2.0                4.4 1.0 
+ 114   40 A 64 LEU HD1% A 63 GLN  HB% 3.2                2.0                4.4 1.0 
+ 115   41 A 13 VAL HG1% A 16 ILE HG1% 4.1 1.9999999999999996                6.0 1.0 
+ 116   41 A 61 VAL HG1% A 62 ARG  HG% 4.1 1.9999999999999996                6.0 1.0 
+ 117   41 A 61 VAL HG1% A 62 ARG  HB% 4.1 1.9999999999999996                6.0 1.0 
+ 118   42 A 44 VAL   HA A 47 ILE HD1% 2.6                1.8 3.4000000000000004 1.0 
+ 119   42 A 44 VAL   HA A 61 VAL HG1% 2.6                1.8 3.4000000000000004 1.0 
+ 120   43 A 13 VAL HG2% A 17 LEU    H 5.0                1.9                6.0 1.0 
+ 121   43 A 13 VAL HG2% A 73 SER    H 5.0                1.9                6.0 1.0 
+ 122   43 A 13 VAL HG2% A 18 GLY    H 5.0                1.9                6.0 1.0 
+ 123   44 A 19 ILE HG2% A 66 LEU   HG 5.1 1.7999999999999998                6.0 1.0 
+ 124   44 A 19 ILE HG2% A 20 ARG  HB% 5.1 1.7999999999999998                6.0 1.0 
+ 125   45 A 22 LEU HD2% A 11 LYS  HE% 3.2                0.0                6.0 1.0 
+ 126   46 A 22 LEU HD2% A 19 ILE   HA 3.7 1.9000000000000001                5.5 1.0 
+ 127   46 A 22 LEU HD2% A 24 GLY  HA% 3.7 1.9000000000000001                5.5 1.0 
+ 128   47 A 22 LEU HD2% A 14 ALA    H 4.8                1.9                6.0 1.0 
+ 129   47 A 22 LEU HD2% A 66 LEU    H 4.8                1.9                6.0 1.0 
+ 130   48 A 44 VAL HG1% A 45 ARG   HE 5.9                1.5                6.0 1.0 
+ 131   48 A 44 VAL HG1% A 43 GLU    H 5.9                1.5                6.0 1.0 
+ 132   48 A 44 VAL HG1% A 42 VAL    H 5.9                1.5                6.0 1.0 
+ 133   48 A 44 VAL HG1% A 64 LEU    H 5.9                1.5                6.0 1.0 
+ 134   49 A 47 ILE HG2% A 43 GLU  HG% 4.9 1.8000000000000003                6.0 1.0 
+ 135   49 A 16 ILE HG2% A 43 GLU  HG% 4.9 1.8000000000000003                6.0 1.0 
+ 136   50 A 16 ILE HG2% A 39 LEU   HA 5.1 1.7999999999999998                6.0 1.0 
+ 137   50 A 16 ILE HG2% A 36 LEU   HA 5.1 1.7999999999999998                6.0 1.0 
+ 138   51 A 14 ALA  HB% A 17 LEU  HB% 5.2 1.8000000000000003                6.0 1.0 
+ 139   51 A 14 ALA  HB% A 16 ILE HG1% 5.2 1.8000000000000003                6.0 1.0 
+ 140   52 A  9 LEU   HG A 10 VAL   HA 4.1 1.9999999999999996                6.0 1.0 
+ 141   52 A 19 ILE HG1% A 10 VAL   HA 4.1 1.9999999999999996                6.0 1.0 
+ 142   53 A 59 ARG  HG% A 58 ILE    H 5.0 1.7999999999999998                6.0 1.0 
+ 143   53 A 19 ILE HG1% A 67 ARG    H 5.0 1.7999999999999998                6.0 1.0 
+ 144   54 A 20 ARG  HG% A 67 ARG  HD% 3.7                0.0                6.0 1.0 
+ 145   54 A 20 ARG  HG% A 10 VAL   HA 3.7                0.0                6.0 1.0 
+ 146   54 A  7 ARG  HG% A 10 VAL   HA 3.7                0.0                6.0 1.0 
+ 147   55 A 59 ARG  HG% A 60 GLU  HG% 4.2                2.0                6.0 1.0 
+ 148   55 A  9 LEU   HG A 70 GLN  HB% 4.2                2.0                6.0 1.0 
+ 149   55 A 56 LEU   HG A 60 GLU  HG% 4.2                2.0                6.0 1.0 
+ 150   56 A 50 ARG  HG% A 49 GLU    H 4.2                2.0                6.0 1.0 
+ 151   56 A 59 ARG  HG% A 61 VAL    H 4.2                2.0                6.0 1.0 
+ 152   56 A  7 ARG  HG% A 10 VAL    H 4.2                2.0                6.0 1.0 
+ 153   57 A  9 LEU   HG A 10 VAL    H 4.1 1.9999999999999996                6.0 1.0 
+ 154   57 A  9 LEU   HG A 74 SER    H 4.1 1.9999999999999996                6.0 1.0 
+ 155   57 A 59 ARG  HG% A 61 VAL    H 4.1 1.9999999999999996                6.0 1.0 
+ 156   57 A  9 LEU   HG A 69 LEU    H 4.1 1.9999999999999996                6.0 1.0 
+ 157   58 A 66 LEU HD2% A 10 VAL   HB 4.5                2.0                6.0 1.0 
+ 158   58 A 36 LEU HD1% A 43 GLU  HB% 4.5                2.0                6.0 1.0 
+ 159   59 A 36 LEU HD1% A 64 LEU  HB% 4.8                1.9                6.0 1.0 
+ 160   59 A 66 LEU HD2% A 64 LEU  HB% 4.8                1.9                6.0 1.0 
+ 161   60 A 47 ILE HG2% A 74 SER  HB% 3.7                0.0                6.0 1.0 
+ 162   60 A 58 ILE HG2% A 31 LEU   HA 3.7                0.0                6.0 1.0 
+ 163   61 A 34 LEU   HG A 29 SER  HB% 4.6 1.9999999999999996                6.0 1.0 
+ 164   61 A 36 LEU   HG A 41 GLY  HA% 4.6 1.9999999999999996                6.0 1.0 
+ 165   62 A 36 LEU   HG A 32 ALA   HA 4.7 1.9000000000000004                6.0 1.0 
+ 166   62 A 36 LEU   HG A 40 MET   HA 4.7 1.9000000000000004                6.0 1.0 
+ 167   63 A 47 ILE HG2% A  7 ARG    H 3.5                0.0                6.0 1.0 
+ 168   63 A 47 ILE HG2% A 45 ARG    H 3.5                0.0                6.0 1.0 
+ 169   63 A 47 ILE HG2% A 44 VAL    H 3.5                0.0                6.0 1.0 
+ 170   64 A 12 ALA  HB% A  6 GLN  HG% 4.0                2.0                6.0 1.0 
+ 171   64 A 12 ALA  HB% A  6 GLN  HG% 4.0                2.0                6.0 1.0 
+ 172   64 A 12 ALA  HB% A 70 GLN  HG% 4.0                2.0                6.0 1.0 
+ 173   65 A 31 LEU HD1% A 36 LEU  HB% 4.2                2.0                6.0 1.0 
+ 174   65 A 31 LEU HD1% A 62 ARG  HG% 4.2                2.0                6.0 1.0 
+ 175   66 A 58 ILE HD1% A 45 ARG   HE 3.0                1.9                4.1 1.0 
+ 176   66 A 58 ILE HD1% A 63 GLN HE2% 3.0                1.9                4.1 1.0 
+ 177   66 A 25 ILE HD1% A 29 SER    H 3.0                1.9                4.1 1.0 
+ 178   66 A 58 ILE HD1% A 64 LEU    H 3.0                1.9                4.1 1.0 
+ 179   67 A 58 ILE HD1% A 42 VAL HG2% 2.3                0.0                6.0 1.0 
+ 180   67 A 58 ILE HD1% A 64 LEU  HB% 2.3                0.0                6.0 1.0 
+ 181   68 A 57 PRO  HB% A 61 VAL HG2% 5.3 1.7999999999999998                6.0 1.0 
+ 182   68 A 57 PRO  HB% A 58 ILE HG2% 5.3 1.7999999999999998                6.0 1.0 
+ 183   68 A 57 PRO  HB% A 56 LEU HD2% 5.3 1.7999999999999998                6.0 1.0 
+ 184   69 A  9 LEU HD2% A  9 LEU    H 3.6                2.0                5.2 1.0 
+ 185   69 A 22 LEU HD1% A 26 ASN    H 3.6                2.0                5.2 1.0 
+ 186   70 A  9 LEU HD2% A 72 MET    H 4.3                1.9                6.0 1.0 
+ 187   70 A  9 LEU HD2% A 71 GLU    H 4.3                1.9                6.0 1.0 
+ 188   71 A 48 LEU HD1% A 49 GLU    H 4.4 2.0000000000000004                6.0 1.0 
+ 189   71 A  9 LEU HD2% A 10 VAL    H 4.4 2.0000000000000004                6.0 1.0 
+ 190   71 A 48 LEU HD1% A 47 ILE    H 4.4 2.0000000000000004                6.0 1.0 
+ 191   71 A  9 LEU HD2% A 69 LEU    H 4.4 2.0000000000000004                6.0 1.0 
+ 192   71 A  9 LEU HD2% A 47 ILE    H 4.4 2.0000000000000004                6.0 1.0 
+ 193   72 A 48 LEU HD1% A  6 GLN HE2% 3.5                2.0                5.0 1.0 
+ 194   72 A  9 LEU HD2% A  6 GLN HE2% 3.5                2.0                5.0 1.0 
+ 195   73 A  9 LEU HD1% A 69 LEU  HB% 3.2 1.9000000000000001                4.5 1.0 
+ 196   73 A  9 LEU HD1% A 48 LEU  HB% 3.2 1.9000000000000001                4.5 1.0 
+ 197   73 A  9 LEU HD1% A 72 MET  HB% 3.2 1.9000000000000001                4.5 1.0 
+ 198   74 A  9 LEU HD1% A 47 ILE   HB 3.3                1.9  4.699999999999999 1.0 
+ 199   74 A  9 LEU HD1% A 72 MET  HB% 3.3                1.9  4.699999999999999 1.0 
+ 200   75 A  9 LEU HD1% A 48 LEU   HG 3.4                1.9                4.9 1.0 
+ 201   75 A  9 LEU HD1% A 47 ILE HG1% 3.4                1.9                4.9 1.0 
+ 202   75 A  9 LEU HD1% A 75 LYS  HB% 3.4                1.9                4.9 1.0 
+ 203   76 A  9 LEU HD1% A 70 GLN  HB% 5.1 1.7999999999999998                6.0 1.0 
+ 204   77 A 48 LEU HD1% A 51 GLU  HG% 4.5                2.0                6.0 1.0 
+ 205   77 A  9 LEU HD2% A 70 GLN  HB% 4.5                2.0                6.0 1.0 
+ 206   77 A  9 LEU HD2% A 51 GLU  HG% 4.5                2.0                6.0 1.0 
+ 207   78 A  9 LEU HD1% A 12 ALA    H 5.1 1.7999999999999998                6.0 1.0 
+ 208   78 A  9 LEU HD1% A 48 LEU    H 5.1 1.7999999999999998                6.0 1.0 
+ 209   78 A  9 LEU HD1% A 75 LYS    H 5.1 1.7999999999999998                6.0 1.0 
+ 210   79 A  9 LEU HD1% A 10 VAL    H 4.8                1.9                6.0 1.0 
+ 211   79 A  9 LEU HD1% A 74 SER    H 4.8                1.9                6.0 1.0 
+ 212   79 A  9 LEU HD1% A 69 LEU    H 4.8                1.9                6.0 1.0 
+ 213   80 A 19 ILE HG1% A 18 GLY    H 4.4 1.9000000000000004                6.0 1.0 
+ 214   80 A  9 LEU   HG A 73 SER    H 4.4 1.9000000000000004                6.0 1.0 
+ 215   81 A 73 SER  HB% A  9 LEU  HB% 3.4                0.0                6.0 1.0 
+ 216   81 A 73 SER  HB% A  7 ARG  HG% 3.4                0.0                6.0 1.0 
+ 217   82 A 73 SER  HB% A  9 LEU  HB% 3.4                1.9                4.9 1.0 
+ 218   82 A 73 SER  HB% A  7 ARG  HG% 3.4                1.9                4.9 1.0 
+ 219   83 A 73 SER  HB% A 69 LEU HD1% 3.8 1.9999999999999998                5.6 1.0 
+ 220   83 A 73 SER  HB% A 69 LEU HD2% 3.8 1.9999999999999998                5.6 1.0 
+ 221   83 A 73 SER  HB% A 54 LEU HD2% 3.8 1.9999999999999998                5.6 1.0 
+ 222   84 A 31 LEU    H A 64 LEU    H 4.0                2.0                6.0 1.0 
+ 223   84 A 59 ARG    H A 63 GLN HE2% 4.0                2.0                6.0 1.0 
+ 224   85 A 24 GLY    H A 23 ALA   HA 2.4                1.7 3.0999999999999996 1.0 
+ 225   85 A 24 GLY    H A 25 ILE   HA 2.4                1.7 3.0999999999999996 1.0 
+ 226   86 A 45 ARG    H A 47 ILE    H 4.4 2.0000000000000004                6.0 1.0 
+ 227   86 A 45 ARG    H A 49 GLU    H 4.4 2.0000000000000004                6.0 1.0 
+ 228   87 A 72 MET    H A 73 SER    H 2.7 1.8000000000000003                3.6 1.0 
+ 229   87 A 71 GLU    H A 73 SER    H 2.7 1.8000000000000003                3.6 1.0 
+ 230   88 A 32 ALA    H A 31 LEU HD2% 4.0                2.0                6.0 1.0 
+ 231   88 A 32 ALA    H A 34 LEU HD2% 4.0                2.0                6.0 1.0 
+ 232   89 A 32 ALA    H A 36 LEU HD2% 3.5                2.0                5.0 1.0 
+ 233   89 A 32 ALA    H A 34 LEU HD1% 3.5                2.0                5.0 1.0 
+ 234   90 A 37 ASP  HB% A 37 ASP   HA 3.0                1.8                4.2 1.0 
+ 235   91 A 37 ASP  HB% A 37 ASP   HA 2.6 1.7000000000000002                3.5 1.0 
+ 236   92 A 28 ASP  HB% A 28 ASP   HA 2.9                1.9                3.9 1.0 
+ 237   93 A 28 ASP  HB% A 28 ASP   HA 3.0                1.9                4.1 1.0 
+ 238   94 A 37 ASP  HB% A 36 LEU   HA 4.9 1.9000000000000004                6.0 1.0 
+ 239   95 A 37 ASP  HB% A 37 ASP    H 3.3                1.9  4.699999999999999 1.0 
+ 240   96 A 37 ASP  HB% A 38 SER    H 4.0                2.0                6.0 1.0 
+ 241   97 A 52 HIS  HB% A 54 LEU  HB% 5.1 1.7999999999999998                6.0 1.0 
+ 242   98 A 55 VAL   HB A 55 VAL    H 2.5                1.7                3.3 1.0 
+ 243   99 A 55 VAL HG1% A 55 VAL    H 4.0                2.0                6.0 1.0 
+ 244  100 A 55 VAL HG1% A 56 LEU    H 3.3                1.9  4.699999999999999 1.0 
+ 245  101 A 55 VAL HG2% A 56 LEU    H 2.4                0.0                6.0 1.0 
+ 246  102 A 55 VAL HG2% A 55 VAL    H 2.3 1.5999999999999999                3.0 1.0 
+ 247  103 A 55 VAL HG1% A 56 LEU   HA 3.9                2.0                5.8 1.0 
+ 248  104 A 55 VAL HG1% A 54 LEU   HA 5.2 1.9000000000000004                6.0 1.0 
+ 249  105 A 55 VAL HG1% A 55 VAL   HA 2.6                1.8 3.4000000000000004 1.0 
+ 250  106 A 55 VAL HG2% A 55 VAL   HA 2.4                1.7 3.0999999999999996 1.0 
+ 251  107 A 55 VAL HG2% A 57 PRO  HD% 2.3                0.0                6.0 1.0 
+ 252  108 A 55 VAL HG2% A 54 LEU   HA 3.7                2.0                5.4 1.0 
+ 253  108 A 55 VAL HG1% A 54 LEU   HA 3.7                2.0                5.4 1.0 
+ 254  109 A 61 VAL HG1% A 64 LEU    H 4.4 2.0000000000000004                6.0 1.0 
+ 255  110 A 55 VAL HG2% A 55 VAL   HB 2.1                1.5                2.7 1.0 
+ 256  111 A 55 VAL HG2% A 49 GLU  HG% 2.3 1.5999999999999999                3.0 1.0 
+ 257  112 A 55 VAL HG2% A 57 PRO  HG% 2.0                0.0                6.0 1.0 
+ 258  113 A 55 VAL HG1% A 49 GLU  HG% 4.0                2.0                6.0 1.0 
+ 259  114 A 55 VAL HG1% A 57 PRO  HG% 2.9                1.9                3.9 1.0 
+ 260  115 A 55 VAL HG1% A 55 VAL   HB 2.2                1.6 2.8000000000000003 1.0 
+ 261  116 A 55 VAL HG2% A 54 LEU  HB% 3.1                0.0                6.0 1.0 
+ 262  117 A  4 GLU   HA A  4 GLU  HB% 3.5                2.0                5.0 1.0 
+ 263  118 A  4 GLU   HA A  4 GLU  HB% 2.8 1.7999999999999998                3.8 1.0 
+ 264  119 A  4 GLU  HB% A  5 ALA    H 3.8 1.9999999999999998                5.6 1.0 
+ 265  120 A  4 GLU  HB% A  5 ALA    H 3.8 1.9999999999999998                5.6 1.0 
+ 266  121 A  4 GLU  HG% A  4 GLU   HA 3.1 1.9000000000000001                4.3 1.0 
+ 267  122 A  5 ALA   HA A  5 ALA    H 2.8 1.7999999999999998                3.8 1.0 
+ 268  123 A  5 ALA  HB% A  5 ALA    H 3.1 1.9000000000000001                4.3 1.0 
+ 269  124 A  5 ALA  HB% A  5 ALA   HA 2.4                1.7 3.0999999999999996 1.0 
+ 270  125 A 10 VAL   HA A 10 VAL   HB 3.0                1.9                4.1 1.0 
+ 271  126 A 10 VAL   HA A 13 VAL   HB 2.8 1.7999999999999998                3.8 1.0 
+ 272  127 A 50 ARG  HD% A 50 ARG  HB% 3.0                1.9                4.1 1.0 
+ 273  128 A 59 ARG  HD% A 59 ARG  HB% 3.1 1.9000000000000001                4.3 1.0 
+ 274  129 A 62 ARG  HD% A 62 ARG  HG% 2.4                1.7 3.0999999999999996 1.0 
+ 275  129 A 62 ARG  HD% A 62 ARG  HB% 2.4                1.7 3.0999999999999996 1.0 
+ 276  130 A 26 ASN  HB% A 26 ASN   HA 2.8 1.7999999999999998                3.8 1.0 
+ 277  131 A 26 ASN  HB% A 26 ASN   HA 3.0                1.9                4.1 1.0 
+ 278  132 A 26 ASN  HB% A 25 ILE   HA 4.9 1.9000000000000004                6.0 1.0 
+ 279  133 A 26 ASN  HB% A 25 ILE   HA 4.7 1.9000000000000004                6.0 1.0 
+ 280  134 A 26 ASN  HB% A 27 LEU    H 4.6 1.8999999999999995                6.0 1.0 
+ 281  135 A 26 ASN  HB% A 27 LEU    H 4.3                2.0                6.0 1.0 
+ 282  136 A 26 ASN  HB% A 26 ASN    H 2.8 1.7999999999999998                3.8 1.0 
+ 283  137 A 26 ASN  HB% A 26 ASN    H 2.6                1.8 3.4000000000000004 1.0 
+ 284  138 A 26 ASN  HB% A 28 ASP    H 4.2                2.0                6.0 1.0 
+ 285  139 A 26 ASN  HB% A 28 ASP    H 4.3                2.0                6.0 1.0 
+ 286  140 A 26 ASN  HB% A 26 ASN HD2% 4.2 1.9000000000000004                6.0 1.0 
+ 287  141 A 26 ASN  HB% A 26 ASN HD2% 3.9                2.0                5.8 1.0 
+ 288  142 A 26 ASN  HB% A 29 SER    H 4.0                2.0                6.0 1.0 
+ 289  143 A 26 ASN  HB% A 26 ASN HD2% 3.5                2.0                5.0 1.0 
+ 290  144 A 26 ASN  HB% A 26 ASN HD2% 3.1 1.9000000000000001                4.3 1.0 
+ 291  145 A 26 ASN  HB% A 29 SER    H 4.2                2.0                6.0 1.0 
+ 292  146 A 20 ARG   HA A 21 ASP   HA 4.1 1.9999999999999996                6.0 1.0 
+ 293  147 A 20 ARG  HB% A 20 ARG    H 3.6                2.0                5.2 1.0 
+ 294  148 A 20 ARG  HB% A 20 ARG   HA 3.0                1.9                4.1 1.0 
+ 295  149 A 20 ARG  HB% A 20 ARG   HA 2.6                1.8 3.4000000000000004 1.0 
+ 296  150 A 20 ARG  HB% A 20 ARG  HD% 2.9                1.9                3.9 1.0 
+ 297  151 A 20 ARG  HB% A 20 ARG  HG% 2.4                1.7 3.0999999999999996 1.0 
+ 298  152 A 20 ARG  HB% A 20 ARG    H 3.2                2.0                4.4 1.0 
+ 299  153 A 20 ARG   HA A 20 ARG  HG% 2.9 1.7999999999999998                4.0 1.0 
+ 300  154 A 20 ARG   HA A 20 ARG  HG% 2.9 1.7999999999999998                4.0 1.0 
+ 301  155 A 20 ARG   HA A 20 ARG    H 3.2 1.9000000000000001                4.5 1.0 
+ 302  156 A 20 ARG  HD% A 20 ARG   HA 3.8 1.9999999999999998                5.6 1.0 
+ 303  157 A 20 ARG  HD% A 20 ARG  HB% 3.2 1.9000000000000001                4.5 1.0 
+ 304  158 A 20 ARG  HG% A 20 ARG  HD% 2.3 1.5999999999999999                3.0 1.0 
+ 305  159 A 21 ASP  HB% A 21 ASP   HA 2.8 1.7999999999999998                3.8 1.0 
+ 306  160 A 21 ASP  HB% A 21 ASP   HA 2.7 1.8000000000000003                3.6 1.0 
+ 307  161 A 21 ASP  HB% A 21 ASP    H 3.4                2.0                4.8 1.0 
+ 308  162 A 21 ASP  HB% A 21 ASP    H 2.9 1.7999999999999998                4.0 1.0 
+ 309  163 A 21 ASP  HB% A 20 ARG    H 5.8 1.7000000000000002                6.0 1.0 
+ 310  164 A 21 ASP  HB% A 20 ARG    H 4.8                1.9                6.0 1.0 
+ 311  165 A 22 LEU   HA A 22 LEU HD1% 2.0                1.5                2.5 1.0 
+ 312  166 A 22 LEU   HA A 22 LEU HD2% 2.6 1.7000000000000002                3.5 1.0 
+ 313  167 A 22 LEU   HA A 22 LEU  HB% 2.2                1.6 2.8000000000000003 1.0 
+ 314  168 A 22 LEU   HG A 22 LEU HD1% 2.3 1.5999999999999999                3.0 1.0 
+ 315  169 A 22 LEU   HG A 22 LEU HD2% 2.3 1.5999999999999999                3.0 1.0 
+ 316  170 A 22 LEU   HG A 22 LEU   HA 3.3 1.9999999999999998                4.6 1.0 
+ 317  171 A 22 LEU   HG A 21 ASP   HA 4.5                1.9                6.0 1.0 
+ 318  172 A 22 LEU   HG A 20 ARG    H 4.1 1.9999999999999996                6.0 1.0 
+ 319  173 A 22 LEU   HA A 25 ILE    H 3.5                1.9                5.1 1.0 
+ 320  174 A 22 LEU   HA A 23 ALA    H 2.9                1.9                3.9 1.0 
+ 321  175 A 22 LEU   HA A 22 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+ 322  176 A 22 LEU   HA A 23 ALA  HB% 3.4                2.0                4.8 1.0 
+ 323  177 A 22 LEU HD1% A 24 GLY  HA% 4.8                2.0                6.0 1.0 
+ 324  178 A 22 LEU HD1% A 22 LEU    H 4.7 1.9000000000000004                6.0 1.0 
+ 325  179 A 22 LEU HD2% A 22 LEU    H 3.4                1.9                4.9 1.0 
+ 326  180 A 22 LEU HD1% A 22 LEU  HB% 2.6 1.7000000000000002                3.5 1.0 
+ 327  181 A 22 LEU HD2% A 22 LEU  HB% 2.6 1.7000000000000002                3.5 1.0 
+ 328  182 A 22 LEU HD2% A 23 ALA  HB% 5.3 1.6999999999999997                6.0 1.0 
+ 329  183 A 32 ALA  HB% A 32 ALA   HA 2.1                1.5                2.7 1.0 
+ 330  184 A 23 ALA   HA A 24 GLY    H 2.7 1.8000000000000003                3.6 1.0 
+ 331  185 A 23 ALA  HB% A 23 ALA    H 2.4                1.7 3.0999999999999996 1.0 
+ 332  186 A 28 ASP  HB% A 28 ASP    H 2.9                1.9                3.9 1.0 
+ 333  187 A 28 ASP  HB% A 28 ASP    H 2.9                1.9                3.9 1.0 
+ 334  188 A 28 ASP  HB% A 29 SER    H 4.2                2.0                6.0 1.0 
+ 335  189 A 28 ASP  HB% A 29 SER    H 4.4 2.0000000000000004                6.0 1.0 
+ 336  190 A 28 ASP   HA A 28 ASP    H 3.6                2.0                5.2 1.0 
+ 337  191 A 28 ASP   HA A 29 SER    H 4.0                2.0                6.0 1.0 
+ 338  192 A 29 SER  HB% A 34 LEU HD2% 3.2 1.9000000000000001                4.5 1.0 
+ 339  193 A 29 SER  HB% A 34 LEU HD1% 3.4                1.9                4.9 1.0 
+ 340  194 A 29 SER  HB% A 34 LEU   HG 3.5                1.9                5.1 1.0 
+ 341  195 A 29 SER  HB% A 34 LEU   HG 3.7                2.0                5.4 1.0 
+ 342  196 A 29 SER  HB% A 33 ASP  HB% 4.0                2.0                6.0 1.0 
+ 343  197 A 29 SER  HB% A 33 ASP  HB% 3.4                1.9                4.9 1.0 
+ 344  198 A 29 SER  HB% A 29 SER   HA 3.2 1.9000000000000001                4.5 1.0 
+ 345  199 A 29 SER  HB% A 29 SER   HA 2.9 1.7999999999999998                4.0 1.0 
+ 346  200 A 29 SER  HB% A 30 SER    H 3.4                2.0                4.8 1.0 
+ 347  201 A 29 SER  HB% A 30 SER    H 4.3                2.0                6.0 1.0 
+ 348  202 A 29 SER  HB% A 29 SER    H 2.9                1.9                3.9 1.0 
+ 349  203 A 29 SER  HB% A 29 SER    H 4.1 1.9999999999999996                6.0 1.0 
+ 350  204 A 30 SER  HB% A 30 SER   HA 3.0                1.8                4.2 1.0 
+ 351  205 A 30 SER  HB% A 30 SER   HA 3.0                1.9                4.1 1.0 
+ 352  206 A 30 SER  HB% A 30 SER    H 3.3                1.9  4.699999999999999 1.0 
+ 353  207 A 30 SER  HB% A 30 SER    H 2.9 1.7999999999999998                4.0 1.0 
+ 354  208 A 30 SER  HB% A 31 LEU    H 3.7                2.0                5.4 1.0 
+ 355  209 A 30 SER  HB% A 31 LEU    H 3.5                2.0                5.0 1.0 
+ 356  210 A 30 SER  HB% A 32 ALA    H 3.3 1.9999999999999998                4.6 1.0 
+ 357  211 A 30 SER  HB% A 32 ALA    H 4.2                2.0                6.0 1.0 
+ 358  212 A 30 SER  HB% A 33 ASP   HA 3.9                2.0                5.8 1.0 
+ 359  213 A 30 SER  HB% A 33 ASP   HA 4.5                1.9                6.0 1.0 
+ 360  214 A 30 SER  HB% A 31 LEU   HA 5.1 1.7999999999999998                6.0 1.0 
+ 361  215 A 31 LEU  HB% A 62 ARG   HA 2.9                1.9                3.9 1.0 
+ 362  216 A 31 LEU  HB% A 32 ALA    H 3.2 1.9000000000000001                4.5 1.0 
+ 363  217 A 31 LEU  HB% A 31 LEU    H 3.2 1.9000000000000001                4.5 1.0 
+ 364  218 A 31 LEU  HB% A 31 LEU    H 2.9                1.9                3.9 1.0 
+ 365  219 A 31 LEU  HB% A 32 ALA    H 3.8 1.9999999999999998                5.6 1.0 
+ 366  220 A 31 LEU  HB% A 36 LEU  HB% 4.2                2.0                6.0 1.0 
+ 367  221 A 31 LEU  HB% A 36 LEU  HB% 4.4 1.9000000000000004                6.0 1.0 
+ 368  222 A 31 LEU  HB% A 36 LEU HD2% 2.5                1.7                3.3 1.0 
+ 369  223 A 31 LEU  HB% A 31 LEU HD2% 2.8 1.7999999999999998                3.8 1.0 
+ 370  224 A 31 LEU  HB% A 36 LEU HD2% 3.3 1.9999999999999998                4.6 1.0 
+ 371  225 A 31 LEU   HA A 31 LEU    H 3.1 1.9000000000000001                4.3 1.0 
+ 372  226 A 31 LEU   HA A 31 LEU  HB% 2.8 1.7999999999999998                3.8 1.0 
+ 373  227 A 31 LEU   HA A 31 LEU  HB% 3.0                1.9                4.1 1.0 
+ 374  228 A 31 LEU   HA A 31 LEU HD2% 3.7                2.0                5.4 1.0 
+ 375  229 A 31 LEU   HA A 36 LEU HD2% 3.3                1.9  4.699999999999999 1.0 
+ 376  230 A 31 LEU   HA A 35 GLY    H 3.8 1.9999999999999998                5.6 1.0 
+ 377  231 A 31 LEU   HA A 34 LEU   HG 3.9                2.0                5.8 1.0 
+ 378  232 A 31 LEU   HA A 34 LEU  HB% 3.3 1.9999999999999998                4.6 1.0 
+ 379  233 A 31 LEU HD1% A 31 LEU   HA 2.4                1.7 3.0999999999999996 1.0 
+ 380  234 A 31 LEU HD1% A 31 LEU  HB% 2.6 1.7000000000000002                3.5 1.0 
+ 381  235 A 31 LEU HD1% A 31 LEU    H 3.4                1.9                4.9 1.0 
+ 382  236 A 31 LEU HD1% A 66 LEU    H 3.6                2.0                5.2 1.0 
+ 383  237 A 31 LEU HD1% A 30 SER   HA 4.6 1.8999999999999995                6.0 1.0 
+ 384  238 A 31 LEU HD1% A 31 LEU  HB% 2.6 1.7000000000000002                3.5 1.0 
+ 385  239 A 31 LEU HD1% A 62 ARG  HG% 3.7                0.0                6.0 1.0 
+ 386  240 A 31 LEU HD1% A 34 LEU  HB% 3.4                1.9                4.9 1.0 
+ 387  241 A 31 LEU HD1% A 64 LEU   HG 3.7                2.0                5.4 1.0 
+ 388  242 A 31 LEU HD1% A 31 LEU HD2% 2.2                1.6 2.8000000000000003 1.0 
+ 389  243 A 31 LEU HD2% A 31 LEU    H 4.2                2.0                6.0 1.0 
+ 390  244 A 31 LEU HD2% A 64 LEU   HG 3.3 1.9999999999999998                4.6 1.0 
+ 391  245 A 31 LEU HD2% A 31 LEU  HB% 2.6                1.8 3.4000000000000004 1.0 
+ 392  246 A 31 LEU   HG A 31 LEU    H 3.5                2.0                5.0 1.0 
+ 393  247 A 31 LEU   HG A 31 LEU   HA 3.8 1.9999999999999998                5.6 1.0 
+ 394  248 A 31 LEU   HG A 31 LEU HD1% 3.1 1.9000000000000001                4.3 1.0 
+ 395  249 A 32 ALA   HA A 36 LEU    H 2.9                1.9                3.9 1.0 
+ 396  250 A 32 ALA   HA A 32 ALA    H 2.8 1.7999999999999998                3.8 1.0 
+ 397  251 A 32 ALA   HA A 62 ARG  HG% 3.0                0.0                6.0 1.0 
+ 398  252 A 32 ALA  HB% A 62 ARG    H 4.4 2.0000000000000004                6.0 1.0 
+ 399  253 A 32 ALA  HB% A 36 LEU    H 4.4 2.0000000000000004                6.0 1.0 
+ 400  254 A 32 ALA  HB% A 35 GLY    H 4.0                2.0                6.0 1.0 
+ 401  255 A 32 ALA  HB% A 33 ASP    H 2.5                1.7                3.3 1.0 
+ 402  256 A 32 ALA  HB% A 32 ALA    H 2.1                1.5                2.7 1.0 
+ 403  257 A 32 ALA  HB% A 63 GLN    H 4.0                2.0                6.0 1.0 
+ 404  258 A 32 ALA  HB% A 31 LEU    H 4.4 2.0000000000000004                6.0 1.0 
+ 405  259 A 32 ALA  HB% A 30 SER  HB% 3.7                2.0                5.4 1.0 
+ 406  260 A 32 ALA  HB% A 62 ARG   HA 3.3                1.9  4.699999999999999 1.0 
+ 407  261 A 32 ALA  HB% A 33 ASP  HB% 4.2                2.0                6.0 1.0 
+ 408  262 A 32 ALA  HB% A 31 LEU  HB% 2.9                0.0                6.0 1.0 
+ 409  263 A 32 ALA  HB% A 62 ARG  HB% 3.2 1.9000000000000001                4.5 1.0 
+ 410  264 A 32 ALA   HA A 34 LEU HD1% 3.7                2.0                5.4 1.0 
+ 411  265 A 32 ALA  HB% A 30 SER  HB% 3.5                2.0                5.0 1.0 
+ 412  266 A 32 ALA   HA A 33 ASP    H 4.1 1.9999999999999996                6.0 1.0 
+ 413  267 A 32 ALA   HA A 35 GLY    H 3.4                1.9                4.9 1.0 
+ 414  268 A 34 LEU   HA A 34 LEU   HG 3.5                2.0                5.0 1.0 
+ 415  269 A 34 LEU   HA A 34 LEU  HB% 3.1 1.9000000000000001                4.3 1.0 
+ 416  270 A 34 LEU   HA A 35 GLY    H 3.3 1.9999999999999998                4.6 1.0 
+ 417  271 A 34 LEU  HB% A 31 LEU   HA 4.0                2.0                6.0 1.0 
+ 418  272 A 34 LEU  HB% A 34 LEU   HA 2.9 1.7999999999999998                4.0 1.0 
+ 419  273 A 34 LEU  HB% A 35 GLY    H 3.4                1.9                4.9 1.0 
+ 420  274 A 34 LEU  HB% A 35 GLY    H 2.8 1.7999999999999998                3.8 1.0 
+ 421  275 A 34 LEU  HB% A 34 LEU   HG 3.0                1.9                4.1 1.0 
+ 422  276 A 34 LEU   HG A 34 LEU HD1% 2.4                1.7 3.0999999999999996 1.0 
+ 423  277 A 17 LEU   HA A 17 LEU  HB% 2.9 1.7999999999999998                4.0 1.0 
+ 424  278 A 17 LEU   HA A 17 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+ 425  279 A 17 LEU  HB% A 17 LEU   HA 2.8 1.7999999999999998                3.8 1.0 
+ 426  280 A 17 LEU  HB% A 17 LEU    H 3.4                1.9                4.9 1.0 
+ 427  281 A 17 LEU  HB% A 17 LEU    H 2.5                1.7                3.3 1.0 
+ 428  282 A 17 LEU  HB% A 19 ILE    H 4.9 1.9000000000000004                6.0 1.0 
+ 429  283 A 17 LEU  HB% A 19 ILE    H 4.2                2.0                6.0 1.0 
+ 430  284 A 17 LEU  HB% A 17 LEU   HG 2.5                1.7                3.3 1.0 
+ 431  285 A 17 LEU  HB% A 17 LEU   HG 3.1 1.9000000000000001                4.3 1.0 
+ 432  286 A 17 LEU  HB% A 19 ILE HG1% 2.8 1.7999999999999998                3.8 1.0 
+ 433  287 A 17 LEU  HB% A 17 LEU HD2% 2.6 1.7000000000000002                3.5 1.0 
+ 434  287 A 17 LEU  HB% A 17 LEU HD1% 2.6 1.7000000000000002                3.5 1.0 
+ 435  288 A 17 LEU  HB% A 19 ILE HD1% 2.8 1.7999999999999998                3.8 1.0 
+ 436  289 A 17 LEU  HB% A 17 LEU HD2% 2.7 1.8000000000000003                3.6 1.0 
+ 437  289 A 17 LEU  HB% A 17 LEU HD1% 2.7 1.8000000000000003                3.6 1.0 
+ 438  290 A 17 LEU   HA A 17 LEU   HG 3.3                1.9  4.699999999999999 1.0 
+ 439  291 A 17 LEU   HG A 17 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+ 440  292 A 39 LEU   HG A 40 MET    H 3.8 1.9999999999999998                5.6 1.0 
+ 441  293 A 39 LEU   HG A 39 LEU    H 3.5                1.9                5.1 1.0 
+ 442  294 A 17 LEU HD1% A 36 LEU  HB% 3.8 1.9999999999999998                5.6 1.0 
+ 443  294 A 17 LEU HD2% A 36 LEU  HB% 3.8 1.9999999999999998                5.6 1.0 
+ 444  294 A 17 LEU HD2% A 36 LEU  HB% 3.8 1.9999999999999998                5.6 1.0 
+ 445  295 A 17 LEU HD2% A 17 LEU   HG 2.2                1.6 2.8000000000000003 1.0 
+ 446  295 A 17 LEU HD1% A 17 LEU   HG 2.2                1.6 2.8000000000000003 1.0 
+ 447  296 A 17 LEU HD1% A 19 ILE HG1% 3.3                1.9  4.699999999999999 1.0 
+ 448  297 A 17 LEU HD1% A 16 ILE   HA 3.6                2.0                5.2 1.0 
+ 449  297 A 17 LEU HD2% A 16 ILE   HA 3.6                2.0                5.2 1.0 
+ 450  298 A 17 LEU HD1% A 17 LEU   HA 2.4                1.7 3.0999999999999996 1.0 
+ 451  298 A 17 LEU HD2% A 17 LEU   HA 2.4                1.7 3.0999999999999996 1.0 
+ 452  299 A 17 LEU HD1% A 17 LEU    H 3.0                1.9                4.1 1.0 
+ 453  299 A 17 LEU HD2% A 17 LEU    H 3.0                1.9                4.1 1.0 
+ 454  300 A 17 LEU HD1% A 19 ILE HG2% 3.9                2.0                5.8 1.0 
+ 455  301 A 40 MET   HA A 40 MET  HB% 3.1 1.9000000000000001                4.3 1.0 
+ 456  302 A 40 MET   HA A 40 MET  HB% 2.7 1.8000000000000003                3.6 1.0 
+ 457  303 A 40 MET  HB% A 37 ASP    H 4.8                2.0                6.0 1.0 
+ 458  304 A 40 MET  HB% A 37 ASP    H 3.3 1.9999999999999998                4.6 1.0 
+ 459  305 A 40 MET  HB% A 38 SER    H 3.8 1.9999999999999998                5.6 1.0 
+ 460  306 A 40 MET  HB% A 38 SER    H 5.2 1.8000000000000003                6.0 1.0 
+ 461  307 A 40 MET  HB% A 40 MET    H 4.0                2.0                6.0 1.0 
+ 462  308 A 40 MET  HB% A 40 MET    H 2.8 1.7999999999999998                3.8 1.0 
+ 463  309 A 40 MET  HB% A 40 MET  HG% 4.0                2.0                6.0 1.0 
+ 464  310 A 40 MET  HB% A 40 MET  HG% 3.0                1.9                4.1 1.0 
+ 465  311 A 40 MET  HB% A 40 MET  HG% 3.6                2.0                5.2 1.0 
+ 466  312 A 40 MET  HB% A 40 MET  HG% 3.5                2.0                5.0 1.0 
+ 467  313 A 40 MET  HB% A 36 LEU HD1% 4.0                2.0                6.0 1.0 
+ 468  314 A 40 MET  HB% A 36 LEU HD1% 3.3                1.9  4.699999999999999 1.0 
+ 469  315 A 40 MET  HB% A 39 LEU HD2% 4.3                2.0                6.0 1.0 
+ 470  316 A 40 MET  HB% A 39 LEU HD2% 4.0                2.0                6.0 1.0 
+ 471  317 A 45 ARG  HB% A 45 ARG   HA 2.9 1.7999999999999998                4.0 1.0 
+ 472  318 A 45 ARG  HB% A 48 LEU    H 3.7                0.0                6.0 1.0 
+ 473  319 A 45 ARG  HB% A 48 LEU    H 4.2                2.0                6.0 1.0 
+ 474  320 A 45 ARG  HB% A 45 ARG    H 3.3                1.9  4.699999999999999 1.0 
+ 475  321 A 45 ARG  HB% A 45 ARG    H 2.5                1.7                3.3 1.0 
+ 476  322 A 45 ARG  HB% A 45 ARG  HG% 2.7 1.8000000000000003                3.6 1.0 
+ 477  323 A 45 ARG  HB% A 45 ARG  HG% 2.2                1.6 2.8000000000000003 1.0 
+ 478  324 A 45 ARG   HA A 45 ARG  HG% 3.7                2.0                5.4 1.0 
+ 479  325 A 45 ARG   HA A 45 ARG    H 3.2 1.9000000000000001                4.5 1.0 
+ 480  326 A 45 ARG   HA A 48 LEU    H 3.6                2.0                5.2 1.0 
+ 481  327 A 45 ARG   HA A 47 ILE    H 3.7                2.0                5.4 1.0 
+ 482  328 A 45 ARG   HA A 45 ARG  HG% 3.4                2.0                4.8 1.0 
+ 483  329 A 45 ARG   HA A 44 VAL HG1% 3.4                2.0                4.8 1.0 
+ 484  330 A 45 ARG  HB% A 45 ARG   HA 3.0                1.9                4.1 1.0 
+ 485  331 A 15 HIS   HA A 15 HIS  HB% 2.4                1.7 3.0999999999999996 1.0 
+ 486  332 A 15 HIS   HA A 18 GLY    H 3.2 1.9000000000000001                4.5 1.0 
+ 487  333 A 15 HIS   HA A 15 HIS    H 2.6 1.7000000000000002                3.5 1.0 
+ 488  334 A 15 HIS   HA A 16 ILE    H 3.6                2.0                5.2 1.0 
+ 489  335 A 15 HIS  HB% A 12 ALA   HA 2.9 1.7999999999999998                4.0 1.0 
+ 490  336 A 15 HIS  HB% A 16 ILE    H 2.8 1.7999999999999998                3.8 1.0 
+ 491  337 A 15 HIS  HB% A 15 HIS    H 2.5                1.7                3.3 1.0 
+ 492  338 A 15 HIS  HB% A 16 ILE HD1% 4.2                2.0                6.0 1.0 
+ 493  339 A 16 ILE   HA A 16 ILE   HB 2.9                1.9                3.9 1.0 
+ 494  340 A 16 ILE   HA A 16 ILE HG1% 2.7 1.8000000000000003                3.6 1.0 
+ 495  341 A 16 ILE   HA A 16 ILE HG2% 2.5                1.7                3.3 1.0 
+ 496  342 A 16 ILE   HA A 17 LEU    H 3.4                2.0                4.8 1.0 
+ 497  343 A 16 ILE   HA A 16 ILE    H 2.7 1.8000000000000003                3.6 1.0 
+ 498  344 A 16 ILE   HB A 16 ILE    H 2.5                1.7                3.3 1.0 
+ 499  345 A 16 ILE   HB A 17 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+ 500  346 A 16 ILE   HB A 16 ILE HG1% 2.8 1.7999999999999998                3.8 1.0 
+ 501  347 A 16 ILE HG1% A 16 ILE HD1% 2.3 1.6999999999999997                2.9 1.0 
+ 502  348 A 16 ILE HG1% A 16 ILE   HB 2.4                1.7 3.0999999999999996 1.0 
+ 503  349 A 16 ILE HG1% A 16 ILE    H 2.4                1.7 3.0999999999999996 1.0 
+ 504  350 A 16 ILE HG2% A 16 ILE HG1% 3.3                1.9  4.699999999999999 1.0 
+ 505  351 A 16 ILE HG2% A 16 ILE   HB 2.3 1.6999999999999997                2.9 1.0 
+ 506  352 A 16 ILE HG2% A 40 MET   HA 2.8                0.0                6.0 1.0 
+ 507  353 A 16 ILE HG2% A 17 LEU   HA 3.5                2.0                5.0 1.0 
+ 508  354 A 16 ILE HG2% A 16 ILE    H 3.9                2.0                5.8 1.0 
+ 509  355 A 16 ILE HG2% A 17 LEU    H 3.6                2.0                5.2 1.0 
+ 510  356 A 16 ILE HG2% A 40 MET    H 3.8 1.9999999999999998                5.6 1.0 
+ 511  357 A 16 ILE HG2% A 16 ILE HG1% 2.4                1.7 3.0999999999999996 1.0 
+ 512  358 A 17 LEU   HA A 18 GLY  HA% 5.1 1.8999999999999995                6.0 1.0 
+ 513  359 A 17 LEU   HA A 17 LEU HD2% 2.5                1.7                3.3 1.0 
+ 514  360 A 17 LEU   HA A 19 ILE HG2% 5.3 1.7999999999999998                6.0 1.0 
+ 515  361 A 17 LEU   HG A 14 ALA   HA 3.3                1.9  4.699999999999999 1.0 
+ 516  362 A 17 LEU   HG A 17 LEU HD2% 2.5                1.7                3.3 1.0 
+ 517  363 A 17 LEU   HG A 19 ILE HG2% 5.3 1.7999999999999998                6.0 1.0 
+ 518  364 A 17 LEU   HG A 14 ALA  HB% 5.0                1.9                6.0 1.0 
+ 519  365 A 17 LEU   HG A 19 ILE HD1% 3.8 1.9999999999999998                5.6 1.0 
+ 520  366 A 17 LEU   HG A 16 ILE HG2% 3.6                2.0                5.2 1.0 
+ 521  367 A 18 GLY  HA% A 19 ILE    H 3.0                1.9                4.1 1.0 
+ 522  368 A 18 GLY  HA% A 18 GLY    H 2.8 1.7999999999999998                3.8 1.0 
+ 523  369 A 18 GLY  HA% A 18 GLY    H 2.3 1.6999999999999997                2.9 1.0 
+ 524  370 A 18 GLY  HA% A 19 ILE    H 3.6                2.0                5.2 1.0 
+ 525  371 A 19 ILE   HA A 20 ARG    H 2.3 1.5999999999999999                3.0 1.0 
+ 526  372 A 19 ILE   HA A 19 ILE    H 2.8 1.7999999999999998                3.8 1.0 
+ 527  373 A 19 ILE   HB A 19 ILE    H 2.7 1.8000000000000003                3.6 1.0 
+ 528  374 A 19 ILE   HB A 18 GLY    H 4.6 1.8999999999999995                6.0 1.0 
+ 529  375 A 19 ILE   HB A 19 ILE HG1% 3.0                1.9                4.1 1.0 
+ 530  376 A 19 ILE   HB A 19 ILE HD1% 2.4                1.7 3.0999999999999996 1.0 
+ 531  377 A 19 ILE   HA A 19 ILE HG1% 2.9                1.9                3.9 1.0 
+ 532  378 A 19 ILE   HA A 19 ILE HD1% 4.0                2.0                6.0 1.0 
+ 533  379 A 19 ILE   HA A 19 ILE   HB 2.9                1.9                3.9 1.0 
+ 534  380 A 19 ILE   HA A 19 ILE HG1% 3.3                1.9  4.699999999999999 1.0 
+ 535  381 A 19 ILE   HA A 20 ARG   HA 4.2                2.0                6.0 1.0 
+ 536  382 A 19 ILE HG1% A 19 ILE HG2% 2.8 1.7999999999999998                3.8 1.0 
+ 537  383 A 19 ILE HG1% A 19 ILE HD1% 1.9                1.5                2.3 1.0 
+ 538  384 A 19 ILE HG1% A 19 ILE    H 2.8 1.7999999999999998                3.8 1.0 
+ 539  385 A 19 ILE HG1% A 19 ILE    H 3.4                2.0                4.8 1.0 
+ 540  386 A 19 ILE HG2% A 21 ASP    H 3.8 1.9999999999999998                5.6 1.0 
+ 541  387 A 19 ILE HG2% A 19 ILE    H 3.5                2.0                5.0 1.0 
+ 542  388 A 19 ILE HG2% A 20 ARG    H 3.1 1.9000000000000001                4.3 1.0 
+ 543  389 A 19 ILE HG2% A 18 GLY  HA% 2.2                0.0                6.0 1.0 
+ 544  390 A 19 ILE HG2% A 19 ILE   HA 2.3 1.5999999999999999                3.0 1.0 
+ 545  391 A 19 ILE HG2% A 21 ASP   HA 4.3                2.0                6.0 1.0 
+ 546  392 A 19 ILE HG2% A 20 ARG   HA 4.4 1.9000000000000004                6.0 1.0 
+ 547  393 A 19 ILE HG2% A 25 ILE   HB 4.1 1.9999999999999996                6.0 1.0 
+ 548  394 A 19 ILE HG2% A 25 ILE HG1% 2.3 1.5999999999999999                3.0 1.0 
+ 549  395 A 19 ILE HG2% A 19 ILE   HB 2.0                1.5                2.5 1.0 
+ 550  396 A 19 ILE HG2% A 19 ILE HG1% 2.3 1.5999999999999999                3.0 1.0 
+ 551  397 A 19 ILE   HA A 21 ASP    H 5.0                1.9                6.0 1.0 
+ 552  398 A 41 GLY  HA% A 41 GLY    H 2.4                1.7 3.0999999999999996 1.0 
+ 553  399 A 41 GLY  HA% A 41 GLY    H 2.8 1.7999999999999998                3.8 1.0 
+ 554  400 A 41 GLY  HA% A 42 VAL    H 3.3 1.9999999999999998                4.6 1.0 
+ 555  401 A 41 GLY  HA% A 42 VAL    H 3.5                1.9                5.1 1.0 
+ 556  402 A 41 GLY  HA% A 44 VAL   HB 4.5                2.0                6.0 1.0 
+ 557  403 A 41 GLY  HA% A 44 VAL   HB 3.0                1.9                4.1 1.0 
+ 558  404 A 41 GLY  HA% A 44 VAL HG1% 3.5                2.0                5.0 1.0 
+ 559  405 A 41 GLY  HA% A 44 VAL HG1% 4.5                2.0                6.0 1.0 
+ 560  406 A 41 GLY  HA% A 36 LEU   HG 5.5 1.7999999999999998                6.0 1.0 
+ 561  407 A 41 GLY  HA% A 40 MET   HA 5.4 1.7000000000000002                6.0 1.0 
+ 562  408 A 41 GLY  HA% A 40 MET   HA 4.1 1.9999999999999996                6.0 1.0 
+ 563  409 A 45 ARG  HD% A 45 ARG  HB% 3.1 1.9000000000000001                4.3 1.0 
+ 564  410 A 45 ARG  HD% A 45 ARG  HG% 2.7 1.8000000000000003                3.6 1.0 
+ 565  411 A 45 ARG  HD% A 45 ARG  HG% 2.8                1.9 3.6999999999999997 1.0 
+ 566  412 A 45 ARG  HD% A 58 ILE   HA 3.9                2.0                5.8 1.0 
+ 567  412 A 45 ARG  HD% A 58 ILE   HA 3.9                2.0                5.8 1.0 
+ 568  413 A 45 ARG  HD% A 45 ARG   HE 3.3                1.9  4.699999999999999 1.0 
+ 569  414 A 45 ARG  HD% A 45 ARG    H 5.7 1.6000000000000005                6.0 1.0 
+ 570  415 A 45 ARG  HD% A 45 ARG   HA 4.6 1.9999999999999996                6.0 1.0 
+ 571  416 A 45 ARG  HD% A 45 ARG  HB% 3.4                2.0                4.8 1.0 
+ 572  417 A 45 ARG  HD% A 61 VAL HG1% 3.6                0.0                6.0 1.0 
+ 573  418 A 46 GLN   HA A 46 GLN  HG% 2.8                1.9 3.6999999999999997 1.0 
+ 574  419 A 46 GLN   HA A 46 GLN  HB% 2.5                1.7                3.3 1.0 
+ 575  420 A 46 GLN   HA A 50 ARG    H 3.5                1.9                5.1 1.0 
+ 576  421 A 46 GLN   HA A 45 ARG    H 4.8                1.9                6.0 1.0 
+ 577  422 A 46 GLN  HB% A 46 GLN    H 2.4                1.7 3.0999999999999996 1.0 
+ 578  423 A 46 GLN  HB% A 47 ILE    H 2.9                1.9                3.9 1.0 
+ 579  424 A 46 GLN  HB% A 46 GLN    H 3.3                1.9  4.699999999999999 1.0 
+ 580  425 A 46 GLN  HB% A 47 ILE    H 3.5                1.9                5.1 1.0 
+ 581  426 A 46 GLN   HA A 46 GLN    H 2.8 1.7999999999999998                3.8 1.0 
+ 582  427 A 46 GLN   HA A 47 ILE    H 2.9 1.7999999999999998                4.0 1.0 
+ 583  428 A 46 GLN  HB% A 43 GLU   HA 4.0                2.0                6.0 1.0 
+ 584  429 A 46 GLN  HB% A 46 GLN   HA 3.1 1.9000000000000001                4.3 1.0 
+ 585  430 A 46 GLN  HB% A 43 GLU   HA 3.1 1.9000000000000001                4.3 1.0 
+ 586  431 A 46 GLN  HB% A 46 GLN  HG% 2.8 1.7999999999999998                3.8 1.0 
+ 587  432 A 46 GLN  HB% A 46 GLN  HG% 2.5                1.7                3.3 1.0 
+ 588  433 A 46 GLN  HB% A 46 GLN  HG% 2.4                1.7 3.0999999999999996 1.0 
+ 589  434 A 46 GLN  HB% A 46 GLN  HG% 2.6                1.8 3.4000000000000004 1.0 
+ 590  435 A 46 GLN   HA A 46 GLN  HG% 3.9                2.0                5.8 1.0 
+ 591  436 A 46 GLN  HG% A 42 VAL HG1% 4.1 1.9999999999999996                6.0 1.0 
+ 592  437 A 46 GLN  HG% A 46 GLN HE2% 4.4 1.9000000000000004                6.0 1.0 
+ 593  438 A 46 GLN  HG% A 46 GLN HE2% 4.5                1.9                6.0 1.0 
+ 594  439 A 46 GLN  HG% A 47 ILE    H 4.9 1.9000000000000004                6.0 1.0 
+ 595  440 A 46 GLN  HG% A 46 GLN    H 3.7                2.0                5.4 1.0 
+ 596  441 A 46 GLN  HG% A 46 GLN    H 3.3 1.9999999999999998                4.6 1.0 
+ 597  442 A 46 GLN  HG% A 47 ILE    H 5.1 1.8999999999999995                6.0 1.0 
+ 598  443 A 47 ILE   HA A 47 ILE HG1% 2.5                1.7                3.3 1.0 
+ 599  444 A 47 ILE   HA A 50 ARG  HB% 3.0                1.9                4.1 1.0 
+ 600  445 A 47 ILE   HA A 47 ILE   HB 2.6                1.8 3.4000000000000004 1.0 
+ 601  446 A 47 ILE   HA A 47 ILE HG1% 2.8                1.9 3.6999999999999997 1.0 
+ 602  447 A 47 ILE   HA A 51 GLU  HG% 3.0                1.9                4.1 1.0 
+ 603  448 A 47 ILE   HA A 47 ILE HG2% 2.4                1.7 3.0999999999999996 1.0 
+ 604  449 A 47 ILE   HA A 47 ILE HD1% 4.1 1.9999999999999996                6.0 1.0 
+ 605  450 A 47 ILE   HA A 47 ILE    H 2.5                1.7                3.3 1.0 
+ 606  451 A 47 ILE   HA A 48 LEU    H 3.4                2.0                4.8 1.0 
+ 607  452 A 47 ILE   HA A 51 GLU    H 3.6                2.0                5.2 1.0 
+ 608  453 A 47 ILE   HA A 50 ARG    H 3.5                2.0                5.0 1.0 
+ 609  454 A 47 ILE   HB A 47 ILE    H 2.2                1.6 2.8000000000000003 1.0 
+ 610  455 A 47 ILE   HB A 48 LEU    H 2.6 1.7000000000000002                3.5 1.0 
+ 611  456 A 47 ILE   HB A 50 ARG    H 4.9 2.0000000000000004                6.0 1.0 
+ 612  457 A 47 ILE   HB A 44 VAL   HA 2.7 1.8000000000000003                3.6 1.0 
+ 613  458 A 47 ILE   HB A 47 ILE HG1% 3.4                2.0                4.8 1.0 
+ 614  459 A 47 ILE   HB A 47 ILE HG2% 2.3 1.6999999999999997                2.9 1.0 
+ 615  460 A 47 ILE HG1% A 48 LEU HD1% 5.0                1.9                6.0 1.0 
+ 616  461 A 47 ILE HG1% A 48 LEU HD1% 5.2 1.8000000000000003                6.0 1.0 
+ 617  462 A 47 ILE HG1% A 44 VAL   HA 3.5                1.9                5.1 1.0 
+ 618  463 A 47 ILE HG1% A 44 VAL   HA 4.9 1.9000000000000004                6.0 1.0 
+ 619  464 A 47 ILE HG1% A 48 LEU    H 4.4 2.0000000000000004                6.0 1.0 
+ 620  465 A 47 ILE HG1% A 47 ILE    H 2.3 1.5999999999999999                3.0 1.0 
+ 621  466 A 47 ILE HG1% A 48 LEU    H 5.4 1.8000000000000003                6.0 1.0 
+ 622  467 A 47 ILE HG1% A 47 ILE    H 3.6                2.0                5.2 1.0 
+ 623  468 A 47 ILE   HA A 48 LEU HD1% 4.7 1.9000000000000004                6.0 1.0 
+ 624  469 A 17 LEU HD1% A 16 ILE    H 3.7 1.9000000000000001                5.5 1.0 
+ 625  470 A 19 ILE HG1% A 17 LEU  HB% 3.6                2.0                5.2 1.0 
+ 626  471 A 20 ARG  HB% A 20 ARG  HG% 2.8 1.7999999999999998                3.8 1.0 
+ 627  472 A 20 ARG  HD% A 20 ARG  HG% 2.4                1.7 3.0999999999999996 1.0 
+ 628  473 A 22 LEU HD2% A 14 ALA  HB% 2.7 1.8000000000000003                3.6 1.0 
+ 629  474 A 22 LEU HD2% A 25 ILE HG1% 5.0 1.7999999999999998                6.0 1.0 
+ 630  475 A 22 LEU HD2% A 20 ARG  HB% 3.2 1.9000000000000001                4.5 1.0 
+ 631  476 A 23 ALA   HA A 25 ILE    H 4.2                2.0                6.0 1.0 
+ 632  477 A 23 ALA  HB% A 23 ALA   HA 2.3 1.6999999999999997                2.9 1.0 
+ 633  478 A 23 ALA  HB% A 25 ILE    H 4.7                2.0                6.0 1.0 
+ 634  479 A 23 ALA   HA A 21 ASP   HA 2.9                0.0                6.0 1.0 
+ 635  480 A 24 GLY  HA% A 25 ILE    H 3.9                2.0                5.8 1.0 
+ 636  481 A 24 GLY  HA% A 25 ILE    H 3.1 1.9000000000000001                4.3 1.0 
+ 637  482 A 24 GLY  HA% A 24 GLY    H 2.9 1.7999999999999998                4.0 1.0 
+ 638  483 A 24 GLY  HA% A 24 GLY    H 2.9 1.7999999999999998                4.0 1.0 
+ 639  484 A 24 GLY  HA% A 24 GLY  HA% 1.9                1.5                2.3 1.0 
+ 640  485 A 24 GLY  HA% A 23 ALA  HB% 3.5                2.0                5.0 1.0 
+ 641  486 A 24 GLY  HA% A 23 ALA  HB% 2.8                0.0                6.0 1.0 
+ 642  487 A 27 LEU   HA A 27 LEU   HG 3.4                2.0                4.8 1.0 
+ 643  488 A 27 LEU   HA A 27 LEU  HB% 3.1 1.9000000000000001                4.3 1.0 
+ 644  489 A 27 LEU   HA A 66 LEU  HB% 3.2 1.9000000000000001                4.5 1.0 
+ 645  490 A 27 LEU   HA A 28 ASP    H 3.6                2.0                5.2 1.0 
+ 646  491 A 27 LEU   HA A 66 LEU    H 4.2                2.0                6.0 1.0 
+ 647  492 A 27 LEU  HB% A 27 LEU   HA 3.1 1.9000000000000001                4.3 1.0 
+ 648  493 A 27 LEU  HB% A 28 ASP    H 4.3                2.0                6.0 1.0 
+ 649  494 A 27 LEU  HB% A 28 ASP    H 5.0                1.9                6.0 1.0 
+ 650  495 A 16 ILE HD1% A 16 ILE    H 3.6                2.0                5.2 1.0 
+ 651  496 A 16 ILE HD1% A 17 LEU    H 3.2                0.0                6.0 1.0 
+ 652  497 A 16 ILE HD1% A 16 ILE   HA 2.3 1.5999999999999999                3.0 1.0 
+ 653  498 A 47 ILE HD1% A 43 GLU  HG% 3.1 1.9000000000000001                4.3 1.0 
+ 654  499 A 47 ILE HD1% A 43 GLU  HG% 2.6 1.7000000000000002                3.5 1.0 
+ 655  500 A 16 ILE HD1% A 16 ILE   HB 3.1 1.9000000000000001                4.3 1.0 
+ 656  501 A 16 ILE HD1% A 16 ILE HG2% 2.0                1.5                2.5 1.0 
+ 657  502 A 19 ILE HD1% A 25 ILE HG1% 3.0                1.8                4.2 1.0 
+ 658  503 A 19 ILE HD1% A 19 ILE HG1% 1.9                1.4                2.4 1.0 
+ 659  504 A 19 ILE HD1% A 17 LEU   HA 2.6                0.0                6.0 1.0 
+ 660  505 A 19 ILE HD1% A 17 LEU  HB% 3.4                1.9                4.9 1.0 
+ 661  506 A 19 ILE HD1% A 18 GLY  HA% 3.2                0.0                6.0 1.0 
+ 662  507 A 19 ILE HD1% A 14 ALA   HA 3.0                1.8                4.2 1.0 
+ 663  508 A 19 ILE HD1% A 19 ILE    H 4.2                2.0                6.0 1.0 
+ 664  509 A 19 ILE HD1% A 18 GLY    H 3.0                0.0                6.0 1.0 
+ 665  510 A 25 ILE   HA A 26 ASN    H 2.1                1.5                2.7 1.0 
+ 666  511 A 25 ILE   HA A 25 ILE    H 2.6 1.7000000000000002                3.5 1.0 
+ 667  512 A 25 ILE   HB A 25 ILE HG2% 2.1                1.5                2.7 1.0 
+ 668  513 A 25 ILE   HB A 22 LEU HD1% 2.4                1.7 3.0999999999999996 1.0 
+ 669  514 A 25 ILE HG2% A 22 LEU   HA 5.0                1.9                6.0 1.0 
+ 670  515 A 25 ILE HG2% A 25 ILE    H 4.0                2.0                6.0 1.0 
+ 671  516 A 25 ILE HG2% A 26 ASN    H 2.9 1.7999999999999998                4.0 1.0 
+ 672  517 A 25 ILE   HB A 26 ASN    H 3.7                2.0                5.4 1.0 
+ 673  518 A 25 ILE   HB A 25 ILE    H 2.3 1.6999999999999997                2.9 1.0 
+ 674  519 A 25 ILE   HB A 25 ILE   HA 2.7 1.8000000000000003                3.6 1.0 
+ 675  520 A 25 ILE   HB A 22 LEU   HA 2.9                1.9                3.9 1.0 
+ 676  521 A 25 ILE   HB A 27 LEU HD2% 3.5                2.0                5.0 1.0 
+ 677  522 A 25 ILE   HA A 25 ILE HG2% 2.5                1.7                3.3 1.0 
+ 678  523 A 25 ILE HG2% A 26 ASN  HB% 5.1 1.8999999999999995                6.0 1.0 
+ 679  524 A 25 ILE   HB A 25 ILE HG1% 2.4                1.7 3.0999999999999996 1.0 
+ 680  525 A 25 ILE   HB A 25 ILE HG1% 2.6                1.8 3.4000000000000004 1.0 
+ 681  526 A 25 ILE HG2% A 27 LEU   HG 4.1 1.9999999999999996                6.0 1.0 
+ 682  527 A 25 ILE HG2% A 22 LEU HD1% 2.9 1.7999999999999998                4.0 1.0 
+ 683  528 A 25 ILE   HB A 22 LEU  HB% 3.9                2.0                5.8 1.0 
+ 684  529 A 25 ILE HD1% A 26 ASN    H 4.3                1.9                6.0 1.0 
+ 685  530 A 25 ILE HD1% A 25 ILE    H 3.8 1.9999999999999998                5.6 1.0 
+ 686  531 A 25 ILE HD1% A 22 LEU   HA 3.4                2.0                4.8 1.0 
+ 687  532 A 25 ILE HD1% A 19 ILE   HA 2.8                0.0                6.0 1.0 
+ 688  533 A 25 ILE HD1% A 25 ILE   HA 2.5                1.7                3.3 1.0 
+ 689  534 A 25 ILE HD1% A 25 ILE HG1% 2.5                1.7                3.3 1.0 
+ 690  535 A 25 ILE HD1% A 25 ILE HG1% 2.7 1.8000000000000003                3.6 1.0 
+ 691  536 A 25 ILE HD1% A 14 ALA  HB% 3.0                0.0                6.0 1.0 
+ 692  537 A 25 ILE HD1% A 25 ILE   HB 3.4                2.0                4.8 1.0 
+ 693  538 A 25 ILE HD1% A 22 LEU HD1% 3.3 1.9999999999999998                4.6 1.0 
+ 694  539 A 79 ASP  HB% A 79 ASP   HA 3.1 1.9000000000000001                4.3 1.0 
+ 695  540 A 79 ASP  HB% A 79 ASP    H 4.6 1.9999999999999996                6.0 1.0 
+ 696  541 A 79 ASP  HB% A 79 ASP    H 3.9                2.0                5.8 1.0 
+ 697  542 A 79 ASP   HA A 79 ASP  HB% 2.7 1.8000000000000003                3.6 1.0 
+ 698  543 A 78 SER  HB% A 78 SER   HA 3.0                1.9                4.1 1.0 
+ 699  544 A 78 SER  HB% A 78 SER   HA 3.0                1.9                4.1 1.0 
+ 700  545 A 78 SER   HA A 79 ASP    H 3.0                1.9                4.1 1.0 
+ 701  546 A 72 MET   HA A 72 MET    H 2.7 1.8000000000000003                3.6 1.0 
+ 702  547 A 72 MET  HB% A 72 MET    H 3.5                2.0                5.0 1.0 
+ 703  548 A 72 MET  HB% A 72 MET    H 2.7 1.8000000000000003                3.6 1.0 
+ 704  549 A 72 MET  HB% A 73 SER    H 4.4 2.0000000000000004                6.0 1.0 
+ 705  550 A 72 MET  HB% A 73 SER    H 4.0                2.0                6.0 1.0 
+ 706  551 A 72 MET   HA A 73 SER    H 3.2 1.9000000000000001                4.5 1.0 
+ 707  552 A 72 MET   HA A 72 MET  HG% 3.1 1.9000000000000001                4.3 1.0 
+ 708  553 A 72 MET   HA A 72 MET  HB% 2.7 1.8000000000000003                3.6 1.0 
+ 709  554 A 72 MET   HA A 72 MET  HB% 3.0                1.8                4.2 1.0 
+ 710  555 A 72 MET  HG% A 72 MET    H 3.1 1.9000000000000001                4.3 1.0 
+ 711  556 A 72 MET  HG% A 72 MET    H 2.8 1.7999999999999998                3.8 1.0 
+ 712  557 A 72 MET  HG% A 72 MET   HA 3.5                1.9                5.1 1.0 
+ 713  558 A 72 MET  HG% A 69 LEU   HA 3.8 1.9999999999999998                5.6 1.0 
+ 714  559 A 72 MET  HG% A 69 LEU   HA 4.2                2.0                6.0 1.0 
+ 715  560 A 72 MET  HG% A 72 MET  HB% 3.0                1.8                4.2 1.0 
+ 716  561 A 72 MET  HG% A 72 MET  HB% 3.3                1.9  4.699999999999999 1.0 
+ 717  562 A 72 MET  HG% A 72 MET  HB% 3.1 1.9000000000000001                4.3 1.0 
+ 718  563 A 72 MET  HG% A 72 MET  HB% 3.0                1.9                4.1 1.0 
+ 719  564 A 72 MET  HG% A 69 LEU HD2% 3.5                0.0                6.0 1.0 
+ 720  565 A 72 MET  HG% A 69 LEU HD2% 3.2                0.0                6.0 1.0 
+ 721  566 A 71 GLU   HA A 71 GLU  HB% 2.7 1.8000000000000003                3.6 1.0 
+ 722  567 A 71 GLU   HA A 71 GLU  HB% 3.4                2.0                4.8 1.0 
+ 723  567 A 71 GLU   HA A 71 GLU  HG% 3.4                2.0                4.8 1.0 
+ 724  568 A 43 GLU  HB% A 44 VAL HG2% 3.6 1.9000000000000001                5.3 1.0 
+ 725  569 A 43 GLU  HB% A 44 VAL HG2% 4.8                1.9                6.0 1.0 
+ 726  570 A 43 GLU  HB% A 39 LEU HD2% 3.9                2.0                5.8 1.0 
+ 727  571 A 43 GLU  HB% A 39 LEU HD2% 3.3                1.9  4.699999999999999 1.0 
+ 728  572 A 43 GLU  HB% A 47 ILE HD1% 3.3                1.9  4.699999999999999 1.0 
+ 729  573 A 71 GLU   HA A 72 MET    H 3.0                1.8                4.2 1.0 
+ 730  574 A 66 LEU   HA A 64 LEU  HB% 3.9                2.0                5.8 1.0 
+ 731  575 A 66 LEU  HB% A 66 LEU   HA 2.7 1.8000000000000003                3.6 1.0 
+ 732  576 A 66 LEU  HB% A 66 LEU   HA 2.4                1.7 3.0999999999999996 1.0 
+ 733  577 A 66 LEU  HB% A 67 ARG    H 2.5                1.7                3.3 1.0 
+ 734  578 A 66 LEU  HB% A 66 LEU    H 3.4                2.0                4.8 1.0 
+ 735  579 A 66 LEU   HA A 67 ARG    H 3.8 1.9999999999999998                5.6 1.0 
+ 736  580 A 66 LEU   HA A 66 LEU    H 3.2                2.0                4.4 1.0 
+ 737  581 A 66 LEU  HB% A 66 LEU    H 3.4                2.0                4.8 1.0 
+ 738  582 A 66 LEU  HB% A 67 ARG    H 4.6 1.9999999999999996                6.0 1.0 
+ 739  583 A 66 LEU  HB% A 66 LEU   HG 2.7 1.8000000000000003                3.6 1.0 
+ 740  584 A 66 LEU  HB% A 66 LEU   HG 2.6 1.7000000000000002                3.5 1.0 
+ 741  585 A 66 LEU  HB% A 66 LEU HD2% 2.4                1.7 3.0999999999999996 1.0 
+ 742  586 A 66 LEU  HB% A 66 LEU HD2% 3.0                1.8                4.2 1.0 
+ 743  587 A 66 LEU   HG A 66 LEU    H 4.9 1.9000000000000004                6.0 1.0 
+ 744  588 A 66 LEU  HB% A 65 THR HG2% 4.4 1.9000000000000004                6.0 1.0 
+ 745  589 A 66 LEU  HB% A 65 THR HG2% 4.4 1.9000000000000004                6.0 1.0 
+ 746  590 A 66 LEU HD1% A 66 LEU   HA 2.2                1.6 2.8000000000000003 1.0 
+ 747  591 A 66 LEU HD1% A 67 ARG  HD% 2.9 1.7999999999999998                4.0 1.0 
+ 748  592 A 66 LEU HD1% A 66 LEU   HG 2.2                1.6 2.8000000000000003 1.0 
+ 749  593 A 66 LEU HD1% A 66 LEU  HB% 2.5                1.7                3.3 1.0 
+ 750  594 A 66 LEU HD1% A 69 LEU    H 3.8 1.9999999999999998                5.6 1.0 
+ 751  595 A 66 LEU HD1% A 66 LEU    H 3.8 1.9999999999999998                5.6 1.0 
+ 752  596 A 66 LEU   HA A 69 LEU    H 3.0                1.9                4.1 1.0 
+ 753  597 A 66 LEU HD2% A 66 LEU   HA 2.6                1.8 3.4000000000000004 1.0 
+ 754  598 A 66 LEU HD2% A 67 ARG    H 5.2 1.8000000000000003                6.0 1.0 
+ 755  599 A 66 LEU HD2% A 66 LEU    H 4.7 1.9000000000000004                6.0 1.0 
+ 756  600 A 66 LEU   HA A 69 LEU  HB% 4.5                2.0                6.0 1.0 
+ 757  601 A 67 ARG   HA A 67 ARG  HB% 2.4                1.7 3.0999999999999996 1.0 
+ 758  602 A 11 LYS   HA A 10 VAL HG1% 3.1 1.9000000000000001                4.3 1.0 
+ 759  603 A 67 ARG   HA A 70 GLN  HB% 3.7                2.0                5.4 1.0 
+ 760  604 A 67 ARG   HA A 67 ARG  HD% 2.8 1.7999999999999998                3.8 1.0 
+ 761  605 A 67 ARG   HA A 68 LYS   HA 3.7                2.0                5.4 1.0 
+ 762  606 A 67 ARG   HA A 70 GLN    H 3.2 1.9000000000000001                4.5 1.0 
+ 763  607 A 67 ARG   HA A 67 ARG    H 2.6                1.8 3.4000000000000004 1.0 
+ 764  608 A 67 ARG   HA A 70 GLN  HG% 4.1 1.9999999999999996                6.0 1.0 
+ 765  609 A 67 ARG  HB% A 66 LEU  HB% 5.5 1.7000000000000002                6.0 1.0 
+ 766  610 A 67 ARG  HB% A 67 ARG  HD% 4.3                2.0                6.0 1.0 
+ 767  611 A 67 ARG  HB% A 67 ARG  HD% 4.1 1.9999999999999996                6.0 1.0 
+ 768  612 A 67 ARG  HB% A 69 LEU    H 4.0                2.0                6.0 1.0 
+ 769  613 A 67 ARG  HB% A 68 LYS  HG% 3.4                0.0                6.0 1.0 
+ 770  614 A 67 ARG   HA A 66 LEU  HB% 4.7 1.9000000000000004                6.0 1.0 
+ 771  615 A 67 ARG   HA A 66 LEU   HG 2.0                0.0                6.0 1.0 
+ 772  616 A 67 ARG  HD% A 67 ARG   HE 2.9                1.9                3.9 1.0 
+ 773  617 A 67 ARG  HD% A 67 ARG   HE 3.2 1.9000000000000001                4.5 1.0 
+ 774  618 A 67 ARG  HD% A 69 LEU    H 4.6 1.9999999999999996                6.0 1.0 
+ 775  619 A 67 ARG   HA A 69 LEU    H 3.4                1.9                4.9 1.0 
+ 776  620 A 68 LYS  HB% A 65 THR    H 2.2                1.6 2.8000000000000003 1.0 
+ 777  621 A 68 LYS  HB% A 69 LEU    H 2.4                1.7 3.0999999999999996 1.0 
+ 778  622 A 68 LYS  HB% A 64 LEU   HA 3.2 1.9000000000000001                4.5 1.0 
+ 779  623 A 68 LYS  HB% A 68 LYS   HA 2.2                1.6 2.8000000000000003 1.0 
+ 780  624 A 68 LYS  HB% A 64 LEU  HB% 4.6 1.9999999999999996                6.0 1.0 
+ 781  625 A 68 LYS  HB% A 64 LEU HD1% 3.4                2.0                4.8 1.0 
+ 782  626 A 68 LYS   HA A 68 LYS  HE% 4.0                2.0                6.0 1.0 
+ 783  627 A 68 LYS   HA A 72 MET  HG% 3.8 1.9999999999999998                5.6 1.0 
+ 784  628 A 68 LYS  HG% A 68 LYS  HB% 2.1                1.5                2.7 1.0 
+ 785  629 A 68 LYS  HG% A 68 LYS  HD% 1.8                1.4                2.2 1.0 
+ 786  630 A 68 LYS  HG% A 65 THR HG2% 4.3                2.0                6.0 1.0 
+ 787  631 A 68 LYS  HG% A 68 LYS   HA 2.6                1.8 3.4000000000000004 1.0 
+ 788  632 A 68 LYS  HG% A 64 LEU   HA 4.4 2.0000000000000004                6.0 1.0 
+ 789  633 A 68 LYS  HG% A 65 THR    H 4.4 2.0000000000000004                6.0 1.0 
+ 790  634 A 68 LYS  HG% A 69 LEU    H 3.1 1.9000000000000001                4.3 1.0 
+ 791  635 A 50 ARG  HD% A 50 ARG   HA 3.8 1.9999999999999998                5.6 1.0 
+ 792  636 A 50 ARG  HD% A 50 ARG   HE 3.7                2.0                5.4 1.0 
+ 793  637 A 50 ARG  HD% A 50 ARG    H 3.0                0.0                6.0 1.0 
+ 794  638 A 50 ARG   HA A 50 ARG  HB% 2.7 1.8000000000000003                3.6 1.0 
+ 795  639 A 50 ARG   HA A 50 ARG  HG% 3.1 1.9000000000000001                4.3 1.0 
+ 796  640 A 50 ARG  HD% A 51 GLU  HG% 3.1                0.0                6.0 1.0 
+ 797  641 A 50 ARG  HD% A 50 ARG  HG% 2.5                1.7                3.3 1.0 
+ 798  642 A 50 ARG   HA A 50 ARG  HG% 3.0                1.9                4.1 1.0 
+ 799  643 A 50 ARG  HB% A 50 ARG   HA 3.0                1.9                4.1 1.0 
+ 800  644 A 50 ARG  HB% A 50 ARG  HD% 3.1 1.9000000000000001                4.3 1.0 
+ 801  645 A 50 ARG  HB% A 51 GLU    H 3.7                2.0                5.4 1.0 
+ 802  646 A 50 ARG  HB% A 51 GLU    H 4.5                2.0                6.0 1.0 
+ 803  647 A 46 GLN  HG% A 46 GLN HE2% 4.5                1.9                6.0 1.0 
+ 804  648 A 46 GLN  HG% A 46 GLN HE2% 4.0                2.0                6.0 1.0 
+ 805  649 A 49 GLU  HB% A 54 LEU    H 4.2                2.0                6.0 1.0 
+ 806  650 A 49 GLU  HB% A 49 GLU    H 2.4                1.7 3.0999999999999996 1.0 
+ 807  651 A 49 GLU  HB% A 50 ARG    H 3.0                1.9                4.1 1.0 
+ 808  652 A 49 GLU   HA A 50 ARG    H 3.5                2.0                5.0 1.0 
+ 809  653 A 49 GLU  HB% A 49 GLU   HA 2.7 1.8000000000000003                3.6 1.0 
+ 810  654 A 49 GLU  HB% A 46 GLN    H 3.0                0.0                6.0 1.0 
+ 811  655 A 49 GLU  HB% A 55 VAL HG2% 3.8 1.9999999999999998                5.6 1.0 
+ 812  656 A 49 GLU  HB% A 50 ARG  HD% 4.2                2.0                6.0 1.0 
+ 813  657 A 49 GLU   HA A 54 LEU    H 2.5                1.7                3.3 1.0 
+ 814  658 A 49 GLU   HA A 53 ASP   HA 3.5                1.9                5.1 1.0 
+ 815  659 A 49 GLU   HA A 46 GLN   HA 4.6 1.8999999999999995                6.0 1.0 
+ 816  660 A 49 GLU   HA A 48 LEU   HA 3.9                2.0                5.8 1.0 
+ 817  661 A 49 GLU  HG% A 55 VAL HG2% 4.6 1.9999999999999996                6.0 1.0 
+ 818  662 A 49 GLU   HA A 49 GLU    H 2.8 1.7999999999999998                3.8 1.0 
+ 819  663 A 49 GLU  HG% A 49 GLU   HA 2.8 1.7999999999999998                3.8 1.0 
+ 820  664 A 49 GLU  HG% A 49 GLU   HA 3.2 1.9000000000000001                4.5 1.0 
+ 821  665 A 49 GLU  HG% A 46 GLN   HA 4.1 1.9999999999999996                6.0 1.0 
+ 822  666 A 49 GLU  HG% A 49 GLU    H 4.1 1.9999999999999996                6.0 1.0 
+ 823  667 A 49 GLU  HG% A 50 ARG    H 4.3                2.0                6.0 1.0 
+ 824  668 A 49 GLU  HG% A 49 GLU    H 4.5                2.0                6.0 1.0 
+ 825  669 A 49 GLU  HG% A 50 ARG    H 4.1 1.9999999999999996                6.0 1.0 
+ 826  670 A 43 GLU   HA A 39 LEU HD2% 3.9                2.0                5.8 1.0 
+ 827  671 A 43 GLU   HA A 46 GLN  HG% 3.7                2.0                5.4 1.0 
+ 828  672 A 43 GLU   HA A 43 GLU  HG% 2.7 1.8000000000000003                3.6 1.0 
+ 829  673 A 43 GLU   HA A 43 GLU  HG% 3.3 1.9999999999999998                4.6 1.0 
+ 830  674 A 43 GLU   HA A 43 GLU  HB% 3.0                1.9                4.1 1.0 
+ 831  675 A 43 GLU   HA A 43 GLU  HB% 2.2                1.6 2.8000000000000003 1.0 
+ 832  676 A 43 GLU  HG% A 43 GLU    H 3.7                2.0                5.4 1.0 
+ 833  677 A 43 GLU  HG% A 44 VAL    H 4.1 1.9999999999999996                6.0 1.0 
+ 834  678 A 43 GLU   HA A 46 GLN    H 3.2 1.9000000000000001                4.5 1.0 
+ 835  679 A 43 GLU   HA A 47 ILE    H 3.9                2.0                5.8 1.0 
+ 836  680 A 43 GLU   HA A 43 GLU    H 2.6                1.8 3.4000000000000004 1.0 
+ 837  681 A 43 GLU  HG% A 39 LEU HD2% 2.7                0.0                6.0 1.0 
+ 838  682 A 43 GLU  HG% A 43 GLU  HB% 2.5                1.7                3.3 1.0 
+ 839  683 A 43 GLU  HG% A 43 GLU  HB% 3.6                2.0                5.2 1.0 
+ 840  684 A 43 GLU  HB% A 43 GLU    H 2.6                1.8 3.4000000000000004 1.0 
+ 841  685 A 43 GLU  HB% A 43 GLU    H 2.3 1.5999999999999999                3.0 1.0 
+ 842  686 A 43 GLU  HB% A 44 VAL    H 2.8 1.7999999999999998                3.8 1.0 
+ 843  687 A 43 GLU  HB% A 43 GLU  HG% 2.7 1.8000000000000003                3.6 1.0 
+ 844  688 A 43 GLU  HB% A 47 ILE HD1% 3.7                2.0                5.4 1.0 
+ 845  689 A 43 GLU  HB% A 44 VAL    H 3.7                2.0                5.4 1.0 
+ 846  690 A 59 ARG   HA A 59 ARG  HB% 2.3 1.5999999999999999                3.0 1.0 
+ 847  691 A 59 ARG   HA A 62 ARG  HB% 3.3                0.0                6.0 1.0 
+ 848  692 A 59 ARG   HA A 59 ARG  HB% 3.0                1.9                4.1 1.0 
+ 849  693 A 59 ARG   HA A 59 ARG    H 2.6                1.8 3.4000000000000004 1.0 
+ 850  694 A 59 ARG   HA A 62 ARG    H 3.7                2.0                5.4 1.0 
+ 851  695 A 59 ARG   HA A 60 GLU    H 3.3 1.9999999999999998                4.6 1.0 
+ 852  696 A 59 ARG   HA A 58 ILE HG2% 3.2                2.0                4.4 1.0 
+ 853  697 A 59 ARG   HA A 62 ARG  HD% 3.6                0.0                6.0 1.0 
+ 854  698 A 59 ARG  HB% A 59 ARG  HD% 2.7 1.8000000000000003                3.6 1.0 
+ 855  699 A 59 ARG  HB% A 60 GLU    H 3.3 1.9999999999999998                4.6 1.0 
+ 856  700 A 59 ARG  HB% A 59 ARG    H 3.4                2.0                4.8 1.0 
+ 857  701 A 59 ARG  HB% A 59 ARG    H 2.7 1.8000000000000003                3.6 1.0 
+ 858  702 A 59 ARG  HB% A 60 GLU    H 4.3                2.0                6.0 1.0 
+ 859  703 A 59 ARG  HD% A 59 ARG    H 2.6 1.7000000000000002                3.5 1.0 
+ 860  704 A 59 ARG  HD% A 59 ARG   HA 3.5                2.0                5.0 1.0 
+ 861  705 A 63 GLN   HA A 63 GLN HE2% 3.7                2.0                5.4 1.0 
+ 862  706 A 63 GLN   HA A 63 GLN HE2% 4.8                1.9                6.0 1.0 
+ 863  707 A 63 GLN   HA A 30 SER  HB% 2.9                1.9                3.9 1.0 
+ 864  708 A 63 GLN   HA A 30 SER  HB% 3.3                1.9  4.699999999999999 1.0 
+ 865  709 A 63 GLN   HA A 63 GLN  HG% 3.1 1.9000000000000001                4.3 1.0 
+ 866  710 A 63 GLN   HA A 63 GLN  HG% 3.9                2.0                5.8 1.0 
+ 867  711 A 63 GLN  HB% A 63 GLN   HA 2.6                1.8 3.4000000000000004 1.0 
+ 868  712 A 63 GLN  HB% A 60 GLU   HA 4.7 1.9000000000000004                6.0 1.0 
+ 869  713 A 63 GLN  HB% A 63 GLN   HA 3.1 1.9000000000000001                4.3 1.0 
+ 870  714 A 63 GLN   HA A 31 LEU    H 3.9                2.0                5.8 1.0 
+ 871  715 A 63 GLN   HA A 32 ALA    H 3.9                2.0                5.8 1.0 
+ 872  716 A 63 GLN  HB% A 63 GLN HE2% 2.1                1.6                2.6 1.0 
+ 873  717 A 63 GLN  HB% A 63 GLN HE2% 3.3                1.9  4.699999999999999 1.0 
+ 874  718 A 63 GLN  HB% A 63 GLN HE2% 5.4 1.8000000000000003                6.0 1.0 
+ 875  719 A 63 GLN  HB% A 63 GLN HE2% 4.3                2.0                6.0 1.0 
+ 876  720 A 63 GLN  HB% A 63 GLN  HG% 2.4                1.7 3.0999999999999996 1.0 
+ 877  721 A 63 GLN  HB% A 63 GLN  HG% 2.7 1.8000000000000003                3.6 1.0 
+ 878  722 A 63 GLN  HB% A 63 GLN  HG% 2.5                1.7                3.3 1.0 
+ 879  723 A 63 GLN  HG% A 63 GLN HE2% 3.2 1.9000000000000001                4.5 1.0 
+ 880  724 A 63 GLN  HG% A 63 GLN HE2% 2.9                1.9                3.9 1.0 
+ 881  725 A 63 GLN  HG% A 63 GLN HE2% 4.0                2.0                6.0 1.0 
+ 882  726 A 63 GLN  HG% A 63 GLN HE2% 4.3                2.0                6.0 1.0 
+ 883  727 A 63 GLN  HG% A 60 GLU   HA 4.4 2.0000000000000004                6.0 1.0 
+ 884  728 A 63 GLN  HG% A 63 GLN  HB% 2.4                1.7 3.0999999999999996 1.0 
+ 885  729 A 63 GLN  HG% A 60 GLU   HA 5.3 1.6999999999999997                6.0 1.0 
+ 886  730 A 70 GLN   HA A 70 GLN    H 2.4                1.7 3.0999999999999996 1.0 
+ 887  731 A 70 GLN   HA A 72 MET    H 3.2                2.0                4.4 1.0 
+ 888  732 A 70 GLN   HA A 69 LEU    H 4.2                2.0                6.0 1.0 
+ 889  733 A 70 GLN   HA A 73 SER    H 3.5                2.0                5.0 1.0 
+ 890  734 A 70 GLN   HA A 70 GLN  HG% 3.2                2.0                4.4 1.0 
+ 891  735 A 70 GLN   HA A 70 GLN  HB% 2.2                1.6 2.8000000000000003 1.0 
+ 892  736 A 70 GLN   HA A 71 GLU  HB% 4.5                1.9                6.0 1.0 
+ 893  737 A 70 GLN   HA A 10 VAL HG2% 2.7 1.8000000000000003                3.6 1.0 
+ 894  738 A 70 GLN  HB% A 70 GLN  HG% 2.3 1.5999999999999999                3.0 1.0 
+ 895  739 A 70 GLN  HB% A 71 GLU   HA 3.8 1.9999999999999998                5.6 1.0 
+ 896  740 A 70 GLN  HB% A 72 MET    H 3.6                2.0                5.2 1.0 
+ 897  741 A 70 GLN  HB% A 70 GLN    H 2.7 1.8000000000000003                3.6 1.0 
+ 898  742 A 70 GLN  HG% A 70 GLN   HA 3.4                2.0                4.8 1.0 
+ 899  743 A 70 GLN  HG% A 67 ARG   HA 3.4                2.0                4.8 1.0 
+ 900  744 A 70 GLN  HG% A 70 GLN HE2% 3.7                2.0                5.4 1.0 
+ 901  745 A 70 GLN  HG% A 70 GLN    H 2.9                1.9                3.9 1.0 
+ 902  746 A 70 GLN  HG% A 70 GLN HE2% 4.3                2.0                6.0 1.0 
+ 903  747 A 70 GLN  HG% A 70 GLN HE2% 4.4 2.0000000000000004                6.0 1.0 
+ 904  748 A 70 GLN  HG% A 70 GLN HE2% 3.1 1.9000000000000001                4.3 1.0 
+ 905  749 A 70 GLN  HG% A 70 GLN    H 2.7 1.8000000000000003                3.6 1.0 
+ 906  750 A 70 GLN  HG% A 72 MET    H 4.8                1.9                6.0 1.0 
+ 907  751 A 70 GLN  HG% A 72 MET    H 4.5                1.9                6.0 1.0 
+ 908  752 A 70 GLN  HG% A 10 VAL HG2% 2.8 1.7999999999999998                3.8 1.0 
+ 909  753 A 87 SER  HB% A 87 SER   HA 3.5                1.9                5.1 1.0 
+ 910  754 A 75 LYS   HA A 75 LYS    H 4.2                2.0                6.0 1.0 
+ 911  755 A 84 ALA  HB% A 84 ALA    H 3.0                1.9                4.1 1.0 
+ 912  756 A 84 ALA   HA A 84 ALA    H 3.4                2.0                4.8 1.0 
+ 913  757 A 84 ALA  HB% A 85 PRO  HD% 4.7 1.9000000000000004                6.0 1.0 
+ 914  758 A 84 ALA  HB% A 85 PRO  HD% 3.1 1.9000000000000001                4.3 1.0 
+ 915  759 A 84 ALA  HB% A 84 ALA   HA 2.3 1.5999999999999999                3.0 1.0 
+ 916  760 A 84 ALA   HA A 85 PRO  HD% 2.1                1.5                2.7 1.0 
+ 917  761 A 84 ALA   HA A 85 PRO  HD% 2.7 1.8000000000000003                3.6 1.0 
+ 918  762 A 83 ALA   HA A 83 ALA    H 2.6 1.7000000000000002                3.5 1.0 
+ 919  763 A 83 ALA  HB% A 83 ALA   HA 2.6 1.7000000000000002                3.5 1.0 
+ 920  764 A 83 ALA  HB% A 83 ALA    H 3.1 1.9000000000000001                4.3 1.0 
+ 921  765 A 82 LEU   HA A 82 LEU    H 2.8 1.7999999999999998                3.8 1.0 
+ 922  766 A 82 LEU   HA A 82 LEU HD1% 3.4                2.0                4.8 1.0 
+ 923  767 A 82 LEU   HA A 82 LEU  HB% 3.2 1.9000000000000001                4.5 1.0 
+ 924  768 A 82 LEU  HB% A 82 LEU    H 3.5                2.0                5.0 1.0 
+ 925  769 A 82 LEU  HB% A 82 LEU    H 3.4                2.0                4.8 1.0 
+ 926  770 A 82 LEU  HB% A 82 LEU   HA 3.6                2.0                5.2 1.0 
+ 927  771 A  6 GLN   HA A  6 GLN  HG% 2.7 1.8000000000000003                3.6 1.0 
+ 928  772 A 52 HIS  HB% A 52 HIS   HA 2.7 1.8000000000000003                3.6 1.0 
+ 929  773 A 52 HIS  HB% A 53 ASP    H 3.7 1.9000000000000001                5.5 1.0 
+ 930  774 A 52 HIS  HB% A 52 HIS    H 2.9                1.9                3.9 1.0 
+ 931  775 A 52 HIS  HB% A  6 GLN HE2% 2.9                0.0                6.0 1.0 
+ 932  776 A 52 HIS  HB% A  6 GLN HE2% 2.9                0.0                6.0 1.0 
+ 933  777 A 52 HIS  HB% A 52 HIS    H 3.9                2.0                5.8 1.0 
+ 934  778 A 52 HIS  HB% A 53 ASP    H 3.8 1.9999999999999998                5.6 1.0 
+ 935  779 A 52 HIS  HB% A 52 HIS   HA 3.4                1.9                4.9 1.0 
+ 936  780 A 52 HIS  HB% A 54 LEU HD1% 3.3 1.9999999999999998                4.6 1.0 
+ 937  780 A 52 HIS  HB% A 54 LEU HD2% 3.3 1.9999999999999998                4.6 1.0 
+ 938  781 A 52 HIS  HB% A 54 LEU HD1% 4.8                2.0                6.0 1.0 
+ 939  781 A 52 HIS  HB% A 54 LEU HD2% 4.8                2.0                6.0 1.0 
+ 940  782 A 52 HIS  HB% A 54 LEU  HB% 4.7                2.0                6.0 1.0 
+ 941  783 A 51 GLU   HA A 51 GLU  HG% 2.7 1.8000000000000003                3.6 1.0 
+ 942  784 A 51 GLU  HB% A  6 GLN HE2% 3.4                2.0                4.8 1.0 
+ 943  785 A 51 GLU  HB% A 51 GLU    H 3.7                2.0                5.4 1.0 
+ 944  786 A 51 GLU  HB% A 51 GLU    H 2.7 1.8000000000000003                3.6 1.0 
+ 945  787 A 51 GLU   HA A 51 GLU    H 2.8 1.7999999999999998                3.8 1.0 
+ 946  788 A 51 GLU   HA A 52 HIS    H 3.7                2.0                5.4 1.0 
+ 947  789 A 51 GLU   HA A 51 GLU  HB% 2.6 1.7000000000000002                3.5 1.0 
+ 948  790 A 51 GLU   HA A 51 GLU  HB% 2.9 1.7999999999999998                4.0 1.0 
+ 949  791 A 51 GLU  HB% A  6 GLN HE2% 3.8 1.9999999999999998                5.6 1.0 
+ 950  792 A 51 GLU  HG% A 51 GLU  HB% 2.2                1.6 2.8000000000000003 1.0 
+ 951  793 A 51 GLU  HG% A 51 GLU  HB% 2.3 1.6999999999999997                2.9 1.0 
+ 952  794 A 51 GLU  HG% A 51 GLU    H 2.9 1.7999999999999998                4.0 1.0 
+ 953  795 A 51 GLU  HG% A 50 ARG  HG% 3.9                2.0                5.8 1.0 
+ 954  796 A 51 GLU  HG% A 47 ILE HG2% 3.2                2.0                4.4 1.0 
+ 955  797 A 65 THR   HA A 65 THR   HB 2.4                1.7 3.0999999999999996 1.0 
+ 956  798 A 65 THR   HA A 31 LEU HD1% 3.4                2.0                4.8 1.0 
+ 957  799 A 65 THR   HA A 65 THR    H 3.1 1.9000000000000001                4.3 1.0 
+ 958  800 A 65 THR   HA A 66 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+ 959  801 A 65 THR HG2% A 68 LYS  HB% 3.5                2.0                5.0 1.0 
+ 960  802 A 65 THR HG2% A 68 LYS  HD% 3.2 1.9000000000000001                4.5 1.0 
+ 961  803 A 65 THR HG2% A 67 ARG  HB% 4.5                2.0                6.0 1.0 
+ 962  804 A 65 THR HG2% A 28 ASP  HB% 2.5                0.0                6.0 1.0 
+ 963  805 A 65 THR HG2% A 30 SER   HA 2.2                1.6 2.8000000000000003 1.0 
+ 964  806 A 65 THR HG2% A 64 LEU   HA 3.4                2.0                4.8 1.0 
+ 965  807 A 65 THR HG2% A 65 THR   HA 2.5                1.7                3.3 1.0 
+ 966  808 A 65 THR HG2% A 28 ASP   HA 2.7 1.8000000000000003                3.6 1.0 
+ 967  809 A 65 THR HG2% A 65 THR    H 2.6                1.8 3.4000000000000004 1.0 
+ 968  810 A 65 THR HG2% A 69 LEU    H 4.2                2.0                6.0 1.0 
+ 969  811 A 65 THR HG2% A 30 SER    H 2.6                0.0                6.0 1.0 
+ 970  812 A 65 THR HG2% A 67 ARG    H 3.9                2.0                5.8 1.0 
+ 971  813 A 65 THR HG2% A 66 LEU    H 3.7                2.0                5.4 1.0 
+ 972  814 A 65 THR HG2% A 31 LEU    H 3.6                2.0                5.2 1.0 
+ 973  815 A 65 THR   HA A 67 ARG    H 4.1 1.9999999999999996                6.0 1.0 
+ 974  816 A  6 GLN  HB% A  6 GLN    H 3.2 1.9000000000000001                4.5 1.0 
+ 975  817 A  6 GLN  HB% A  6 GLN    H 3.5                2.0                5.0 1.0 
+ 976  818 A  6 GLN  HB% A  6 GLN   HA 3.2 1.9000000000000001                4.5 1.0 
+ 977  819 A  6 GLN  HB% A  6 GLN   HA 2.6 1.7000000000000002                3.5 1.0 
+ 978  820 A  6 GLN  HG% A  6 GLN   HA 2.8 1.7999999999999998                3.8 1.0 
+ 979  820 A  6 GLN  HG% A  6 GLN   HA 2.8 1.7999999999999998                3.8 1.0 
+ 980  821 A  6 GLN  HG% A  6 GLN HE2% 3.6                2.0                5.2 1.0 
+ 981  821 A  6 GLN  HG% A  6 GLN HE2% 3.6                2.0                5.2 1.0 
+ 982  822 A  6 GLN  HG% A  6 GLN HE2% 3.3 1.9999999999999998                4.6 1.0 
+ 983  822 A  6 GLN  HG% A  6 GLN HE2% 3.3 1.9999999999999998                4.6 1.0 
+ 984  823 A  7 ARG  HB% A  7 ARG   HA 3.3 1.9999999999999998                4.6 1.0 
+ 985  824 A  7 ARG   HA A  7 ARG  HB% 2.7 1.8000000000000003                3.6 1.0 
+ 986  825 A  7 ARG   HA A  7 ARG  HG% 3.1 1.9000000000000001                4.3 1.0 
+ 987  826 A 62 ARG  HB% A 62 ARG    H 3.0                1.9                4.1 1.0 
+ 988  827 A  7 ARG  HD% A  7 ARG   HA 4.2                2.0                6.0 1.0 
+ 989  828 A  7 ARG  HG% A  7 ARG  HD% 2.7 1.8000000000000003                3.6 1.0 
+ 990  829 A  7 ARG  HG% A  7 ARG    H 4.6 1.8999999999999995                6.0 1.0 
+ 991  830 A  7 ARG  HG% A  7 ARG  HB% 2.6 1.7000000000000002                3.5 1.0 
+ 992  831 A  7 ARG  HG% A  7 ARG  HB% 2.2                1.6 2.8000000000000003 1.0 
+ 993  832 A  8 ASP  HB% A  8 ASP   HA 2.9 1.7999999999999998                4.0 1.0 
+ 994  833 A  8 ASP  HB% A  9 LEU    H 3.3                1.9  4.699999999999999 1.0 
+ 995  834 A  8 ASP  HB% A  9 LEU    H 4.1 1.9999999999999996                6.0 1.0 
+ 996  835 A  8 ASP  HB% A  8 ASP    H 4.2                2.0                6.0 1.0 
+ 997  836 A  8 ASP  HB% A  8 ASP    H 3.2 1.9000000000000001                4.5 1.0 
+ 998  837 A  8 ASP  HB% A 11 LYS    H 3.7                2.0                5.4 1.0 
+ 999  838 A  8 ASP  HB% A 11 LYS    H 3.3                1.9  4.699999999999999 1.0 
+1000  839 A  8 ASP   HA A  9 LEU    H 2.1                1.5                2.7 1.0 
+1001  840 A  8 ASP   HA A  8 ASP  HB% 2.5                1.7                3.3 1.0 
+1002  841 A  8 ASP  HB% A 11 LYS  HB% 3.9                2.0                5.8 1.0 
+1003  842 A  8 ASP  HB% A 11 LYS  HB% 2.8 1.7999999999999998                3.8 1.0 
+1004  843 A  8 ASP  HB% A 11 LYS  HD% 4.3                2.0                6.0 1.0 
+1005  844 A  8 ASP  HB% A 11 LYS  HD% 3.7                2.0                5.4 1.0 
+1006  845 A  9 LEU   HA A  9 LEU  HB% 2.4                1.7 3.0999999999999996 1.0 
+1007  846 A  9 LEU   HA A  9 LEU  HB% 2.4                1.7 3.0999999999999996 1.0 
+1008  847 A  9 LEU   HA A  9 LEU HD1% 3.1 1.9000000000000001                4.3 1.0 
+1009  848 A  9 LEU   HA A  9 LEU HD2% 2.7 1.8000000000000003                3.6 1.0 
+1010  849 A  9 LEU   HA A  9 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+1011  850 A  9 LEU   HA A 12 ALA    H 3.2 1.9000000000000001                4.5 1.0 
+1012  851 A  9 LEU  HB% A  9 LEU    H 3.3                1.9  4.699999999999999 1.0 
+1013  852 A  9 LEU  HB% A  9 LEU    H 2.4                1.7 3.0999999999999996 1.0 
+1014  853 A  9 LEU  HB% A  9 LEU HD1% 2.7 1.8000000000000003                3.6 1.0 
+1015  854 A  9 LEU  HB% A  9 LEU HD2% 2.9                1.9                3.9 1.0 
+1016  855 A  9 LEU  HB% A  9 LEU HD2% 3.2 1.9000000000000001                4.5 1.0 
+1017  856 A  9 LEU  HB% A  9 LEU HD1% 3.0                1.9                4.1 1.0 
+1018  857 A 10 VAL   HA A 10 VAL HG1% 2.3 1.5999999999999999                3.0 1.0 
+1019  858 A 10 VAL   HA A 13 VAL HG1% 4.0                2.0                6.0 1.0 
+1020  859 A 10 VAL   HA A  9 LEU HD2% 3.9                2.0                5.8 1.0 
+1021  860 A 10 VAL   HA A 10 VAL    H 2.7 1.8000000000000003                3.6 1.0 
+1022  861 A 10 VAL   HA A 14 ALA    H 3.2                2.0                4.4 1.0 
+1023  862 A 10 VAL   HA A 11 LYS    H 3.5                2.0                5.0 1.0 
+1024  863 A 10 VAL   HB A 10 VAL    H 2.4                1.7 3.0999999999999996 1.0 
+1025  864 A 10 VAL   HB A 11 LYS    H 2.5                1.7                3.3 1.0 
+1026  865 A 10 VAL HG1% A 10 VAL   HB 2.1                1.6                2.6 1.0 
+1027  866 A 10 VAL HG1% A 14 ALA  HB% 2.7 1.8000000000000003                3.6 1.0 
+1028  867 A 10 VAL HG1% A 14 ALA    H 3.8 1.9999999999999998                5.6 1.0 
+1029  868 A 10 VAL HG1% A 10 VAL    H 3.6 1.9000000000000001                5.3 1.0 
+1030  869 A 10 VAL HG1% A 11 LYS    H 3.4                2.0                4.8 1.0 
+1031  870 A 10 VAL HG2% A 10 VAL   HA 2.2                1.6 2.8000000000000003 1.0 
+1032  871 A 10 VAL HG2% A 70 GLN  HG% 3.5                1.9                5.1 1.0 
+1033  872 A 10 VAL HG2% A 10 VAL   HB 2.1                1.6                2.6 1.0 
+1034  873 A 10 VAL HG2% A 68 LYS  HB% 4.2 1.9000000000000004                6.0 1.0 
+1035  874 A 10 VAL HG2% A 69 LEU  HB% 2.9                1.9                3.9 1.0 
+1036  875 A 10 VAL HG2% A  9 LEU  HB% 4.5                2.0                6.0 1.0 
+1037  876 A 10 VAL HG2% A  9 LEU HD1% 4.3                1.9                6.0 1.0 
+1038  877 A 10 VAL HG2% A 10 VAL    H 2.0                1.5                2.5 1.0 
+1039  878 A 10 VAL HG2% A 11 LYS    H 4.0                2.0                6.0 1.0 
+1040  879 A 10 VAL HG2% A 70 GLN    H 3.0                1.9                4.1 1.0 
+1041  880 A 10 VAL HG2% A  9 LEU   HA 3.6                2.0                5.2 1.0 
+1042  881 A 10 VAL HG2% A 11 LYS   HA 4.7 1.9000000000000004                6.0 1.0 
+1043  882 A 10 VAL HG2% A  9 LEU  HB% 3.5                1.9                5.1 1.0 
+1044  883 A 11 LYS  HB% A 11 LYS  HE% 5.3 1.7999999999999998                6.0 1.0 
+1045  884 A 47 ILE HD1% A 47 ILE HG1% 2.2                1.6 2.8000000000000003 1.0 
+1046  885 A 47 ILE HD1% A 12 ALA  HB% 2.4                1.7 3.0999999999999996 1.0 
+1047  886 A 47 ILE HD1% A 47 ILE    H 3.6                2.0                5.2 1.0 
+1048  887 A 47 ILE HD1% A 48 LEU    H 2.6                0.0                6.0 1.0 
+1049  888 A 47 ILE HD1% A 44 VAL   HA 2.4                1.7 3.0999999999999996 1.0 
+1050  889 A 47 ILE HD1% A 47 ILE   HB 2.3 1.5999999999999999                3.0 1.0 
+1051  890 A 47 ILE HD1% A 47 ILE HG1% 2.1                1.6                2.6 1.0 
+1052  891 A 47 ILE HG2% A 48 LEU    H 3.2 1.9000000000000001                4.5 1.0 
+1053  892 A 47 ILE HG2% A 47 ILE    H 3.5                2.0                5.0 1.0 
+1054  893 A 47 ILE HG2% A  6 GLN HE2% 3.2                2.0                4.4 1.0 
+1055  894 A 47 ILE HG2% A 47 ILE HG1% 3.3                1.9  4.699999999999999 1.0 
+1056  895 A 47 ILE HG2% A 47 ILE HG1% 2.5                1.7                3.3 1.0 
+1057  896 A 47 ILE HG2% A  9 LEU HD1% 3.0                1.9                4.1 1.0 
+1058  897 A 47 ILE HG2% A 48 LEU HD1% 2.5                1.7                3.3 1.0 
+1059  898 A 47 ILE HG2% A 44 VAL   HA 4.4 2.0000000000000004                6.0 1.0 
+1060  899 A 47 ILE HG2% A  9 LEU  HB% 2.6                0.0                6.0 1.0 
+1061  900 A 16 ILE HG1% A 16 ILE HD1% 2.3 1.5999999999999999                3.0 1.0 
+1062  901 A 16 ILE HG1% A 16 ILE   HA 3.4                2.0                4.8 1.0 
+1063  902 A 16 ILE HG1% A 16 ILE    H 3.7                2.0                5.4 1.0 
+1064  903 A  9 LEU   HA A  8 ASP   HA 4.4 2.0000000000000004                6.0 1.0 
+1065  904 A  9 LEU  HB% A  8 ASP   HA 5.7 1.7000000000000002                6.0 1.0 
+1066  905 A  9 LEU  HB% A  8 ASP   HA 6.0 1.2000000000000002                6.0 1.0 
+1067  906 A 85 PRO   HA A 85 PRO  HB% 3.0                1.9                4.1 1.0 
+1068  907 A 85 PRO  HD% A 85 PRO  HB% 4.2                2.0                6.0 1.0 
+1069  908 A 85 PRO  HD% A 85 PRO  HB% 4.7 1.9000000000000004                6.0 1.0 
+1070  909 A 85 PRO  HD% A 85 PRO  HG% 2.7 1.8000000000000003                3.6 1.0 
+1071  910 A 85 PRO  HD% A 85 PRO  HG% 2.5                1.7                3.3 1.0 
+1072  911 A 57 PRO  HB% A 57 PRO   HA 2.2                1.6 2.8000000000000003 1.0 
+1073  912 A 57 PRO  HB% A 57 PRO  HD% 3.8 1.9999999999999998                5.6 1.0 
+1074  913 A 57 PRO  HB% A 57 PRO  HD% 3.9                2.0                5.8 1.0 
+1075  914 A 57 PRO  HB% A 57 PRO  HG% 2.1                1.5                2.7 1.0 
+1076  915 A 57 PRO  HB% A 60 GLU    H 4.4 1.9000000000000004                6.0 1.0 
+1077  916 A 57 PRO  HB% A 59 ARG    H 4.5                1.9                6.0 1.0 
+1078  917 A 57 PRO  HB% A 59 ARG  HG% 5.6 1.5999999999999996                6.0 1.0 
+1079  918 A 57 PRO  HD% A 56 LEU   HA 1.8                1.4                2.2 1.0 
+1080  919 A 57 PRO  HD% A 56 LEU   HA 2.5                1.7                3.3 1.0 
+1081  920 A 57 PRO  HG% A 56 LEU   HA 4.4 2.0000000000000004                6.0 1.0 
+1082  921 A 57 PRO  HG% A 56 LEU   HA 4.9 1.9000000000000004                6.0 1.0 
+1083  922 A 57 PRO  HG% A 57 PRO   HA 3.5                2.0                5.0 1.0 
+1084  923 A 57 PRO  HG% A 57 PRO   HA 4.4 2.0000000000000004                6.0 1.0 
+1085  924 A 57 PRO  HG% A 56 LEU HD2% 5.0 1.7999999999999998                6.0 1.0 
+1086  925 A 57 PRO  HG% A 56 LEU HD2% 5.0 1.7999999999999998                6.0 1.0 
+1087  926 A 57 PRO  HG% A 55 VAL HG1% 4.5                1.9                6.0 1.0 
+1088  927 A 57 PRO  HG% A 57 PRO  HB% 2.7 1.8000000000000003                3.6 1.0 
+1089  928 A 57 PRO  HG% A 60 GLU  HG% 4.8                1.9                6.0 1.0 
+1090  929 A 57 PRO  HG% A 57 PRO  HD% 2.6                1.8 3.4000000000000004 1.0 
+1091  930 A 57 PRO  HG% A 60 GLU    H 4.4 2.0000000000000004                6.0 1.0 
+1092  931 A 57 PRO  HG% A 60 GLU    H 3.8 1.9999999999999998                5.6 1.0 
+1093  932 A 57 PRO  HD% A 60 GLU  HG% 4.4 2.0000000000000004                6.0 1.0 
+1094  933 A 57 PRO  HD% A 57 PRO  HG% 2.2                1.6 2.8000000000000003 1.0 
+1095  934 A 57 PRO  HD% A 57 PRO  HG% 2.1                1.5                2.7 1.0 
+1096  935 A 57 PRO  HD% A 57 PRO  HG% 2.9                1.9                3.9 1.0 
+1097  936 A 57 PRO  HD% A 60 GLU  HG% 3.0                1.9                4.1 1.0 
+1098  937 A 57 PRO  HD% A 56 LEU  HB% 4.2                2.0                6.0 1.0 
+1099  938 A 57 PRO  HD% A 56 LEU  HB% 4.1 1.9999999999999996                6.0 1.0 
+1100  939 A 57 PRO  HD% A 56 LEU HD2% 3.7                2.0                5.4 1.0 
+1101  940 A 57 PRO  HD% A 56 LEU HD2% 3.8 1.9999999999999998                5.6 1.0 
+1102  941 A 57 PRO  HD% A 57 PRO   HA 3.9                2.0                5.8 1.0 
+1103  942 A 57 PRO  HD% A 57 PRO   HA 4.1 1.9999999999999996                6.0 1.0 
+1104  943 A 85 PRO  HG% A 85 PRO  HB% 2.1                1.5                2.7 1.0 
+1105  944 A 85 PRO  HG% A 85 PRO  HB% 2.2                1.6 2.8000000000000003 1.0 
+1106  945 A 85 PRO  HG% A 85 PRO   HA 4.4 2.0000000000000004                6.0 1.0 
+1107  946 A 11 LYS  HG% A 11 LYS   HA 3.2 1.9000000000000001                4.5 1.0 
+1108  947 A 11 LYS  HG% A 11 LYS   HA 3.3 1.9999999999999998                4.6 1.0 
+1109  948 A 11 LYS  HG% A 11 LYS    H 3.5                2.0                5.0 1.0 
+1110  949 A 11 LYS  HG% A 11 LYS    H 3.2                2.0                4.4 1.0 
+1111  950 A 11 LYS  HG% A 11 LYS  HB% 2.4                1.7 3.0999999999999996 1.0 
+1112  951 A 11 LYS  HG% A 11 LYS  HD% 2.5                1.7                3.3 1.0 
+1113  952 A 11 LYS  HG% A 11 LYS  HE% 3.6                2.0                5.2 1.0 
+1114  953 A 11 LYS   HA A 14 ALA    H 3.6                2.0                5.2 1.0 
+1115  954 A 11 LYS   HA A 12 ALA    H 3.5                1.9                5.1 1.0 
+1116  955 A 11 LYS   HA A 11 LYS    H 2.9                1.9                3.9 1.0 
+1117  956 A 20 ARG  HD% A 20 ARG    H 3.1                0.0                6.0 1.0 
+1118  957 A 21 ASP  HB% A 23 ALA    H 3.7                2.0                5.4 1.0 
+1119  958 A 21 ASP  HB% A 23 ALA    H 4.7 1.9000000000000004                6.0 1.0 
+1120  959 A 22 LEU HD2% A 25 ILE   HB 5.7 1.6000000000000005                6.0 1.0 
+1121  960 A 27 LEU  HB% A 27 LEU    H 3.8 1.9999999999999998                5.6 1.0 
+1122  961 A 27 LEU  HB% A 26 ASN   HA 6.0 1.5999999999999996                6.0 1.0 
+1123  962 A 27 LEU HD2% A 27 LEU  HB% 2.4                1.7 3.0999999999999996 1.0 
+1124  963 A 27 LEU HD1% A 27 LEU  HB% 3.0                1.9                4.1 1.0 
+1125  964 A 27 LEU HD1% A 27 LEU   HG 2.4                1.7 3.0999999999999996 1.0 
+1126  965 A 27 LEU HD1% A 67 ARG   HA 4.4 2.0000000000000004                6.0 1.0 
+1127  966 A 27 LEU HD2% A 27 LEU   HA 3.0                1.9                4.1 1.0 
+1128  967 A 27 LEU HD1% A 27 LEU   HA 3.4                2.0                4.8 1.0 
+1129  968 A 27 LEU HD1% A 25 ILE    H 2.9                0.0                6.0 1.0 
+1130  969 A 27 LEU HD2% A 70 GLN HE2% 4.4 2.0000000000000004                6.0 1.0 
+1131  970 A 27 LEU HD2% A 25 ILE    H 2.9                0.0                6.0 1.0 
+1132  971 A 27 LEU HD2% A 27 LEU    H 3.8 1.9999999999999998                5.6 1.0 
+1133  972 A 27 LEU HD1% A 27 LEU    H 3.7                2.0                5.4 1.0 
+1134  973 A 27 LEU HD1% A 28 ASP    H 5.3 1.7999999999999998                6.0 1.0 
+1135  974 A 27 LEU HD2% A 27 LEU   HG 2.6 1.7000000000000002                3.5 1.0 
+1136  975 A 27 LEU HD1% A 27 LEU  HB% 2.6                1.8 3.4000000000000004 1.0 
+1137  976 A 27 LEU HD2% A 27 LEU  HB% 3.4                2.0                4.8 1.0 
+1138  977 A 27 LEU   HG A 27 LEU    H 2.6 1.7000000000000002                3.5 1.0 
+1139  978 A 27 LEU   HG A 26 ASN   HA 4.4 2.0000000000000004                6.0 1.0 
+1140  979 A 27 LEU   HG A 27 LEU  HB% 2.8 1.7999999999999998                3.8 1.0 
+1141  980 A 29 SER   HA A 30 SER    H 2.1                1.5                2.7 1.0 
+1142  981 A 29 SER   HA A 29 SER    H 2.8 1.7999999999999998                3.8 1.0 
+1143  982 A 30 SER  HB% A 65 THR HG2% 4.6 1.9999999999999996                6.0 1.0 
+1144  983 A 30 SER  HB% A 65 THR HG2% 4.3                2.0                6.0 1.0 
+1145  984 A 31 LEU   HA A 32 ALA    H 3.6                2.0                5.2 1.0 
+1146  985 A 31 LEU  HB% A 36 LEU  HB% 4.2                2.0                6.0 1.0 
+1147  986 A 31 LEU  HB% A 36 LEU  HB% 4.1 1.9999999999999996                6.0 1.0 
+1148  987 A 32 ALA  HB% A 62 ARG  HD% 3.2 1.9000000000000001                4.5 1.0 
+1149  988 A 32 ALA  HB% A 30 SER   HA 5.4 1.8000000000000003                6.0 1.0 
+1150  989 A 32 ALA  HB% A 31 LEU HD2% 5.9 1.6000000000000005                6.0 1.0 
+1151  990 A 33 ASP   HA A 32 ALA  HB% 4.5                2.0                6.0 1.0 
+1152  991 A 33 ASP   HA A 34 LEU HD2% 5.3 1.7999999999999998                6.0 1.0 
+1153  992 A 33 ASP  HB% A 29 SER  HB% 4.7                2.0                6.0 1.0 
+1154  993 A 33 ASP  HB% A 29 SER  HB% 5.5 1.7000000000000002                6.0 1.0 
+1155  994 A 33 ASP  HB% A 33 ASP   HA 3.0                1.9                4.1 1.0 
+1156  995 A 33 ASP  HB% A 33 ASP   HA 2.7 1.8000000000000003                3.6 1.0 
+1157  996 A 33 ASP  HB% A 35 GLY    H 4.2                2.0                6.0 1.0 
+1158  997 A 33 ASP  HB% A 35 GLY    H 4.4 2.0000000000000004                6.0 1.0 
+1159  998 A 33 ASP  HB% A 33 ASP    H 2.6 1.7000000000000002                3.5 1.0 
+1160  999 A 33 ASP  HB% A 33 ASP    H 2.9 1.7999999999999998                4.0 1.0 
+1161 1000 A 33 ASP   HA A 33 ASP    H 2.8 1.7999999999999998                3.8 1.0 
+1162 1001 A 33 ASP   HA A 35 GLY    H 4.1 1.9999999999999996                6.0 1.0 
+1163 1002 A 33 ASP  HB% A 30 SER    H 3.3 1.9999999999999998                4.6 1.0 
+1164 1003 A 33 ASP  HB% A 30 SER    H 3.0                1.9                4.1 1.0 
+1165 1004 A 34 LEU HD1% A 34 LEU  HB% 2.4                1.7 3.0999999999999996 1.0 
+1166 1005 A 34 LEU HD1% A 31 LEU   HA 2.5                1.7                3.3 1.0 
+1167 1006 A 34 LEU HD1% A 29 SER  HB% 3.0                1.9                4.1 1.0 
+1168 1007 A 34 LEU HD1% A 34 LEU   HA 3.1 1.9000000000000001                4.3 1.0 
+1169 1008 A 34 LEU HD1% A 35 GLY    H 3.4                1.9                4.9 1.0 
+1170 1009 A 34 LEU HD1% A 31 LEU    H 3.2 1.9000000000000001                4.5 1.0 
+1171 1010 A 34 LEU HD1% A 33 ASP    H 4.4 2.0000000000000004                6.0 1.0 
+1172 1011 A 34 LEU HD1% A 34 LEU  HB% 3.3                1.9  4.699999999999999 1.0 
+1173 1012 A 34 LEU   HG A 35 GLY    H 4.1 1.9999999999999996                6.0 1.0 
+1174 1013 A 34 LEU HD1% A 29 SER    H 3.8 1.9999999999999998                5.6 1.0 
+1175 1014 A 34 LEU HD2% A 31 LEU   HA 2.7 1.8000000000000003                3.6 1.0 
+1176 1015 A 34 LEU HD2% A 29 SER  HB% 2.8 1.7999999999999998                3.8 1.0 
+1177 1016 A 34 LEU HD2% A 34 LEU   HA 2.6                1.8 3.4000000000000004 1.0 
+1178 1017 A 34 LEU HD2% A 33 ASP  HB% 3.0                1.9                4.1 1.0 
+1179 1018 A 34 LEU HD2% A 34 LEU  HB% 2.7 1.8000000000000003                3.6 1.0 
+1180 1019 A 34 LEU HD2% A 34 LEU   HG 2.4                1.7 3.0999999999999996 1.0 
+1181 1020 A 34 LEU HD2% A 34 LEU  HB% 2.7 1.8000000000000003                3.6 1.0 
+1182 1021 A 34 LEU HD2% A 35 GLY    H 2.3                0.0                6.0 1.0 
+1183 1022 A 34 LEU HD2% A 29 SER    H 3.1                0.0                6.0 1.0 
+1184 1023 A 34 LEU HD2% A 32 ALA    H 2.8                0.0                6.0 1.0 
+1185 1024 A 34 LEU HD1% A 32 ALA    H 4.5                1.9                6.0 1.0 
+1186 1025 A 34 LEU HD2% A 33 ASP    H 3.2 1.9000000000000001                4.5 1.0 
+1187 1026 A 35 GLY  HA% A 36 LEU    H 4.0                2.0                6.0 1.0 
+1188 1027 A 35 GLY  HA% A 36 LEU    H 3.0                1.9                4.1 1.0 
+1189 1028 A 35 GLY  HA% A 35 GLY    H 2.8 1.7999999999999998                3.8 1.0 
+1190 1029 A 35 GLY  HA% A 35 GLY    H 2.3 1.5999999999999999                3.0 1.0 
+1191 1030 A 36 LEU  HB% A 36 LEU    H 2.5                1.7                3.3 1.0 
+1192 1031 A 36 LEU  HB% A 36 LEU    H 3.4                1.9                4.9 1.0 
+1193 1032 A 36 LEU  HB% A 35 GLY    H 4.5                2.0                6.0 1.0 
+1194 1033 A 36 LEU  HB% A 35 GLY    H 3.3                0.0                6.0 1.0 
+1195 1034 A 36 LEU  HB% A 40 MET   HA 5.7 1.7000000000000002                6.0 1.0 
+1196 1035 A 36 LEU  HB% A 40 MET   HA 4.8                1.9                6.0 1.0 
+1197 1036 A 36 LEU   HA A 36 LEU    H 2.8 1.7999999999999998                3.8 1.0 
+1198 1037 A 36 LEU   HA A 37 ASP    H 2.1                1.6                2.6 1.0 
+1199 1038 A 36 LEU   HA A 38 SER    H 5.4 1.7000000000000002                6.0 1.0 
+1200 1039 A 36 LEU   HA A 36 LEU  HB% 2.6                1.8 3.4000000000000004 1.0 
+1201 1040 A 36 LEU   HA A 36 LEU  HB% 3.0                1.9                4.1 1.0 
+1202 1041 A 36 LEU   HA A 36 LEU HD1% 2.9 1.7999999999999998                4.0 1.0 
+1203 1042 A 36 LEU HD2% A 36 LEU  HB% 2.2                1.6 2.8000000000000003 1.0 
+1204 1043 A 36 LEU HD2% A 36 LEU  HB% 2.8 1.7999999999999998                3.8 1.0 
+1205 1044 A 36 LEU HD2% A 44 VAL HG2% 3.2 1.9000000000000001                4.5 1.0 
+1206 1045 A 36 LEU HD2% A 36 LEU   HG 2.3 1.5999999999999999                3.0 1.0 
+1207 1046 A 36 LEU HD2% A 40 MET  HB% 3.0                1.8                4.2 1.0 
+1208 1047 A 36 LEU HD1% A 44 VAL HG2% 3.1 1.9000000000000001                4.3 1.0 
+1209 1048 A 36 LEU HD1% A 36 LEU  HB% 2.5                1.7                3.3 1.0 
+1210 1049 A 36 LEU HD1% A 41 GLY  HA% 3.5                2.0                5.0 1.0 
+1211 1050 A 36 LEU HD2% A 62 ARG  HD% 4.4 2.0000000000000004                6.0 1.0 
+1212 1051 A 36 LEU HD2% A 41 GLY  HA% 3.0                1.8                4.2 1.0 
+1213 1052 A 36 LEU HD2% A 41 GLY  HA% 3.3                1.9  4.699999999999999 1.0 
+1214 1053 A 36 LEU HD2% A 62 ARG   HA 2.5                1.7                3.3 1.0 
+1215 1054 A 36 LEU HD2% A 36 LEU   HA 4.4 1.9000000000000004                6.0 1.0 
+1216 1055 A 36 LEU HD2% A 40 MET   HA 4.3                2.0                6.0 1.0 
+1217 1056 A 36 LEU HD2% A 31 LEU    H 4.9 1.9000000000000004                6.0 1.0 
+1218 1057 A 36 LEU HD2% A 32 ALA    H 3.8 1.9999999999999998                5.6 1.0 
+1219 1058 A 36 LEU HD2% A 38 SER    H 4.5                1.9                6.0 1.0 
+1220 1059 A 36 LEU HD2% A 37 ASP    H 4.5                2.0                6.0 1.0 
+1221 1060 A 36 LEU HD2% A 36 LEU    H 3.8 1.9999999999999998                5.6 1.0 
+1222 1061 A 36 LEU HD2% A 42 VAL    H 5.0                1.9                6.0 1.0 
+1223 1062 A 36 LEU HD1% A 38 SER    H 3.5                2.0                5.0 1.0 
+1224 1063 A 36 LEU HD1% A 36 LEU    H 4.3                2.0                6.0 1.0 
+1225 1064 A 36 LEU HD1% A 42 VAL    H 4.9 1.9000000000000004                6.0 1.0 
+1226 1065 A 36 LEU   HG A 36 LEU   HA 3.6                2.0                5.2 1.0 
+1227 1066 A 36 LEU   HG A 37 ASP    H 3.8 1.9999999999999998                5.6 1.0 
+1228 1067 A 36 LEU   HG A 36 LEU    H 4.0                2.0                6.0 1.0 
+1229 1068 A 36 LEU   HG A 38 SER    H 4.6 1.8999999999999995                6.0 1.0 
+1230 1069 A 37 ASP  HB% A 37 ASP    H 3.3 1.9999999999999998                4.6 1.0 
+1231 1070 A 37 ASP  HB% A 38 SER    H 5.9 1.6000000000000005                6.0 1.0 
+1232 1071 A 37 ASP  HB% A 36 LEU   HA 4.7 1.9000000000000004                6.0 1.0 
+1233 1072 A 37 ASP   HA A 38 SER    H 4.5                2.0                6.0 1.0 
+1234 1073 A 37 ASP   HA A 37 ASP    H 3.1 1.9000000000000001                4.3 1.0 
+1235 1074 A 39 LEU  HB% A 39 LEU   HA 3.0                1.9                4.1 1.0 
+1236 1075 A 39 LEU  HB% A 40 MET   HA 3.7                2.0                5.4 1.0 
+1237 1076 A 39 LEU  HB% A 41 GLY    H 4.4 2.0000000000000004                6.0 1.0 
+1238 1077 A 39 LEU  HB% A 40 MET    H 2.9 1.7999999999999998                4.0 1.0 
+1239 1078 A 39 LEU  HB% A 40 MET    H 3.7                2.0                5.4 1.0 
+1240 1079 A 39 LEU  HB% A 39 LEU    H 2.6                1.8 3.4000000000000004 1.0 
+1241 1080 A 39 LEU  HB% A 39 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+1242 1081 A 39 LEU   HA A 39 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+1243 1082 A 39 LEU   HA A 40 MET    H 3.4                2.0                4.8 1.0 
+1244 1083 A 39 LEU  HB% A 41 GLY    H 5.6 1.6999999999999997                6.0 1.0 
+1245 1084 A 39 LEU  HB% A 40 MET   HA 5.4 1.7000000000000002                6.0 1.0 
+1246 1085 A 39 LEU   HA A 39 LEU  HB% 2.3 1.5999999999999999                3.0 1.0 
+1247 1086 A 39 LEU   HA A 39 LEU HD2% 3.5                2.0                5.0 1.0 
+1248 1087 A 69 LEU   HA A 70 GLN    H 3.3 1.9999999999999998                4.6 1.0 
+1249 1088 A 39 LEU HD1% A 39 LEU   HA 2.4                1.7 3.0999999999999996 1.0 
+1250 1089 A 39 LEU HD1% A 39 LEU   HG 2.1                1.5                2.7 1.0 
+1251 1090 A 39 LEU HD2% A 39 LEU  HB% 2.7 1.8000000000000003                3.6 1.0 
+1252 1091 A 39 LEU HD2% A 39 LEU    H 4.2 1.9000000000000004                6.0 1.0 
+1253 1092 A 39 LEU HD2% A 42 VAL    H 4.7                2.0                6.0 1.0 
+1254 1093 A 39 LEU HD2% A 40 MET    H 4.9 1.9000000000000004                6.0 1.0 
+1255 1094 A 39 LEU HD2% A 43 GLU  HG% 5.2 1.8000000000000003                6.0 1.0 
+1256 1095 A 39 LEU   HG A 39 LEU   HA 2.9 1.7999999999999998                4.0 1.0 
+1257 1096 A 40 MET  HG% A 39 LEU HD2% 3.5                2.0                5.0 1.0 
+1258 1097 A 40 MET  HG% A 39 LEU HD2% 2.3                0.0                6.0 1.0 
+1259 1098 A 40 MET  HG% A 40 MET   HA 3.4                2.0                4.8 1.0 
+1260 1099 A 40 MET  HG% A 40 MET   HA 2.8 1.7999999999999998                3.8 1.0 
+1261 1100 A 40 MET  HG% A 40 MET    H 2.4                1.7 3.0999999999999996 1.0 
+1262 1101 A 40 MET  HG% A 40 MET    H 3.7                2.0                5.4 1.0 
+1263 1102 A 45 ARG  HG% A 45 ARG  HG% 2.1                1.5                2.7 1.0 
+1264 1103 A 45 ARG  HG% A 45 ARG    H 3.9                2.0                5.8 1.0 
+1265 1104 A 48 LEU   HA A 52 HIS  HB% 3.0                1.9                4.1 1.0 
+1266 1105 A 48 LEU   HA A 52 HIS  HB% 3.7                2.0                5.4 1.0 
+1267 1106 A 48 LEU   HA A 48 LEU  HB% 2.7 1.8000000000000003                3.6 1.0 
+1268 1107 A 48 LEU   HA A 48 LEU   HG 3.4                2.0                4.8 1.0 
+1269 1108 A 48 LEU   HA A 48 LEU  HB% 3.0                1.9                4.1 1.0 
+1270 1109 A 48 LEU   HA A 52 HIS    H 3.3 1.9999999999999998                4.6 1.0 
+1271 1110 A 48 LEU   HA A 47 ILE    H 4.3                2.0                6.0 1.0 
+1272 1111 A 48 LEU   HA A 48 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+1273 1112 A 48 LEU   HA A 51 GLU    H 3.8 1.9999999999999998                5.6 1.0 
+1274 1113 A 48 LEU   HA A 47 ILE HG2% 3.3 1.9999999999999998                4.6 1.0 
+1275 1114 A 48 LEU   HA A 48 LEU HD1% 2.3 1.5999999999999999                3.0 1.0 
+1276 1115 A 48 LEU  HB% A 45 ARG   HA 4.2                2.0                6.0 1.0 
+1277 1116 A 48 LEU  HB% A 48 LEU HD1% 2.5                1.7                3.3 1.0 
+1278 1117 A 48 LEU  HB% A 48 LEU    H 3.4                1.9                4.9 1.0 
+1279 1118 A 48 LEU   HG A 48 LEU    H 3.5                2.0                5.0 1.0 
+1280 1119 A 48 LEU HD1% A 52 HIS  HB% 3.7                2.0                5.4 1.0 
+1281 1120 A 48 LEU HD1% A 52 HIS  HB% 3.3                1.9  4.699999999999999 1.0 
+1282 1121 A 48 LEU HD1% A 48 LEU    H 3.5                2.0                5.0 1.0 
+1283 1122 A 48 LEU HD1% A 47 ILE    H 4.8                1.9                6.0 1.0 
+1284 1123 A 48 LEU HD1% A 52 HIS    H 4.6 1.9999999999999996                6.0 1.0 
+1285 1124 A 48 LEU HD1% A 48 LEU   HG 2.2                1.6 2.8000000000000003 1.0 
+1286 1125 A 36 LEU HD1% A 37 ASP    H 3.1 1.9000000000000001                4.3 1.0 
+1287 1126 A 49 GLU  HB% A 46 GLN   HA 2.9 1.7999999999999998                4.0 1.0 
+1288 1127 A 50 ARG  HG% A 50 ARG    H 3.5                1.9                5.1 1.0 
+1289 1128 A 50 ARG  HG% A 50 ARG    H 3.9                2.0                5.8 1.0 
+1290 1129 A 50 ARG  HD% A 50 ARG  HG% 2.5                1.7                3.3 1.0 
+1291 1130 A 53 ASP   HA A 53 ASP    H 2.0                1.5                2.5 1.0 
+1292 1131 A 53 ASP   HA A 53 ASP  HB% 2.5                1.7                3.3 1.0 
+1293 1132 A 53 ASP   HA A 53 ASP  HB% 2.7 1.8000000000000003                3.6 1.0 
+1294 1133 A 53 ASP  HB% A 53 ASP    H 3.5                2.0                5.0 1.0 
+1295 1134 A 53 ASP  HB% A 53 ASP    H 3.1 1.9000000000000001                4.3 1.0 
+1296 1135 A 54 LEU   HA A 54 LEU HD1% 2.6                1.8 3.4000000000000004 1.0 
+1297 1135 A 54 LEU   HA A 54 LEU HD2% 2.6                1.8 3.4000000000000004 1.0 
+1298 1136 A 54 LEU  HB% A 54 LEU    H 3.7                2.0                5.4 1.0 
+1299 1137 A 54 LEU  HB% A 54 LEU    H 2.4                1.7 3.0999999999999996 1.0 
+1300 1138 A 54 LEU  HB% A 55 VAL    H 3.8 1.9999999999999998                5.6 1.0 
+1301 1139 A 54 LEU  HB% A 55 VAL    H 4.4 2.0000000000000004                6.0 1.0 
+1302 1140 A 54 LEU  HB% A 54 LEU   HA 2.9 1.7999999999999998                4.0 1.0 
+1303 1141 A 54 LEU  HB% A 54 LEU   HA 2.7 1.8000000000000003                3.6 1.0 
+1304 1142 A 54 LEU  HB% A 52 HIS  HB% 3.4                2.0                4.8 1.0 
+1305 1143 A 54 LEU  HB% A 52 HIS  HB% 3.6                2.0                5.2 1.0 
+1306 1144 A 54 LEU  HB% A 48 LEU  HB% 3.4                2.0                4.8 1.0 
+1307 1145 A 54 LEU  HB% A 48 LEU   HG 4.6 1.8999999999999995                6.0 1.0 
+1308 1146 A 54 LEU  HB% A 48 LEU   HG 4.2                2.0                6.0 1.0 
+1309 1147 A 54 LEU  HB% A 48 LEU  HB% 4.5                2.0                6.0 1.0 
+1310 1148 A 54 LEU  HB% A 49 GLU   HA 4.6 1.8999999999999995                6.0 1.0 
+1311 1149 A 54 LEU  HB% A 49 GLU   HA 4.2                2.0                6.0 1.0 
+1312 1150 A 54 LEU  HB% A 48 LEU HD1% 3.9                2.0                5.8 1.0 
+1313 1151 A 54 LEU  HB% A 48 LEU HD1% 3.5                2.0                5.0 1.0 
+1314 1152 A 54 LEU  HB% A 54 LEU HD2% 2.7 1.8000000000000003                3.6 1.0 
+1315 1152 A 54 LEU  HB% A 54 LEU HD1% 2.7 1.8000000000000003                3.6 1.0 
+1316 1153 A 54 LEU  HB% A 54 LEU HD2% 2.4                1.7 3.0999999999999996 1.0 
+1317 1153 A 54 LEU  HB% A 54 LEU HD1% 2.4                1.7 3.0999999999999996 1.0 
+1318 1154 A 54 LEU  HB% A 48 LEU  HB% 5.1 1.8999999999999995                6.0 1.0 
+1319 1155 A 54 LEU  HB% A 48 LEU  HB% 3.3 1.9999999999999998                4.6 1.0 
+1320 1156 A 54 LEU   HA A 55 VAL    H 2.1                1.6                2.6 1.0 
+1321 1157 A 54 LEU HD1% A 54 LEU   HA 2.8                1.9 3.6999999999999997 1.0 
+1322 1158 A 54 LEU HD1% A 52 HIS  HB% 3.7                2.0                5.4 1.0 
+1323 1159 A 54 LEU HD1% A 52 HIS  HB% 4.9 2.0000000000000004                6.0 1.0 
+1324 1160 A 54 LEU HD1% A 51 GLU  HB% 2.1                0.0                6.0 1.0 
+1325 1161 A 54 LEU HD1% A 48 LEU  HB% 4.5                1.9                6.0 1.0 
+1326 1162 A 54 LEU HD1% A 54 LEU  HB% 3.2 1.9000000000000001                4.5 1.0 
+1327 1163 A 54 LEU HD1% A 54 LEU  HB% 3.0                1.9                4.1 1.0 
+1328 1164 A 54 LEU HD1% A 55 VAL    H 4.8                2.0                6.0 1.0 
+1329 1165 A 54 LEU   HG A 56 LEU HD2% 2.8 1.7999999999999998                3.8 1.0 
+1330 1166 A 54 LEU   HG A 54 LEU    H 4.3                1.9                6.0 1.0 
+1331 1167 A 54 LEU   HG A 55 VAL    H 4.8                1.9                6.0 1.0 
+1332 1168 A 54 LEU   HG A 54 LEU   HA 3.5                2.0                5.0 1.0 
+1333 1169 A 55 VAL   HA A 57 PRO  HG% 3.8 1.9999999999999998                5.6 1.0 
+1334 1170 A 55 VAL   HA A 55 VAL   HB 3.0                1.9                4.1 1.0 
+1335 1171 A 55 VAL   HA A 56 LEU  HB% 5.0                1.9                6.0 1.0 
+1336 1172 A 55 VAL   HB A 54 LEU   HA 4.6 1.8999999999999995                6.0 1.0 
+1337 1173 A 55 VAL   HA A 56 LEU    H 2.2                1.6 2.8000000000000003 1.0 
+1338 1174 A 55 VAL   HA A 55 VAL    H 2.9 1.7999999999999998                4.0 1.0 
+1339 1175 A 55 VAL   HB A 56 LEU    H 4.7                2.0                6.0 1.0 
+1340 1176 A 55 VAL HG1% A 56 LEU  HB% 5.6 1.5999999999999996                6.0 1.0 
+1341 1177 A 55 VAL HG2% A 53 ASP   HA 2.9                0.0                6.0 1.0 
+1342 1178 A 55 VAL   HA A 57 PRO  HD% 4.6 1.9999999999999996                6.0 1.0 
+1343 1179 A 56 LEU  HB% A 57 PRO  HG% 4.3                2.0                6.0 1.0 
+1344 1179 A 56 LEU  HB% A 57 PRO  HB% 4.3                2.0                6.0 1.0 
+1345 1180 A 56 LEU  HB% A 57 PRO  HB% 4.8                1.9                6.0 1.0 
+1346 1180 A 56 LEU  HB% A 57 PRO  HG% 4.8                1.9                6.0 1.0 
+1347 1181 A 56 LEU  HB% A 57 PRO  HG% 4.9 1.9000000000000004                6.0 1.0 
+1348 1182 A 56 LEU  HB% A 57 PRO  HD% 3.9                2.0                5.8 1.0 
+1349 1183 A 56 LEU  HB% A 56 LEU   HA 2.6                1.8 3.4000000000000004 1.0 
+1350 1184 A 56 LEU   HA A 57 PRO  HG% 4.4 2.0000000000000004                6.0 1.0 
+1351 1184 A 56 LEU   HA A 57 PRO  HB% 4.4 2.0000000000000004                6.0 1.0 
+1352 1185 A 56 LEU   HA A 56 LEU  HB% 3.1 1.9000000000000001                4.3 1.0 
+1353 1186 A 56 LEU   HA A 56 LEU HD1% 3.8 1.9999999999999998                5.6 1.0 
+1354 1187 A 56 LEU   HA A 56 LEU    H 2.9                1.9                3.9 1.0 
+1355 1188 A 56 LEU  HB% A 56 LEU    H 2.9                1.9                3.9 1.0 
+1356 1189 A 56 LEU  HB% A 56 LEU HD1% 2.9                1.9                3.9 1.0 
+1357 1190 A 56 LEU  HB% A 56 LEU HD1% 3.1 1.9000000000000001                4.3 1.0 
+1358 1191 A 56 LEU   HG A 56 LEU   HA 3.4                2.0                4.8 1.0 
+1359 1192 A 56 LEU   HG A 56 LEU    H 3.2                2.0                4.4 1.0 
+1360 1193 A 56 LEU HD2% A 56 LEU   HA 2.3 1.6999999999999997                2.9 1.0 
+1361 1194 A 61 VAL HG2% A 64 LEU    H 5.3 1.7999999999999998                6.0 1.0 
+1362 1195 A 61 VAL HG2% A 60 GLU    H 3.2 1.9000000000000001                4.5 1.0 
+1363 1196 A 56 LEU HD2% A 56 LEU    H 3.4                2.0                4.8 1.0 
+1364 1197 A 56 LEU HD2% A 55 VAL    H 3.6                2.0                5.2 1.0 
+1365 1198 A 61 VAL HG2% A 61 VAL    H 2.3 1.5999999999999999                3.0 1.0 
+1366 1199 A 56 LEU HD2% A 55 VAL   HB 2.7                0.0                6.0 1.0 
+1367 1200 A 56 LEU HD2% A 54 LEU   HA 4.0                2.0                6.0 1.0 
+1368 1201 A 58 ILE   HA A 61 VAL   HB 2.2                1.6 2.8000000000000003 1.0 
+1369 1202 A 58 ILE   HA A 58 ILE   HB 2.6 1.7000000000000002                3.5 1.0 
+1370 1203 A 58 ILE   HA A 58 ILE HG2% 2.5                1.7                3.3 1.0 
+1371 1204 A 58 ILE   HA A 58 ILE HD1% 2.6 1.7000000000000002                3.5 1.0 
+1372 1205 A 58 ILE   HA A 58 ILE    H 3.5                2.0                5.0 1.0 
+1373 1206 A 58 ILE   HA A 59 ARG    H 3.2 1.9000000000000001                4.5 1.0 
+1374 1207 A 58 ILE   HA A 61 VAL    H 2.8 1.7999999999999998                3.8 1.0 
+1375 1208 A 58 ILE   HA A 62 ARG    H 3.6                2.0                5.2 1.0 
+1376 1209 A 58 ILE   HA A 60 GLU    H 3.7                2.0                5.4 1.0 
+1377 1210 A 58 ILE   HB A 59 ARG  HD% 3.2 1.9000000000000001                4.5 1.0 
+1378 1211 A 58 ILE   HB A 58 ILE    H 2.8 1.7999999999999998                3.8 1.0 
+1379 1212 A 58 ILE   HB A 59 ARG    H 2.8 1.7999999999999998                3.8 1.0 
+1380 1213 A 58 ILE   HB A 58 ILE HD1% 2.9                1.9                3.9 1.0 
+1381 1214 A 58 ILE   HA A 61 VAL   HA 5.1 1.8999999999999995                6.0 1.0 
+1382 1215 A 58 ILE   HA A 59 ARG  HD% 4.0                2.0                6.0 1.0 
+1383 1216 A 58 ILE HG2% A 59 ARG  HD% 3.3                1.9  4.699999999999999 1.0 
+1384 1217 A 58 ILE HG2% A 62 ARG  HD% 2.9                1.9                3.9 1.0 
+1385 1218 A 58 ILE HG2% A 57 PRO  HB% 5.4 1.8000000000000003                6.0 1.0 
+1386 1219 A 58 ILE HG2% A 63 GLN HE2% 4.4 2.0000000000000004                6.0 1.0 
+1387 1220 A 58 ILE HG2% A 60 GLU    H 4.7 1.9000000000000004                6.0 1.0 
+1388 1221 A 58 ILE HG2% A 62 ARG    H 3.7                2.0                5.4 1.0 
+1389 1222 A 58 ILE HG2% A 58 ILE    H 4.2                2.0                6.0 1.0 
+1390 1223 A 58 ILE HG2% A 59 ARG    H 2.9                1.9                3.9 1.0 
+1391 1224 A 58 ILE HG2% A 58 ILE   HB 2.3 1.6999999999999997                2.9 1.0 
+1392 1225 A 58 ILE HG2% A 58 ILE HD1% 4.1 1.9999999999999996                6.0 1.0 
+1393 1226 A 60 GLU   HA A 60 GLU  HB% 2.4                1.7 3.0999999999999996 1.0 
+1394 1227 A 60 GLU   HA A 60 GLU  HG% 2.6                1.8 3.4000000000000004 1.0 
+1395 1228 A 60 GLU   HA A 63 GLN HE2% 3.0                1.9                4.1 1.0 
+1396 1229 A 60 GLU   HA A 60 GLU    H 2.8 1.7999999999999998                3.8 1.0 
+1397 1230 A 60 GLU  HB% A 60 GLU   HA 3.1 1.9000000000000001                4.3 1.0 
+1398 1231 A 60 GLU  HB% A 57 PRO  HD% 2.8 1.7999999999999998                3.8 1.0 
+1399 1232 A 60 GLU  HB% A 57 PRO  HD% 3.8                1.9  5.699999999999999 1.0 
+1400 1233 A 60 GLU  HB% A 60 GLU    H 2.4                1.7 3.0999999999999996 1.0 
+1401 1234 A 60 GLU  HB% A 56 LEU   HA 5.0                1.9                6.0 1.0 
+1402 1235 A 60 GLU  HB% A 56 LEU   HA 3.8 1.9999999999999998                5.6 1.0 
+1403 1236 A 60 GLU  HB% A 56 LEU  HB% 4.7 1.9000000000000004                6.0 1.0 
+1404 1237 A 60 GLU  HB% A 56 LEU  HB% 4.2                2.0                6.0 1.0 
+1405 1238 A 60 GLU  HB% A 61 VAL HG2% 2.8 1.7999999999999998                3.8 1.0 
+1406 1239 A 60 GLU  HB% A 60 GLU    H 3.4                1.9                4.9 1.0 
+1407 1240 A 60 GLU   HA A 61 VAL    H 3.3 1.9999999999999998                4.6 1.0 
+1408 1241 A 60 GLU  HB% A 61 VAL    H 3.4                2.0                4.8 1.0 
+1409 1242 A 61 VAL   HA A 61 VAL   HB 3.0                1.9                4.1 1.0 
+1410 1243 A 61 VAL   HA A 64 LEU   HG 2.3 1.5999999999999999                3.0 1.0 
+1411 1244 A 61 VAL   HA A 60 GLU  HB% 3.8 1.9999999999999998                5.6 1.0 
+1412 1245 A 61 VAL   HA A 62 ARG  HB% 5.0 1.7999999999999998                6.0 1.0 
+1413 1246 A 61 VAL   HA A 61 VAL HG1% 2.2                1.6 2.8000000000000003 1.0 
+1414 1247 A 61 VAL   HA A 64 LEU  HB% 4.8                2.0                6.0 1.0 
+1415 1248 A 61 VAL   HA A 63 GLN    H 4.1 1.9999999999999996                6.0 1.0 
+1416 1249 A 61 VAL   HA A 63 GLN HE2% 3.8 1.9999999999999998                5.6 1.0 
+1417 1250 A 61 VAL   HA A 61 VAL    H 2.7 1.8000000000000003                3.6 1.0 
+1418 1251 A 61 VAL   HA A 62 ARG    H 3.8 1.9999999999999998                5.6 1.0 
+1419 1252 A 61 VAL   HB A 60 GLU    H 4.3                2.0                6.0 1.0 
+1420 1253 A 61 VAL   HB A 61 VAL    H 2.3 1.5999999999999999                3.0 1.0 
+1421 1254 A 61 VAL   HB A 62 ARG    H 2.8 1.7999999999999998                3.8 1.0 
+1422 1255 A 61 VAL   HB A 61 VAL HG2% 2.1                1.5                2.7 1.0 
+1423 1256 A 61 VAL HG1% A 41 GLY  HA% 2.9 1.7999999999999998                4.0 1.0 
+1424 1257 A 61 VAL HG1% A 41 GLY  HA% 3.8 1.9999999999999998                5.6 1.0 
+1425 1258 A 61 VAL HG1% A 58 ILE   HA 3.6                2.0                5.2 1.0 
+1426 1259 A 61 VAL HG1% A 61 VAL   HB 2.2                1.6 2.8000000000000003 1.0 
+1427 1260 A 61 VAL HG1% A 62 ARG  HB% 3.8 1.9999999999999998                5.6 1.0 
+1428 1261 A 61 VAL HG2% A 61 VAL   HA 2.4                1.7 3.0999999999999996 1.0 
+1429 1262 A 61 VAL HG2% A 58 ILE   HA 3.2                2.0                4.4 1.0 
+1430 1263 A 61 VAL HG2% A 63 GLN    H 5.2 1.8000000000000003                6.0 1.0 
+1431 1264 A 61 VAL HG2% A 60 GLU  HB% 3.1 1.9000000000000001                4.3 1.0 
+1432 1265 A 61 VAL HG2% A 57 PRO  HD% 2.0                0.0                6.0 1.0 
+1433 1266 A 62 ARG   HA A 62 ARG  HG% 2.6                1.8 3.4000000000000004 1.0 
+1434 1266 A 62 ARG   HA A 62 ARG  HB% 2.6                1.8 3.4000000000000004 1.0 
+1435 1267 A 62 ARG   HA A 62 ARG  HG% 2.7 1.8000000000000003                3.6 1.0 
+1436 1268 A 62 ARG   HA A 58 ILE HG1% 2.5                0.0                6.0 1.0 
+1437 1269 A 62 ARG   HA A 31 LEU  HB% 3.6                2.0                5.2 1.0 
+1438 1270 A 62 ARG   HA A 62 ARG    H 2.6 1.7000000000000002                3.5 1.0 
+1439 1271 A 62 ARG   HA A 63 GLN HE2% 4.6 1.8999999999999995                6.0 1.0 
+1440 1272 A 62 ARG   HA A 32 ALA    H 3.3                1.9  4.699999999999999 1.0 
+1441 1273 A 62 ARG  HB% A 32 ALA  HB% 3.5                2.0                5.0 1.0 
+1442 1274 A 62 ARG  HB% A 62 ARG   HA 3.4                2.0                4.8 1.0 
+1443 1275 A 62 ARG  HB% A 62 ARG    H 3.4                1.9                4.9 1.0 
+1444 1276 A 62 ARG  HB% A 63 GLN    H 3.9                2.0                5.8 1.0 
+1445 1277 A 62 ARG  HB% A 36 LEU HD2% 4.3                2.0                6.0 1.0 
+1446 1278 A 62 ARG   HA A 63 GLN    H 3.2 1.9000000000000001                4.5 1.0 
+1447 1279 A 62 ARG  HD% A 62 ARG    H 4.7                2.0                6.0 1.0 
+1448 1280 A 62 ARG  HD% A 62 ARG    H 4.4 2.0000000000000004                6.0 1.0 
+1449 1281 A 62 ARG  HD% A 62 ARG   HA 5.1 1.8999999999999995                6.0 1.0 
+1450 1282 A 62 ARG  HD% A 32 ALA  HB% 4.8                1.9                6.0 1.0 
+1451 1283 A 62 ARG  HD% A 36 LEU HD2% 4.4 2.0000000000000004                6.0 1.0 
+1452 1284 A 62 ARG  HD% A 58 ILE HG2% 4.1 1.9999999999999996                6.0 1.0 
+1453 1285 A 62 ARG  HG% A 62 ARG   HA 3.0                1.9                4.1 1.0 
+1454 1286 A 62 ARG  HG% A 62 ARG  HD% 3.5                2.0                5.0 1.0 
+1455 1287 A 62 ARG  HG% A 62 ARG  HD% 3.0                1.9                4.1 1.0 
+1456 1288 A 62 ARG  HG% A 62 ARG  HD% 2.8 1.7999999999999998                3.8 1.0 
+1457 1289 A 62 ARG  HG% A 62 ARG  HD% 3.5                2.0                5.0 1.0 
+1458 1290 A 62 ARG  HG% A 62 ARG    H 3.3                1.9  4.699999999999999 1.0 
+1459 1291 A 62 ARG  HG% A 62 ARG    H 3.8 1.9999999999999998                5.6 1.0 
+1460 1292 A 63 GLN   HA A 65 THR HG2% 4.5                1.9                6.0 1.0 
+1461 1293 A 63 GLN   HA A 32 ALA  HB% 3.6                2.0                5.2 1.0 
+1462 1294 A 63 GLN   HA A 64 LEU HD2% 5.7 1.6000000000000005                6.0 1.0 
+1463 1294 A 63 GLN   HA A 64 LEU HD1% 5.7 1.6000000000000005                6.0 1.0 
+1464 1295 A 64 LEU  HB% A 65 THR    H 2.9 1.7999999999999998                4.0 1.0 
+1465 1296 A 64 LEU  HB% A 65 THR    H 3.5                2.0                5.0 1.0 
+1466 1297 A 64 LEU  HB% A 64 LEU    H 3.2 1.9000000000000001                4.5 1.0 
+1467 1298 A 64 LEU  HB% A 64 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+1468 1299 A 64 LEU  HB% A 31 LEU  HB% 4.4 2.0000000000000004                6.0 1.0 
+1469 1300 A 64 LEU  HB% A 31 LEU  HB% 3.5                2.0                5.0 1.0 
+1470 1301 A 64 LEU  HB% A 64 LEU HD1% 2.5                1.7                3.3 1.0 
+1471 1301 A 64 LEU  HB% A 64 LEU HD2% 2.5                1.7                3.3 1.0 
+1472 1302 A 64 LEU  HB% A 61 VAL   HA 5.5 1.7999999999999998                6.0 1.0 
+1473 1303 A 64 LEU   HA A 65 THR    H 2.1                1.6                2.6 1.0 
+1474 1304 A 64 LEU   HA A 64 LEU    H 2.6 1.7000000000000002                3.5 1.0 
+1475 1305 A 64 LEU   HA A 63 GLN HE2% 4.9 1.9000000000000004                6.0 1.0 
+1476 1306 A 64 LEU   HA A 64 LEU HD2% 2.1                1.6                2.6 1.0 
+1477 1306 A 64 LEU   HA A 64 LEU HD1% 2.1                1.6                2.6 1.0 
+1478 1307 A 64 LEU   HA A 64 LEU  HB% 2.8 1.7999999999999998                3.8 1.0 
+1479 1308 A 64 LEU   HA A 68 LYS  HD% 3.0                1.9                4.1 1.0 
+1480 1309 A 64 LEU   HA A 64 LEU  HB% 2.2                1.6 2.8000000000000003 1.0 
+1481 1310 A 64 LEU HD1% A 61 VAL   HA 3.2 1.9000000000000001                4.5 1.0 
+1482 1310 A 64 LEU HD2% A 61 VAL   HA 3.2 1.9000000000000001                4.5 1.0 
+1483 1311 A 64 LEU HD2% A 68 LYS  HD% 2.9                1.9                3.9 1.0 
+1484 1312 A 64 LEU HD2% A 64 LEU  HB% 2.1                1.6                2.6 1.0 
+1485 1312 A 64 LEU HD1% A 64 LEU  HB% 2.1                1.6                2.6 1.0 
+1486 1313 A 64 LEU HD2% A 68 LYS  HB% 2.7 1.8000000000000003                3.6 1.0 
+1487 1314 A 64 LEU HD2% A 64 LEU    H 3.4                1.9                4.9 1.0 
+1488 1314 A 64 LEU HD1% A 64 LEU    H 3.4                1.9                4.9 1.0 
+1489 1315 A 64 LEU HD2% A 65 THR    H 3.6                2.0                5.2 1.0 
+1490 1315 A 64 LEU HD1% A 65 THR    H 3.6                2.0                5.2 1.0 
+1491 1316 A 64 LEU HD2% A 69 LEU    H 4.3                2.0                6.0 1.0 
+1492 1316 A 64 LEU HD1% A 69 LEU    H 4.3                2.0                6.0 1.0 
+1493 1317 A 64 LEU   HG A 64 LEU   HA 3.6                2.0                5.2 1.0 
+1494 1318 A 64 LEU   HG A 64 LEU  HB% 2.8 1.7999999999999998                3.8 1.0 
+1495 1319 A 64 LEU   HG A 64 LEU HD1% 1.9                1.5                2.3 1.0 
+1496 1319 A 64 LEU   HG A 64 LEU HD2% 1.9                1.5                2.3 1.0 
+1497 1320 A 64 LEU   HG A 64 LEU    H 2.5                1.7                3.3 1.0 
+1498 1321 A 66 LEU HD2% A 69 LEU    H 4.7                2.0                6.0 1.0 
+1499 1322 A 67 ARG  HD% A 67 ARG   HA 4.2                2.0                6.0 1.0 
+1500 1323 A 68 LYS  HD% A 68 LYS   HA 3.8 1.9999999999999998                5.6 1.0 
+1501 1324 A 68 LYS  HD% A 71 GLU  HB% 4.8                1.9                6.0 1.0 
+1502 1325 A 68 LYS  HD% A 65 THR    H 3.5                2.0                5.0 1.0 
+1503 1326 A 68 LYS  HG% A 71 GLU  HB% 4.0                2.0                6.0 1.0 
+1504 1327 A 68 LYS  HG% A 64 LEU HD2% 3.0                1.9                4.1 1.0 
+1505 1328 A 68 LYS  HE% A 69 LEU    H 4.8                1.9                6.0 1.0 
+1506 1329 A 68 LYS  HE% A 64 LEU   HA 4.7 1.9000000000000004                6.0 1.0 
+1507 1330 A 68 LYS  HE% A 68 LYS  HB% 3.6                2.0                5.2 1.0 
+1508 1331 A 68 LYS  HE% A 68 LYS  HG% 2.5                1.7                3.3 1.0 
+1509 1332 A 68 LYS  HE% A 68 LYS  HD% 2.2                1.6 2.8000000000000003 1.0 
+1510 1333 A 68 LYS  HE% A 64 LEU HD2% 3.7                2.0                5.4 1.0 
+1511 1334 A 68 LYS  HE% A 65 THR HG2% 2.7                0.0                6.0 1.0 
+1512 1335 A 69 LEU   HA A 69 LEU  HB% 2.7 1.8000000000000003                3.6 1.0 
+1513 1336 A 69 LEU   HA A 69 LEU  HB% 2.3 1.5999999999999999                3.0 1.0 
+1514 1337 A 69 LEU   HA A 69 LEU HD1% 2.0                1.5                2.5 1.0 
+1515 1338 A 69 LEU   HA A 72 MET    H 3.3 1.9999999999999998                4.6 1.0 
+1516 1339 A 69 LEU   HA A 69 LEU    H 2.6 1.7000000000000002                3.5 1.0 
+1517 1340 A 69 LEU  HB% A 70 GLN    H 3.0                1.9                4.1 1.0 
+1518 1341 A 69 LEU  HB% A 69 LEU    H 2.4                1.7 3.0999999999999996 1.0 
+1519 1342 A 69 LEU  HB% A 70 GLN    H 2.8 1.7999999999999998                3.8 1.0 
+1520 1343 A 69 LEU  HB% A 69 LEU   HG 2.7 1.8000000000000003                3.6 1.0 
+1521 1344 A 69 LEU  HB% A 69 LEU   HG 2.6                1.8 3.4000000000000004 1.0 
+1522 1345 A 69 LEU  HB% A 69 LEU HD2% 2.2                1.6 2.8000000000000003 1.0 
+1523 1346 A 69 LEU   HG A 69 LEU   HA 3.5                2.0                5.0 1.0 
+1524 1347 A 69 LEU   HG A 69 LEU    H 3.6                2.0                5.2 1.0 
+1525 1348 A 69 LEU  HB% A 69 LEU    H 3.5                2.0                5.0 1.0 
+1526 1349 A 69 LEU HD2% A 69 LEU   HA 2.3 1.5999999999999999                3.0 1.0 
+1527 1350 A 69 LEU HD2% A 67 ARG  HD% 4.0                2.0                6.0 1.0 
+1528 1351 A 69 LEU HD2% A 69 LEU   HG 1.9                1.5                2.3 1.0 
+1529 1352 A 69 LEU HD2% A 69 LEU  HB% 2.9                1.9                3.9 1.0 
+1530 1353 A 69 LEU HD2% A 13 VAL HG2% 3.3 1.9999999999999998                4.6 1.0 
+1531 1354 A 69 LEU HD2% A 69 LEU    H 2.3 1.5999999999999999                3.0 1.0 
+1532 1355 A 69 LEU HD2% A 70 GLN    H 4.2                2.0                6.0 1.0 
+1533 1356 A 69 LEU HD2% A 65 THR    H 4.0                2.0                6.0 1.0 
+1534 1357 A 69 LEU HD1% A 69 LEU   HG 2.1                1.5                2.7 1.0 
+1535 1358 A 69 LEU HD1% A 70 GLN    H 4.9 1.9000000000000004                6.0 1.0 
+1536 1359 A 69 LEU HD1% A 69 LEU    H 3.8 1.9999999999999998                5.6 1.0 
+1537 1360 A 69 LEU HD1% A 69 LEU  HB% 2.5                1.7                3.3 1.0 
+1538 1361 A 70 GLN   HA A 69 LEU  HB% 4.1 1.9999999999999996                6.0 1.0 
+1539 1362 A 50 ARG   HA A 51 GLU    H 3.9                2.0                5.8 1.0 
+1540 1363 A 71 GLU   HA A 68 LYS  HG% 4.8                1.9                6.0 1.0 
+1541 1364 A 71 GLU  HG% A 71 GLU   HA 3.2 1.9000000000000001                4.5 1.0 
+1542 1365 A 71 GLU  HG% A 72 MET    H 3.3                1.9  4.699999999999999 1.0 
+1543 1366 A 71 GLU  HG% A 72 MET    H 3.2                0.0                6.0 1.0 
+1544 1367 A 71 GLU  HG% A 71 GLU   HA 2.9                1.9                3.9 1.0 
+1545 1368 A 71 GLU   HA A 70 GLN    H 5.0                1.9                6.0 1.0 
+1546 1369 A 12 ALA   HA A 15 HIS    H 3.5                1.9                5.1 1.0 
+1547 1370 A 12 ALA  HB% A 13 VAL   HA 4.0                2.0                6.0 1.0 
+1548 1371 A 12 ALA  HB% A 15 HIS  HB% 4.3                2.0                6.0 1.0 
+1549 1372 A 12 ALA  HB% A  7 ARG  HD% 2.9                1.9                3.9 1.0 
+1550 1373 A 12 ALA  HB% A 12 ALA   HA 2.2                1.6 2.8000000000000003 1.0 
+1551 1374 A 12 ALA  HB% A  9 LEU   HA 2.4                1.7 3.0999999999999996 1.0 
+1552 1375 A 12 ALA  HB% A 12 ALA    H 2.2                1.6 2.8000000000000003 1.0 
+1553 1376 A 12 ALA  HB% A 13 VAL    H 2.7 1.8000000000000003                3.6 1.0 
+1554 1377 A 12 ALA  HB% A 10 VAL    H 4.5                2.0                6.0 1.0 
+1555 1378 A 12 ALA  HB% A 11 LYS    H 3.8 1.9999999999999998                5.6 1.0 
+1556 1379 A 12 ALA  HB% A 14 ALA    H 4.7 1.9000000000000004                6.0 1.0 
+1557 1380 A 12 ALA   HA A 12 ALA    H 3.0                1.9                4.1 1.0 
+1558 1381 A 12 ALA   HA A 11 LYS    H 5.0                1.9                6.0 1.0 
+1559 1382 A 12 ALA  HB% A 11 LYS   HA 4.7                2.0                6.0 1.0 
+1560 1383 A 12 ALA  HB% A  7 ARG  HB% 2.5                0.0                6.0 1.0 
+1561 1384 A 12 ALA  HB% A  9 LEU HD1% 4.1 1.8999999999999995                6.0 1.0 
+1562 1385 A 12 ALA  HB% A  9 LEU HD2% 3.3                1.9  4.699999999999999 1.0 
+1563 1386 A 12 ALA  HB% A 15 HIS    H 5.0 1.7999999999999998                6.0 1.0 
+1564 1387 A 12 ALA  HB% A  9 LEU    H 5.2 1.8000000000000003                6.0 1.0 
+1565 1388 A 44 VAL   HB A 44 VAL   HA 2.9 1.7999999999999998                4.0 1.0 
+1566 1389 A 44 VAL   HA A 48 LEU   HG 4.0                2.0                6.0 1.0 
+1567 1390 A 44 VAL   HA A 44 VAL HG1% 2.4                1.7 3.0999999999999996 1.0 
+1568 1391 A 44 VAL   HA A 44 VAL HG2% 2.5                1.7                3.3 1.0 
+1569 1392 A 44 VAL   HA A 48 LEU    H 4.1 1.9999999999999996                6.0 1.0 
+1570 1393 A 44 VAL   HA A 47 ILE    H 3.2 1.9000000000000001                4.5 1.0 
+1571 1394 A 44 VAL   HA A 44 VAL    H 2.7 1.8000000000000003                3.6 1.0 
+1572 1395 A 44 VAL   HB A 44 VAL    H 2.3 1.5999999999999999                3.0 1.0 
+1573 1396 A 44 VAL   HB A 45 ARG   HE 4.1 1.9999999999999996                6.0 1.0 
+1574 1397 A 42 VAL   HA A 42 VAL   HB 2.9 1.7999999999999998                4.0 1.0 
+1575 1398 A 42 VAL   HA A 45 ARG  HB% 3.1 1.9000000000000001                4.3 1.0 
+1576 1399 A 42 VAL   HB A 39 LEU   HA 2.8 1.7999999999999998                3.8 1.0 
+1577 1400 A 42 VAL   HB A 42 VAL    H 2.1                1.6                2.6 1.0 
+1578 1401 A 42 VAL   HB A 44 VAL    H 4.6 1.9999999999999996                6.0 1.0 
+1579 1402 A 42 VAL   HA A 42 VAL    H 2.5                1.7                3.3 1.0 
+1580 1403 A 42 VAL   HA A 44 VAL    H 3.1 1.9000000000000001                4.3 1.0 
+1581 1404 A 42 VAL   HB A 42 VAL HG1% 2.2                1.6 2.8000000000000003 1.0 
+1582 1405 A 42 VAL HG1% A 42 VAL   HA 2.8 1.7999999999999998                3.8 1.0 
+1583 1406 A 42 VAL HG1% A 46 GLN  HG% 3.1 1.9000000000000001                4.3 1.0 
+1584 1407 A 42 VAL HG1% A 43 GLU  HG% 4.2                2.0                6.0 1.0 
+1585 1408 A 42 VAL HG1% A 43 GLU  HB% 4.1 1.9999999999999996                6.0 1.0 
+1586 1409 A 42 VAL HG1% A 43 GLU   HA 3.4                2.0                4.8 1.0 
+1587 1410 A 42 VAL HG1% A 42 VAL    H 3.6                2.0                5.2 1.0 
+1588 1411 A 42 VAL HG1% A 46 GLN HE2% 3.8 1.9999999999999998                5.6 1.0 
+1589 1412 A 42 VAL HG1% A 39 LEU   HG 4.7 1.9000000000000004                6.0 1.0 
+1590 1413 A 42 VAL HG2% A 42 VAL   HB 2.1                1.6                2.6 1.0 
+1591 1414 A 42 VAL HG2% A 42 VAL   HA 2.3 1.5999999999999999                3.0 1.0 
+1592 1415 A 42 VAL HG2% A 41 GLY  HA% 3.9                2.0                5.8 1.0 
+1593 1416 A 42 VAL HG2% A 45 ARG  HD% 4.1 1.8999999999999995                6.0 1.0 
+1594 1417 A 42 VAL HG2% A 43 GLU  HB% 4.9 1.9000000000000004                6.0 1.0 
+1595 1418 A 42 VAL HG2% A 39 LEU  HB% 4.2                2.0                6.0 1.0 
+1596 1419 A 42 VAL HG2% A 39 LEU   HG 3.8 1.9999999999999998                5.6 1.0 
+1597 1420 A 42 VAL HG2% A 39 LEU   HA 2.8 1.7999999999999998                3.8 1.0 
+1598 1421 A 42 VAL HG2% A 43 GLU   HA 4.6 1.8999999999999995                6.0 1.0 
+1599 1422 A 42 VAL HG2% A 38 SER    H 2.7                0.0                6.0 1.0 
+1600 1423 A 42 VAL HG2% A 42 VAL    H 2.0                1.5                2.5 1.0 
+1601 1424 A 42 VAL HG2% A 46 GLN    H 5.3 1.7999999999999998                6.0 1.0 
+1602 1425 A 42 VAL HG2% A 39 LEU    H 3.3 1.9999999999999998                4.6 1.0 
+1603 1426 A 42 VAL HG2% A 39 LEU HD1% 4.3                2.0                6.0 1.0 
+1604 1427 A 13 VAL   HB A 14 ALA    H 2.7 1.8000000000000003                3.6 1.0 
+1605 1428 A 13 VAL   HB A 13 VAL   HA 3.3                1.9  4.699999999999999 1.0 
+1606 1429 A 13 VAL   HB A 13 VAL    H 2.4                1.7 3.0999999999999996 1.0 
+1607 1430 A 13 VAL HG1% A 13 VAL   HA 2.5                1.7                3.3 1.0 
+1608 1431 A 13 VAL HG1% A  9 LEU   HA 5.2 1.8000000000000003                6.0 1.0 
+1609 1432 A 13 VAL HG1% A 13 VAL    H 3.6                2.0                5.2 1.0 
+1610 1433 A 13 VAL HG1% A 14 ALA    H 3.3 1.9999999999999998                4.6 1.0 
+1611 1434 A 44 VAL HG1% A 47 ILE    H 4.1 1.9999999999999996                6.0 1.0 
+1612 1435 A 44 VAL HG1% A 48 LEU    H 3.8 1.9999999999999998                5.6 1.0 
+1613 1436 A 44 VAL HG1% A 44 VAL    H 3.6                2.0                5.2 1.0 
+1614 1437 A 13 VAL HG1% A 17 LEU    H 4.2                2.0                6.0 1.0 
+1615 1438 A 13 VAL HG1% A 16 ILE    H 4.3                2.0                6.0 1.0 
+1616 1439 A 44 VAL HG1% A 43 GLU  HB% 4.8                2.0                6.0 1.0 
+1617 1440 A 44 VAL HG1% A 44 VAL   HB 2.2                1.6 2.8000000000000003 1.0 
+1618 1441 A 44 VAL HG1% A 47 ILE HG1% 3.5                1.9                5.1 1.0 
+1619 1442 A 13 VAL HG1% A 13 VAL   HB 2.1                1.5                2.7 1.0 
+1620 1443 A 13 VAL HG1% A 17 LEU   HG 3.0                1.9                4.1 1.0 
+1621 1444 A 13 VAL HG1% A 17 LEU  HB% 4.7 1.9000000000000004                6.0 1.0 
+1622 1445 A 13 VAL HG1% A 12 ALA  HB% 4.7                2.0                6.0 1.0 
+1623 1446 A 44 VAL HG1% A 48 LEU  HB% 4.1 1.8999999999999995                6.0 1.0 
+1624 1447 A 11 LYS  HB% A 11 LYS   HA 2.5                1.7                3.3 1.0 
+1625 1448 A 11 LYS  HB% A 11 LYS  HG% 2.3 1.5999999999999999                3.0 1.0 
+1626 1449 A 11 LYS  HB% A 10 VAL   HB 4.9 1.9000000000000004                6.0 1.0 
+1627 1450 A 11 LYS  HB% A 11 LYS    H 2.4                1.7 3.0999999999999996 1.0 
+1628 1451 A 11 LYS  HB% A 12 ALA    H 3.0                1.8                4.2 1.0 
+1629 1452 A 11 LYS  HB% A 10 VAL    H 4.7 1.9000000000000004                6.0 1.0 
+1630 1453 A 11 LYS  HE% A 11 LYS  HG% 2.8 1.7999999999999998                3.8 1.0 
+1631 1454 A 12 ALA  HB% A 13 VAL   HB 4.0                2.0                6.0 1.0 
+1632 1455 A 14 ALA  HB% A 14 ALA   HA 2.0                1.5                2.5 1.0 
+1633 1456 A 14 ALA  HB% A 15 HIS   HA 3.5                2.0                5.0 1.0 
+1634 1457 A 14 ALA  HB% A 15 HIS  HB% 3.9                2.0                5.8 1.0 
+1635 1458 A 14 ALA   HA A 17 LEU  HB% 3.9                2.0                5.8 1.0 
+1636 1459 A 14 ALA   HA A 19 ILE   HB 3.5                2.0                5.0 1.0 
+1637 1460 A 14 ALA   HA A 19 ILE HG1% 4.5                2.0                6.0 1.0 
+1638 1461 A 14 ALA   HA A 13 VAL HG1% 2.5                1.7                3.3 1.0 
+1639 1462 A 14 ALA   HA A 19 ILE HG2% 4.4 2.0000000000000004                6.0 1.0 
+1640 1463 A 14 ALA   HA A 14 ALA    H 2.5                1.7                3.3 1.0 
+1641 1464 A 14 ALA   HA A 15 HIS    H 3.1 1.9000000000000001                4.3 1.0 
+1642 1465 A 14 ALA   HA A 17 LEU    H 3.0                1.9                4.1 1.0 
+1643 1466 A 14 ALA   HA A 16 ILE    H 3.9                2.0                5.8 1.0 
+1644 1467 A 14 ALA  HB% A 11 LYS    H 2.7                0.0                6.0 1.0 
+1645 1468 A 14 ALA  HB% A 17 LEU    H 4.3                2.0                6.0 1.0 
+1646 1469 A 14 ALA  HB% A 16 ILE    H 4.1 1.9999999999999996                6.0 1.0 
+1647 1470 A 14 ALA  HB% A 13 VAL    H 3.9                2.0                5.8 1.0 
+1648 1471 A 14 ALA  HB% A 12 ALA    H 4.9 1.9000000000000004                6.0 1.0 
+1649 1472 A 14 ALA  HB% A 15 HIS    H 2.3 1.5999999999999999                3.0 1.0 
+1650 1473 A 14 ALA  HB% A 14 ALA    H 2.0                1.5                2.5 1.0 
+1651 1474 A 14 ALA  HB% A 12 ALA   HA 5.1 1.8999999999999995                6.0 1.0 
+1652 1475 A 14 ALA  HB% A 10 VAL HG2% 3.5                1.9                5.1 1.0 
+1653 1476 A 14 ALA  HB% A 19 ILE HD1% 2.7 1.8000000000000003                3.6 1.0 
+1654 1477 A 14 ALA  HB% A 13 VAL HG1% 2.8 1.7999999999999998                3.8 1.0 
+1655 1478 A 14 ALA  HB% A 13 VAL   HB 4.0                2.0                6.0 1.0 
+1656 1479 A 14 ALA  HB% A 19 ILE   HB 2.2                1.6 2.8000000000000003 1.0 
+1657 1480 A 41 GLY  HA% A 36 LEU   HG 5.6 1.6999999999999997                6.0 1.0 
+1658 1481 A 42 VAL   HA A 46 GLN    H 4.4 2.0000000000000004                6.0 1.0 
+1659 1482 A 42 VAL   HA A 43 GLU   HA 4.3                2.0                6.0 1.0 
+1660 1483 A 42 VAL   HA A 45 ARG   HA 5.0 1.7999999999999998                6.0 1.0 
+1661 1484 A 42 VAL   HA A 45 ARG  HB% 2.9 1.7999999999999998                4.0 1.0 
+1662 1485 A 42 VAL HG2% A 41 GLY  HA% 5.4 1.7000000000000002                6.0 1.0 
+1663 1486 A 42 VAL HG2% A 46 GLN  HG% 5.2 1.8000000000000003                6.0 1.0 
+1664 1487 A 46 GLN  HG% A 43 GLU   HA 4.7 1.9000000000000004                6.0 1.0 
+1665 1488 A 46 GLN  HG% A 50 ARG  HD% 4.8                1.9                6.0 1.0 
+1666 1489 A 46 GLN  HG% A 50 ARG  HD% 4.3                2.0                6.0 1.0 
+1667 1490 A 65 THR HG2% A 28 ASP    H 3.3                0.0                6.0 1.0 
+1668 1491 A 65 THR HG2% A 64 LEU  HB% 4.5                2.0                6.0 1.0 
+1669 1492 A 65 THR HG2% A 63 GLN  HB% 3.9                2.0                5.8 1.0 
+1670 1493 A 67 ARG  HD% A 69 LEU    H 5.3 1.7999999999999998                6.0 1.0 
+1671 1494 A 57 PRO  HG% A 60 GLU  HG% 4.3                1.9                6.0 1.0 
+1672 1495 A 31 LEU HD1% A 32 ALA    H 5.0                1.9                6.0 1.0 
+1673 1496 A 49 GLU   HA A 53 ASP  HB% 5.3                1.9                6.0 1.0 
+1674 1497 A 49 GLU   HA A 53 ASP  HB% 5.8 1.5999999999999996                6.0 1.0 
+1675 1498 A 55 VAL HG1% A 49 GLU    H 5.4 1.8000000000000003                6.0 1.0 
+1676 1499 A 55 VAL HG1% A 57 PRO  HD% 3.4                2.0                4.8 1.0 
+1677 1500 A 55 VAL HG1% A 59 ARG  HD% 5.5 1.7999999999999998                6.0 1.0 
+1678 1501 A 15 HIS  HB% A 14 ALA    H 4.9 1.9000000000000004                6.0 1.0 
+1679 1502 A 66 LEU  HB% A 66 LEU  HB% 1.8                1.4                2.2 1.0 
+1680 1503 A 72 MET  HG% A  9 LEU HD1% 5.0 1.7999999999999998                6.0 1.0 
+1681 1504 A 72 MET  HG% A  9 LEU HD1% 5.2 1.8000000000000003                6.0 1.0 
+1682 1505 A 72 MET  HG% A 68 LYS  HG% 4.3                2.0                6.0 1.0 
+1683 1506 A 72 MET  HG% A 68 LYS  HG% 3.8 1.9999999999999998                5.6 1.0 
+1684 1507 A 55 VAL HG2% A 56 LEU   HA 3.4                0.0                6.0 1.0 
+1685 1508 A 17 LEU HD1% A 19 ILE    H 5.6 1.5999999999999996                6.0 1.0 
+1686 1509 A 26 ASN  HB% A 29 SER  HB% 4.0                2.0                6.0 1.0 
+1687 1510 A 26 ASN  HB% A 29 SER  HB% 4.2                2.0                6.0 1.0 
+1688 1511 A 32 ALA  HB% A 30 SER    H 5.0                1.9                6.0 1.0 
+1689 1512 A  8 ASP  HB% A  7 ARG   HA 5.5 1.7000000000000002                6.0 1.0 
+1690 1513 A  8 ASP  HB% A  7 ARG   HA 4.6 1.8999999999999995                6.0 1.0 
+1691 1514 A 73 SER   HA A 73 SER    H 2.6                1.8 3.4000000000000004 1.0 
+1692 1515 A 73 SER   HA A 74 SER    H 3.0                1.9                4.1 1.0 
+1693 1516 A 73 SER   HA A  9 LEU HD1% 3.2 1.9000000000000001                4.5 1.0 
+1694 1517 A 73 SER   HA A  9 LEU  HB% 4.9 1.9000000000000004                6.0 1.0 
+1695 1518 A 73 SER   HA A 70 GLN    H 3.4                0.0                6.0 1.0 
+1696 1519 A 73 SER   HA A  9 LEU    H 5.6 1.5999999999999996                6.0 1.0 
+1697 1520 A 73 SER   HA A  9 LEU HD2% 4.0                2.0                6.0 1.0 
+1698 1521 A 10 VAL HG1% A 12 ALA    H 5.1 1.7999999999999998                6.0 1.0 
+1699 1522 A 10 VAL HG2% A  9 LEU    H 4.6 1.9999999999999996                6.0 1.0 
+1700 1523 A 10 VAL HG1% A 70 GLN    H 5.6 1.6999999999999997                6.0 1.0 
+1701 1524 A 10 VAL HG2% A 14 ALA    H 4.6 1.9999999999999996                6.0 1.0 
+1702 1525 A 10 VAL HG2% A 12 ALA    H 5.2 1.8000000000000003                6.0 1.0 
+1703 1526 A 10 VAL HG2% A 72 MET    H 5.0 1.7999999999999998                6.0 1.0 
+1704 1527 A 10 VAL HG2% A 70 GLN HE2% 4.7                2.0                6.0 1.0 
+1705 1528 A 10 VAL HG1% A 70 GLN HE2% 5.2 1.8000000000000003                6.0 1.0 
+1706 1529 A 10 VAL HG1% A 70 GLN HE2% 5.6 1.6999999999999997                6.0 1.0 
+1707 1530 A 10 VAL HG2% A 70 GLN HE2% 5.2 1.8000000000000003                6.0 1.0 
+1708 1531 A 10 VAL HG1% A 70 GLN  HG% 4.5                2.0                6.0 1.0 
+1709 1532 A 10 VAL HG1% A 70 GLN  HG% 5.8 1.5999999999999996                6.0 1.0 
+1710 1533 A 44 VAL HG1% A 44 VAL HG2% 2.0                1.5                2.5 1.0 
+1711 1534 A 44 VAL   HB A 48 LEU    H 5.0                1.9                6.0 1.0 
+1712 1535 A 44 VAL HG2% A 40 MET   HA 3.4                1.9                4.9 1.0 
+1713 1536 A 44 VAL HG2% A 40 MET  HB% 2.6                0.0                6.0 1.0 
+1714 1537 A 44 VAL HG2% A 40 MET  HB% 2.5                0.0                6.0 1.0 
+1715 1538 A 13 VAL HG2% A 16 ILE HG1% 4.8                1.9                6.0 1.0 
+1716 1539 A 44 VAL HG2% A 44 VAL    H 2.1                1.5                2.7 1.0 
+1717 1540 A 44 VAL HG2% A 45 ARG   HE 4.3                2.0                6.0 1.0 
+1718 1541 A 44 VAL HG1% A 42 VAL   HA 4.5                2.0                6.0 1.0 
+1719 1542 A 44 VAL HG1% A 40 MET   HA 5.1 1.8999999999999995                6.0 1.0 
+1720 1543 A 19 ILE HG2% A 21 ASP  HB% 5.6 1.6999999999999997                6.0 1.0 
+1721 1544 A 19 ILE HG2% A 25 ILE   HA 6.0                1.0                6.0 1.0 
+1722 1545 A 19 ILE HG2% A 25 ILE    H 6.0                1.0                6.0 1.0 
+1723 1546 A 19 ILE HG2% A 17 LEU    H 3.4                0.0                6.0 1.0 
+1724 1547 A 19 ILE HG2% A 24 GLY    H 5.5 1.7000000000000002                6.0 1.0 
+1725 1548 A 19 ILE HG2% A 26 ASN    H 6.0                0.0                6.0 1.0 
+1726 1549 A 34 LEU HD2% A 26 ASN  HB% 3.3                0.0                6.0 1.0 
+1727 1550 A 34 LEU HD2% A 33 ASP  HB% 3.4                2.0                4.8 1.0 
+1728 1551 A 54 LEU  HB% A 55 VAL   HA 4.4 2.0000000000000004                6.0 1.0 
+1729 1552 A 54 LEU  HB% A 55 VAL   HA 5.5 1.7999999999999998                6.0 1.0 
+1730 1553 A 14 ALA   HA A 13 VAL   HB 4.2                2.0                6.0 1.0 
+1731 1554 A 14 ALA   HA A 13 VAL    H 5.2 1.8000000000000003                6.0 1.0 
+1732 1555 A 22 LEU HD2% A 67 ARG   HA 3.9                2.0                5.8 1.0 
+1733 1556 A 22 LEU HD2% A 23 ALA   HA 5.1 1.7999999999999998                6.0 1.0 
+1734 1557 A 22 LEU HD2% A 25 ILE    H 5.7 1.6000000000000005                6.0 1.0 
+1735 1558 A 22 LEU HD2% A 23 ALA    H 5.5 1.7000000000000002                6.0 1.0 
+1736 1559 A 27 LEU HD1% A 26 ASN   HA 3.1                0.0                6.0 1.0 
+1737 1560 A 65 THR HG2% A 28 ASP  HB% 3.3                0.0                6.0 1.0 
+1738 1561 A 68 LYS  HD% A 64 LEU    H 3.6                2.0                5.2 1.0 
+1739 1561 A 68 LYS  HD% A 64 LEU    H 3.6                2.0                5.2 1.0 
+1740 1562 A 55 VAL HG1% A 57 PRO  HB% 5.3 1.7999999999999998                6.0 1.0 
+1741 1563 A 54 LEU HD1% A 54 LEU    H 3.8 1.9999999999999998                5.6 1.0 
+1742 1564 A 10 VAL HG2% A 70 GLN  HB% 2.4                1.7 3.0999999999999996 1.0 
+1743 1565 A 69 LEU  HB% A  9 LEU HD1% 4.0                2.0                6.0 1.0 
+1744 1566 A 58 ILE HG2% A 57 PRO   HA 5.4 1.8000000000000003                6.0 1.0 
+1745 1567 A 16 ILE HG2% A 15 HIS  HB% 5.8                1.5                6.0 1.0 
+1746 1568 A 16 ILE HG2% A 40 MET  HG% 3.1 1.9000000000000001                4.3 1.0 
+1747 1569 A 16 ILE HG2% A 40 MET  HG% 2.6                1.8 3.4000000000000004 1.0 
+1748 1570 A 66 LEU HD1% A 13 VAL    H 5.0                1.9                6.0 1.0 
+1749 1571 A 66 LEU HD1% A 65 THR   HA 5.1 1.7999999999999998                6.0 1.0 
+1750 1572 A 14 ALA  HB% A 20 ARG   HA 3.9                2.0                5.8 1.0 
+1751 1573 A 14 ALA  HB% A 22 LEU   HA 5.0 1.7999999999999998                6.0 1.0 
+1752 1574 A 14 ALA  HB% A 11 LYS  HE% 6.0 1.2000000000000002                6.0 1.0 
+1753 1575 A 14 ALA  HB% A 20 ARG  HD% 6.0 1.0999999999999996                6.0 1.0 
+1754 1576 A 14 ALA  HB% A 70 GLN  HG% 6.0                1.0                6.0 1.0 
+1755 1577 A 59 ARG  HG% A 60 GLU    H 4.7 1.9000000000000004                6.0 1.0 
+1756 1578 A 59 ARG  HG% A 60 GLU    H 4.6 1.8999999999999995                6.0 1.0 
+1757 1579 A 59 ARG  HG% A 58 ILE    H 4.6 1.9999999999999996                6.0 1.0 
+1758 1580 A 59 ARG  HG% A 57 PRO  HB% 6.0 1.5999999999999996                6.0 1.0 
+1759 1581 A  7 ARG  HG% A 75 LYS  HE% 3.6                2.0                5.2 1.0 
+1760 1582 A  9 LEU   HG A 75 LYS  HE% 3.2                0.0                6.0 1.0 
+1761 1583 A  7 ARG  HG% A 12 ALA    H 3.5                2.0                5.0 1.0 
+1762 1584 A 20 ARG  HG% A 67 ARG   HE 5.7 1.6000000000000005                6.0 1.0 
+1763 1585 A 36 LEU HD2% A 61 VAL   HB 3.8 1.9999999999999998                5.6 1.0 
+1764 1586 A 36 LEU HD1% A 40 MET   HA 3.9                2.0                5.8 1.0 
+1765 1587 A 34 LEU HD2% A 30 SER    H 3.5                2.0                5.0 1.0 
+1766 1588 A 34 LEU HD2% A 29 SER   HA 3.4                2.0                4.8 1.0 
+1767 1589 A 22 LEU HD2% A 10 VAL   HB 4.9 1.8000000000000003                6.0 1.0 
+1768 1590 A 68 LYS  HB% A 64 LEU    H 3.5                2.0                5.0 1.0 
+1769 1590 A 68 LYS  HB% A 64 LEU    H 3.5                2.0                5.0 1.0 
+1770 1591 A 12 ALA   HA A  7 ARG  HD% 3.7                2.0                5.4 1.0 
+1771 1592 A 27 LEU  HB% A 27 LEU    H 2.7 1.8000000000000003                3.6 1.0 
+1772 1593 A 70 GLN  HB% A  9 LEU HD2% 4.6 1.9999999999999996                6.0 1.0 
+1773 1594 A 36 LEU HD1% A 40 MET  HG% 5.1 1.8999999999999995                6.0 1.0 
+1774 1595 A 36 LEU HD1% A 40 MET  HG% 5.0                1.9                6.0 1.0 
+1775 1596 A 13 VAL HG2% A 14 ALA    H 3.9                2.0                5.8 1.0 
+1776 1597 A 13 VAL HG2% A 13 VAL    H 2.2                1.6 2.8000000000000003 1.0 
+1777 1598 A 13 VAL HG2% A 12 ALA    H 4.1 1.9999999999999996                6.0 1.0 
+1778 1599 A 13 VAL HG2% A 11 LYS    H 5.2 1.8000000000000003                6.0 1.0 
+1779 1600 A 13 VAL HG2% A 16 ILE    H 5.5 1.7000000000000002                6.0 1.0 
+1780 1601 A 13 VAL HG2% A  9 LEU   HA 3.2 1.9000000000000001                4.5 1.0 
+1781 1602 A 13 VAL HG2% A 10 VAL   HA 3.6                2.0                5.2 1.0 
+1782 1603 A 13 VAL HG2% A 12 ALA  HB% 2.6                1.8 3.4000000000000004 1.0 
+1783 1604 A 13 VAL HG2% A  9 LEU  HB% 3.3 1.9999999999999998                4.6 1.0 
+1784 1605 A 13 VAL HG2% A  9 LEU HD1% 3.3 1.9999999999999998                4.6 1.0 
+1785 1606 A 58 ILE   HA A 58 ILE HG1% 3.6                2.0                5.2 1.0 
+1786 1607 A 58 ILE HG1% A 58 ILE    H 4.1 1.9999999999999996                6.0 1.0 
+1787 1608 A 58 ILE HG1% A 58 ILE    H 4.9 1.9000000000000004                6.0 1.0 
+1788 1609 A 58 ILE HG1% A 58 ILE   HB 2.6 1.7000000000000002                3.5 1.0 
+1789 1610 A 58 ILE HG1% A 58 ILE   HB 2.8                1.9 3.6999999999999997 1.0 
+1790 1610 A 58 ILE HG1% A 58 ILE   HB 2.8                1.9 3.6999999999999997 1.0 
+1791 1611 A 58 ILE HG1% A 58 ILE HG2% 2.9                1.9                3.9 1.0 
+1792 1612 A 58 ILE HG1% A 58 ILE HG2% 2.6                1.8 3.4000000000000004 1.0 
+1793 1613 A 58 ILE HG1% A 59 ARG  HD% 4.4 2.0000000000000004                6.0 1.0 
+1794 1614 A 58 ILE HD1% A 61 VAL    H 4.6 1.9999999999999996                6.0 1.0 
+1795 1615 A 58 ILE HD1% A 62 ARG    H 5.3 1.7999999999999998                6.0 1.0 
+1796 1616 A 58 ILE HD1% A 58 ILE    H 3.5                0.0                6.0 1.0 
+1797 1617 A 58 ILE HD1% A 59 ARG    H 5.3 1.6999999999999997                6.0 1.0 
+1798 1618 A 58 ILE HD1% A 59 ARG  HD% 3.6                2.0                5.2 1.0 
+1799 1619 A 58 ILE HD1% A 57 PRO  HD% 3.7                0.0                6.0 1.0 
+1800 1620 A 73 SER  HB% A 73 SER    H 2.5                1.7                3.3 1.0 
+1801 1621 A 73 SER  HB% A 73 SER    H 3.1 1.9000000000000001                4.3 1.0 
+1802 1622 A 73 SER  HB% A  9 LEU HD1% 4.0                2.0                6.0 1.0 
+1803 1623 A 73 SER  HB% A  9 LEU HD1% 3.9                2.0                5.8 1.0 
+1804 1624 A 73 SER  HB% A  9 LEU HD2% 4.1 1.9999999999999996                6.0 1.0 
+1805 1625 A 73 SER  HB% A 10 VAL HG2% 3.1                0.0                6.0 1.0 
+1806 1626 A 73 SER  HB% A 10 VAL HG2% 3.2                0.0                6.0 1.0 
+1807 1627 A 73 SER  HB% A  9 LEU    H 3.8 1.9999999999999998                5.6 1.0 
+1808 1628 A 73 SER  HB% A 74 SER    H 3.8 1.9999999999999998                5.6 1.0 
+1809 1629 A 57 PRO  HD% A 56 LEU    H 4.2                2.0                6.0 1.0 
+1810 1630 A 57 PRO  HD% A 56 LEU    H 3.2                0.0                6.0 1.0 
+1811 1631 A 57 PRO  HB% A 58 ILE    H 3.5                2.0                5.0 1.0 
+1812 1632 A 57 PRO  HB% A 56 LEU   HA 5.4 1.8000000000000003                6.0 1.0 
+1813 1633 A 57 PRO  HB% A 59 ARG  HB% 5.4 1.8000000000000003                6.0 1.0 
+1814 1634 A  9 LEU HD2% A  8 ASP   HA 4.8                1.9                6.0 1.0 
+1815 1635 A  9 LEU HD1% A 69 LEU  HB% 4.7                2.0                6.0 1.0 
+1816 1636 A  9 LEU HD2% A 73 SER  HB% 4.2                2.0                6.0 1.0 
+1817 1637 A  9 LEU HD1% A  6 GLN HE2% 3.9                2.0                5.8 1.0 
+1818 1638 A  9 LEU HD1% A 72 MET    H 4.2                2.0                6.0 1.0 
+1819 1639 A  9 LEU HD1% A 73 SER    H 4.9 1.9000000000000004                6.0 1.0 
+1820 1640 A  9 LEU HD1% A  9 LEU    H 4.0                2.0                6.0 1.0 
+1821 1641 A  9 LEU   HG A  9 LEU    H 2.9                1.9                3.9 1.0 
+1822 1642 A 19 ILE HG1% A 19 ILE HG1% 1.5                1.2                2.2 1.0 
+1823 1643 A 74 SER  HB% A 54 LEU HD2% 4.1 1.9999999999999996                6.0 1.0 
+1824 1644 A 31 LEU    H A 30 SER    H 5.1 1.7999999999999998                6.0 1.0 
+1825 1645 A 27 LEU    H A 27 LEU   HA 3.0                1.9                4.1 1.0 
+1826 1646 A 60 GLU    H A 59 ARG    H 2.3 1.5999999999999999                3.0 1.0 
+1827 1647 A 60 GLU    H A 58 ILE    H 4.2                2.0                6.0 1.0 
+1828 1648 A 60 GLU    H A 61 VAL    H 2.1                1.6                2.6 1.0 
+1829 1649 A 29 SER    H A 28 ASP    H 2.3 1.5999999999999999                3.0 1.0 
+1830 1650 A 29 SER    H A 27 LEU    H 4.6 1.8999999999999995                6.0 1.0 
+1831 1651 A 29 SER    H A 30 SER    H 4.5                1.9                6.0 1.0 
+1832 1652 A 14 ALA    H A 15 HIS    H 2.7 1.8000000000000003                3.6 1.0 
+1833 1653 A 14 ALA    H A 17 LEU    H 4.7 1.9000000000000004                6.0 1.0 
+1834 1654 A  9 LEU    H A 10 VAL    H 2.7 1.8000000000000003                3.6 1.0 
+1835 1655 A 10 VAL    H A 12 ALA    H 3.5                2.0                5.0 1.0 
+1836 1656 A 10 VAL    H A 13 VAL    H 4.6 1.9999999999999996                6.0 1.0 
+1837 1657 A 10 VAL    H A 11 LYS    H 2.3 1.5999999999999999                3.0 1.0 
+1838 1658 A 11 LYS    H A 15 HIS    H 5.0                1.9                6.0 1.0 
+1839 1659 A 11 LYS    H A 12 ALA    H 2.4                1.7 3.0999999999999996 1.0 
+1840 1660 A 11 LYS    H A  9 LEU    H 4.5                2.0                6.0 1.0 
+1841 1661 A 11 LYS    H A 13 VAL    H 4.5                2.0                6.0 1.0 
+1842 1662 A 12 ALA    H A 13 VAL    H 2.2                1.6 2.8000000000000003 1.0 
+1843 1663 A 12 ALA    H A 14 ALA    H 4.7 1.9000000000000004                6.0 1.0 
+1844 1664 A 13 VAL    H A 14 ALA    H 2.3 1.5999999999999999                3.0 1.0 
+1845 1665 A 13 VAL    H A 12 ALA   HA 3.7                2.0                5.4 1.0 
+1846 1666 A 13 VAL    H A  9 LEU   HA 4.2                2.0                6.0 1.0 
+1847 1667 A 13 VAL    H A 13 VAL   HA 2.7 1.8000000000000003                3.6 1.0 
+1848 1668 A 13 VAL    H A 10 VAL   HA 3.2 1.9000000000000001                4.5 1.0 
+1849 1669 A 17 LEU    H A 15 HIS    H 4.0                2.0                6.0 1.0 
+1850 1670 A 21 ASP    H A 20 ARG    H 1.8                1.4                2.2 1.0 
+1851 1671 A 23 ALA    H A 25 ILE    H 6.0 1.2000000000000002                6.0 1.0 
+1852 1672 A 23 ALA    H A 22 LEU    H 2.4                1.7 3.0999999999999996 1.0 
+1853 1673 A 24 GLY    H A 25 ILE    H 2.5                1.7                3.3 1.0 
+1854 1674 A 24 GLY    H A 22 LEU    H 5.0                1.9                6.0 1.0 
+1855 1675 A 25 ILE    H A 26 ASN    H 4.1 1.9999999999999996                6.0 1.0 
+1856 1676 A 25 ILE    H A 22 LEU    H 6.0 1.0999999999999996                6.0 1.0 
+1857 1677 A 26 ASN    H A 26 ASN HD2% 4.5                1.9                6.0 1.0 
+1858 1678 A 26 ASN    H A 26 ASN HD2% 4.6 1.9999999999999996                6.0 1.0 
+1859 1679 A 26 ASN    H A 27 LEU    H 4.3                2.0                6.0 1.0 
+1860 1680 A 28 ASP    H A 27 LEU    H 2.5                1.7                3.3 1.0 
+1861 1681 A 28 ASP    H A 26 ASN HD2% 4.8                1.9                6.0 1.0 
+1862 1682 A 30 SER    H A 33 ASP    H 4.0                2.0                6.0 1.0 
+1863 1683 A 32 ALA    H A 33 ASP    H 2.8 1.7999999999999998                3.8 1.0 
+1864 1684 A 32 ALA    H A 35 GLY    H 4.7                2.0                6.0 1.0 
+1865 1685 A 32 ALA    H A 36 LEU    H 5.7 1.6000000000000005                6.0 1.0 
+1866 1686 A 33 ASP    H A 35 GLY    H 3.4                2.0                4.8 1.0 
+1867 1687 A 33 ASP    H A 36 LEU    H 5.3 1.7999999999999998                6.0 1.0 
+1868 1688 A 33 ASP    H A 31 LEU    H 4.9 1.9000000000000004                6.0 1.0 
+1869 1689 A 34 LEU    H A 33 ASP    H 2.7 1.8000000000000003                3.6 1.0 
+1870 1690 A 34 LEU    H A 32 ALA    H 4.2 1.9000000000000004                6.0 1.0 
+1871 1691 A 34 LEU    H A 30 SER    H 4.1 1.9999999999999996                6.0 1.0 
+1872 1692 A 34 LEU    H A 36 LEU    H 4.4 2.0000000000000004                6.0 1.0 
+1873 1693 A 38 SER    H A 39 LEU    H 2.6 1.7000000000000002                3.5 1.0 
+1874 1694 A 45 ARG    H A 48 LEU    H 3.4                0.0                6.0 1.0 
+1875 1695 A 46 GLN    H A 47 ILE    H 2.5                1.7                3.3 1.0 
+1876 1696 A 47 ILE    H A 48 LEU    H 2.0                1.5                2.5 1.0 
+1877 1697 A 54 LEU    H A 55 VAL    H 4.0                2.0                6.0 1.0 
+1878 1698 A 56 LEU    H A 55 VAL    H 4.2                2.0                6.0 1.0 
+1879 1699 A 59 ARG    H A 58 ILE    H 2.6 1.7000000000000002                3.5 1.0 
+1880 1700 A 61 VAL    H A 59 ARG    H 3.7                2.0                5.4 1.0 
+1881 1701 A 61 VAL    H A 58 ILE    H 4.6 1.8999999999999995                6.0 1.0 
+1882 1702 A 61 VAL    H A 63 GLN    H 4.7                2.0                6.0 1.0 
+1883 1703 A 62 ARG    H A 63 GLN HE2% 3.5                2.0                5.0 1.0 
+1884 1704 A 62 ARG    H A 63 GLN    H 2.6                1.8 3.4000000000000004 1.0 
+1885 1705 A 63 GLN    H A 64 LEU    H 1.5                1.2                2.2 1.0 
+1886 1706 A 64 LEU    H A 61 VAL    H 5.0 1.7999999999999998                6.0 1.0 
+1887 1707 A 64 LEU    H A 65 THR    H 4.5                2.0                6.0 1.0 
+1888 1708 A 66 LEU    H A 69 LEU    H 4.6 1.8999999999999995                6.0 1.0 
+1889 1709 A 66 LEU    H A 67 ARG    H 3.2 1.9000000000000001                4.5 1.0 
+1890 1710 A 67 ARG    H A 67 ARG   HE 6.0 1.4000000000000004                6.0 1.0 
+1891 1711 A 67 ARG    H A 70 GLN    H 5.5 1.7000000000000002                6.0 1.0 
+1892 1712 A 67 ARG    H A 68 LYS    H 2.6                1.8 3.4000000000000004 1.0 
+1893 1713 A 68 LYS    H A 66 LEU    H 4.2                2.0                6.0 1.0 
+1894 1714 A 70 GLN    H A 71 GLU    H 2.2                1.6 2.8000000000000003 1.0 
+1895 1715 A 71 GLU    H A 73 SER    H 4.9 1.9000000000000004                6.0 1.0 
+1896 1716 A 74 SER    H A 75 LYS    H 2.9                1.9                3.9 1.0 
+1897 1717 A 74 SER    H A 73 SER    H 2.5                1.7                3.3 1.0 
+1898 1718 A 78 SER    H A 79 ASP    H 3.3                1.9  4.699999999999999 1.0 
+1899 1719 A 78 SER    H A 77 GLY    H 3.5                2.0                5.0 1.0 
+1900 1720 A 80 THR    H A 79 ASP    H 3.5                2.0                5.0 1.0 
+1901 1721 A 80 THR    H A 81 GLU    H 3.0                1.9                4.1 1.0 
+1902 1722 A 86 LYS    H A 85 PRO   HA 2.4                1.7 3.0999999999999996 1.0 
+1903 1723 A 87 SER    H A 85 PRO   HA 4.7 1.9000000000000004                6.0 1.0 
+1904 1724 A 87 SER    H A 86 LYS   HA 2.7 1.8000000000000003                3.6 1.0 
+1905 1725 A 88 LYS    H A 87 SER   HA 2.8 1.7999999999999998                3.8 1.0 
+1906 1726 A  4 GLU    H A  3 GLY    H 4.2                2.0                6.0 1.0 
+1907 1727 A 32 ALA    H A 65 THR HG2% 6.0 1.2999999999999998                6.0 1.0 
+stop_
+save_
+save_nef_dihedral_restraint_list_1
+_nef_dihedral_restraint_list.sf_category  nef_dihedral_restraint_list
+_nef_dihedral_restraint_list.sf_framecode  nef_dihedral_restraint_list_1
+_nef_dihedral_restraint_list.potential_type  square-well-parabolic
+loop_
+_nef_dihedral_restraint.index
+_nef_dihedral_restraint.restraint_id
+_nef_dihedral_restraint.chain_code_1
+_nef_dihedral_restraint.sequence_code_1
+_nef_dihedral_restraint.residue_name_1
+_nef_dihedral_restraint.atom_name_1
+_nef_dihedral_restraint.chain_code_2
+_nef_dihedral_restraint.sequence_code_2
+_nef_dihedral_restraint.residue_name_2
+_nef_dihedral_restraint.atom_name_2
+_nef_dihedral_restraint.chain_code_3
+_nef_dihedral_restraint.sequence_code_3
+_nef_dihedral_restraint.residue_name_3
+_nef_dihedral_restraint.atom_name_3
+_nef_dihedral_restraint.chain_code_4
+_nef_dihedral_restraint.sequence_code_4
+_nef_dihedral_restraint.residue_name_4
+_nef_dihedral_restraint.atom_name_4
+_nef_dihedral_restraint.weight
+_nef_dihedral_restraint.target_value
+_nef_dihedral_restraint.lower_limit
+_nef_dihedral_restraint.upper_limit
+stop_
+save_
