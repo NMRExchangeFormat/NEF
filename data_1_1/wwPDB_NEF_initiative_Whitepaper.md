@@ -15,7 +15,7 @@ Additional or missing atoms for each residue can be indicated with the use of a 
 (INITIAL SUGGESTION: _nef_distance_restraint_list.calculation_use  True/False)
 
 6. Possible extension of current NEF format to include non-mandatory saveframes carrying ligand topology information. This would also require consultation with biomolecular structure calculation software developers to ensure their needs are met.
-Chan naming issue - comment
+
 
 
 # Observation from the first (read in - write out) round of deposited NEF files.
