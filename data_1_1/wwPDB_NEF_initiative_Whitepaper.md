@@ -20,17 +20,17 @@ Additional or missing atoms for each residue can be indicated with the use of a 
 
 # Observation from the first (read in - write out) round of deposited NEF files.
 
-1. Mandatory tags
+1. Mandatory tags.
 A valid NEF file suitable for OneDep system must contain 'nef_nmr_meta_data', 'nef_molecular_system' and 'nef_chemical_shift_list' saveframes. Each NEF saveframe has a number of mandatory tags (listed in Commented_Example.nef and mmcif_nef.dic). The NEF file  must also list all mandatory tags from present saveframes. For instance, _nef_distance_restraint is a non mandatory saveframe, however if it is listed in a NEF file then it must contain all the mandatory tags for this saveframe.
 
-2. Non-mandatory tags
+2. Non-mandatory tags.
 Although it would be desirable if all tags read into a program were also, either processed by the software or left unchanged, outputted in the new NEF file, it is not essential to list non- mandatory tags. 
 As an example the optional tag '_nef_distance_restraint.restraint_origin' can currently be dropped from a generated NEF file. However, the current round indicates the need for a future discussion on some elements of the NEF standard, to enhance, clarify and remedy some issues. 
 
 3. Tag names.
 It is critical that all NEF tags have the correct names when a new NEF file is outputted in order for other software to use the information correctly.
 
-4. Addition of new data
+4. Addition of new data.
 As NEF is an extendable format it offers the possibility to add new data. For instance a score, or comment for each _nef_distance_restraint can be added to pre-existing save_nef_distance_restraint_list saveframe as: 
 
     _nef_distance_restraint.nmrProgram_comment
