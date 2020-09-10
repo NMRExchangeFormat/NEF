@@ -6,9 +6,9 @@ save_nef_nmr_meta_data
     _nef_nmr_meta_data.format_name           nmr_exchange_format 
     _nef_nmr_meta_data.format_version        1.1 
     _nef_nmr_meta_data.program_name          PDBStat 
-    _nef_nmr_meta_data.program_version       5.20.2-exp 
-    _nef_nmr_meta_data.creation_date         2020-03-19_00:54:18 
-    _nef_nmr_meta_data.uuid                  1584575658 
+    _nef_nmr_meta_data.program_version       5.20.4-exp 
+    _nef_nmr_meta_data.creation_date         2020-06-29_13:02:02 
+    _nef_nmr_meta_data.uuid                  1593428522 
     _nef_nmr_meta_data.coordinate_file_name  . 
 save_ 
 
@@ -140,7 +140,7 @@ save_nef_molecular_system
      111        A     111       GLU middle         .           
      112        A     112       LEU middle         .           
      113        A     113       GLU middle         .           
-     114        A     114       HIS middle         .           
+     114        A     114       HIS middle         -HD1,+HE2           
      115        A     115       ALA middle         .           
      116        A     116       THR middle         .           
      117        A     117       THR middle         .           
@@ -3977,21 +3977,21 @@ save_nef_distance_restraint_list_2luz.mr
          1763    1763    .       A       98      GLU     H       A       114     HIS     HA      1.0     4.000   .       1.800   5.000  
          1764    1764    .       A       98      GLU     H       A       98      GLU     HG%     1.0     4.000   .       1.800   6.000  
          1765    1765    .       A       98      GLU     HG%     A       99      LEU     H       1.0     4.000   .       1.800   5.000  
-         1766    1766    .       A       99      LEU     H       A       99      LEU     HDx%    1.0     4.000   .       1.800   5.000  
-         1767    1767    .       A       99      LEU     H       A       99      LEU     HDy%    1.0     4.000   .       1.800   5.000  
+         1766    1766    .       A       99      LEU     H       A       99      LEU     HD1%    1.0     4.000   .       1.800   5.000  
+         1767    1767    .       A       99      LEU     H       A       99      LEU     HD2%    1.0     4.000   .       1.800   5.000  
          1768    1768    .       A       99      LEU     HA      A       100     ARG     H       1.0     3.000   .       1.800   3.500  
          1769    1769    .       A       99      LEU     HA      A       112     LEU     HA      1.0     4.000   .       1.800   5.000  
          1770    1770    .       A       99      LEU     HA      A       112     LEU     HG      1.0     4.000   .       1.800   5.000  
          1771    1771    .       A       99      LEU     HA      A       112     LEU     HD1%    1.0     4.000   .       1.800   5.000  
          1772    1772    .       A       99      LEU     HA      A       113     GLU     H       1.0     4.000   .       1.800   5.000  
-         1773    1773    .       A       99      LEU     HA      A       99      LEU     HDx%    1.0     4.000   .       1.800   5.000  
-         1774    1774    .       A       99      LEU     HA      A       99      LEU     HDy%    1.0     4.000   .       1.800   5.000  
+         1773    1773    .       A       99      LEU     HA      A       99      LEU     HD1%    1.0     4.000   .       1.800   5.000  
+         1774    1774    .       A       99      LEU     HA      A       99      LEU     HD2%    1.0     4.000   .       1.800   5.000  
          1775    1775    .       A       99      LEU     HA      A       99      LEU     HD%     1.0     3.000   .       1.800   3.500  
          1776    1776    .       A       99      LEU     HG      A       100     ARG     H       1.0     4.000   .       1.800   6.000  
          1777    1777    .       A       99      LEU     HG      A       112     LEU     HD1%    1.0     4.000   .       1.800   5.000  
          1778    1778    .       A       99      LEU     HB%     A       112     LEU     HD1%    1.0     4.000   .       1.800   5.000  
-         1779    1779    .       A       99      LEU     HDx%    A       100     ARG     H       1.0     4.000   .       1.800   5.000  
-         1780    1780    .       A       99      LEU     HDy%    A       100     ARG     H       1.0     4.000   .       1.800   5.000  
+         1779    1779    .       A       99      LEU     HD1%    A       100     ARG     H       1.0     4.000   .       1.800   5.000  
+         1780    1780    .       A       99      LEU     HD2%    A       100     ARG     H       1.0     4.000   .       1.800   5.000  
          1781    1781    .       A       99      LEU     HD%     A       100     ARG     H       1.0     3.000   .       1.800   3.500  
          1782    1782    .       A       99      LEU     HD%     A       101     LEU     HG      1.0     4.000   .       1.800   5.000  
          1783    1783    .       A       99      LEU     HD%     A       101     LEU     HD1%    1.0     4.000   .       1.800   5.000  

@@ -6,9 +6,9 @@ save_nef_nmr_meta_data
     _nef_nmr_meta_data.format_name           nmr_exchange_format 
     _nef_nmr_meta_data.format_version        1.1 
     _nef_nmr_meta_data.program_name          PDBStat 
-    _nef_nmr_meta_data.program_version       5.20.2-exp 
-    _nef_nmr_meta_data.creation_date         2020-03-19_00:56:22 
-    _nef_nmr_meta_data.uuid                  1584575782 
+    _nef_nmr_meta_data.program_version       5.20.4-exp 
+    _nef_nmr_meta_data.creation_date         2020-06-29_13:02:15 
+    _nef_nmr_meta_data.uuid                  1593428535 
     _nef_nmr_meta_data.coordinate_file_name  . 
 save_ 
 
@@ -61,7 +61,7 @@ save_nef_molecular_system
       32        A      32       GLU middle         .           
       33        A      33       TYR middle         .           
       34        A      34       TRP middle         .           
-      35        A      35       ASP middle         .           
+      35        A      35       ASP middle         +HD2           
       36        A      36       HIS middle         .           
       37        A      37       LYS middle         .           
       38        A      38       GLU middle         .           
@@ -70,7 +70,7 @@ save_nef_molecular_system
       41        A      41       LEU middle         .           
       42        A      42       TYR middle         .           
       43        A      43       VAL middle         .           
-      44        A      44       ASP middle         .           
+      44        A      44       ASP middle         +HD2           
       45        A      45       ILE middle         .           
       46        A      46       VAL middle         .           
       47        A      47       SER middle         .           
@@ -82,7 +82,7 @@ save_nef_molecular_system
       53        A      53       THR middle         .           
       54        A      54       SER middle         .           
       55        A      55       LYS middle         .           
-      56        A      56       ASP middle         .           
+      56        A      56       ASP middle         +HD2           
       57        A      57       LYS middle         .           
       58        A      58       PHE middle         .           
       59        A      59       ASP middle         .           
@@ -2161,176 +2161,176 @@ save_nef_rdc_restraint_list_2kzn.mr_1
          _nef_rdc_restraint.target_value
          _nef_rdc_restraint.target_value_uncertainty
 
-       1     1     .     A     5   LYS     N     A     5   LYS    HN   1.0    0.463    2.500
-       2     2     .     A     6   GLU     N     A     6   GLU    HN   1.0    2.787    2.500
-       3     3     .     A     7   GLU     N     A     7   GLU    HN   1.0   -0.810    2.500
-       4     4     .     A     8   LYS     N     A     8   LYS    HN   1.0    0.406    2.500
-       5     5     .     A     9   ILE     N     A     9   ILE    HN   1.0    2.850    2.500
-       6     6     .     A    10   LYS     N     A    10   LYS    HN   1.0    2.351    2.500
-       7     7     .     A    12   LEU     N     A    12   LEU    HN   1.0   -2.532    2.500
-       8     8     .     A    14   ARG     N     A    14   ARG    HN   1.0    2.398    2.500
-       9     9     .     A    15   MET     N     A    15   MET    HN   1.0   -1.591    2.500
-      10    10     .     A    16   GLN     N     A    16   GLN    HN   1.0    4.483    2.500
-      11    11     .     A    17   TYR     N     A    17   TYR    HN   1.0    3.043    2.500
-      12    12     .     A    18   GLU     N     A    18   GLU    HN   1.0    1.987    2.500
-      13    13     .     A    19   VAL     N     A    19   VAL    HN   1.0    1.542    2.500
-      14    14     .     A    20   THR     N     A    20   THR    HN   1.0    2.542    2.500
-      15    15     .     A    22   ASN     N     A    22   ASN    HN   1.0   -4.502    2.500
-      16    16     .     A    25   THR     N     A    25   THR    HN   1.0   -6.694    2.500
-      17    17     .     A    26   GLU     N     A    26   GLU    HN   1.0   -4.190    2.500
-      18    18     .     A    39   GLU     N     A    39   GLU    HN   1.0   -5.648    2.500
-      19    19     .     A    40   GLY     N     A    40   GLY    HN   1.0    7.202    2.500
-      20    20     .     A    41   LEU     N     A    41   LEU    HN   1.0    6.625    2.500
-      21    21     .     A    43   VAL     N     A    43   VAL    HN   1.0    2.516    2.500
-      22    22     .     A    44   ASP     N     A    44   ASP    HN   1.0   -0.242    2.500
-      23    23     .     A    45   ILE     N     A    45   ILE    HN   1.0    5.993    2.500
-      24    24     .     A    47   SER     N     A    47   SER    HN   1.0    6.341    2.500
-      25    25     .     A    48   GLY     N     A    48   GLY    HN   1.0   -2.337    2.500
-      26    26     .     A    49   LYS     N     A    49   LYS    HN   1.0   -6.381    2.500
-      27    27     .     A    51   LEU     N     A    51   LEU    HN   1.0   -0.503    2.500
-      28    28     .     A    52   PHE     N     A    52   PHE    HN   1.0    6.148    2.500
-      29    29     .     A    53   THR     N     A    53   THR    HN   1.0    6.387    2.500
-      30    30     .     A    54   SER     N     A    54   SER    HN   1.0    6.562    2.500
-      31    31     .     A    55   LYS     N     A    55   LYS    HN   1.0    6.839    2.500
-      32    32     .     A    57   LYS     N     A    57   LYS    HN   1.0   -6.618    2.500
-      33    33     .     A    68   THR     N     A    68   THR    HN   1.0   -8.710    2.500
-      34    34     .     A    69   LYS     N     A    69   LYS    HN   1.0    1.245    2.500
-      35    35     .     A    71   ILE     N     A    71   ILE    HN   1.0   -0.523    2.500
-      36    36     .     A    72   GLU     N     A    72   GLU    HN   1.0   -7.127    2.500
-      37    37     .     A    73   GLU     N     A    73   GLU    HN   1.0   -4.880    2.500
-      38    38     .     A    74   GLU     N     A    74   GLU    HN   1.0    0.095    2.500
-      39    39     .     A    75   VAL     N     A    75   VAL    HN   1.0   -2.729    2.500
-      40    40     .     A    76   GLU     N     A    76   GLU    HN   1.0    2.001    2.500
-      41    41     .     A    77   GLU     N     A    77   GLU    HN   1.0   -0.622    2.500
-      42    42     .     A    78   LYS     N     A    78   LYS    HN   1.0    1.932    2.500
-      43    43     .     A    79   LEU     N     A    79   LEU    HN   1.0    2.209    2.500
-      44    44     .     A    80   ASP     N     A    80   ASP    HN   1.0    3.901    2.500
-      45    45     .     A    87   ARG     N     A    87   ARG    HN   1.0    3.610    2.500
-      46    46     .     A    88   THR     N     A    88   THR    HN   1.0    1.911    2.500
-      47    47     .     A    89   GLU     N     A    89   GLU    HN   1.0   -1.490    2.500
-      48    48     .     A    90   VAL     N     A    90   VAL    HN   1.0    0.795    2.500
-      49    49     .     A    91   ARG     N     A    91   ARG    HN   1.0    1.372    2.500
-      50    50     .     A    92   SER     N     A    92   SER    HN   1.0   -2.630    2.500
-      51    51     .     A    93   ARG     N     A    93   ARG    HN   1.0   -5.647    2.500
-      52    52     .     A    94   THR     N     A    94   THR    HN   1.0   -4.938    2.500
-      53    53     .     A    95   ALA     N     A    95   ALA    HN   1.0   -0.894    2.500
-      54    54     .     A    98   HIS     N     A    98   HIS    HN   1.0    2.251    2.500
-      55    55     .     A    99   LEU     N     A    99   LEU    HN   1.0    2.450    2.500
-      56    56     .     A   100   GLY     N     A   100   GLY    HN   1.0    0.660    2.500
-      57    57     .     A   102   VAL     N     A   102   VAL    HN   1.0   -7.657    2.500
-      58    58     .     A   103   PHE     N     A   103   PHE    HN   1.0   -7.418    2.500
-      59    59     .     A   105   ASP     N     A   105   ASP    HN   1.0    8.172    2.500
-      60    60     .     A   106   GLY     N     A   106   GLY    HN   1.0    1.403    2.500
-      61    61     .     A   108   GLY     N     A   108   GLY    HN   1.0   -0.063    2.500
-      62    62     .     A   110   ASN     N     A   110   ASN    HN   1.0    2.439    2.500
-      63    63     .     A   111   GLY     N     A   111   GLY    HN   1.0   -7.022    2.500
-      64    64     .     A   112   LEU     N     A   112   LEU    HN   1.0   -8.490    2.500
-      65    65     .     A   115   CYS     N     A   115   CYS    HN   1.0   -4.968    2.500
-      66    66     .     A   116   ILE     N     A   116   ILE    HN   1.0   -4.681    2.500
-      67    67     .     A   117   ASN     N     A   117   ASN    HN   1.0    2.078    2.500
-      68    68     .     A   120   ALA     N     A   120   ALA    HN   1.0    6.663    2.500
-      69    69     .     A   121   LEU     N     A   121   LEU    HN   1.0    2.275    2.500
-      70    70     .     A   123   PHE     N     A   123   PHE    HN   1.0    0.285    2.500
-      71    71     .     A   124   VAL     N     A   124   VAL    HN   1.0    6.395    2.500
-      72    72     .     A   126   LYS     N     A   126   LYS    HN   1.0    8.207    2.500
-      73    73     .     A   127   HIS     N     A   127   HIS    HN   1.0    3.372    2.500
-      74    74     .     A   129   LEU     N     A   129   LEU    HN   1.0    4.227    2.500
-      75    75     .     A   130   LYS     N     A   130   LYS    HN   1.0   -1.006    2.500
-      76    76     .     A   131   GLU     N     A   131   GLU    HN   1.0    2.871    2.500
-      77    77     .     A   132   GLU     N     A   132   GLU    HN   1.0    6.569    2.500
-      78    78     .     A   133   GLY     N     A   133   GLY    HN   1.0  -10.122    2.500
-      79    79     .     A   134   TYR     N     A   134   TYR    HN   1.0   -0.389    2.500
-      80    80     .     A   135   GLU     N     A   135   GLU    HN   1.0    9.453    2.500
-      81    81     .     A   136   SER     N     A   136   SER    HN   1.0    0.726    2.500
-      82    82     .     A   137   TYR     N     A   137   TYR    HN   1.0    5.871    2.500
-      83    83     .     A   138   LEU     N     A   138   LEU    HN   1.0    8.319    2.500
-      84    84     .     A   140   LEU     N     A   140   LEU    HN   1.0    6.235    2.500
-      85    85     .     A   141   PHE     N     A   141   PHE    HN   1.0    8.757    2.500
-      86    86     .     A     5   LYS     N     A     5   LYS    HN   1.0    0.463    2.500
-      87    87     .     A     6   GLU     N     A     6   GLU    HN   1.0    2.787    2.500
-      88    88     .     A     7   GLU     N     A     7   GLU    HN   1.0   -0.810    2.500
-      89    89     .     A     8   LYS     N     A     8   LYS    HN   1.0    0.406    2.500
-      90    90     .     A     9   ILE     N     A     9   ILE    HN   1.0    2.850    2.500
-      91    91     .     A    10   LYS     N     A    10   LYS    HN   1.0    2.351    2.500
-      92    92     .     A    12   LEU     N     A    12   LEU    HN   1.0   -2.532    2.500
-      93    93     .     A    14   ARG     N     A    14   ARG    HN   1.0    2.398    2.500
-      94    94     .     A    15   MET     N     A    15   MET    HN   1.0   -1.591    2.500
-      95    95     .     A    16   GLN     N     A    16   GLN    HN   1.0    4.483    2.500
-      96    96     .     A    17   TYR     N     A    17   TYR    HN   1.0    3.043    2.500
-      97    97     .     A    18   GLU     N     A    18   GLU    HN   1.0    1.987    2.500
-      98    98     .     A    19   VAL     N     A    19   VAL    HN   1.0    1.542    2.500
-      99    99     .     A    20   THR     N     A    20   THR    HN   1.0    2.542    2.500
-     100   100     .     A    22   ASN     N     A    22   ASN    HN   1.0   -4.502    2.500
-     101   101     .     A    25   THR     N     A    25   THR    HN   1.0   -6.694    2.500
-     102   102     .     A    26   GLU     N     A    26   GLU    HN   1.0   -4.190    2.500
-     103   103     .     A    39   GLU     N     A    39   GLU    HN   1.0   -5.648    2.500
-     104   104     .     A    40   GLY     N     A    40   GLY    HN   1.0    7.202    2.500
-     105   105     .     A    41   LEU     N     A    41   LEU    HN   1.0    6.625    2.500
-     106   106     .     A    43   VAL     N     A    43   VAL    HN   1.0    2.516    2.500
-     107   107     .     A    44   ASP     N     A    44   ASP    HN   1.0   -0.242    2.500
-     108   108     .     A    45   ILE     N     A    45   ILE    HN   1.0    5.993    2.500
-     109   109     .     A    47   SER     N     A    47   SER    HN   1.0    6.341    2.500
-     110   110     .     A    48   GLY     N     A    48   GLY    HN   1.0   -2.337    2.500
-     111   111     .     A    49   LYS     N     A    49   LYS    HN   1.0   -6.381    2.500
-     112   112     .     A    51   LEU     N     A    51   LEU    HN   1.0   -0.503    2.500
-     113   113     .     A    52   PHE     N     A    52   PHE    HN   1.0    6.148    2.500
-     114   114     .     A    53   THR     N     A    53   THR    HN   1.0    6.387    2.500
-     115   115     .     A    54   SER     N     A    54   SER    HN   1.0    6.562    2.500
-     116   116     .     A    55   LYS     N     A    55   LYS    HN   1.0    6.839    2.500
-     117   117     .     A    57   LYS     N     A    57   LYS    HN   1.0   -6.618    2.500
-     118   118     .     A    68   THR     N     A    68   THR    HN   1.0   -8.710    2.500
-     119   119     .     A    69   LYS     N     A    69   LYS    HN   1.0    1.245    2.500
-     120   120     .     A    71   ILE     N     A    71   ILE    HN   1.0   -0.523    2.500
-     121   121     .     A    72   GLU     N     A    72   GLU    HN   1.0   -7.127    2.500
-     122   122     .     A    73   GLU     N     A    73   GLU    HN   1.0   -4.880    2.500
-     123   123     .     A    74   GLU     N     A    74   GLU    HN   1.0    0.095    2.500
-     124   124     .     A    75   VAL     N     A    75   VAL    HN   1.0   -2.729    2.500
-     125   125     .     A    76   GLU     N     A    76   GLU    HN   1.0    2.001    2.500
-     126   126     .     A    77   GLU     N     A    77   GLU    HN   1.0   -0.622    2.500
-     127   127     .     A    78   LYS     N     A    78   LYS    HN   1.0    1.932    2.500
-     128   128     .     A    79   LEU     N     A    79   LEU    HN   1.0    2.209    2.500
-     129   129     .     A    80   ASP     N     A    80   ASP    HN   1.0    3.901    2.500
-     130   130     .     A    87   ARG     N     A    87   ARG    HN   1.0    3.610    2.500
-     131   131     .     A    88   THR     N     A    88   THR    HN   1.0    1.911    2.500
-     132   132     .     A    89   GLU     N     A    89   GLU    HN   1.0   -1.490    2.500
-     133   133     .     A    90   VAL     N     A    90   VAL    HN   1.0    0.795    2.500
-     134   134     .     A    91   ARG     N     A    91   ARG    HN   1.0    1.372    2.500
-     135   135     .     A    92   SER     N     A    92   SER    HN   1.0   -2.630    2.500
-     136   136     .     A    93   ARG     N     A    93   ARG    HN   1.0   -5.647    2.500
-     137   137     .     A    94   THR     N     A    94   THR    HN   1.0   -4.938    2.500
-     138   138     .     A    95   ALA     N     A    95   ALA    HN   1.0   -0.894    2.500
-     139   139     .     A    98   HIS     N     A    98   HIS    HN   1.0    2.251    2.500
-     140   140     .     A    99   LEU     N     A    99   LEU    HN   1.0    2.450    2.500
-     141   141     .     A   100   GLY     N     A   100   GLY    HN   1.0    0.660    2.500
-     142   142     .     A   102   VAL     N     A   102   VAL    HN   1.0   -7.657    2.500
-     143   143     .     A   103   PHE     N     A   103   PHE    HN   1.0   -7.418    2.500
-     144   144     .     A   105   ASP     N     A   105   ASP    HN   1.0    8.172    2.500
-     145   145     .     A   106   GLY     N     A   106   GLY    HN   1.0    1.403    2.500
-     146   146     .     A   108   GLY     N     A   108   GLY    HN   1.0   -0.063    2.500
-     147   147     .     A   110   ASN     N     A   110   ASN    HN   1.0    2.439    2.500
-     148   148     .     A   111   GLY     N     A   111   GLY    HN   1.0   -7.022    2.500
-     149   149     .     A   112   LEU     N     A   112   LEU    HN   1.0   -8.490    2.500
-     150   150     .     A   115   CYS     N     A   115   CYS    HN   1.0   -4.968    2.500
-     151   151     .     A   116   ILE     N     A   116   ILE    HN   1.0   -4.681    2.500
-     152   152     .     A   117   ASN     N     A   117   ASN    HN   1.0    2.078    2.500
-     153   153     .     A   120   ALA     N     A   120   ALA    HN   1.0    6.663    2.500
-     154   154     .     A   121   LEU     N     A   121   LEU    HN   1.0    2.275    2.500
-     155   155     .     A   123   PHE     N     A   123   PHE    HN   1.0    0.285    2.500
-     156   156     .     A   124   VAL     N     A   124   VAL    HN   1.0    6.395    2.500
-     157   157     .     A   126   LYS     N     A   126   LYS    HN   1.0    8.207    2.500
-     158   158     .     A   127   HIS     N     A   127   HIS    HN   1.0    3.372    2.500
-     159   159     .     A   129   LEU     N     A   129   LEU    HN   1.0    4.227    2.500
-     160   160     .     A   130   LYS     N     A   130   LYS    HN   1.0   -1.006    2.500
-     161   161     .     A   131   GLU     N     A   131   GLU    HN   1.0    2.871    2.500
-     162   162     .     A   132   GLU     N     A   132   GLU    HN   1.0    6.569    2.500
-     163   163     .     A   133   GLY     N     A   133   GLY    HN   1.0  -10.122    2.500
-     164   164     .     A   134   TYR     N     A   134   TYR    HN   1.0   -0.389    2.500
-     165   165     .     A   135   GLU     N     A   135   GLU    HN   1.0    9.453    2.500
-     166   166     .     A   136   SER     N     A   136   SER    HN   1.0    0.726    2.500
-     167   167     .     A   137   TYR     N     A   137   TYR    HN   1.0    5.871    2.500
-     168   168     .     A   138   LEU     N     A   138   LEU    HN   1.0    8.319    2.500
-     169   169     .     A   140   LEU     N     A   140   LEU    HN   1.0    6.235    2.500
-     170   170     .     A   141   PHE     N     A   141   PHE    HN   1.0    8.757    2.500
+       1     1     .     A     5   LYS     N     A     5   LYS    H    1.0    0.463    2.500
+       2     2     .     A     6   GLU     N     A     6   GLU    H    1.0    2.787    2.500
+       3     3     .     A     7   GLU     N     A     7   GLU    H    1.0   -0.810    2.500
+       4     4     .     A     8   LYS     N     A     8   LYS    H    1.0    0.406    2.500
+       5     5     .     A     9   ILE     N     A     9   ILE    H    1.0    2.850    2.500
+       6     6     .     A    10   LYS     N     A    10   LYS    H    1.0    2.351    2.500
+       7     7     .     A    12   LEU     N     A    12   LEU    H    1.0   -2.532    2.500
+       8     8     .     A    14   ARG     N     A    14   ARG    H    1.0    2.398    2.500
+       9     9     .     A    15   MET     N     A    15   MET    H    1.0   -1.591    2.500
+      10    10     .     A    16   GLN     N     A    16   GLN    H    1.0    4.483    2.500
+      11    11     .     A    17   TYR     N     A    17   TYR    H    1.0    3.043    2.500
+      12    12     .     A    18   GLU     N     A    18   GLU    H    1.0    1.987    2.500
+      13    13     .     A    19   VAL     N     A    19   VAL    H    1.0    1.542    2.500
+      14    14     .     A    20   THR     N     A    20   THR    H    1.0    2.542    2.500
+      15    15     .     A    22   ASN     N     A    22   ASN    H    1.0   -4.502    2.500
+      16    16     .     A    25   THR     N     A    25   THR    H    1.0   -6.694    2.500
+      17    17     .     A    26   GLU     N     A    26   GLU    H    1.0   -4.190    2.500
+      18    18     .     A    39   GLU     N     A    39   GLU    H    1.0   -5.648    2.500
+      19    19     .     A    40   GLY     N     A    40   GLY    H    1.0    7.202    2.500
+      20    20     .     A    41   LEU     N     A    41   LEU    H    1.0    6.625    2.500
+      21    21     .     A    43   VAL     N     A    43   VAL    H    1.0    2.516    2.500
+      22    22     .     A    44   ASP     N     A    44   ASP    H    1.0   -0.242    2.500
+      23    23     .     A    45   ILE     N     A    45   ILE    H    1.0    5.993    2.500
+      24    24     .     A    47   SER     N     A    47   SER    H    1.0    6.341    2.500
+      25    25     .     A    48   GLY     N     A    48   GLY    H    1.0   -2.337    2.500
+      26    26     .     A    49   LYS     N     A    49   LYS    H    1.0   -6.381    2.500
+      27    27     .     A    51   LEU     N     A    51   LEU    H    1.0   -0.503    2.500
+      28    28     .     A    52   PHE     N     A    52   PHE    H    1.0    6.148    2.500
+      29    29     .     A    53   THR     N     A    53   THR    H    1.0    6.387    2.500
+      30    30     .     A    54   SER     N     A    54   SER    H    1.0    6.562    2.500
+      31    31     .     A    55   LYS     N     A    55   LYS    H    1.0    6.839    2.500
+      32    32     .     A    57   LYS     N     A    57   LYS    H    1.0   -6.618    2.500
+      33    33     .     A    68   THR     N     A    68   THR    H    1.0   -8.710    2.500
+      34    34     .     A    69   LYS     N     A    69   LYS    H    1.0    1.245    2.500
+      35    35     .     A    71   ILE     N     A    71   ILE    H    1.0   -0.523    2.500
+      36    36     .     A    72   GLU     N     A    72   GLU    H    1.0   -7.127    2.500
+      37    37     .     A    73   GLU     N     A    73   GLU    H    1.0   -4.880    2.500
+      38    38     .     A    74   GLU     N     A    74   GLU    H    1.0    0.095    2.500
+      39    39     .     A    75   VAL     N     A    75   VAL    H    1.0   -2.729    2.500
+      40    40     .     A    76   GLU     N     A    76   GLU    H    1.0    2.001    2.500
+      41    41     .     A    77   GLU     N     A    77   GLU    H    1.0   -0.622    2.500
+      42    42     .     A    78   LYS     N     A    78   LYS    H    1.0    1.932    2.500
+      43    43     .     A    79   LEU     N     A    79   LEU    H    1.0    2.209    2.500
+      44    44     .     A    80   ASP     N     A    80   ASP    H    1.0    3.901    2.500
+      45    45     .     A    87   ARG     N     A    87   ARG    H    1.0    3.610    2.500
+      46    46     .     A    88   THR     N     A    88   THR    H    1.0    1.911    2.500
+      47    47     .     A    89   GLU     N     A    89   GLU    H    1.0   -1.490    2.500
+      48    48     .     A    90   VAL     N     A    90   VAL    H    1.0    0.795    2.500
+      49    49     .     A    91   ARG     N     A    91   ARG    H    1.0    1.372    2.500
+      50    50     .     A    92   SER     N     A    92   SER    H    1.0   -2.630    2.500
+      51    51     .     A    93   ARG     N     A    93   ARG    H    1.0   -5.647    2.500
+      52    52     .     A    94   THR     N     A    94   THR    H    1.0   -4.938    2.500
+      53    53     .     A    95   ALA     N     A    95   ALA    H    1.0   -0.894    2.500
+      54    54     .     A    98   HIS     N     A    98   HIS    H    1.0    2.251    2.500
+      55    55     .     A    99   LEU     N     A    99   LEU    H    1.0    2.450    2.500
+      56    56     .     A   100   GLY     N     A   100   GLY    H    1.0    0.660    2.500
+      57    57     .     A   102   VAL     N     A   102   VAL    H    1.0   -7.657    2.500
+      58    58     .     A   103   PHE     N     A   103   PHE    H    1.0   -7.418    2.500
+      59    59     .     A   105   ASP     N     A   105   ASP    H    1.0    8.172    2.500
+      60    60     .     A   106   GLY     N     A   106   GLY    H    1.0    1.403    2.500
+      61    61     .     A   108   GLY     N     A   108   GLY    H    1.0   -0.063    2.500
+      62    62     .     A   110   ASN     N     A   110   ASN    H    1.0    2.439    2.500
+      63    63     .     A   111   GLY     N     A   111   GLY    H    1.0   -7.022    2.500
+      64    64     .     A   112   LEU     N     A   112   LEU    H    1.0   -8.490    2.500
+      65    65     .     A   115   CYS     N     A   115   CYS    H    1.0   -4.968    2.500
+      66    66     .     A   116   ILE     N     A   116   ILE    H    1.0   -4.681    2.500
+      67    67     .     A   117   ASN     N     A   117   ASN    H    1.0    2.078    2.500
+      68    68     .     A   120   ALA     N     A   120   ALA    H    1.0    6.663    2.500
+      69    69     .     A   121   LEU     N     A   121   LEU    H    1.0    2.275    2.500
+      70    70     .     A   123   PHE     N     A   123   PHE    H    1.0    0.285    2.500
+      71    71     .     A   124   VAL     N     A   124   VAL    H    1.0    6.395    2.500
+      72    72     .     A   126   LYS     N     A   126   LYS    H    1.0    8.207    2.500
+      73    73     .     A   127   HIS     N     A   127   HIS    H    1.0    3.372    2.500
+      74    74     .     A   129   LEU     N     A   129   LEU    H    1.0    4.227    2.500
+      75    75     .     A   130   LYS     N     A   130   LYS    H    1.0   -1.006    2.500
+      76    76     .     A   131   GLU     N     A   131   GLU    H    1.0    2.871    2.500
+      77    77     .     A   132   GLU     N     A   132   GLU    H    1.0    6.569    2.500
+      78    78     .     A   133   GLY     N     A   133   GLY    H    1.0  -10.122    2.500
+      79    79     .     A   134   TYR     N     A   134   TYR    H    1.0   -0.389    2.500
+      80    80     .     A   135   GLU     N     A   135   GLU    H    1.0    9.453    2.500
+      81    81     .     A   136   SER     N     A   136   SER    H    1.0    0.726    2.500
+      82    82     .     A   137   TYR     N     A   137   TYR    H    1.0    5.871    2.500
+      83    83     .     A   138   LEU     N     A   138   LEU    H    1.0    8.319    2.500
+      84    84     .     A   140   LEU     N     A   140   LEU    H    1.0    6.235    2.500
+      85    85     .     A   141   PHE     N     A   141   PHE    H    1.0    8.757    2.500
+      86    86     .     A     5   LYS     N     A     5   LYS    H    1.0    0.463    2.500
+      87    87     .     A     6   GLU     N     A     6   GLU    H    1.0    2.787    2.500
+      88    88     .     A     7   GLU     N     A     7   GLU    H    1.0   -0.810    2.500
+      89    89     .     A     8   LYS     N     A     8   LYS    H    1.0    0.406    2.500
+      90    90     .     A     9   ILE     N     A     9   ILE    H    1.0    2.850    2.500
+      91    91     .     A    10   LYS     N     A    10   LYS    H    1.0    2.351    2.500
+      92    92     .     A    12   LEU     N     A    12   LEU    H    1.0   -2.532    2.500
+      93    93     .     A    14   ARG     N     A    14   ARG    H    1.0    2.398    2.500
+      94    94     .     A    15   MET     N     A    15   MET    H    1.0   -1.591    2.500
+      95    95     .     A    16   GLN     N     A    16   GLN    H    1.0    4.483    2.500
+      96    96     .     A    17   TYR     N     A    17   TYR    H    1.0    3.043    2.500
+      97    97     .     A    18   GLU     N     A    18   GLU    H    1.0    1.987    2.500
+      98    98     .     A    19   VAL     N     A    19   VAL    H    1.0    1.542    2.500
+      99    99     .     A    20   THR     N     A    20   THR    H    1.0    2.542    2.500
+     100   100     .     A    22   ASN     N     A    22   ASN    H    1.0   -4.502    2.500
+     101   101     .     A    25   THR     N     A    25   THR    H    1.0   -6.694    2.500
+     102   102     .     A    26   GLU     N     A    26   GLU    H    1.0   -4.190    2.500
+     103   103     .     A    39   GLU     N     A    39   GLU    H    1.0   -5.648    2.500
+     104   104     .     A    40   GLY     N     A    40   GLY    H    1.0    7.202    2.500
+     105   105     .     A    41   LEU     N     A    41   LEU    H    1.0    6.625    2.500
+     106   106     .     A    43   VAL     N     A    43   VAL    H    1.0    2.516    2.500
+     107   107     .     A    44   ASP     N     A    44   ASP    H    1.0   -0.242    2.500
+     108   108     .     A    45   ILE     N     A    45   ILE    H    1.0    5.993    2.500
+     109   109     .     A    47   SER     N     A    47   SER    H    1.0    6.341    2.500
+     110   110     .     A    48   GLY     N     A    48   GLY    H    1.0   -2.337    2.500
+     111   111     .     A    49   LYS     N     A    49   LYS    H    1.0   -6.381    2.500
+     112   112     .     A    51   LEU     N     A    51   LEU    H    1.0   -0.503    2.500
+     113   113     .     A    52   PHE     N     A    52   PHE    H    1.0    6.148    2.500
+     114   114     .     A    53   THR     N     A    53   THR    H    1.0    6.387    2.500
+     115   115     .     A    54   SER     N     A    54   SER    H    1.0    6.562    2.500
+     116   116     .     A    55   LYS     N     A    55   LYS    H    1.0    6.839    2.500
+     117   117     .     A    57   LYS     N     A    57   LYS    H    1.0   -6.618    2.500
+     118   118     .     A    68   THR     N     A    68   THR    H    1.0   -8.710    2.500
+     119   119     .     A    69   LYS     N     A    69   LYS    H    1.0    1.245    2.500
+     120   120     .     A    71   ILE     N     A    71   ILE    H    1.0   -0.523    2.500
+     121   121     .     A    72   GLU     N     A    72   GLU    H    1.0   -7.127    2.500
+     122   122     .     A    73   GLU     N     A    73   GLU    H    1.0   -4.880    2.500
+     123   123     .     A    74   GLU     N     A    74   GLU    H    1.0    0.095    2.500
+     124   124     .     A    75   VAL     N     A    75   VAL    H    1.0   -2.729    2.500
+     125   125     .     A    76   GLU     N     A    76   GLU    H    1.0    2.001    2.500
+     126   126     .     A    77   GLU     N     A    77   GLU    H    1.0   -0.622    2.500
+     127   127     .     A    78   LYS     N     A    78   LYS    H    1.0    1.932    2.500
+     128   128     .     A    79   LEU     N     A    79   LEU    H    1.0    2.209    2.500
+     129   129     .     A    80   ASP     N     A    80   ASP    H    1.0    3.901    2.500
+     130   130     .     A    87   ARG     N     A    87   ARG    H    1.0    3.610    2.500
+     131   131     .     A    88   THR     N     A    88   THR    H    1.0    1.911    2.500
+     132   132     .     A    89   GLU     N     A    89   GLU    H    1.0   -1.490    2.500
+     133   133     .     A    90   VAL     N     A    90   VAL    H    1.0    0.795    2.500
+     134   134     .     A    91   ARG     N     A    91   ARG    H    1.0    1.372    2.500
+     135   135     .     A    92   SER     N     A    92   SER    H    1.0   -2.630    2.500
+     136   136     .     A    93   ARG     N     A    93   ARG    H    1.0   -5.647    2.500
+     137   137     .     A    94   THR     N     A    94   THR    H    1.0   -4.938    2.500
+     138   138     .     A    95   ALA     N     A    95   ALA    H    1.0   -0.894    2.500
+     139   139     .     A    98   HIS     N     A    98   HIS    H    1.0    2.251    2.500
+     140   140     .     A    99   LEU     N     A    99   LEU    H    1.0    2.450    2.500
+     141   141     .     A   100   GLY     N     A   100   GLY    H    1.0    0.660    2.500
+     142   142     .     A   102   VAL     N     A   102   VAL    H    1.0   -7.657    2.500
+     143   143     .     A   103   PHE     N     A   103   PHE    H    1.0   -7.418    2.500
+     144   144     .     A   105   ASP     N     A   105   ASP    H    1.0    8.172    2.500
+     145   145     .     A   106   GLY     N     A   106   GLY    H    1.0    1.403    2.500
+     146   146     .     A   108   GLY     N     A   108   GLY    H    1.0   -0.063    2.500
+     147   147     .     A   110   ASN     N     A   110   ASN    H    1.0    2.439    2.500
+     148   148     .     A   111   GLY     N     A   111   GLY    H    1.0   -7.022    2.500
+     149   149     .     A   112   LEU     N     A   112   LEU    H    1.0   -8.490    2.500
+     150   150     .     A   115   CYS     N     A   115   CYS    H    1.0   -4.968    2.500
+     151   151     .     A   116   ILE     N     A   116   ILE    H    1.0   -4.681    2.500
+     152   152     .     A   117   ASN     N     A   117   ASN    H    1.0    2.078    2.500
+     153   153     .     A   120   ALA     N     A   120   ALA    H    1.0    6.663    2.500
+     154   154     .     A   121   LEU     N     A   121   LEU    H    1.0    2.275    2.500
+     155   155     .     A   123   PHE     N     A   123   PHE    H    1.0    0.285    2.500
+     156   156     .     A   124   VAL     N     A   124   VAL    H    1.0    6.395    2.500
+     157   157     .     A   126   LYS     N     A   126   LYS    H    1.0    8.207    2.500
+     158   158     .     A   127   HIS     N     A   127   HIS    H    1.0    3.372    2.500
+     159   159     .     A   129   LEU     N     A   129   LEU    H    1.0    4.227    2.500
+     160   160     .     A   130   LYS     N     A   130   LYS    H    1.0   -1.006    2.500
+     161   161     .     A   131   GLU     N     A   131   GLU    H    1.0    2.871    2.500
+     162   162     .     A   132   GLU     N     A   132   GLU    H    1.0    6.569    2.500
+     163   163     .     A   133   GLY     N     A   133   GLY    H    1.0  -10.122    2.500
+     164   164     .     A   134   TYR     N     A   134   TYR    H    1.0   -0.389    2.500
+     165   165     .     A   135   GLU     N     A   135   GLU    H    1.0    9.453    2.500
+     166   166     .     A   136   SER     N     A   136   SER    H    1.0    0.726    2.500
+     167   167     .     A   137   TYR     N     A   137   TYR    H    1.0    5.871    2.500
+     168   168     .     A   138   LEU     N     A   138   LEU    H    1.0    8.319    2.500
+     169   169     .     A   140   LEU     N     A   140   LEU    H    1.0    6.235    2.500
+     170   170     .     A   141   PHE     N     A   141   PHE    H    1.0    8.757    2.500
         stop_
 save_
 
