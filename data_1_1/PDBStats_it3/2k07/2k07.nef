@@ -510,7 +510,8 @@ save_nef_chemical_shift_list_bmr6546.str
          A         32        LEU       CA        57.500    0.500     
          A         32        LEU       CB        41.300    0.500     
          A         32        LEU       CG        26.000    0.500     
-         A         32        LEU       CD%       24.300    0.500     
+         A         32        LEU       CDx       24.300    0.500     
+         A         32        LEU       CDy       24.300    0.500     
          A         32        LEU       N         120.300   0.500     
          A         33        LYS       H         7.570     0.020     
          A         33        LYS       HA        4.160     0.020     
@@ -770,8 +771,8 @@ save_nef_chemical_shift_list_bmr6546.str
          A         56        LEU       CA        54.300    0.500     
          A         56        LEU       CB        48.200    0.500     
          A         56        LEU       CG        27.300    0.500     
-         A         56        LEU       CD1       24.300    0.500     
-         A         56        LEU       CD2       24.200    0.500     
+         A         56        LEU       CDx       24.300    0.500     
+         A         56        LEU       CDy       24.200    0.500     
          A         56        LEU       N         123.100   0.500     
          A         57        GLU       H         8.900     0.020     
          A         57        GLU       HA        4.510     0.020     
