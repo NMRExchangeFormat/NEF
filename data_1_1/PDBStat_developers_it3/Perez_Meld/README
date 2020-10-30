@@ -1,0 +1,5 @@
+2k07_MELD_it1.nef ----given data
+2k07_MELD_it2.mmcif ---predicted ensemble of 20 models
+2k07_MELD_it2.nef ----given data + meld input
+
+and so on for other targets
