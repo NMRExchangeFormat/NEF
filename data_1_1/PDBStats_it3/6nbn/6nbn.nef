@@ -1428,8 +1428,8 @@ save_nef_chemical_shift_list_bmr30550.str
          A         115       LEU       C         179.646   0.100     
          A         115       LEU       CA        57.756    0.016     
          A         115       LEU       CB        42.802    0.040     
-         A         115       LEU       CGx       24.093    0.042     
-         A         115       LEU       CGy       25.782    0.035     
+         A         115       LEU       CG1       24.093    0.042     
+         A         115       LEU       CG2       25.782    0.035     
          A         115       LEU       N         123.548   0.024     
          A         116       ILE       H         7.717     0.006     
          A         116       ILE       HA        3.497     0.005     
