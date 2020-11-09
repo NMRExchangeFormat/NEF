@@ -1,0 +1,1079 @@
+
+  Results for the top 20 (of 100) structures
+
+ Average values for potential terms:
+
+type          name           Energy(dev)      RMSD(dev)      viols(dev)     Num
+PotList       TOTAL     53633.65(942.99)    6.967( 0.064)    444.2( 10.2) 10705
+PotList       torsionDB  6810.64( 28.21)                       8.0(  2.2)   362
+HBPot         hb         -132.26(  9.41)                      21.4(  3.9)
+NOEPot        noe         211.30( 91.22)    0.075( 0.015)      5.8(  2.9)  1209
+RepelPot      repel       242.50( 31.06)                      13.9(  3.2)
+RepelPot      repel14       5.96(  2.55)                       0.0(  0.0)
+XplorPot      ANGL        631.47( 44.53)    0.953( 0.034)     19.6(  3.7)  4563
+XplorPot      BOND         77.33( 12.22)    0.006( 0.000)      2.1(  1.4)  2530
+XplorPot      CDIH      45670.23(1050.45)   33.055( 0.382)    368.8(  4.7)   686
+XplorPot      IMPR        116.48( 23.36)    0.748( 0.076)      4.5(  2.2)  1355
+
+breakdown of terms in PotLists:
+
+TDBPotl       A_top8K     124.75(  3.93)                       0.1(  0.2)    12
+TDBPotl       C_top8K      40.24(  0.52)                       0.0(  0.0)     2
+TDBPotl       D_top8K     173.05(  3.63)                       0.0(  0.0)     8
+TDBPotl       E_top8K     450.44(  4.63)                       0.1(  0.2)    16
+TDBPotl       F_top8K     194.69(  3.86)                       2.0(  0.6)     8
+TDBPotl       G_top8K     225.23(  5.64)                       0.3(  0.6)    18
+TDBPotl       H_top8K     145.89(  6.12)                       0.2(  0.4)     7
+TDBPotl       I_top8K     121.43(  2.36)                       0.8(  0.4)     5
+TDBPotl       K_top8K     130.71(  3.04)                       0.0(  0.0)     4
+TDBPotl       L_top8K     441.91(  6.98)                       0.9(  1.0)    18
+TDBPotl       M_top8K     115.58(  1.20)                       0.0(  0.0)     4
+TDBPotl       N_top8K      16.33(  1.53)                       0.0(  0.0)     1
+TDBPotl       Q_top8K     145.18(  2.18)                       0.0(  0.0)     5
+TDBPotl       R_top8K     157.61(  5.57)                       0.0(  0.0)     5
+TDBPotl       S_top8K     170.14(  4.71)                       0.0(  0.0)    11
+TDBPotl       T_top8K     115.19(  2.10)                       0.1(  0.3)     6
+TDBPotl       V_top8K     157.20(  3.84)                       0.0(  0.0)     9
+TDBPotl       W_top8K      23.43(  1.39)                       0.0(  0.0)     1
+TDBPotl       Y_top8K     166.20(  2.28)                       0.1(  0.4)     7
+TDBPotl       cisP_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_A_top8K    33.80(  0.93)                       1.4(  0.5)     2
+TDBPotl       preP_C_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_D_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_E_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_F_top8K    25.07(  0.41)                       0.0(  0.0)     1
+TDBPotl       preP_H_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_I_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_K_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_L_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_M_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_N_top8K    26.47(  1.00)                       0.6(  0.5)     1
+TDBPotl       preP_Q_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_R_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_S_top8K    21.10(  0.52)                       0.8(  0.4)     1
+TDBPotl       preP_T_top8K    19.69(  0.82)                       0.1(  0.4)     1
+TDBPotl       preP_V_top8K    20.70(  0.80)                       0.1(  0.4)     1
+TDBPotl       preP_W_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_Y_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       transP_top8K   143.27(  5.73)                       0.2(  0.6)    10
+
+ Cross Validated Terms
+
+ Average values for potential terms:
+
+type          name           Energy(dev)      RMSD(dev)      viols(dev)     Num
+PotList       TOTAL     14921.70(7305.03)    6.543( 1.521)      1.0(  0.0)
+PosDiffPot    refRMSD   14921.70(7305.03)    6.543( 1.521)      1.0(  0.0)
+
+ Statistics for Additional Quantities
+
+
+HBPot             # hbonds    
+hb            87.200( 4.862) 
+
+NOEPot             Corr.      
+noe            0.514( 0.030) 
+
+ Summary of most violated restraints
+
+ unsupported term: hb
+
+violations in NOEPot term noe  ( 20 structures )
+
+  Maximum positive violation amount: 1.870
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  40.0   0.87   347  ( resid 17 and segid "A" and name H ) ( resid 92 and segid "A" and name H )
+  35.0   1.09     2  ( resid 19 and segid "A" and name H ) ( resid 90 and segid "A" and name O )
+  35.0   0.71     0  ( resid 14 and segid "A" and name H ) ( resid 95 and segid "A" and name O )
+  35.0   0.52    10  ( resid 43 and segid "A" and name O ) ( resid 47 and segid "A" and name H )
+  35.0   1.21    30  ( resid 12 and segid "A" and name O ) ( resid 97 and segid "A" and name H )
+  30.0   0.70  1204  ( resid 154 and segid "A" and name HB* ) ( resid 159 and segid "A" and name H )
+  25.0   0.64    20  ( resid 62 and segid "A" and name O ) ( resid 70 and segid "A" and name H )
+  25.0   0.58     1  ( resid 14 and segid "A" and name N ) ( resid 95 and segid "A" and name O )
+  20.0   1.18     6  ( resid 24 and segid "A" and name H ) ( resid 71 and segid "A" and name O )
+  20.0   0.87  1048  ( resid 17 and segid "A" and name HB ) ( resid 76 and segid "A" and name HB* )
+  15.0   0.60    26  ( resid 21 and segid "A" and name O ) ( resid 88 and segid "A" and name H )
+  15.0   0.80   324  ( resid 31 and segid "A" and name HA ) ( resid 34 and segid "A" and name H )
+  15.0   0.71  1133  ( resid 64 and segid "A" and name HG* ) ( resid 154 and segid "A" and name H )
+  15.0   1.09    42  ( resid 98 and segid "A" and name O ) ( resid 153 and segid "A" and name H )
+  15.0   0.54   345  ( resid 26 and segid "A" and name H ) ( resid 69 and segid "A" and name H )
+  15.0   0.58   145  ( resid 91 and segid "A" and name HA ) ( resid 92 and segid "A" and name H )
+  10.0   0.59    28  ( resid 19 and segid "A" and name O ) ( resid 90 and segid "A" and name H )
+  10.0   1.04   512  ( resid 19 and segid "A" and name HA ) ( resid 77 and segid "A" and name H )
+  10.0   0.58    24  ( resid 20 and segid "A" and name O ) ( resid 75 and segid "A" and name H )
+  10.0   0.53    25  ( resid 20 and segid "A" and name O ) ( resid 75 and segid "A" and name N )
+  10.0   0.69   341  ( resid 127 and segid "A" and name HB# ) ( resid 129 and segid "A" and name H )
+  10.0   0.95   844  ( resid 142 and segid "A" and name HG2* ) ( resid 147 and segid "A" and name HG )
+  10.0   0.55   630  ( resid 125 and segid "A" and name HB# ) ( resid 155 and segid "A" and name HG )
+  10.0   0.55   652  ( resid 12 and segid "A" and name HG# ) ( resid 99 and segid "A" and name HB* )
+  10.0   0.88   662  ( resid 134 and segid "A" and name HB ) ( resid 149 and segid "A" and name HA )
+   5.0   1.11     8  ( resid 26 and segid "A" and name H ) ( resid 69 and segid "A" and name O )
+   5.0   0.55    29  ( resid 19 and segid "A" and name O ) ( resid 90 and segid "A" and name N )
+   5.0   0.63   333  ( resid 20 and segid "A" and name HA ) ( resid 90 and segid "A" and name H )
+   5.0   0.61   631  ( resid 102 and segid "A" and name HA ) ( resid 149 and segid "A" and name HB )
+   5.0   0.85  1067  ( resid 20 and segid "A" and name HD* ) ( resid 87 and segid "A" and name H )
+   5.0   0.71   147  ( resid 93 and segid "A" and name HA ) ( resid 94 and segid "A" and name H )
+   5.0   0.97   510  ( resid 18 and segid "A" and name HA ) ( resid 91 and segid "A" and name HA )
+   5.0   0.53   198  ( resid 140 and segid "A" and name H ) ( resid 141 and segid "A" and name H )
+   5.0   1.01   351  ( resid 104 and segid "A" and name H ) ( resid 147 and segid "A" and name H )
+   5.0   1.34    16  ( resid 60 and segid "A" and name H ) ( resid 72 and segid "A" and name O )
+   5.0   0.50    74  ( resid 19 and segid "A" and name HA ) ( resid 20 and segid "A" and name H )
+   5.0   0.60   346  ( resid 60 and segid "A" and name H ) ( resid 72 and segid "A" and name H )
+   5.0   1.87  1196  ( resid 144 and segid "A" and name HA ) ( resid 147 and segid "A" and name HB* )
+   5.0   0.53    12  ( resid 58 and segid "A" and name H ) ( resid 74 and segid "A" and name O )
+   5.0   0.54   142  ( resid 89 and segid "A" and name HB ) ( resid 90 and segid "A" and name H )
+   5.0   0.65   918  ( resid 120 and segid "A" and name HG#* ) ( resid 127 and segid "A" and name H )
+   5.0   0.51   320  ( resid 146 and segid "A" and name H ) ( resid 147 and segid "A" and name H )
+   5.0   0.67   647  ( resid 135 and segid "A" and name HE* ) ( resid 149 and segid "A" and name HB )
+   5.0   1.04   634  ( resid 11 and segid "A" and name HG ) ( resid 119 and segid "A" and name HH2 )
+   5.0   0.62  1000  ( resid 11 and segid "A" and name HB# ) ( resid 155 and segid "A" and name HD#* )
+   5.0   0.61  1131  ( resid 61 and segid "A" and name HA ) ( resid 70 and segid "A" and name HG* )
+
+violations in RepelPot term repel  ( 20 structures )
+
+  Maximum positive / negative violation amount: 0.000 / -0.666
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+ 100.0   0.24     2  (    A   15  ALA   CB ) (    A   16  PRO   CD )
+  90.0   0.25    10  (    A  143  ALA   CB ) (    A  144  PRO   CD )
+  85.0   0.37     6  (    A   78  GLU  HG1 ) (    A   79  GLY   HN )
+  85.0   0.24     4  (    A   52  SER   CB ) (    A   53  PRO   CD )
+  80.0   0.24     8  (    A  138  ASN   CB ) (    A  139  PRO   CD )
+  75.0   0.25     9  (    A  109  ILE   HN ) (    A  109  ILE  CG2 )
+  75.0   0.31    10  (    A  109  ILE HG11 ) (    A  109  ILE    C )
+  60.0   0.22    11  (    A  120  VAL   HN ) (    A  120  VAL  CG1 )
+  45.0   0.24     3  (    A   17  VAL  CG1 ) (    A   18  PRO   CD )
+  45.0   0.23    10  (    A  135  TYR   HA ) (    A  135  TYR  CD2 )
+  30.0   0.23     8  (    A   92  THR   HB ) (    A   93  PRO   CD )
+  30.0   0.26     0  (    A   12  LYS    O ) (    A   96  LYS  HB1 )
+  30.0   0.24     1  (    A   14  LEU   HN ) (    A   95  GLY    C )
+  30.0   0.22     6  (    A   59  ALA   HA ) (    A   73  PHE    O )
+  25.0   0.33     7  (    A  109  ILE   HN ) (    A  109  ILE HG11 )
+  25.0   0.22     9  (    A  120  VAL   HN ) (    A  120  VAL  CG2 )
+  20.0   0.30     7  (    A   19  ALA    O ) (    A   89  THR   HA )
+  20.0   0.23    12  (    A  157  GLU  HG1 ) (    A  157  GLU    O )
+  15.0   0.22    11  (    A   75  PHE  HD2 ) (    A   76  PRO  HD2 )
+  15.0   0.26    10  (    A  138  ASN    N ) (    A  139  PRO   CD )
+  15.0   0.25     4  (    A   66  ALA    N ) (    A   67  GLY   HN )
+  15.0   0.21     9  (    A  139  PRO    C ) (    A  141  GLU   HN )
+  15.0   0.44     6  (    A   19  ALA   HA ) (    A   90  GLY    O )
+  15.0   0.21     6  (    A  102  TYR   HA ) (    A  102  TYR  CD2 )
+  10.0   0.26     5  (    A   69  PHE   HN ) (    A   69  PHE  HD2 )
+  10.0   0.30    11  (    A  141  GLU    O ) (    A  142  THR  CG2 )
+  10.0   0.22    10  (    A   73  PHE   HA ) (    A   73  PHE  CD2 )
+  10.0   0.24    10  (    A  142  THR HG21 ) (    A  146  GLN   HA )
+  10.0   0.22     5  (    A   58  PHE   HN ) (    A   58  PHE  HD2 )
+   5.0   0.22     0  (    A    8  VAL   HN ) (    A    8  VAL  CG2 )
+   5.0   0.21     3  (    A   19  ALA    N ) (    A   90  GLY    O )
+   5.0   0.26     4  (    A   19  ALA   HN ) (    A   90  GLY   HN )
+   5.0   0.22     5  (    A   20  LEU   HG ) (    A   75  PHE    O )
+   5.0   0.34     6  (    A   20  LEU   HG ) (    A   76  PRO   HA )
+   5.0   0.25     7  (    A   21  LEU   HA ) (    A   87  VAL   HA )
+   5.0   0.31     8  (    A   23  ARG    C ) (    A   71  VAL    O )
+   5.0   0.39     9  (    A   24  THR   HA ) (    A   71  VAL   HN )
+   5.0   0.27    10  (    A   69  PHE  HB1 ) (    A   70  GLU   HN )
+   5.0   0.22     0  (    A   13  GLU   HA ) (    A   96  LYS   HA )
+   5.0   0.22     2  (    A   16  PRO    O ) (    A   92  THR    O )
+   5.0   0.32     3  (    A   20  LEU    O ) (    A   21  LEU    O )
+   5.0   0.21     5  (    A   67  GLY   HN ) (    A   68  THR   HN )
+   5.0   0.23     3  (    A   44  GLN    N ) (    A   45  LEU   HN )
+   5.0   0.23     5  (    A   64  MET  HG1 ) (    A  129  GLY    O )
+   5.0   0.20     8  (    A  129  GLY   HN ) (    A  154  MET  HG2 )
+   5.0   0.24    11  (    A  139  PRO  HB2 ) (    A  140  ALA   HN )
+   5.0   0.35     2  (    A   23  ARG  HB1 ) (    A   71  VAL    O )
+   5.0   0.26     5  (    A   65  SER   HA ) (    A   68  THR  OG1 )
+   5.0   0.22    13  (    A  132  TYR  HB2 ) (    A  153  LEU HD22 )
+   5.0   0.23     0  (    A   15  ALA   HN ) (    A   92  THR   HN )
+   5.0   0.31     2  (    A   17  VAL   HN ) (    A   90  GLY  HA2 )
+   5.0   0.23     3  (    A   17  VAL   HB ) (    A   18  PRO   CD )
+   5.0   0.24     4  (    A   19  ALA   CB ) (    A   90  GLY    O )
+   5.0   0.22     6  (    A   45  LEU    N ) (    A   46  LEU   HN )
+   5.0   0.20    10  (    A   92  THR   CB ) (    A   93  PRO   CD )
+   5.0   0.28     3  (    A   65  SER    N ) (    A   66  ALA   HN )
+   5.0   0.28     5  (    A  103  ILE   HB ) (    A  147  LEU  HB1 )
+   5.0   0.31     5  (    A   59  ALA  HB1 ) (    A   73  PHE    C )
+   5.0   0.21     2  (    A   17  VAL    O ) (    A   91  LEU    N )
+   5.0   0.36     3  (    A   19  ALA   HA ) (    A   90  GLY   HN )
+   5.0   0.27     1  (    A   18  PRO  HB2 ) (    A   19  ALA   HN )
+   5.0   0.34     2  (    A   19  ALA   CA ) (    A   90  GLY    O )
+   5.0   0.31     3  (    A   19  ALA   HA ) (    A   76  PRO   HA )
+   5.0   0.33     5  (    A   20  LEU    N ) (    A   75  PHE    O )
+   5.0   0.40     6  (    A   20  LEU   HN ) (    A   75  PHE    O )
+   5.0   0.24     7  (    A   20  LEU    O ) (    A   21  LEU  HB1 )
+   5.0   0.23     1  (    A   16  PRO   HA ) (    A   92  THR    O )
+   5.0   0.21     9  (    A  142  THR  CG2 ) (    A  146  GLN   HA )
+   5.0   0.37    11  (    A  153  LEU  HB1 ) (    A  154  MET   HN )
+   5.0   0.30     6  (    A  127  LEU  HB1 ) (    A  154  MET    O )
+   5.0   0.21     7  (    A  128  SER  HB1 ) (    A  157  GLU   HA )
+   5.0   0.20     8  (    A  130  GLU    O ) (    A  153  LEU    O )
+   5.0   0.22     3  (    A   17  VAL HG11 ) (    A   18  PRO  HD2 )
+   5.0   0.22     5  (    A   98  ALA    O ) (    A  152  SER   HA )
+   5.0   0.24     0  (    A   12  LYS    O ) (    A   96  LYS    C )
+   5.0   0.22     1  (    A   14  LEU    N ) (    A   95  GLY    O )
+   5.0   0.22     3  (    A   69  PHE  HD2 ) (    A   69  PHE    C )
+   5.0   0.32     0  (    A   12  LYS    O ) (    A   96  LYS   CB )
+   5.0   0.21     4  (    A   17  VAL    N ) (    A   18  PRO   CD )
+   5.0   0.23     5  (    A   17  VAL  CG1 ) (    A   17  VAL    O )
+   5.0   0.32     8  (    A   20  LEU  HB1 ) (    A   75  PHE  HB1 )
+   5.0   0.23    10  (    A   69  PHE  CD2 ) (    A   70  GLU   HN )
+   5.0   0.21    17  (    A  132  TYR    O ) (    A  151  VAL    O )
+   5.0   0.21    19  (    A  135  TYR   HA ) (    A  135  TYR  HD2 )
+   5.0   0.22     1  (    A   25  GLN   HA ) (    A   69  PHE    O )
+   5.0   0.23     4  (    A   69  PHE   HA ) (    A   69  PHE  CD2 )
+   5.0   0.30     2  (    A   17  VAL    O ) (    A   18  PRO    O )
+   5.0   0.27     3  (    A   19  ALA   HN ) (    A   20  LEU   HN )
+   5.0   0.32    12  (    A  120  VAL HG21 ) (    A  156  HIS  HB2 )
+
+violations in RepelPot term repel14  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_arg_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_asn_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_asp_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_gln_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_glu_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_his_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_ile_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_leu_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_lys_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_met_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_phe_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_trp_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_tyr_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_asn_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_asp_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_his_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_ile_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_leu_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_phe_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_trp_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_tyr_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term ala_phi_psi  ( 20 structures )
+
+  Maximum positive violation amount: 16.101
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0  16.10    11  A:ALA140
+
+violations in TorsionInterpolPot2D term asn_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term asp_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term gly_phi_psi  ( 20 structures )
+
+  Maximum positive violation amount: 15.386
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  10.0  15.24     6  A:GLY67
+  10.0  15.28     8  A:GLY79
+   5.0  15.35    17  A:GLY129
+   5.0  15.17    10  A:GLY83
+   5.0  15.26     3  A:GLY50
+
+violations in TorsionInterpolPot2D term his_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term ile_chi1_chi2  ( 20 structures )
+
+  Maximum positive violation amount: 15.344
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  75.0  15.34     3  A:ILE109
+
+violations in TorsionInterpolPot2D term leu_chi1_chi2  ( 20 structures )
+
+  Maximum positive violation amount: 16.576
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  50.0  16.57    15  A:LEU153
+
+violations in TorsionInterpolPot2D term minus_arg_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term minus_lys_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term phe_chi1_chi2  ( 20 structures )
+
+  Maximum positive violation amount: 16.053
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  95.0  15.66     3  A:PHE58
+  85.0  15.66     5  A:PHE69
+
+violations in TorsionInterpolPot2D term prepro_gln_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term prepro_glu_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term prepro_met_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term prepro_phi_psi  ( 20 structures )
+
+  Maximum positive violation amount: 18.344
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+ 100.0  17.72     1  A:ALA143
+  45.0  16.28     0  A:ALA15
+
+violations in TorsionInterpolPot2D term trp_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term tyr_chi1_chi2  ( 20 structures )
+
+  Maximum positive violation amount: 15.592
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  15.0  15.49     1  A:TYR61
+
+violations in TorsionInterpolPot3D term arg_chi1_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term arg_chi2_chi3_chi4  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term arg_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term asn_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term asp_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term cispro_phi_psi_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term cys_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term gln_chi1_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term gln_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term glu_chi1_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term glu_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 21.915
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0  21.91    15  A:GLU160
+
+violations in TorsionInterpolPot3D term his_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 23.076
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  10.0  22.61     2  A:HIS161
+  10.0  22.67     4  A:HIS163
+
+violations in TorsionInterpolPot3D term ile_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term leu_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 22.586
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  15.0  22.31     3  A:LEU21
+  15.0  21.97    17  A:LEU159
+  15.0  21.77     6  A:LEU43
+   5.0  22.18    15  A:LEU153
+
+violations in TorsionInterpolPot3D term lys_chi1_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term lys_chi2_chi3_chi4  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term lys_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term met_chi1_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term met_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term phe_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 22.272
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  20.0  22.22     1  A:PHE7
+
+violations in TorsionInterpolPot3D term prepro_arg_chi2_chi3_chi4  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term prepro_lys_chi2_chi3_chi4  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term prepro_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term ser_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term thr_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 22.591
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  10.0  22.59     4  A:THR142
+
+violations in TorsionInterpolPot3D term transpro_phi_psi_chi2  ( 20 structures )
+
+  Maximum positive violation amount: 20.679
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  10.0  20.33     0  A:PRO16
+  10.0  20.07     5  A:PRO76
+   5.0  19.56     1  A:PRO18
+
+violations in TorsionInterpolPot3D term trp_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term tyr_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term val_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in XplorPot term ANGL  ( 20 structures )
+
+  Maximum positive / negative violation amount: 13.759 / -13.635
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+ 100.0   9.80   522  A    17   CA  |A    17   C   |A    18   N   
+ 100.0   5.99  1489  A    52   CA  |A    52   C   |A    53   N   
+ 100.0   6.69  2511  A    92   CA  |A    92   C   |A    93   N   
+ 100.0   6.44  3751  A    138  CA  |A    138  C   |A    139  N   
+  95.0   5.86   462  A    15   CA  |A    15   C   |A    16   N   
+  95.0   9.79   475  A    17   CB  |A    17   CA  |A    17   C   
+  90.0  10.25   468  A    17   N   |A    17   CA  |A    17   CB  
+  85.0   6.01  2143  A    78   CB  |A    78   CA  |A    78   C   
+  85.0   6.07  3869  A    143  CA  |A    143  C   |A    144  N   
+  75.0   8.70   469  A    17   N   |A    17   CA  |A    17   C   
+  75.0   8.42   473  A    17   CA  |A    17   CB  |A    17   CG1 
+  70.0   6.07   525  A    17   C   |A    18   N   |A    18   CD  
+  50.0   5.95   491  A    17   CA  |A    17   C   |A    17   O   
+  50.0   5.77  2896  A    109  CA  |A    109  CB  |A    109  CG1 
+  50.0   6.56  4126  A    153  CA  |A    153  CB  |A    153  CG  
+  35.0   5.41  1592  A    58   CA  |A    58   CB  |A    58   CG  
+  35.0   5.81  1688  A    61   CA  |A    61   CB  |A    61   CG  
+  35.0   7.09  1818  A    66   N   |A    66   CA  |A    66   C   
+  30.0   6.41  1768  A    64   N   |A    64   CA  |A    64   C   
+  30.0   5.47   523  A    17   O   |A    17   C   |A    18   N   
+  30.0   5.92  2548  A    96   N   |A    96   CA  |A    96   CB  
+  30.0   5.92  3827  A    143  N   |A    143  CA  |A    143  CB  
+  30.0   6.52  2462  A    92   N   |A    92   CA  |A    92   CB  
+  25.0   6.01  2469  A    92   CB  |A    92   CA  |A    92   C   
+  20.0   6.81  1799  A    65   N   |A    65   CA  |A    65   C   
+  20.0   9.39   499  A    18   N   |A    18   CA  |A    18   C   
+  15.0   6.24  3846  A    144  N   |A    144  CA  |A    144  C   
+  15.0   6.03   474  A    17   CA  |A    17   CB  |A    17   CG2 
+  15.0   5.22  3703  A    138  N   |A    138  CA  |A    138  CB  
+  15.0   5.84  3876  A    145  N   |A    145  CA  |A    145  C   
+  10.0   5.25  3710  A    138  CB  |A    138  CA  |A    138  C   
+  10.0   6.22  1836  A    67   N   |A    67   CA  |A    67   C   
+  10.0   6.90  1848  A    68   N   |A    68   CA  |A    68   C   
+  10.0   5.44  4224  A    156  N   |A    156  CA  |A    156  C   
+  10.0   7.07  1829  A    65   CA  |A    65   C   |A    66   N   
+  10.0   5.62  3800  A    142  HN  |A    142  N   |A    142  CA  
+  10.0   5.40  3801  A    142  N   |A    142  CA  |A    142  HA  
+  10.0   9.35  3802  A    142  N   |A    142  CA  |A    142  CB  
+  10.0   5.92  3808  A    142  CA  |A    142  CB  |A    142  CG2 
+  10.0   8.60  3823  A    141  C   |A    142  N   |A    142  CA  
+  10.0   5.68   420  A    15   N   |A    15   CA  |A    15   CB  
+  10.0   5.77  2041  A    75   N   |A    75   CA  |A    75   C   
+  10.0   6.81   476  A    17   HB  |A    17   CB  |A    17   CG1 
+  10.0   5.50   498  A    18   CA  |A    18   N   |A    18   CD  
+   5.0   5.99   529  A    19   N   |A    19   CA  |A    19   C   
+   5.0  13.63   546  A    20   N   |A    20   CA  |A    20   CB  
+   5.0   5.82  2077  A    76   N   |A    76   CA  |A    76   C   
+   5.0   5.12  2898  A    109  CB  |A    109  CA  |A    109  C   
+   5.0   5.25   421  A    15   N   |A    15   CA  |A    15   C   
+   5.0   6.33  4156  A    154  N   |A    154  CA  |A    154  CB  
+   5.0   5.48  4256  A    157  N   |A    157  CA  |A    157  CB  
+   5.0   6.18  1878  A    69   CA  |A    69   CB  |A    69   CG  
+   5.0   5.86  1929  A    69   CA  |A    69   C   |A    70   N   
+   5.0   5.50  2487  A    93   CA  |A    93   N   |A    93   CD  
+   5.0   5.09  3754  A    138  C   |A    139  N   |A    139  CD  
+   5.0   5.41   501  A    18   HA  |A    18   CA  |A    18   C   
+   5.0   5.72  2425  A    91   N   |A    91   CA  |A    91   HA  
+   5.0  10.88  2488  A    93   N   |A    93   CA  |A    93   C   
+   5.0   5.10  3510  A    132  N   |A    132  CA  |A    132  C   
+   5.0   5.45  3515  A    132  CA  |A    132  CB  |A    132  CG  
+   5.0   5.09  1446  A    52   N   |A    52   CA  |A    52   CB  
+   5.0   5.97  1866  A    67   CA  |A    67   C   |A    68   N   
+   5.0   5.01  2551  A    96   HA  |A    96   CA  |A    96   C   
+   5.0   7.07  3728  A    139  N   |A    139  CA  |A    139  C   
+   5.0   5.90  3872  A    143  C   |A    144  N   |A    144  CD  
+   5.0   7.11  3897  A    146  N   |A    146  CA  |A    146  C   
+   5.0   5.17   427  A    15   CB  |A    15   CA  |A    15   C   
+   5.0   5.72   439  A    16   N   |A    16   CA  |A    16   C   
+   5.0   5.03  1261  A    45   N   |A    45   CA  |A    45   C   
+   5.0   5.10  2169  A    78   CA  |A    78   C   |A    79   N   
+   5.0   5.46  1720  A    62   N   |A    62   CA  |A    62   C   
+   5.0   8.53   472  A    17   CA  |A    17   CB  |A    17   HB  
+   5.0   5.60   481  A    17   CG1 |A    17   CB  |A    17   CG2 
+   5.0   8.67   547  A    20   N   |A    20   CA  |A    20   C   
+   5.0   5.39  1794  A    63   C   |A    64   N   |A    64   CA  
+   5.0   8.17  4157  A    154  N   |A    154  CA  |A    154  C   
+   5.0   5.42  4250  A    155  CA  |A    155  C   |A    156  N   
+   5.0   5.17  2514  A    92   C   |A    93   N   |A    93   CD  
+   5.0   5.39  3397  A    127  N   |A    127  CA  |A    127  CB  
+   5.0   5.19  3805  A    142  HA  |A    142  CA  |A    142  C   
+   5.0   5.17  3824  A    141  C   |A    142  N   |A    142  HN  
+   5.0   6.02  2639  A    98   CA  |A    98   C   |A    99   N   
+   5.0   5.39  3926  A    147  N   |A    147  CA  |A    147  CB  
+   5.0   6.65  4102  A    152  N   |A    152  CA  |A    152  C   
+   5.0   7.65  4187  A    155  N   |A    155  CA  |A    155  CB  
+   5.0   8.13  4188  A    155  N   |A    155  CA  |A    155  C   
+   5.0   5.47  4252  A    155  C   |A    156  N   |A    156  CA  
+   5.0   5.36  2040  A    75   N   |A    75   CA  |A    75   CB  
+   5.0   5.02  2555  A    96   CB  |A    96   CA  |A    96   C   
+
+violations in XplorPot term BOND  ( 20 structures )
+
+  Maximum positive / negative violation amount: 0.088 / -0.059
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  55.0   0.06   270  A    17   CA  |A    17   C   
+  30.0   0.05   260  A    17   CA  |A    17   CB  
+  30.0   0.06  2126  A    143  CA  |A    143  C   
+  25.0   0.06  2143  A    143  C   |A    144  N   
+  20.0   0.06  1372  A    92   CA  |A    92   C   
+  10.0   0.06  1389  A    92   C   |A    93   N   
+  10.0   0.06   287  A    17   C   |A    18   N   
+  10.0   0.05   239  A    15   CA  |A    15   C   
+  10.0   0.06   256  A    15   C   |A    16   N   
+   5.0   0.06   295  A    19   CA  |A    19   C   
+   5.0   0.06  1601  A    109  CA  |A    109  CB  
+   5.0   0.05  2062  A    138  CA  |A    138  C   
+   5.0   0.05  2079  A    138  C   |A    139  N   
+   5.0   0.05   288  A    19   N   |A    19   HN  
+
+violations in XplorPot term CDIH  ( 20 structures )
+
+  Maximum positive / negative violation amount: 108.740 / -108.214
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+ 220.0  74.85   473   A    92   THR  N    A    92   THR  CA   A    92   THR  CB   A    92   THR  OG1 
+ 200.0  50.40   229   A    15   ALA  N    A    15   ALA  CA   A    15   ALA  C    A    16   PRO  N   
+ 200.0  50.33   354   A    52   SER  N    A    52   SER  CA   A    52   SER  C    A    53   PRO  N   
+ 200.0  50.64   475   A    92   THR  N    A    92   THR  CA   A    92   THR  C    A    93   PRO  N   
+ 200.0  35.00   165   A    1    MET  N    A    1    MET  CA   A    1    MET  CB   A    1    MET  CG  
+ 200.0  15.02   169   A    1    MET  C    A    2    ASP  N    A    2    ASP  CA   A    2    ASP  C   
+ 200.0  15.00   173   A    2    ASP  C    A    3    PHE  N    A    3    PHE  CA   A    3    PHE  C   
+ 200.0  35.02   175   A    3    PHE  N    A    3    PHE  CA   A    3    PHE  CB   A    3    PHE  CG  
+ 200.0  15.00   180   A    3    PHE  C    A    4    GLU  N    A    4    GLU  CA   A    4    GLU  C   
+ 200.0  35.00   182   A    4    GLU  N    A    4    GLU  CA   A    4    GLU  CB   A    4    GLU  CG  
+ 200.0  43.14   186   A    4    GLU  C    A    5    CYS  N    A    5    CYS  CA   A    5    CYS  C   
+ 200.0  30.00   188   A    5    CYS  N    A    5    CYS  CA   A    5    CYS  CB   A    5    CYS  SG  
+ 200.0  15.01   191   A    5    CYS  C    A    6    GLN  N    A    6    GLN  CA   A    6    GLN  C   
+ 200.0  77.70   193   A    6    GLN  N    A    6    GLN  CA   A    6    GLN  CB   A    6    GLN  CG  
+ 200.0  52.88   198   A    6    GLN  C    A    7    PHE  N    A    7    PHE  CA   A    7    PHE  C   
+ 200.0  35.02   200   A    7    PHE  N    A    7    PHE  CA   A    7    PHE  CB   A    7    PHE  CG  
+ 200.0  20.00   205   A    8    VAL  N    A    8    VAL  CA   A    8    VAL  CB   A    8    VAL  CG1 
+ 200.0  30.01   207   A    9    CYS  N    A    9    CYS  CA   A    9    CYS  CB   A    9    CYS  SG  
+ 200.0  15.04   209   A    9    CYS  C    A    10   GLU  N    A    10   GLU  CA   A    10   GLU  C   
+ 200.0  86.10   211   A    10   GLU  N    A    10   GLU  CA   A    10   GLU  CB   A    10   GLU  CG  
+ 200.0  20.03   214   A    10   GLU  N    A    10   GLU  CA   A    10   GLU  C    A    11   LEU  N   
+ 200.0  20.05   216   A    11   LEU  N    A    11   LEU  CA   A    11   LEU  CB   A    11   LEU  CG  
+ 200.0  30.00   218   A    11   LEU  CA   A    11   LEU  CB   A    11   LEU  CG   A    11   LEU  CD1 
+ 200.0  35.02   220   A    12   LYS  N    A    12   LYS  CA   A    12   LYS  CB   A    12   LYS  CG  
+ 200.0  86.10   223   A    13   GLU  N    A    13   GLU  CA   A    13   GLU  CB   A    13   GLU  CG  
+ 200.0  50.01   226   A    14   LEU  N    A    14   LEU  CA   A    14   LEU  CB   A    14   LEU  CG  
+ 200.0  30.00   228   A    14   LEU  CA   A    14   LEU  CB   A    14   LEU  CG   A    14   LEU  CD1 
+ 200.0  15.32   232   A    16   PRO  C    A    17   VAL  N    A    17   VAL  CA   A    17   VAL  C   
+ 200.0  73.74   235   A    17   VAL  N    A    17   VAL  CA   A    17   VAL  CB   A    17   VAL  CG1 
+ 200.0  51.26   237   A    17   VAL  N    A    17   VAL  CA   A    17   VAL  C    A    18   PRO  N   
+ 200.0  57.93   240   A    20   LEU  N    A    20   LEU  CA   A    20   LEU  CB   A    20   LEU  CG  
+ 200.0  30.07   242   A    20   LEU  CA   A    20   LEU  CB   A    20   LEU  CG   A    20   LEU  CD1 
+ 200.0  82.27   244   A    21   LEU  N    A    21   LEU  CA   A    21   LEU  CB   A    21   LEU  CG  
+ 200.0  30.03   246   A    21   LEU  CA   A    21   LEU  CB   A    21   LEU  CG   A    21   LEU  CD1 
+ 200.0  80.01   249   A    22   ILE  N    A    22   ILE  CA   A    22   ILE  CB   A    22   ILE  CG1 
+ 200.0  20.00   251   A    22   ILE  CA   A    22   ILE  CB   A    22   ILE  CG1  A    22   ILE  CD1 
+ 200.0  35.01   253   A    23   ARG  N    A    23   ARG  CA   A    23   ARG  CB   A    23   ARG  CG  
+ 200.0  81.20   256   A    24   THR  N    A    24   THR  CA   A    24   THR  CB   A    24   THR  OG1 
+ 200.0  82.01   258   A    25   GLN  N    A    25   GLN  CA   A    25   GLN  CB   A    25   GLN  CG  
+ 200.0  30.01   261   A    26   THR  N    A    26   THR  CA   A    26   THR  CB   A    26   THR  OG1 
+ 200.0  15.10   263   A    27   ALA  C    A    28   MET  N    A    28   MET  CA   A    28   MET  C   
+ 200.0  35.01   265   A    28   MET  N    A    28   MET  CA   A    28   MET  CB   A    28   MET  CG  
+ 200.0  15.08   269   A    28   MET  C    A    29   SER  N    A    29   SER  CA   A    29   SER  C   
+ 200.0  15.00   272   A    29   SER  C    A    30   GLU  N    A    30   GLU  CA   A    30   GLU  C   
+ 200.0  35.01   274   A    30   GLU  N    A    30   GLU  CA   A    30   GLU  CB   A    30   GLU  CG  
+ 200.0  35.00   278   A    31   LEU  N    A    31   LEU  CA   A    31   LEU  CB   A    31   LEU  CG  
+ 200.0  30.00   280   A    31   LEU  CA   A    31   LEU  CB   A    31   LEU  CG   A    31   LEU  CD1 
+ 200.0  30.00   284   A    34   LEU  N    A    34   LEU  CA   A    34   LEU  CB   A    34   LEU  CG  
+ 200.0  30.00   286   A    34   LEU  CA   A    34   LEU  CB   A    34   LEU  CG   A    34   LEU  CD1 
+ 200.0  30.10   288   A    35   PHE  N    A    35   PHE  CA   A    35   PHE  CB   A    35   PHE  CG  
+ 200.0  30.01   293   A    36   GLU  N    A    36   GLU  CA   A    36   GLU  CB   A    36   GLU  CG  
+ 200.0  30.05   296   A    39   TYR  N    A    39   TYR  CA   A    39   TYR  CB   A    39   TYR  CG  
+ 200.0  25.00   300   A    40   HIS  N    A    40   HIS  CA   A    40   HIS  CB   A    40   HIS  CG  
+ 200.0  15.00   302   A    40   HIS  C    A    41   ASP  N    A    41   ASP  CA   A    41   ASP  C   
+ 200.0  15.01   306   A    41   ASP  C    A    42   ILE  N    A    42   ILE  CA   A    42   ILE  C   
+ 200.0  80.55   309   A    42   ILE  N    A    42   ILE  CA   A    42   ILE  CB   A    42   ILE  CG1 
+ 200.0  20.01   311   A    42   ILE  CA   A    42   ILE  CB   A    42   ILE  CG1  A    42   ILE  CD1 
+ 200.0  61.09   314   A    42   ILE  C    A    43   LEU  N    A    43   LEU  CA   A    43   LEU  C   
+ 200.0  50.00   316   A    43   LEU  N    A    43   LEU  CA   A    43   LEU  CB   A    43   LEU  CG  
+ 200.0  30.01   318   A    43   LEU  CA   A    43   LEU  CB   A    43   LEU  CG   A    43   LEU  CD1 
+ 200.0  15.89   321   A    43   LEU  C    A    44   GLN  N    A    44   GLN  CA   A    44   GLN  C   
+ 200.0  35.00   323   A    44   GLN  N    A    44   GLN  CA   A    44   GLN  CB   A    44   GLN  CG  
+ 200.0  15.02   327   A    44   GLN  C    A    45   LEU  N    A    45   LEU  CA   A    45   LEU  C   
+ 200.0  50.00   329   A    45   LEU  N    A    45   LEU  CA   A    45   LEU  CB   A    45   LEU  CG  
+ 200.0  72.99   331   A    45   LEU  CA   A    45   LEU  CB   A    45   LEU  CG   A    45   LEU  CD1 
+ 200.0  30.00   336   A    46   LEU  CA   A    46   LEU  CB   A    46   LEU  CG   A    46   LEU  CD1 
+ 200.0  15.14   339   A    46   LEU  C    A    47   ALA  N    A    47   ALA  CA   A    47   ALA  C   
+ 200.0  15.01   344   A    48   GLY  C    A    49   GLN  N    A    49   GLN  CA   A    49   GLN  C   
+ 200.0  35.00   346   A    49   GLN  N    A    49   GLN  CA   A    49   GLN  CB   A    49   GLN  CG  
+ 200.0  15.06   357   A    53   PRO  C    A    54   SER  N    A    54   SER  CA   A    54   SER  C   
+ 200.0  89.31   362   A    55   GLY  N    A    55   GLY  CA   A    55   GLY  C    A    56   PRO  N   
+ 200.0  15.07   365   A    57   PRO  N    A    57   PRO  CA   A    57   PRO  C    A    58   PHE  N   
+ 200.0  88.15   367   A    58   PHE  N    A    58   PHE  CA   A    58   PHE  CB   A    58   PHE  CG  
+ 200.0  90.01   371   A    60   ARG  N    A    60   ARG  CA   A    60   ARG  CB   A    60   ARG  CG  
+ 200.0  88.12   374   A    61   TYR  N    A    61   TYR  CA   A    61   TYR  CB   A    61   TYR  CG  
+ 200.0  35.06   378   A    62   PHE  N    A    62   PHE  CA   A    62   PHE  CB   A    62   PHE  CG  
+ 200.0  15.04   383   A    63   GLY  C    A    64   MET  N    A    64   MET  CA   A    64   MET  C   
+ 200.0  35.02   385   A    64   MET  N    A    64   MET  CA   A    64   MET  CB   A    64   MET  CG  
+ 200.0  30.02   397   A    68   THR  N    A    68   THR  CA   A    68   THR  CB   A    68   THR  OG1 
+ 200.0  84.18   399   A    69   PHE  N    A    69   PHE  CA   A    69   PHE  CB   A    69   PHE  CG  
+ 200.0  35.01   403   A    70   GLU  N    A    70   GLU  CA   A    70   GLU  CB   A    70   GLU  CG  
+ 200.0  35.02   406   A    71   VAL  N    A    71   VAL  CA   A    71   VAL  CB   A    71   VAL  CG1 
+ 200.0  15.21   408   A    71   VAL  C    A    72   GLU  N    A    72   GLU  CA   A    72   GLU  C   
+ 200.0  35.03   410   A    72   GLU  N    A    72   GLU  CA   A    72   GLU  CB   A    72   GLU  CG  
+ 200.0  30.05   414   A    73   PHE  N    A    73   PHE  CA   A    73   PHE  CB   A    73   PHE  CG  
+ 200.0  20.13   419   A    75   PHE  N    A    75   PHE  CA   A    75   PHE  CB   A    75   PHE  CG  
+ 200.0  35.06   424   A    77   VAL  N    A    77   VAL  CA   A    77   VAL  CB   A    77   VAL  CG1 
+ 200.0  15.05   426   A    77   VAL  C    A    78   GLU  N    A    78   GLU  CA   A    78   GLU  C   
+ 200.0  84.21   428   A    78   GLU  N    A    78   GLU  CA   A    78   GLU  CB   A    78   GLU  CG  
+ 200.0  10.24   431   A    78   GLU  N    A    78   GLU  CA   A    78   GLU  C    A    79   GLY  N   
+ 200.0  15.03   439   A    81   VAL  C    A    82   GLU  N    A    82   GLU  CA   A    82   GLU  C   
+ 200.0  35.01   441   A    82   GLU  N    A    82   GLU  CA   A    82   GLU  CB   A    82   GLU  CG  
+ 200.0  15.18   444   A    82   GLU  N    A    82   GLU  CA   A    82   GLU  C    A    83   GLY  N   
+ 200.0  15.04   447   A    83   GLY  C    A    84   SER  N    A    84   SER  CA   A    84   SER  C   
+ 200.0  15.01   451   A    85   GLY  C    A    86   ARG  N    A    86   ARG  CA   A    86   ARG  C   
+ 200.0  35.00   453   A    86   ARG  N    A    86   ARG  CA   A    86   ARG  CB   A    86   ARG  CG  
+ 200.0  20.02   459   A    87   VAL  N    A    87   VAL  CA   A    87   VAL  CB   A    87   VAL  CG1 
+ 200.0  20.02   464   A    89   THR  N    A    89   THR  CA   A    89   THR  CB   A    89   THR  OG1 
+ 200.0  25.18   467   A    90   GLY  N    A    90   GLY  CA   A    90   GLY  C    A    91   LEU  N   
+ 200.0  50.02   469   A    91   LEU  N    A    91   LEU  CA   A    91   LEU  CB   A    91   LEU  CG  
+ 200.0  30.00   471   A    91   LEU  CA   A    91   LEU  CB   A    91   LEU  CG   A    91   LEU  CD1 
+ 200.0  15.45   479   A    95   GLY  C    A    96   LYS  N    A    96   LYS  CA   A    96   LYS  C   
+ 200.0  35.02   481   A    96   LYS  N    A    96   LYS  CA   A    96   LYS  CB   A    96   LYS  CG  
+ 200.0  25.69   484   A    96   LYS  N    A    96   LYS  CA   A    96   LYS  C    A    97   ALA  N   
+ 200.0  92.03   486   A    101  LEU  N    A    101  LEU  CA   A    101  LEU  CB   A    101  LEU  CG  
+ 200.0  30.01   488   A    101  LEU  CA   A    101  LEU  CB   A    101  LEU  CG   A    101  LEU  CD1 
+ 200.0  35.03   490   A    102  TYR  N    A    102  TYR  CA   A    102  TYR  CB   A    102  TYR  CG  
+ 200.0  87.22   495   A    103  ILE  N    A    103  ILE  CA   A    103  ILE  CB   A    103  ILE  CG1 
+ 200.0  20.01   497   A    103  ILE  CA   A    103  ILE  CB   A    103  ILE  CG1  A    103  ILE  CD1 
+ 200.0  89.33   501   A    104  GLY  N    A    104  GLY  CA   A    104  GLY  C    A    105  PRO  N   
+ 200.0  30.01   503   A    105  PRO  N    A    105  PRO  CA   A    105  PRO  C    A    106  TYR  N   
+ 200.0  35.02   505   A    106  TYR  N    A    106  TYR  CA   A    106  TYR  CB   A    106  TYR  CG  
+ 200.0  15.00   510   A    107  GLY  C    A    108  GLU  N    A    108  GLU  CA   A    108  GLU  C   
+ 200.0  90.00   512   A    108  GLU  N    A    108  GLU  CA   A    108  GLU  CB   A    108  GLU  CG  
+ 200.0  20.03   516   A    109  ILE  N    A    109  ILE  CA   A    109  ILE  CB   A    109  ILE  CG1 
+ 200.0  20.01   518   A    109  ILE  CA   A    109  ILE  CB   A    109  ILE  CG1  A    109  ILE  CD1 
+ 200.0  30.01   520   A    110  GLU  N    A    110  GLU  CA   A    110  GLU  CB   A    110  GLU  CG  
+ 200.0  75.01   523   A    112  VAL  N    A    112  VAL  CA   A    112  VAL  CB   A    112  VAL  CG1 
+ 200.0  30.08   526   A    113  TYR  N    A    113  TYR  CA   A    113  TYR  CB   A    113  TYR  CG  
+ 200.0  40.01   530   A    114  ASP  N    A    114  ASP  CA   A    114  ASP  CB   A    114  ASP  CG  
+ 200.0  30.01   532   A    116  LEU  N    A    116  LEU  CA   A    116  LEU  CB   A    116  LEU  CG  
+ 200.0  30.00   534   A    116  LEU  CA   A    116  LEU  CB   A    116  LEU  CG   A    116  LEU  CD1 
+ 200.0  30.01   536   A    117  MET  N    A    117  MET  CA   A    117  MET  CB   A    117  MET  CG  
+ 200.0  30.01   539   A    118  LYS  N    A    118  LYS  CA   A    118  LYS  CB   A    118  LYS  CG  
+ 200.0  34.92   542   A    119  TRP  N    A    119  TRP  CA   A    119  TRP  CB   A    119  TRP  CG  
+ 200.0  40.01   548   A    121  ASP  N    A    121  ASP  CA   A    121  ASP  CB   A    121  ASP  CG  
+ 200.0  45.01   550   A    122  ASP  N    A    122  ASP  CA   A    122  ASP  CB   A    122  ASP  CG  
+ 200.0  35.02   554   A    125  PHE  N    A    125  PHE  CA   A    125  PHE  CB   A    125  PHE  CG  
+ 200.0  30.01   561   A    127  LEU  CA   A    127  LEU  CB   A    127  LEU  CG   A    127  LEU  CD1 
+ 200.0  86.10   568   A    130  GLU  N    A    130  GLU  CA   A    130  GLU  CB   A    130  GLU  CG  
+ 200.0  35.07   571   A    132  TYR  N    A    132  TYR  CA   A    132  TYR  CB   A    132  TYR  CG  
+ 200.0  35.02   575   A    133  GLU  N    A    133  GLU  CA   A    133  GLU  CB   A    133  GLU  CG  
+ 200.0  80.01   579   A    134  ILE  N    A    134  ILE  CA   A    134  ILE  CB   A    134  ILE  CG1 
+ 200.0  20.01   581   A    134  ILE  CA   A    134  ILE  CB   A    134  ILE  CG1  A    134  ILE  CD1 
+ 200.0  15.05   583   A    134  ILE  C    A    135  TYR  N    A    135  TYR  CA   A    135  TYR  C   
+ 200.0  35.08   585   A    135  TYR  N    A    135  TYR  CA   A    135  TYR  CB   A    135  TYR  CG  
+ 200.0  15.01   590   A    135  TYR  C    A    136  LEU  N    A    136  LEU  CA   A    136  LEU  C   
+ 200.0  50.00   592   A    136  LEU  N    A    136  LEU  CA   A    136  LEU  CB   A    136  LEU  CG  
+ 200.0  30.00   594   A    136  LEU  CA   A    136  LEU  CB   A    136  LEU  CG   A    136  LEU  CD1 
+ 200.0  59.16   597   A    136  LEU  C    A    137  ASP  N    A    137  ASP  CA   A    137  ASP  C   
+ 200.0  15.23   601   A    137  ASP  C    A    138  ASN  N    A    138  ASN  CA   A    138  ASN  C   
+ 200.0  49.46   605   A    138  ASN  N    A    138  ASN  CA   A    138  ASN  C    A    139  PRO  N   
+ 200.0  59.17   608   A    139  PRO  C    A    140  ALA  N    A    140  ALA  CA   A    140  ALA  C   
+ 200.0  10.07   611   A    140  ALA  C    A    141  GLU  N    A    141  GLU  CA   A    141  GLU  C   
+ 200.0  79.89   613   A    141  GLU  N    A    141  GLU  CA   A    141  GLU  CB   A    141  GLU  CG  
+ 200.0  53.94   619   A    142  THR  N    A    142  THR  CA   A    142  THR  CB   A    142  THR  OG1 
+ 200.0  59.20   622   A    142  THR  C    A    143  ALA  N    A    143  ALA  CA   A    143  ALA  C   
+ 200.0  50.33   624   A    143  ALA  N    A    143  ALA  CA   A    143  ALA  C    A    144  PRO  N   
+ 200.0  35.06   626   A    144  PRO  N    A    144  PRO  CA   A    144  PRO  C    A    145  ASP  N   
+ 200.0  15.34   628   A    144  PRO  C    A    145  ASP  N    A    145  ASP  CA   A    145  ASP  C   
+ 200.0  15.06   632   A    145  ASP  C    A    146  GLN  N    A    146  GLN  CA   A    146  GLN  C   
+ 200.0  35.02   634   A    146  GLN  N    A    146  GLN  CA   A    146  GLN  CB   A    146  GLN  CG  
+ 200.0  50.04   640   A    147  LEU  N    A    147  LEU  CA   A    147  LEU  CB   A    147  LEU  CG  
+ 200.0  79.23   642   A    147  LEU  CA   A    147  LEU  CB   A    147  LEU  CG   A    147  LEU  CD1 
+ 200.0  86.10   645   A    148  ARG  N    A    148  ARG  CA   A    148  ARG  CB   A    148  ARG  CG  
+ 200.0  30.01   648   A    149  THR  N    A    149  THR  CA   A    149  THR  CB   A    149  THR  OG1 
+ 200.0  86.10   650   A    150  ARG  N    A    150  ARG  CA   A    150  ARG  CB   A    150  ARG  CG  
+ 200.0  75.01   653   A    151  VAL  N    A    151  VAL  CA   A    151  VAL  CB   A    151  VAL  CG1 
+ 200.0  84.81   656   A    153  LEU  N    A    153  LEU  CA   A    153  LEU  CB   A    153  LEU  CG  
+ 200.0  73.02   658   A    153  LEU  CA   A    153  LEU  CB   A    153  LEU  CG   A    153  LEU  CD1 
+ 200.0  15.42   660   A    153  LEU  C    A    154  MET  N    A    154  MET  CA   A    154  MET  C   
+ 200.0  35.12   662   A    154  MET  N    A    154  MET  CA   A    154  MET  CB   A    154  MET  CG  
+ 200.0  50.05   668   A    155  LEU  N    A    155  LEU  CA   A    155  LEU  CB   A    155  LEU  CG  
+ 200.0  30.02   670   A    155  LEU  CA   A    155  LEU  CB   A    155  LEU  CG   A    155  LEU  CD1 
+ 200.0  65.09   672   A    155  LEU  N    A    155  LEU  CA   A    155  LEU  C    A    156  HIS  N   
+ 200.0  66.64   674   A    155  LEU  C    A    156  HIS  N    A    156  HIS  CA   A    156  HIS  C   
+ 200.0  35.09   676   A    156  HIS  N    A    156  HIS  CA   A    156  HIS  CB   A    156  HIS  CG  
+ 200.0  15.35   679   A    156  HIS  C    A    157  GLU  N    A    157  GLU  CA   A    157  GLU  C   
+ 200.0  75.47   681   A    157  GLU  N    A    157  GLU  CA   A    157  GLU  CB   A    157  GLU  CG  
+ 200.0  15.24   685   A    157  GLU  C    A    158  SER  N    A    158  SER  CA   A    158  SER  C   
+ 195.0  16.00   392   A    65   SER  C    A    66   ALA  N    A    66   ALA  CA   A    66   ALA  C   
+ 195.0  15.56   563   A    127  LEU  C    A    128  SER  N    A    128  SER  CA   A    128  SER  C   
+ 195.0  15.47   638   A    146  GLN  C    A    147  LEU  N    A    147  LEU  CA   A    147  LEU  C   
+ 195.0  16.29   666   A    154  MET  C    A    155  LEU  N    A    155  LEU  CA   A    155  LEU  C   
+ 175.0  33.81   389   A    64   MET  C    A    65   SER  N    A    65   SER  CA   A    65   SER  C   
+ 175.0  18.74   545   A    120  VAL  N    A    120  VAL  CA   A    120  VAL  CB   A    120  VAL  CG1 
+ 100.0  13.28   417   A    73   PHE  C    A    74   GLY  N    A    74   GLY  CA   A    74   GLY  C   
+ 100.0   6.11   559   A    127  LEU  N    A    127  LEU  CA   A    127  LEU  CB   A    127  LEU  CG  
+  95.0  13.97    73   A    73   PHE  N    A    73   PHE  CA   A    73   PHE  C    A    74   GLY  N   
+  75.0  17.14   387   A    64   MET  N    A    64   MET  CA   A    64   MET  C    A    65   SER  N   
+  70.0  11.93    75   A    75   PHE  N    A    75   PHE  CA   A    75   PHE  C    A    76   PRO  N   
+  70.0   8.45   683   A    157  GLU  N    A    157  GLU  CA   A    157  GLU  C    A    158  SER  N   
+  65.0   8.03   412   A    72   GLU  N    A    72   GLU  CA   A    72   GLU  C    A    73   PHE  N   
+  65.0  13.15   664   A    154  MET  N    A    154  MET  CA   A    154  MET  C    A    155  LEU  N   
+  40.0  15.99   390   A    65   SER  N    A    65   SER  CA   A    65   SER  C    A    66   ALA  N   
+  40.0  28.84   616   A    141  GLU  C    A    142  THR  N    A    142  THR  CA   A    142  THR  C   
+  40.0   8.27   620   A    142  THR  N    A    142  THR  CA   A    142  THR  C    A    143  ALA  N   
+  40.0   7.88   677   A    156  HIS  N    A    156  HIS  CA   A    156  HIS  C    A    157  GLU  N   
+  35.0   6.71   319   A    43   LEU  N    A    43   LEU  CA   A    43   LEU  C    A    44   GLN  N   
+  35.0   8.97   375   A    61   TYR  CA   A    61   TYR  CB   A    61   TYR  CG   A    61   TYR  CD1 
+  35.0  14.02   393   A    66   ALA  N    A    66   ALA  CA   A    66   ALA  C    A    67   GLY  N   
+  35.0   6.81   595   A    136  LEU  N    A    136  LEU  CA   A    136  LEU  C    A    137  ASP  N   
+  30.0   9.22   599   A    137  ASP  N    A    137  ASP  CA   A    137  ASP  C    A    138  ASN  N   
+  30.0  10.18    82   A    90   GLY  C    A    91   LEU  N    A    91   LEU  CA   A    91   LEU  C   
+  30.0  11.52    88   A    96   LYS  C    A    97   ALA  N    A    97   ALA  CA   A    97   ALA  C   
+  30.0  14.63   394   A    66   ALA  C    A    67   GLY  N    A    67   GLY  CA   A    67   GLY  C   
+  25.0   9.08   381   A    62   PHE  C    A    63   GLY  N    A    63   GLY  CA   A    63   GLY  C   
+  25.0   7.92    19   A    21   LEU  N    A    21   LEU  CA   A    21   LEU  C    A    22   ILE  N   
+  25.0   8.93     8   A    12   LYS  C    A    13   GLU  N    A    13   GLU  CA   A    13   GLU  C   
+  25.0   8.30    64   A    67   GLY  C    A    68   THR  N    A    68   THR  CA   A    68   THR  C   
+  25.0   9.17   395   A    67   GLY  N    A    67   GLY  CA   A    67   GLY  C    A    68   THR  N   
+  20.0  12.49    23   A    23   ARG  N    A    23   ARG  CA   A    23   ARG  C    A    24   THR  N   
+  20.0   6.22   312   A    42   ILE  N    A    42   ILE  CA   A    42   ILE  C    A    43   LEU  N   
+  20.0  11.64    89   A    97   ALA  N    A    97   ALA  CA   A    97   ALA  C    A    98   ALA  N   
+  20.0  13.42    90   A    97   ALA  C    A    98   ALA  N    A    98   ALA  CA   A    98   ALA  C   
+  20.0   6.71    72   A    72   GLU  C    A    73   PHE  N    A    73   PHE  CA   A    73   PHE  C   
+  20.0  30.02   352   A    51   LYS  N    A    51   LYS  CA   A    51   LYS  CB   A    51   LYS  CG  
+  15.0   7.22    25   A    24   THR  N    A    24   THR  CA   A    24   THR  C    A    25   GLN  N   
+  15.0  13.88   141   A    127  LEU  N    A    127  LEU  CA   A    127  LEU  C    A    128  SER  N   
+  15.0   7.34   160   A    151  VAL  C    A    152  SER  N    A    152  SER  CA   A    152  SER  C   
+  15.0  12.52   162   A    152  SER  C    A    153  LEU  N    A    153  LEU  CA   A    153  LEU  C   
+  15.0  10.26   565   A    128  SER  C    A    129  GLY  N    A    129  GLY  CA   A    129  GLY  C   
+  15.0  10.98    14   A    18   PRO  C    A    19   ALA  N    A    19   ALA  CA   A    19   ALA  C   
+  15.0   5.36   572   A    132  TYR  CA   A    132  TYR  CB   A    132  TYR  CG   A    132  TYR  CD1 
+  10.0   5.32    26   A    24   THR  C    A    25   GLN  N    A    25   GLN  CA   A    25   GLN  C   
+  10.0   7.14   420   A    75   PHE  CA   A    75   PHE  CB   A    75   PHE  CG   A    75   PHE  CD1 
+  10.0   5.46   615   A    141  GLU  N    A    141  GLU  CA   A    141  GLU  C    A    142  THR  N   
+  10.0   5.17    36   A    33   SER  C    A    34   LEU  N    A    34   LEU  CA   A    34   LEU  C   
+  10.0   6.17   159   A    151  VAL  N    A    151  VAL  CA   A    151  VAL  C    A    152  SER  N   
+  10.0   7.32    16   A    19   ALA  C    A    20   LEU  N    A    20   LEU  CA   A    20   LEU  C   
+  10.0   5.29   643   A    147  LEU  N    A    147  LEU  CA   A    147  LEU  C    A    148  ARG  N   
+  10.0   5.98   144   A    130  GLU  C    A    131  ALA  N    A    131  ALA  CA   A    131  ALA  C   
+  10.0   7.68    76   A    76   PRO  C    A    77   VAL  N    A    77   VAL  CA   A    77   VAL  C   
+  10.0   5.20   281   A    31   LEU  C    A    32   GLY  N    A    32   GLY  CA   A    32   GLY  C   
+  10.0   6.59   400   A    69   PHE  CA   A    69   PHE  CB   A    69   PHE  CG   A    69   PHE  CD1 
+  10.0  10.12    31   A    27   ALA  N    A    27   ALA  CA   A    27   ALA  C    A    28   MET  N   
+  10.0  12.48   267   A    28   MET  N    A    28   MET  CA   A    28   MET  C    A    29   SER  N   
+   5.0  10.98    24   A    23   ARG  C    A    24   THR  N    A    24   THR  CA   A    24   THR  C   
+   5.0  22.11    27   A    25   GLN  N    A    25   GLN  CA   A    25   GLN  C    A    26   THR  N   
+   5.0   5.31    29   A    26   THR  N    A    26   THR  CA   A    26   THR  C    A    27   ALA  N   
+   5.0   7.84    99   A    102  TYR  N    A    102  TYR  CA   A    102  TYR  C    A    103  ILE  N   
+   5.0   6.39   100   A    102  TYR  C    A    103  ILE  N    A    103  ILE  CA   A    103  ILE  C   
+   5.0   5.73   106   A    109  ILE  C    A    110  GLU  N    A    110  GLU  CA   A    110  GLU  C   
+   5.0   5.15   156   A    149  THR  C    A    150  ARG  N    A    150  ARG  CA   A    150  ARG  C   
+   5.0   7.41   201   A    7    PHE  CA   A    7    PHE  CB   A    7    PHE  CG   A    7    PHE  CD1 
+   5.0   7.10   465   A    89   THR  C    A    90   GLY  N    A    90   GLY  CA   A    90   GLY  C   
+   5.0   6.84     9   A    13   GLU  N    A    13   GLU  CA   A    13   GLU  C    A    14   LEU  N   
+   5.0  13.11    10   A    13   GLU  C    A    14   LEU  N    A    14   LEU  CA   A    14   LEU  C   
+   5.0  20.99    18   A    20   LEU  C    A    21   LEU  N    A    21   LEU  CA   A    21   LEU  C   
+   5.0   5.21   119   A    116  LEU  N    A    116  LEU  CA   A    116  LEU  C    A    117  MET  N   
+   5.0   6.86   682   A    157  GLU  CA   A    157  GLU  CB   A    157  GLU  CG   A    157  GLU  CD  
+   5.0   5.40    65   A    68   THR  N    A    68   THR  CA   A    68   THR  C    A    69   PHE  N   
+   5.0   6.04    67   A    69   PHE  N    A    69   PHE  CA   A    69   PHE  C    A    70   GLU  N   
+   5.0   5.37   379   A    62   PHE  CA   A    62   PHE  CB   A    62   PHE  CG   A    62   PHE  CD1 
+   5.0   5.02   415   A    73   PHE  CA   A    73   PHE  CB   A    73   PHE  CG   A    73   PHE  CD1 
+   5.0   8.30    83   A    91   LEU  N    A    91   LEU  CA   A    91   LEU  C    A    92   THR  N   
+   5.0   9.79    86   A    93   PRO  C    A    94   SER  N    A    94   SER  CA   A    94   SER  C   
+   5.0   6.58    95   A    100  SER  N    A    100  SER  CA   A    100  SER  C    A    101  LEU  N   
+   5.0  25.69    57   A    59   ALA  N    A    59   ALA  CA   A    59   ALA  C    A    60   ARG  N   
+   5.0   5.03   152   A    147  LEU  C    A    148  ARG  N    A    148  ARG  CA   A    148  ARG  C   
+   5.0   7.95   369   A    58   PHE  CA   A    58   PHE  CB   A    58   PHE  CG   A    58   PHE  CD1 
+   5.0   5.02   445   A    82   GLU  C    A    83   GLY  N    A    83   GLY  CA   A    83   GLY  C   
+   5.0   5.50   456   A    86   ARG  C    A    87   VAL  N    A    87   VAL  CA   A    87   VAL  C   
+   5.0   5.17   289   A    35   PHE  CA   A    35   PHE  CB   A    35   PHE  CG   A    35   PHE  CD1 
+   5.0   6.25    22   A    22   ILE  C    A    23   ARG  N    A    23   ARG  CA   A    23   ARG  C   
+   5.0  16.89   422   A    76   PRO  N    A    76   PRO  CA   A    76   PRO  C    A    77   VAL  N   
+   5.0   6.11   432   A    78   GLU  C    A    79   GLY  N    A    79   GLY  CA   A    79   GLY  C   
+   5.0   6.42   434   A    80   GLY  N    A    80   GLY  CA   A    80   GLY  C    A    81   VAL  N   
+   5.0   5.01    92   A    98   ALA  C    A    99   SER  N    A    99   SER  CA   A    99   SER  C   
+   5.0  10.17   143   A    130  GLU  N    A    130  GLU  CA   A    130  GLU  C    A    131  ALA  N   
+   5.0   6.42   163   A    153  LEU  N    A    153  LEU  CA   A    153  LEU  C    A    154  MET  N   
+   5.0   5.48   138   A    125  PHE  C    A    126  ASP  N    A    126  ASP  CA   A    126  ASP  C   
+   5.0   8.00   158   A    150  ARG  C    A    151  VAL  N    A    151  VAL  CA   A    151  VAL  C   
+   5.0   6.00    78   A    87   VAL  C    A    88   VAL  N    A    88   VAL  CA   A    88   VAL  C   
+
+violations in XplorPot term IMPR  ( 20 structures )
+
+  Maximum positive / negative violation amount: 12.360 / -11.022
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  85.0   7.35   142  A    17   CA  |A    17   C   |A    18   N   |A    18   CA  
+  60.0   6.82   519  A    64   CA  |A    64   C   |A    65   N   |A    65   CA  
+  55.0   6.70   141  A    18   CA  |A    18   N   |A    17   C   |A    18   CD  
+  45.0   8.34   524  A    65   CA  |A    65   C   |A    66   N   |A    66   CA  
+  20.0   5.79  1243  A    156  CA  |A    156  C   |A    157  N   |A    157  CA  
+  20.0   5.73   589  A    72   CA  |A    72   C   |A    73   N   |A    73   CA  
+  15.0   6.39   191  A    23   CA  |A    23   C   |A    24   N   |A    24   CA  
+  15.0   8.26  1221  A    154  CA  |A    154  C   |A    155  N   |A    155  CA  
+  15.0   5.51  1122  A    142  CA  |A    142  C   |A    143  N   |A    143  CA  
+  10.0   9.36   155  A    19   CA  |A    19   C   |A    20   N   |A    20   CA  
+  10.0   5.31   534  A    67   CA  |A    67   C   |A    68   N   |A    68   CA  
+  10.0   5.37   593  A    73   CA  |A    73   C   |A    74   N   |A    74   CA  
+   5.0   7.20   200  A    24   CA  |A    24   C   |A    25   N   |A    25   CA  
+   5.0   5.24   171  A    21   CA  |A    21   C   |A    22   N   |A    22   CA  
+   5.0   5.24   725  A    92   CA  |A    92   C   |A    93   N   |A    93   CA  
+   5.0   5.29   724  A    93   CA  |A    93   N   |A    92   C   |A    93   CD  
+   5.0   8.00   147  A    18   CA  |A    18   C   |A    19   N   |A    19   CA  
+   5.0   5.81   712  A    90   CA  |A    90   C   |A    91   N   |A    91   CA  
+   5.0   8.66   730  A    93   CA  |A    93   C   |A    94   N   |A    94   CA  
+   5.0   5.57   469  A    59   CA  |A    59   C   |A    60   N   |A    60   CA  
+   5.0   6.86  1144  A    145  CA  |A    145  C   |A    146  N   |A    146  CA  
+   5.0   6.65   135  A    16   CA  |A    16   C   |A    17   N   |A    17   CA  
+   5.0   6.46  1223  A    156  CG  |A    156  CB  |A    156  ND1 |A    156  CD2 
+   5.0   7.17  1005  A    127  CA  |A    127  C   |A    128  N   |A    128  CA  
+   5.0   7.03  1213  A    153  CA  |A    153  C   |A    154  N   |A    154  CA  
+   5.0   6.31   753  A    97   CA  |A    97   C   |A    98   N   |A    98   CA  
+   5.0   5.83   758  A    98   CA  |A    98   C   |A    99   N   |A    99   CA  
+   5.0   5.25  1186  A    149  CA  |A    149  C   |A    150  N   |A    150  CA  
+   5.0   6.33   748  A    96   CA  |A    96   C   |A    97   N   |A    97   CA  
+   5.0   5.17  1198  A    151  CA  |A    151  C   |A    152  N   |A    152  CA  
+   5.0   5.92  1236  A    155  CA  |A    155  C   |A    156  N   |A    156  CA  
+
+ Cross Validated Terms
+
+
+ Summary of most violated restraints
+
+ unsupported term: refRMSD
+
+ Energy terms used for sorting:
+  noe CDIH hb torsionDB repel repel14 BOND ANGL IMPR
+
+                                     sort        fit      comparison
+Filename:                           energy       RMSD       RMSD
+refine_63.sa                      51548.54      1.680      7.071
+refine_54.sa                      51780.17      1.626      5.270
+refine_35.sa                      52248.79      1.425      4.799
+refine_57.sa                      52736.77      1.385      5.117
+refine_66.sa                      52981.91      1.916      5.497
+refine_64.sa                      53316.21      1.703      5.038
+refine_68.sa                      53541.53      1.863      3.996
+refine_2.sa                       53546.05      1.087      6.202
+refine_9.sa                       53599.23      1.184      5.534
+refine_24.sa                      53776.82      2.518      7.696
+refine_3.sa                       53913.53      1.883      4.918
+refine_46.sa                      54085.13      1.402      4.973
+refine_71.sa                      54117.47      1.226      4.827
+refine_65.sa                      54275.24      1.616      7.200
+refine_90.sa                      54417.40      1.205      3.583
+refine_94.sa                      54496.93      1.603      5.296
+refine_52.sa                      54499.34      1.465      5.624
+refine_31.sa                      54570.52      1.450      7.931
+refine_86.sa                      54570.90      1.271      4.609
+refine_84.sa                      54650.45      1.066      5.715
+
+average:                                        1.529      5.545
+
+  fit selection: (resid 9:11 19:26 51:53 57:62 69:77 97:102 109:110 112:113 116:116 119:119 131:137 147:154) and name CA
+
+  comparison selection: not resname ANI and not name H*
