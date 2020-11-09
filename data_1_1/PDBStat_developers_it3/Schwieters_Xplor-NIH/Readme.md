@@ -18,6 +18,8 @@ The Xplor-NIH script which generated this structure is in filename
 
    \<TargetID\>_Xplor-NIH_refine.py
 
+This script requires Xplor-NIH version 3.1.2
+
 The corresponding Xplor-NIH structure statistics file is in filename
 
    \<TargetID\>_Xplor-NIH_refine.stats
