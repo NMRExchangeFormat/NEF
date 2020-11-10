@@ -1,0 +1,332 @@
+
+          -------------------------------------------------------
+          Amber 20 SANDER                              2020
+          -------------------------------------------------------
+
+| Run on 11/10/2020 at 08:41:04
+
+|   Executable path: sander.MPI
+| Working directory: /Users/case/nmr/NEF/data_1_1/PDBStats_it3/2kpu/prep
+|          Hostname: Unknown
+  [-O]verwriting output
+
+File Assignments:
+|  MDIN: mdin                                                                  
+| MDOUT: 2kpu.min.o                                                            
+|INPCRD: 2kpu.rst7                                                             
+|  PARM: 2kpu.parm7                                                            
+|RESTRT: 2kpu.min.x                                                            
+|  REFC: 2kpu.rst7                                                             
+| MDVEL: mdvel                                                                 
+| MDFRC: mdfrc                                                                 
+|  MDEN: mden                                                                  
+| MDCRD: mdcrd                                                                 
+|MDINFO: mdinfo                                                                
+|  MTMD: mtmd                                                                  
+|INPDIP: inpdip                                                                
+|RSTDIP: rstdip                                                                
+|INPTRA: inptraj                                                               
+
+|    REMLOG: rem.log
+|   REMTYPE: rem.type
+|  REMSTRIP: 
+|   SAVEENE: saveene
+|CLUSTERINF: cluster.info
+| RESERVOIR: reserv/frame
+|   REMDDIM: 
+
+
+ Here is the input file:
+
+md for NEF restraints                                                          
+ &cntrl                                                                        
+  imin=1 maxcyc=250, ntmin=3, nscm=20000,                                      
+  ntpr=50, ntwx=0, ntwr=100000, ioutfm=1, ntxo=1,                              
+  ntx=1, irest=0, tempi=0., temp0=300.,                                        
+  ntt=3, gamma_ln=10.,                                                         
+  ntb=0, ntp=0, ntc=1, ntf=1,  tol=0.0000001,                                  
+  nstlim=0, dt=.002, ig=314159, ntave=0,                                       
+  ntr=0, restraint_wt=5.0, restraintmask="!@H=",                               
+  igb=8, cut=20.0, rgbmax=15.0,                                                
+  nmropt=1, pencut=1.0,                                                        
+ /                                                                             
+ &wt type='END' /                                                              
+LISTOUT=POUT                                                                   
+DISANG=2kpu.RST                                                                
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+| Flags: MPI                                                                    
+| New format PARM file being parsed.
+| Version =    1.000 Date = 11/10/20 Time = 08:41:04
+ NATOM  =    1522 NTYPES =      14 NBONH =     763 MBONA  =     777
+ NTHETH =    1744 MTHETA =    1061 NPHIH =    3498 MPHIA  =    3434
+ NHPARM =       0 NPARM  =       0 NNB   =    8478 NRES   =      96
+ NBONA  =     777 NTHETA =    1061 NPHIA =    3434 NUMBND =      60
+ NUMANG =     145 NPTRA  =     163 NATYP =      28 NPHB   =       0
+ IFBOX  =       0 NMXRS  =      24 IFCAP =       0 NEXTRA =       0
+ NCOPY  =       0
+
+ Implicit solvent radii are ArgH and AspGluO modified Bondi2 radii (mbondi3)                                
+ Replacing prmtop screening parameters with GBn2 (igb=8) values
+| CMAP information read from topology file: 
+
+|     Memory Use     Allocated
+|     Real              859430
+|     Hollerith           4664
+|     Integer           137766
+|     Max Pairs              1
+|     nblistReal             0
+|     nblist Int             0
+|       Total             7270 kbytes
+
+| Note: 1-4 EEL scale factors are being read from the topology file.
+
+| Note: 1-4 VDW scale factors are being read from the topology file.
+| Duplicated    0 dihedrals
+| Duplicated    0 dihedrals
+|CMAP: Reticulating splines.
+
+--------------------------------------------------------------------------------
+   2.  CONTROL  DATA  FOR  THE  RUN
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+
+General flags:
+     imin    =       1, nmropt  =       1
+
+Nature and format of input:
+     ntx     =       1, irest   =       0, ntrx    =       1
+
+Nature and format of output:
+     ntxo    =       1, ntpr    =      50, ntrx    =       1, ntwr    =       1
+     iwrap   =       0, ntwx    =       0, ntwv    =       0, ntwe    =       0
+     ioutfm  =       1, ntwprt  =       0, idecomp =       0, rbornstat=      0
+
+Potential function:
+     ntf     =       1, ntb     =       0, igb     =       8, nsnb    =      25
+     ipol    =       0, gbsa    =       0, iesp    =       0
+     dielc   =   1.00000, cut     =  20.00000, intdiel =   1.00000
+     saltcon =   0.00000, offset  =   0.19514, surften =   0.00500
+     rdt     =   0.00000, rgbmax  =  15.00000  extdiel =  78.50000
+     alpb  =        0
+     gbalphaH  =   0.78844, gbbetaH   =   0.79870,  gbgammaH  =    0.43733
+     gbalphaC  =   0.73376, gbbetaC   =   0.50638,  gbgammaC  =    0.20584
+     gbalphaN  =   0.50336, gbbetaN   =   0.31683,  gbgammaN  =    0.19292
+     gbalphaOS =   0.86781, gbbetaOS  =   0.87664,  gbgammaOS =    0.38788
+     gbalphaP  =   1.00000, gbbetaP   =   0.80000,  gbgammaP  =    4.85000
+     gb_alpha_hnu  =   0.53705, gb_beta_hnu   =   0.36286,  gb_gamma_hnu  =    0.11670
+     gb_alpha_cnu  =   0.33167, gb_beta_cnu   =   0.19684,  gb_gamma_cnu  =    0.09342
+     gb_alpha_nnu  =   0.68631, gb_beta_nnu   =   0.46319,  gb_gamma_nnu  =    0.13872
+     gb_alpha_onu  =   0.60634, gb_beta_onu   =   0.46301,  gb_gamma_onu  =    0.14226
+     gb_alpha_pnu  =   0.41836, gb_beta_pnu   =   0.29005,  gb_gamma_pnu  =    0.10642
+
+Frozen or restrained atoms:
+     ibelly  =       0, ntr     =       0
+
+Energy minimization:
+     maxcyc  =     250, ncyc    =      10, ntmin   =       3
+     dx0     =   0.01000, drms    =   0.00010
+
+LMOD:
+     xmin_method                  = LBFGS
+     lbfgs_memory_depth           =       3
+     matrix_vector_product_method = forward finite difference
+     xmin_verbosity               =       0
+
+NMR refinement options:
+     iscale  =       0, noeskp  =       1, ipnlty  =       1, mxsub   =       1
+     scalm   = 100.00000, pencut  =   1.00000, tausw   =   0.10000
+
+| MPI Timing options:
+|      profile_mpi =        0
+|  INFO: Old style inpcrd file read
+
+
+--------------------------------------------------------------------------------
+   3.  ATOMIC COORDINATES AND VELOCITIES
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+ begin time read from input coords =     0.000 ps
+
+
+
+           Begin reading energy term weight changes/NMR restraints
+ WEIGHT CHANGES:
+                         ** No weight changes given **
+
+ RESTRAINTS:
+ Requested file redirections:
+  LISTOUT   = POUT
+  DISANG    = 2kpu.RST
+ Restraints will be read from file: 2kpu.RST
+Here are comments from the DISANG input file:
+#  converting NEF block nef_distance_restraint_list_2kpu.mr                     
+#                                                                               
+#  1    A 19 ASN H     A 20 THR H        3.500                                  
+
+                       Number of restraints read =   907
+
+                  Done reading weight changes/NMR restraints
+
+
+ Number of triangulated 3-point waters found:        0
+|  Atom division among processors:
+|         0     396     764    1157    1522
+|  Running AMBER/MPI version on    4 nodes
+
+
+--------------------------------------------------------------------------------
+   4.  RESULTS
+--------------------------------------------------------------------------------
+
+  LMOD XMIN Minimization.
+
+  Note: Owing to the behaviour of the XMIN algorithm,
+        coordinates in the trajectory and intermediate
+        restart files will not match up with energies
+        in the mdout and mdinfo files. The final energy
+        and final coordinates do match.
+
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+      0      -2.7023E+03     1.7096E+01     4.8706E+02     HB2       591
+
+ BOND    =      102.0951  ANGLE   =      232.4172  DIHED      =      469.0380
+ VDWAALS =     -282.5026  EEL     =    -6336.7043  EGB        =    -2079.9073
+ 1-4 VDW =      410.1878  1-4 EEL =     4520.8674  RESTRAINT  =      147.5996
+ CMAP    =      114.5614
+ EAMBER  =    -2849.9473
+ NMR restraints: Bond =  147.600   Angle =     0.000   Torsion =     0.000
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+     50      -3.4519E+03     7.1140E-01     6.3690E+00     CG        839
+
+ BOND    =       53.3793  ANGLE   =      308.0370  DIHED      =      451.4595
+ VDWAALS =     -649.9748  EEL     =    -6453.5715  EGB        =    -1895.9929
+ 1-4 VDW =      277.8895  1-4 EEL =     4328.2222  RESTRAINT  =       31.0189
+ CMAP    =       97.6421
+ EAMBER  =    -3482.9095
+ NMR restraints: Bond =   30.926   Angle =     0.000   Torsion =     0.093
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    100      -3.5118E+03     3.8389E-01     7.8302E+00     CD        596
+
+ BOND    =       53.4956  ANGLE   =      308.6162  DIHED      =      442.0667
+ VDWAALS =     -653.9172  EEL     =    -6358.2410  EGB        =    -1993.0445
+ 1-4 VDW =      277.4999  1-4 EEL =     4310.8080  RESTRAINT  =       10.7264
+ CMAP    =       90.1739
+ EAMBER  =    -3522.5424
+ NMR restraints: Bond =   10.654   Angle =     0.000   Torsion =     0.073
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    150      -3.5430E+03     2.4053E-01     2.6589E+00     CG        968
+
+ BOND    =       53.4523  ANGLE   =      305.9764  DIHED      =      442.4177
+ VDWAALS =     -659.1928  EEL     =    -6462.9336  EGB        =    -1899.9705
+ 1-4 VDW =      276.9821  1-4 EEL =     4311.2293  RESTRAINT  =        5.2229
+ CMAP    =       83.8449
+ EAMBER  =    -3548.1940
+ NMR restraints: Bond =    5.149   Angle =     0.000   Torsion =     0.074
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    200      -3.5621E+03     2.6479E-01     1.9245E+00     CD       1073
+
+ BOND    =       53.4433  ANGLE   =      304.1699  DIHED      =      439.8300
+ VDWAALS =     -660.6508  EEL     =    -6614.0627  EGB        =    -1757.0132
+ 1-4 VDW =      277.4908  1-4 EEL =     4308.9341  RESTRAINT  =        3.4594
+ CMAP    =       82.3122
+ EAMBER  =    -3565.5463
+ NMR restraints: Bond =    3.378   Angle =     0.000   Torsion =     0.081
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    250      -3.5809E+03     2.2924E-01     2.9942E+00     CG        839
+
+ BOND    =       53.4152  ANGLE   =      305.3923  DIHED      =      438.7868
+ VDWAALS =     -662.9822  EEL     =    -6675.0840  EGB        =    -1702.1141
+ 1-4 VDW =      274.8428  1-4 EEL =     4303.2051  RESTRAINT  =        2.7509
+ CMAP    =       80.8655
+ EAMBER  =    -3583.6726
+ NMR restraints: Bond =    2.646   Angle =     0.000   Torsion =     0.105
+===============================================================================
+
+
+                    FINAL RESULTS
+
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    250      -3.5809E+03     2.2924E-01     2.9942E+00     CG        839
+
+ BOND    =       53.4152  ANGLE   =      305.3923  DIHED      =      438.7868
+ VDWAALS =     -662.9822  EEL     =    -6675.0840  EGB        =    -1702.1141
+ 1-4 VDW =      274.8428  1-4 EEL =     4303.2051  RESTRAINT  =        2.7509
+ CMAP    =       80.8655
+ EAMBER  =    -3583.6726
+ NMR restraints: Bond =    2.646   Angle =     0.000   Torsion =     0.105
+===============================================================================
+ ------------------------------------------------------------------------------
+
+
+ Final Restraint Analysis for coords: 2kpu.min.x                              
+
+
+ Restraints, deviations, and energy contributions:    pencut =    1.00
+
+ ------------------------------------------------------------------------------
+     First atom        Last atom    curr. value target deviation  penalty
+ ------------------------------------------------------------------------------
+                                       Total distance penalty:      2.646
+                                       Total torsion  penalty:      0.105
+ ------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+   5.  TIMINGS
+--------------------------------------------------------------------------------
+
+|    Read coords time           0.00 ( 0.02% of Total)
+|                Calc gb radii              1.04 (21.98% of Gen B)
+|                Communicate gb radii       0.08 ( 1.68% of Gen B)
+|                Calc gb diag               1.87 (39.47% of Gen B)
+|                Calc gb off-diag           1.75 (36.86% of Gen B)
+|                Other                      0.00 ( 0.01% of Gen B)
+|             Gen Born time              4.75 (100.0% of Nonbo)
+|          Nonbond force              4.75 (95.75% of Force)
+|          Bond/Angle/Dihedral        0.10 ( 1.98% of Force)
+|          FRC Collect time           0.04 ( 0.73% of Force)
+|          Other                      0.08 ( 1.55% of Force)
+|       Force time                 4.96 (100.0% of Runmd)
+|    Runmd Time                 4.96 (74.67% of Total)
+|    Other                      1.68 (25.31% of Total)
+| Total time                 6.64 (100.0% of ALL  )
+
+| Highest rstack allocated:          0
+| Highest istack allocated:          0
+|           Job began  at 08:41:04.353  on 11/10/2020
+|           Setup done at 08:41:04.437  on 11/10/2020
+|           Run   done at 08:41:10.995  on 11/10/2020
+|     wallclock() was called    8578 times
+
+|3D-RISM memory allocation summary
+|Type          Maximum        Current   
+|Integer       0.00000 GB     0.00000 GB
+|Real          0.00000 GB     0.00000 GB
+|Logical       0.00000 GB     0.00000 GB
+|Character     0.00000 GB     0.00000 GB
+|---------------------------------------
+|Total         0.00000 GB     0.00000 GB
