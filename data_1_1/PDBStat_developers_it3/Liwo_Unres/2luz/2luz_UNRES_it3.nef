@@ -7,14 +7,14 @@ save_nef_nmr_meta_data
     _nef_nmr_meta_data.format_version        1.1                                          
     _nef_nmr_meta_data.program_name          UNRES                                        
     _nef_nmr_meta_data.program_version       4.0                                          
-    _nef_nmr_meta_data.creation_date         2020-10-27_09:25:41                          
-    _nef_nmr_meta_data.uuid                  2020-10-27.1603787141                        
+    _nef_nmr_meta_data.creation_date         2020-11-09_12:52:11                          
+    _nef_nmr_meta_data.uuid                  2020-11-09.1604922731                        
     _nef_nmr_meta_data.coordinate_file_name  .                                            
 save_
 
 save_nef_molecular_system                    
-    _nef_molecular_sys.sf_category            nef_molecular_system                        
-    _nef_molecular_sys.sf_framecode           nef_molecular_system                        
+    _nef_molecular_system.sf_category            nef_molecular_system                        
+    _nef_molecular_system.sf_framecode           nef_molecular_system                        
 
     loop_
          _nef_sequence.index
