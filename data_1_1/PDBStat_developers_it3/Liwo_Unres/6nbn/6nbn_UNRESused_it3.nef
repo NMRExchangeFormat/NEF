@@ -1,0 +1,1385 @@
+save_nef_nmr_meta_data
+    _nef_nmr_meta_data.sf_category           nef_nmr_meta_data                            
+    _nef_nmr_meta_data.sf_framecode          nef_nmr_meta_data                            
+    _nef_nmr_meta_data.format_name           nmr_exchange_format                          
+    _nef_nmr_meta_data.format_version        1.1                                          
+    _nef_nmr_meta_data.program_name          UNRES                                        
+    _nef_nmr_meta_data.program_version       4.0                                          
+    _nef_nmr_meta_data.creation_date         2020-11-09_12:49:41                          
+    _nef_nmr_meta_data.uuid                  2020-11-09.1604922581                        
+    _nef_nmr_meta_data.coordinate_file_name  .                                            
+save_
+
+save_nef_molecular_system                    
+    _nef_molecular_system.sf_category            nef_molecular_system                        
+    _nef_molecular_system.sf_framecode           nef_molecular_system                        
+
+    loop_
+         _nef_sequence.index
+         _nef_sequence.chain_code
+         _nef_sequence.sequence_code
+         _nef_sequence.residue_name
+         _nef_sequence.linking
+         _nef_sequence.residue_variant
+ 
+            1 A 1    MET  start     . 
+            2 A 2    GLU  middle    . 
+            3 A 3    PHE  middle    . 
+            4 A 4    THR  middle    . 
+            5 A 5    VAL  middle    . 
+            6 A 6    SER  middle    . 
+            7 A 7    THR  middle    . 
+            8 A 8    THR  middle    . 
+            9 A 9    GLU  middle    . 
+           10 A 10   ASP  middle    . 
+           11 A 11   LEU  middle    . 
+           12 A 12   GLN  middle    . 
+           13 A 13   ARG  middle    . 
+           14 A 14   TYR  middle    . 
+           15 A 15   ARG  middle    . 
+           16 A 16   THR  middle    . 
+           17 A 17   GLU  middle    . 
+           18 A 18   CYS  middle    -HG 
+           19 A 19   VAL  middle    . 
+           20 A 20   SER  middle    . 
+           21 A 21   SER  middle    . 
+           22 A 22   LEU  middle    . 
+           23 A 23   ASN  middle    . 
+           24 A 24   ILE  middle    . 
+           25 A 25   PRO  middle    . 
+           26 A 26   ALA  middle    . 
+           27 A 27   ASP  middle    . 
+           28 A 28   TYR  middle    . 
+           29 A 29   VAL  middle    . 
+           30 A 30   GLU  middle    . 
+           31 A 31   LYS  middle    . 
+           32 A 32   PHE  middle    . 
+           33 A 33   LYS  middle    . 
+           34 A 34   LYS  middle    . 
+           35 A 35   TRP  middle    . 
+           36 A 36   GLU  middle    . 
+           37 A 37   PHE  middle    . 
+           38 A 38   PRO  middle    . 
+           39 A 39   GLU  middle    . 
+           40 A 40   ASP  middle    . 
+           41 A 41   ASP  middle    . 
+           42 A 42   THR  middle    . 
+           43 A 43   THR  middle    . 
+           44 A 44   MET  middle    . 
+           45 A 45   CYS  middle    -HG 
+           46 A 46   TYR  middle    . 
+           47 A 47   ILE  middle    . 
+           48 A 48   LYS  middle    . 
+           49 A 49   CYS  middle    -HG 
+           50 A 50   VAL  middle    . 
+           51 A 51   PHE  middle    . 
+           52 A 52   ASN  middle    . 
+           53 A 53   LYS  middle    . 
+           54 A 54   MET  middle    . 
+           55 A 55   GLN  middle    . 
+           56 A 56   LEU  middle    . 
+           57 A 57   PHE  middle    . 
+           58 A 58   ASP  middle    . 
+           59 A 59   ASP  middle    . 
+           60 A 60   THR  middle    . 
+           61 A 61   GLU  middle    . 
+           62 A 62   GLY  middle    . 
+           63 A 63   PRO  middle    . 
+           64 A 64   LEU  middle    . 
+           65 A 65   VAL  middle    . 
+           66 A 66   ASP  middle    . 
+           67 A 67   ASN  middle    . 
+           68 A 68   LEU  middle    . 
+           69 A 69   VAL  middle    . 
+           70 A 70   HIS  middle    . 
+           71 A 71   GLN  middle    . 
+           72 A 72   LEU  middle    . 
+           73 A 73   ALA  middle    . 
+           74 A 74   HIS  middle    . 
+           75 A 75   GLY  middle    . 
+           76 A 76   ARG  middle    . 
+           77 A 77   ASP  middle    . 
+           78 A 78   ALA  middle    . 
+           79 A 79   GLU  middle    . 
+           80 A 80   GLU  middle    . 
+           81 A 81   VAL  middle    . 
+           82 A 82   ARG  middle    . 
+           83 A 83   THR  middle    . 
+           84 A 84   GLU  middle    . 
+           85 A 85   VAL  middle    . 
+           86 A 86   LEU  middle    . 
+           87 A 87   LYS  middle    . 
+           88 A 88   CYS  middle    -HG 
+           89 A 89   VAL  middle    . 
+           90 A 90   ASP  middle    . 
+           91 A 91   LYS  middle    . 
+           92 A 92   ASN  middle    . 
+           93 A 93   THR  middle    . 
+           94 A 94   ASP  middle    . 
+           95 A 95   ASN  middle    . 
+           96 A 96   ASN  middle    . 
+           97 A 97   ALA  middle    . 
+           98 A 98   CYS  middle    -HG 
+           99 A 99   HIS  middle    . 
+          100 A 100  TRP  middle    . 
+          101 A 101  ALA  middle    . 
+          102 A 102  PHE  middle    . 
+          103 A 103  ARG  middle    . 
+          104 A 104  GLY  middle    . 
+          105 A 105  PHE  middle    . 
+          106 A 106  LYS  middle    . 
+          107 A 107  CYS  middle    -HG 
+          108 A 108  PHE  middle    . 
+          109 A 109  GLN  middle    . 
+          110 A 110  LYS  middle    . 
+          111 A 111  ASN  middle    . 
+          112 A 112  ASN  middle    . 
+          113 A 113  LEU  middle    . 
+          114 A 114  SER  middle    . 
+          115 A 115  LEU  middle    . 
+          116 A 116  ILE  middle    . 
+          117 A 117  LYS  middle    . 
+          118 A 118  ALA  middle    . 
+          119 A 119  SER  middle    . 
+          120 A 120  ILE  middle    . 
+          121 A 121  LYS  middle    . 
+          122 A 122  LYS  middle    . 
+          123 A 123  ASP  middle    . 
+          124 A 201  ACD  end       .
+    stop_
+
+    loop_
+          _nef_covalent_links.chain_code_1                                 
+          _nef_covalent_links.sequence_code_1                              
+          _nef_covalent_links.residue_name_1                               
+          _nef_covalent_links.atom_name_1                                  
+          _nef_covalent_links.chain_code_2                                 
+          _nef_covalent_links.sequence_code_2                              
+          _nef_covalent_links.residue_name_2                               
+          _nef_covalent_links.atom_name_2                                  
+ 
+
+          A  18     CYS SG    A  45     CYS SG   
+          A  45     CYS SG    A  98     CYS SG   
+          A  88     CYS SG    A  107    CYS SG   
+    stop_
+save_
+
+save_nef_distance_restraint_list_6nbn.mr          
+    _nef_distance_restraint_list.sf_category       nef_distance_restraint_list                      
+    _nef_distance_restraint_list.sf_framecode      nef_distance_restraint_list_6nbn.mr              
+    _nef_distance_restraint_list.potential_type    undefined                                        
+    _nef_distance_restraint_list.restraint_origin  .                                                
+
+    loop_
+        _nef_distance_restraint.index                                        
+        _nef_distance_restraint.restraint_id                                 
+        _nef_distance_restraint.restraint_combination_id                     
+        _nef_distance_restraint.chain_code_1                                 
+        _nef_distance_restraint.sequence_code_1                              
+        _nef_distance_restraint.residue_name_1                               
+        _nef_distance_restraint.atom_name_1                                  
+        _nef_distance_restraint.chain_code_2                                 
+        _nef_distance_restraint.sequence_code_2                              
+        _nef_distance_restraint.residue_name_2                               
+        _nef_distance_restraint.atom_name_2                                  
+        _nef_distance_restraint.weight                                       
+        _nef_distance_restraint.target_value                                 
+        _nef_distance_restraint.target_value_uncertainty                     
+        _nef_distance_restraint.lower_limit                                  
+        _nef_distance_restraint.upper_limit                                  
+
+         10    6     .     A     12    GLN   HA    A     15    ARG   HD3   1.0   3.064 .     1.891 4.237 
+         11    6     .     A     12    GLN   HA    A     15    ARG   HD%   1.0   3.064 .     1.891 4.237 
+         16    9     .     A     91    LYS   H     A     90    ASP   HB3   1.0   2.479 .     1.711 3.247 
+         18    10    .     A     82    ARG   HGy   A     69    VAL   HG2%  1.0   2.522 .     1.727 3.317 
+         21    12    .     A     22    LEU   H     A     21    SER   HB%   1.0   2.428 .     1.691 3.165 
+         22    12    .     A     22    LEU   H     A     21    SER   HB3   1.0   2.428 .     1.691 3.165 
+         29    16    .     A     88    CYS   H     A     87    LYS   HB%   1.0   3.112 .     1.901 4.323 
+         30    16    .     A     88    CYS   H     A     87    LYS   HB3   1.0   3.112 .     1.901 4.323 
+         34    19    .     A     81    VAL   H     A     80    GLU   HB3   1.0   2.549 .     1.737 3.361 
+         41    22    .     A     41    ASP   H     A     40    ASP   HBy   1.0   3.399 .     1.955 4.843 
+         43    23    .     A     67    ASN   HD21  A     64    LEU   HD1%  1.0   3.885 .     1.998 5.772 
+         50    27    .     A     10    ASP   H     A     9     GLU   HB3   1.0   2.578 .     1.747 3.409 
+         51    27    .     A     10    ASP   H     A     9     GLU   HB%   1.0   2.578 .     1.747 3.409 
+         54    29    .     A     3     PHE   H     A     2     GLU   HG%   1.0   4.369 .     1.983 6.755 
+         55    29    .     A     3     PHE   H     A     2     GLU   HG3   1.0   4.369 .     1.983 6.755 
+         56    30    .     A     58    ASP   HBy   A     64    LEU   HD2%  1.0   2.531 .     1.730 3.332 
+         57    31    .     A     113   LEU   HA    A     116   ILE   HD1%  1.0   2.479 .     1.711 3.247 
+         60    33    .     A     12    GLN   H     A     11    LEU   HD1%  1.0   4.026 .     2.000 6.052 
+         61    33    .     A     12    GLN   H     A     11    LEU   HD2%  1.0   4.026 .     2.000 6.052 
+         64    35    .     A     19    VAL   HG2%  A     29    VAL   HG2%  1.0   2.026 .     1.513 2.539 
+         65    36    .     A     26    ALA   HA    A     29    VAL   HG2%  1.0   2.172 .     1.583 2.761 
+         69    39    .     A     65    VAL   HA    A     68    LEU   HD1%  1.0   2.140 .     1.568 2.712 
+         78    44    .     A     30    GLU   H     A     29    VAL   HG2%  1.0   3.342 .     1.946 4.738 
+         79    44    .     A     30    GLU   H     A     29    VAL   HG1%  1.0   3.342 .     1.946 4.738 
+         97    54    .     A     63    PRO   HA    A     68    LEU   HD1%  1.0   2.770 .     1.811 3.729 
+         104   59    .     A     101   ALA   HB%   A     48    LYS   HG3   1.0   2.443 .     1.697 3.189 
+         105   59    .     A     101   ALA   HB%   A     48    LYS   HG%   1.0   2.443 .     1.697 3.189 
+         108   61    .     A     47    ILE   HD1%  A     51    PHE   HE%   1.0   2.636 .     1.767 3.505 
+         109   61    .     A     47    ILE   HD1%  A     105   PHE   HD%   1.0   2.636 .     1.767 3.505 
+         114   65    .     A     67    ASN   HD22  A     64    LEU   HD1%  1.0   3.943 .     1.999 5.887 
+         115   66    .     A     61    GLU   H     A     64    LEU   HD2%  1.0   4.301 .     1.989 6.613 
+         121   70    .     A     18    CYS   HA    A     21    SER   HB%   1.0   2.703 .     1.790 3.616 
+         122   70    .     A     18    CYS   HA    A     21    SER   HB3   1.0   2.703 .     1.790 3.616 
+         128   74    .     A     85    VAL   HG2%  A     108   PHE   HE%   1.0   2.316 .     1.645 2.987 
+         129   75    .     A     109   GLN   HBy   A     113   LEU   HD1%  1.0   3.009 .     1.877 4.141 
+         130   76    .     A     113   LEU   HD2%  A     117   LYS   HEx   1.0   2.349 .     1.659 3.039 
+         131   76    .     A     113   LEU   HD1%  A     117   LYS   HEx   1.0   2.349 .     1.659 3.039 
+         137   80    .     A     89    VAL   HG1%  A     63    PRO   HGy   1.0   2.367 .     1.667 3.067 
+         138   80    .     A     89    VAL   HG2%  A     63    PRO   HGy   1.0   2.367 .     1.667 3.067 
+         140   82    .     A     61    GLU   HBy   A     64    LEU   HD2%  1.0   2.702 .     1.789 3.615 
+         141   83    .     A     84    GLU   HB%   A     108   PHE   HE%   1.0   2.517 .     1.725 3.309 
+         142   83    .     A     108   PHE   HE%   A     84    GLU   HB3   1.0   2.517 .     1.725 3.309 
+         146   85    .     A     73    ALA   H     A     69    VAL   HA    1.0   2.815 .     1.825 3.805 
+         148   86    .     A     89    VAL   HB    A     86    LEU   HA    1.0   2.515 .     1.724 3.306 
+         151   88    .     A     82    ARG   HGx   A     86    LEU   HD1%  1.0   2.005 .     1.503 2.507 
+         160   94    .     A     63    PRO   HBy   A     68    LEU   HD1%  1.0   2.122 .     1.559 2.685 
+         165   97    .     A     89    VAL   HG2%  A     63    PRO   HGy   1.0   2.316 .     1.645 2.987 
+         169   99    .     A     84    GLU   HB%   A     81    VAL   HA    1.0   2.997 .     1.874 4.120 
+         170   100   .     A     115   LEU   H     A     114   SER   HB3   1.0   2.621 .     1.762 3.480 
+         171   100   .     A     115   LEU   H     A     114   SER   HB%   1.0   2.621 .     1.762 3.480 
+         174   102   .     A     62    GLY   H     A     64    LEU   HD2%  1.0   4.126 .     1.998 6.254 
+         179   105   .     A     81    VAL   HA    A     84    GLU   HGx   1.0   2.712 .     1.793 3.631 
+         180   106   .     A     19    VAL   HG1%  A     24    ILE   HB    1.0   2.025 .     1.512 2.538 
+         183   109   .     A     60    THR   HA    A     100   TRP   HZ3   1.0   3.898 .     1.999 5.797 
+         187   113   .     A     79    GLU   H     A     78    ALA   HB%   1.0   2.410 .     1.684 3.136 
+         188   114   .     A     100   TRP   HE3   A     57    PHE   HZ    1.0   3.252 .     1.930 4.574 
+         191   117   .     A     58    ASP   HBx   A     64    LEU   HD2%  1.0   2.273 .     1.627 2.919 
+         194   119   .     A     97    ALA   HB%   A     100   TRP   HE3   1.0   3.772 .     1.993 5.551 
+         202   126   .     A     49    CYS   H     A     22    LEU   HD1%  1.0   2.965 .     1.866 4.064 
+         203   127   .     A     81    VAL   HG2%  A     73    ALA   H     1.0   3.597 .     1.980 5.214 
+         205   129   .     A     21    SER   H     A     20    SER   HA    1.0   3.606 .     1.980 5.232 
+         208   132   .     A     19    VAL   H     A     46    TYR   HE%   1.0   4.279 .     1.990 6.568 
+         214   138   .     A     65    VAL   HA    A     66    ASP   H     1.0   3.652 .     1.985 5.319 
+         215   139   .     A     99    HIS   HBx   A     100   TRP   H     1.0   2.973 .     1.868 4.078 
+         220   144   .     A     62    GLY   HAy   A     100   TRP   HH2   1.0   4.093 .     1.998 6.188 
+         221   145   .     A     95    ASN   HA    A     92    ASN   HD22  1.0   2.590 .     1.752 3.428 
+         222   146   .     A     15    ARG   H     A     12    GLN   HA    1.0   3.567 .     1.976 5.158 
+         231   154   .     A     31    LYS   H     A     28    TYR   HA    1.0   3.540 .     1.974 5.106 
+         232   155   .     A     31    LYS   H     A     29    VAL   HA    1.0   4.293 .     1.989 6.597 
+         237   160   .     A     73    ALA   HB%   A     81    VAL   HG1%  1.0   2.090 .     1.544 2.636 
+         239   162   .     A     90    ASP   H     A     89    VAL   HA    1.0   2.039 .     1.519 2.559 
+         242   164   .     A     64    LEU   H     A     57    PHE   HA    1.0   2.620 .     1.762 3.478 
+         243   165   .     A     9     GLU   H     A     8     THR   HG2%  1.0   2.976 .     1.869 4.083 
+         246   167   .     A     51    PHE   H     A     50    VAL   HG1%  1.0   2.989 .     1.872 4.106 
+         247   168   .     A     50    VAL   HG2%  A     18    CYS   HB2   1.0   2.578 .     1.747 3.409 
+         248   169   .     A     3     PHE   H     A     2     GLU   HBx   1.0   3.115 .     1.902 4.328 
+         250   171   .     A     62    GLY   H     A     58    ASP   HBy   1.0   2.949 .     1.862 4.036 
+         251   172   .     A     11    LEU   H     A     10    ASP   HB2   1.0   2.946 .     1.861 4.031 
+         252   173   .     A     72    LEU   HB2   A     81    VAL   HG1%  1.0   2.115 .     1.556 2.674 
+         255   176   .     A     19    VAL   H     A     18    CYS   HB2   1.0   2.952 .     1.862 4.042 
+         256   177   .     A     92    ASN   H     A     91    LYS   HA    1.0   2.217 .     1.602 2.832 
+         261   182   .     A     69    VAL   HA    A     73    ALA   HB%   1.0   3.100 .     1.899 4.301 
+         265   186   .     A     82    ARG   H     A     81    VAL   HA    1.0   3.884 .     1.998 5.770 
+         268   189   .     A     8     THR   H     A     7     THR   H     1.0   4.839 .     1.912 7.766 
+         271   192   .     A     35    TRP   H     A     34    LYS   HA    1.0   2.802 .     1.820 3.784 
+         272   193   .     A     68    LEU   H     A     65    VAL   HA    1.0   3.410 .     1.957 4.863 
+         273   194   .     A     10    ASP   HB2   A     6     SER   HBx   1.0   2.938 .     1.859 4.017 
+         274   195   .     A     44    MET   H     A     43    THR   HB    1.0   2.718 .     1.795 3.641 
+         275   196   .     A     34    LYS   H     A     31    LYS   HA    1.0   3.833 .     1.996 5.670 
+         276   197   .     A     51    PHE   H     A     47    ILE   HA    1.0   4.121 .     1.998 6.244 
+         277   198   .     A     112   ASN   HD22  A     111   ASN   HB3   1.0   4.132 .     1.998 6.266 
+         280   201   .     A     109   GLN   H     A     108   PHE   HA    1.0   3.749 .     1.993 5.505 
+         281   202   .     A     32    PHE   H     A     31    LYS   HB3   1.0   3.403 .     1.955 4.851 
+         282   203   .     A     52    ASN   H     A     49    CYS   HA    1.0   3.774 .     1.994 5.554 
+         285   206   .     A     54    MET   H     A     56    LEU   H     1.0   3.990 .     2.000 5.980 
+         286   207   .     A     5     VAL   HGx%  A     71    GLN   HE22  1.0   2.405 .     1.682 3.128 
+         288   209   .     A     81    VAL   HG2%  A     73    ALA   HA    1.0   2.127 .     1.562 2.692 
+         289   210   .     A     50    VAL   H     A     46    TYR   HA    1.0   4.122 .     1.998 6.246 
+         291   212   .     A     18    CYS   HB2   A     46    TYR   HE%   1.0   2.816 .     1.825 3.807 
+         295   216   .     A     55    GLN   HA    A     56    LEU   H     1.0   2.485 .     1.713 3.257 
+         301   222   .     A     116   ILE   HB    A     113   LEU   HD1%  1.0   2.267 .     1.624 2.910 
+         303   224   .     A     16    THR   HG2%  A     17    GLU   H     1.0   2.765 .     1.809 3.721 
+         305   226   .     A     113   LEU   HD2%  A     117   LYS   HEx   1.0   2.559 .     1.741 3.377 
+         308   229   .     A     52    ASN   H     A     51    PHE   HB3   1.0   3.481 .     1.966 4.996 
+         309   230   .     A     87    LYS   H     A     86    LEU   HB2   1.0   2.982 .     1.870 4.094 
+         316   237   .     A     86    LEU   H     A     85    VAL   H     1.0   3.071 .     1.892 4.250 
+         317   238   .     A     47    ILE   HG2%  A     105   PHE   HB2   1.0   2.688 .     1.785 3.591 
+         318   239   .     A     52    ASN   HBx   A     49    CYS   HA    1.0   2.754 .     1.806 3.702 
+         323   244   .     A     73    ALA   H     A     81    VAL   HG1%  1.0   2.479 .     1.711 3.247 
+         325   246   .     A     31    LYS   H     A     33    LYS   H     1.0   4.186 .     1.996 6.376 
+         327   248   .     A     116   ILE   HG2%  A     35    TRP   HH2   1.0   2.220 .     1.604 2.836 
+         330   251   .     A     50    VAL   HG1%  A     53    LYS   H     1.0   4.537 .     1.964 7.110 
+         331   252   .     A     40    ASP   H     A     44    MET   H     1.0   4.198 .     1.995 6.401 
+         332   253   .     A     109   GLN   HA    A     116   ILE   HD1%  1.0   2.207 .     1.598 2.816 
+         333   254   .     A     101   ALA   HB%   A     48    LYS   HA    1.0   2.256 .     1.620 2.892 
+         334   255   .     A     28    TYR   HA    A     31    LYS   HDx   1.0   2.596 .     1.754 3.438 
+         337   258   .     A     100   TRP   H     A     98    CYS   H     1.0   4.026 .     2.000 6.052 
+         343   262   .     A     23    ASN   HBx   A     24    ILE   H     1.0   4.040 .     2.000 6.080 
+         348   266   .     A     48    LYS   H     A     47    ILE   HB    1.0   2.897 .     1.848 3.946 
+         350   268   .     A     105   PHE   HE%   A     35    TRP   HZ3   1.0   3.646 .     1.985 5.307 
+         354   272   .     A     112   ASN   HD21  A     108   PHE   HA    1.0   4.101 .     1.999 6.203 
+         357   275   .     A     28    TYR   HA    A     31    LYS   HGy   1.0   2.753 .     1.806 3.700 
+         359   277   .     A     43    THR   HG2%  A     32    PHE   HE%   1.0   2.142 .     1.568 2.716 
+         363   281   .     A     67    ASN   HB2   A     64    LEU   HB3   1.0   3.137 .     1.907 4.367 
+         365   283   .     A     113   LEU   HA    A     116   ILE   HB    1.0   2.876 .     1.842 3.910 
+         367   285   .     A     36    GLU   HA    A     37    PHE   H     1.0   1.971 .     1.486 2.456 
+         369   287   .     A     115   LEU   H     A     117   LYS   H     1.0   4.347 .     1.985 6.709 
+         372   290   .     A     106   LYS   HBx   A     107   CYS   H     1.0   2.970 .     1.868 4.072 
+         373   291   .     A     102   PHE   HD%   A     47    ILE   HG1x  1.0   2.893 .     1.847 3.939 
+         379   297   .     A     38    PRO   HDx   A     37    PHE   HA    1.0   2.475 .     1.709 3.241 
+         381   299   .     A     81    VAL   HA    A     84    GLU   H     1.0   3.678 .     1.987 5.369 
+         382   300   .     A     43    THR   HG2%  A     37    PHE   HB%   1.0   2.105 .     1.551 2.659 
+         383   301   .     A     86    LEU   H     A     83    THR   HA    1.0   3.764 .     1.993 5.535 
+         384   302   .     A     64    LEU   H     A     63    PRO   HA    1.0   2.117 .     1.557 2.677 
+         393   311   .     A     35    TRP   HA    A     37    PHE   HE%   1.0   2.542 .     1.734 3.350 
+         397   314   .     A     119   SER   H     A     121   LYS   H     1.0   4.140 .     1.998 6.282 
+         402   319   .     A     47    ILE   H     A     46    TYR   HA    1.0   3.692 .     1.988 5.396 
+         403   320   .     A     66    ASP   H     A     65    VAL   HB    1.0   2.437 .     1.694 3.180 
+         407   324   .     A     16    THR   HB    A     17    GLU   H     1.0   2.341 .     1.656 3.026 
+         411   328   .     A     109   GLN   H     A     116   ILE   HD1%  1.0   3.039 .     1.884 4.194 
+         413   330   .     A     73    ALA   HB%   A     69    VAL   HG1%  1.0   2.244 .     1.614 2.874 
+         414   331   .     A     85    VAL   H     A     84    GLU   H     1.0   3.174 .     1.915 4.433 
+         419   336   .     A     41    ASP   HA    A     45    CYS   H     1.0   4.126 .     1.998 6.254 
+         421   338   .     A     58    ASP   H     A     64    LEU   HD2%  1.0   3.416 .     1.958 4.874 
+         422   339   .     A     50    VAL   HG1%  A     54    MET   H     1.0   4.101 .     1.998 6.204 
+         425   342   .     A     81    VAL   H     A     82    ARG   H     1.0   3.141 .     1.908 4.374 
+         431   347   .     A     36    GLU   H     A     32    PHE   HA    1.0   2.767 .     1.810 3.724 
+         432   348   .     A     93    THR   H     A     92    ASN   HB3   1.0   4.255 .     1.992 6.518 
+         436   352   .     A     89    VAL   H     A     88    CYS   HA    1.0   3.740 .     1.992 5.488 
+         440   356   .     A     92    ASN   H     A     91    LYS   H     1.0   4.392 .     1.981 6.803 
+         443   358   .     A     73    ALA   HA    A     81    VAL   HG1%  1.0   2.949 .     1.862 4.036 
+         446   361   .     A     78    ALA   HA    A     73    ALA   HB%   1.0   2.053 .     1.526 2.580 
+         457   371   .     A     67    ASN   H     A     66    ASP   HA    1.0   3.618 .     1.982 5.254 
+         459   373   .     A     120   ILE   HB    A     8     THR   H     1.0   3.006 .     1.876 4.136 
+         460   374   .     A     81    VAL   H     A     80    GLU   HA    1.0   3.720 .     1.990 5.450 
+         465   378   .     A     52    ASN   H     A     51    PHE   HB2   1.0   3.329 .     1.944 4.714 
+         466   379   .     A     69    VAL   HA    A     81    VAL   HG1%  1.0   2.232 .     1.609 2.855 
+         467   380   .     A     67    ASN   HB2   A     56    LEU   HD2%  1.0   2.688 .     1.785 3.591 
+         478   390   .     A     70    HIS   HBy   A     71    GLN   H     1.0   2.805 .     1.821 3.789 
+         479   391   .     A     78    ALA   HB%   A     69    VAL   HG1%  1.0   1.958 .     1.479 2.437 
+         481   393   .     A     24    ILE   H     A     19    VAL   HA    1.0   3.446 .     1.962 4.930 
+         487   399   .     A     63    PRO   HDx   A     57    PHE   HD%   1.0   2.931 .     1.857 4.005 
+         489   401   .     A     86    LEU   H     A     85    VAL   HG1%  1.0   2.696 .     1.788 3.604 
+         490   402   .     A     39    GLU   H     A     38    PRO   HA    1.0   1.962 .     1.481 2.443 
+         491   403   .     A     57    PHE   H     A     56    LEU   HB2   1.0   3.714 .     1.990 5.438 
+         492   404   .     A     29    VAL   H     A     28    TYR   HB2   1.0   2.662 .     1.776 3.548 
+         497   408   .     A     86    LEU   H     A     85    VAL   HA    1.0   3.808 .     1.995 5.621 
+         498   409   .     A     72    LEU   HD2%  A     119   SER   HG    1.0   2.864 .     1.839 3.889 
+         500   411   .     A     40    ASP   H     A     39    GLU   H     1.0   3.929 .     1.999 5.859 
+         501   412   .     A     30    GLU   H     A     28    TYR   HA    1.0   4.377 .     1.982 6.772 
+         505   415   .     A     103   ARG   H     A     102   PHE   HD%   1.0   4.349 .     1.985 6.713 
+         506   416   .     A     73    ALA   HB%   A     81    VAL   HB    1.0   2.259 .     1.621 2.897 
+         509   419   .     A     117   LYS   H     A     116   ILE   HB    1.0   2.640 .     1.768 3.512 
+         511   421   .     A     5     VAL   H     A     6     SER   H     1.0   4.567 .     1.960 7.174 
+         515   425   .     A     82    ARG   HB2   A     69    VAL   HG2%  1.0   2.279 .     1.630 2.928 
+         516   426   .     A     73    ALA   H     A     72    LEU   H     1.0   3.089 .     1.897 4.281 
+         517   427   .     A     12    GLN   H     A     14    TYR   H     1.0   4.336 .     1.986 6.686 
+         521   430   .     A     50    VAL   HG2%  A     15    ARG   HA    1.0   2.639 .     1.768 3.510 
+         523   432   .     A     47    ILE   HG2%  A     102   PHE   H     1.0   4.133 .     1.998 6.268 
+         525   434   .     A     101   ALA   HB%   A     100   TRP   HB3   1.0   3.483 .     1.967 4.999 
+         532   438   .     A     119   SER   HBx   A     72    LEU   HD2%  1.0   2.598 .     1.754 3.442 
+         533   439   .     A     62    GLY   HAx   A     63    PRO   HDy   1.0   2.392 .     1.677 3.107 
+         535   441   .     A     49    CYS   H     A     48    LYS   HB3   1.0   3.348 .     1.947 4.749 
+         536   442   .     A     19    VAL   H     A     18    CYS   HB3   1.0   3.759 .     1.993 5.525 
+         544   450   .     A     46    TYR   HA    A     22    LEU   HD1%  1.0   2.133 .     1.564 2.702 
+         545   451   .     A     46    TYR   H     A     24    ILE   HD1%  1.0   3.645 .     1.984 5.306 
+         548   453   .     A     120   ILE   HG1%  A     121   LYS   H     1.0   3.007 .     1.877 4.137 
+         549   453   .     A     121   LYS   H     A     120   ILE   HG1%  1.0   3.007 .     1.877 4.137 
+         555   459   .     A     5     VAL   H     A     4     THR   H     1.0   4.392 .     1.981 6.803 
+         558   462   .     A     36    GLU   H     A     37    PHE   H     1.0   3.898 .     1.999 5.797 
+         563   467   .     A     19    VAL   H     A     15    ARG   HA    1.0   4.099 .     1.998 6.200 
+         567   471   .     A     57    PHE   HA    A     64    LEU   HG    1.0   2.579 .     1.747 3.411 
+         569   473   .     A     111   ASN   H     A     110   LYS   HBy   1.0   2.918 .     1.854 3.982 
+         570   474   .     A     44    MET   HA    A     102   PHE   HD%   1.0   2.544 .     1.735 3.353 
+         577   479   .     A     115   LEU   H     A     114   SER   HA    1.0   3.749 .     1.992 5.506 
+         582   483   .     A     6     SER   H     A     5     VAL   HA    1.0   2.092 .     1.545 2.639 
+         583   484   .     A     86    LEU   H     A     88    CYS   H     1.0   4.109 .     1.998 6.220 
+         584   485   .     A     50    VAL   HG2%  A     46    TYR   HE%   1.0   2.650 .     1.772 3.528 
+         588   488   .     A     42    THR   HB    A     28    TYR   HE%   1.0   3.494 .     1.968 5.020 
+         591   491   .     A     6     SER   H     A     5     VAL   HB    1.0   2.947 .     1.861 4.033 
+         593   493   .     A     90    ASP   H     A     89    VAL   HB    1.0   4.004 .     2.000 6.008 
+         601   500   .     A     109   GLN   H     A     108   PHE   HB2   1.0   3.749 .     1.992 5.506 
+         602   501   .     A     27    ASP   H     A     26    ALA   HB%   1.0   2.933 .     1.858 4.008 
+         604   503   .     A     5     VAL   HGy%  A     3     PHE   HD%   1.0   2.699 .     1.789 3.609 
+         606   505   .     A     28    TYR   HB2   A     24    ILE   HG2%  1.0   2.546 .     1.736 3.356 
+         609   508   .     A     24    ILE   HA    A     25    PRO   HDx   1.0   2.276 .     1.628 2.924 
+         610   509   .     A     18    CYS   H     A     50    VAL   HG2%  1.0   4.334 .     1.986 6.682 
+         612   511   .     A     25    PRO   HDx   A     28    TYR   HD%   1.0   2.840 .     1.832 3.848 
+         617   516   .     A     91    LYS   HBy   A     93    THR   HG2%  1.0   2.323 .     1.648 2.998 
+         622   521   .     A     112   ASN   HB2   A     115   LEU   HBx   1.0   2.797 .     1.819 3.775 
+         623   521   .     A     112   ASN   HB2   A     115   LEU   HBy   1.0   2.797 .     1.819 3.775 
+         624   522   .     A     115   LEU   H     A     112   ASN   HA    1.0   3.772 .     1.994 5.550 
+         625   523   .     A     34    LYS   HA    A     35    TRP   HD1   1.0   3.481 .     1.966 4.996 
+         627   525   .     A     82    ARG   HGx   A     83    THR   H     1.0   3.903 .     1.999 5.807 
+         629   527   .     A     18    CYS   H     A     21    SER   H     1.0   4.662 .     1.946 7.378 
+         630   528   .     A     106   LYS   HBx   A     103   ARG   HA    1.0   3.070 .     1.892 4.248 
+         631   529   .     A     81    VAL   HG2%  A     73    ALA   HB%   1.0   2.300 .     1.639 2.961 
+         632   530   .     A     99    HIS   H     A     98    CYS   HB2   1.0   2.790 .     1.817 3.763 
+         636   534   .     A     19    VAL   HG2%  A     24    ILE   HB    1.0   2.234 .     1.610 2.858 
+         638   536   .     A     24    ILE   HD1%  A     22    LEU   HB3   1.0   2.364 .     1.666 3.062 
+         639   537   .     A     86    LEU   HA    A     89    VAL   HG2%  1.0   1.981 .     1.491 2.471 
+         646   544   .     A     20    SER   H     A     19    VAL   HG1%  1.0   2.560 .     1.741 3.379 
+         647   545   .     A     94    ASP   H     A     93    THR   HB    1.0   3.937 .     1.999 5.875 
+         648   546   .     A     49    CYS   HB3   A     22    LEU   HD1%  1.0   2.572 .     1.745 3.399 
+         655   553   .     A     19    VAL   HA    A     24    ILE   HB    1.0   2.211 .     1.600 2.822 
+         656   554   .     A     23    ASN   H     A     22    LEU   H     1.0   2.900 .     1.849 3.951 
+         657   555   .     A     49    CYS   HB2   A     22    LEU   HD1%  1.0   2.492 .     1.716 3.268 
+         658   556   .     A     19    VAL   HA    A     24    ILE   HG1x  1.0   2.450 .     1.700 3.200 
+         660   558   .     A     68    LEU   HA    A     71    GLN   HB2   1.0   3.343 .     1.946 4.740 
+         665   563   .     A     28    TYR   H     A     27    ASP   HA    1.0   3.808 .     1.996 5.620 
+         666   564   .     A     96    ASN   H     A     92    ASN   HD22  1.0   3.542 .     1.974 5.110 
+         670   568   .     A     25    PRO   HA    A     26    ALA   H     1.0   1.988 .     1.494 2.482 
+         673   571   .     A     38    PRO   HDy   A     37    PHE   HA    1.0   2.493 .     1.716 3.270 
+         676   574   .     A     43    THR   HG2%  A     38    PRO   HDy   1.0   2.835 .     1.830 3.840 
+         679   577   .     A     109   GLN   HBx   A     116   ILE   HD1%  1.0   2.717 .     1.794 3.640 
+         681   579   .     A     116   ILE   HD1%  A     113   LEU   HD1%  1.0   2.075 .     1.537 2.613 
+         682   580   .     A     86    LEU   HB2   A     83    THR   HA    1.0   2.762 .     1.808 3.716 
+         688   586   .     A     58    ASP   H     A     62    GLY   H     1.0   3.625 .     1.982 5.268 
+         689   587   .     A     19    VAL   HG1%  A     20    SER   HA    1.0   2.653 .     1.774 3.532 
+         693   591   .     A     4     THR   H     A     3     PHE   HA    1.0   1.974 .     1.487 2.461 
+         694   592   .     A     82    ARG   HGy   A     65    VAL   HG1%  1.0   2.390 .     1.676 3.104 
+         700   598   .     A     55    GLN   HB3   A     67    ASN   HD22  1.0   2.973 .     1.868 4.078 
+         706   604   .     A     6     SER   HBx   A     54    MET   HE%   1.0   2.644 .     1.770 3.518 
+         708   606   .     A     112   ASN   H     A     109   GLN   HA    1.0   2.825 .     1.827 3.823 
+         709   607   .     A     78    ALA   HA    A     69    VAL   HG1%  1.0   2.321 .     1.648 2.994 
+         711   609   .     A     58    ASP   H     A     57    PHE   HA    1.0   2.164 .     1.579 2.749 
+         712   610   .     A     112   ASN   HB2   A     115   LEU   HBx   1.0   2.945 .     1.861 4.029 
+         719   616   .     A     106   LYS   HD3   A     102   PHE   HE%   1.0   2.803 .     1.821 3.785 
+         720   616   .     A     102   PHE   HE%   A     106   LYS   HD%   1.0   2.803 .     1.821 3.785 
+         721   617   .     A     61    GLU   HBy   A     62    GLY   H     1.0   3.745 .     1.992 5.498 
+         722   618   .     A     113   LEU   H     A     115   LEU   H     1.0   4.158 .     1.997 6.319 
+         724   620   .     A     83    THR   H     A     82    ARG   HB2   1.0   3.519 .     1.971 5.067 
+         727   623   .     A     43    THR   HA    A     46    TYR   HB3   1.0   2.402 .     1.681 3.123 
+         730   626   .     A     55    GLN   HA    A     57    PHE   H     1.0   3.742 .     1.992 5.492 
+         732   628   .     A     24    ILE   HD1%  A     42    THR   HG2%  1.0   2.017 .     1.508 2.526 
+         734   630   .     A     86    LEU   H     A     85    VAL   HB    1.0   2.527 .     1.729 3.325 
+         735   631   .     A     108   PHE   HE%   A     115   LEU   HD2%  1.0   2.319 .     1.647 2.991 
+         736   632   .     A     50    VAL   HB    A     47    ILE   HA    1.0   2.590 .     1.751 3.429 
+         737   633   .     A     106   LYS   HA    A     109   GLN   HGx   1.0   2.672 .     1.779 3.565 
+         738   634   .     A     3     PHE   H     A     2     GLU   HBy   1.0   4.478 .     1.971 6.985 
+         742   638   .     A     104   GLY   HAy   A     105   PHE   H     1.0   3.610 .     1.981 5.239 
+         748   644   .     A     61    GLU   H     A     60    THR   H     1.0   2.835 .     1.830 3.840 
+         753   648   .     A     10    ASP   H     A     7     THR   H     1.0   3.982 .     2.000 5.964 
+         756   651   .     A     117   LYS   H     A     113   LEU   HD1%  1.0   3.829 .     1.996 5.662 
+         757   652   .     A     59    ASP   H     A     58    ASP   HBx   1.0   4.083 .     1.999 6.167 
+         759   654   .     A     102   PHE   HA    A     105   PHE   HB2   1.0   2.977 .     1.869 4.085 
+         762   657   .     A     52    ASN   HBx   A     53    LYS   H     1.0   2.560 .     1.741 3.379 
+         763   658   .     A     23    ASN   H     A     24    ILE   H     1.0   3.062 .     1.890 4.234 
+         766   661   .     A     88    CYS   H     A     86    LEU   HA    1.0   3.754 .     1.992 5.516 
+         768   663   .     A     28    TYR   H     A     27    ASP   H     1.0   3.139 .     1.907 4.371 
+         772   667   .     A     7     THR   H     A     6     SER   HA    1.0   2.370 .     1.668 3.072 
+         775   670   .     A     24    ILE   HG2%  A     25    PRO   HDx   1.0   2.345 .     1.658 3.032 
+         776   671   .     A     31    LYS   H     A     30    GLU   HBx   1.0   2.856 .     1.836 3.876 
+         779   674   .     A     71    GLN   HB2   A     72    LEU   H     1.0   3.176 .     1.915 4.437 
+         781   676   .     A     44    MET   HE%   A     39    GLU   HGx   1.0   2.298 .     1.638 2.958 
+         782   676   .     A     44    MET   HE%   A     39    GLU   HGy   1.0   2.298 .     1.638 2.958 
+         784   678   .     A     29    VAL   H     A     28    TYR   H     1.0   2.973 .     1.868 4.078 
+         786   680   .     A     34    LYS   H     A     33    LYS   HA    1.0   3.806 .     1.995 5.617 
+         787   681   .     A     112   ASN   HD22  A     84    GLU   HGy   1.0   3.640 .     1.984 5.296 
+         789   683   .     A     36    GLU   HBy   A     37    PHE   H     1.0   3.460 .     1.964 4.956 
+         790   683   .     A     36    GLU   HBx   A     37    PHE   H     1.0   3.460 .     1.964 4.956 
+         792   685   .     A     112   ASN   HB2   A     115   LEU   HBy   1.0   2.993 .     1.873 4.113 
+         793   686   .     A     69    VAL   HA    A     72    LEU   HB2   1.0   3.162 .     1.912 4.412 
+         794   687   .     A     57    PHE   H     A     56    LEU   HB3   1.0   3.834 .     1.997 5.671 
+         795   688   .     A     19    VAL   HA    A     24    ILE   HG1y  1.0   2.498 .     1.718 3.278 
+         798   691   .     A     99    HIS   H     A     98    CYS   HB3   1.0   3.734 .     1.991 5.477 
+         799   692   .     A     38    PRO   HDy   A     32    PHE   HE%   1.0   2.658 .     1.775 3.541 
+         800   693   .     A     61    GLU   H     A     60    THR   HG2%  1.0   2.570 .     1.745 3.395 
+         801   694   .     A     80    GLU   H     A     79    GLU   HB%   1.0   2.547 .     1.736 3.358 
+         802   695   .     A     82    ARG   H     A     81    VAL   HB    1.0   2.459 .     1.703 3.215 
+         803   696   .     A     65    VAL   H     A     66    ASP   H     1.0   3.181 .     1.916 4.446 
+         804   697   .     A     43    THR   H     A     42    THR   H     1.0   3.267 .     1.933 4.601 
+         807   700   .     A     116   ILE   HG2%  A     35    TRP   HZ3   1.0   2.528 .     1.729 3.327 
+         809   702   .     A     67    ASN   HB3   A     56    LEU   HD2%  1.0   2.636 .     1.767 3.505 
+         810   703   .     A     99    HIS   HBy   A     100   TRP   H     1.0   3.859 .     1.997 5.721 
+         812   705   .     A     113   LEU   H     A     112   ASN   H     1.0   3.284 .     1.936 4.632 
+         814   707   .     A     82    ARG   HA    A     69    VAL   HG2%  1.0   2.018 .     1.509 2.527 
+         815   708   .     A     52    ASN   H     A     51    PHE   HA    1.0   3.285 .     1.936 4.634 
+         817   710   .     A     47    ILE   HG2%  A     48    LYS   HA    1.0   3.054 .     1.888 4.220 
+         823   716   .     A     88    CYS   HB3   A     85    VAL   HA    1.0   2.799 .     1.820 3.778 
+         825   718   .     A     77    ASP   HBy   A     80    GLU   HB3   1.0   2.659 .     1.775 3.543 
+         828   721   .     A     112   ASN   H     A     111   ASN   HB3   1.0   4.208 .     1.995 6.421 
+         831   724   .     A     113   LEU   HD1%  A     35    TRP   HZ3   1.0   2.933 .     1.858 4.008 
+         834   727   .     A     47    ILE   HG2%  A     102   PHE   HA    1.0   2.431 .     1.693 3.169 
+         837   730   .     A     44    MET   HA    A     45    CYS   H     1.0   3.442 .     1.961 4.923 
+         838   731   .     A     65    VAL   HA    A     85    VAL   HG1%  1.0   2.543 .     1.735 3.351 
+         839   732   .     A     56    LEU   HD1%  A     54    MET   HE%   1.0   2.151 .     1.573 2.729 
+         840   733   .     A     18    CYS   H     A     17    GLU   HB2   1.0   3.093 .     1.897 4.289 
+         841   734   .     A     89    VAL   HG2%  A     63    PRO   HBx   1.0   2.479 .     1.711 3.247 
+         843   736   .     A     50    VAL   H     A     49    CYS   H     1.0   3.296 .     1.938 4.654 
+         849   742   .     A     50    VAL   H     A     49    CYS   HB3   1.0   2.759 .     1.808 3.710 
+         854   747   .     A     108   PHE   HD%   A     116   ILE   HD1%  1.0   2.028 .     1.514 2.542 
+         857   750   .     A     13    ARG   H     A     10    ASP   HA    1.0   3.529 .     1.972 5.086 
+         860   753   .     A     70    HIS   H     A     69    VAL   HA    1.0   3.752 .     1.992 5.512 
+         862   755   .     A     18    CYS   HB2   A     46    TYR   HD%   1.0   2.952 .     1.863 4.041 
+         863   756   .     A     108   PHE   H     A     107   CYS   HB2   1.0   2.738 .     1.801 3.675 
+         864   757   .     A     87    LYS   H     A     85    VAL   H     1.0   4.124 .     1.998 6.250 
+         867   760   .     A     100   TRP   HE1   A     63    PRO   HDy   1.0   4.048 .     2.000 6.096 
+         868   761   .     A     117   LYS   HA    A     118   ALA   H     1.0   3.738 .     1.991 5.485 
+         870   763   .     A     96    ASN   H     A     95    ASN   HA    1.0   3.057 .     1.889 4.225 
+         871   764   .     A     7     THR   H     A     10    ASP   HB2   1.0   2.808 .     1.823 3.793 
+         872   765   .     A     47    ILE   HG2%  A     105   PHE   HB3   1.0   2.589 .     1.751 3.427 
+         875   768   .     A     20    SER   H     A     21    SER   H     1.0   2.997 .     1.874 4.120 
+         876   769   .     A     55    GLN   H     A     57    PHE   H     1.0   3.967 .     2.000 5.934 
+         877   770   .     A     43    THR   HG2%  A     37    PHE   HA    1.0   2.459 .     1.703 3.215 
+         878   771   .     A     47    ILE   HD1%  A     37    PHE   HE%   1.0   2.599 .     1.755 3.443 
+         879   772   .     A     85    VAL   H     A     84    GLU   HA    1.0   3.890 .     1.998 5.782 
+         884   777   .     A     54    MET   H     A     53    LYS   HB3   1.0   3.732 .     1.991 5.473 
+         885   778   .     A     20    SER   H     A     19    VAL   HG2%  1.0   3.973 .     2.000 5.946 
+         889   782   .     A     35    TRP   HZ2   A     120   ILE   HD1%  1.0   2.579 .     1.748 3.410 
+         890   783   .     A     55    GLN   H     A     56    LEU   H     1.0   3.233 .     1.926 4.540 
+         892   785   .     A     44    MET   HE%   A     102   PHE   HE%   1.0   2.527 .     1.729 3.325 
+         893   786   .     A     65    VAL   H     A     64    LEU   HB3   1.0   4.040 .     2.000 6.080 
+         900   792   .     A     114   SER   H     A     113   LEU   HB2   1.0   4.088 .     1.999 6.177 
+         901   793   .     A     47    ILE   HD1%  A     46    TYR   HD%   1.0   2.491 .     1.715 3.267 
+         902   794   .     A     41    ASP   HA    A     44    MET   HB2   1.0   2.521 .     1.727 3.315 
+         903   795   .     A     18    CYS   HB3   A     22    LEU   HD1%  1.0   2.674 .     1.780 3.568 
+         907   799   .     A     93    THR   H     A     92    ASN   HB2   1.0   4.349 .     1.985 6.713 
+         913   805   .     A     11    LEU   HB3   A     8     THR   HA    1.0   2.432 .     1.692 3.172 
+         919   811   .     A     113   LEU   H     A     109   GLN   HA    1.0   3.820 .     1.996 5.644 
+         920   812   .     A     50    VAL   HG2%  A     18    CYS   HB3   1.0   3.043 .     1.886 4.200 
+         925   817   .     A     87    LYS   H     A     85    VAL   HA    1.0   4.107 .     1.999 6.215 
+         929   821   .     A     7     THR   H     A     6     SER   HBx   1.0   3.817 .     1.996 5.638 
+         930   822   .     A     82    ARG   HA    A     65    VAL   HG1%  1.0   2.919 .     1.854 3.984 
+         933   825   .     A     104   GLY   HAy   A     107   CYS   H     1.0   3.994 .     2.000 5.988 
+         936   828   .     A     47    ILE   H     A     46    TYR   HB2   1.0   3.693 .     1.988 5.398 
+         940   832   .     A     123   ASP   H     A     122   LYS   HA    1.0   2.015 .     1.508 2.522 
+         943   834   .     A     48    LYS   H     A     47    ILE   HG2%  1.0   3.546 .     1.974 5.118 
+         948   838   .     A     42    THR   HG2%  A     25    PRO   HDx   1.0   2.868 .     1.840 3.896 
+         950   840   .     A     43    THR   H     A     42    THR   HG2%  1.0   2.900 .     1.848 3.952 
+         956   846   .     A     26    ALA   HA    A     29    VAL   HB    1.0   2.490 .     1.715 3.265 
+         957   847   .     A     30    GLU   H     A     29    VAL   HB    1.0   2.577 .     1.747 3.407 
+         960   850   .     A     53    LYS   HB3   A     14    TYR   HB3   1.0   3.044 .     1.886 4.202 
+         964   853   .     A     106   LYS   H     A     105   PHE   HD%   1.0   4.122 .     1.998 6.246 
+         966   855   .     A     58    ASP   H     A     57    PHE   HB3   1.0   4.150 .     1.998 6.302 
+         967   856   .     A     77    ASP   HBx   A     78    ALA   H     1.0   4.005 .     2.000 6.010 
+         973   862   .     A     72    LEU   HD1%  A     108   PHE   HZ    1.0   2.252 .     1.618 2.886 
+         979   868   .     A     100   TRP   HB2   A     101   ALA   H     1.0   3.464 .     1.964 4.964 
+         981   870   .     A     119   SER   H     A     118   ALA   HB%   1.0   2.371 .     1.669 3.073 
+         986   875   .     A     51    PHE   HA    A     54    MET   HB2   1.0   2.914 .     1.852 3.976 
+         987   876   .     A     39    GLU   H     A     38    PRO   HBx   1.0   2.925 .     1.855 3.995 
+         988   877   .     A     28    TYR   HB3   A     32    PHE   HE%   1.0   2.555 .     1.739 3.371 
+         990   879   .     A     116   ILE   HA    A     72    LEU   HD2%  1.0   2.207 .     1.598 2.816 
+         994   883   .     A     82    ARG   H     A     78    ALA   HA    1.0   4.045 .     2.000 6.090 
+         998   887   .     A     70    HIS   H     A     69    VAL   HB    1.0   2.557 .     1.740 3.374 
+         1004  893   .     A     70    HIS   H     A     67    ASN   HA    1.0   3.610 .     1.981 5.239 
+         1005  894   .     A     81    VAL   H     A     78    ALA   HA    1.0   3.700 .     1.988 5.412 
+         1007  896   .     A     51    PHE   H     A     50    VAL   HG2%  1.0   3.680 .     1.988 5.372 
+         1008  897   .     A     91    LYS   H     A     90    ASP   HB3   1.0   3.224 .     1.925 4.523 
+         1016  904   .     A     47    ILE   HG2%  A     101   ALA   HB%   1.0   2.481 .     1.712 3.250 
+         1017  905   .     A     85    VAL   HA    A     88    CYS   H     1.0   3.978 .     2.000 5.956 
+         1018  906   .     A     32    PHE   H     A     31    LYS   HA    1.0   3.764 .     1.993 5.535 
+         1019  907   .     A     72    LEU   H     A     69    VAL   HA    1.0   3.721 .     1.991 5.451 
+         1021  909   .     A     74    HIS   H     A     73    ALA   H     1.0   3.474 .     1.965 4.983 
+         1023  911   .     A     48    LYS   H     A     50    VAL   H     1.0   4.153 .     1.997 6.309 
+         1024  912   .     A     76    ARG   HB2   A     73    ALA   HA    1.0   2.686 .     1.784 3.588 
+         1025  913   .     A     60    THR   H     A     59    ASP   HB3   1.0   2.901 .     1.849 3.953 
+         1026  913   .     A     60    THR   H     A     59    ASP   HB%   1.0   2.901 .     1.849 3.953 
+         1030  917   .     A     78    ALA   HA    A     81    VAL   HB    1.0   2.519 .     1.726 3.312 
+         1034  921   .     A     121   LYS   HBy   A     118   ALA   HA    1.0   2.770 .     1.811 3.729 
+         1035  922   .     A     73    ALA   H     A     72    LEU   HA    1.0   3.743 .     1.992 5.494 
+         1036  923   .     A     83    THR   HA    A     86    LEU   HD1%  1.0   2.240 .     1.613 2.867 
+         1039  926   .     A     99    HIS   HBy   A     96    ASN   HB2   1.0   3.244 .     1.929 4.559 
+         1040  927   .     A     100   TRP   HE1   A     92    ASN   H     1.0   4.536 .     1.964 7.108 
+         1045  932   .     A     71    GLN   HB2   A     56    LEU   HD2%  1.0   2.875 .     1.842 3.908 
+         1046  933   .     A     84    GLU   H     A     83    THR   HG2%  1.0   2.609 .     1.758 3.460 
+         1047  934   .     A     15    ARG   H     A     17    GLU   H     1.0   4.208 .     1.994 6.422 
+         1054  941   .     A     29    VAL   H     A     28    TYR   HB3   1.0   3.734 .     1.992 5.476 
+         1056  943   .     A     40    ASP   H     A     44    MET   HE%   1.0   2.436 .     1.694 3.178 
+         1059  946   .     A     84    GLU   H     A     83    THR   HB    1.0   2.347 .     1.659 3.035 
+         1060  947   .     A     62    GLY   HAy   A     63    PRO   HDx   1.0   2.544 .     1.735 3.353 
+         1062  949   .     A     47    ILE   HG2%  A     105   PHE   H     1.0   4.237 .     1.993 6.481 
+         1068  954   .     A     58    ASP   H     A     57    PHE   HB2   1.0   4.045 .     2.000 6.090 
+         1072  957   .     A     29    VAL   H     A     26    ALA   HA    1.0   3.554 .     1.975 5.133 
+         1073  958   .     A     62    GLY   HAx   A     63    PRO   HDx   1.0   2.455 .     1.701 3.209 
+         1074  959   .     A     86    LEU   HA    A     85    VAL   HG1%  1.0   2.779 .     1.814 3.744 
+         1080  965   .     A     40    ASP   H     A     39    GLU   HA    1.0   2.096 .     1.547 2.645 
+         1082  967   .     A     16    THR   HA    A     19    VAL   HB    1.0   2.232 .     1.609 2.855 
+         1084  969   .     A     42    THR   HG2%  A     24    ILE   HG2%  1.0   2.368 .     1.667 3.069 
+         1087  972   .     A     62    GLY   H     A     61    GLU   HA    1.0   3.474 .     1.965 4.983 
+         1088  973   .     A     106   LYS   HA    A     109   GLN   HGy   1.0   2.533 .     1.731 3.335 
+         1090  975   .     A     105   PHE   HE%   A     47    ILE   HD1%  1.0   2.400 .     1.680 3.120 
+         1092  977   .     A     30    GLU   H     A     29    VAL   HA    1.0   3.731 .     1.991 5.471 
+         1096  981   .     A     14    TYR   HD%   A     54    MET   HGx   1.0   2.497 .     1.718 3.276 
+         1099  984   .     A     115   LEU   HD2%  A     108   PHE   HZ    1.0   2.151 .     1.573 2.729 
+         1100  985   .     A     46    TYR   HA    A     49    CYS   HB3   1.0   2.926 .     1.856 3.996 
+         1101  986   .     A     104   GLY   H     A     101   ALA   HA    1.0   3.317 .     1.941 4.693 
+         1105  990   .     A     16    THR   H     A     13    ARG   HA    1.0   3.868 .     1.998 5.738 
+         1106  991   .     A     5     VAL   HGy%  A     3     PHE   HE%   1.0   2.207 .     1.598 2.816 
+         1107  992   .     A     99    HIS   HBx   A     96    ASN   HB2   1.0   3.236 .     1.927 4.545 
+         1108  993   .     A     11    LEU   HA    A     14    TYR   HD%   1.0   2.454 .     1.701 3.207 
+         1109  994   .     A     51    PHE   H     A     50    VAL   HB    1.0   2.687 .     1.784 3.590 
+         1113  998   .     A     30    GLU   H     A     32    PHE   H     1.0   4.409 .     1.979 6.839 
+         1114  999   .     A     104   GLY   HAy   A     107   CYS   HB2   1.0   2.870 .     1.841 3.899 
+         1115  1000  .     A     41    ASP   H     A     40    ASP   HBx   1.0   2.982 .     1.871 4.093 
+         1116  1001  .     A     34    LYS   H     A     35    TRP   H     1.0   3.204 .     1.921 4.487 
+         1127  1010  .     A     100   TRP   HE1   A     90    ASP   H     1.0   3.443 .     1.961 4.925 
+         1138  1020  .     A     13    ARG   HA    A     14    TYR   H     1.0   3.752 .     1.993 5.511 
+         1139  1021  .     A     48    LYS   H     A     46    TYR   H     1.0   4.222 .     1.994 6.450 
+         1140  1022  .     A     20    SER   H     A     18    CYS   H     1.0   4.342 .     1.985 6.699 
+         1141  1023  .     A     120   ILE   HB    A     8     THR   HA    1.0   2.947 .     1.861 4.033 
+         1145  1027  .     A     4     THR   H     A     3     PHE   HB3   1.0   3.868 .     1.998 5.738 
+         1150  1031  .     A     15    ARG   H     A     50    VAL   HG2%  1.0   4.274 .     1.991 6.557 
+         1151  1032  .     A     42    THR   H     A     41    ASP   HA    1.0   3.717 .     1.990 5.444 
+         1152  1033  .     A     3     PHE   H     A     2     GLU   HA    1.0   1.912 .     1.455 2.369 
+         1154  1035  .     A     27    ASP   H     A     26    ALA   HA    1.0   3.647 .     1.984 5.310 
+         1157  1038  .     A     26    ALA   H     A     25    PRO   HBx   1.0   3.732 .     1.991 5.473 
+         1162  1043  .     A     43    THR   H     A     40    ASP   H     1.0   4.228 .     1.993 6.463 
+         1163  1044  .     A     116   ILE   H     A     115   LEU   HBx   1.0   2.881 .     1.843 3.919 
+         1165  1046  .     A     5     VAL   HGx%  A     6     SER   H     1.0   2.382 .     1.672 3.092 
+         1166  1047  .     A     61    GLU   H     A     60    THR   HB    1.0   2.234 .     1.610 2.858 
+         1169  1050  .     A     117   LYS   HBx   A     114   SER   HA    1.0   2.582 .     1.749 3.415 
+         1170  1051  .     A     113   LEU   H     A     112   ASN   HA    1.0   2.586 .     1.750 3.422 
+         1175  1056  .     A     32    PHE   H     A     29    VAL   HA    1.0   3.639 .     1.984 5.294 
+         1178  1059  .     A     79    GLU   H     A     78    ALA   HA    1.0   3.370 .     1.950 4.790 
+         1180  1061  .     A     93    THR   H     A     92    ASN   HA    1.0   2.474 .     1.709 3.239 
+         1182  1063  .     A     26    ALA   H     A     25    PRO   HBy   1.0   3.455 .     1.963 4.947 
+         1183  1064  .     A     50    VAL   HG1%  A     51    PHE   HD%   1.0   2.403 .     1.681 3.125 
+         1184  1065  .     A     105   PHE   HE%   A     116   ILE   HD1%  1.0   2.488 .     1.714 3.262 
+         1185  1066  .     A     48    LYS   H     A     101   ALA   HB%   1.0   3.759 .     1.993 5.525 
+         1186  1067  .     A     31    LYS   H     A     32    PHE   H     1.0   2.894 .     1.847 3.941 
+         1187  1068  .     A     84    GLU   H     A     83    THR   HA    1.0   3.808 .     1.995 5.621 
+         1191  1072  .     A     68    LEU   HB2   A     65    VAL   HA    1.0   2.334 .     1.653 3.015 
+         1192  1073  .     A     49    CYS   H     A     46    TYR   HA    1.0   3.792 .     1.995 5.589 
+         1193  1074  .     A     105   PHE   HE%   A     116   ILE   HG2%  1.0   2.649 .     1.772 3.526 
+         1195  1076  .     A     33    LYS   H     A     32    PHE   HB2   1.0   3.551 .     1.974 5.128 
+         1199  1080  .     A     64    LEU   H     A     68    LEU   HD1%  1.0   2.800 .     1.820 3.780 
+         1207  1086  .     A     5     VAL   HGx%  A     71    GLN   HE21  1.0   2.889 .     1.845 3.933 
+         1208  1087  .     A     52    ASN   H     A     57    PHE   HB3   1.0   4.201 .     1.995 6.407 
+         1210  1089  .     A     100   TRP   HE1   A     63    PRO   HDx   1.0   3.462 .     1.964 4.960 
+         1212  1091  .     A     103   ARG   H     A     101   ALA   HB%   1.0   4.409 .     1.979 6.839 
+         1217  1096  .     A     15    ARG   H     A     14    TYR   HB3   1.0   3.816 .     1.996 5.636 
+         1220  1099  .     A     15    ARG   HA    A     46    TYR   HE%   1.0   2.579 .     1.748 3.410 
+         1221  1100  .     A     48    LYS   HB3   A     101   ALA   HB%   1.0   2.784 .     1.815 3.753 
+         1231  1109  .     A     45    CYS   H     A     98    CYS   HB2   1.0   3.941 .     1.999 5.883 
+         1232  1110  .     A     73    ALA   H     A     72    LEU   HB3   1.0   3.238 .     1.928 4.548 
+         1239  1117  .     A     108   PHE   H     A     105   PHE   HA    1.0   4.091 .     1.999 6.183 
+         1242  1120  .     A     94    ASP   HBx   A     95    ASN   H     1.0   4.053 .     2.000 6.106 
+         1243  1121  .     A     40    ASP   H     A     43    THR   HG1   1.0   4.190 .     1.995 6.385 
+         1246  1124  .     A     53    LYS   HB2   A     14    TYR   HB3   1.0   2.945 .     1.861 4.029 
+         1247  1125  .     A     70    HIS   HBy   A     67    ASN   HA    1.0   2.624 .     1.763 3.485 
+         1248  1126  .     A     68    LEU   H     A     67    ASN   HB2   1.0   2.809 .     1.823 3.795 
+         1253  1131  .     A     5     VAL   HGy%  A     71    GLN   HE22  1.0   3.649 .     1.985 5.313 
+         1256  1134  .     A     115   LEU   HD1%  A     76    ARG   HD%   1.0   2.143 .     1.569 2.717 
+         1257  1134  .     A     115   LEU   HD1%  A     76    ARG   HD3   1.0   2.143 .     1.569 2.717 
+         1258  1135  .     A     121   LYS   H     A     118   ALA   HA    1.0   3.098 .     1.898 4.298 
+         1259  1136  .     A     60    THR   H     A     58    ASP   HBx   1.0   4.135 .     1.998 6.272 
+         1262  1139  .     A     113   LEU   H     A     112   ASN   HB3   1.0   4.292 .     1.989 6.595 
+         1270  1146  .     A     14    TYR   H     A     11    LEU   HA    1.0   3.467 .     1.964 4.970 
+         1271  1147  .     A     67    ASN   H     A     66    ASP   H     1.0   3.087 .     1.896 4.278 
+         1272  1148  .     A     61    GLU   H     A     58    ASP   HBy   1.0   2.950 .     1.863 4.037 
+         1274  1150  .     A     109   GLN   HA    A     113   LEU   HA    1.0   2.560 .     1.741 3.379 
+         1275  1151  .     A     109   GLN   HE21  A     106   LYS   HA    1.0   4.172 .     1.996 6.348 
+         1278  1154  .     A     22    LEU   H     A     21    SER   HA    1.0   3.889 .     1.998 5.780 
+         1280  1156  .     A     50    VAL   H     A     47    ILE   HA    1.0   3.609 .     1.981 5.237 
+         1283  1159  .     A     67    ASN   H     A     64    LEU   HB2   1.0   3.694 .     1.988 5.400 
+         1285  1161  .     A     44    MET   HA    A     102   PHE   HB2   1.0   2.671 .     1.779 3.563 
+         1286  1162  .     A     82    ARG   HGx   A     65    VAL   HG1%  1.0   2.483 .     1.712 3.254 
+         1290  1166  .     A     106   LYS   HBx   A     105   PHE   H     1.0   4.578 .     1.958 7.198 
+         1291  1167  .     A     106   LYS   HA    A     109   GLN   H     1.0   3.770 .     1.993 5.547 
+         1292  1168  .     A     37    PHE   HZ    A     35    TRP   HE3   1.0   3.100 .     1.898 4.302 
+         1294  1170  .     A     8     THR   H     A     7     THR   HA    1.0   2.455 .     1.702 3.208 
+         1295  1171  .     A     77    ASP   H     A     78    ALA   H     1.0   3.945 .     1.999 5.891 
+         1296  1172  .     A     62    GLY   HAy   A     100   TRP   HZ2   1.0   3.901 .     1.999 5.803 
+         1297  1173  .     A     5     VAL   HGx%  A     7     THR   HG2%  1.0   2.515 .     1.725 3.305 
+         1300  1176  .     A     24    ILE   H     A     23    ASN   HA    1.0   3.009 .     1.877 4.141 
+         1308  1184  .     A     44    MET   HB2   A     98    CYS   HB3   1.0   2.862 .     1.838 3.886 
+         1309  1185  .     A     14    TYR   HD%   A     11    LEU   HD1%  1.0   2.626 .     1.764 3.488 
+         1312  1188  .     A     15    ARG   H     A     12    GLN   H     1.0   4.821 .     1.915 7.727 
+         1313  1189  .     A     5     VAL   H     A     4     THR   HG2%  1.0   2.330 .     1.651 3.009 
+         1315  1191  .     A     120   ILE   HD1%  A     35    TRP   HH2   1.0   2.757 .     1.807 3.707 
+         1316  1192  .     A     24    ILE   HD1%  A     46    TYR   HB2   1.0   2.212 .     1.600 2.824 
+         1318  1194  .     A     89    VAL   HB    A     86    LEU   HA    1.0   2.389 .     1.676 3.102 
+         1319  1195  .     A     66    ASP   H     A     65    VAL   HG1%  1.0   3.389 .     1.953 4.825 
+         1322  1198  .     A     56    LEU   H     A     55    GLN   HB2   1.0   4.356 .     1.985 6.727 
+         1323  1199  .     A     50    VAL   H     A     49    CYS   HA    1.0   3.806 .     1.996 5.616 
+         1325  1201  .     A     116   ILE   H     A     113   LEU   HD1%  1.0   3.860 .     1.998 5.722 
+         1326  1202  .     A     122   LYS   H     A     121   LYS   HA    1.0   2.128 .     1.562 2.694 
+         1327  1203  .     A     11    LEU   H     A     10    ASP   HB3   1.0   3.508 .     1.970 5.046 
+         1328  1204  .     A     19    VAL   HG2%  A     46    TYR   HE%   1.0   2.391 .     1.676 3.106 
+         1331  1207  .     A     69    VAL   H     A     66    ASP   HA    1.0   3.579 .     1.978 5.180 
+         1335  1211  .     A     36    GLU   H     A     35    TRP   HA    1.0   2.531 .     1.730 3.332 
+         1336  1212  .     A     16    THR   H     A     15    ARG   HB3   1.0   3.410 .     1.956 4.864 
+         1340  1215  .     A     5     VAL   H     A     4     THR   HA    1.0   1.908 .     1.453 2.363 
+         1345  1220  .     A     36    GLU   H     A     35    TRP   H     1.0   3.221 .     1.924 4.518 
+         1346  1221  .     A     18    CYS   HB3   A     46    TYR   HD%   1.0   2.700 .     1.788 3.612 
+         1347  1222  .     A     85    VAL   HA    A     108   PHE   HD%   1.0   2.196 .     1.593 2.799 
+         1349  1224  .     A     89    VAL   H     A     88    CYS   HB2   1.0   3.946 .     1.999 5.893 
+         1350  1225  .     A     24    ILE   HD1%  A     22    LEU   HB2   1.0   2.098 .     1.548 2.648 
+         1351  1226  .     A     113   LEU   HG    A     117   LYS   HEx   1.0   2.457 .     1.702 3.212 
+         1352  1227  .     A     29    VAL   H     A     27    ASP   H     1.0   4.069 .     1.999 6.139 
+         1353  1228  .     A     103   ARG   H     A     102   PHE   HB3   1.0   3.127 .     1.905 4.349 
+         1354  1229  .     A     87    LYS   H     A     86    LEU   HA    1.0   3.629 .     1.983 5.275 
+         1355  1230  .     A     20    SER   H     A     19    VAL   HB    1.0   2.664 .     1.777 3.551 
+         1359  1234  .     A     42    THR   HG2%  A     25    PRO   HDy   1.0   2.922 .     1.855 3.989 
+         1366  1241  .     A     65    VAL   H     A     64    LEU   HA    1.0   2.020 .     1.510 2.530 
+         1374  1247  .     A     90    ASP   H     A     89    VAL   HG1%  1.0   2.301 .     1.639 2.963 
+         1375  1248  .     A     61    GLU   HBy   A     58    ASP   HBy   1.0   2.668 .     1.778 3.558 
+         1376  1249  .     A     22    LEU   H     A     24    ILE   H     1.0   3.634 .     1.983 5.285 
+         1380  1253  .     A     47    ILE   HD1%  A     37    PHE   HD%   1.0   2.455 .     1.702 3.208 
+         1381  1254  .     A     11    LEU   HB3   A     12    GLN   H     1.0   2.799 .     1.819 3.779 
+         1385  1258  .     A     68    LEU   HB3   A     72    LEU   HD1%  1.0   3.098 .     1.898 4.298 
+         1387  1260  .     A     47    ILE   HD1%  A     46    TYR   HE%   1.0   2.623 .     1.763 3.483 
+         1388  1261  .     A     90    ASP   H     A     89    VAL   H     1.0   4.283 .     1.990 6.576 
+         1394  1266  .     A     71    GLN   H     A     68    LEU   HA    1.0   3.716 .     1.990 5.442 
+         1400  1272  .     A     83    THR   HG2%  A     84    GLU   HA    1.0   3.006 .     1.877 4.135 
+         1402  1274  .     A     74    HIS   H     A     73    ALA   HB%   1.0   3.483 .     1.966 5.000 
+         1405  1277  .     A     4     THR   H     A     3     PHE   H     1.0   4.563 .     1.960 7.166 
+         1407  1279  .     A     30    GLU   H     A     27    ASP   HA    1.0   3.818 .     1.996 5.640 
+         1412  1284  .     A     25    PRO   HBx   A     28    TYR   HD%   1.0   2.661 .     1.776 3.546 
+         1413  1285  .     A     123   ASP   H     A     122   LYS   HBx   1.0   3.639 .     1.984 5.294 
+         1419  1290  .     A     66    ASP   H     A     64    LEU   HA    1.0   3.976 .     2.000 5.952 
+         1422  1293  .     A     43    THR   HG2%  A     102   PHE   HE%   1.0   2.348 .     1.659 3.037 
+         1423  1294  .     A     68    LEU   HA    A     56    LEU   HD2%  1.0   2.181 .     1.586 2.776 
+         1425  1296  .     A     47    ILE   H     A     45    CYS   H     1.0   4.277 .     1.991 6.563 
+         1428  1299  .     A     92    ASN   H     A     91    LYS   HBx   1.0   2.748 .     1.804 3.692 
+         1429  1300  .     A     98    CYS   H     A     97    ALA   HB%   1.0   2.801 .     1.820 3.782 
+         1431  1302  .     A     40    ASP   H     A     44    MET   HGx   1.0   4.211 .     1.994 6.428 
+         1432  1303  .     A     77    ASP   H     A     76    ARG   HB3   1.0   2.665 .     1.777 3.553 
+         1433  1304  .     A     14    TYR   HD%   A     54    MET   HGy   1.0   2.504 .     1.720 3.288 
+         1437  1307  .     A     78    ALA   H     A     77    ASP   HA    1.0   1.919 .     1.459 2.379 
+         1438  1308  .     A     33    LYS   H     A     30    GLU   HA    1.0   3.810 .     1.995 5.625 
+         1439  1309  .     A     116   ILE   H     A     108   PHE   HE%   1.0   4.341 .     1.985 6.697 
+         1504  1373  .     A     50    VAL   HG2%  A     54    MET   HGy   1.0   2.835 .     1.830 3.840 
+         1505  1373  .     A     50    VAL   HG2%  A     14    TYR   HB2   1.0   2.835 .     1.830 3.840 
+         1506  1374  .     A     117   LYS   HA    A     120   ILE   HG1%  1.0   2.544 .     1.735 3.353 
+         1507  1374  .     A     120   ILE   HG1%  A     117   LYS   HA    1.0   2.544 .     1.735 3.353 
+         1508  1375  .     A     81    VAL   H     A     82    ARG   HB2   1.0   4.010 .     2.000 6.020 
+         1509  1375  .     A     81    VAL   H     A     76    ARG   HB3   1.0   4.010 .     2.000 6.020 
+         1510  1376  .     A     62    GLY   HAy   A     100   TRP   HZ3   1.0   3.272 .     1.934 4.610 
+         1511  1376  .     A     62    GLY   HAy   A     100   TRP   HH2   1.0   3.272 .     1.934 4.610 
+         1512  1377  .     A     43    THR   HA    A     32    PHE   HZ    1.0   2.410 .     1.684 3.136 
+         1513  1378  .     A     58    ASP   H     A     63    PRO   HGx   1.0   4.491 .     1.970 7.012 
+         1514  1378  .     A     58    ASP   H     A     63    PRO   HBy   1.0   4.491 .     1.970 7.012 
+         1515  1378  .     A     58    ASP   H     A     61    GLU   HGy   1.0   4.491 .     1.970 7.012 
+         1516  1379  .     A     56    LEU   H     A     54    MET   HE%   1.0   4.795 .     1.922 7.668 
+         1517  1379  .     A     56    LEU   H     A     67    ASN   HB3   1.0   4.795 .     1.922 7.668 
+         1518  1380  .     A     104   GLY   HAx   A     103   ARG   H     1.0   4.684 .     1.941 7.427 
+         1519  1381  .     A     77    ASP   H     A     76    ARG   HD3   1.0   4.251 .     1.992 6.510 
+         1520  1381  .     A     77    ASP   H     A     76    ARG   HD%   1.0   4.251 .     1.992 6.510 
+         1522  1383  .     A     117   LYS   H     A     118   ALA   HA    1.0   4.383 .     1.981 6.785 
+         1523  1383  .     A     117   LYS   H     A     115   LEU   HA    1.0   4.383 .     1.981 6.785 
+         1524  1384  .     A     68    LEU   HG    A     69    VAL   H     1.0   4.184 .     1.995 6.373 
+         1525  1384  .     A     69    VAL   H     A     64    LEU   HB2   1.0   4.184 .     1.995 6.373 
+         1526  1385  .     A     112   ASN   HD22  A     84    GLU   HB3   1.0   3.067 .     1.891 4.243 
+         1527  1386  .     A     83    THR   H     A     84    GLU   HB%   1.0   4.199 .     1.995 6.403 
+         1528  1386  .     A     83    THR   H     A     80    GLU   HGy   1.0   4.199 .     1.995 6.403 
+         1529  1387  .     A     57    PHE   HA    A     63    PRO   HA    1.0   2.460 .     1.704 3.216 
+         1530  1388  .     A     45    CYS   HBx   A     22    LEU   HD2%  1.0   2.494 .     1.717 3.271 
+         1531  1389  .     A     108   PHE   HB3   A     105   PHE   HD%   1.0   3.586 .     1.978 5.194 
+         1532  1390  .     A     65    VAL   H     A     82    ARG   HGy   1.0   4.402 .     1.980 6.824 
+         1533  1390  .     A     65    VAL   H     A     64    LEU   HG    1.0   4.402 .     1.980 6.824 
+         1534  1391  .     A     103   ARG   H     A     106   LYS   HD3   1.0   3.876 .     1.998 5.754 
+         1536  1392  .     A     114   SER   HA    A     117   LYS   HD%   1.0   2.822 .     1.827 3.817 
+         1537  1392  .     A     114   SER   HA    A     117   LYS   HD3   1.0   2.822 .     1.827 3.817 
+         1538  1393  .     A     70    HIS   HBy   A     69    VAL   H     1.0   3.802 .     1.995 5.609 
+         1539  1393  .     A     65    VAL   HA    A     69    VAL   H     1.0   3.802 .     1.995 5.609 
+         1541  1394  .     A     48    LYS   H     A     51    PHE   HB2   1.0   4.355 .     1.985 6.725 
+         1543  1396  .     A     105   PHE   H     A     103   ARG   HGx   1.0   4.481 .     1.971 6.991 
+         1544  1396  .     A     106   LYS   HBy   A     105   PHE   H     1.0   4.481 .     1.971 6.991 
+         1545  1396  .     A     105   PHE   H     A     106   LYS   HD3   1.0   4.481 .     1.971 6.991 
+         1546  1397  .     A     37    PHE   HB%   A     102   PHE   HZ    1.0   2.923 .     1.855 3.991 
+         1547  1397  .     A     37    PHE   HB3   A     102   PHE   HZ    1.0   2.923 .     1.855 3.991 
+         1548  1397  .     A     94    ASP   HBx   A     95    ASN   H     1.0   2.923 .     1.855 3.991 
+         1549  1398  .     A     99    HIS   H     A     96    ASN   HB3   1.0   4.315 .     1.988 6.642 
+         1550  1399  .     A     98    CYS   HA    A     48    LYS   HG%   1.0   2.720 .     1.795 3.645 
+         1551  1399  .     A     98    CYS   HA    A     48    LYS   HG3   1.0   2.720 .     1.795 3.645 
+         1552  1400  .     A     109   GLN   H     A     113   LEU   HD1%  1.0   4.361 .     1.984 6.738 
+         1553  1401  .     A     96    ASN   H     A     95    ASN   HBx   1.0   4.081 .     1.999 6.163 
+         1554  1402  .     A     24    ILE   HD1%  A     21    SER   H     1.0   4.525 .     1.966 7.084 
+         1555  1402  .     A     21    SER   H     A     22    LEU   HD2%  1.0   4.525 .     1.966 7.084 
+         1556  1403  .     A     104   GLY   H     A     106   LYS   HBy   1.0   4.630 .     1.951 7.309 
+         1557  1403  .     A     104   GLY   H     A     103   ARG   HGx   1.0   4.630 .     1.951 7.309 
+         1559  1405  .     A     22    LEU   H     A     19    VAL   HA    1.0   2.947 .     1.861 4.033 
+         1560  1405  .     A     20    SER   H     A     19    VAL   HA    1.0   2.947 .     1.861 4.033 
+         1561  1406  .     A     46    TYR   HB2   A     22    LEU   HD1%  1.0   2.687 .     1.784 3.590 
+         1562  1406  .     A     45    CYS   HBy   A     22    LEU   HD1%  1.0   2.687 .     1.784 3.590 
+         1563  1407  .     A     13    ARG   H     A     10    ASP   HB3   1.0   4.284 .     1.990 6.578 
+         1564  1407  .     A     13    ARG   H     A     12    GLN   HGy   1.0   4.284 .     1.990 6.578 
+         1565  1407  .     A     13    ARG   H     A     12    GLN   HGx   1.0   4.284 .     1.990 6.578 
+         1566  1408  .     A     52    ASN   H     A     51    PHE   HD%   1.0   4.578 .     1.958 7.198 
+         1567  1409  .     A     46    TYR   H     A     43    THR   HG2%  1.0   4.632 .     1.950 7.314 
+         1568  1410  .     A     108   PHE   HB3   A     105   PHE   HD%   1.0   3.504 .     1.969 5.039 
+         1569  1410  .     A     102   PHE   HB2   A     105   PHE   HD%   1.0   3.504 .     1.969 5.039 
+         1570  1411  .     A     104   GLY   H     A     90    ASP   HB3   1.0   4.624 .     1.951 7.297 
+         1571  1411  .     A     104   GLY   H     A     105   PHE   HB3   1.0   4.624 .     1.951 7.297 
+         1572  1412  .     A     120   ILE   H     A     121   LYS   HBx   1.0   4.464 .     1.973 6.955 
+         1573  1413  .     A     118   ALA   H     A     117   LYS   HD%   1.0   4.346 .     1.985 6.707 
+         1574  1413  .     A     118   ALA   H     A     117   LYS   HD3   1.0   4.346 .     1.985 6.707 
+         1575  1414  .     A     109   GLN   HE21  A     110   LYS   HA    1.0   4.591 .     1.957 7.225 
+         1578  1416  .     A     69    VAL   H     A     82    ARG   HA    1.0   4.302 .     1.989 6.615 
+         1579  1416  .     A     69    VAL   H     A     67    ASN   HA    1.0   4.302 .     1.989 6.615 
+         1580  1417  .     A     16    THR   H     A     19    VAL   HB    1.0   3.884 .     1.998 5.770 
+         1581  1417  .     A     16    THR   H     A     17    GLU   HGy   1.0   3.884 .     1.998 5.770 
+         1582  1418  .     A     50    VAL   H     A     51    PHE   HB3   1.0   4.125 .     1.998 6.252 
+         1583  1418  .     A     50    VAL   H     A     52    ASN   HBx   1.0   4.125 .     1.998 6.252 
+         1584  1418  .     A     50    VAL   H     A     14    TYR   HB2   1.0   4.125 .     1.998 6.252 
+         1585  1419  .     A     73    ALA   H     A     72    LEU   HD1%  1.0   4.275 .     1.990 6.560 
+         1586  1420  .     A     109   GLN   HBx   A     113   LEU   HD1%  1.0   2.178 .     1.585 2.771 
+         1587  1421  .     A     118   ALA   H     A     117   LYS   HGx   1.0   4.696 .     1.940 7.452 
+         1588  1422  .     A     100   TRP   HE1   A     63    PRO   HGx   1.0   4.224 .     1.994 6.454 
+         1590  1424  .     A     62    GLY   HAx   A     100   TRP   HZ2   1.0   3.209 .     1.922 4.496 
+         1591  1425  .     A     89    VAL   HG1%  A     63    PRO   HDy   1.0   2.763 .     1.809 3.717 
+         1592  1426  .     A     76    ARG   HB3   A     115   LEU   HD1%  1.0   2.992 .     1.873 4.111 
+         1593  1426  .     A     81    VAL   HG2%  A     76    ARG   HB3   1.0   2.992 .     1.873 4.111 
+         1594  1427  .     A     55    GLN   H     A     54    MET   HGy   1.0   4.444 .     1.975 6.913 
+         1595  1427  .     A     52    ASN   HBx   A     55    GLN   H     1.0   4.444 .     1.975 6.913 
+         1597  1429  .     A     71    GLN   HGy   A     72    LEU   H     1.0   4.098 .     1.998 6.198 
+         1599  1431  .     A     70    HIS   H     A     69    VAL   HG1%  1.0   3.493 .     1.968 5.018 
+         1600  1431  .     A     70    HIS   H     A     69    VAL   HG2%  1.0   3.493 .     1.968 5.018 
+         1601  1432  .     A     59    ASP   H     A     58    ASP   H     1.0   4.592 .     1.957 7.227 
+         1602  1433  .     A     61    GLU   HGx   A     60    THR   HG2%  1.0   2.926 .     1.856 3.996 
+         1603  1434  .     A     88    CYS   H     A     89    VAL   HB    1.0   3.890 .     1.998 5.782 
+         1605  1436  .     A     112   ASN   H     A     113   LEU   HD2%  1.0   4.713 .     1.937 7.489 
+         1606  1436  .     A     112   ASN   H     A     113   LEU   HD1%  1.0   4.713 .     1.937 7.489 
+         1607  1437  .     A     53    LYS   HB2   A     52    ASN   H     1.0   4.313 .     1.988 6.638 
+         1608  1437  .     A     52    ASN   H     A     48    LYS   HG3   1.0   4.313 .     1.988 6.638 
+         1609  1438  .     A     20    SER   H     A     16    THR   HA    1.0   3.096 .     1.897 4.295 
+         1610  1439  .     A     72    LEU   H     A     69    VAL   HG2%  1.0   3.939 .     2.000 5.878 
+         1611  1439  .     A     72    LEU   H     A     69    VAL   HG1%  1.0   3.939 .     2.000 5.878 
+         1612  1439  .     A     72    LEU   H     A     68    LEU   HB3   1.0   3.939 .     2.000 5.878 
+         1613  1440  .     A     89    VAL   HA    A     63    PRO   HGy   1.0   2.885 .     1.845 3.925 
+         1614  1441  .     A     54    MET   HE%   A     11    LEU   HD1%  1.0   1.949 .     1.474 2.424 
+         1615  1442  .     A     72    LEU   H     A     73    ALA   HB%   1.0   4.178 .     1.996 6.360 
+         1616  1443  .     A     73    ALA   H     A     69    VAL   HG1%  1.0   2.664 .     1.777 3.551 
+         1617  1443  .     A     82    ARG   H     A     69    VAL   HG1%  1.0   2.664 .     1.777 3.551 
+         1618  1444  .     A     68    LEU   HB2   A     65    VAL   H     1.0   3.863 .     1.998 5.728 
+         1619  1445  .     A     37    PHE   HD%   A     32    PHE   HD%   1.0   3.085 .     1.896 4.274 
+         1620  1445  .     A     37    PHE   HD%   A     32    PHE   HE%   1.0   3.085 .     1.896 4.274 
+         1621  1446  .     A     70    HIS   H     A     66    ASP   HA    1.0   3.979 .     2.000 5.958 
+         1622  1447  .     A     67    ASN   H     A     56    LEU   HD2%  1.0   3.901 .     1.999 5.803 
+         1623  1448  .     A     88    CYS   H     A     85    VAL   HG1%  1.0   3.824 .     1.996 5.652 
+         1624  1449  .     A     102   PHE   H     A     105   PHE   H     1.0   4.599 .     1.955 7.243 
+         1625  1450  .     A     50    VAL   HG1%  A     54    MET   HGy   1.0   2.437 .     1.695 3.179 
+         1626  1450  .     A     50    VAL   HG1%  A     14    TYR   HB2   1.0   2.437 .     1.695 3.179 
+         1627  1451  .     A     46    TYR   H     A     47    ILE   HB    1.0   4.341 .     1.986 6.696 
+         1629  1453  .     A     21    SER   H     A     22    LEU   HG    1.0   4.089 .     1.999 6.179 
+         1630  1453  .     A     21    SER   H     A     22    LEU   HB2   1.0   4.089 .     1.999 6.179 
+         1632  1454  .     A     96    ASN   H     A     92    ASN   HD21  1.0   4.240 .     1.993 6.487 
+         1633  1455  .     A     62    GLY   H     A     61    GLU   HGy   1.0   4.045 .     2.000 6.090 
+         1634  1456  .     A     56    LEU   HA    A     64    LEU   HB2   1.0   2.515 .     1.725 3.305 
+         1636  1457  .     A     16    THR   HG2%  A     20    SER   HB%   1.0   2.688 .     1.785 3.591 
+         1637  1457  .     A     16    THR   HG2%  A     20    SER   HB3   1.0   2.688 .     1.785 3.591 
+         1638  1458  .     A     46    TYR   H     A     47    ILE   HG1x  1.0   4.425 .     1.977 6.873 
+         1639  1459  .     A     100   TRP   H     A     97    ALA   HB%   1.0   4.544 .     1.963 7.125 
+         1640  1460  .     A     87    LYS   H     A     89    VAL   HB    1.0   4.270 .     1.991 6.549 
+         1641  1460  .     A     87    LYS   H     A     84    GLU   HB%   1.0   4.270 .     1.991 6.549 
+         1642  1460  .     A     87    LYS   H     A     84    GLU   HB3   1.0   4.270 .     1.991 6.549 
+         1643  1461  .     A     61    GLU   HGy   A     60    THR   HG2%  1.0   2.782 .     1.815 3.749 
+         1644  1462  .     A     56    LEU   HD1%  A     54    MET   HB3   1.0   2.696 .     1.787 3.605 
+         1645  1463  .     A     52    ASN   HD22  A     59    ASP   H     1.0   4.724 .     1.935 7.513 
+         1646  1464  .     A     113   LEU   HD1%  A     35    TRP   HE3   1.0   2.542 .     1.734 3.350 
+         1647  1465  .     A     70    HIS   H     A     72    LEU   H     1.0   4.432 .     1.976 6.888 
+         1648  1466  .     A     81    VAL   HG2%  A     78    ALA   HA    1.0   2.480 .     1.711 3.249 
+         1650  1468  .     A     38    PRO   HDx   A     31    LYS   HDx   1.0   3.112 .     1.901 4.323 
+         1651  1469  .     A     118   ALA   H     A     114   SER   HA    1.0   4.146 .     1.997 6.295 
+         1652  1470  .     A     100   TRP   HE1   A     91    LYS   HA    1.0   4.150 .     1.997 6.303 
+         1653  1471  .     A     64    LEU   H     A     63    PRO   HBy   1.0   3.669 .     1.987 5.351 
+         1654  1472  .     A     50    VAL   HG1%  A     52    ASN   H     1.0   4.625 .     1.951 7.299 
+         1655  1473  .     A     58    ASP   H     A     61    GLU   H     1.0   4.801 .     1.919 7.683 
+         1656  1474  .     A     57    PHE   HB3   A     56    LEU   H     1.0   4.440 .     1.975 6.905 
+         1659  1477  .     A     27    ASP   H     A     29    VAL   HG2%  1.0   4.307 .     1.988 6.626 
+         1660  1478  .     A     84    GLU   H     A     85    VAL   HG2%  1.0   4.264 .     1.991 6.537 
+         1661  1479  .     A     95    ASN   HA    A     92    ASN   HD21  1.0   3.896 .     1.999 5.793 
+         1662  1480  .     A     56    LEU   H     A     51    PHE   HA    1.0   4.361 .     1.984 6.738 
+         1663  1481  .     A     93    THR   HG2%  A     91    LYS   H     1.0   4.199 .     1.995 6.403 
+         1664  1482  .     A     33    LYS   H     A     29    VAL   HG1%  1.0   4.341 .     1.985 6.697 
+         1665  1483  .     A     16    THR   HG2%  A     19    VAL   HB    1.0   2.756 .     1.807 3.705 
+         1666  1483  .     A     16    THR   HG2%  A     17    GLU   HGy   1.0   2.756 .     1.807 3.705 
+         1668  1485  .     A     52    ASN   HD21  A     57    PHE   HD%   1.0   4.196 .     1.995 6.397 
+         1670  1487  .     A     111   ASN   H     A     112   ASN   HB2   1.0   4.451 .     1.975 6.927 
+         1671  1487  .     A     111   ASN   H     A     110   LYS   HGy   1.0   4.451 .     1.975 6.927 
+         1673  1489  .     A     88    CYS   H     A     87    LYS   HGx   1.0   4.182 .     1.996 6.368 
+         1674  1489  .     A     88    CYS   H     A     86    LEU   HB3   1.0   4.182 .     1.996 6.368 
+         1675  1490  .     A     76    ARG   HB2   A     115   LEU   HD1%  1.0   2.833 .     1.830 3.836 
+         1676  1490  .     A     76    ARG   HB2   A     81    VAL   HG2%  1.0   2.833 .     1.830 3.836 
+         1677  1491  .     A     14    TYR   H     A     13    ARG   HGy   1.0   4.094 .     1.999 6.189 
+         1678  1492  .     A     107   CYS   H     A     109   GLN   H     1.0   4.467 .     1.973 6.961 
+         1679  1493  .     A     44    MET   HE%   A     39    GLU   HGy   1.0   3.091 .     1.897 4.285 
+         1680  1494  .     A     54    MET   HB2   A     56    LEU   HD1%  1.0   3.322 .     1.943 4.701 
+         1681  1495  .     A     24    ILE   HD1%  A     22    LEU   HB2   1.0   2.122 .     1.559 2.685 
+         1683  1496  .     A     88    CYS   H     A     89    VAL   HG2%  1.0   3.545 .     1.974 5.116 
+         1684  1497  .     A     45    CYS   HBy   A     44    MET   H     1.0   4.748 .     1.930 7.566 
+         1685  1497  .     A     44    MET   H     A     40    ASP   HBx   1.0   4.748 .     1.930 7.566 
+         1687  1499  .     A     47    ILE   H     A     22    LEU   HD1%  1.0   4.434 .     1.977 6.891 
+         1688  1500  .     A     115   LEU   H     A     116   ILE   HA    1.0   4.728 .     1.934 7.522 
+         1689  1501  .     A     117   LYS   HA    A     119   SER   H     1.0   4.450 .     1.975 6.925 
+         1690  1502  .     A     31    LYS   H     A     30    GLU   HGx   1.0   4.238 .     1.993 6.483 
+         1691  1503  .     A     46    TYR   H     A     48    LYS   HB3   1.0   4.578 .     1.958 7.198 
+         1692  1503  .     A     46    TYR   H     A     44    MET   HB2   1.0   4.578 .     1.958 7.198 
+         1693  1504  .     A     113   LEU   H     A     116   ILE   HG1y  1.0   4.283 .     1.990 6.576 
+         1694  1504  .     A     113   LEU   H     A     116   ILE   HD1%  1.0   4.283 .     1.990 6.576 
+         1695  1505  .     A     110   LYS   H     A     106   LYS   HA    1.0   4.536 .     1.964 7.108 
+         1696  1505  .     A     110   LYS   H     A     107   CYS   HB2   1.0   4.536 .     1.964 7.108 
+         1697  1506  .     A     35    TRP   H     A     37    PHE   HE%   1.0   4.987 .     1.879 8.095 
+         1698  1507  .     A     78    ALA   H     A     80    GLU   HB3   1.0   4.089 .     1.999 6.179 
+         1699  1507  .     A     78    ALA   H     A     79    GLU   HB%   1.0   4.089 .     1.999 6.179 
+         1700  1507  .     A     78    ALA   H     A     81    VAL   HB    1.0   4.089 .     1.999 6.179 
+         1701  1508  .     A     44    MET   HGx   A     102   PHE   HB3   1.0   3.200 .     1.920 4.480 
+         1704  1509  .     A     74    HIS   HBx   A     76    ARG   H     1.0   4.840 .     1.912 7.768 
+         1705  1510  .     A     68    LEU   H     A     70    HIS   H     1.0   4.060 .     2.000 6.120 
+         1706  1511  .     A     80    GLU   HA    A     83    THR   H     1.0   3.675 .     1.987 5.363 
+         1707  1512  .     A     26    ALA   H     A     29    VAL   HG2%  1.0   4.299 .     1.989 6.609 
+         1708  1513  .     A     18    CYS   H     A     19    VAL   HG2%  1.0   4.545 .     1.963 7.127 
+         1710  1515  .     A     100   TRP   HE1   A     89    VAL   HG1%  1.0   4.203 .     1.994 6.412 
+         1711  1516  .     A     84    GLU   HA    A     87    LYS   HD3   1.0   2.478 .     1.711 3.245 
+         1712  1516  .     A     84    GLU   HA    A     87    LYS   HD%   1.0   2.478 .     1.711 3.245 
+         1713  1517  .     A     31    LYS   H     A     29    VAL   HG1%  1.0   4.435 .     1.976 6.894 
+         1714  1517  .     A     31    LYS   H     A     29    VAL   HG2%  1.0   4.435 .     1.976 6.894 
+         1715  1518  .     A     24    ILE   HD1%  A     45    CYS   H     1.0   4.537 .     1.964 7.110 
+         1716  1519  .     A     71    GLN   HGy   A     56    LEU   HD2%  1.0   2.724 .     1.797 3.651 
+         1718  1520  .     A     90    ASP   H     A     63    PRO   HDy   1.0   4.819 .     1.916 7.722 
+         1719  1521  .     A     68    LEU   HD2%  A     72    LEU   H     1.0   4.305 .     1.988 6.622 
+         1720  1521  .     A     72    LEU   H     A     56    LEU   HD2%  1.0   4.305 .     1.988 6.622 
+         1721  1522  .     A     68    LEU   HB2   A     66    ASP   H     1.0   4.016 .     2.000 6.032 
+         1722  1523  .     A     16    THR   HG2%  A     17    GLU   HA    1.0   2.680 .     1.782 3.578 
+         1723  1524  .     A     70    HIS   HA    A     72    LEU   H     1.0   4.334 .     1.986 6.682 
+         1724  1524  .     A     73    ALA   HA    A     72    LEU   H     1.0   4.334 .     1.986 6.682 
+         1725  1524  .     A     119   SER   HBx   A     72    LEU   H     1.0   4.334 .     1.986 6.682 
+         1726  1525  .     A     71    GLN   HE21  A     119   SER   HA    1.0   4.881 .     1.902 7.860 
+         1727  1525  .     A     71    GLN   HE21  A     72    LEU   HA    1.0   4.881 .     1.902 7.860 
+         1728  1526  .     A     67    ASN   H     A     69    VAL   H     1.0   4.584 .     1.957 7.211 
+         1729  1527  .     A     79    GLU   H     A     69    VAL   HG1%  1.0   4.598 .     1.956 7.240 
+         1731  1529  .     A     74    HIS   H     A     81    VAL   HG2%  1.0   4.211 .     1.994 6.428 
+         1732  1529  .     A     74    HIS   H     A     72    LEU   HD2%  1.0   4.211 .     1.994 6.428 
+         1733  1530  .     A     49    CYS   H     A     48    LYS   HG%   1.0   4.067 .     1.999 6.135 
+         1734  1530  .     A     49    CYS   H     A     48    LYS   HG3   1.0   4.067 .     1.999 6.135 
+         1735  1531  .     A     56    LEU   H     A     54    MET   HB2   1.0   4.096 .     1.999 6.193 
+         1736  1532  .     A     12    GLN   H     A     13    ARG   HBx   1.0   4.221 .     1.994 6.448 
+         1737  1532  .     A     12    GLN   H     A     13    ARG   HBy   1.0   4.221 .     1.994 6.448 
+         1738  1533  .     A     106   LYS   H     A     103   ARG   HA    1.0   3.886 .     1.998 5.774 
+         1739  1534  .     A     82    ARG   HB3   A     69    VAL   HG2%  1.0   2.758 .     1.807 3.709 
+         1740  1534  .     A     82    ARG   HB3   A     86    LEU   HD1%  1.0   2.758 .     1.807 3.709 
+         1743  1536  .     A     71    GLN   HB3   A     56    LEU   HD1%  1.0   2.621 .     1.762 3.480 
+         1745  1537  .     A     15    ARG   H     A     11    LEU   HD1%  1.0   4.101 .     1.998 6.204 
+         1746  1538  .     A     109   GLN   HE21  A     106   LYS   HGy   1.0   4.735 .     1.933 7.537 
+         1747  1539  .     A     38    PRO   HDx   A     31    LYS   HDy   1.0   3.054 .     1.888 4.220 
+         1748  1540  .     A     100   TRP   HE1   A     90    ASP   HB2   1.0   4.197 .     1.995 6.399 
+         1749  1540  .     A     100   TRP   HE1   A     62    GLY   HAx   1.0   4.197 .     1.995 6.399 
+         1750  1541  .     A     109   GLN   HBy   A     108   PHE   H     1.0   4.383 .     1.982 6.784 
+         1751  1541  .     A     106   LYS   HBy   A     108   PHE   H     1.0   4.383 .     1.982 6.784 
+         1752  1542  .     A     85    VAL   HG1%  A     63    PRO   HBx   1.0   2.748 .     1.804 3.692 
+         1753  1542  .     A     68    LEU   HG    A     85    VAL   HG1%  1.0   2.748 .     1.804 3.692 
+         1754  1543  .     A     44    MET   HE%   A     39    GLU   HGx   1.0   3.040 .     1.885 4.195 
+         1755  1544  .     A     101   ALA   H     A     48    LYS   HA    1.0   4.440 .     1.976 6.904 
+         1756  1544  .     A     102   PHE   HB2   A     101   ALA   H     1.0   4.440 .     1.976 6.904 
+         1757  1545  .     A     86    LEU   HG    A     85    VAL   H     1.0   4.264 .     1.992 6.536 
+         1759  1547  .     A     65    VAL   H     A     64    LEU   HD2%  1.0   3.547 .     1.975 5.119 
+         1760  1548  .     A     82    ARG   H     A     78    ALA   HB%   1.0   4.106 .     1.998 6.214 
+         1761  1549  .     A     58    ASP   H     A     63    PRO   HA    1.0   3.831 .     1.996 5.666 
+         1762  1550  .     A     87    LYS   H     A     86    LEU   HD1%  1.0   3.905 .     1.999 5.811 
+         1763  1550  .     A     87    LYS   H     A     86    LEU   HD2%  1.0   3.905 .     1.999 5.811 
+         1764  1551  .     A     32    PHE   H     A     31    LYS   HGy   1.0   3.991 .     2.000 5.982 
+         1765  1552  .     A     89    VAL   HG1%  A     63    PRO   HGy   1.0   2.233 .     1.610 2.856 
+         1767  1554  .     A     9     GLU   HA    A     8     THR   HG2%  1.0   2.924 .     1.855 3.993 
+         1768  1555  .     A     102   PHE   HB2   A     44    MET   HGx   1.0   3.195 .     1.919 4.471 
+         1769  1556  .     A     34    LYS   H     A     33    LYS   HGy   1.0   3.732 .     1.991 5.473 
+         1770  1556  .     A     34    LYS   H     A     36    GLU   HBx   1.0   3.732 .     1.991 5.473 
+         1771  1557  .     A     87    LYS   HB3   A     84    GLU   HA    1.0   2.682 .     1.783 3.581 
+         1772  1557  .     A     87    LYS   HB%   A     84    GLU   HA    1.0   2.682 .     1.783 3.581 
+         1775  1559  .     A     111   ASN   HD22  A     110   LYS   HE%   1.0   4.661 .     1.946 7.376 
+         1776  1559  .     A     111   ASN   HD22  A     110   LYS   HE3   1.0   4.661 .     1.946 7.376 
+         1777  1560  .     A     73    ALA   H     A     81    VAL   HB    1.0   3.986 .     2.000 5.972 
+         1778  1560  .     A     73    ALA   H     A     71    GLN   HB3   1.0   3.986 .     2.000 5.972 
+         1779  1561  .     A     100   TRP   HE1   A     89    VAL   HA    1.0   4.187 .     1.996 6.378 
+         1781  1562  .     A     107   CYS   H     A     105   PHE   H     1.0   4.451 .     1.975 6.927 
+         1784  1565  .     A     93    THR   H     A     103   ARG   HH1%  1.0   2.482 .     1.712 3.252 
+         1785  1565  .     A     93    THR   H     A     103   ARG   HH2%  1.0   2.482 .     1.712 3.252 
+         1786  1566  .     A     105   PHE   H     A     101   ALA   HA    1.0   4.599 .     1.955 7.243 
+         1787  1567  .     A     101   ALA   H     A     102   PHE   HB3   1.0   4.383 .     1.982 6.784 
+         1789  1569  .     A     48    LYS   H     A     98    CYS   HA    1.0   3.958 .     2.000 5.916 
+         1790  1570  .     A     100   TRP   H     A     92    ASN   HA    1.0   4.668 .     1.944 7.392 
+         1791  1570  .     A     100   TRP   H     A     102   PHE   HB3   1.0   4.668 .     1.944 7.392 
+         1792  1571  .     A     56    LEU   H     A     51    PHE   HB3   1.0   4.195 .     1.996 6.394 
+         1793  1571  .     A     56    LEU   H     A     54    MET   HGy   1.0   4.195 .     1.996 6.394 
+         1794  1572  .     A     82    ARG   H     A     69    VAL   HG2%  1.0   2.632 .     1.766 3.498 
+         1795  1573  .     A     104   GLY   HAy   A     108   PHE   H     1.0   4.483 .     1.971 6.995 
+         1798  1576  .     A     112   ASN   H     A     113   LEU   HA    1.0   4.552 .     1.962 7.142 
+         1799  1577  .     A     23    ASN   H     A     20    SER   HB%   1.0   3.997 .     2.000 5.994 
+         1800  1577  .     A     23    ASN   H     A     21    SER   HB%   1.0   3.997 .     2.000 5.994 
+         1801  1577  .     A     23    ASN   H     A     21    SER   HB3   1.0   3.997 .     2.000 5.994 
+         1802  1577  .     A     23    ASN   H     A     24    ILE   HA    1.0   3.997 .     2.000 5.994 
+         1803  1578  .     A     62    GLY   H     A     100   TRP   HZ2   1.0   4.394 .     1.981 6.807 
+         1804  1579  .     A     85    VAL   H     A     84    GLU   HGx   1.0   4.016 .     2.000 6.032 
+         1805  1579  .     A     85    VAL   H     A     84    GLU   HGy   1.0   4.016 .     2.000 6.032 
+         1807  1581  .     A     52    ASN   H     A     53    LYS   HG%   1.0   4.294 .     1.990 6.598 
+         1808  1581  .     A     52    ASN   H     A     53    LYS   HG3   1.0   4.294 .     1.990 6.598 
+         1809  1582  .     A     106   LYS   H     A     102   PHE   HA    1.0   4.040 .     2.000 6.080 
+         1810  1583  .     A     99    HIS   H     A     97    ALA   HB%   1.0   4.416 .     1.979 6.853 
+         1812  1585  .     A     50    VAL   HG1%  A     54    MET   HGy   1.0   3.229 .     1.926 4.532 
+         1813  1586  .     A     52    ASN   HD21  A     59    ASP   H     1.0   4.593 .     1.956 7.230 
+         1814  1587  .     A     65    VAL   HG2%  A     85    VAL   HG1%  1.0   2.031 .     1.515 2.547 
+         1815  1587  .     A     89    VAL   HG2%  A     85    VAL   HG1%  1.0   2.031 .     1.515 2.547 
+         1816  1588  .     A     8     THR   HG2%  A     12    GLN   HE22  1.0   4.280 .     1.991 6.569 
+         1817  1589  .     A     52    ASN   HD21  A     57    PHE   HB3   1.0   4.691 .     1.941 7.441 
+         1818  1590  .     A     16    THR   H     A     15    ARG   HD%   1.0   4.148 .     1.997 6.299 
+         1819  1590  .     A     16    THR   H     A     15    ARG   HD3   1.0   4.148 .     1.997 6.299 
+         1821  1592  .     A     76    ARG   HD3   A     115   LEU   HD2%  1.0   3.156 .     1.911 4.401 
+         1822  1592  .     A     76    ARG   HD%   A     115   LEU   HD2%  1.0   3.156 .     1.911 4.401 
+         1823  1593  .     A     50    VAL   HB    A     52    ASN   H     1.0   4.349 .     1.985 6.713 
+         1824  1594  .     A     109   GLN   HE21  A     113   LEU   HD2%  1.0   4.488 .     1.970 7.006 
+         1825  1594  .     A     109   GLN   HE21  A     113   LEU   HD1%  1.0   4.488 .     1.970 7.006 
+         1828  1596  .     A     111   ASN   HD21  A     107   CYS   HA    1.0   3.901 .     1.999 5.803 
+         1829  1596  .     A     111   ASN   HD21  A     108   PHE   HA    1.0   3.901 .     1.999 5.803 
+         1830  1597  .     A     77    ASP   H     A     80    GLU   HB3   1.0   4.316 .     1.988 6.644 
+         1831  1597  .     A     77    ASP   H     A     81    VAL   HB    1.0   4.316 .     1.988 6.644 
+         1832  1598  .     A     19    VAL   HG2%  A     24    ILE   H     1.0   4.257 .     1.992 6.522 
+         1833  1599  .     A     115   LEU   H     A     116   ILE   HG1x  1.0   4.246 .     1.993 6.499 
+         1834  1600  .     A     116   ILE   H     A     115   LEU   HD2%  1.0   3.758 .     1.993 5.523 
+         1835  1600  .     A     116   ILE   H     A     115   LEU   HD1%  1.0   3.758 .     1.993 5.523 
+         1836  1601  .     A     82    ARG   H     A     69    VAL   HG1%  1.0   3.316 .     1.941 4.691 
+         1837  1602  .     A     107   CYS   H     A     106   LYS   HGy   1.0   4.281 .     1.991 6.571 
+         1838  1603  .     A     30    GLU   H     A     26    ALA   HB%   1.0   4.218 .     1.994 6.442 
+         1839  1604  .     A     100   TRP   H     A     101   ALA   HB%   1.0   4.660 .     1.946 7.374 
+         1840  1605  .     A     27    ASP   H     A     29    VAL   HB    1.0   4.136 .     1.998 6.274 
+         1841  1605  .     A     27    ASP   H     A     25    PRO   HGy   1.0   4.136 .     1.998 6.274 
+         1842  1605  .     A     27    ASP   H     A     25    PRO   HGx   1.0   4.136 .     1.998 6.274 
+         1843  1606  .     A     57    PHE   H     A     51    PHE   HA    1.0   4.218 .     1.994 6.442 
+         1844  1606  .     A     57    PHE   H     A     63    PRO   HA    1.0   4.218 .     1.994 6.442 
+         1845  1607  .     A     83    THR   H     A     80    GLU   HB%   1.0   3.823 .     1.996 5.650 
+         1846  1607  .     A     83    THR   H     A     81    VAL   HB    1.0   3.823 .     1.996 5.650 
+         1847  1607  .     A     83    THR   H     A     80    GLU   HB3   1.0   3.823 .     1.996 5.650 
+         1848  1607  .     A     83    THR   H     A     85    VAL   HB    1.0   3.823 .     1.996 5.650 
+         1849  1608  .     A     81    VAL   HG2%  A     82    ARG   H     1.0   3.771 .     1.994 5.548 
+         1850  1609  .     A     9     GLU   HA    A     12    GLN   HGx   1.0   3.151 .     1.910 4.392 
+         1852  1611  .     A     82    ARG   HGx   A     86    LEU   HD1%  1.0   2.382 .     1.673 3.091 
+         1855  1613  .     A     109   GLN   HE21  A     37    PHE   HB3   1.0   4.650 .     1.947 7.353 
+         1857  1615  .     A     121   LYS   H     A     122   LYS   H     1.0   4.476 .     1.971 6.981 
+         1858  1616  .     A     32    PHE   H     A     31    LYS   HGx   1.0   4.362 .     1.984 6.740 
+         1859  1617  .     A     99    HIS   H     A     44    MET   HB3   1.0   4.498 .     1.969 7.027 
+         1860  1618  .     A     24    ILE   HD1%  A     45    CYS   HBy   1.0   2.905 .     1.850 3.960 
+         1861  1618  .     A     45    CYS   HBy   A     22    LEU   HD2%  1.0   2.905 .     1.850 3.960 
+         1862  1619  .     A     92    ASN   H     A     91    LYS   HGy   1.0   3.674 .     1.987 5.361 
+         1863  1619  .     A     92    ASN   H     A     91    LYS   HGx   1.0   3.674 .     1.987 5.361 
+         1864  1620  .     A     89    VAL   H     A     86    LEU   HB3   1.0   4.253 .     1.992 6.514 
+         1865  1620  .     A     89    VAL   H     A     63    PRO   HBx   1.0   4.253 .     1.992 6.514 
+         1866  1621  .     A     119   SER   H     A     72    LEU   HD2%  1.0   3.810 .     1.996 5.624 
+         1867  1621  .     A     119   SER   H     A     115   LEU   HD1%  1.0   3.810 .     1.996 5.624 
+         1870  1623  .     A     36    GLU   HBx   A     38    PRO   HDx   1.0   2.816 .     1.825 3.807 
+         1871  1623  .     A     31    LYS   HA    A     36    GLU   HBx   1.0   2.816 .     1.825 3.807 
+         1874  1625  .     A     62    GLY   HAx   A     100   TRP   HH2   1.0   3.433 .     1.960 4.906 
+         1875  1626  .     A     52    ASN   HD21  A     57    PHE   H     1.0   3.969 .     2.000 5.938 
+         1876  1627  .     A     21    SER   H     A     19    VAL   HG1%  1.0   4.482 .     1.971 6.993 
+         1877  1628  .     A     96    ASN   H     A     95    ASN   HBy   1.0   4.303 .     1.989 6.617 
+         1878  1629  .     A     8     THR   HA    A     120   ILE   HD1%  1.0   2.584 .     1.750 3.418 
+         1879  1630  .     A     48    LYS   HB2   A     45    CYS   H     1.0   4.622 .     1.951 7.293 
+         1880  1630  .     A     45    CYS   H     A     44    MET   HE%   1.0   4.622 .     1.951 7.293 
+         1881  1631  .     A     14    TYR   H     A     12    GLN   HBy   1.0   4.287 .     1.990 6.584 
+         1882  1631  .     A     15    ARG   HB3   A     14    TYR   H     1.0   4.287 .     1.990 6.584 
+         1883  1632  .     A     58    ASP   H     A     62    GLY   HAx   1.0   4.543 .     1.963 7.123 
+         1884  1633  .     A     32    PHE   H     A     29    VAL   HG1%  1.0   3.928 .     1.999 5.857 
+         1885  1633  .     A     32    PHE   H     A     29    VAL   HG2%  1.0   3.928 .     1.999 5.857 
+         1886  1634  .     A     69    VAL   H     A     85    VAL   HG1%  1.0   3.648 .     1.985 5.311 
+         1887  1634  .     A     68    LEU   HD2%  A     69    VAL   H     1.0   3.648 .     1.985 5.311 
+         1888  1634  .     A     69    VAL   H     A     68    LEU   HD1%  1.0   3.648 .     1.985 5.311 
+         1889  1635  .     A     112   ASN   H     A     113   LEU   HB3   1.0   4.171 .     1.996 6.346 
+         1890  1635  .     A     112   ASN   H     A     110   LYS   HBx   1.0   4.171 .     1.996 6.346 
+         1891  1636  .     A     66    ASP   HA    A     65    VAL   HG1%  1.0   2.851 .     1.835 3.867 
+         1892  1637  .     A     19    VAL   HG1%  A     20    SER   HB%   1.0   2.935 .     1.858 4.012 
+         1893  1637  .     A     19    VAL   HG1%  A     20    SER   HB3   1.0   2.935 .     1.858 4.012 
+         1894  1638  .     A     100   TRP   HE1   A     103   ARG   HH2%  1.0   4.782 .     1.924 7.640 
+         1895  1638  .     A     100   TRP   HE1   A     103   ARG   HH1%  1.0   4.782 .     1.924 7.640 
+         1896  1639  .     A     89    VAL   H     A     85    VAL   HG1%  1.0   3.923 .     1.999 5.847 
+         1899  1641  .     A     81    VAL   HG2%  A     79    GLU   H     1.0   4.553 .     1.962 7.144 
+         1902  1644  .     A     45    CYS   H     A     47    ILE   HG1x  1.0   4.481 .     1.971 6.991 
+         1903  1644  .     A     45    CYS   H     A     44    MET   HGx   1.0   4.481 .     1.971 6.991 
+         1904  1645  .     A     8     THR   HG2%  A     12    GLN   HGx   1.0   3.009 .     1.877 4.141 
+         1905  1646  .     A     109   GLN   HE22  A     113   LEU   HD2%  1.0   4.638 .     1.949 7.327 
+         1906  1646  .     A     109   GLN   HE22  A     113   LEU   HD1%  1.0   4.638 .     1.949 7.327 
+         1907  1647  .     A     57    PHE   HB3   A     51    PHE   HB2   1.0   3.091 .     1.897 4.285 
+         1908  1648  .     A     109   GLN   HE21  A     106   LYS   HBy   1.0   4.639 .     1.949 7.329 
+         1910  1649  .     A     24    ILE   H     A     19    VAL   HG1%  1.0   3.512 .     1.970 5.054 
+         1913  1651  .     A     112   ASN   HD21  A     111   ASN   HB3   1.0   4.470 .     1.972 6.968 
+         1914  1652  .     A     54    MET   HA    A     14    TYR   HE%   1.0   3.330 .     1.944 4.716 
+         1915  1652  .     A     11    LEU   HA    A     14    TYR   HE%   1.0   3.330 .     1.944 4.716 
+         1916  1653  .     A     113   LEU   HA    A     115   LEU   H     1.0   2.913 .     1.852 3.974 
+         1917  1653  .     A     12    GLN   HA    A     13    ARG   H     1.0   2.913 .     1.852 3.974 
+         1918  1654  .     A     30    GLU   HGy   A     27    ASP   HA    1.0   2.751 .     1.805 3.697 
+         1919  1655  .     A     65    VAL   H     A     67    ASN   H     1.0   4.522 .     1.966 7.078 
+         1921  1657  .     A     19    VAL   H     A     20    SER   HB%   1.0   4.235 .     1.994 6.476 
+         1922  1657  .     A     19    VAL   H     A     20    SER   HB3   1.0   4.235 .     1.994 6.476 
+         1925  1660  .     A     24    ILE   HD1%  A     23    ASN   H     1.0   3.913 .     1.999 5.827 
+         1926  1660  .     A     23    ASN   H     A     22    LEU   HD2%  1.0   3.913 .     1.999 5.827 
+         1927  1661  .     A     112   ASN   HD21  A     111   ASN   H     1.0   4.630 .     1.951 7.309 
+         1928  1662  .     A     58    ASP   H     A     61    GLU   HBy   1.0   4.253 .     1.992 6.514 
+         1929  1663  .     A     45    CYS   HBx   A     22    LEU   HD1%  1.0   2.557 .     1.739 3.375 
+         1930  1663  .     A     46    TYR   HB2   A     22    LEU   HD1%  1.0   2.557 .     1.739 3.375 
+         1931  1664  .     A     36    GLU   HBy   A     38    PRO   HDx   1.0   2.806 .     1.822 3.790 
+         1932  1664  .     A     31    LYS   HA    A     36    GLU   HBy   1.0   2.806 .     1.822 3.790 
+         1933  1665  .     A     60    THR   HG2%  A     61    GLU   HA    1.0   2.798 .     1.819 3.777 
+         1934  1666  .     A     112   ASN   H     A     113   LEU   HB2   1.0   4.794 .     1.921 7.667 
+         1935  1667  .     A     60    THR   H     A     61    GLU   HGy   1.0   4.249 .     1.992 6.506 
+         1938  1669  .     A     12    GLN   H     A     11    LEU   HG    1.0   4.188 .     1.996 6.380 
+         1939  1670  .     A     101   ALA   H     A     98    CYS   HA    1.0   4.192 .     1.996 6.388 
+         1942  1672  .     A     71    GLN   HB3   A     72    LEU   HD2%  1.0   2.480 .     1.711 3.249 
+         1944  1672  .     A     116   ILE   HG1x  A     72    LEU   HD2%  1.0   2.480 .     1.711 3.249 
+         1945  1673  .     A     31    LYS   H     A     32    PHE   HB2   1.0   4.648 .     1.947 7.349 
+         1946  1674  .     A     53    LYS   HD%   A     14    TYR   HE%   1.0   3.785 .     1.994 5.576 
+         1947  1674  .     A     53    LYS   HD3   A     14    TYR   HE%   1.0   3.785 .     1.994 5.576 
+         1948  1675  .     A     95    ASN   H     A     92    ASN   HD22  1.0   4.211 .     1.995 6.427 
+         1951  1677  .     A     66    ASP   H     A     64    LEU   HB2   1.0   4.318 .     1.987 6.649 
+         1952  1678  .     A     106   LYS   H     A     109   GLN   HGx   1.0   4.423 .     1.977 6.869 
+         1953  1679  .     A     19    VAL   HG2%  A     24    ILE   HG1x  1.0   2.541 .     1.734 3.348 
+         1954  1680  .     A     48    LYS   H     A     49    CYS   HB2   1.0   4.385 .     1.981 6.789 
+         1955  1680  .     A     48    LYS   H     A     46    TYR   HB3   1.0   4.385 .     1.981 6.789 
+         1956  1681  .     A     100   TRP   HE1   A     92    ASN   HB2   1.0   4.682 .     1.942 7.422 
+         1957  1682  .     A     53    LYS   H     A     49    CYS   HA    1.0   4.392 .     1.980 6.804 
+         1959  1684  .     A     11    LEU   HD2%  A     8     THR   HA    1.0   2.313 .     1.644 2.982 
+         1960  1684  .     A     8     THR   HA    A     120   ILE   HD1%  1.0   2.313 .     1.644 2.982 
+         1961  1685  .     A     101   ALA   H     A     97    ALA   HB%   1.0   4.194 .     1.996 6.392 
+         1962  1686  .     A     44    MET   HE%   A     39    GLU   HA    1.0   2.780 .     1.814 3.746 
+    stop_
+save_
+
+save_nef_dihedral_restraint_list_6nbn.mr          
+    _nef_dihedral_restraint_list.sf_category       nef_dihedral_restraint_list                  
+    _nef_dihedral_restraint_list.sf_framecode      nef_dihedral_restraint_list_6nbn.mr          
+    _nef_dihedral_restraint_list.potential_type    undefined                                    
+    _nef_dihedral_restraint_list.restraint_origin  .                                            
+
+    loop_
+        _nef_dihedral_restraint.index                                        
+        _nef_dihedral_restraint.restraint_id                                 
+        _nef_dihedral_restraint.restraint_combination_id                     
+        _nef_dihedral_restraint.chain_code_1                                 
+        _nef_dihedral_restraint.sequence_code_1                              
+        _nef_dihedral_restraint.residue_name_1                               
+        _nef_dihedral_restraint.atom_name_1                                  
+        _nef_dihedral_restraint.chain_code_2                                 
+        _nef_dihedral_restraint.sequence_code_2                              
+        _nef_dihedral_restraint.residue_name_2                               
+        _nef_dihedral_restraint.atom_name_2                                  
+        _nef_dihedral_restraint.chain_code_3                                 
+        _nef_dihedral_restraint.sequence_code_3                              
+        _nef_dihedral_restraint.residue_name_3                               
+        _nef_dihedral_restraint.atom_name_3                                  
+        _nef_dihedral_restraint.chain_code_4                                 
+        _nef_dihedral_restraint.sequence_code_4                              
+        _nef_dihedral_restraint.residue_name_4                               
+        _nef_dihedral_restraint.atom_name_4                                  
+        _nef_dihedral_restraint.weight                                       
+        _nef_dihedral_restraint.target_value                                 
+        _nef_dihedral_restraint.target_value_uncertainty                     
+        _nef_dihedral_restraint.lower_limit                                  
+        _nef_dihedral_restraint.upper_limit                                  
+        _nef_dihedral_restraint.name                                         
+
+  1        1        .        A        2        GLU      C        A        3        PHE      N        A        3        PHE      CA       A        3        PHE      C        1.00     -79.220  0.000    -130.000 -28.440  PHI      
+  2        2        .        A        3        PHE      N        A        3        PHE      CA       A        3        PHE      C        A        4        THR      N        1.00     131.050  0.000    100.000  162.100  PSI      
+  3        3        .        A        3        PHE      C        A        4        THR      N        A        4        THR      CA       A        4        THR      C        1.00     -134.480 0.000    -170.000 -98.960  PHI      
+  4        4        .        A        4        THR      N        A        4        THR      CA       A        4        THR      C        A        5        VAL      N        1.00     148.640  0.000    110.000  -172.720 PSI      
+  5        5        .        A        4        THR      C        A        5        VAL      N        A        5        VAL      CA       A        5        VAL      C        1.00     -110.310 0.000    -150.000 -70.620  PHI      
+  6        6        .        A        5        VAL      N        A        5        VAL      CA       A        5        VAL      C        A        6        SER      N        1.00     127.050  0.000    90.000   164.100  PSI      
+  7        7        .        A        5        VAL      C        A        6        SER      N        A        6        SER      CA       A        6        SER      C        1.00     -74.400  0.000    -160.000 11.200   PHI      
+  8        8        .        A        6        SER      N        A        6        SER      CA       A        6        SER      C        A        7        THR      N        1.00     134.420  0.000    90.000   178.840  PSI      
+  9        9        .        A        6        SER      C        A        7        THR      N        A        7        THR      CA       A        7        THR      C        1.00     -85.000  0.000    -110.000 -60.000  PHI      
+  10       10       .        A        7        THR      N        A        7        THR      CA       A        7        THR      C        A        8        THR      N        1.00     165.000  0.000    140.000  -170.000 PSI      
+  11       11       .        A        7        THR      C        A        8        THR      N        A        8        THR      CA       A        8        THR      C        1.00     -62.810  0.000    -80.000  -45.620  PHI      
+  12       12       .        A        8        THR      N        A        8        THR      CA       A        8        THR      C        A        9        GLU      N        1.00     -36.010  0.000    -60.000  -12.020  PSI      
+  13       13       .        A        8        THR      C        A        9        GLU      N        A        9        GLU      CA       A        9        GLU      C        1.00     -64.950  0.000    -90.000  -39.900  PHI      
+  14       14       .        A        9        GLU      N        A        9        GLU      CA       A        9        GLU      C        A        10       ASP      N        1.00     -44.000  0.000    -70.000  -18.000  PSI      
+  15       15       .        A        9        GLU      C        A        10       ASP      N        A        10       ASP      CA       A        10       ASP      C        1.00     -64.580  0.000    -80.000  -49.160  PHI      
+  16       16       .        A        10       ASP      N        A        10       ASP      CA       A        10       ASP      C        A        11       LEU      N        1.00     -44.850  0.000    -70.000  -19.700  PSI      
+  17       17       .        A        10       ASP      C        A        11       LEU      N        A        11       LEU      CA       A        11       LEU      C        1.00     -63.220  0.000    -90.000  -36.440  PHI      
+  18       18       .        A        11       LEU      N        A        11       LEU      CA       A        11       LEU      C        A        12       GLN      N        1.00     -43.090  0.000    -70.000  -16.180  PSI      
+  19       19       .        A        11       LEU      C        A        12       GLN      N        A        12       GLN      CA       A        12       GLN      C        1.00     -64.290  0.000    -90.000  -38.580  PHI      
+  20       20       .        A        12       GLN      N        A        12       GLN      CA       A        12       GLN      C        A        13       ARG      N        1.00     -44.740  0.000    -70.000  -19.480  PSI      
+  21       21       .        A        12       GLN      C        A        13       ARG      N        A        13       ARG      CA       A        13       ARG      C        1.00     -62.200  0.000    -90.000  -34.400  PHI      
+  22       22       .        A        13       ARG      N        A        13       ARG      CA       A        13       ARG      C        A        14       TYR      N        1.00     -40.400  0.000    -70.000  -10.800  PSI      
+  23       23       .        A        13       ARG      C        A        14       TYR      N        A        14       TYR      CA       A        14       TYR      C        1.00     -64.940  0.000    -90.000  -39.880  PHI      
+  24       24       .        A        14       TYR      N        A        14       TYR      CA       A        14       TYR      C        A        15       ARG      N        1.00     -42.980  0.000    -70.000  -15.960  PSI      
+  25       25       .        A        14       TYR      C        A        15       ARG      N        A        15       ARG      CA       A        15       ARG      C        1.00     -60.540  0.000    -90.000  -31.080  PHI      
+  26       26       .        A        15       ARG      N        A        15       ARG      CA       A        15       ARG      C        A        16       THR      N        1.00     -44.090  0.000    -70.000  -18.180  PSI      
+  27       27       .        A        15       ARG      C        A        16       THR      N        A        16       THR      CA       A        16       THR      C        1.00     -61.830  0.000    -80.000  -43.660  PHI      
+  28       28       .        A        16       THR      N        A        16       THR      CA       A        16       THR      C        A        17       GLU      N        1.00     -41.260  0.000    -70.000  -12.520  PSI      
+  29       29       .        A        16       THR      C        A        17       GLU      N        A        17       GLU      CA       A        17       GLU      C        1.00     -64.430  0.000    -90.000  -38.860  PHI      
+  30       30       .        A        17       GLU      N        A        17       GLU      CA       A        17       GLU      C        A        18       CYS      N        1.00     -36.230  0.000    -70.000  -2.460   PSI      
+  31       31       .        A        17       GLU      C        A        18       CYS      N        A        18       CYS      CA       A        18       CYS      C        1.00     -65.020  0.000    -90.000  -40.040  PHI      
+  32       32       .        A        18       CYS      N        A        18       CYS      CA       A        18       CYS      C        A        19       VAL      N        1.00     -44.790  0.000    -60.000  -29.580  PSI      
+  33       33       .        A        18       CYS      C        A        19       VAL      N        A        19       VAL      CA       A        19       VAL      C        1.00     -61.670  0.000    -80.000  -43.340  PHI      
+  34       34       .        A        19       VAL      N        A        19       VAL      CA       A        19       VAL      C        A        20       SER      N        1.00     -43.960  0.000    -70.000  -17.920  PSI      
+  35       35       .        A        19       VAL      C        A        20       SER      N        A        20       SER      CA       A        20       SER      C        1.00     -64.900  0.000    -90.000  -39.800  PHI      
+  36       36       .        A        20       SER      N        A        20       SER      CA       A        20       SER      C        A        21       SER      N        1.00     -41.510  0.000    -70.000  -13.020  PSI      
+  37       37       .        A        20       SER      C        A        21       SER      N        A        21       SER      CA       A        21       SER      C        1.00     -64.360  0.000    -90.000  -38.720  PHI      
+  38       38       .        A        21       SER      N        A        21       SER      CA       A        21       SER      C        A        22       LEU      N        1.00     -26.430  0.000    -60.000  7.140    PSI      
+  39       39       .        A        21       SER      C        A        22       LEU      N        A        22       LEU      CA       A        22       LEU      C        1.00     -94.880  0.000    -120.000 -69.760  PHI      
+  40       40       .        A        22       LEU      N        A        22       LEU      CA       A        22       LEU      C        A        23       ASN      N        1.00     3.910    0.000    -20.000  27.820   PSI      
+  41       41       .        A        22       LEU      C        A        23       ASN      N        A        23       ASN      CA       A        23       ASN      C        1.00     61.220   0.000    40.000   82.440   PHI      
+  42       42       .        A        23       ASN      N        A        23       ASN      CA       A        23       ASN      C        A        24       ILE      N        1.00     36.660   0.000    -10.000  83.320   PSI      
+  43       43       .        A        23       ASN      C        A        24       ILE      N        A        24       ILE      CA       A        24       ILE      C        1.00     -87.980  0.000    -160.000 -15.960  PHI      
+  44       44       .        A        24       ILE      N        A        24       ILE      CA       A        24       ILE      C        A        25       PRO      N        1.00     129.810  0.000    90.000   169.620  PSI      
+  45       45       .        A        24       ILE      C        A        25       PRO      N        A        25       PRO      CA       A        25       PRO      C        1.00     -58.970  0.000    -90.000  -27.940  PHI      
+  46       46       .        A        25       PRO      N        A        25       PRO      CA       A        25       PRO      C        A        26       ALA      N        1.00     145.010  0.000    120.000  170.020  PSI      
+  47       47       .        A        25       PRO      C        A        26       ALA      N        A        26       ALA      CA       A        26       ALA      C        1.00     -55.780  0.000    -80.000  -31.560  PHI      
+  48       48       .        A        26       ALA      N        A        26       ALA      CA       A        26       ALA      C        A        27       ASP      N        1.00     -47.630  0.000    -70.000  -25.260  PSI      
+  49       49       .        A        26       ALA      C        A        27       ASP      N        A        27       ASP      CA       A        27       ASP      C        1.00     -64.790  0.000    -90.000  -39.580  PHI      
+  50       50       .        A        27       ASP      N        A        27       ASP      CA       A        27       ASP      C        A        28       TYR      N        1.00     -38.530  0.000    -60.000  -17.060  PSI      
+  51       51       .        A        27       ASP      C        A        28       TYR      N        A        28       TYR      CA       A        28       TYR      C        1.00     -64.580  0.000    -90.000  -39.160  PHI      
+  52       52       .        A        28       TYR      N        A        28       TYR      CA       A        28       TYR      C        A        29       VAL      N        1.00     -44.740  0.000    -70.000  -19.480  PSI      
+  53       53       .        A        28       TYR      C        A        29       VAL      N        A        29       VAL      CA       A        29       VAL      C        1.00     -64.800  0.000    -90.000  -39.600  PHI      
+  54       54       .        A        29       VAL      N        A        29       VAL      CA       A        29       VAL      C        A        30       GLU      N        1.00     -44.520  0.000    -70.000  -19.040  PSI      
+  55       55       .        A        29       VAL      C        A        30       GLU      N        A        30       GLU      CA       A        30       GLU      C        1.00     -58.090  0.000    -80.000  -36.180  PHI      
+  56       56       .        A        30       GLU      N        A        30       GLU      CA       A        30       GLU      C        A        31       LYS      N        1.00     -44.380  0.000    -70.000  -18.760  PSI      
+  57       57       .        A        30       GLU      C        A        31       LYS      N        A        31       LYS      CA       A        31       LYS      C        1.00     -65.110  0.000    -90.000  -40.220  PHI      
+  58       58       .        A        31       LYS      N        A        31       LYS      CA       A        31       LYS      C        A        32       PHE      N        1.00     -44.380  0.000    -70.000  -18.760  PSI      
+  59       59       .        A        31       LYS      C        A        32       PHE      N        A        32       PHE      CA       A        32       PHE      C        1.00     -63.310  0.000    -90.000  -36.620  PHI      
+  60       60       .        A        32       PHE      N        A        32       PHE      CA       A        32       PHE      C        A        33       LYS      N        1.00     -40.470  0.000    -70.000  -10.940  PSI      
+  61       61       .        A        32       PHE      C        A        33       LYS      N        A        33       LYS      CA       A        33       LYS      C        1.00     -64.840  0.000    -80.000  -49.680  PHI      
+  62       62       .        A        33       LYS      N        A        33       LYS      CA       A        33       LYS      C        A        34       LYS      N        1.00     -24.930  0.000    -60.000  10.140   PSI      
+  63       63       .        A        33       LYS      C        A        34       LYS      N        A        34       LYS      CA       A        34       LYS      C        1.00     -92.290  0.000    -120.000 -64.580  PHI      
+  64       64       .        A        34       LYS      N        A        34       LYS      CA       A        34       LYS      C        A        35       TRP      N        1.00     1.460    0.000    -30.000  32.920   PSI      
+  65       65       .        A        34       LYS      C        A        35       TRP      N        A        35       TRP      CA       A        35       TRP      C        1.00     55.080   0.000    40.000   70.160   PHI      
+  66       66       .        A        35       TRP      N        A        35       TRP      CA       A        35       TRP      C        A        36       GLU      N        1.00     43.720   0.000    20.000   67.440   PSI      
+  67       67       .        A        35       TRP      C        A        36       GLU      N        A        36       GLU      CA       A        36       GLU      C        1.00     -128.180 0.000    180.000  -76.360  PHI      
+  68       68       .        A        36       GLU      N        A        36       GLU      CA       A        36       GLU      C        A        37       PHE      N        1.00     152.990  0.000    110.000  -164.020 PSI      
+  69       69       .        A        36       GLU      C        A        37       PHE      N        A        37       PHE      CA       A        37       PHE      C        1.00     -132.150 0.000    -150.000 -114.300 PHI      
+  70       70       .        A        37       PHE      N        A        37       PHE      CA       A        37       PHE      C        A        38       PRO      N        1.00     78.270   0.000    50.000   106.540  PSI      
+  71       71       .        A        37       PHE      C        A        38       PRO      N        A        38       PRO      CA       A        38       PRO      C        1.00     -65.020  0.000    -90.000  -40.040  PHI      
+  72       72       .        A        38       PRO      N        A        38       PRO      CA       A        38       PRO      C        A        39       GLU      N        1.00     145.970  0.000    120.000  171.940  PSI      
+  73       73       .        A        39       GLU      C        A        40       ASP      N        A        40       ASP      CA       A        40       ASP      C        1.00     -132.810 0.000    180.000  -85.620  PHI      
+  74       74       .        A        40       ASP      N        A        40       ASP      CA       A        40       ASP      C        A        41       ASP      N        1.00     157.880  0.000    100.000  -144.240 PSI      
+  75       75       .        A        40       ASP      C        A        41       ASP      N        A        41       ASP      CA       A        41       ASP      C        1.00     -55.180  0.000    -80.000  -30.360  PHI      
+  76       76       .        A        41       ASP      N        A        41       ASP      CA       A        41       ASP      C        A        42       THR      N        1.00     -42.190  0.000    -70.000  -14.380  PSI      
+  77       77       .        A        41       ASP      C        A        42       THR      N        A        42       THR      CA       A        42       THR      C        1.00     -63.970  0.000    -90.000  -37.940  PHI      
+  78       78       .        A        42       THR      N        A        42       THR      CA       A        42       THR      C        A        43       THR      N        1.00     -42.830  0.000    -70.000  -15.660  PSI      
+  79       79       .        A        42       THR      C        A        43       THR      N        A        43       THR      CA       A        43       THR      C        1.00     -64.860  0.000    -90.000  -39.720  PHI      
+  80       80       .        A        43       THR      N        A        43       THR      CA       A        43       THR      C        A        44       MET      N        1.00     -44.800  0.000    -70.000  -19.600  PSI      
+  81       81       .        A        43       THR      C        A        44       MET      N        A        44       MET      CA       A        44       MET      C        1.00     -64.390  0.000    -80.000  -48.780  PHI      
+  82       82       .        A        44       MET      N        A        44       MET      CA       A        44       MET      C        A        45       CYS      N        1.00     -44.660  0.000    -70.000  -19.320  PSI      
+  83       83       .        A        44       MET      C        A        45       CYS      N        A        45       CYS      CA       A        45       CYS      C        1.00     -67.510  0.000    -100.000 -35.020  PHI      
+  84       84       .        A        45       CYS      N        A        45       CYS      CA       A        45       CYS      C        A        46       TYR      N        1.00     -40.430  0.000    -70.000  -10.860  PSI      
+  85       85       .        A        45       CYS      C        A        46       TYR      N        A        46       TYR      CA       A        46       TYR      C        1.00     -64.590  0.000    -90.000  -39.180  PHI      
+  86       86       .        A        46       TYR      N        A        46       TYR      CA       A        46       TYR      C        A        47       ILE      N        1.00     -43.430  0.000    -70.000  -16.860  PSI      
+  87       87       .        A        46       TYR      C        A        47       ILE      N        A        47       ILE      CA       A        47       ILE      C        1.00     -65.100  0.000    -90.000  -40.200  PHI      
+  88       88       .        A        47       ILE      N        A        47       ILE      CA       A        47       ILE      C        A        48       LYS      N        1.00     -35.090  0.000    -70.000  -0.180   PSI      
+  89       89       .        A        47       ILE      C        A        48       LYS      N        A        48       LYS      CA       A        48       LYS      C        1.00     -62.200  0.000    -80.000  -44.400  PHI      
+  90       90       .        A        48       LYS      N        A        48       LYS      CA       A        48       LYS      C        A        49       CYS      N        1.00     -42.570  0.000    -70.000  -15.140  PSI      
+  91       91       .        A        48       LYS      C        A        49       CYS      N        A        49       CYS      CA       A        49       CYS      C        1.00     -64.710  0.000    -90.000  -39.420  PHI      
+  92       92       .        A        49       CYS      N        A        49       CYS      CA       A        49       CYS      C        A        50       VAL      N        1.00     -44.390  0.000    -60.000  -28.780  PSI      
+  93       93       .        A        49       CYS      C        A        50       VAL      N        A        50       VAL      CA       A        50       VAL      C        1.00     -64.740  0.000    -90.000  -39.480  PHI      
+  94       94       .        A        50       VAL      N        A        50       VAL      CA       A        50       VAL      C        A        51       PHE      N        1.00     -44.550  0.000    -60.000  -29.100  PSI      
+  95       95       .        A        50       VAL      C        A        51       PHE      N        A        51       PHE      CA       A        51       PHE      C        1.00     -64.810  0.000    -90.000  -39.620  PHI      
+  96       96       .        A        51       PHE      N        A        51       PHE      CA       A        51       PHE      C        A        52       ASN      N        1.00     -35.870  0.000    -60.000  -11.740  PSI      
+  97       97       .        A        51       PHE      C        A        52       ASN      N        A        52       ASN      CA       A        52       ASN      C        1.00     -65.030  0.000    -90.000  -40.060  PHI      
+  98       98       .        A        52       ASN      N        A        52       ASN      CA       A        52       ASN      C        A        53       LYS      N        1.00     -36.890  0.000    -70.000  -3.780   PSI      
+  99       99       .        A        52       ASN      C        A        53       LYS      N        A        53       LYS      CA       A        53       LYS      C        1.00     -64.160  0.000    -90.000  -38.320  PHI      
+  100      100      .        A        53       LYS      N        A        53       LYS      CA       A        53       LYS      C        A        54       MET      N        1.00     -24.980  0.000    -60.000  10.040   PSI      
+  101      101      .        A        53       LYS      C        A        54       MET      N        A        54       MET      CA       A        54       MET      C        1.00     -86.610  0.000    -120.000 -53.220  PHI      
+  102      102      .        A        54       MET      N        A        54       MET      CA       A        54       MET      C        A        55       GLN      N        1.00     -3.900   0.000    -30.000  22.200   PSI      
+  103      103      .        A        54       MET      C        A        55       GLN      N        A        55       GLN      CA       A        55       GLN      C        1.00     55.000   0.000    40.000   70.000   PHI      
+  104      104      .        A        55       GLN      N        A        55       GLN      CA       A        55       GLN      C        A        56       LEU      N        1.00     44.790   0.000    20.000   69.580   PSI      
+  105      105      .        A        55       GLN      C        A        56       LEU      N        A        56       LEU      CA       A        56       LEU      C        1.00     -103.000 0.000    -140.000 -66.000  PHI      
+  106      106      .        A        56       LEU      N        A        56       LEU      CA       A        56       LEU      C        A        57       PHE      N        1.00     -10.000  0.000    -40.000  20.000   PSI      
+  107      107      .        A        56       LEU      C        A        57       PHE      N        A        57       PHE      CA       A        57       PHE      C        1.00     -90.970  0.000    180.000  -1.940   PHI      
+  108      108      .        A        57       PHE      N        A        57       PHE      CA       A        57       PHE      C        A        58       ASP      N        1.00     133.530  0.000    90.000   177.060  PSI      
+  109      109      .        A        57       PHE      C        A        58       ASP      N        A        58       ASP      CA       A        58       ASP      C        1.00     -96.850  0.000    -170.000 -23.700  PHI      
+  110      110      .        A        58       ASP      N        A        58       ASP      CA       A        58       ASP      C        A        59       ASP      N        1.00     134.520  0.000    80.000   -170.960 PSI      
+  111      111      .        A        58       ASP      C        A        59       ASP      N        A        59       ASP      CA       A        59       ASP      C        1.00     -56.610  0.000    -90.000  -23.220  PHI      
+  112      112      .        A        59       ASP      N        A        59       ASP      CA       A        59       ASP      C        A        60       THR      N        1.00     -24.000  0.000    -50.000  2.000    PSI      
+  113      113      .        A        60       THR      C        A        61       GLU      N        A        61       GLU      CA       A        61       GLU      C        1.00     -91.560  0.000    -120.000 -63.120  PHI      
+  114      114      .        A        61       GLU      N        A        61       GLU      CA       A        61       GLU      C        A        62       GLY      N        1.00     -6.770   0.000    -40.000  26.460   PSI      
+  115      115      .        A        62       GLY      C        A        63       PRO      N        A        63       PRO      CA       A        63       PRO      C        1.00     -63.500  0.000    -90.000  -37.000  PHI      
+  116      116      .        A        63       PRO      N        A        63       PRO      CA       A        63       PRO      C        A        64       LEU      N        1.00     148.130  0.000    120.000  176.260  PSI      
+  117      117      .        A        64       LEU      C        A        65       VAL      N        A        65       VAL      CA       A        65       VAL      C        1.00     -55.200  0.000    -80.000  -30.400  PHI      
+  118      118      .        A        65       VAL      N        A        65       VAL      CA       A        65       VAL      C        A        66       ASP      N        1.00     -46.110  0.000    -70.000  -22.220  PSI      
+  119      119      .        A        65       VAL      C        A        66       ASP      N        A        66       ASP      CA       A        66       ASP      C        1.00     -62.610  0.000    -90.000  -35.220  PHI      
+  120      120      .        A        66       ASP      N        A        66       ASP      CA       A        66       ASP      C        A        67       ASN      N        1.00     -42.040  0.000    -70.000  -14.080  PSI      
+  121      121      .        A        66       ASP      C        A        67       ASN      N        A        67       ASN      CA       A        67       ASN      C        1.00     -64.450  0.000    -90.000  -38.900  PHI      
+  122      122      .        A        67       ASN      N        A        67       ASN      CA       A        67       ASN      C        A        68       LEU      N        1.00     -43.270  0.000    -70.000  -16.540  PSI      
+  123      123      .        A        67       ASN      C        A        68       LEU      N        A        68       LEU      CA       A        68       LEU      C        1.00     -64.940  0.000    -90.000  -39.880  PHI      
+  124      124      .        A        68       LEU      N        A        68       LEU      CA       A        68       LEU      C        A        69       VAL      N        1.00     -44.550  0.000    -60.000  -29.100  PSI      
+  125      125      .        A        68       LEU      C        A        69       VAL      N        A        69       VAL      CA       A        69       VAL      C        1.00     -64.640  0.000    -80.000  -49.280  PHI      
+  126      126      .        A        69       VAL      N        A        69       VAL      CA       A        69       VAL      C        A        70       HIS      N        1.00     -44.790  0.000    -70.000  -19.580  PSI      
+  127      127      .        A        69       VAL      C        A        70       HIS      N        A        70       HIS      CA       A        70       HIS      C        1.00     -60.900  0.000    -80.000  -41.800  PHI      
+  128      128      .        A        70       HIS      N        A        70       HIS      CA       A        70       HIS      C        A        71       GLN      N        1.00     -39.180  0.000    -70.000  -8.360   PSI      
+  129      129      .        A        70       HIS      C        A        71       GLN      N        A        71       GLN      CA       A        71       GLN      C        1.00     -65.020  0.000    -90.000  -40.040  PHI      
+  130      130      .        A        71       GLN      N        A        71       GLN      CA       A        71       GLN      C        A        72       LEU      N        1.00     -36.310  0.000    -60.000  -12.620  PSI      
+  131      131      .        A        71       GLN      C        A        72       LEU      N        A        72       LEU      CA       A        72       LEU      C        1.00     -74.170  0.000    -90.000  -58.340  PHI      
+  132      132      .        A        72       LEU      N        A        72       LEU      CA       A        72       LEU      C        A        73       ALA      N        1.00     -34.220  0.000    -60.000  -8.440   PSI      
+  133      133      .        A        72       LEU      C        A        73       ALA      N        A        73       ALA      CA       A        73       ALA      C        1.00     -91.610  0.000    -150.000 -33.220  PHI      
+  134      134      .        A        73       ALA      N        A        73       ALA      CA       A        73       ALA      C        A        74       HIS      N        1.00     -4.140   0.000    -40.000  31.720   PSI      
+  135      135      .        A        74       HIS      C        A        75       GLY      N        A        75       GLY      CA       A        75       GLY      C        1.00     85.000   0.000    70.000   100.000  PHI      
+  136      136      .        A        75       GLY      N        A        75       GLY      CA       A        75       GLY      C        A        76       ARG      N        1.00     1.000    0.000    50.000   -48.000  PSI      
+  137      137      .        A        77       ASP      C        A        78       ALA      N        A        78       ALA      CA       A        78       ALA      C        1.00     -60.890  0.000    -90.000  -31.780  PHI      
+  138      138      .        A        78       ALA      N        A        78       ALA      CA       A        78       ALA      C        A        79       GLU      N        1.00     -36.330  0.000    -70.000  -2.660   PSI      
+  139      139      .        A        78       ALA      C        A        79       GLU      N        A        79       GLU      CA       A        79       GLU      C        1.00     -64.950  0.000    -80.000  -49.900  PHI      
+  140      140      .        A        79       GLU      N        A        79       GLU      CA       A        79       GLU      C        A        80       GLU      N        1.00     -43.670  0.000    -60.000  -27.340  PSI      
+  141      141      .        A        79       GLU      C        A        80       GLU      N        A        80       GLU      CA       A        80       GLU      C        1.00     -65.000  0.000    -90.000  -40.000  PHI      
+  142      142      .        A        80       GLU      N        A        80       GLU      CA       A        80       GLU      C        A        81       VAL      N        1.00     -44.830  0.000    -70.000  -19.660  PSI      
+  143      143      .        A        80       GLU      C        A        81       VAL      N        A        81       VAL      CA       A        81       VAL      C        1.00     -64.880  0.000    -90.000  -39.760  PHI      
+  144      144      .        A        81       VAL      N        A        81       VAL      CA       A        81       VAL      C        A        82       ARG      N        1.00     -42.110  0.000    -70.000  -14.220  PSI      
+  145      145      .        A        81       VAL      C        A        82       ARG      N        A        82       ARG      CA       A        82       ARG      C        1.00     -57.150  0.000    -80.000  -34.300  PHI      
+  146      146      .        A        82       ARG      N        A        82       ARG      CA       A        82       ARG      C        A        83       THR      N        1.00     -44.070  0.000    -70.000  -18.140  PSI      
+  147      147      .        A        82       ARG      C        A        83       THR      N        A        83       THR      CA       A        83       THR      C        1.00     -64.890  0.000    -90.000  -39.780  PHI      
+  148      148      .        A        83       THR      N        A        83       THR      CA       A        83       THR      C        A        84       GLU      N        1.00     -43.740  0.000    -60.000  -27.480  PSI      
+  149      149      .        A        83       THR      C        A        84       GLU      N        A        84       GLU      CA       A        84       GLU      C        1.00     -64.450  0.000    -80.000  -48.900  PHI      
+  150      150      .        A        84       GLU      N        A        84       GLU      CA       A        84       GLU      C        A        85       VAL      N        1.00     -43.970  0.000    -70.000  -17.940  PSI      
+  151      151      .        A        84       GLU      C        A        85       VAL      N        A        85       VAL      CA       A        85       VAL      C        1.00     -65.000  0.000    -90.000  -40.000  PHI      
+  152      152      .        A        85       VAL      N        A        85       VAL      CA       A        85       VAL      C        A        86       LEU      N        1.00     -44.760  0.000    -60.000  -29.520  PSI      
+  153      153      .        A        85       VAL      C        A        86       LEU      N        A        86       LEU      CA       A        86       LEU      C        1.00     -60.380  0.000    -90.000  -30.760  PHI      
+  154      154      .        A        86       LEU      N        A        86       LEU      CA       A        86       LEU      C        A        87       LYS      N        1.00     -40.740  0.000    -70.000  -11.480  PSI      
+  155      155      .        A        86       LEU      C        A        87       LYS      N        A        87       LYS      CA       A        87       LYS      C        1.00     -60.530  0.000    -90.000  -31.060  PHI      
+  156      156      .        A        87       LYS      N        A        87       LYS      CA       A        87       LYS      C        A        88       CYS      N        1.00     -29.860  0.000    -60.000  0.280    PSI      
+  157      157      .        A        87       LYS      C        A        88       CYS      N        A        88       CYS      CA       A        88       CYS      C        1.00     -95.840  0.000    -120.000 -71.680  PHI      
+  158      158      .        A        88       CYS      N        A        88       CYS      CA       A        88       CYS      C        A        89       VAL      N        1.00     4.940    0.000    -30.000  39.880   PSI      
+  159      159      .        A        88       CYS      C        A        89       VAL      N        A        89       VAL      CA       A        89       VAL      C        1.00     -71.890  0.000    -110.000 -33.780  PHI      
+  160      160      .        A        89       VAL      N        A        89       VAL      CA       A        89       VAL      C        A        90       ASP      N        1.00     129.830  0.000    100.000  159.660  PSI      
+  161      161      .        A        89       VAL      C        A        90       ASP      N        A        90       ASP      CA       A        90       ASP      C        1.00     -142.370 0.000    180.000  -104.740 PHI      
+  162      162      .        A        90       ASP      N        A        90       ASP      CA       A        90       ASP      C        A        91       LYS      N        1.00     150.180  0.000    100.000  -159.640 PSI      
+  163      163      .        A        90       ASP      C        A        91       LYS      N        A        91       LYS      CA       A        91       LYS      C        1.00     -74.950  0.000    -100.000 -49.900  PHI      
+  164      164      .        A        91       LYS      N        A        91       LYS      CA       A        91       LYS      C        A        92       ASN      N        1.00     151.590  0.000    110.000  -166.820 PSI      
+  165      165      .        A        92       ASN      C        A        93       THR      N        A        93       THR      CA       A        93       THR      C        1.00     -65.000  0.000    -90.000  -40.000  PHI      
+  166      166      .        A        93       THR      N        A        93       THR      CA       A        93       THR      C        A        94       ASP      N        1.00     -23.730  0.000    -50.000  2.540    PSI      
+  167      167      .        A        93       THR      C        A        94       ASP      N        A        94       ASP      CA       A        94       ASP      C        1.00     -89.690  0.000    -130.000 -49.380  PHI      
+  168      168      .        A        94       ASP      N        A        94       ASP      CA       A        94       ASP      C        A        95       ASN      N        1.00     -2.400   0.000    -30.000  25.200   PSI      
+  169      169      .        A        94       ASP      C        A        95       ASN      N        A        95       ASN      CA       A        95       ASN      C        1.00     55.000   0.000    45.000   65.000   PHI      
+  170      170      .        A        95       ASN      N        A        95       ASN      CA       A        95       ASN      C        A        96       ASN      N        1.00     39.000   0.000    20.000   58.000   PSI      
+  171      171      .        A        96       ASN      C        A        97       ALA      N        A        97       ALA      CA       A        97       ALA      C        1.00     -56.110  0.000    -90.000  -22.220  PHI      
+  172      172      .        A        97       ALA      N        A        97       ALA      CA       A        97       ALA      C        A        98       CYS      N        1.00     -44.360  0.000    -70.000  -18.720  PSI      
+  173      173      .        A        97       ALA      C        A        98       CYS      N        A        98       CYS      CA       A        98       CYS      C        1.00     -59.260  0.000    -80.000  -38.520  PHI      
+  174      174      .        A        98       CYS      N        A        98       CYS      CA       A        98       CYS      C        A        99       HIS      N        1.00     -44.480  0.000    -70.000  -18.960  PSI      
+  175      175      .        A        98       CYS      C        A        99       HIS      N        A        99       HIS      CA       A        99       HIS      C        1.00     -62.780  0.000    -90.000  -35.560  PHI      
+  176      176      .        A        99       HIS      N        A        99       HIS      CA       A        99       HIS      C        A        100      TRP      N        1.00     -39.330  0.000    -70.000  -8.660   PSI      
+  177      177      .        A        99       HIS      C        A        100      TRP      N        A        100      TRP      CA       A        100      TRP      C        1.00     -64.870  0.000    -90.000  -39.740  PHI      
+  178      178      .        A        100      TRP      N        A        100      TRP      CA       A        100      TRP      C        A        101      ALA      N        1.00     -37.850  0.000    -70.000  -5.700   PSI      
+  179      179      .        A        100      TRP      C        A        101      ALA      N        A        101      ALA      CA       A        101      ALA      C        1.00     -64.440  0.000    -90.000  -38.880  PHI      
+  180      180      .        A        101      ALA      N        A        101      ALA      CA       A        101      ALA      C        A        102      PHE      N        1.00     -39.630  0.000    -70.000  -9.260   PSI      
+  181      181      .        A        101      ALA      C        A        102      PHE      N        A        102      PHE      CA       A        102      PHE      C        1.00     -64.690  0.000    -80.000  -49.380  PHI      
+  182      182      .        A        102      PHE      N        A        102      PHE      CA       A        102      PHE      C        A        103      ARG      N        1.00     -44.910  0.000    -70.000  -19.820  PSI      
+  183      183      .        A        102      PHE      C        A        103      ARG      N        A        103      ARG      CA       A        103      ARG      C        1.00     -62.690  0.000    -90.000  -35.380  PHI      
+  184      184      .        A        103      ARG      N        A        103      ARG      CA       A        103      ARG      C        A        104      GLY      N        1.00     -39.400  0.000    -70.000  -8.800   PSI      
+  185      185      .        A        103      ARG      C        A        104      GLY      N        A        104      GLY      CA       A        104      GLY      C        1.00     -64.990  0.000    -90.000  -39.980  PHI      
+  186      186      .        A        104      GLY      N        A        104      GLY      CA       A        104      GLY      C        A        105      PHE      N        1.00     -38.940  0.000    -70.000  -7.880   PSI      
+  187      187      .        A        104      GLY      C        A        105      PHE      N        A        105      PHE      CA       A        105      PHE      C        1.00     -64.770  0.000    -80.000  -49.540  PHI      
+  188      188      .        A        105      PHE      N        A        105      PHE      CA       A        105      PHE      C        A        106      LYS      N        1.00     -44.280  0.000    -70.000  -18.560  PSI      
+  189      189      .        A        105      PHE      C        A        106      LYS      N        A        106      LYS      CA       A        106      LYS      C        1.00     -64.160  0.000    -90.000  -38.320  PHI      
+  190      190      .        A        106      LYS      N        A        106      LYS      CA       A        106      LYS      C        A        107      CYS      N        1.00     -37.830  0.000    -70.000  -5.660   PSI      
+  191      191      .        A        106      LYS      C        A        107      CYS      N        A        107      CYS      CA       A        107      CYS      C        1.00     -65.150  0.000    -90.000  -40.300  PHI      
+  192      192      .        A        107      CYS      N        A        107      CYS      CA       A        107      CYS      C        A        108      PHE      N        1.00     -43.980  0.000    -70.000  -17.960  PSI      
+  193      193      .        A        107      CYS      C        A        108      PHE      N        A        108      PHE      CA       A        108      PHE      C        1.00     -63.990  0.000    -90.000  -37.980  PHI      
+  194      194      .        A        108      PHE      N        A        108      PHE      CA       A        108      PHE      C        A        109      GLN      N        1.00     -41.240  0.000    -70.000  -12.480  PSI      
+  195      195      .        A        108      PHE      C        A        109      GLN      N        A        109      GLN      CA       A        109      GLN      C        1.00     -64.290  0.000    -90.000  -38.580  PHI      
+  196      196      .        A        109      GLN      N        A        109      GLN      CA       A        109      GLN      C        A        110      LYS      N        1.00     -26.080  0.000    -60.000  7.840    PSI      
+  197      197      .        A        109      GLN      C        A        110      LYS      N        A        110      LYS      CA       A        110      LYS      C        1.00     -60.580  0.000    -90.000  -31.160  PHI      
+  198      198      .        A        110      LYS      N        A        110      LYS      CA       A        110      LYS      C        A        111      ASN      N        1.00     -36.700  0.000    -70.000  -3.400   PSI      
+  199      199      .        A        110      LYS      C        A        111      ASN      N        A        111      ASN      CA       A        111      ASN      C        1.00     -80.540  0.000    -130.000 -31.080  PHI      
+  200      200      .        A        111      ASN      N        A        111      ASN      CA       A        111      ASN      C        A        112      ASN      N        1.00     -29.910  0.000    -70.000  10.180   PSI      
+  201      201      .        A        112      ASN      C        A        113      LEU      N        A        113      LEU      CA       A        113      LEU      C        1.00     -56.490  0.000    -90.000  -22.980  PHI      
+  202      202      .        A        113      LEU      N        A        113      LEU      CA       A        113      LEU      C        A        114      SER      N        1.00     -35.520  0.000    -60.000  -11.040  PSI      
+  203      203      .        A        113      LEU      C        A        114      SER      N        A        114      SER      CA       A        114      SER      C        1.00     -63.160  0.000    -90.000  -36.320  PHI      
+  204      204      .        A        114      SER      N        A        114      SER      CA       A        114      SER      C        A        115      LEU      N        1.00     -40.860  0.000    -70.000  -11.720  PSI      
+  205      205      .        A        114      SER      C        A        115      LEU      N        A        115      LEU      CA       A        115      LEU      C        1.00     -64.960  0.000    -90.000  -39.920  PHI      
+  206      206      .        A        115      LEU      N        A        115      LEU      CA       A        115      LEU      C        A        116      ILE      N        1.00     -44.790  0.000    -70.000  -19.580  PSI      
+  207      207      .        A        115      LEU      C        A        116      ILE      N        A        116      ILE      CA       A        116      ILE      C        1.00     -64.700  0.000    -90.000  -39.400  PHI      
+  208      208      .        A        116      ILE      N        A        116      ILE      CA       A        116      ILE      C        A        117      LYS      N        1.00     -44.180  0.000    -70.000  -18.360  PSI      
+  209      209      .        A        116      ILE      C        A        117      LYS      N        A        117      LYS      CA       A        117      LYS      C        1.00     -64.340  0.000    -80.000  -48.680  PHI      
+  210      210      .        A        117      LYS      N        A        117      LYS      CA       A        117      LYS      C        A        118      ALA      N        1.00     -44.900  0.000    -70.000  -19.800  PSI      
+  211      211      .        A        117      LYS      C        A        118      ALA      N        A        118      ALA      CA       A        118      ALA      C        1.00     -62.560  0.000    -90.000  -35.120  PHI      
+  212      212      .        A        118      ALA      N        A        118      ALA      CA       A        118      ALA      C        A        119      SER      N        1.00     -40.630  0.000    -70.000  -11.260  PSI      
+  213      213      .        A        118      ALA      C        A        119      SER      N        A        119      SER      CA       A        119      SER      C        1.00     -61.780  0.000    -90.000  -33.560  PHI      
+  214      214      .        A        119      SER      N        A        119      SER      CA       A        119      SER      C        A        120      ILE      N        1.00     -29.310  0.000    -60.000  1.380    PSI      
+  215      215      .        A        119      SER      C        A        120      ILE      N        A        120      ILE      CA       A        120      ILE      C        1.00     -102.920 0.000    -120.000 -85.840  PHI      
+  216      216      .        A        120      ILE      N        A        120      ILE      CA       A        120      ILE      C        A        121      LYS      N        1.00     3.250    0.000    -30.000  36.500   PSI      
+  217      217      .        A        120      ILE      C        A        121      LYS      N        A        121      LYS      CA       A        121      LYS      C        1.00     -65.590  0.000    -90.000  -41.180  PHI      
+  218      218      .        A        121      LYS      N        A        121      LYS      CA       A        121      LYS      C        A        122      LYS      N        1.00     151.830  0.000    120.000  -176.340 PSI      
+  219      219      .        A        11       LEU      CA       A        11       LEU      CB       A        11       LEU      CG       A        11       LEU      CD2      50.00    180.000  0.000    165.000  -165.000 UNKN     
+  220      220      .        A        56       LEU      CA       A        56       LEU      CB       A        56       LEU      CG       A        56       LEU      CD1      50.00    180.000  0.000    165.000  -165.000 CHI2     
+  221      221      .        A        68       LEU      CA       A        68       LEU      CB       A        68       LEU      CG       A        68       LEU      CD1      50.00    160.000  0.000    145.000  175.000  CHI2     
+  222      222      .        A        72       LEU      CA       A        72       LEU      CB       A        72       LEU      CG       A        72       LEU      CD1      50.00    175.000  0.000    160.000  -170.000 CHI2     
+  223      223      .        A        86       LEU      CA       A        86       LEU      CB       A        86       LEU      CG       A        86       LEU      CD1      50.00    180.000  0.000    165.000  -165.000 CHI2     
+  224      224      .        A        113      LEU      CA       A        113      LEU      CB       A        113      LEU      CG       A        113      LEU      CD2      50.00    180.000  0.000    165.000  -165.000 UNKN     
+    stop_
+save_
+
