@@ -13,3 +13,9 @@ Notes,  09 Nov 2020:
       input structures provided.  This offers a partial deonstration
       that the input restraints are being read correctly.
 
+4. The 6nbn restraint list has a number of entries that don't match
+      the Amber ambiguity model.  I hand-edit the nef file, and the
+      one I actually used is here.  Diffing that with the original
+      will show the changes that were made: removing duplicates, and
+      assuming that ambiguities arise from chemical shift degeneracy.
+      (In Amber, ambiguous restraints are *not* just implemented as OR.)
