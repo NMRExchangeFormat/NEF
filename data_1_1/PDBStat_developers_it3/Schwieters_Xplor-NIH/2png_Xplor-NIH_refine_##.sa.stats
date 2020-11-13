@@ -1,0 +1,547 @@
+
+  Results for the top 20 (of 100) structures
+
+ Average values for potential terms:
+
+type          name           Energy(dev)      RMSD(dev)      viols(dev)     Num
+PotList       TOTAL      3258.28( 62.16)    0.177( 0.011)     10.8(  2.3)  6540
+PotList       torsionDB  3112.33( 60.72)                       1.4(  0.9)   222
+HBPot         hb          -71.85(  7.76)                       7.5(  1.9)
+NOEPot        noe          79.97( 24.51)    0.039( 0.006)      1.6(  1.1)  1732
+RepelPot      repel        23.46(  4.29)                       0.1(  0.4)
+RepelPot      repel14       2.24(  1.11)                       0.0(  0.0)
+XplorPot      ANGL         90.48(  8.77)    0.484( 0.023)      0.1(  0.3)  2531
+XplorPot      BOND          8.51(  1.51)    0.002( 0.000)      0.0(  0.0)  1389
+XplorPot      CDIH          0.00(  0.00)    0.000( 0.000)      0.0(  0.0)
+XplorPot      IMPR         13.13(  2.39)    0.358( 0.033)      0.0(  0.0)   666
+
+breakdown of terms in PotLists:
+
+TDBPotl       A_top8K      56.58(  5.26)                       0.1(  0.3)     7
+TDBPotl       C_top8K       0.00(  0.00)                       0.0(  0.0)
+TDBPotl       D_top8K     142.27(  7.21)                       0.0(  0.0)     8
+TDBPotl       E_top8K     142.66(  6.55)                       0.0(  0.0)     7
+TDBPotl       F_top8K       0.00(  0.00)                       0.0(  0.0)
+TDBPotl       G_top8K      64.43(  4.11)                       0.1(  0.4)     6
+TDBPotl       H_top8K      34.61(  3.12)                       0.0(  0.0)     2
+TDBPotl       I_top8K      93.53(  5.46)                       0.1(  0.3)     5
+TDBPotl       K_top8K     134.76( 12.81)                       0.1(  0.2)     5
+TDBPotl       L_top8K     271.74( 14.35)                       0.6(  0.8)    14
+TDBPotl       M_top8K      42.62(  3.86)                       0.0(  0.0)     2
+TDBPotl       N_top8K      18.93(  3.36)                       0.1(  0.2)     1
+TDBPotl       Q_top8K      93.63(  6.47)                       0.2(  0.4)     4
+TDBPotl       R_top8K     200.05(  8.10)                       0.1(  0.3)     7
+TDBPotl       S_top8K     106.81(  7.55)                       0.0(  0.0)     7
+TDBPotl       T_top8K      29.74(  5.11)                       0.0(  0.0)     2
+TDBPotl       V_top8K      72.98(  5.91)                       0.0(  0.0)     6
+TDBPotl       W_top8K       0.00(  0.00)                       0.0(  0.0)
+TDBPotl       Y_top8K       0.00(  0.00)                       0.0(  0.0)
+TDBPotl       cisP_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_A_top8K     9.70(  2.15)                       0.1(  0.2)     1
+TDBPotl       preP_C_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_D_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_E_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_F_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_H_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_I_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_K_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_L_top8K    18.53(  3.25)                       0.0(  0.0)     1
+TDBPotl       preP_M_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_N_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_Q_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_R_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_S_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_T_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_V_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_W_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       preP_Y_top8K     0.00(  0.00)                       0.0(  0.0)
+TDBPotl       transP_top8K    22.58(  1.99)                       0.0(  0.0)     2
+
+ Cross Validated Terms
+
+ Average values for potential terms:
+
+type          name           Energy(dev)      RMSD(dev)      viols(dev)     Num
+PotList       TOTAL     18238.29(8787.96)    9.830( 2.537)      1.0(  0.0)
+PosDiffPot    refRMSD   18238.29(8787.96)    9.830( 2.537)      1.0(  0.0)
+
+ Statistics for Additional Quantities
+
+
+HBPot             # hbonds    
+hb            43.250( 4.253) 
+
+NOEPot             Corr.      
+noe            0.607( 0.012) 
+
+ Summary of most violated restraints
+
+ unsupported term: hb
+
+violations in NOEPot term noe  ( 20 structures )
+
+  Maximum positive violation amount: 1.223
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  50.0   0.74    17  ( resid 71 and segid "A" and name HA ) ( resid 74 and segid "A" and name H )
+  20.0   0.53  1398  ( resid 44 and segid "A" and name HB ) ( resid 44 and segid "A" and name H )
+  20.0   0.68   875  ( resid 10 and segid "A" and name HG#* ) ( resid 68 and segid "A" and name HB* )
+  15.0   0.72   982  ( resid 29 and segid "A" and name HA ) ( resid 30 and segid "A" and name H )
+  10.0   0.72   496  ( resid 16 and segid "A" and name HD1* ) ( resid 16 and segid "A" and name HA )
+  10.0   0.57  1720  ( resid 74 and segid "A" and name H ) ( resid 75 and segid "A" and name H )
+  10.0   0.80   887  ( resid 47 and segid "A" and name HD1* ) ( resid 12 and segid "A" and name HB* )
+   5.0   0.51  1594  ( resid 68 and segid "A" and name HB* ) ( resid 64 and segid "A" and name H )
+   5.0   0.58   841  ( resid 8 and segid "A" and name HA ) ( resid 9 and segid "A" and name H )
+   5.0   1.22   920  ( resid 57 and segid "A" and name HD# ) ( resid 56 and segid "A" and name HA )
+   5.0   0.84  1158  ( resid 54 and segid "A" and name HA ) ( resid 55 and segid "A" and name H )
+   5.0   0.53   810  ( resid 65 and segid "A" and name HG2* ) ( resid 28 and segid "A" and name HA )
+
+violations in RepelPot term repel  ( 20 structures )
+
+  Maximum positive / negative violation amount: 0.000 / -0.258
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0   0.26     0  (    A   19  ILE   HB ) (    A   20  ARG   HN )
+   5.0   0.22     0  (    A   58  ILE    O ) (    A   62  ARG   HN )
+   5.0   0.22     0  (    A   37  ASP   HN ) (    A   38  SER   HN )
+
+violations in RepelPot term repel14  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_arg_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_asn_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_asp_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_gln_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_glu_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_his_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_ile_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_leu_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_lys_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_met_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_phe_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_trp_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term minus_tyr_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_asn_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_asp_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_his_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_ile_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_leu_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_phe_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_trp_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot1D term prepro_tyr_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term ala_phi_psi  ( 20 structures )
+
+  Maximum positive violation amount: 16.104
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0  16.10     5  A:ALA76
+   5.0  16.09     6  A:ALA83
+
+violations in TorsionInterpolPot2D term asn_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term asp_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term gly_phi_psi  ( 20 structures )
+
+  Maximum positive violation amount: 15.365
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  15.0  15.25     2  A:GLY24
+
+violations in TorsionInterpolPot2D term his_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term ile_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term leu_chi1_chi2  ( 20 structures )
+
+  Maximum positive violation amount: 16.543
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0  16.45     6  A:LEU36
+   5.0  16.54     0  A:LEU9
+   5.0  16.54    13  A:LEU82
+
+violations in TorsionInterpolPot2D term minus_arg_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term minus_lys_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term phe_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term prepro_gln_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term prepro_glu_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term prepro_met_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term prepro_phi_psi  ( 20 structures )
+
+  Maximum positive violation amount: 17.903
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0  17.90     0  A:ALA84
+
+violations in TorsionInterpolPot2D term trp_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot2D term tyr_chi1_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term arg_chi1_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term arg_chi2_chi3_chi4  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term arg_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 23.226
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  10.0  22.71     0  A:ARG7
+
+violations in TorsionInterpolPot3D term asn_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 23.066
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0  23.07     0  A:ASN26
+
+violations in TorsionInterpolPot3D term asp_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term cispro_phi_psi_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term cys_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term gln_chi1_chi2_chi3  ( 20 structures )
+
+  Maximum positive violation amount: 21.721
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0  21.72     2  A:GLN63
+
+violations in TorsionInterpolPot3D term gln_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 22.569
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  20.0  22.19     0  A:GLN6
+
+violations in TorsionInterpolPot3D term glu_chi1_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term glu_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term his_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term ile_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 22.738
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0  22.74     2  A:ILE25
+   5.0  22.74     1  A:ILE19
+
+violations in TorsionInterpolPot3D term leu_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 22.400
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+  20.0  21.89     6  A:LEU36
+  10.0  22.29     7  A:LEU39
+   5.0  21.79     0  A:LEU9
+   5.0  22.20    11  A:LEU66
+   5.0  22.08     4  A:LEU31
+
+violations in TorsionInterpolPot3D term lys_chi1_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term lys_chi2_chi3_chi4  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term lys_phi_psi_chi1  ( 20 structures )
+
+  Maximum positive violation amount: 21.851
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0  21.85     3  A:LYS86
+
+violations in TorsionInterpolPot3D term met_chi1_chi2_chi3  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term met_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term phe_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term prepro_arg_chi2_chi3_chi4  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term prepro_lys_chi2_chi3_chi4  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term prepro_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term ser_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term thr_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term transpro_phi_psi_chi2  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term trp_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term tyr_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in TorsionInterpolPot3D term val_phi_psi_chi1  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in XplorPot term ANGL  ( 20 structures )
+
+  Maximum positive violation amount: 5.549
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+   5.0   5.02   926  A    36   CA  |A    36   CB  |A    36   CG  
+   5.0   5.55   192  A    9    CA  |A    9    CB  |A    9    CG  
+
+violations in XplorPot term BOND  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in XplorPot term CDIH  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+violations in XplorPot term IMPR  ( 20 structures )
+
+viol%  amount  index    restraint name
+---------------------------------------------------------------------------
+
+ Cross Validated Terms
+
+
+ Summary of most violated restraints
+
+ unsupported term: refRMSD
+
+ Energy terms used for sorting:
+  noe CDIH hb torsionDB repel repel14 BOND ANGL IMPR
+
+                                     sort        fit      comparison
+Filename:                           energy       RMSD       RMSD
+refine_57.sa                       3067.16      1.957     11.333
+refine_9.sa                        3196.92      1.842      9.432
+refine_75.sa                       3198.55      2.037      6.593
+refine_14.sa                       3211.62      2.009      6.180
+refine_71.sa                       3212.02      2.314      8.895
+refine_12.sa                       3227.04      2.270      9.991
+refine_78.sa                       3228.24      2.316      9.224
+refine_51.sa                       3263.25      1.697      7.446
+refine_85.sa                       3263.36      1.696      8.385
+refine_49.sa                       3269.51      2.858      9.699
+refine_4.sa                        3274.39      2.495      9.344
+refine_60.sa                       3274.50      1.815      9.254
+refine_82.sa                       3293.53      2.675      8.549
+refine_69.sa                       3295.17      2.389      7.637
+refine_86.sa                       3301.97      2.026      7.894
+refine_2.sa                        3304.89      1.768      7.163
+refine_79.sa                       3309.42      2.242     10.014
+refine_41.sa                       3315.08      1.836      7.855
+refine_26.sa                       3328.52      2.048      8.984
+refine_83.sa                       3330.38      1.960      6.921
+
+average:                                        2.112      8.540
+
+  fit selection: (resid 7:20 22:22 25:27 29:34 36:36 39:70) and name CA
+
+  comparison selection: not resname ANI and not name H*
