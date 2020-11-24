@@ -7,8 +7,8 @@ save_nef_nmr_meta_data
    _nef_nmr_meta_data.format_version	 1.1
    _nef_nmr_meta_data.program_name	 ARIA
    _nef_nmr_meta_data.program_version	 2.3.3
-   _nef_nmr_meta_data.creation_date	 2020-11-14T13:59:14.717758
-   _nef_nmr_meta_data.uuid	 ARIA-2020-11-14T13:59:14.717758-430259
+   _nef_nmr_meta_data.creation_date	 2020-11-20T17:53:44.656588
+   _nef_nmr_meta_data.uuid	 ARIA-2020-11-20T17:53:44.656588-374270
    _nef_nmr_meta_data.coordinate_file_name	 .
 
    loop_
