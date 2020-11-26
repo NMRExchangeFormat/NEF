@@ -237,11 +237,11 @@ data_mmcif_nef.dic
 # NEF additions:
                multiline    char
                '[][ \n()_,.;:"&<>/\{}'`~!@#$%?+=*A-Za-z0-9|^-]*'
-;              All printable ascii characters (includind space) plus linebreak
+;              All printable ascii characters (including space) plus linebreak
 ;
                singleline    char
                '[][ ()_,.;:"&<>/\{}'`~!@#$%?+=*A-Za-z0-9|^-]*'
-;              All printable ascii characters (includind space). Equivalent to atcode, but renamed to avoid confusion
+;              All printable ascii characters (including space). Equivalent to atcode, but renamed to avoid confusion
 ;
                word    char
                '[][()_,.;:"&<>/\{}'`~!@#$%?+=*A-Za-z0-9|^-]*'
