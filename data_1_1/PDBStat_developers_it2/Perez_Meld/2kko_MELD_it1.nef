@@ -1,15 +1,15 @@
-data_nef_MELD_/blue/alberto.perezant/arup.mondal/nmr_format_2/meld_simulation/2kko/2kko_MELD_it1.nef
+data_nef_MELD_/orange/alberto.perezant/arup.mondal/NEF/nmr_format_2/fix_data/2kko/2kko_MELD_it1.nef
    
   save_nef_nmr_meta_data
-      _nef_nmr_meta_data.sf_category     nef_nmr_meta_data
-      _nef_nmr_meta_data.sf_framecode    nef_nmr_meta_data
-      _nef_nmr_meta_data.format_name     nmr_exchange_format
-      _nef_nmr_meta_data.format_version  1.1
-      _nef_nmr_meta_data.program_name    MELD-NEF 
-      _nef_nmr_meta_data.program_version 1.0
-      _nef_nmr_meta_data.creation_date   2020-03-31
-      _nef_nmr_meta_data.uuid            MELD-NEF_2020-03-31
-      _nef_nmr_meta_data.coordinate_file_name 
+      _nef_nmr_meta_data.sf_category          nef_nmr_meta_data
+      _nef_nmr_meta_data.sf_framecode         nef_nmr_meta_data
+      _nef_nmr_meta_data.format_name          nmr_exchange_format
+      _nef_nmr_meta_data.format_version       1.1
+      _nef_nmr_meta_data.program_name         MELD-NEF 
+      _nef_nmr_meta_data.program_version      1.0
+      _nef_nmr_meta_data.creation_date        2020-03-31
+      _nef_nmr_meta_data.uuid                 MELD-NEF_2020-03-31
+      _nef_nmr_meta_data.coordinate_file_name . 
       
       loop_
           _nef_program_script.program_name
