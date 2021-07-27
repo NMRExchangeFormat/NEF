@@ -1,6 +1,6 @@
 data_PDBStat_converted_file                       
 
-ave_nef_nmr_meta_data
+save_nef_nmr_meta_data
     _nef_nmr_meta_data.sf_category           nef_nmr_meta_data                            
     _nef_nmr_meta_data.sf_framecode          nef_nmr_meta_data                            
     _nef_nmr_meta_data.format_name           nmr_exchange_format                          
