@@ -5,7 +5,7 @@ NEF (NMR Exchange Format)
 
 [`specification`](./specification) contains the format specifications. Currently this consists of the
 [`Commented_Example_v1_1.nef`](./specification/v1_1/Commented_Example_v1_1.nef) example file, the [`Overview_v1_1.md`](./specification/v1_1/Overview_v1_1.md) explanatory comments,
-and the [`mmcif_nef_v_1_1.dic`](./specification/v1_1/mmcif_nef_v1_1.dic) specifications file.
+and the [`mmcif_nef_v1_1.dic`](./specification/v1_1/mmcif_nef_v1_1.dic) specifications file.
 
 Representative set of NEF files in accordence with current v1.1 specifications can be found [here.](./data_1_1/PDBStats_it3)
 
