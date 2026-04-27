@@ -9,7 +9,7 @@ and the [`mmcif_nef_v_1_1.dic`](./specification/v1_1/mmcif_nef_v1_1.dic) specifi
 
 Representative set of NEF files in accordence with current v1.1 specifications can be found [here.](./data_1_1/PDBStats_it3)
 
-The data_0_2 and data_1_0 directory contains sample and test data of the prevuous versions of the format.
+The data_0_2 and data_1_0 directory contains sample and test data of the previous versions of the format.
 
 For the top-level files,
 [`LICENSE`](LICENSE) contains the license for the NEF files (under GNU LGPL v. 3),
