@@ -3,18 +3,15 @@ NEF (NMR Exchange Format)
 
 ### Project Organisation
 
-`specifications` contains the format specifications. Currently this consists of the
-`Commented_example.nef` example file, the `Overview.md` explanatory comments,
-and the mmcif_nef.dic speciofications file.
+[`specification`](./specification) contains the format specifications. Currently this consists of the
+[`Commented_Example_v1_1.nef`](./specification/v1_1/Commented_Example_v1_1.nef) example file, the [`Overview_v1_1.md`](./specification/v1_1/Overview_v1_1.md) explanatory comments,
+and the [`mmcif_nef_v_1_1.dic`](./specification/v1_1/mmcif_nef_v1_1.dic) specifications file.
 
-The `data_0_2` directory contains sample and test data up to version 0.20.
-The `data_1_0` directory contains sample and test data up to version 1.0
+Representative set of NEF files in accordence with current v1.1 specifications can be found [here.](./data_1_1/PDBStats_it3)
 
-For input/output test we use the naming convention that a program that reads a file
-prepends its name to the file when output. So if e.g. Cyana reads the file
-`ARIA-CCPN_CASD155.nef`, the result would be output to `Cyana-ARIA-CCPN_CASD155.nef`.
+The data_0_2 and data_1_0 directory contains sample and test data of the prevuous versions of the format.
 
 For the top-level files,
-`LICENSE` contains the license for the NEF files (we propose GNU LGPL v. 3),
-`Charter.md` is the (proposed) charter and founding document for the NEF consortium, `
-`Changes.md` is a change log.
+[`LICENSE`](LICENSE) contains the license for the NEF files (under GNU LGPL v. 3),
+[`Charter.md`](Charter.md) is the charter and founding document for the NEF consortium, `
+[`Changes.md`](Changes.md) is a change log.
