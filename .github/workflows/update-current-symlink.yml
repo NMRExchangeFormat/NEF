@@ -1,0 +1,32 @@
+name: Update current symlink
+
+on:
+  push:
+    paths:
+      - 'specification/current_version'
+  workflow_dispatch:
+
+jobs:
+  update-symlink:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update current symlink
+        run: |
+          VERSION=$(cat specification/current_version | tr -d '[:space:]')
+          if [ ! -d "specification/$VERSION" ]; then
+            echo "Error: specification/$VERSION does not exist"
+            exit 1
+          fi
+          cd specification
+          rm -f current
+          ln -s "$VERSION" current
+          cd ..
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add specification/current
+          git diff --staged --quiet || git commit -m "chore: update current symlink to $VERSION"
+          git push
