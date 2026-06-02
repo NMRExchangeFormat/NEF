@@ -1,0 +1,21 @@
+[
+  { "id": "nef", "name": "NEF Standard", "description": "Data Exchange", "url": "https://github.com/NMRExchangeFormat/NEF",
+     "dict_url":  "https://github.com/NMRExchangeFormat/NEF/blob/master/specification/v1_1/mmcif_nef_v1_1.dic"},
+  { "id": "nefpls", "name": "NEF Pipelines", "description": "Format transcoding and NEF manipulation", "url": "https://github.com/varioustoxins/NEF-Pipelines" },
+
+  { "id": "amber", "name": "Amber", "description": "Structure modelling and refinement", "url": "https://ambermd.org" },
+  { "id": "aria", "name": "Aria", "description": "Structure calculation", "url": "https://aria.pasteur.fr" },
+  { "id": "ccpn", "name": "CcpNmr Analysis", "description": "NMR spectra processing and data analysis", "url": "https://ccpn.ac.uk" },
+  { "id": "csrosetta", "name": "CS-Rosetta", "description": "Structure calculation", "url": "https://web.archive.org/web/20240421045134/https://csrosetta.chemistry.ucsc.edu/",
+    "comment": "the original version by the Bax group is still available at https://spin.niddk.nih.gov/bax/software/CSROSETTA/, the archive on the wayback machine at \"https://web.archive.org/web/20240421045134/https://csrosetta.chemistry.ucsc.edu/most probably contains the most complete reference"
+  },
+  { "id": "cyana", "name": "Cyana", "description": "Structure calculation", "url": "http://www.cyana.org" },
+  { "id": "meld", "name": "MELD", "description": "Structure modelling and refinement", "url": "https://meldmd.org" },
+  { "id": "NMRFx", "name": "NMRFx", "description": "Structure calculation", "url": "https://nmrfx.org" },
+  { "id": "pdbstat", "name": "PDBStat", "description": "NMR data validation", "url": "https://github.rpi.edu/RPIBioinformatics/PDBStat_public" },
+  { "id": "unio", "name": "Unio NMR", "description": "Structure calculation", "url": "https://unio-nmr.fr" },
+  { "id": "unres", "name": "Unres", "description": "Structure modelling and refinement", "url": "http://www.unres.pl" },
+  { "id": "pdbx", "name": "wwPDB/BMRB", "description": "Database", "url": "https://www.wwpdb.org" },
+  { "id": "XplorNIH", "name": "Xplor-NIH", "description": "Structure calculation and refinement", "url": "https://nmr.cit.nih.gov/xplor-nih/" },
+  { "id": "yasara", "name": "Yasara", "description": "Structure refinement", "url": "http://www.yasara.org" }
+]

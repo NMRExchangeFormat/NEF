@@ -1,0 +1,32 @@
+data_nef_namespaces_registry
+
+save_nns_namespaces
+   _nns_namespaces.sf_category   nns_namespaces
+   _nns_namespaces.sf_framecode  nns_namespaces
+
+   loop_
+      _nns_namespaces_namespace.id
+      _nns_namespaces_namespace.name
+      _nns_namespaces_namespace.description
+      _nns_namespaces_namespace.url
+      _nns_namespaces_namespace.dictionary_url
+
+     nef         'NEF Standard'      'Data Exchange'                              https://github.com/NMRExchangeFormat/NEF                                           https://github.com/NMRExchangeFormat/NEF/blob/master/specification/v1_1/mmcif_nef_v1_1.dic   
+     nefpls      'NEF Pipelines'     'Format transcoding and NEF manipulation'    https://github.com/varioustoxins/NEF-Pipelines                                     .                                                                                            
+     amber       Amber               'Structure modelling and refinement'         https://ambermd.org                                                                .                                                                                            
+     aria        Aria                'Structure calculation'                      https://aria.pasteur.fr                                                            .                                                                                            
+     ccpn        'CcpNmr Analysis'   'NMR spectra processing and data analysis'   https://ccpn.ac.uk                                                                 .                                                                                            
+     csrosetta   CS-Rosetta          'Structure calculation'                      https://web.archive.org/web/20240421045134/https://csrosetta.chemistry.ucsc.edu/   .                                                                                            
+     cyana       Cyana               'Structure calculation'                      http://www.cyana.org                                                               .                                                                                            
+     meld        MELD                'Structure modelling and refinement'         https://meldmd.org                                                                 .                                                                                            
+     NMRFx       NMRFx               'Structure calculation'                      https://nmrfx.org                                                                  .                                                                                            
+     pdbstat     PDBStat             'NMR data validation'                        https://github.rpi.edu/RPIBioinformatics/PDBStat_public                            .                                                                                            
+     unio        'Unio NMR'          'Structure calculation'                      https://unio-nmr.fr                                                                .                                                                                            
+     unres       Unres               'Structure modelling and refinement'         http://www.unres.pl                                                                .                                                                                            
+     pdbx        wwPDB/BMRB          Database                                     https://www.wwpdb.org                                                              .                                                                                            
+     XplorNIH    Xplor-NIH           'Structure calculation and refinement'       https://nmr.cit.nih.gov/xplor-nih/                                                 .                                                                                            
+     yasara      Yasara              'Structure refinement'                       http://www.yasara.org                                                              .                                                                                            
+
+   stop_
+
+save_
