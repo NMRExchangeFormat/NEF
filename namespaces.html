@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEF Namespaces Registry</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            padding: 2rem;
+            background: #f9fafb;
+            color: #1f2937;
+            max-width: 1200px;
+            margin: auto;
+            line-height: 1.5;
+        }
+
+        h1 { font-size: 1.75rem; margin-bottom: 0.5rem; color: #111827; }
+
+        .source-notice {
+            margin-bottom: 2rem; padding: 14px; background: #f3f4f6;
+            border-left: 4px solid #374151; color: #374151; font-size: 0.95rem;
+        }
+
+        .raw-data-link { font-weight: 700; color: #2563eb; text-decoration: underline; }
+
+        /* Table Styling - Uniform Font Size */
+        table {
+            width: 100%; border-collapse: collapse; background: white;
+            border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            table-layout: fixed;
+            font-size: 0.95rem; /* Unified base size for the whole table */
+        }
+
+        th, td {
+            padding: 14px 16px; text-align: left;
+            border-bottom: 1px solid #e5e7eb; vertical-align: top;
+            word-wrap: break-word;
+        }
+
+        th {
+            background: #f3f4f6;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: #6b7280;
+            font-weight: 600;
+        }
+
+        /* Standardizing Program Names and Codes */
+        code {
+            background: #e5e7eb;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-family: ui-monospace, monospace;
+            font-size: 0.9rem; /* Matches the table text size */
+            color: #1f2937;
+        }
+
+        strong { font-size: 0.95rem; color: #111827; }
+
+        /* Standardizing Links */
+        .link-container a {
+            display: block;
+            color: #2563eb;
+            text-decoration: none;
+            font-size: 0.9rem; /* Normalized with the table */
+            margin-bottom: 8px;
+            word-break: break-all;
+            line-height: 1.4;
+        }
+        .link-container a:hover { text-decoration: underline; }
+
+        /* Standardizing Comments (No Dotted Line) */
+        .comment-row td {
+            background-color: #fcfcfc;
+            padding: 8px 16px 20px 16px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        .comment-box {
+            font-style: italic;
+            font-size: 0.9rem; /* Consistent with the rest of the table */
+            color: #4b5563;
+            line-height: 1.5;
+        }
+
+        .error-msg { color: #dc2626; padding: 40px; text-align: center; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>NEF Namespace Registry</h1>
+
+    <div class="source-notice">
+        The raw data for this table can be found at:
+        <a id="data-link" href="#" class="raw-data-link" target="_blank"></a>.
+        To register your own namespace raise an issue at <a href="https://github.com/NMRExchangeFormat/NEF/issues" class="raw-data-link" target="_blank">this repository</a> requesting one.
+    </div>
+
+    <table id="registry-table">
+        <thead>
+            <tr>
+                <th style="width: 12%">Namespace</th>
+                <th style="width: 18%">Name</th>
+                <th style="width: 25%">Description</th>
+                <th style="width: 25%">Resources</th>
+                <th style="width: 20%">Dictionary</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <tr><td colspan="5" style="text-align:center; padding: 40px;">Initializing registry...</td></tr>
+        </tbody>
+    </table>
+
+    <script>
+        async function loadRegistry() {
+            const tbody = document.getElementById('table-body');
+
+            try {
+                const version = await fetch('./specification/current_version')
+                    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.text(); })
+                    .then(t => t.trim());
+
+                const jsonPath = `./specification/${version}/namespaces.json`;
+                const dataLink = document.getElementById('data-link');
+                dataLink.href = jsonPath;
+                dataLink.textContent = jsonPath.replace('./', '');
+
+                const response = await fetch(jsonPath);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const data = await response.json();
+
+                tbody.innerHTML = data.map(item => {
+                    // First URL only
+                    const raw = item.url || item.urls || '';
+                    const url = Array.isArray(raw) ? raw[0] : raw;
+                    const urlHtml = url
+                        ? `<a href="${url}" target="_blank" rel="noopener">${url}</a>`
+                        : '—';
+
+                    // Dictionary URL
+                    const dictUrl = item.dict_url || '';
+                    const dictHtml = dictUrl
+                        ? `<a href="${dictUrl}" target="_blank" rel="noopener">${dictUrl}</a>`
+                        : '—';
+
+                    // Comment row spanning all columns
+                    const note = item.comment || item.comments || "";
+                    const commentRow = note ? `
+                        <tr class="comment-row">
+                            <td colspan="5">
+                                <div class="comment-box">${note}</div>
+                            </td>
+                        </tr>` : '';
+
+                    return `
+                        <tr>
+                            <td><code>${item.id || ''}</code></td>
+                            <td><strong>${item.name || ''}</strong></td>
+                            <td>${item.description || ''}</td>
+                            <td class="link-container">${urlHtml}</td>
+                            <td class="link-container">${dictHtml}</td>
+                        </tr>
+                        ${commentRow}
+                    `;
+                }).join('');
+
+            } catch (err) {
+                tbody.innerHTML = `<tr><td colspan="5" class="error-msg">Error: ${err.message}</td></tr>`;
+            }
+        }
+
+        loadRegistry();
+    </script>
+</body>
+</html>
